@@ -946,7 +946,7 @@ def@
 MasterFunctionToTeukolskyFunction[syms_Association,expr_]:=
 Module[{PsiOdd,PsiEven,RTeuk,oddRules,evenRules,oddAsTeuk,evenAsTeuk,r},
 	r=RSymbol[syms];	
-	RTeuk=TeukolskyFunctionSymbol[syms];
+	RTeuk=RadialTeukolskyFunctionSymbol[syms];
 	PsiOdd=MasterFunctionSymbol[syms,Parity->"Odd"];
 	PsiEven=MasterFunctionSymbol[syms,Parity->"Even"];
 	oddAsTeuk=MasterFunctionAsTeukolskyFunction[syms,Parity->"Odd"];
@@ -970,7 +970,7 @@ Module[{r,la,om,RTeuk,M,parity,optionsRules,del},
 
 	la=LambdaSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	RTeuk=TeukolskyFunctionSymbol[syms];
+	RTeuk=RadialTeukolskyFunctionSymbol[syms];
 	r=RSymbol[syms];
 	om=FrequencySymbol[syms];
 	del=KerrToSchwarzschild[syms,DeltaTeukolsky[syms]];
