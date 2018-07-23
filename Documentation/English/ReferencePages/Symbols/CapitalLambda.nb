@@ -1,0 +1,93 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"bd7c26b2-6880-4e02-a90b-aed366ec8d6f"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Coordinates",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Coordinates"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["CapitalLambda",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/CapitalLambda"]
+}], "LinkTrail",ExpressionUUID->"54509e58-4d7b-4da4-b6bd-7c903dcd865e"],
+
+Cell[CellGroupData[{
+
+Cell["CapitalLambda", \
+"ObjectName",ExpressionUUID->"6ef6cdd8-e66b-4609-888b-a16e7803bfef"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["CapitalLambda",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/CapitalLambda"], "[", 
+       StyleBox[
+        RowBox[{"r", ",", "M", ",", "lambda"}], "TI"], "]"}]], 
+      "InlineFormula",ExpressionUUID->"8db8dcfb-bc2b-4c67-b36f-4194e6fb002c"],
+     
+     "\[LineSeparator]returns the Capital Lambda quantity lambda + 3M/r  \
+where M is the black hole mass, r the Schwarzschild radius and lambda is \
+(l+2)(l-1)/2."
+    }],ExpressionUUID->"786af912-d366-4a5f-9725-6dde5eb5e5e0"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["CapitalLambda",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/CapitalLambda"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "30048122-900f-475d-a71c-26ef507d4563"],
+     "\[LineSeparator]returns CapitalLambda[r,M,lambda] using built-in \
+symbols."
+    }],ExpressionUUID->"4756dd70-0f5b-48b7-8714-729dfc8b88ee"]}
+  }]], "Usage",ExpressionUUID->"0605cfdf-4f45-4961-9a60-a8328858ee33"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"5a42acc5-fc87-4c89-b506-ad1ef245e89f"],
+
+Cell[BoxData[""],ExpressionUUID->"4562cbf3-f4fc-46fb-94fd-bdbd5066f10d"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"CapitalLambda",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"CapitalLambda", "CAPITALLAMBDA", "capitallambda"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Coordinates Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`Coordinates", "status" -> "None", 
+    "summary" -> 
+    "CapitalLambda[r,M,lambda] returns the Capital Lambda quantity lambda + \
+3M/r  where M is the black hole mass, r the Schwarzschild radius and lambda \
+is (l+2)(l-1)/2.\nCapitalLambda[] returns CapitalLambda[r,M,lambda] using \
+built-in symbols.", 
+    "synonyms" -> {"CapitalLambda", "CAPITALLAMBDA", "capitallambda"}, 
+    "title" -> "CapitalLambda", "windowTitle" -> "CapitalLambda", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/CapitalLambda", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

@@ -1,0 +1,73 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"e6946e36-be2b-4077-a839-ca691cb9f569"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["PeriapsisSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/PeriapsisSymbol"]
+}], "LinkTrail",ExpressionUUID->"ad82c190-71b8-4683-940b-cd56c6db8322"],
+
+Cell[CellGroupData[{
+
+Cell["PeriapsisSymbol", \
+"ObjectName",ExpressionUUID->"56d31d84-68a7-45d8-ad33-97f5cd7d3cea"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["PeriapsisSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/PeriapsisSymbol"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "1aebf129-a0e4-4a0d-aea7-8ebb88876dd5"],
+     "\[LineSeparator]returns the (formatted) symbol for periapsis (rMin)."
+    }],ExpressionUUID->"8eb7ff62-65c7-4856-b2de-2f18067d6d41"]}
+  }]], "Usage",ExpressionUUID->"487bc848-a223-4223-a274-5c00a91ae3d7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"9467c319-ee96-4c08-a3d7-c57dd5abc8cd"],
+
+Cell[BoxData[""],ExpressionUUID->"7e0e7f75-97c2-4feb-9453-e301e8d01f9c"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"PeriapsisSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"PeriapsisSymbol", "PERIAPSISSYMBOL", "periapsissymbol"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "PeriapsisSymbol[] returns the (formatted) symbol for periapsis (rMin).", 
+    "synonyms" -> {"PeriapsisSymbol", "PERIAPSISSYMBOL", "periapsissymbol"}, 
+    "title" -> "PeriapsisSymbol", "windowTitle" -> "PeriapsisSymbol", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/PeriapsisSymbol", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

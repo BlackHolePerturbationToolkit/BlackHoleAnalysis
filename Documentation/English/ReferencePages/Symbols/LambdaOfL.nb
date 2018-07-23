@@ -1,0 +1,84 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"53f28387-3837-4e8f-b6d5-26636751fd22"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Coordinates",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Coordinates"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["LambdaOfL",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/LambdaOfL"]
+}], "LinkTrail",ExpressionUUID->"462febe8-630d-463e-9b90-96a49685700e"],
+
+Cell[CellGroupData[{
+
+Cell["LambdaOfL", \
+"ObjectName",ExpressionUUID->"9aadae4c-8114-4a56-b974-d3a6e7e71ccb"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["LambdaOfL",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/LambdaOfL"], "[", 
+       StyleBox["l", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "6fc065b0-cb6b-4887-bb31-1d4f529c922e"],
+     "\[LineSeparator]returns (l+2)(l-1)/2"
+    }],ExpressionUUID->"55c15a3f-e8f8-4bcf-bd6c-ec110336f53d"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["LambdaOfL",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/LambdaOfL"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"87bdd72c-56c0-44f2-94c7-539735011ec4"],
+     
+     "\[LineSeparator]returns LambdaOfL[l] using built-in symbols."
+    }],ExpressionUUID->"70c09952-f01f-4d6b-b81c-d4664c6b785e"]}
+  }]], "Usage",ExpressionUUID->"1ddba7db-2634-470a-b6fb-8cc0ed3b5bca"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"6b0c052c-46a7-43b8-8b06-85935fdaac38"],
+
+Cell[BoxData[""],ExpressionUUID->"f8ed991a-5ce1-4299-be9b-f1e9fc570226"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"LambdaOfL",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"LambdaOfL", "LAMBDAOFL", "lambdaofl"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Coordinates Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Coordinates", "status" -> 
+    "None", "summary" -> 
+    "LambdaOfL[l] returns (l+2)(l-1)/2\nLambdaOfL[] returns LambdaOfL[l] \
+using built-in symbols.", 
+    "synonyms" -> {"LambdaOfL", "LAMBDAOFL", "lambdaofl"}, "title" -> 
+    "LambdaOfL", "windowTitle" -> "LambdaOfL", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/LambdaOfL", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

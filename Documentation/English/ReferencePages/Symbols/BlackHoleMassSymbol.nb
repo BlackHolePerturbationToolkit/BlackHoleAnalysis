@@ -1,0 +1,77 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"26ef98c7-9eda-4cea-ac2c-e6c5d5aee635"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleMassSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/BlackHoleMassSymbol"]
+}], "LinkTrail",ExpressionUUID->"08568883-c875-412a-b0a0-964115181704"],
+
+Cell[CellGroupData[{
+
+Cell["BlackHoleMassSymbol", \
+"ObjectName",ExpressionUUID->"91f8043a-44d0-49eb-b61f-c266e5364274"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["BlackHoleMassSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/BlackHoleMassSymbol"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "b1568dbe-bdd5-4425-b22a-6725e13214d1"],
+     "\[LineSeparator]returns the symbol for the mass of the central black \
+hole."
+    }],ExpressionUUID->"9098b434-3e08-4bc8-b3d2-f6f8db26a6a3"]}
+  }]], "Usage",ExpressionUUID->"07d327dd-3a7a-419c-aca7-8bb7663d480e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"a85ae384-7fb4-4c7c-9a2e-a42a741cc93b"],
+
+Cell[BoxData[""],ExpressionUUID->"c1ed19f8-8636-45b8-98d7-b09b628ffac1"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"BlackHoleMassSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "BlackHoleMassSymbol", "BLACKHOLEMASSSYMBOL", "blackholemasssymbol"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "BlackHoleMassSymbol[] returns the symbol for the mass of the central \
+black hole.", 
+    "synonyms" -> {
+     "BlackHoleMassSymbol", "BLACKHOLEMASSSYMBOL", "blackholemasssymbol"}, 
+    "title" -> "BlackHoleMassSymbol", "windowTitle" -> "BlackHoleMassSymbol", 
+    "type" -> "Symbol", "uri" -> "BlackHoleAnalysis/ref/BlackHoleMassSymbol", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

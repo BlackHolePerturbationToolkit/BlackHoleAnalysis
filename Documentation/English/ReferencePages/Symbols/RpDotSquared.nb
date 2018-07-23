@@ -1,0 +1,143 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"30b83426-fd20-4b17-8991-b58c4c3a3256"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Coordinates",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Coordinates"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["RpDotSquared",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/RpDotSquared"]
+}], "LinkTrail",ExpressionUUID->"c74561e0-3485-45d5-993d-b06767da29b8"],
+
+Cell[CellGroupData[{
+
+Cell["RpDotSquared", \
+"ObjectName",ExpressionUUID->"23f030e9-7044-448b-a6c1-ec27c8f295a1"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["RpDotSquared",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/RpDotSquared"], "[", "]"}]],
+       "InlineFormula",ExpressionUUID->"70f48d31-04e0-4c7e-845f-d11a6b1697da"],
+     "\[LineSeparator]returns the square of the first coordinate time \
+derivative of the r position of a particle in geodesic motion about a black \
+hole."
+    }],ExpressionUUID->"581de84f-ff65-42ee-9f8c-eac63bda5aeb"]}
+  }]], "Usage",ExpressionUUID->"8bedb70a-b3a9-4a21-87a4-2575d4ce89d1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"2a637655-f0d4-4303-9fd6-9f11d14dc969"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"f78b4b0d-a9ef-43d8-8ef6-0ef3f6008bbb"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "826b6ae5-e323-468a-b45b-cd5c8f3aa872"], "Metric", "Schwarzschild", 
+    Cell["\<\
+Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
+\>", "TableText",ExpressionUUID->"6240189d-933b-4b53-9d26-9b99abb319cb"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"13812d5a-a18f-446f-816a-cc04dd8bf8fe"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"46a791db-8249-48fe-9624-b9dd02021c15"],
+
+Cell[BoxData[""],ExpressionUUID->"1e58f36d-208d-4e1b-8b5f-88b02583b95e"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"RpDotSquared",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"RpDotSquared", "RPDOTSQUARED", "rpdotsquared"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Coordinates Symbol",
+     "language" -> "en", "paclet" -> "BlackHoleAnalysis`Coordinates", 
+    "status" -> "None", "summary" -> 
+    "RpDotSquared[] returns the square of the first coordinate time \
+derivative of the r position of a particle in geodesic motion about a black \
+hole.", "synonyms" -> {"RpDotSquared", "RPDOTSQUARED", "rpdotsquared"}, 
+    "title" -> "RpDotSquared", "windowTitle" -> "RpDotSquared", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/RpDotSquared", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

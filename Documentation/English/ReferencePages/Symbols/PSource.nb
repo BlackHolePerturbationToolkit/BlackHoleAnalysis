@@ -1,0 +1,156 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"e449d77f-74ab-420b-85f2-518ffa458bc3"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Sources",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Sources"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["PSource",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/PSource"]
+}], "LinkTrail",ExpressionUUID->"63a4e4bf-56a7-46e7-a107-526b98c0d9c4"],
+
+Cell[CellGroupData[{
+
+Cell["PSource", \
+"ObjectName",ExpressionUUID->"8f065e3c-5b66-4d83-9dd6-f81819326c85"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["PSource",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/PSource"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"bd2958c7-ac50-4980-aba5-f44f5065cdcb"],
+     
+     "\[LineSeparator]returns the metric perturbation amplitude source term P \
+in symbolic form."
+    }],ExpressionUUID->"fcdb1abd-84c0-4181-992f-40e609ab2fb9"]}
+  }]], "Usage",ExpressionUUID->"6ff1973e-6a5e-438f-a843-89b704cd8ec6"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"d96454be-77d9-4de8-be9d-5dfd9d8d95b0"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"21b04eaf-4b40-42e6-bdb1-7907ef8557bd"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "d13191b9-6ab8-43eb-a589-6f38d55e5ddb"], "Capital", "True", Cell["\<\
+Sepcifies whether to return the uppercase symbol (which includes the Dirac \
+delta) or the lowercase symbol (which does not)\
+\>", "TableText",ExpressionUUID->"bd914cff-1287-4bbe-bc91-5c480e8e39df"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "87e788c0-dd7e-43cd-b55b-4be6e1574eae"], "Indices", "Down", Cell[
+    "Position of the indices, (\"Up\" or \"Down\")", "TableText",
+     ExpressionUUID->"08effa72-152c-4002-9a3c-8afaf9cca21e"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "17b723c4-cb1d-4d29-8b67-cf447d3e0158"], "ReturnSymbol", "False", 
+    Cell["\<\
+Boolean stating whether to only return the symbol of the source term (with no \
+arguments)\
+\>", "TableText",ExpressionUUID->"5b8b6c5e-43b6-494c-ac12-10454c353a35"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "d396d1c9-d375-406a-b33c-f1a2961d25c6"], "SourceExpansion", "Full", 
+    Cell["\<\
+States to what extent source terms should be expanded, (\"Full\", \
+\"Partial\", or \"None\")\
+\>", "TableText",ExpressionUUID->"dd2f3886-b991-4ac3-998b-987ea8ecf891"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+   "Rows" -> {None, None, None, {None}}, "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, True, True, 
+      True}}}},ExpressionUUID->"658aeda3-f440-4e1f-8c4e-2a0bcdf3e62f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"f127c28a-0647-4d88-86a3-83ed74c23da2"],
+
+Cell[BoxData[""],ExpressionUUID->"6e109328-8a73-4393-b1a8-b107a0e8c965"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"PSource",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"PSource", "PSOURCE", "psource"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Sources Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Sources", "status" -> "None", "summary" -> 
+    "PSource[] returns the metric perturbation amplitude source term P in \
+symbolic form.", "synonyms" -> {"PSource", "PSOURCE", "psource"}, "title" -> 
+    "PSource", "windowTitle" -> "PSource", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/PSource", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

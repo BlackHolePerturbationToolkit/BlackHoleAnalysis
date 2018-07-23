@@ -1,0 +1,147 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"edf70b83-046f-4bb0-b829-3312d1633e04"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Harmonics",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Harmonics"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["XThetaPhi",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/XThetaPhi"]
+}], "LinkTrail",ExpressionUUID->"07905350-791e-490c-a35c-942ced3380de"],
+
+Cell[CellGroupData[{
+
+Cell["XThetaPhi", \
+"ObjectName",ExpressionUUID->"43ac307b-8afa-4441-832f-98ed2d0bb79e"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["XThetaPhi",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/XThetaPhi"], "[", 
+       StyleBox[
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"l", ",", "m"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"theta", ",", "phi"}], "}"}]}], "TI"], "]"}]], 
+      "InlineFormula",ExpressionUUID->"02af8352-cd47-492c-a550-451fe2f2b1af"],
+     
+     "\[LineSeparator]returns the tensor spherical harmonic component \
+X_lm_ThetaPhi[theta,phi]."
+    }],ExpressionUUID->"8a1b03a9-d591-4bc2-b8fa-48023a2094e1"]}
+  }]], "Usage",ExpressionUUID->"0c5260a7-c114-4f8b-b4bd-44032ab67736"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"15ec3c7f-f47e-431f-9d03-7b37b8843c29"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"13091d18-f269-4b8a-8060-be16a57bede3"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "10382356-767f-4da3-bdc2-f37e5f785749"], "Phi", "True", Cell["\<\
+Boolean specifying whether to include the phi factor with the spherical \
+harmonic\
+\>", "TableText",ExpressionUUID->"829efdc9-ff4d-4e77-bac5-f8f403aee936"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"6d587c49-0f80-4149-8efd-9032544432d0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"c49be1c9-8ef3-4cf5-8c56-cdc10dd90d99"],
+
+Cell[BoxData[""],ExpressionUUID->"9f0993b4-6b4a-42d4-9050-f7f7b4e2198a"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"XThetaPhi",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"XThetaPhi", "XTHETAPHI", "xthetaphi"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Harmonics Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Harmonics", "status" -> 
+    "None", "summary" -> 
+    "XThetaPhi[{l,m},{theta,phi}] returns the tensor spherical harmonic \
+component X_lm_ThetaPhi[theta,phi].", 
+    "synonyms" -> {"XThetaPhi", "XTHETAPHI", "xthetaphi"}, "title" -> 
+    "XThetaPhi", "windowTitle" -> "XThetaPhi", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/XThetaPhi", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

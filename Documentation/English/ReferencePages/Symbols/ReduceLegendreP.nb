@@ -1,0 +1,77 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"a8b870d1-f330-420d-bfb1-364cabcb10b1"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`AnalyticTools",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`AnalyticTools"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["ReduceLegendreP",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/ReduceLegendreP"]
+}], "LinkTrail",ExpressionUUID->"a61f0455-916a-4272-b548-2aa0ab7940c9"],
+
+Cell[CellGroupData[{
+
+Cell["ReduceLegendreP", \
+"ObjectName",ExpressionUUID->"a5f12990-533a-40ef-81b2-94d2126f0de9"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["ReduceLegendreP",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/ReduceLegendreP"], "[", 
+       StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "89df46ad-fc85-483a-9946-f4645bb251e5"],
+     "\[LineSeparator]lowers the order of the first argument of LegendreP if \
+possible."
+    }],ExpressionUUID->"de5add2b-714c-4568-b039-84aa0aa9d2f3"]}
+  }]], "Usage",ExpressionUUID->"c29b926c-7473-4049-bf0f-66e43209a70b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"5307b625-ab32-4328-a02f-9264afc51b1d"],
+
+Cell[BoxData[""],ExpressionUUID->"143a9b08-8c4f-41e7-be6b-55fd62e75310"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"ReduceLegendreP",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"ReduceLegendreP", "REDUCELEGENDREP", "reducelegendrep"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`AnalyticTools Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`AnalyticTools", "status" -> "None", 
+    "summary" -> 
+    "ReduceLegendreP[expr] lowers the order of the first argument of \
+LegendreP if possible.", 
+    "synonyms" -> {"ReduceLegendreP", "REDUCELEGENDREP", "reducelegendrep"}, 
+    "title" -> "ReduceLegendreP", "windowTitle" -> "ReduceLegendreP", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/ReduceLegendreP", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

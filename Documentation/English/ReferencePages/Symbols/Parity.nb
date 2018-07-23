@@ -1,0 +1,89 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"13f8e750-70a1-490b-bb1d-05f24ad69524"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`OverloadedSymbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`OverloadedSymbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["Parity",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/Parity"]
+}], "LinkTrail",ExpressionUUID->"7bc8d413-295c-4aa1-b309-2d3ab3fc3edf"],
+
+Cell[CellGroupData[{
+
+Cell["Parity", \
+"ObjectName",ExpressionUUID->"15651a17-730b-41fc-937a-b73f3bd42ef3"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["Parity",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/Parity"], "[", 
+       StyleBox[
+        RowBox[{"l", ",", "m"}], "TI"], "]"}]], "InlineFormula",
+      ExpressionUUID->"af699587-843d-4093-8ff8-380e7913baab"],
+     "\[LineSeparator]returns \"Even\" if l+m is even, and \"Odd\" if l+m is \
+odd."
+    }],ExpressionUUID->"b8334efe-628a-4fba-97e1-5b212ed8f6bf"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["Parity",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/Parity"], "[", 
+       StyleBox["label", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "07e76596-30b4-4b98-a6eb-09f0a0a7a96b"],
+     "\[LineSeparator]returns \"Even\" if label corresponds to an even-parity \
+metric perturbation amplitude, and \"Odd\" if label corresponds to an odd \
+amplitude."
+    }],ExpressionUUID->"d12116bc-2581-41d0-a199-3a2786fad6b7"]}
+  }]], "Usage",ExpressionUUID->"d8c8b0ac-b212-44ea-8ba0-349abed8b472"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"eba48fc5-92b0-4df3-b65c-fb6ada37217a"],
+
+Cell[BoxData[""],ExpressionUUID->"201b11e8-a1fc-47f4-9a80-f06b081774c9"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"Parity",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"Parity", "PARITY", "parity"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`OverloadedSymbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`OverloadedSymbols", 
+    "status" -> "None", "summary" -> 
+    "Parity[l,m] returns \"Even\" if l+m is even, and \"Odd\" if l+m is odd.\n\
+Parity[label] returns \"Even\" if label corresponds to an even-parity metric \
+perturbation amplitude, and \"Odd\" if label corresponds to an odd \
+amplitude.", "synonyms" -> {"Parity", "PARITY", "parity"}, "title" -> 
+    "Parity", "windowTitle" -> "Parity", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/Parity", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

@@ -1,0 +1,152 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"32ded8e2-de19-4dbd-8176-22f5393e8e31"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`OverloadedSymbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`OverloadedSymbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["DPhiDT",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/DPhiDT"]
+}], "LinkTrail",ExpressionUUID->"e4f078c1-4bdc-4d13-afd7-0a36d5fc8bc7"],
+
+Cell[CellGroupData[{
+
+Cell["DPhiDT", \
+"ObjectName",ExpressionUUID->"3ec84ade-f0fc-47b9-a5c6-162f04f8b4e0"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["DPhiDT",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/DPhiDT"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"14e0ce74-d5e1-4fce-8042-1189d2e51f6b"],
+     
+     "\[LineSeparator]returns dphi/dt computed from DTDChi and DPhiDChi."
+    }],ExpressionUUID->"f51aad19-5ee0-4b82-84af-0ae4e1460777"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["DPhiDT",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/DPhiDT"], "[", 
+       StyleBox["n", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "dba3d4b4-9574-4796-b81e-3efb5af0c4ce"],
+     "\[LineSeparator]returns d^{n}phi/dt^{n} computed from DTDChi and \
+DPhiDChi."
+    }],ExpressionUUID->"23bfcf7b-68af-44b3-a1ff-8927cc4c5ff4"]}
+  }]], "Usage",ExpressionUUID->"b8201cac-cdc5-49ba-ae56-32baaa13098b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"8c764476-1190-4f59-bca1-82d2658e9e1f"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"3b6bc8d9-8bd3-41d2-ae73-071a34d9072a"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "8c607c3e-4ecc-4382-9d39-5070ed1532ad"], "Metric", "Schwarzschild", 
+    Cell["\<\
+Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
+\>", "TableText",ExpressionUUID->"f5434613-91a0-458f-89de-2474c8ad437f"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"468300a0-b340-4513-92e7-fdf80bdb0ed1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"5990b973-2bbd-42e4-b039-b85d2ca315aa"],
+
+Cell[BoxData[""],ExpressionUUID->"e88b9caf-6457-43e0-92da-7675d626f94b"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"DPhiDT",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"DPhiDT", "DPHIDT", "dphidt"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`OverloadedSymbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`OverloadedSymbols", 
+    "status" -> "None", "summary" -> 
+    "DPhiDT[] returns dphi/dt computed from DTDChi and DPhiDChi.\nDPhiDT[n] \
+returns d^{n}phi/dt^{n} computed from DTDChi and DPhiDChi.", 
+    "synonyms" -> {"DPhiDT", "DPHIDT", "dphidt"}, "title" -> "DPhiDT", 
+    "windowTitle" -> "DPhiDT", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/DPhiDT", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

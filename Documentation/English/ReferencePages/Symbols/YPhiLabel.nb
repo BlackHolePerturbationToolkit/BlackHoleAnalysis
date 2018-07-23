@@ -1,0 +1,74 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"e289e66d-91aa-4bff-aa4c-6a0e925a3f47"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Labels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Labels"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["YPhiLabel",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/YPhiLabel"]
+}], "LinkTrail",ExpressionUUID->"d5811a58-6204-4822-b68d-2effa5e661ab"],
+
+Cell[CellGroupData[{
+
+Cell["YPhiLabel", \
+"ObjectName",ExpressionUUID->"9f422c76-164a-4a1a-a851-db9b349ad8bb"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["YPhiLabel",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/YPhiLabel"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"fa337976-f2f5-4c7b-aa00-a615d9708a6d"],
+     
+     "\[LineSeparator]returns the string treated as a label for the vector \
+spherical harmonics Y_lm_Phi"
+    }],ExpressionUUID->"95deecbc-fc39-4bfa-9a1d-2a5a59f93db9"]}
+  }]], "Usage",ExpressionUUID->"21d9a4a7-1171-413c-abf6-f5255a376691"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"926e9065-7b48-4084-bb9f-a19cb9053844"],
+
+Cell[BoxData[""],ExpressionUUID->"8121272a-1486-41d8-89f6-9445f37b452c"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"YPhiLabel",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"YPhiLabel", "YPHILABEL", "yphilabel"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Labels Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Labels", "status" -> 
+    "None", "summary" -> 
+    "YPhiLabel[] returns the string treated as a label for the vector \
+spherical harmonics Y_lm_Phi", 
+    "synonyms" -> {"YPhiLabel", "YPHILABEL", "yphilabel"}, "title" -> 
+    "YPhiLabel", "windowTitle" -> "YPhiLabel", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/YPhiLabel", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

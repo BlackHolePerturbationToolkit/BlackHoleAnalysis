@@ -1,0 +1,148 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"86ca4574-556c-406e-87c3-5c000abbabda"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`AnalyticTools",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`AnalyticTools"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["RemoveRpDotSquared",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/RemoveRpDotSquared"]
+}], "LinkTrail",ExpressionUUID->"f7562594-0c0b-40f4-a4e3-b12330fefca6"],
+
+Cell[CellGroupData[{
+
+Cell["RemoveRpDotSquared", \
+"ObjectName",ExpressionUUID->"d1e5faf9-fc77-4a34-a97d-90589385ba59"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["RemoveRpDotSquared",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/RemoveRpDotSquared"], "[", 
+       StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "ce59edd5-b302-4a21-b0a1-a2be62550111"],
+     "\[LineSeparator]will replace the square of the first derivative of r_p \
+with respect to coordinate time t with an expression involving r_p, the black \
+hole mass, and the E and J of the orbit in expr."
+    }],ExpressionUUID->"ca2171fa-37e8-4478-9b60-e8742792de20"]}
+  }]], "Usage",ExpressionUUID->"0c21c385-c4e5-4346-8fc2-8e4191693b56"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"2bed54cb-9abd-4135-8faa-26da9faeda6f"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"af280c0e-ec84-4ac8-be1c-baa2d04a6464"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "64ed21f4-1cc6-4439-af04-0eefa8ca306b"], "Metric", "Schwarzschild", 
+    Cell["\<\
+Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
+\>", "TableText",ExpressionUUID->"7d779de0-fa04-4d0e-9e13-6232d609d54e"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"ba4965ba-aa7b-4497-a16a-c0a1a9a4eaf2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"151ab1f4-8453-4f3b-99f9-f4191eff9b60"],
+
+Cell[BoxData[""],ExpressionUUID->"465a00b4-d58d-40d7-abb0-52bee3b49d3e"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"RemoveRpDotSquared",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "RemoveRpDotSquared", "REMOVERPDOTSQUARED", "removerpdotsquared"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`AnalyticTools Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`AnalyticTools", "status" -> "None", 
+    "summary" -> 
+    "RemoveRpDotSquared[expr] will replace the square of the first derivative \
+of r_p with respect to coordinate time t with an expression involving r_p, \
+the black hole mass, and the E and J of the orbit in expr.", 
+    "synonyms" -> {
+     "RemoveRpDotSquared", "REMOVERPDOTSQUARED", "removerpdotsquared"}, 
+    "title" -> "RemoveRpDotSquared", "windowTitle" -> "RemoveRpDotSquared", 
+    "type" -> "Symbol", "uri" -> "BlackHoleAnalysis/ref/RemoveRpDotSquared", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

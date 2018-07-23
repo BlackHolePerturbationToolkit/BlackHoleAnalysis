@@ -1,0 +1,159 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"9a9a7a27-9067-4537-aec9-b64d40250190"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Coordinates",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Coordinates"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["ROfRStar",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/ROfRStar"]
+}], "LinkTrail",ExpressionUUID->"6ce47a6e-0e43-49e3-b4b2-10820f814d98"],
+
+Cell[CellGroupData[{
+
+Cell["ROfRStar", \
+"ObjectName",ExpressionUUID->"4003ca06-53be-4ad8-8507-9ec4f7e29b47"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["ROfRStar",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/ROfRStar"], "[", 
+       StyleBox[
+        RowBox[{
+         RowBox[{"r_", "*"}], ",", "M"}], "TI"], "]"}]], "InlineFormula",
+      ExpressionUUID->"067e608c-2fb9-4096-b322-6bb13bbb06a6"],
+     "\[LineSeparator]returns Schwarzschild r in terms of the usual tortoise \
+coordinate and black hole mass M, normalized such that r=r_*=4M."
+    }],ExpressionUUID->"2d83261e-9241-4a50-9770-b0cfcc09af4a"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["ROfRStar",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/ROfRStar"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"212e18df-db33-453e-adad-07de29de11aa"],
+     
+     "\[LineSeparator]returns ROfRStar[r_*,M] using built-in symbols."
+    }],ExpressionUUID->"04a59145-d110-42fe-aac0-e2372bbad711"]}
+  }]], "Usage",ExpressionUUID->"5f76ea6d-16e0-4447-bccb-14eaa336cc97"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"21251f2e-3232-45b1-9beb-464881e5fdf5"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"b0e5a6d3-af1a-4b41-8815-c6309ee06689"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "f249433b-ff6c-4b69-9136-ce6cdf485e63"], "IntegrationConstant", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"4", " ", "M"}], ",", " ", 
+      RowBox[{"4", " ", "M"}]}], "}"}], Cell["\<\
+Constant chosen when defining Schwarzschild tortoise coordinate. Either given \
+explicitly, or as a list {r,r_*} specifying where r=r_*.\
+\>", "TableText",ExpressionUUID->"0bd28ce9-82cc-4682-92cc-89940843d198"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"55fc3f2a-a8b0-4f8d-a8bb-fd731ce626bd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"f2660160-2a48-432a-a79b-055b3719bd3e"],
+
+Cell[BoxData[""],ExpressionUUID->"1de0ebe2-d858-444a-ac62-8416022ff0bb"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"ROfRStar",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"ROfRStar", "ROFRSTAR", "rofrstar"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Coordinates Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Coordinates", "status" -> 
+    "None", "summary" -> 
+    "ROfRStar[r_*,M] returns Schwarzschild r in terms of the usual tortoise \
+coordinate and black hole mass M, normalized such that r=r_*=4M.\nROfRStar[] \
+returns ROfRStar[r_*,M] using built-in symbols.", 
+    "synonyms" -> {"ROfRStar", "ROFRSTAR", "rofrstar"}, "title" -> "ROfRStar",
+     "windowTitle" -> "ROfRStar", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/ROfRStar", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

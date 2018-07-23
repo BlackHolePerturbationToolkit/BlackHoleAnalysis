@@ -1,0 +1,168 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"2856dadd-9b75-4f67-a478-082ad2d997f0"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Fields",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Fields"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["XiEvenTAmplitude",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/XiEvenTAmplitude"]
+}], "LinkTrail",ExpressionUUID->"c5455d46-9f15-4f64-aafb-192fecf0620a"],
+
+Cell[CellGroupData[{
+
+Cell["XiEvenTAmplitude", \
+"ObjectName",ExpressionUUID->"247013ca-b454-42e9-a167-4f4ec31352b9"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["XiEvenTAmplitude",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/XiEvenTAmplitude"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "edfa6f78-851d-4ff9-a56c-d0f57d2ee42b"],
+     "\[LineSeparator]returns the gauge vector amplitude xiE_t representing a \
+transformation between two Options-specifiable gauges."
+    }],ExpressionUUID->"74866105-0a5e-4a44-8447-6d6be5f29c3f"]}
+  }]], "Usage",ExpressionUUID->"9810f50a-5226-43ef-8d5a-0c68aecba748"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"add9c736-2114-450f-a774-cb7436121bfd"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"6627ec45-366a-46a2-a43c-9b2c5caf4a27"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "ced75a51-11c5-4368-87e6-0420d03645ad"], "Expand", "False", Cell["\<\
+Boolean stating whether expand the gauge vector. Only RWZ->ModRWZ (or \
+opposite) can be expanded.\
+\>", "TableText",ExpressionUUID->"d5153c85-ba5c-4de3-b301-d136d3c5ed9b"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "0855a04f-3055-42ff-9f9f-0d015df2fa02"], "FinalGauge", "Lorenz", Cell[
+    "Final gauge (\"RWZ\", \"ModRWZ\", \"Lorenz\", or Null)", "TableText",
+     ExpressionUUID->"606e0118-b460-4304-b9b7-9a0aa0741697"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "bfb8bed0-ef81-4907-8240-20b21a24e6f3"], "InitialGauge", "RWZ", Cell[
+    "Initial gauge (\"RWZ\", \"ModRWZ\", \"Lorenz\", or Null)", "TableText",
+     ExpressionUUID->"8aa3f8a5-d17c-410a-a591-89a6e267a534"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "f9b99a55-82e4-4889-af9b-41a4106a6ad7"], "Mode", "Radiative", Cell[
+    "l mode (\"Radiative\", \"Dipole\", or \"Monopole\")", "TableText",
+     ExpressionUUID->"3e798c3f-fb4a-4afe-ba46-3e5cec5eb9df"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "d177ba4f-562b-4cfa-95d4-f83b39f648d8"], "ReturnSymbol", "False", 
+    Cell["\<\
+Boolean stating whether to only return the symbol of the field (with no \
+arguments)\
+\>", "TableText",ExpressionUUID->"e4d87268-a1ab-4b17-ab65-5a11daef1ef5"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "6cb261e8-ae74-405e-8751-4dde4068bc35"], "Weak", "False", Cell["\<\
+Boolean stating whether the metric perturvation amplitude should be given in \
+a weak form\
+\>", "TableText",ExpressionUUID->"7b049141-8011-4a0c-9180-f1ba604a35ec"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+   "Rows" -> {None, None, None, None, None, {None}}, "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, True, True, True, True, 
+      True}}}},ExpressionUUID->"14bb479d-35c1-443b-a365-c7f2d7bbde7a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"4f8fb617-0623-497a-b0a0-91b4dcc36129"],
+
+Cell[BoxData[""],ExpressionUUID->"d565aff5-a2bb-4878-9694-53904ae286b7"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"XiEvenTAmplitude",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "XiEvenTAmplitude", "XIEVENTAMPLITUDE", "xieventamplitude"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Fields Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Fields", "status" -> 
+    "None", "summary" -> 
+    "XiEvenTAmplitude[] returns the gauge vector amplitude xiE_t representing \
+a transformation between two Options-specifiable gauges.", 
+    "synonyms" -> {
+     "XiEvenTAmplitude", "XIEVENTAMPLITUDE", "xieventamplitude"}, "title" -> 
+    "XiEvenTAmplitude", "windowTitle" -> "XiEvenTAmplitude", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/XiEvenTAmplitude", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

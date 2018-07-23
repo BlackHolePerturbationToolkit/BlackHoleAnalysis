@@ -1,0 +1,141 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"a8ebc08e-2a84-4f52-9416-db4183e9979b"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["XThetaSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/XThetaSymbol"]
+}], "LinkTrail",ExpressionUUID->"9bedabb0-0e00-4bf0-a08e-0f193408262b"],
+
+Cell[CellGroupData[{
+
+Cell["XThetaSymbol", \
+"ObjectName",ExpressionUUID->"52bd93de-97af-494a-8d40-c832386ffddd"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["XThetaSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/XThetaSymbol"], "[", "]"}]],
+       "InlineFormula",ExpressionUUID->"8cba856d-8b2f-476c-8a7a-2bc203632fe3"],
+     "\[LineSeparator]returns the (formatted) symbol for vector spherical \
+harmonic X_lm_Theta."
+    }],ExpressionUUID->"c252db52-30f0-4685-99a6-1a0174198240"]}
+  }]], "Usage",ExpressionUUID->"914c7979-a868-4265-adf7-bface00cc576"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"17665b19-681d-49f8-8dfb-c663a2f84563"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"4cddc345-6327-49e5-a5c4-9c0f629ede15"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "f1a904aa-9fae-4f2a-8dbf-538a71e30406"], "Conjugate", "False", Cell["\<\
+Sepcifies whether to return the symbol for the complex conjugate of the \
+harmonic\
+\>", "TableText",ExpressionUUID->"dca90c29-9b6c-4c06-8bd4-1878b3fc0ef5"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"a72e1cfe-51de-450c-bd34-785d701c080e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"3525528b-47dd-4776-8539-6665140a4758"],
+
+Cell[BoxData[""],ExpressionUUID->"775035fe-c5a0-4688-913f-ba20dd03f61e"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"XThetaSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"XThetaSymbol", "XTHETASYMBOL", "xthetasymbol"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> 
+    "None", "summary" -> 
+    "XThetaSymbol[] returns the (formatted) symbol for vector spherical \
+harmonic X_lm_Theta.", 
+    "synonyms" -> {"XThetaSymbol", "XTHETASYMBOL", "xthetasymbol"}, "title" -> 
+    "XThetaSymbol", "windowTitle" -> "XThetaSymbol", "type" -> "Symbol", 
+    "uri" -> "BlackHoleAnalysis/ref/XThetaSymbol", "WorkflowDockedCell" -> 
+    ""}, "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> 
+  False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

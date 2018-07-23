@@ -1,0 +1,146 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"08c12453-0408-408b-99a2-c33f598d0c9d"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["QrrSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/QrrSymbol"]
+}], "LinkTrail",ExpressionUUID->"57488556-2355-4e36-a5a5-bdadb922dc9d"],
+
+Cell[CellGroupData[{
+
+Cell["QrrSymbol", \
+"ObjectName",ExpressionUUID->"62816fac-bb83-420d-a418-cd4c109b6320"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["QrrSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/QrrSymbol"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"0ac21f81-0fee-481c-a465-1ac5a35049b4"],
+     
+     "\[LineSeparator]returns the (formatted) symbol for metric perturbation \
+amplitude source term Qrr."
+    }],ExpressionUUID->"bbf8c9e0-8b75-462c-b19c-457717cfdb56"]}
+  }]], "Usage",ExpressionUUID->"2b3833c6-9ce0-4e69-a736-8ed8a1b4f5a0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"552cbbac-7259-4f8e-8850-05e94ad1f423"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"3a120677-6da3-432d-86b5-8406d6b9b860"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "4f27d142-5291-4901-a951-c34683cdb777"], "Capital", "True", Cell["\<\
+Sepcifies whether to return the uppercase symbol (which includes the Dirac \
+delta) or the lowercase symbol (which does not)\
+\>", "TableText",ExpressionUUID->"95e22359-0536-4706-9785-a827c1f49a61"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "e0365297-d4ee-4d0c-a1a0-d1a15889a881"], "Indices", "Down", Cell[
+    "Position of the indices, (\"Up\" or \"Down\")", "TableText",
+     ExpressionUUID->"0a1f2082-c568-4bcf-8120-47bdf6214585"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {None, {None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, 
+      True}}}},ExpressionUUID->"3638cc77-c3b3-47e6-9ddc-dd69ac468e36"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"ea54cb38-4344-4c08-9ba8-37aacd94226e"],
+
+Cell[BoxData[""],ExpressionUUID->"535aa17c-ba64-4321-9fca-09afe01bb4a4"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"QrrSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"QrrSymbol", "QRRSYMBOL", "qrrsymbol"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> 
+    "None", "summary" -> 
+    "QrrSymbol[] returns the (formatted) symbol for metric perturbation \
+amplitude source term Qrr.", 
+    "synonyms" -> {"QrrSymbol", "QRRSYMBOL", "qrrsymbol"}, "title" -> 
+    "QrrSymbol", "windowTitle" -> "QrrSymbol", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/QrrSymbol", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

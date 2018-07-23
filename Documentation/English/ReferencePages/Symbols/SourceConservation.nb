@@ -1,0 +1,157 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"f4f847e9-9b26-4d8e-a5a6-387cce947bd8"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`SchwEqs",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`SchwEqs"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["SourceConservation",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/SourceConservation"]
+}], "LinkTrail",ExpressionUUID->"94e0023a-1692-4994-9478-9a580923b66e"],
+
+Cell[CellGroupData[{
+
+Cell["SourceConservation", \
+"ObjectName",ExpressionUUID->"f27c93ac-1e12-43a3-811a-9ac3917b697b"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["SourceConservation",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/SourceConservation"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "95cde4d8-c353-4242-956c-39d76b06a757"],
+     "\[LineSeparator]returns the first-order source conservation expressions \
+decomposed in spherical harmonics for a particle orbiting a Schwarzschild \
+black hole."
+    }],ExpressionUUID->"02595a10-1500-4ece-b758-784ac71bdb63"]}
+  }]], "Usage",ExpressionUUID->"0cb4927a-b4e0-40b5-95b1-0390b64a900d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"75e49f75-87d5-4138-a2ab-607d2e900fee"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"93370e1a-1455-4df5-aa31-789c2598a8bf"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "53bd0473-8e24-4b5b-8f2b-6b391e7538fe"], "Indices", "Down", Cell["\<\
+Specifies whether the source terms in the Bianchi (conservation) identites \
+should have indices \"Up\" or \"Down\"\
+\>", "TableText",ExpressionUUID->"6aa8c72e-d87b-4eba-bc91-498e0c1b79dd"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "55fe6b36-2e45-4267-81ed-cc8c20a1e3f1"], "Parity", "Both", Cell["\<\
+Specifies which parities to include, (\"Even\", \"Odd\", or \"Both\")\
+\>", "TableText",ExpressionUUID->"49191c95-5739-4e66-bd0e-dd5dd63d008f"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "13f4e708-0d14-465f-a0be-eaeb629f5b06"], "SourceExpansion", "None", 
+    Cell["\<\
+States to what extent source terms should be expanded, (\"Full\", \
+\"Partial\", or \"None\")\
+\>", "TableText",ExpressionUUID->"e1dd5cb2-723d-422e-bc3d-28c156e8400f"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+   "Rows" -> {None, None, {None}}, "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, True, 
+      True}}}},ExpressionUUID->"9ed64794-22d1-4ac5-8dc7-2eaf6fc8270b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"f625fb30-e094-46f4-a745-efb324390ee0"],
+
+Cell[BoxData[""],ExpressionUUID->"038fde34-3d02-4eb2-9977-48e75742aad8"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"SourceConservation",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "SourceConservation", "SOURCECONSERVATION", "sourceconservation"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`SchwEqs Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`SchwEqs", "status" -> "None", "summary" -> 
+    "SourceConservation[] returns the first-order source conservation \
+expressions decomposed in spherical harmonics for a particle orbiting a \
+Schwarzschild black hole.", 
+    "synonyms" -> {
+     "SourceConservation", "SOURCECONSERVATION", "sourceconservation"}, 
+    "title" -> "SourceConservation", "windowTitle" -> "SourceConservation", 
+    "type" -> "Symbol", "uri" -> "BlackHoleAnalysis/ref/SourceConservation", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

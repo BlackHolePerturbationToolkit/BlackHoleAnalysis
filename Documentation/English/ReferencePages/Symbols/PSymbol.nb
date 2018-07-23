@@ -1,0 +1,144 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"2c185ec9-1df5-4ebf-bb7f-0518efa35592"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["PSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/PSymbol"]
+}], "LinkTrail",ExpressionUUID->"999602a8-b7f8-417e-bf8a-821bcf5f843e"],
+
+Cell[CellGroupData[{
+
+Cell["PSymbol", \
+"ObjectName",ExpressionUUID->"eeef977a-7a49-4d8d-84e3-7e2178ce04b9"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["PSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/PSymbol"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"ab8cdb69-9ea4-4bb8-a8ac-6c77bd1079d2"],
+     
+     "\[LineSeparator]returns the (formatted) symbol for metric perturbation \
+amplitude source term P."
+    }],ExpressionUUID->"5eb6ee7c-5612-4520-be92-3a71bc5a12e6"]}
+  }]], "Usage",ExpressionUUID->"991e39ed-4cd3-4e20-933a-2675908e9bdd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"9f13333b-17e9-4b98-a05e-2eb759530504"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"f14f5b6a-50f8-4ae4-910d-19d04c57918b"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "a685bd43-1c89-402f-abd6-5d3b3fc32476"], "Capital", "True", Cell["\<\
+Sepcifies whether to return the uppercase symbol (which includes the Dirac \
+delta) or the lowercase symbol (which does not)\
+\>", "TableText",ExpressionUUID->"6b8d0fc4-b9a5-42ff-8e50-4bdb9eb257c9"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "5c109ee8-df97-4edd-b6c9-d1d879c11d83"], "Indices", "Down", Cell[
+    "Position of the indices, (\"Up\" or \"Down\")", "TableText",
+     ExpressionUUID->"a24c0211-2502-4dff-b019-4b4c37ace7c5"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {None, {None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, 
+      True}}}},ExpressionUUID->"289e2df3-6975-4c78-a5d6-1c34642ba285"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"523282fe-e531-4821-9430-d01c1cd9ee39"],
+
+Cell[BoxData[""],ExpressionUUID->"9f9213fa-c669-4ff8-b488-b3fe8481b387"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"PSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"PSymbol", "PSYMBOL", "psymbol"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "PSymbol[] returns the (formatted) symbol for metric perturbation \
+amplitude source term P.", "synonyms" -> {"PSymbol", "PSYMBOL", "psymbol"}, 
+    "title" -> "PSymbol", "windowTitle" -> "PSymbol", "type" -> "Symbol", 
+    "uri" -> "BlackHoleAnalysis/ref/PSymbol", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

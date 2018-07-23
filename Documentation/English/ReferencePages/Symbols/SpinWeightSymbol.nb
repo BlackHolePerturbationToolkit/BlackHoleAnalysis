@@ -1,0 +1,75 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"82d16f09-4665-48e5-a032-770edf803228"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["SpinWeightSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/SpinWeightSymbol"]
+}], "LinkTrail",ExpressionUUID->"4cef5e4e-e716-4f2c-a575-12e29397c36a"],
+
+Cell[CellGroupData[{
+
+Cell["SpinWeightSymbol", \
+"ObjectName",ExpressionUUID->"02dfa7a1-44a2-4e78-bd9b-f31e4c55b1e3"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["SpinWeightSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/SpinWeightSymbol"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "634a0dec-1eef-452e-9134-14c7674963de"],
+     "\[LineSeparator]returns the symbol for spin of a field."
+    }],ExpressionUUID->"109425ec-8249-4577-9d0a-0af659481fd6"]}
+  }]], "Usage",ExpressionUUID->"2d974012-89b7-43e3-a2c2-dd8b7acf8449"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"25a09759-aff0-402b-94ae-a0eb68c9806d"],
+
+Cell[BoxData[""],ExpressionUUID->"281515aa-0154-4ec7-90d3-c587578287e9"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"SpinWeightSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "SpinWeightSymbol", "SPINWEIGHTSYMBOL", "spinweightsymbol"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> 
+    "None", "summary" -> 
+    "SpinWeightSymbol[] returns the symbol for spin of a field.", 
+    "synonyms" -> {
+     "SpinWeightSymbol", "SPINWEIGHTSYMBOL", "spinweightsymbol"}, "title" -> 
+    "SpinWeightSymbol", "windowTitle" -> "SpinWeightSymbol", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/SpinWeightSymbol", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

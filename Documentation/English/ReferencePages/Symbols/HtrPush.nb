@@ -1,0 +1,158 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"36fd7651-0403-4362-8943-16988827c5ad"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Fields",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Fields"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["HtrPush",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/HtrPush"]
+}], "LinkTrail",ExpressionUUID->"c43c7653-699f-4293-bf87-95a24e5566a1"],
+
+Cell[CellGroupData[{
+
+Cell["HtrPush", \
+"ObjectName",ExpressionUUID->"71646a86-0507-449b-8e46-5b15d692fc63"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["HtrPush",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/HtrPush"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"333deb86-a71c-424a-ae8d-9b5f8c4476a0"],
+     
+     "\[LineSeparator]returns the change in the metric perturbation amplitude \
+h_tr as it is pushed between two Options-specifiable gauges."
+    }],ExpressionUUID->"686b303c-39f3-4f36-9cad-9f7b24483e98"]}
+  }]], "Usage",ExpressionUUID->"296d8836-cba0-4b4b-a2b7-2a1c2fc215ed"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"d2216faa-fe23-4613-b82e-0dc9c45b5ea8"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"1c3f2c0f-7e8b-44c5-9600-8d77b4951c7e"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "cab50303-f40a-4237-95bf-5dd79a1b1488"], "Expand", "False", Cell["\<\
+Boolean stating whether expand the gauge vector. Only RWZ->ModRWZ (or \
+opposite) can be expanded.\
+\>", "TableText",ExpressionUUID->"095668eb-a073-46ae-8ebe-32c816242dda"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "b7ec82b4-6a37-489b-a36e-979b26b6e163"], "FinalGauge", "Lorenz", Cell[
+    "Final gauge (\"RWZ\", \"ModRWZ\", \"Lorenz\", or Null)", "TableText",
+     ExpressionUUID->"63af8534-c77f-44d2-aecf-a51ca254d096"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "ba2b19ee-a2ab-4497-ad6b-41d8aeafeb70"], "InitialGauge", "RWZ", Cell[
+    "Initial gauge (\"RWZ\", \"ModRWZ\", \"Lorenz\", or Null)", "TableText",
+     ExpressionUUID->"8c58a268-e00c-4b48-a413-7ca34086adcd"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "1a5d274b-7962-4d98-80c4-a7155b14e89c"], "Mode", "Radiative", Cell[
+    "l mode (\"Radiative\", \"Dipole\", or \"Monopole\")", "TableText",
+     ExpressionUUID->"76ea6c7d-3308-4bf3-811f-25678a9422f3"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "854d2a43-59fc-4d76-825b-a759ef7c3114"], "Weak", "False", Cell["\<\
+Boolean stating whether the metric perturvation amplitude should be given in \
+a weak form\
+\>", "TableText",ExpressionUUID->"dbb14e89-6bb9-4f8d-840e-ce78fd5ad948"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+   "Rows" -> {None, None, None, None, {None}}, "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, True, True, True, 
+      True}}}},ExpressionUUID->"83132813-a3df-4f42-b636-404a28900589"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"ca57646a-3fb7-4ec8-bea5-0e317d9761e0"],
+
+Cell[BoxData[""],ExpressionUUID->"ef933b91-5cdf-4b9a-bcbc-279920223c93"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"HtrPush",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"HtrPush", "HTRPUSH", "htrpush"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Fields Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Fields", "status" -> "None", "summary" -> 
+    "HtrPush[] returns the change in the metric perturbation amplitude h_tr \
+as it is pushed between two Options-specifiable gauges.", 
+    "synonyms" -> {"HtrPush", "HTRPUSH", "htrpush"}, "title" -> "HtrPush", 
+    "windowTitle" -> "HtrPush", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/HtrPush", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

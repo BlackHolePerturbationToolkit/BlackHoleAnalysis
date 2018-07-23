@@ -1,0 +1,154 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"9c2e0a13-82e3-47c2-afd3-81f2fc5e9c14"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["MasterFunctionSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/MasterFunctionSymbol"]
+}], "LinkTrail",ExpressionUUID->"7788a3c6-22d1-43b7-a1fa-f6d8f88e7695"],
+
+Cell[CellGroupData[{
+
+Cell["MasterFunctionSymbol", \
+"ObjectName",ExpressionUUID->"a6a9f14d-b41e-4088-a138-c5a3872741f7"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["MasterFunctionSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/MasterFunctionSymbol"], "[",
+        "]"}]], "InlineFormula",ExpressionUUID->
+      "1d253306-9d61-49d8-82c6-af65654703f8"],
+     "\[LineSeparator]returns the (formatted) symbol for the RWZ-style master \
+function."
+    }],ExpressionUUID->"1e274272-8e04-4813-bc0c-18b30ba034a3"]}
+  }]], "Usage",ExpressionUUID->"c741752a-5b42-453f-a9f5-58b81da7cbe3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"12274e21-5e1c-43ac-8a9e-0a527e3b9a9c"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"366ed328-1103-4218-8f17-f8004eec2c50"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "19fab815-2eaa-4802-b86a-10439f7e7c60"], "Parity", "Default", Cell["\<\
+Parity of the master function (Default, \"Even\", or \"Odd\"). Choosing \
+Default allows \"Parity\" to be set by the \"Variable\" Option. When both \
+Options are Default, the \"Parity\" is \"Even\".\
+\>", "TableText",ExpressionUUID->"03a043c1-9707-4a6e-a86c-a0f1d8a38dab"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "8516e6f4-04d6-42f0-85c2-645125c0987b"], "Variable", "Default", 
+    Cell["\<\
+The specific master function variable to use (Default, \"ZM\", \"ZM1\", ... \
+\"ZM7\" and \"CPM\", \"CPM1\", ... \"CPM6\"). Choosing Default is equivalent \
+to \"ZM\" when \"Parity\"->\"Even\" and \"CPM\" when \"Parity\"->\"Odd\". \
+When both Options are Default, the \"Parity\" is \"Even\".\
+\>", "TableText",ExpressionUUID->"7cc7881c-671b-4c48-ad89-a07fe27efe4f"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {None, {None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, 
+      True}}}},ExpressionUUID->"fbf40352-fe85-4cdf-965c-d113c059d950"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"86a7999a-7f7a-4277-86d7-00d32d17d084"],
+
+Cell[BoxData[""],ExpressionUUID->"8424d85c-836e-4e48-a487-046c31cc8171"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"MasterFunctionSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "MasterFunctionSymbol", "MASTERFUNCTIONSYMBOL", "masterfunctionsymbol"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "MasterFunctionSymbol[] returns the (formatted) symbol for the RWZ-style \
+master function.", 
+    "synonyms" -> {
+     "MasterFunctionSymbol", "MASTERFUNCTIONSYMBOL", "masterfunctionsymbol"}, 
+    "title" -> "MasterFunctionSymbol", "windowTitle" -> 
+    "MasterFunctionSymbol", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/MasterFunctionSymbol", "WorkflowDockedCell" -> ""},
+   "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

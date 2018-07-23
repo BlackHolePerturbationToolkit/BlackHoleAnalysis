@@ -1,0 +1,145 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"4868096c-2320-4ab7-bbf3-2c0c942ae453"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`AnalyticTools",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`AnalyticTools"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["EvaluateHeavisides",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/EvaluateHeavisides"]
+}], "LinkTrail",ExpressionUUID->"a36aa6ec-9592-4c29-b7ec-647067edc22a"],
+
+Cell[CellGroupData[{
+
+Cell["EvaluateHeavisides", \
+"ObjectName",ExpressionUUID->"3610b1d1-ed4a-4006-b26d-b6b9846bbb41"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["EvaluateHeavisides",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/EvaluateHeavisides"], "[", 
+       StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "5656e4ef-04fa-4944-955d-36aec373d0c8"],
+     "\[LineSeparator]converts derivatives of Heaviside distributions in expr \
+into Dirac delta distributions and their derivatives."
+    }],ExpressionUUID->"e8fbb132-17d0-4d8e-b2c4-516569348731"]}
+  }]], "Usage",ExpressionUUID->"a16a8a3b-f115-4e40-9c74-aa446e179a3a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"924f56b9-c1a3-4ab1-b769-5ff565bab86f"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"841ab625-59cb-4f3f-8664-51b6e36cea33"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "6cbbaa72-71a3-40a9-9b2e-85336b2f024e"], "Simplify", "True", Cell[
+    "Collect and Simplify the final output.", "TableText",ExpressionUUID->
+     "c1f9802e-45f7-4317-81b9-8c51742210ef"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"a36c1dcd-9102-400d-a955-0e10d6a4d8db"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"004bebf2-610b-4ab8-9bc9-117b970ebcd3"],
+
+Cell[BoxData[""],ExpressionUUID->"d84f5b83-0bec-490e-b008-ec5e952c89ab"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"EvaluateHeavisides",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "EvaluateHeavisides", "EVALUATEHEAVISIDES", "evaluateheavisides"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`AnalyticTools Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`AnalyticTools", "status" -> "None", 
+    "summary" -> 
+    "EvaluateHeavisides[expr] converts derivatives of Heaviside distributions \
+in expr into Dirac delta distributions and their derivatives.", 
+    "synonyms" -> {
+     "EvaluateHeavisides", "EVALUATEHEAVISIDES", "evaluateheavisides"}, 
+    "title" -> "EvaluateHeavisides", "windowTitle" -> "EvaluateHeavisides", 
+    "type" -> "Symbol", "uri" -> "BlackHoleAnalysis/ref/EvaluateHeavisides", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

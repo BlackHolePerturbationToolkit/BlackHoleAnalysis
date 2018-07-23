@@ -1,0 +1,73 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"2ece72fb-2a1a-4cff-b2ae-196a191f83cd"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Labels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Labels"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["XiEvenTLabel",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/XiEvenTLabel"]
+}], "LinkTrail",ExpressionUUID->"cc2c5550-0f7f-4f52-8326-f71a0ead5f43"],
+
+Cell[CellGroupData[{
+
+Cell["XiEvenTLabel", \
+"ObjectName",ExpressionUUID->"847a9177-8cd5-4cf9-8fd4-ed3fe77ddf56"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["XiEvenTLabel",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/XiEvenTLabel"], "[", "]"}]],
+       "InlineFormula",ExpressionUUID->"3a9dd14c-d75b-427e-894d-bafd057c51af"],
+     "\[LineSeparator]returns the string treated as a label for the gauge \
+vector amplitude xiEvenT"
+    }],ExpressionUUID->"f762ec94-81c2-477b-9b72-7699217d514e"]}
+  }]], "Usage",ExpressionUUID->"4d8b2cc8-248d-4a12-a025-ae36747adb72"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"f8922000-6f68-4a45-9e4e-220660cf6e9a"],
+
+Cell[BoxData[""],ExpressionUUID->"972487ed-2941-43a2-bb68-448b162fad67"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"XiEvenTLabel",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"XiEvenTLabel", "XIEVENTLABEL", "xieventlabel"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Labels Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Labels", "status" -> 
+    "None", "summary" -> 
+    "XiEvenTLabel[] returns the string treated as a label for the gauge \
+vector amplitude xiEvenT", 
+    "synonyms" -> {"XiEvenTLabel", "XIEVENTLABEL", "xieventlabel"}, "title" -> 
+    "XiEvenTLabel", "windowTitle" -> "XiEvenTLabel", "type" -> "Symbol", 
+    "uri" -> "BlackHoleAnalysis/ref/XiEvenTLabel", "WorkflowDockedCell" -> 
+    ""}, "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

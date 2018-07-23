@@ -1,0 +1,139 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"dd4f6fa0-bbff-4e1c-80fb-24f016c6a30e"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Coordinates",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Coordinates"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["DTDChi",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/DTDChi"]
+}], "LinkTrail",ExpressionUUID->"2cbbdf59-5253-47d2-b2c3-5467c75b9d10"],
+
+Cell[CellGroupData[{
+
+Cell["DTDChi", \
+"ObjectName",ExpressionUUID->"44b0256c-0bcd-4987-b3ea-ac8f209aa187"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["DTDChi",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/DTDChi"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"4f8c8c66-9f9e-4cba-a645-e055bc6e1267"],
+     
+     "\[LineSeparator]returns the Darwin's expression for dt/dchi."
+    }],ExpressionUUID->"01ae87ec-ddb3-4553-83a3-e5384dca11a6"]}
+  }]], "Usage",ExpressionUUID->"1c90e102-b44b-4816-bc8c-701d0e925f3e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"ef7c15b7-59c1-462f-8746-e439d14cbdb5"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"52a03977-1930-4844-97bf-8c7b50a08634"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "f5e0c660-bab6-463d-b166-450642577e6a"], "Metric", "Schwarzschild", 
+    Cell["\<\
+Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
+\>", "TableText",ExpressionUUID->"6e948d14-a058-4670-a699-c9ebdf18e055"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"ed2c7fd4-93a3-4576-8d18-d53af0335315"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"fcce36f8-62bd-4486-95b5-1d4287d3ab9e"],
+
+Cell[BoxData[""],ExpressionUUID->"59322ce8-daaa-47b5-811a-6a05a73260e4"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"DTDChi",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"DTDChi", "DTDCHI", "dtdchi"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Coordinates Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`Coordinates", "status" -> "None", 
+    "summary" -> "DTDChi[] returns the Darwin's expression for dt/dchi.", 
+    "synonyms" -> {"DTDChi", "DTDCHI", "dtdchi"}, "title" -> "DTDChi", 
+    "windowTitle" -> "DTDChi", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/DTDChi", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

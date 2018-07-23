@@ -1,0 +1,74 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"7d5ce2ec-8879-4f9b-8ccf-126a3e0cbda3"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Labels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Labels"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["QSharpLabel",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/QSharpLabel"]
+}], "LinkTrail",ExpressionUUID->"e9c1da9a-0fd3-4dd1-8b80-ac701561ff2d"],
+
+Cell[CellGroupData[{
+
+Cell["QSharpLabel", \
+"ObjectName",ExpressionUUID->"6edb58f1-3fd3-480f-93fc-096778cfc615"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["QSharpLabel",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/QSharpLabel"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"f2bdc997-a173-433f-a4a5-3cb2bf091ce1"],
+     
+     "\[LineSeparator]returns the string treated as a label for the metric \
+perturbation amplitude source term QSharp"
+    }],ExpressionUUID->"3e3bbf7e-6e80-4c1a-be72-866f51257e31"]}
+  }]], "Usage",ExpressionUUID->"cd58257d-8848-45f9-bb2f-e31c12989a04"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"fd1a5d3c-4ae7-420f-be12-44693609ae8e"],
+
+Cell[BoxData[""],ExpressionUUID->"afbc8c81-4ac9-4071-b240-d8222e6c8a09"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"QSharpLabel",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"QSharpLabel", "QSHARPLABEL", "qsharplabel"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Labels Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Labels", "status" -> 
+    "None", "summary" -> 
+    "QSharpLabel[] returns the string treated as a label for the metric \
+perturbation amplitude source term QSharp", 
+    "synonyms" -> {"QSharpLabel", "QSHARPLABEL", "qsharplabel"}, "title" -> 
+    "QSharpLabel", "windowTitle" -> "QSharpLabel", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/QSharpLabel", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

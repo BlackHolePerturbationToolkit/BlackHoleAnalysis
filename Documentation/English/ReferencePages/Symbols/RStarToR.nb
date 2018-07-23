@@ -1,0 +1,76 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"f82ddfd5-b684-444d-bd16-c5f4a7afa3a1"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`AnalyticTools",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`AnalyticTools"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["RStarToR",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/RStarToR"]
+}], "LinkTrail",ExpressionUUID->"5890a0f1-342a-44fa-9dd8-fc0958bc7b54"],
+
+Cell[CellGroupData[{
+
+Cell["RStarToR", \
+"ObjectName",ExpressionUUID->"a9a58367-c43b-4b14-9dce-61d5c1fa49d4"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["RStarToR",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/RStarToR"], "[", 
+       StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "f57067ff-53fe-4f2d-8243-11fabf42f986"],
+     "\[LineSeparator]converts all appearances of the Tortoise coordinate r_* \
+in expr to its value in terms of Schwarzschild r, and r_* derivatives to be \
+with respect to r."
+    }],ExpressionUUID->"98e629ae-688d-4fe3-a1ab-83c5fa227d37"]}
+  }]], "Usage",ExpressionUUID->"f3101a58-da2b-453d-94af-3c6e1ef3efb3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"c864b888-fadc-47f7-968d-68a5bff6504b"],
+
+Cell[BoxData[""],ExpressionUUID->"259af7bf-fc57-441a-92d5-ed2ba7c44bbf"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"RStarToR",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"RStarToR", "RSTARTOR", "rstartor"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`AnalyticTools Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`AnalyticTools", 
+    "status" -> "None", "summary" -> 
+    "RStarToR[expr] converts all appearances of the Tortoise coordinate r_* \
+in expr to its value in terms of Schwarzschild r, and r_* derivatives to be \
+with respect to r.", "synonyms" -> {"RStarToR", "RSTARTOR", "rstartor"}, 
+    "title" -> "RStarToR", "windowTitle" -> "RStarToR", "type" -> "Symbol", 
+    "uri" -> "BlackHoleAnalysis/ref/RStarToR", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

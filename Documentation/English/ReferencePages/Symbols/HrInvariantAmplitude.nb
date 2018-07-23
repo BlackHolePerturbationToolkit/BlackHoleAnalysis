@@ -1,0 +1,148 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"0e05660c-1a53-4b29-86f1-1a9a1f1de2b0"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Fields",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Fields"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["HrInvariantAmplitude",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/HrInvariantAmplitude"]
+}], "LinkTrail",ExpressionUUID->"094631df-8720-4c78-8288-908eba77b9ea"],
+
+Cell[CellGroupData[{
+
+Cell["HrInvariantAmplitude", \
+"ObjectName",ExpressionUUID->"037018fa-0c4b-43c2-adda-0a19173b64e6"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["HrInvariantAmplitude",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/HrInvariantAmplitude"], "[",
+        "]"}]], "InlineFormula",ExpressionUUID->
+      "5f969e1f-dd18-41dd-99e2-465fdc6d2b02"],
+     "\[LineSeparator]returns the gauge-invariant metric perturbation \
+amplitude h_r in symbolic form."
+    }],ExpressionUUID->"defc1da5-a8a1-4262-94b4-c38f7eeaf5cb"]}
+  }]], "Usage",ExpressionUUID->"3617cdf5-c3c7-4255-b631-735012546b97"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"c52ad1bd-63de-4e82-ba35-18379d7f2bb7"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"c7fa6525-bcba-449f-883b-8b0db0c30a6d"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "fd8ede8b-bf40-4df3-8f76-4f9285e1ea48"], "Gauge", "RWZ", Cell[
+    "Gauge (\"RWZ\", \"ModRWZ\", \"Lorenz\",  \"Undefined\", or Null)", 
+     "TableText",ExpressionUUID->"197970c6-5dd5-41c0-85ed-19bf138e1b29"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "16f50bd8-90fb-40f3-ab01-5e6a712b6893"], "Weak", "False", Cell["\<\
+Boolean stating whether the amplitude should be given in a weak form\
+\>", "TableText",ExpressionUUID->"1b5a6801-4082-441b-8846-98a6d04c9808"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {None, {None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, 
+      True}}}},ExpressionUUID->"c1d30ef2-89d3-4105-8fbf-070b5667c7ec"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"e5dee452-2f2d-4a8f-bb2e-79a170434ee6"],
+
+Cell[BoxData[""],ExpressionUUID->"202ede19-6bf1-46ee-8f90-0e81f2cf0de1"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"HrInvariantAmplitude",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "HrInvariantAmplitude", "HRINVARIANTAMPLITUDE", "hrinvariantamplitude"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Fields Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Fields", "status" -> "None", "summary" -> 
+    "HrInvariantAmplitude[] returns the gauge-invariant metric perturbation \
+amplitude h_r in symbolic form.", 
+    "synonyms" -> {
+     "HrInvariantAmplitude", "HRINVARIANTAMPLITUDE", "hrinvariantamplitude"}, 
+    "title" -> "HrInvariantAmplitude", "windowTitle" -> 
+    "HrInvariantAmplitude", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/HrInvariantAmplitude", "WorkflowDockedCell" -> ""},
+   "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

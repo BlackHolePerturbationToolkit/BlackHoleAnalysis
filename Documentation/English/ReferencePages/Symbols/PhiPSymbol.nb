@@ -1,0 +1,74 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"1d7104aa-5e81-4a1d-ad10-7acb6fa9bdae"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["PhiPSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/PhiPSymbol"]
+}], "LinkTrail",ExpressionUUID->"d05eee3d-ad15-4fde-afeb-4d5c1f50d36f"],
+
+Cell[CellGroupData[{
+
+Cell["PhiPSymbol", \
+"ObjectName",ExpressionUUID->"faf85f23-b1bd-4005-9da1-ebaab81c0ac3"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["PhiPSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/PhiPSymbol"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"abbf6a43-dc2e-4bb6-bd26-3a0cf9a5460b"],
+     
+     "\[LineSeparator]returns the (formatted) symbol for the azimuthal \
+particle location phi_p."
+    }],ExpressionUUID->"1d9ee2cb-51d2-413a-b625-51f2771da52f"]}
+  }]], "Usage",ExpressionUUID->"274d056c-22ef-46b7-bb6c-82d79dee970c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"cbca289d-c99b-4302-9482-d694530dfa54"],
+
+Cell[BoxData[""],ExpressionUUID->"5ea5130b-f725-4b3d-8a80-733573de9e50"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"PhiPSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"PhiPSymbol", "PHIPSYMBOL", "phipsymbol"}, "index" -> True,
+     "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> 
+    "None", "summary" -> 
+    "PhiPSymbol[] returns the (formatted) symbol for the azimuthal particle \
+location phi_p.", "synonyms" -> {"PhiPSymbol", "PHIPSYMBOL", "phipsymbol"}, 
+    "title" -> "PhiPSymbol", "windowTitle" -> "PhiPSymbol", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/PhiPSymbol", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

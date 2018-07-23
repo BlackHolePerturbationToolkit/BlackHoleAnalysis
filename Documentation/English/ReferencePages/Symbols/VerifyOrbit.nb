@@ -1,0 +1,100 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"9793b579-f760-48d0-9805-6b2c24224ba2"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`ValidityTests",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`ValidityTests"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["VerifyOrbit",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/VerifyOrbit"]
+}], "LinkTrail",ExpressionUUID->"8280c296-1a40-408a-8496-1e6343592fec"],
+
+Cell[CellGroupData[{
+
+Cell["VerifyOrbit", \
+"ObjectName",ExpressionUUID->"d18d0342-c212-4d58-b262-1e7d56ca132f"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["VerifyOrbit",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/VerifyOrbit"], "[", 
+       StyleBox[
+        RowBox[{"syms", ",", 
+         RowBox[{"{", 
+          RowBox[{"p", ",", "e", ",", "M"}], "}"}]}], "TI"], "]"}]], 
+      "InlineFormula",ExpressionUUID->"8c45bbdf-54f3-4218-8cbe-418687ec3250"],
+     
+     "\[LineSeparator]aborts with an error message if an orbit parametrized \
+by semilatus rectum p, eccentricity e, and mass M"
+    }],ExpressionUUID->"b71edc4b-d41e-4084-ab58-3eca183bb8a0"]},
+   {"", Cell[
+    "is invalid.",ExpressionUUID->"20179c0a-70f7-4bf4-97f9-22639dc7bafe"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["VerifyOrbit",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/VerifyOrbit"], "[", 
+       StyleBox[
+        RowBox[{"syms", ",", 
+         RowBox[{"{", 
+          RowBox[{"r", ",", "M"}], "}"}]}], "TI"], "]"}]], "InlineFormula",
+      ExpressionUUID->"24efa054-98c4-4068-852a-de5fb720057c"],
+     "\[LineSeparator]aborts with an error message if a circular orbit \
+parametrized by radius r and mass M"
+    }],ExpressionUUID->"db94771e-09e5-4a26-ae3b-8cb7a898f140"]},
+   {"", Cell[
+    "is invalid.",ExpressionUUID->"fa2f5b78-6a34-409e-bf1a-94f62f4f4e94"]}
+  }]], "Usage",ExpressionUUID->"7fc1043a-f596-4874-890d-e428ce7141c4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"6bec0fa6-9317-4841-8568-39a36db1e853"],
+
+Cell[BoxData[""],ExpressionUUID->"5d4dd5b9-b502-44fd-8079-11a704d3b94c"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"VerifyOrbit",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"VerifyOrbit", "VERIFYORBIT", "verifyorbit"}, "index" -> 
+    True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`ValidityTests Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`ValidityTests", "status" -> "None", 
+    "summary" -> 
+    "VerifyOrbit[syms,{p,e,M}] aborts with an error message if an orbit \
+parametrized by semilatus rectum p, eccentricity e, and mass M\nis invalid.\n\
+VerifyOrbit[syms,{r,M}] aborts with an error message if a circular orbit \
+parametrized by radius r and mass M\nis invalid.", 
+    "synonyms" -> {"VerifyOrbit", "VERIFYORBIT", "verifyorbit"}, "title" -> 
+    "VerifyOrbit", "windowTitle" -> "VerifyOrbit", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/VerifyOrbit", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

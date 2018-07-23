@@ -1,0 +1,141 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"415c5a27-b866-4a70-b013-90e347c3ba43"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`AnalyticTools",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`AnalyticTools"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["RToRStar",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/RToRStar"]
+}], "LinkTrail",ExpressionUUID->"1595d89b-a10b-4643-b823-e77d8ac707aa"],
+
+Cell[CellGroupData[{
+
+Cell["RToRStar", \
+"ObjectName",ExpressionUUID->"c6660a37-27e6-4294-80df-727e6b67c6e3"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["RToRStar",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/RToRStar"], "[", 
+       StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "aafcd7a7-ad63-46b3-9b72-ea4e327eecee"],
+     "\[LineSeparator]converts all appearances of Schwarzschild r in expr to \
+r[r_*] and adjusts all r derivatives to be with respect to r_*."
+    }],ExpressionUUID->"bed36781-8601-4b3d-a038-c8cbf3dd2159"]}
+  }]], "Usage",ExpressionUUID->"902a521b-9e9e-4abb-8043-e1f81ab293f0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"f4937aea-3fea-43ea-aebb-4f20379c1bee"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"be22c8aa-0482-49ec-aa42-8704912ccaea"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "660f04c8-edf9-42f3-bde7-e2a48bd4b764"], "ExpandROfRStar", "False", Cell[
+    "Express r[r_*] in terms of a ProductLog", "TableText",ExpressionUUID->
+     "db7f7762-4fd2-4e24-88d1-37a5f806e0c7"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"8f86fda8-a780-45b2-ad23-fd14d829901a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"7eca50af-5ae2-45a5-8cb7-a885c73c5e1c"],
+
+Cell[BoxData[""],ExpressionUUID->"f5aa3174-ea57-47bd-aa2c-b2b8373466ac"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"RToRStar",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"RToRStar", "RTORSTAR", "rtorstar"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`AnalyticTools Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`AnalyticTools", 
+    "status" -> "None", "summary" -> 
+    "RToRStar[expr] converts all appearances of Schwarzschild r in expr to \
+r[r_*] and adjusts all r derivatives to be with respect to r_*.", 
+    "synonyms" -> {"RToRStar", "RTORSTAR", "rtorstar"}, "title" -> "RToRStar",
+     "windowTitle" -> "RToRStar", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/RToRStar", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

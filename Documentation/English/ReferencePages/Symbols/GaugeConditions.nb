@@ -1,0 +1,155 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"8eaed13e-2764-408a-aeff-f887e454689b"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`SchwEqs",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`SchwEqs"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["GaugeConditions",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/GaugeConditions"]
+}], "LinkTrail",ExpressionUUID->"3485480c-7f95-4422-9535-2c3113ff532b"],
+
+Cell[CellGroupData[{
+
+Cell["GaugeConditions", \
+"ObjectName",ExpressionUUID->"ca66d68f-125c-4023-9e40-d6d2d4b09a3e"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["GaugeConditions",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/GaugeConditions"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "6a9b4ce2-7de5-449a-bac8-53fd84944457"],
+     "\[LineSeparator]returns the gauge conditions satisfied by the metric \
+perturbation amplitudes."
+    }],ExpressionUUID->"c085280b-d889-4cb0-9391-606229ed6d28"]}
+  }]], "Usage",ExpressionUUID->"7789336f-4c48-480a-b3cb-77b38e45aa22"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"b351e94b-8658-4348-a104-4fd392e9fe70"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"554d64c3-0336-4e19-9651-b071969121b0"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "8fd3dac4-a32c-4cc5-9674-b6d8962236f9"], "Gauge", "Lorenz", Cell[
+    "\"Lorenz\" or \"RWZ\"", "TableText",ExpressionUUID->
+     "2707756f-e940-4f68-8c83-ec3aa48813c0"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "0334cb8c-78a9-44d3-aea0-dd0bb3bc6dba"], "Mode", "Radiative", Cell["\<\
+l mode, restricting equations based on which spherical harmonic amplitudes \
+are defined, (\"Radiative\", \"Dipole\", or \"Monopole\")\
+\>", "TableText",ExpressionUUID->"24962247-51ad-4093-86ad-941fabae81d3"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "46afea80-f060-40bb-bace-bea54c07b0d9"], "Parity", "Both", Cell["\<\
+Specifies which parities to include, (\"Even\", \"Odd\", or \"Both\")\
+\>", "TableText",ExpressionUUID->"16387d5e-abb0-4d4f-a596-e294b71f859e"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "4bb1132d-b2ed-480c-94d1-062290c14f03"], "Weak", "False", Cell["\<\
+Boolean stating whether the amplitudes should be given in a weak form\
+\>", "TableText",ExpressionUUID->"3b42ce48-d9b7-4370-b3ba-ed6dcff2bd42"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+   "Rows" -> {None, None, None, {None}}, "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, True, True, 
+      True}}}},ExpressionUUID->"ae0f0e3f-623e-4b9f-9af0-1d38cd47ed74"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"da163cf7-2494-48d4-bcda-ccb8e14e8174"],
+
+Cell[BoxData[""],ExpressionUUID->"d3ffe896-6684-4963-9503-83cfb8d5efa2"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"GaugeConditions",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"GaugeConditions", "GAUGECONDITIONS", "gaugeconditions"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`SchwEqs Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`SchwEqs", "status" -> "None", "summary" -> 
+    "GaugeConditions[] returns the gauge conditions satisfied by the metric \
+perturbation amplitudes.", 
+    "synonyms" -> {"GaugeConditions", "GAUGECONDITIONS", "gaugeconditions"}, 
+    "title" -> "GaugeConditions", "windowTitle" -> "GaugeConditions", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/GaugeConditions", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

@@ -1,0 +1,184 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"c41b2c78-af27-45ca-9de7-1166d982bed0"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`PN",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`PN"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["SpecificEnergyPN",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificEnergyPN"]
+}], "LinkTrail",ExpressionUUID->"56effdf4-0234-4d03-a4a7-7768b4797c15"],
+
+Cell[CellGroupData[{
+
+Cell["SpecificEnergyPN", \
+"ObjectName",ExpressionUUID->"01da50df-cc30-4e0e-86b7-e3aeeb6c451f"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["SpecificEnergyPN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificEnergyPN"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "4a4917d4-f717-47b9-84bc-680735ccbe0b"],
+     "\[LineSeparator]returns the specific energy of a particle in an \
+eccentric orbit around a Schwarzschild black hole, expanded to 1 term using \
+the inverse of p, the semi-latus rectum, as the expansion parameter."
+    }],ExpressionUUID->"dc6a9f42-64d2-4767-8934-4858b8a3915d"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["SpecificEnergyPN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificEnergyPN"], "[", 
+       StyleBox["n", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "030595f6-5aed-4009-8676-c3b522964374"],
+     "\[LineSeparator]returns the specific energy expanded to n terms."
+    }],ExpressionUUID->"ccbf4f31-7ed7-4609-9ce9-90ff3637cf94"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["SpecificEnergyPN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificEnergyPN"], "[", 
+       StyleBox["par", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "a83b76d4-d61d-4e34-a681-444e5363d3db"],
+     "\[LineSeparator]returns the specific energy expanded to 1 term, using \
+par (\"p\" or \"x\") as the expansion parameter."
+    }],ExpressionUUID->"bea85f76-3dcb-43f0-a4a6-810fb34d62ad"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["SpecificEnergyPN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificEnergyPN"], "[", 
+       StyleBox[
+        RowBox[{"n", ",", "par"}], "TI"], "]"}]], "InlineFormula",
+      ExpressionUUID->"82f63547-fbac-4735-a6c3-a17d412b11d6"],
+     "\[LineSeparator]returns the specific energy expanded to n terms, using \
+par (\"p\" or \"x\") as the expansion parameter."
+    }],ExpressionUUID->"116d09d8-5f66-462c-a1be-bd91f3dc330f"]}
+  }]], "Usage",ExpressionUUID->"bf209509-a70d-47f8-bdfd-74eed79b078f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"0c664767-bcf1-406d-9957-7fc8e23f4fbf"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"d1d655af-8a30-4e2a-a274-1df266b19263"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "ac621749-bca8-47d6-bbb8-1e359e45fbb3"], "Metric", "Schwarzschild", 
+    Cell["\<\
+Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
+\>", "TableText",ExpressionUUID->"5f966ce4-4ff5-4516-99ae-ca21b1f4b580"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"f8c660ef-37ec-46f3-9011-c4cfd1cc8b5b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"720815ea-fb92-4f59-9449-6122dc8e4dd0"],
+
+Cell[BoxData[""],ExpressionUUID->"d1a8818f-4c9d-424e-a333-fc059ce649b3"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"SpecificEnergyPN",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "SpecificEnergyPN", "SPECIFICENERGYPN", "specificenergypn"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`PN Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`PN", "status" -> 
+    "None", "summary" -> 
+    "SpecificEnergyPN[] returns the specific energy of a particle in an \
+eccentric orbit around a Schwarzschild black hole, expanded to 1 term using \
+the inverse of p, the semi-latus rectum, as the expansion parameter.\n\
+SpecificEnergyPN[n] returns the specific energy expanded to n terms.\n\
+SpecificEnergyPN[par] returns the specific energy expanded to 1 term, using \
+par (\"p\" or \"x\") as the expansion parameter.\nSpecificEnergyPN[n,par] \
+returns the specific energy expanded to n terms, using par (\"p\" or \"x\") \
+as the expansion parameter.", 
+    "synonyms" -> {
+     "SpecificEnergyPN", "SPECIFICENERGYPN", "specificenergypn"}, "title" -> 
+    "SpecificEnergyPN", "windowTitle" -> "SpecificEnergyPN", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/SpecificEnergyPN", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

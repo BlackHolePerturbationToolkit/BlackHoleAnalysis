@@ -1,0 +1,95 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"0c9076a9-c260-457a-afe9-6c8a3534d90a"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Fields",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Fields"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BarackSagoAmplitude",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/BarackSagoAmplitude"]
+}], "LinkTrail",ExpressionUUID->"39875a20-c2a6-429f-868d-3d45e6d5574e"],
+
+Cell[CellGroupData[{
+
+Cell["BarackSagoAmplitude", \
+"ObjectName",ExpressionUUID->"8b1e9281-ff49-4db9-8844-a242a84cb310"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["BarackSagoAmplitude",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/BarackSagoAmplitude"], "[", 
+       
+       StyleBox[
+        RowBox[{"label", ",", "gauge"}], "TI"], "]"}]], "InlineFormula",
+      ExpressionUUID->"c991cf55-62b7-4437-8da8-928e936371cf"],
+     "\[LineSeparator]returns the Barack and Sago metric perturbation \
+corresponding to label (an integer 1-10) written in terms of the Martel and \
+Poisson amplitudes. The specified gauge can be \"RWZ\", \"ModRWZ\", \
+\"Lorenz\", \"Undefined\", or Null."
+    }],ExpressionUUID->"694ef99b-82e1-49ab-b5d4-a35aaa699740"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["BarackSagoAmplitude",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/BarackSagoAmplitude"], "[", 
+       
+       StyleBox["label", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "fddfa61a-7307-4a3e-a7fd-5e4f01ca48a7"],
+     "\[LineSeparator]is equivalent to BarackSagoAmplitude[label, \"RWZ\"]"
+    }],ExpressionUUID->"f66ba479-cf93-4906-b079-5bc5bbb4ac7c"]}
+  }]], "Usage",ExpressionUUID->"0ff790c1-062e-4eec-afe1-037ba8927b28"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"41dcc7c5-c54c-4fde-9d10-8a0f5613a412"],
+
+Cell[BoxData[""],ExpressionUUID->"60326510-1499-47eb-9c94-79942502e201"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"BarackSagoAmplitude",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "BarackSagoAmplitude", "BARACKSAGOAMPLITUDE", "baracksagoamplitude"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Fields Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Fields", "status" -> "None", "summary" -> 
+    "BarackSagoAmplitude[label,gauge] returns the Barack and Sago metric \
+perturbation corresponding to label (an integer 1-10) written in terms of the \
+Martel and Poisson amplitudes. The specified gauge can be \"RWZ\", \
+\"ModRWZ\", \"Lorenz\", \"Undefined\", or Null.\nBarackSagoAmplitude[label] \
+is equivalent to BarackSagoAmplitude[label, \"RWZ\"]", 
+    "synonyms" -> {
+     "BarackSagoAmplitude", "BARACKSAGOAMPLITUDE", "baracksagoamplitude"}, 
+    "title" -> "BarackSagoAmplitude", "windowTitle" -> "BarackSagoAmplitude", 
+    "type" -> "Symbol", "uri" -> "BlackHoleAnalysis/ref/BarackSagoAmplitude", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

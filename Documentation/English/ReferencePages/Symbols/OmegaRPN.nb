@@ -1,0 +1,179 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"4d882038-fbf6-4739-bfdd-3e3c673664ad"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`PN",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`PN"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["OmegaRPN",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/OmegaRPN"]
+}], "LinkTrail",ExpressionUUID->"f39702a5-6edc-4030-b3bc-673a2f4cd096"],
+
+Cell[CellGroupData[{
+
+Cell["OmegaRPN", \
+"ObjectName",ExpressionUUID->"aedbdc0e-8652-4b10-9d92-508be986d240"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["OmegaRPN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/OmegaRPN"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"ffa8b669-1610-4da7-8806-db73e535b1df"],
+     
+     "\[LineSeparator]returns the radial frequency of a particle in an \
+eccentric orbit around a Schwarzschild black hole, expanded to 1 term using \
+the inverse of p, the semi-latus rectum, as the expansion parameter."
+    }],ExpressionUUID->"647582c7-8b96-40f9-bfed-853a3c7dd80c"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["OmegaRPN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/OmegaRPN"], "[", 
+       StyleBox["n", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "a01b1cef-f173-4b63-9a9c-dc5218870583"],
+     "\[LineSeparator]returns the radial frequency expanded to n terms."
+    }],ExpressionUUID->"cc96dfcb-ec4c-406f-841e-6a330dc97436"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["OmegaRPN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/OmegaRPN"], "[", 
+       StyleBox["par", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "7859b48c-5eb3-45ea-8858-72a7d0612c8c"],
+     "\[LineSeparator]returns the radial frequency expanded to 1 term, using \
+par (\"p\" or \"x\") as the expansion parameter."
+    }],ExpressionUUID->"a1d1a9ff-5b92-41c4-842f-4ff8fd74b238"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["OmegaRPN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/OmegaRPN"], "[", 
+       StyleBox[
+        RowBox[{"n", ",", "par"}], "TI"], "]"}]], "InlineFormula",
+      ExpressionUUID->"bc3b47b1-67c5-4d01-b187-7f3badffd215"],
+     "\[LineSeparator]returns the radial frequency expanded to n terms, using \
+par (\"p\" or \"x\") as the expansion parameter."
+    }],ExpressionUUID->"4c3ed838-cfa4-46b5-870a-7c638bc04772"]}
+  }]], "Usage",ExpressionUUID->"38825387-d256-4326-8eb9-9048c2de8ee9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"800c16e4-29e4-4662-bf3f-7b9f6086eb5e"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"34f683c7-dec0-4845-b299-04bdced03f76"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "f6f6da76-2838-4898-bcc6-548895587f6c"], "Metric", "Schwarzschild", 
+    Cell["\<\
+Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
+\>", "TableText",ExpressionUUID->"a8e953c1-1949-4378-9d5d-61982d0f6ad9"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"db242535-2d22-4fb2-b4d4-834f607d4a24"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"07dccaa7-d675-413d-8f0f-ab5922cdd082"],
+
+Cell[BoxData[""],ExpressionUUID->"a57927a9-322f-409f-a854-e648c38456c5"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"OmegaRPN",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"OmegaRPN", "OMEGARPN", "omegarpn"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`PN Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`PN", "status" -> "None", "summary" -> 
+    "OmegaRPN[] returns the radial frequency of a particle in an eccentric \
+orbit around a Schwarzschild black hole, expanded to 1 term using the inverse \
+of p, the semi-latus rectum, as the expansion parameter.\nOmegaRPN[n] returns \
+the radial frequency expanded to n terms.\nOmegaRPN[par] returns the radial \
+frequency expanded to 1 term, using par (\"p\" or \"x\") as the expansion \
+parameter.\nOmegaRPN[n,par] returns the radial frequency expanded to n terms, \
+using par (\"p\" or \"x\") as the expansion parameter.", 
+    "synonyms" -> {"OmegaRPN", "OMEGARPN", "omegarpn"}, "title" -> "OmegaRPN",
+     "windowTitle" -> "OmegaRPN", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/OmegaRPN", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

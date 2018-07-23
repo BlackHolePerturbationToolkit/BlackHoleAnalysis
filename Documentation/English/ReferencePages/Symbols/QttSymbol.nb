@@ -1,0 +1,146 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"337f2f4c-f02b-4946-bf80-5a9321d7607f"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["QttSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/QttSymbol"]
+}], "LinkTrail",ExpressionUUID->"8d5cf5e5-bf09-4510-8e3f-1433f9bbeaa9"],
+
+Cell[CellGroupData[{
+
+Cell["QttSymbol", \
+"ObjectName",ExpressionUUID->"ef2fafb9-c6ce-47b4-9f7e-b8f1b89c1cc3"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["QttSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/QttSymbol"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"e71699ee-9fee-4bd6-ab1d-cfe1fa5a5797"],
+     
+     "\[LineSeparator]returns the (formatted) symbol for metric perturbation \
+amplitude source term Qtt."
+    }],ExpressionUUID->"a96e6806-780b-475d-9af0-0abb44a36ef8"]}
+  }]], "Usage",ExpressionUUID->"1ad4f4b9-220d-4d1b-9c7f-a97e8fd4ee65"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"3063938c-e16c-4749-b0ae-ba5ddb2775e9"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"a18803d2-43ed-4efa-ac9c-641b34dba153"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "874cbafe-329f-451d-8394-e559a5498005"], "Capital", "True", Cell["\<\
+Sepcifies whether to return the uppercase symbol (which includes the Dirac \
+delta) or the lowercase symbol (which does not)\
+\>", "TableText",ExpressionUUID->"a440fa6f-d2f7-4df3-891f-749aa8aa55fd"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "b4fe6a07-b6b7-4841-8045-0edcdef25555"], "Indices", "Down", Cell[
+    "Position of the indices, (\"Up\" or \"Down\")", "TableText",
+     ExpressionUUID->"e16caee9-7163-41b1-9e2d-5390b51defbf"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {None, {None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, 
+      True}}}},ExpressionUUID->"2f970edc-e27a-4ed1-bbd1-b77c3e428b24"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"d71388de-21b0-49d3-a0ed-6f1d3bc1dced"],
+
+Cell[BoxData[""],ExpressionUUID->"523ff676-f40b-41e0-aa41-7a4f4fcdb311"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"QttSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"QttSymbol", "QTTSYMBOL", "qttsymbol"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> 
+    "None", "summary" -> 
+    "QttSymbol[] returns the (formatted) symbol for metric perturbation \
+amplitude source term Qtt.", 
+    "synonyms" -> {"QttSymbol", "QTTSYMBOL", "qttsymbol"}, "title" -> 
+    "QttSymbol", "windowTitle" -> "QttSymbol", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/QttSymbol", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

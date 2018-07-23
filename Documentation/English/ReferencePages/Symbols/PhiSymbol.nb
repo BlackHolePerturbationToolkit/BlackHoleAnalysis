@@ -1,0 +1,72 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"2df48291-4de4-4f61-bb12-1d920345b277"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["PhiSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/PhiSymbol"]
+}], "LinkTrail",ExpressionUUID->"62805393-7a92-4c88-9bd0-80abb19c5d3e"],
+
+Cell[CellGroupData[{
+
+Cell["PhiSymbol", \
+"ObjectName",ExpressionUUID->"db1d68e5-772b-4517-948a-0e7906568665"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["PhiSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/PhiSymbol"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"dde168a2-c6af-4cd1-b5db-4e3deb16de73"],
+     
+     "\[LineSeparator]returns the symbol for the azimuthal coordinate phi."
+    }],ExpressionUUID->"a0651572-0f2a-4547-bcb5-5c7934c419ab"]}
+  }]], "Usage",ExpressionUUID->"c462fc6f-96ea-4ef9-80f9-87d881326b35"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"f7c5a12c-c1d6-4d3f-b2f4-de6a8df355e8"],
+
+Cell[BoxData[""],ExpressionUUID->"53bff681-db69-4376-9219-415f7faa7aa7"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"PhiSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"PhiSymbol", "PHISYMBOL", "phisymbol"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> 
+    "None", "summary" -> 
+    "PhiSymbol[] returns the symbol for the azimuthal coordinate phi.", 
+    "synonyms" -> {"PhiSymbol", "PHISYMBOL", "phisymbol"}, "title" -> 
+    "PhiSymbol", "windowTitle" -> "PhiSymbol", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/PhiSymbol", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

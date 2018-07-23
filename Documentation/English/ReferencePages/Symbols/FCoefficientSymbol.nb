@@ -1,0 +1,77 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"5451cff3-54a5-4fca-9d90-31cfe92b80a0"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["FCoefficientSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/FCoefficientSymbol"]
+}], "LinkTrail",ExpressionUUID->"08f748ad-8288-4f53-952b-f25a3f0f6fc6"],
+
+Cell[CellGroupData[{
+
+Cell["FCoefficientSymbol", \
+"ObjectName",ExpressionUUID->"cb9e78c2-af80-4487-99fa-d08af1b8bb06"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["FCoefficientSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/FCoefficientSymbol"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "c40a05a0-c74a-4f85-babf-494a3628dc4e"],
+     "\[LineSeparator]returns the symbol for F, the coefficient of the \
+derivative of the Dirac delta function."
+    }],ExpressionUUID->"4b87171f-add0-40f4-b698-60a1542f60e4"]}
+  }]], "Usage",ExpressionUUID->"c92b4783-5132-4144-be7e-b7c53c079ec1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"c27f3f06-e2dd-4ede-b3b1-7834c03d8357"],
+
+Cell[BoxData[""],ExpressionUUID->"cd7334ad-b8f6-4e60-9a51-55e577020e2a"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"FCoefficientSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "FCoefficientSymbol", "FCOEFFICIENTSYMBOL", "fcoefficientsymbol"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "FCoefficientSymbol[] returns the symbol for F, the coefficient of the \
+derivative of the Dirac delta function.", 
+    "synonyms" -> {
+     "FCoefficientSymbol", "FCOEFFICIENTSYMBOL", "fcoefficientsymbol"}, 
+    "title" -> "FCoefficientSymbol", "windowTitle" -> "FCoefficientSymbol", 
+    "type" -> "Symbol", "uri" -> "BlackHoleAnalysis/ref/FCoefficientSymbol", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

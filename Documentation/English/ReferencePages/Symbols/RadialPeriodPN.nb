@@ -1,0 +1,181 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"21bf42df-13c1-4bf4-b9d5-e30c227e2568"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`PN",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`PN"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["RadialPeriodPN",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/RadialPeriodPN"]
+}], "LinkTrail",ExpressionUUID->"a8e41152-36c4-427d-acbb-2c72d6d7da75"],
+
+Cell[CellGroupData[{
+
+Cell["RadialPeriodPN", \
+"ObjectName",ExpressionUUID->"f2e093d3-2b05-4a0f-aed3-696e629a4652"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["RadialPeriodPN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/RadialPeriodPN"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "1feeb718-b350-4bfa-9664-c9526d10b37c"],
+     "\[LineSeparator]returns the radial period of a particle in an eccentric \
+orbit around a Schwarzschild black hole, expanded to 1 term using the inverse \
+of p, the semi-latus rectum, as the expansion parameter."
+    }],ExpressionUUID->"d7d93997-8732-4330-9e77-4b586d975f8f"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["RadialPeriodPN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/RadialPeriodPN"], "[", 
+       StyleBox["n", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "419fc077-29d7-4ec9-8d05-c4d2e32a9dfc"],
+     "\[LineSeparator]returns the radial period expanded to n terms."
+    }],ExpressionUUID->"e4e0070d-a601-4584-94d6-db3d5d01aff8"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["RadialPeriodPN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/RadialPeriodPN"], "[", 
+       StyleBox["par", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "92b00584-ad33-4670-af2e-c48132880c8f"],
+     "\[LineSeparator]returns the radial period expanded to 1 term, using par \
+(\"p\" or \"x\") as the expansion parameter."
+    }],ExpressionUUID->"c7f871f6-86c5-4a32-bcf1-65a470c65635"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["RadialPeriodPN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/RadialPeriodPN"], "[", 
+       StyleBox[
+        RowBox[{"n", ",", "par"}], "TI"], "]"}]], "InlineFormula",
+      ExpressionUUID->"b67e852b-38d4-4e0b-b1ad-a3da3e0d7c28"],
+     "\[LineSeparator]returns the radial period expanded to n terms, using \
+par (\"p\" or \"x\") as the expansion parameter."
+    }],ExpressionUUID->"5fd5b1c7-d73a-4eb2-be94-41c8e075086a"]}
+  }]], "Usage",ExpressionUUID->"4bc66f47-eb64-4093-ac43-b16ab1115742"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"531a7d28-989b-462c-b95f-659feea1e75c"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"325fe8f6-cc08-4d6f-8ed2-7d2e5a5dcf6f"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "be7f9226-d3a5-4d8f-8b3d-c293e043482b"], "Metric", "Schwarzschild", 
+    Cell["\<\
+Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
+\>", "TableText",ExpressionUUID->"f55b3113-c964-4d4f-ba53-276ef5541332"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"7d63b55e-3a3c-4c9b-bae4-2615ab8965a0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"d66c366e-d6b7-40cf-bccd-6a6d1b2c854d"],
+
+Cell[BoxData[""],ExpressionUUID->"90db2aae-c9ca-4420-ac90-3466a6dded7a"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"RadialPeriodPN",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"RadialPeriodPN", "RADIALPERIODPN", "radialperiodpn"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`PN Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`PN", "status" -> "None", "summary" -> 
+    "RadialPeriodPN[] returns the radial period of a particle in an eccentric \
+orbit around a Schwarzschild black hole, expanded to 1 term using the inverse \
+of p, the semi-latus rectum, as the expansion parameter.\nRadialPeriodPN[n] \
+returns the radial period expanded to n terms.\nRadialPeriodPN[par] returns \
+the radial period expanded to 1 term, using par (\"p\" or \"x\") as the \
+expansion parameter.\nRadialPeriodPN[n,par] returns the radial period \
+expanded to n terms, using par (\"p\" or \"x\") as the expansion parameter.", 
+    "synonyms" -> {"RadialPeriodPN", "RADIALPERIODPN", "radialperiodpn"}, 
+    "title" -> "RadialPeriodPN", "windowTitle" -> "RadialPeriodPN", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/RadialPeriodPN", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

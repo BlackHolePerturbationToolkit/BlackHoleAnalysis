@@ -1,0 +1,149 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"2347e262-6a90-4e6b-80d2-07c2270c325f"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["HtrSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/HtrSymbol"]
+}], "LinkTrail",ExpressionUUID->"ede669b8-7863-43ae-8fbb-b1a1c67c514b"],
+
+Cell[CellGroupData[{
+
+Cell["HtrSymbol", \
+"ObjectName",ExpressionUUID->"708297c2-9f88-4367-8de2-452a084881e5"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["HtrSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/HtrSymbol"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"a4d5dcbb-c8af-4d94-af8e-985e17718c5d"],
+     
+     "\[LineSeparator]returns the (formatted) symbol for metric perturbation \
+amplitude htr."
+    }],ExpressionUUID->"0248d705-cdc6-4056-8718-6de98d258834"]}
+  }]], "Usage",ExpressionUUID->"860a2fe7-04fc-40ca-9c21-06606c9ac807"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"2c6ddc2b-ff7b-435e-a6ff-9bbac9e926d5"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"29bab90f-b05a-43a2-b991-067e668e79a1"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "e7b87f3e-853a-425b-976c-c145aa187675"], "Indices", "Down", Cell[
+    "Position of the indices, (\"Up\" or \"Down\")", "TableText",
+     ExpressionUUID->"058c529a-8f71-427e-967f-f04a46ccb444"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "82d25938-9c06-477d-8403-4b388659fe45"], "Tag", "Null", Cell["\<\
+Specifies the Tag (referred to by its label in the symbols Association) to \
+attach to the symbol\
+\>", "TableText",ExpressionUUID->"b8134931-c0b4-4964-955d-6db6495044a4"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "5b56983a-75aa-4a7f-b0c9-45981c2dd4ec"], "TagPosition", "Up", Cell[
+    "Specifies the position of the Tag, (\"Up\" or \"Down\")", "TableText",
+     ExpressionUUID->"c9188b0c-7c4c-4e60-ba96-cc35a2e08470"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+   "Rows" -> {None, None, {None}}, "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, True, 
+      True}}}},ExpressionUUID->"4e5c98d9-6f3d-44f3-8d74-b501f3ce3e77"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"eb881f0d-1c7b-4354-93d7-9217d71ceb83"],
+
+Cell[BoxData[""],ExpressionUUID->"aa6e3141-49e7-44d7-b6c1-bfd49bedce7b"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"HtrSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"HtrSymbol", "HTRSYMBOL", "htrsymbol"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> 
+    "None", "summary" -> 
+    "HtrSymbol[] returns the (formatted) symbol for metric perturbation \
+amplitude htr.", "synonyms" -> {"HtrSymbol", "HTRSYMBOL", "htrsymbol"}, 
+    "title" -> "HtrSymbol", "windowTitle" -> "HtrSymbol", "type" -> "Symbol", 
+    "uri" -> "BlackHoleAnalysis/ref/HtrSymbol", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

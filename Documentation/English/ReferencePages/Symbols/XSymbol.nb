@@ -1,0 +1,72 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"c1165cc2-fb65-4486-8ea2-d89d3d53965a"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["XSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/XSymbol"]
+}], "LinkTrail",ExpressionUUID->"ac2e1348-535f-4735-802a-53139ba45259"],
+
+Cell[CellGroupData[{
+
+Cell["XSymbol", \
+"ObjectName",ExpressionUUID->"902fccef-f56d-47bc-9665-d6146755b756"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["XSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/XSymbol"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"c298c9ca-2f30-429d-b406-ac1cb371cd32"],
+     
+     "\[LineSeparator]returns the symbol for x used in the formatting of \
+xPN."
+    }],ExpressionUUID->"2ca4936a-ca0a-418d-827e-ba72c0ec76b9"]}
+  }]], "Usage",ExpressionUUID->"5d951b67-9086-4738-8408-0820f76b042c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"b141cf46-fa9e-4692-95da-1adf6160d778"],
+
+Cell[BoxData[""],ExpressionUUID->"1a30d717-60fc-4bc6-a53a-94b3ae4393b7"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"XSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"XSymbol", "XSYMBOL", "xsymbol"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "XSymbol[] returns the symbol for x used in the formatting of xPN.", 
+    "synonyms" -> {"XSymbol", "XSYMBOL", "xsymbol"}, "title" -> "XSymbol", 
+    "windowTitle" -> "XSymbol", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/XSymbol", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

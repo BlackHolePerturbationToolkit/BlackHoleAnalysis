@@ -1,0 +1,151 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"5ec7f59a-ea6b-43d8-987c-da6855cf7def"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`KerrEqs",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`KerrEqs"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["SasakiNakamuraFunctionAsTeukolskyFunction",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/ref/SasakiNakamuraFunctionAsTeukolskyFunction"]
+}], "LinkTrail",ExpressionUUID->"8cccfb04-5cd8-439c-acce-6d3dadb3e547"],
+
+Cell[CellGroupData[{
+
+Cell["SasakiNakamuraFunctionAsTeukolskyFunction", \
+"ObjectName",ExpressionUUID->"40361a86-83a2-472a-bae6-9a6039fa2698"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["SasakiNakamuraFunctionAsTeukolskyFunction",
+        BaseStyle->"Link",
+        ButtonData->
+         "paclet:BlackHoleAnalysis/ref/\
+SasakiNakamuraFunctionAsTeukolskyFunction"], "[", "]"}]], "InlineFormula",
+      ExpressionUUID->"c3922039-8c85-4238-b460-d1d2a9b0115a"],
+     "\[LineSeparator]returns the Sasaki-Nakamura function written as a sum \
+of terms involving the Teukolsky function and its first derivative."
+    }],ExpressionUUID->"ad2e7395-cb55-4eac-a51a-dab9b72de5c4"]}
+  }]], "Usage",ExpressionUUID->"e649419a-075a-4056-accf-0d9636828fc9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"00c030cc-d10a-44a4-94fe-192f0aa82e80"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"e3d4b2ef-540c-45ab-8609-3846cefd3df3"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "3aff6899-ffe8-4b80-86a8-1bed3db231e6"], "SpinWeight", 
+    RowBox[{"-", "2"}], Cell["\<\
+Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
+\>", "TableText",ExpressionUUID->"7d9b588c-246f-4a69-8b04-62faae5806c0"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"c3090b5f-bc82-49e9-bdda-6a4319c802e5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"25031d72-8783-4a00-b478-1d304e8a0f3d"],
+
+Cell[BoxData[""],ExpressionUUID->"73f141bf-3d33-47fb-9e3d-203215114e1d"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"SasakiNakamuraFunctionAsTeukolskyFunction",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "SasakiNakamuraFunctionAsTeukolskyFunction", 
+      "SASAKINAKAMURAFUNCTIONASTEUKOLSKYFUNCTION", 
+      "sasakinakamurafunctionasteukolskyfunction"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`KerrEqs Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`KerrEqs", "status" -> "None", "summary" -> 
+    "SasakiNakamuraFunctionAsTeukolskyFunction[] returns the Sasaki-Nakamura \
+function written as a sum of terms involving the Teukolsky function and its \
+first derivative.", 
+    "synonyms" -> {
+     "SasakiNakamuraFunctionAsTeukolskyFunction", 
+      "SASAKINAKAMURAFUNCTIONASTEUKOLSKYFUNCTION", 
+      "sasakinakamurafunctionasteukolskyfunction"}, "title" -> 
+    "SasakiNakamuraFunctionAsTeukolskyFunction", "windowTitle" -> 
+    "SasakiNakamuraFunctionAsTeukolskyFunction", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/SasakiNakamuraFunctionAsTeukolskyFunction", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

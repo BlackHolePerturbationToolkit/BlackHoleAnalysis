@@ -1,0 +1,144 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"6739cdf5-6bf3-4b4f-8b7a-9f94b27f600f"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`OverloadedSymbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`OverloadedSymbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["SpecificEnergy",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificEnergy"]
+}], "LinkTrail",ExpressionUUID->"a0039988-d171-4060-ad47-082c09853964"],
+
+Cell[CellGroupData[{
+
+Cell["SpecificEnergy", \
+"ObjectName",ExpressionUUID->"235e91a5-f2f8-4e77-b8cf-e53f2f34e81a"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["SpecificEnergy",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificEnergy"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "4f42875d-fbc0-4e8b-bf98-27eb9339823e"],
+     "\[LineSeparator]returns the specific energy (conserved energy per mass) \
+of an orbit written as a function of eccentricity and semi-latus rectum."
+    }],ExpressionUUID->"80da6c27-1bd2-4498-8370-8dfc3a5c82e9"]}
+  }]], "Usage",ExpressionUUID->"38229a0a-3ae0-481d-a530-704fe9a3851c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"822a35e6-b7b3-474d-86b6-7d752eaf52cb"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"3a72ed7d-b1fe-4bd9-9b86-935ecfd97a8e"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "de6205a0-b64f-4a14-9b0f-9a3ee9082aa9"], "Metric", "Schwarzschild", 
+    Cell["\<\
+Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
+\>", "TableText",ExpressionUUID->"763d7d2f-b7d8-416e-88e0-2243c4b0f7ed"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"e1d525da-817f-421d-a25c-bd6a3aca2303"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"d63f2713-355c-4a4a-b2dc-04f873ff024a"],
+
+Cell[BoxData[""],ExpressionUUID->"c838da22-1a5e-442a-99ee-8c2d01742407"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"SpecificEnergy",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"SpecificEnergy", "SPECIFICENERGY", "specificenergy"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`OverloadedSymbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`OverloadedSymbols", 
+    "status" -> "None", "summary" -> 
+    "SpecificEnergy[] returns the specific energy (conserved energy per mass) \
+of an orbit written as a function of eccentricity and semi-latus rectum.", 
+    "synonyms" -> {"SpecificEnergy", "SPECIFICENERGY", "specificenergy"}, 
+    "title" -> "SpecificEnergy", "windowTitle" -> "SpecificEnergy", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/SpecificEnergy", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

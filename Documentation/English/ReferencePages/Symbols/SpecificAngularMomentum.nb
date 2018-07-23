@@ -1,0 +1,149 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"8fe84bcf-2ee3-4320-b2e7-97cc741cb33a"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`OverloadedSymbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`OverloadedSymbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["SpecificAngularMomentum",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificAngularMomentum"]
+}], "LinkTrail",ExpressionUUID->"bcf9d514-ceb7-4553-a582-7a8075d9eba2"],
+
+Cell[CellGroupData[{
+
+Cell["SpecificAngularMomentum", \
+"ObjectName",ExpressionUUID->"41547c54-6fb0-41f3-933d-325b09aa61d0"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["SpecificAngularMomentum",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificAngularMomentum"], 
+       "[", "]"}]], "InlineFormula",ExpressionUUID->
+      "69894d47-d559-4953-8602-c33c3fc3e6be"],
+     "\[LineSeparator]returns the specific angular momentum (conserved \
+angular momentum per mass) of an orbit written as a function of eccentricity \
+and semi-latus rectum."
+    }],ExpressionUUID->"246a01dc-7324-485c-bc6b-aa618744bae5"]}
+  }]], "Usage",ExpressionUUID->"87609c84-64a0-4f81-85f7-d198c46323c6"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"d857a262-c709-458e-af56-3742c9de2a4d"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"c31f9365-ce25-42d7-85b0-33ba946a0749"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "1478d5ef-1f9b-4740-9030-b5f552e1bf6f"], "Metric", "Schwarzschild", 
+    Cell["\<\
+Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
+\>", "TableText",ExpressionUUID->"437289c6-6d0e-4f4c-bd73-f28c5333893f"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"096424f0-34fe-45a7-bd92-75395d4fe8c6"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"71b3caff-5081-4b53-9606-1a95dd1a46bd"],
+
+Cell[BoxData[""],ExpressionUUID->"7ced3e44-2f68-4123-947a-e7d0a62f2690"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"SpecificAngularMomentum",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "SpecificAngularMomentum", "SPECIFICANGULARMOMENTUM", 
+      "specificangularmomentum"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`OverloadedSymbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`OverloadedSymbols", 
+    "status" -> "None", "summary" -> 
+    "SpecificAngularMomentum[] returns the specific angular momentum \
+(conserved angular momentum per mass) of an orbit written as a function of \
+eccentricity and semi-latus rectum.", 
+    "synonyms" -> {
+     "SpecificAngularMomentum", "SPECIFICANGULARMOMENTUM", 
+      "specificangularmomentum"}, "title" -> "SpecificAngularMomentum", 
+    "windowTitle" -> "SpecificAngularMomentum", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/SpecificAngularMomentum", "WorkflowDockedCell" -> 
+    ""}, "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> 
+  False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

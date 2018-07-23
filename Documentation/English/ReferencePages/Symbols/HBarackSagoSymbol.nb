@@ -1,0 +1,77 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"ef1606b4-a92a-47bf-be97-d8a955248972"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["HBarackSagoSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/HBarackSagoSymbol"]
+}], "LinkTrail",ExpressionUUID->"9e796125-7272-47a3-b368-2baf95bb2b8c"],
+
+Cell[CellGroupData[{
+
+Cell["HBarackSagoSymbol", \
+"ObjectName",ExpressionUUID->"b883dded-01ec-45db-91fa-57de64708767"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["HBarackSagoSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/HBarackSagoSymbol"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "7d1a6c1f-6cee-4be5-bb57-0d8de2e908d6"],
+     "\[LineSeparator]returns the (formatted) symbol for Barack and Sago \
+metric perturbation amplitude h."
+    }],ExpressionUUID->"b4f7c6c3-335e-4c5e-907e-b5847e1ad3a6"]}
+  }]], "Usage",ExpressionUUID->"9e1aa2e5-447c-4a9a-bd7c-c13da7ffcfc4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"54c4223e-63d2-4b94-a887-23fc01efccda"],
+
+Cell[BoxData[""],ExpressionUUID->"14116b94-3776-4f40-85af-b0df261b079b"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"HBarackSagoSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "HBarackSagoSymbol", "HBARACKSAGOSYMBOL", "hbaracksagosymbol"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> 
+    "None", "summary" -> 
+    "HBarackSagoSymbol[] returns the (formatted) symbol for Barack and Sago \
+metric perturbation amplitude h.", 
+    "synonyms" -> {
+     "HBarackSagoSymbol", "HBARACKSAGOSYMBOL", "hbaracksagosymbol"}, "title" -> 
+    "HBarackSagoSymbol", "windowTitle" -> "HBarackSagoSymbol", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/HBarackSagoSymbol", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

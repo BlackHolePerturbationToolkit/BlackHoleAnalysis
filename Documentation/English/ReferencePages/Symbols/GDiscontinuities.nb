@@ -1,0 +1,172 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"78a65107-6b75-43c0-9272-0f79558385e0"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Discontinuities",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Discontinuities"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["GDiscontinuities",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/GDiscontinuities"]
+}], "LinkTrail",ExpressionUUID->"64fe0793-485b-400e-8bcb-2270d0b5b46b"],
+
+Cell[CellGroupData[{
+
+Cell["GDiscontinuities", \
+"ObjectName",ExpressionUUID->"f33dca3b-82ac-4dda-8d1d-9790bf92b3f5"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["GDiscontinuities",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/GDiscontinuities"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "158cb252-c55a-4227-a89e-37cc25ce713c"],
+     "\[LineSeparator]returns an Association with discontinuities in G and \
+its derivatives."
+    }],ExpressionUUID->"bc0fc480-ea87-4103-b973-4edfe9e3a7b2"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["GDiscontinuities",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/GDiscontinuities"], "[", 
+       StyleBox[
+        RowBox[{"{", 
+         RowBox[{"m", ",", "n"}], "}"}], "TI"], "]"}]], "InlineFormula",
+      ExpressionUUID->"32e893d0-4f08-4261-b86e-6654f8c836cc"],
+     "\[LineSeparator]returns an Association with discontinuities in the m-th \
+time derivative and n-th r derivative of G."
+    }],ExpressionUUID->"297d5366-4a2c-4967-9dd3-44dc66711b65"]}
+  }]], "Usage",ExpressionUUID->"2e0ddd66-13b9-45b6-9a70-16dafcef1dfd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"42b16f78-9689-4c4f-a013-61d1ad3310e7"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"5229d73b-8bc2-48f0-96f5-16b1b9cd143f"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "cb468a96-e941-4445-8ee0-21043c984d32"], "Gauge", "RWZ", Cell["\<\
+Gauge of the metric perturbation amplitudes (\"RWZ\", \"Lorenz\", or \"ModRWZ\
+\")\
+\>", "TableText",ExpressionUUID->"f43dd710-25b1-491b-9f73-6752e99b8f2d"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "d2e8a660-5b9d-481e-9fd8-81a256c29314"], "Labels", "True", Cell["\<\
+Boolean specifying whether the Keys of the Association should be formatted \
+labels or the order of discontinuity (-1 for jump, -2 for \[Delta], -3 for \
+\[Delta]', etc.)\
+\>", "TableText",ExpressionUUID->"cf2444af-e375-4160-9aaf-476208ad9a5c"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "0f0a6bf3-edf0-4512-91f1-dbd6e442f6ee"], "Mode", "Radiative", Cell["\<\
+Discontinuities for which class of modes (\"Radiative\", \"Dipole\", or \
+\"Monopole\")\
+\>", "TableText",ExpressionUUID->"5c872ca9-74d1-48b1-97d3-9af6e509dfe4"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+   "Rows" -> {None, None, {None}}, "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, True, 
+      True}}}},ExpressionUUID->"930c7388-8f9f-4b7b-a128-f7a342bf83b5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"69e8ea24-8f6a-4847-9637-5b05b9e86a91"],
+
+Cell[BoxData[""],ExpressionUUID->"149d412e-9a42-4613-904d-9618ada8b2d3"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"GDiscontinuities",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "GDiscontinuities", "GDISCONTINUITIES", "gdiscontinuities"}, "index" -> 
+    True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Discontinuities Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`Discontinuities", "status" -> "None",
+     "summary" -> 
+    "GDiscontinuities[] returns an Association with discontinuities in G and \
+its derivatives.\nGDiscontinuities[{m,n}] returns an Association with \
+discontinuities in the m-th time derivative and n-th r derivative of G.", 
+    "synonyms" -> {
+     "GDiscontinuities", "GDISCONTINUITIES", "gdiscontinuities"}, "title" -> 
+    "GDiscontinuities", "windowTitle" -> "GDiscontinuities", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/GDiscontinuities", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

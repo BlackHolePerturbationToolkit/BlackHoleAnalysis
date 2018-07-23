@@ -1,0 +1,172 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"9911980a-d9cb-486a-bf8e-379742c83bf6"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Discontinuities",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Discontinuities"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["HttDiscontinuities",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/HttDiscontinuities"]
+}], "LinkTrail",ExpressionUUID->"6568cb00-92da-4741-9f2a-9621fc57c070"],
+
+Cell[CellGroupData[{
+
+Cell["HttDiscontinuities", \
+"ObjectName",ExpressionUUID->"b46b3c22-52ce-4a4d-a245-9c06ece078db"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["HttDiscontinuities",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/HttDiscontinuities"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "fbf6076b-4be2-488c-96ae-1fe6911ab408"],
+     "\[LineSeparator]returns an Association with discontinuities in htt and \
+its derivatives."
+    }],ExpressionUUID->"1677b10d-e523-4113-bdbb-735ac6f5ddff"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["HttDiscontinuities",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/HttDiscontinuities"], "[", 
+       StyleBox[
+        RowBox[{"{", 
+         RowBox[{"m", ",", "n"}], "}"}], "TI"], "]"}]], "InlineFormula",
+      ExpressionUUID->"055a5b93-aa64-4247-be70-9c71272e162b"],
+     "\[LineSeparator]returns an Association with discontinuities in the m-th \
+time derivative and n-th r derivative of htt."
+    }],ExpressionUUID->"476c9fe1-75f5-4e64-acd2-ec1212b2d7fa"]}
+  }]], "Usage",ExpressionUUID->"ec913871-0fe2-4877-9df5-41703e97a797"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"bdb21fea-01ae-45de-b8d8-9491822a6047"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"cf2b6881-225f-4b34-8629-81e5bbc3ab85"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "17f79d77-0441-45d3-8371-40a491612051"], "Gauge", "RWZ", Cell["\<\
+Gauge of the metric perturbation amplitudes (\"RWZ\", \"Lorenz\", or \"ModRWZ\
+\")\
+\>", "TableText",ExpressionUUID->"369ec4e9-f209-4b0a-9d20-59455ffff0f8"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "c3bdd440-06a6-417f-b02e-513130acb01f"], "Labels", "True", Cell["\<\
+Boolean specifying whether the Keys of the Association should be formatted \
+labels or the order of discontinuity (-1 for jump, -2 for \[Delta], -3 for \
+\[Delta]', etc.)\
+\>", "TableText",ExpressionUUID->"8f7eaef0-f57c-40be-be3f-e5f99bd13291"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "fe670aab-2cea-42af-ba17-375f83c10f91"], "Mode", "Radiative", Cell["\<\
+Discontinuities for which class of modes (\"Radiative\", \"Dipole\", or \
+\"Monopole\")\
+\>", "TableText",ExpressionUUID->"939cb6f7-9248-4176-a50b-df1ac0f05815"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+   "Rows" -> {None, None, {None}}, "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, True, 
+      True}}}},ExpressionUUID->"128041bf-f151-46fc-9858-5d0cccdfd82f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"9c8a4ce5-e21a-49a7-ba44-84b8b7991985"],
+
+Cell[BoxData[""],ExpressionUUID->"fa33b6d9-8770-4ea2-9b26-984738c20c53"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"HttDiscontinuities",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "HttDiscontinuities", "HTTDISCONTINUITIES", "httdiscontinuities"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Discontinuities Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`Discontinuities", "status" -> "None",
+     "summary" -> 
+    "HttDiscontinuities[] returns an Association with discontinuities in htt \
+and its derivatives.\nHttDiscontinuities[{m,n}] returns an Association with \
+discontinuities in the m-th time derivative and n-th r derivative of htt.", 
+    "synonyms" -> {
+     "HttDiscontinuities", "HTTDISCONTINUITIES", "httdiscontinuities"}, 
+    "title" -> "HttDiscontinuities", "windowTitle" -> "HttDiscontinuities", 
+    "type" -> "Symbol", "uri" -> "BlackHoleAnalysis/ref/HttDiscontinuities", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

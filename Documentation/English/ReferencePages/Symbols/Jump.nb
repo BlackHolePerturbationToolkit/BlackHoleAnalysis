@@ -1,0 +1,70 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"970344d4-973b-4d95-8006-6b7b28fe29f6"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["Jump",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/Jump"]
+}], "LinkTrail",ExpressionUUID->"39dfc446-c4bb-4e99-8c96-ac92233b3e73"],
+
+Cell[CellGroupData[{
+
+Cell["Jump", \
+"ObjectName",ExpressionUUID->"bc5684ee-0ee9-4ee9-8dcd-715129da36e4"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[TextData[ButtonBox["Jump",
+      BaseStyle->"Link",
+      ButtonData->"paclet:BlackHoleAnalysis/ref/Jump"]], "InlineFormula",
+      ExpressionUUID->"900290f8-0d9a-469f-bc0e-822f9dd2e145"],
+     "\[LineSeparator][a,b][sym] returns a formatted expression for the jump \
+in the a-th t derivative and b-th r dertivative in sym."
+    }],ExpressionUUID->"ad046bf7-1893-4f03-8abc-1a6ca6374dd6"]}
+  }]], "Usage",ExpressionUUID->"b2854e87-5a15-471d-8b1a-8916d7c8b5f7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"d234c38f-7715-490a-a056-39997b389b7f"],
+
+Cell[BoxData[""],ExpressionUUID->"6f697d39-4eb9-4b9a-8a33-5a9a82f34f1f"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"Jump",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", "keywords" -> {"Jump", "JUMP", "jump"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "Jump[a,b][sym] returns a formatted expression for the jump in the a-th t \
+derivative and b-th r dertivative in sym.", 
+    "synonyms" -> {"Jump", "JUMP", "jump"}, "title" -> "Jump", "windowTitle" -> 
+    "Jump", "type" -> "Symbol", "uri" -> "BlackHoleAnalysis/ref/Jump", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

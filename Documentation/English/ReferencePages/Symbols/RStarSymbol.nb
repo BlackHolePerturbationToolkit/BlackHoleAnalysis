@@ -1,0 +1,74 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"934b569c-6285-4a00-8646-da4955cbf052"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["RStarSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/RStarSymbol"]
+}], "LinkTrail",ExpressionUUID->"24ce633c-1e89-4750-ba41-5a806e7106c0"],
+
+Cell[CellGroupData[{
+
+Cell["RStarSymbol", \
+"ObjectName",ExpressionUUID->"f0f15216-0532-4c63-bfaf-5ca0679c4f46"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["RStarSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/RStarSymbol"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"268e2731-6fde-4b86-b651-cfdb5deb86c7"],
+     
+     "\[LineSeparator]returns the (formatted) symbol for the tortoise \
+coordinate."
+    }],ExpressionUUID->"eac71912-4170-478d-a00b-0ac0df81de7f"]}
+  }]], "Usage",ExpressionUUID->"f8a05e1c-d20c-43a9-9ce0-6af712f51865"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"54327c20-1840-441b-a69e-63f90a88bdb8"],
+
+Cell[BoxData[""],ExpressionUUID->"7aafe75e-b78c-4739-9066-99b98db4b8a2"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"RStarSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"RStarSymbol", "RSTARSYMBOL", "rstarsymbol"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> 
+    "None", "summary" -> 
+    "RStarSymbol[] returns the (formatted) symbol for the tortoise \
+coordinate.", "synonyms" -> {"RStarSymbol", "RSTARSYMBOL", "rstarsymbol"}, 
+    "title" -> "RStarSymbol", "windowTitle" -> "RStarSymbol", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/RStarSymbol", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

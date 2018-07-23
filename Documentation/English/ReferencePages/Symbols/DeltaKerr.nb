@@ -1,0 +1,73 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"e91fe01f-72ce-4966-bb3b-9cd92d6f9ecb"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Coordinates",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Coordinates"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["DeltaKerr",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/DeltaKerr"]
+}], "LinkTrail",ExpressionUUID->"081f3f78-98bb-4c21-8e3f-69cfb2ee6eb1"],
+
+Cell[CellGroupData[{
+
+Cell["DeltaKerr", \
+"ObjectName",ExpressionUUID->"b8ca6a6e-ce12-4bcd-8cfb-57d45684be3b"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["DeltaKerr",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/DeltaKerr"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"716aec37-3a57-470e-9e12-c4ecd7014a9c"],
+     
+     "\[LineSeparator]returns the Kerr quantity Capital Delta."
+    }],ExpressionUUID->"fe1a1e40-ce11-46ff-b946-80b795c71654"]}
+  }]], "Usage",ExpressionUUID->"7e9569b0-c4d7-4812-8b6a-dbe87c12e9b9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"b5a4ce09-0a03-4a59-a34c-a068c695b98c"],
+
+Cell[BoxData[""],ExpressionUUID->"b2a6c244-679b-449c-939b-d17a28aa4471"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"DeltaKerr",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"DeltaKerr", "DELTAKERR", "deltakerr"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Coordinates Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Coordinates", "status" -> 
+    "None", "summary" -> 
+    "DeltaKerr[] returns the Kerr quantity Capital Delta.", 
+    "synonyms" -> {"DeltaKerr", "DELTAKERR", "deltakerr"}, "title" -> 
+    "DeltaKerr", "windowTitle" -> "DeltaKerr", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/DeltaKerr", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

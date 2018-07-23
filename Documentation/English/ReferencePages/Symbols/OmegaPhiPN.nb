@@ -1,0 +1,168 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"e11ecf96-ed89-41be-886c-8c2fd4b02be1"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`PN",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`PN"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["OmegaPhiPN",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/OmegaPhiPN"]
+}], "LinkTrail",ExpressionUUID->"b694cb71-466f-4f25-8344-573e60b9a178"],
+
+Cell[CellGroupData[{
+
+Cell["OmegaPhiPN", \
+"ObjectName",ExpressionUUID->"2ac744bf-3ee7-4cd0-be2a-b2648adbe030"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["OmegaPhiPN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/OmegaPhiPN"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"bd4b838e-1245-4031-9e35-aab762f562ef"],
+     
+     "\[LineSeparator]returns the phi frequency of a particle in an eccentric \
+orbit around a Schwarzschild black hole, expanded to 1 term using the inverse \
+of p, the semi-latus rectum, as the expansion parameter."
+    }],ExpressionUUID->"86febce5-68a4-4e92-b18b-c4690dcbe8f1"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["OmegaPhiPN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/OmegaPhiPN"], "[", 
+       StyleBox["par", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "672109bd-25eb-4ae4-8f58-ac0587e1c389"],
+     "\[LineSeparator]returns the phi frequency expanded to 1 term, using par \
+(\"p\" or \"x\") as the expansion parameter."
+    }],ExpressionUUID->"92ab78e4-1f25-4b1d-a3f6-302962de61ed"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["OmegaPhiPN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/OmegaPhiPN"], "[", 
+       StyleBox[
+        RowBox[{"n", ",", "par"}], "TI"], "]"}]], "InlineFormula",
+      ExpressionUUID->"f0d53864-3d7f-4e3a-956b-0255f13eb3dc"],
+     "\[LineSeparator]returns the phi frequency expanded to n terms, using \
+par (\"p\" or \"x\") as the expansion parameter."
+    }],ExpressionUUID->"39dd5224-2646-46fb-abec-095f8e9d230a"]}
+  }]], "Usage",ExpressionUUID->"7f599bdd-1ce8-4d3e-9a0f-91b52def9c47"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"a53d8d55-2229-4a99-ba7c-dff17bb39f3a"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"30737679-3e3e-4ed6-acc7-fb0c898fc183"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "bca4916c-de46-48a7-9536-86d7df359452"], "Metric", "Schwarzschild", 
+    Cell["\<\
+Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
+\>", "TableText",ExpressionUUID->"63f5c926-61f2-4f13-a635-e6bcb4da04fa"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"30800fce-d072-4eea-854c-e141d728ecdb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"60815cad-a34a-449f-b369-c408c2af6a44"],
+
+Cell[BoxData[""],ExpressionUUID->"bd7c9314-bb8d-4c5b-8773-63c2dc8d84fb"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"OmegaPhiPN",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"OmegaPhiPN", "OMEGAPHIPN", "omegaphipn"}, "index" -> True,
+     "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`PN Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`PN", "status" -> "None", "summary" -> 
+    "OmegaPhiPN[] returns the phi frequency of a particle in an eccentric \
+orbit around a Schwarzschild black hole, expanded to 1 term using the inverse \
+of p, the semi-latus rectum, as the expansion parameter.\nOmegaPhiPN[par] \
+returns the phi frequency expanded to 1 term, using par (\"p\" or \"x\") as \
+the expansion parameter.\nOmegaPhiPN[n,par] returns the phi frequency \
+expanded to n terms, using par (\"p\" or \"x\") as the expansion parameter.", 
+    "synonyms" -> {"OmegaPhiPN", "OMEGAPHIPN", "omegaphipn"}, "title" -> 
+    "OmegaPhiPN", "windowTitle" -> "OmegaPhiPN", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/OmegaPhiPN", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

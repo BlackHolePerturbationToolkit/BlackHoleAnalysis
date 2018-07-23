@@ -1,0 +1,77 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"9d8e209c-5fc6-4208-baa7-65b17360df3e"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`SchwEqs",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`SchwEqs"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["EvenMasterFunctionAsOdd",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/EvenMasterFunctionAsOdd"]
+}], "LinkTrail",ExpressionUUID->"7d2c7677-026e-476c-93dc-de64d8e9c881"],
+
+Cell[CellGroupData[{
+
+Cell["EvenMasterFunctionAsOdd", \
+"ObjectName",ExpressionUUID->"b0d514f5-e3fb-4dd8-b114-472cf1af4953"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["EvenMasterFunctionAsOdd",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/EvenMasterFunctionAsOdd"], 
+       "[", "]"}]], "InlineFormula",ExpressionUUID->
+      "5679c2b5-a875-4451-9f83-19123db8803c"],
+     "\[LineSeparator]returns the frequency domain even-parity master \
+function written in terms of the odd-parity function."
+    }],ExpressionUUID->"2fcd366f-7cf2-4c6d-9a11-150ded8fd936"]}
+  }]], "Usage",ExpressionUUID->"6b6c187d-1ecd-4342-ac5f-3f14aea6f327"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"281ea639-09e5-44cf-8039-8deeebb9a649"],
+
+Cell[BoxData[""],ExpressionUUID->"aeb07ce1-f419-49ca-8a1b-9ca62b8fd162"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"EvenMasterFunctionAsOdd",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "EvenMasterFunctionAsOdd", "EVENMASTERFUNCTIONASODD", 
+      "evenmasterfunctionasodd"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`SchwEqs Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`SchwEqs", "status" -> "None", "summary" -> 
+    "EvenMasterFunctionAsOdd[] returns the frequency domain even-parity \
+master function written in terms of the odd-parity function.", 
+    "synonyms" -> {
+     "EvenMasterFunctionAsOdd", "EVENMASTERFUNCTIONASODD", 
+      "evenmasterfunctionasodd"}, "title" -> "EvenMasterFunctionAsOdd", 
+    "windowTitle" -> "EvenMasterFunctionAsOdd", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/EvenMasterFunctionAsOdd", "WorkflowDockedCell" -> 
+    ""}, "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

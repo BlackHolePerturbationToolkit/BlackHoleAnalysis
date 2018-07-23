@@ -1,0 +1,75 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"5c9253af-d5ad-4703-852c-3de8e4f321e2"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["DeltaPhiSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/DeltaPhiSymbol"]
+}], "LinkTrail",ExpressionUUID->"4750aac0-4feb-4e15-bbff-0953a794bbbe"],
+
+Cell[CellGroupData[{
+
+Cell["DeltaPhiSymbol", \
+"ObjectName",ExpressionUUID->"54dc6595-4d06-4390-9cc4-6efd1a19fc62"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["DeltaPhiSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/DeltaPhiSymbol"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "c4678747-199a-4c18-9c20-2ffefd9b6849"],
+     "\[LineSeparator]returns the symbol for 'Delta phi', the azimuthal \
+particle location phi with the average phi advance subtracted."
+    }],ExpressionUUID->"47114778-3b5f-4d28-b04e-0bd997192ec2"]}
+  }]], "Usage",ExpressionUUID->"6c1e7d46-2551-4d17-b0cf-b5e6b1d3c3da"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"cb0dc606-1beb-40f3-bd2c-100d25bde413"],
+
+Cell[BoxData[""],ExpressionUUID->"82f81c8f-1f06-4f54-8f0d-8dda4f7515fa"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"DeltaPhiSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"DeltaPhiSymbol", "DELTAPHISYMBOL", "deltaphisymbol"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "DeltaPhiSymbol[] returns the symbol for 'Delta phi', the azimuthal \
+particle location phi with the average phi advance subtracted.", 
+    "synonyms" -> {"DeltaPhiSymbol", "DELTAPHISYMBOL", "deltaphisymbol"}, 
+    "title" -> "DeltaPhiSymbol", "windowTitle" -> "DeltaPhiSymbol", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/DeltaPhiSymbol", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

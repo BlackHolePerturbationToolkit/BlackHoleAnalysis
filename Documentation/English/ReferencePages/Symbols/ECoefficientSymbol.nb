@@ -1,0 +1,77 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"3b9b331e-1dab-4be1-8c6e-dc082ee322a5"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["ECoefficientSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/ECoefficientSymbol"]
+}], "LinkTrail",ExpressionUUID->"9c4c0a75-3966-4d03-8fcd-d69135d1e164"],
+
+Cell[CellGroupData[{
+
+Cell["ECoefficientSymbol", \
+"ObjectName",ExpressionUUID->"18854cd5-d6f3-492b-93ec-b4a5127228b7"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["ECoefficientSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/ECoefficientSymbol"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "5916787c-1fa2-41c7-9674-dde22b559e3c"],
+     "\[LineSeparator]returns the symbol for E, the coefficients of the \
+higher-order derivatives of the Dirac delta function."
+    }],ExpressionUUID->"9267edf0-d555-48cd-b4a4-79b5bc571b82"]}
+  }]], "Usage",ExpressionUUID->"8e8b1164-b2e9-4da7-80f7-c09a064309a9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"78add460-029d-42b5-a11c-6686d54dccba"],
+
+Cell[BoxData[""],ExpressionUUID->"7e8abf25-2b73-4456-9c44-dd08786a84f4"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"ECoefficientSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "ECoefficientSymbol", "ECOEFFICIENTSYMBOL", "ecoefficientsymbol"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "ECoefficientSymbol[] returns the symbol for E, the coefficients of the \
+higher-order derivatives of the Dirac delta function.", 
+    "synonyms" -> {
+     "ECoefficientSymbol", "ECOEFFICIENTSYMBOL", "ecoefficientsymbol"}, 
+    "title" -> "ECoefficientSymbol", "windowTitle" -> "ECoefficientSymbol", 
+    "type" -> "Symbol", "uri" -> "BlackHoleAnalysis/ref/ECoefficientSymbol", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

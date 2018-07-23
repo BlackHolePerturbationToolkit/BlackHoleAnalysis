@@ -1,0 +1,73 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"0f182681-342d-45f3-8b1c-ed733e0653dd"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["XPNSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/XPNSymbol"]
+}], "LinkTrail",ExpressionUUID->"c0978a7c-df92-46c2-a2e8-cf6dd43b92b4"],
+
+Cell[CellGroupData[{
+
+Cell["XPNSymbol", \
+"ObjectName",ExpressionUUID->"61cc13eb-35b4-48bd-b631-6fb4cd30f0ad"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["XPNSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/XPNSymbol"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"5c7cec79-703e-4f8e-a0c7-78a6ebdd7b72"],
+     
+     "\[LineSeparator]returns the (formatted) symbol for xPN, the \
+post-Newtonian parameter."
+    }],ExpressionUUID->"32841227-c402-4c89-bca5-89444a28add3"]}
+  }]], "Usage",ExpressionUUID->"9debb2e2-5535-442d-bae4-d4a24ad4e473"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"ded29af6-0ae4-4070-86be-b7f285e9c381"],
+
+Cell[BoxData[""],ExpressionUUID->"e60056dc-9d76-4c30-b864-1b5ecfd91290"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"XPNSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"XPNSymbol", "XPNSYMBOL", "xpnsymbol"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> 
+    "None", "summary" -> 
+    "XPNSymbol[] returns the (formatted) symbol for xPN, the post-Newtonian \
+parameter.", "synonyms" -> {"XPNSymbol", "XPNSYMBOL", "xpnsymbol"}, "title" -> 
+    "XPNSymbol", "windowTitle" -> "XPNSymbol", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/XPNSymbol", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

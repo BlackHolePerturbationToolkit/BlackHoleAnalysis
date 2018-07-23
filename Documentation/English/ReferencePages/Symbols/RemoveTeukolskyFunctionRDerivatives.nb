@@ -1,0 +1,152 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"7b7f1b04-f0a5-4b1f-ae99-5329c3bd0af7"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`KerrEqs",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`KerrEqs"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["RemoveTeukolskyFunctionRDerivatives",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/ref/RemoveTeukolskyFunctionRDerivatives"]
+}], "LinkTrail",ExpressionUUID->"ef72086b-7c3b-48e7-96e8-76a048d7c1a6"],
+
+Cell[CellGroupData[{
+
+Cell["RemoveTeukolskyFunctionRDerivatives", \
+"ObjectName",ExpressionUUID->"6a9a248a-a689-4714-9798-f3fd422f87b6"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["RemoveTeukolskyFunctionRDerivatives",
+        BaseStyle->"Link",
+        ButtonData->
+         "paclet:BlackHoleAnalysis/ref/RemoveTeukolskyFunctionRDerivatives"], 
+       "[", 
+       StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "e0532127-f96d-4749-96cb-66c8c041af2c"],
+     "\[LineSeparator]uses the radial Teukolsky equation to remove all r \
+derivatives of the Teukolsky function higher than the first."
+    }],ExpressionUUID->"22cea152-90aa-45f3-93c9-18d6580aad06"]}
+  }]], "Usage",ExpressionUUID->"aead59ce-7774-4415-a8b9-618543a46a44"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"21e8f8e6-a00d-4ffc-a318-9fcf0a93647a"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"374545d1-4f26-470b-bdf8-546a39d0111f"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "4b4af5db-ab54-44b4-8190-d67bcf086db0"], "SpinWeight", 
+    RowBox[{"-", "2"}], Cell["\<\
+Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
+\>", "TableText",ExpressionUUID->"30c5107d-fbbd-405c-84be-515c8475431e"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"f167677d-9a64-4b57-b07a-b8513b9c7bb8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"ffdb6cc2-caf0-47dd-ba2e-4eb92da3c4f6"],
+
+Cell[BoxData[""],ExpressionUUID->"89588ba2-b873-4f8e-a7c8-ad987c687291"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"RemoveTeukolskyFunctionRDerivatives",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "RemoveTeukolskyFunctionRDerivatives", 
+      "REMOVETEUKOLSKYFUNCTIONRDERIVATIVES", 
+      "removeteukolskyfunctionrderivatives"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`KerrEqs Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`KerrEqs", "status" -> "None", "summary" -> 
+    "RemoveTeukolskyFunctionRDerivatives[expr] uses the radial Teukolsky \
+equation to remove all r derivatives of the Teukolsky function higher than \
+the first.", 
+    "synonyms" -> {
+     "RemoveTeukolskyFunctionRDerivatives", 
+      "REMOVETEUKOLSKYFUNCTIONRDERIVATIVES", 
+      "removeteukolskyfunctionrderivatives"}, "title" -> 
+    "RemoveTeukolskyFunctionRDerivatives", "windowTitle" -> 
+    "RemoveTeukolskyFunctionRDerivatives", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/RemoveTeukolskyFunctionRDerivatives", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

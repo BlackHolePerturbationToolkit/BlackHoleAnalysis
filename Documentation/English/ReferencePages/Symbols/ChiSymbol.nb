@@ -1,0 +1,72 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"fcd10d99-a0f9-470e-ab49-88a4943af640"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["ChiSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/ChiSymbol"]
+}], "LinkTrail",ExpressionUUID->"21a4594a-cbab-4c2c-b6dd-fba929bcfab6"],
+
+Cell[CellGroupData[{
+
+Cell["ChiSymbol", \
+"ObjectName",ExpressionUUID->"39e7bde4-7e64-4d1b-97c1-c2fddfbec7d9"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["ChiSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/ChiSymbol"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"09527d5a-2a12-48f4-9003-9207292af198"],
+     
+     "\[LineSeparator]returns the symbol for Darwin parameter chi."
+    }],ExpressionUUID->"88f5be1f-56b7-473d-87ed-eedb4aa29ee5"]}
+  }]], "Usage",ExpressionUUID->"3012d5fa-56d1-428d-af23-5002e0859845"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"9ed17cfa-3d3e-4c5a-91cb-c7603c3e31bc"],
+
+Cell[BoxData[""],ExpressionUUID->"aa1430c8-eada-468c-8a8b-799b73ae7f82"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"ChiSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"ChiSymbol", "CHISYMBOL", "chisymbol"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> 
+    "None", "summary" -> 
+    "ChiSymbol[] returns the symbol for Darwin parameter chi.", 
+    "synonyms" -> {"ChiSymbol", "CHISYMBOL", "chisymbol"}, "title" -> 
+    "ChiSymbol", "windowTitle" -> "ChiSymbol", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/ChiSymbol", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

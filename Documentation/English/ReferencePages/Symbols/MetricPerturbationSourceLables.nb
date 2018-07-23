@@ -1,0 +1,158 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"366f3464-6036-47a1-8aa4-314face0b618"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Labels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Labels"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["MetricPerturbationSourceLables",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/MetricPerturbationSourceLables"]
+}], "LinkTrail",ExpressionUUID->"8c017ed0-036c-4cc1-a7e3-abd6a3ad57ae"],
+
+Cell[CellGroupData[{
+
+Cell["MetricPerturbationSourceLables", \
+"ObjectName",ExpressionUUID->"0b524755-6624-4000-b033-7dcf36bfdd9e"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["MetricPerturbationSourceLables",
+        BaseStyle->"Link",
+        ButtonData->
+         "paclet:BlackHoleAnalysis/ref/MetricPerturbationSourceLables"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "4c902ee7-d6b2-471d-a22f-0fce755fc418"],
+     "\[LineSeparator]returns a list of strings that label the metric \
+perturbation amplitude source terms."
+    }],ExpressionUUID->"bf1eff04-37ee-4255-b613-15605871d822"]}
+  }]], "Usage",ExpressionUUID->"4229d8fb-8277-494a-99e5-2c02a15fbce5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"c2b90ff7-1572-4625-b9a4-92681283af7b"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"1cb4fe4f-c171-4e3b-a1a0-dcad5632ad9a"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "6eab2253-3e98-42e6-bf5e-30b6d4df0a26"], "Gauge", "Lorenz", Cell["\<\
+Gauge, restricting labels based on which spherical harmonic amplitudes are \
+chosen to be non-zero (\"RWZ\", \"ModRWZ\", \"Lorenz\", \"Undefined\",  \
+\"Invariant\", or Null)\
+\>", "TableText",ExpressionUUID->"07385331-340d-415a-ac35-29ec39627480"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "016c73dd-8de0-4aba-8cc3-870536f50859"], "Mode", "Radiative", Cell["\<\
+l mode, restricting labels based on which spherical harmonic amplitudes are \
+defined, (\"Radiative\", \"Dipole\", or \"Monopole\")\
+\>", "TableText",ExpressionUUID->"a88ded4c-86a1-440a-903a-2bca6f64dd59"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "511886ba-3675-4486-a2cd-1ee46c2e4e0d"], "Parity", "Both", Cell["\<\
+Specifies which parities to include, (\"Even\", \"Odd\", or \"Both\")\
+\>", "TableText",ExpressionUUID->"fad3c6aa-af35-4687-a2e4-138ffbedbe9b"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+   "Rows" -> {None, None, {None}}, "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, True, 
+      True}}}},ExpressionUUID->"4dd78650-b903-4342-901c-a894c2616f31"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"c58d4345-277a-4903-b93c-b5b157a115d8"],
+
+Cell[BoxData[""],ExpressionUUID->"376e7b36-8937-4294-aa22-71de4f3328d8"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"MetricPerturbationSourceLables",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "MetricPerturbationSourceLables", "METRICPERTURBATIONSOURCELABLES", 
+      "metricperturbationsourcelables"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Labels Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Labels", "status" -> "None", "summary" -> 
+    "MetricPerturbationSourceLables[] returns a list of strings that label \
+the metric perturbation amplitude source terms.", 
+    "synonyms" -> {
+     "MetricPerturbationSourceLables", "METRICPERTURBATIONSOURCELABLES", 
+      "metricperturbationsourcelables"}, "title" -> 
+    "MetricPerturbationSourceLables", "windowTitle" -> 
+    "MetricPerturbationSourceLables", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/MetricPerturbationSourceLables", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

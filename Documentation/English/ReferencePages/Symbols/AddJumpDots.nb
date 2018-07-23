@@ -1,0 +1,76 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"c47ac2f5-f01d-4d8c-b07f-3d8c772e5f54"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`AnalyticTools",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`AnalyticTools"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["AddJumpDots",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/AddJumpDots"]
+}], "LinkTrail",ExpressionUUID->"b376c03b-a879-4f76-aef7-381878951f92"],
+
+Cell[CellGroupData[{
+
+Cell["AddJumpDots", \
+"ObjectName",ExpressionUUID->"1266359f-92f5-4f9b-9872-904726d4158f"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["AddJumpDots",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/AddJumpDots"], "[", 
+       StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "533e76d8-f189-42eb-abbb-b47fddee44e9"],
+     "\[LineSeparator]converts jumps in t derivatives in expr to time \
+derivatives of jumps and jumps in r derivatives."
+    }],ExpressionUUID->"efc70929-b6d2-440a-82c4-fad8e11870de"]}
+  }]], "Usage",ExpressionUUID->"ff36513b-f102-4270-a773-7c88d2713945"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"e3786700-a1b2-41f7-bb4d-b6d31c298453"],
+
+Cell[BoxData[""],ExpressionUUID->"7b4035b7-e02e-4aea-b35e-c587346b1a47"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"AddJumpDots",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"AddJumpDots", "ADDJUMPDOTS", "addjumpdots"}, "index" -> 
+    True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`AnalyticTools Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`AnalyticTools", "status" -> "None", 
+    "summary" -> 
+    "AddJumpDots[expr] converts jumps in t derivatives in expr to time \
+derivatives of jumps and jumps in r derivatives.", 
+    "synonyms" -> {"AddJumpDots", "ADDJUMPDOTS", "addjumpdots"}, "title" -> 
+    "AddJumpDots", "windowTitle" -> "AddJumpDots", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/AddJumpDots", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

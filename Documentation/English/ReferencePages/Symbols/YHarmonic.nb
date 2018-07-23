@@ -1,0 +1,165 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"9754ce12-67b6-47cf-8d92-976696d26864"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Harmonics",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Harmonics"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["YHarmonic",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/YHarmonic"]
+}], "LinkTrail",ExpressionUUID->"34d83b5b-4c99-4056-9d00-78a75a1cd19a"],
+
+Cell[CellGroupData[{
+
+Cell["YHarmonic", \
+"ObjectName",ExpressionUUID->"8c44ceb3-d4b0-4796-8e40-b12b48f45853"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["YHarmonic",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/YHarmonic"], "[", 
+       StyleBox[
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"l", ",", "m"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"theta", ",", "phi"}], "}"}]}], "TI"], "]"}]], 
+      "InlineFormula",ExpressionUUID->"11c1f5c7-c919-43b8-bd0e-b5030bd211f5"],
+     
+     "\[LineSeparator]returns the scalar spherical harmonic Y_lm[theta,phi]. \
+"
+    }],ExpressionUUID->"9b20a3ab-7e9a-41ad-9e67-eba0c6b92af9"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["YHarmonic",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/YHarmonic"], "[", 
+       StyleBox[
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"l", ",", "m"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"theta", ",", "phi"}], "}"}], ",", "s"}], "TI"], "]"}]], 
+      "InlineFormula",ExpressionUUID->"d7124580-6ad1-465b-8300-5195d04c4d14"],
+     
+     "\[LineSeparator]returns the spin-weighted spherical harmonic _s \
+Y_lm[theta,phi]."
+    }],ExpressionUUID->"50d09ce6-51dc-4f20-9fef-d3a5dfce9cb9"]}
+  }]], "Usage",ExpressionUUID->"ac043256-6cad-4b86-a893-bfd5f25bacb3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"e4ee04d6-4cd2-4fda-b7b1-d8242b199c18"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"2dba94d5-42d6-4dd3-b36f-37ed111ac530"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "1778d5da-b828-4ec7-b2e6-cda883b7c418"], "Phi", "True", Cell["\<\
+Boolean specifying whether to include the phi factor with the spherical \
+harmonic\
+\>", "TableText",ExpressionUUID->"87c6748d-8541-45b8-8fcc-5286406358fc"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"1f8c6f83-ad6e-4f6f-bdb0-4b12ba71b743"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"cfb478fb-96fa-4d75-ab5d-f91ef95d82c5"],
+
+Cell[BoxData[""],ExpressionUUID->"2217ff97-8904-4a6e-87f1-1d241ad95830"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"YHarmonic",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"YHarmonic", "YHARMONIC", "yharmonic"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Harmonics Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Harmonics", "status" -> 
+    "None", "summary" -> 
+    "YHarmonic[{l,m},{theta,phi}] returns the scalar spherical harmonic \
+Y_lm[theta,phi]. \nYHarmonic[{l,m},{theta,phi},s] returns the spin-weighted \
+spherical harmonic _s Y_lm[theta,phi].", 
+    "synonyms" -> {"YHarmonic", "YHARMONIC", "yharmonic"}, "title" -> 
+    "YHarmonic", "windowTitle" -> "YHarmonic", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/YHarmonic", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

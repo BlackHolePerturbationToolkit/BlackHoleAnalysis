@@ -1,0 +1,175 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"dd336be5-a26c-46c1-b460-f2025618f694"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`SchwEqs",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`SchwEqs"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["RemoveMasterFunctionRDerivatives",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/ref/RemoveMasterFunctionRDerivatives"]
+}], "LinkTrail",ExpressionUUID->"e6c1aaca-6c45-4e68-a4da-6d27ab8e19ad"],
+
+Cell[CellGroupData[{
+
+Cell["RemoveMasterFunctionRDerivatives", \
+"ObjectName",ExpressionUUID->"ad84208c-33f9-48d0-a974-b4587f4bd354"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["RemoveMasterFunctionRDerivatives",
+        BaseStyle->"Link",
+        ButtonData->
+         "paclet:BlackHoleAnalysis/ref/RemoveMasterFunctionRDerivatives"], 
+       "[", 
+       StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "f30af584-d60e-4b68-bc6a-4812392848ac"],
+     "\[LineSeparator]uses the master equation to remove all r derivatives of \
+the master function higher than the first."
+    }],ExpressionUUID->"44075382-065f-4e87-84fb-3b1eb0b8c46c"]}
+  }]], "Usage",ExpressionUUID->"62157e37-cd97-484a-9b5e-b903ac37ebca"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"bdba977b-0678-4a09-a84a-8a453434703f"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"6ddc08af-8d1a-4da5-988f-804daf782009"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "5777eaf4-7be5-4ac8-b876-1e8add7fbe39"], "FD", "False", Cell["\<\
+Boolean stating whether to remove higher r derivatives using the frequency \
+domain master equation\
+\>", "TableText",ExpressionUUID->"4dbf0091-c160-4b4f-94f5-a65717082449"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "98967b8c-4da7-4aa6-ad85-78e0f6525ff5"], "Homogeneous", "False", Cell["\<\
+Boolean stating whether to remove higher r derivatives using the homogeneous \
+master equation\
+\>", "TableText",ExpressionUUID->"c09b438e-477a-4906-8da9-ce6ea2656ca1"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "5a5c42f1-33f7-48b3-a527-1efb5d6f83a4"], "Parity", "Default", Cell["\<\
+Parity of the master function (Default, \"Even\", or \"Odd\"). Choosing \
+Default allows \"Parity\" to be set by the \"Variable\" Option. When both \
+Options are Default, the \"Parity\" is \"Even\".\
+\>", "TableText",ExpressionUUID->"21a1e3a8-3f5f-4758-8606-f7c5f1d275a1"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "4129c843-46ce-419a-8029-e49ff25c6bcb"], "SourceExpansion", "Partial", 
+    Cell["\<\
+States to what extent source terms should be expanded, (\"Full\", \
+\"Partial\", or \"None\")\
+\>", "TableText",ExpressionUUID->"135d80c0-9cef-4adf-abd9-eb8099aa2a61"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "022edeb6-82e4-4b5b-9565-e4c95c4804df"], "Variable", "Default", 
+    Cell["\<\
+The specific master function variable to use (Default, \"ZM\", \"ZM1\", ... \
+\"ZM7\" and \"CPM\", \"CPM1\", ... \"CPM6\"). Choosing Default is equivalent \
+to \"ZM\" when \"Parity\"->\"Even\" and \"CPM\" when \"Parity\"->\"Odd\". \
+When both Options are Default, the \"Parity\" is \"Even\".\
+\>", "TableText",ExpressionUUID->"152e95d5-b61b-4c21-b23a-071c1aadf166"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+   "Rows" -> {None, None, None, None, {None}}, "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, True, True, True, 
+      True}}}},ExpressionUUID->"ed5f0907-0a91-40d7-9a9d-32c0b2f9b5c3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"d8619ae8-51ce-49d5-b01c-f5fd5af37ad7"],
+
+Cell[BoxData[""],ExpressionUUID->"0f1b710c-6fac-45c2-b3f3-9458b0fc7a93"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"RemoveMasterFunctionRDerivatives",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "RemoveMasterFunctionRDerivatives", "REMOVEMASTERFUNCTIONRDERIVATIVES", 
+      "removemasterfunctionrderivatives"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`SchwEqs Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`SchwEqs", "status" -> "None", "summary" -> 
+    "RemoveMasterFunctionRDerivatives[expr] uses the master equation to \
+remove all r derivatives of the master function higher than the first.", 
+    "synonyms" -> {
+     "RemoveMasterFunctionRDerivatives", "REMOVEMASTERFUNCTIONRDERIVATIVES", 
+      "removemasterfunctionrderivatives"}, "title" -> 
+    "RemoveMasterFunctionRDerivatives", "windowTitle" -> 
+    "RemoveMasterFunctionRDerivatives", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/RemoveMasterFunctionRDerivatives", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

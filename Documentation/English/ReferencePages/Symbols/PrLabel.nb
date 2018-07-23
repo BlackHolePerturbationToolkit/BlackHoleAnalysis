@@ -1,0 +1,73 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"b7801c54-f3c5-4e83-a613-af7cf16cab61"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Labels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Labels"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["PrLabel",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/PrLabel"]
+}], "LinkTrail",ExpressionUUID->"5da23ade-5ad7-4b6f-88a9-fb4bf278d799"],
+
+Cell[CellGroupData[{
+
+Cell["PrLabel", \
+"ObjectName",ExpressionUUID->"1ec3e755-196d-4ed8-9825-00a50b299504"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["PrLabel",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/PrLabel"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"2ebfb352-e5bc-44cd-9b0b-8c69a3d4942b"],
+     
+     "\[LineSeparator]returns the string treated as a label for the metric \
+perturbation amplitude source term Pr"
+    }],ExpressionUUID->"9ef5365b-8647-463a-a69e-23f57b5c04e3"]}
+  }]], "Usage",ExpressionUUID->"20bc2cf8-09c1-43b6-a994-b1b02ad89d93"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"da2dc8f5-2919-49df-94cc-0c1ecc5014d3"],
+
+Cell[BoxData[""],ExpressionUUID->"edb4a7a9-2d08-4c1b-a24d-ba9f3752b4ca"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"PrLabel",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"PrLabel", "PRLABEL", "prlabel"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Labels Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Labels", "status" -> "None", "summary" -> 
+    "PrLabel[] returns the string treated as a label for the metric \
+perturbation amplitude source term Pr", 
+    "synonyms" -> {"PrLabel", "PRLABEL", "prlabel"}, "title" -> "PrLabel", 
+    "windowTitle" -> "PrLabel", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/PrLabel", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

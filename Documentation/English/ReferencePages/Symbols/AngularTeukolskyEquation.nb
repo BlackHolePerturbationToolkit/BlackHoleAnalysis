@@ -1,0 +1,143 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"c9382557-8bca-4904-ae82-959e2dd48601"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`KerrEqs",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`KerrEqs"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["AngularTeukolskyEquation",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/AngularTeukolskyEquation"]
+}], "LinkTrail",ExpressionUUID->"7fb1b86a-7434-4b9c-8bd0-04d094dfcee9"],
+
+Cell[CellGroupData[{
+
+Cell["AngularTeukolskyEquation", \
+"ObjectName",ExpressionUUID->"b9770e81-a6f8-4fb4-bbc7-c8a3a26da36c"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["AngularTeukolskyEquation",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/AngularTeukolskyEquation"], 
+       "[", "]"}]], "InlineFormula",ExpressionUUID->
+      "cd3b8b8b-84d7-4644-9b74-dd2151d71b56"],
+     "\[LineSeparator]returns the angular Teukolsky equation."
+    }],ExpressionUUID->"0d440afc-4f77-4514-bb2c-a1cc90a0ed2c"]}
+  }]], "Usage",ExpressionUUID->"24769294-719e-4312-a58c-11615a6a6b95"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"aae1b04f-d629-4f9c-a20e-563931ff3a1a"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"7d22a662-bae1-4991-89ed-21b03521a42e"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "752146d4-30e8-4d8b-a955-84addb26ec6d"], "SpinWeight", 
+    RowBox[{"-", "2"}], Cell["\<\
+Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
+\>", "TableText",ExpressionUUID->"6756bc9d-4a35-429f-9e04-e197d9512ffa"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"edc8e6d5-e22e-4aa0-8a2a-6aa9dbc4f4b9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"a6edc384-903a-4de0-b17b-316130fdedc9"],
+
+Cell[BoxData[""],ExpressionUUID->"caef092d-eec9-4b47-b4d2-4e557d566c33"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"AngularTeukolskyEquation",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "AngularTeukolskyEquation", "ANGULARTEUKOLSKYEQUATION", 
+      "angularteukolskyequation"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`KerrEqs Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`KerrEqs", "status" -> "None", "summary" -> 
+    "AngularTeukolskyEquation[] returns the angular Teukolsky equation.", 
+    "synonyms" -> {
+     "AngularTeukolskyEquation", "ANGULARTEUKOLSKYEQUATION", 
+      "angularteukolskyequation"}, "title" -> "AngularTeukolskyEquation", 
+    "windowTitle" -> "AngularTeukolskyEquation", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/AngularTeukolskyEquation", "WorkflowDockedCell" -> 
+    ""}, "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> 
+  False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

@@ -1,0 +1,155 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"813131c6-95f8-41c9-b787-d0a06479135f"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`SchwEqs",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`SchwEqs"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["GaugeTransformationSources",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/GaugeTransformationSources"]
+}], "LinkTrail",ExpressionUUID->"f305c4fb-fb15-48a8-b425-5fcf7b6f27fb"],
+
+Cell[CellGroupData[{
+
+Cell["GaugeTransformationSources", \
+"ObjectName",ExpressionUUID->"d979e203-5360-45e6-b39e-14c0fe701cfe"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell["\<\
+GaugeTransformationEquations[] returns the source terms of the metric \
+perturbation amplitude gauge transformation equations for a transformation \
+from RWZ to Lorenz gauge.\
+\>",ExpressionUUID->"18f4bc20-574e-4295-8817-03b75fc31a6b"]}
+  }]], "Usage",ExpressionUUID->"e4a2c6a3-dcab-467c-9a03-7005fe8c1900"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"32681c9c-9d6d-4de4-ba8d-9bb5ec05d309"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"af624630-ab5d-481e-a21f-16e587ebafac"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "6184635d-e0ae-4a4a-bc2e-e8f22782b27c"], "Parity", "Even", Cell["\<\
+Specifies which parities to include, (\"Even\", \"Odd\", or \"Both\")\
+\>", "TableText",ExpressionUUID->"608bf40b-d64f-44ed-a0b8-8e3fdc630435"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "407dba5b-11ce-4dbc-8789-d90a15bed018"], "Reconstruct", "False", Cell["\<\
+Boolean stating whether to write metric perturbation amplitudes in terms of \
+the master function\
+\>", "TableText",ExpressionUUID->"eaac1c7c-41e6-4b57-b6e7-5dff50bc3ede"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "63942699-259d-4554-aa3d-9e177bbf9406"], "SourceExpansion", "None", 
+    Cell["\<\
+States to what extent source terms should be expanded, (\"Full\", \
+\"Partial\", or \"None\")\
+\>", "TableText",ExpressionUUID->"8ffb886d-d9ff-4fb8-8f41-07d310ee0f1a"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "823af93f-c835-4cbd-bf3c-0e079677a929"], "Weak", "False", Cell["\<\
+Boolean stating whether the amplitudes should be given in a weak form\
+\>", "TableText",ExpressionUUID->"af2a2e9b-d5b1-4629-b4cf-049ae9bb3c00"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+   "Rows" -> {None, None, None, {None}}, "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, True, True, 
+      True}}}},ExpressionUUID->"c2f02555-94ac-4726-9e45-ca8c3f7fe11b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"2f0fa209-da8b-4537-b589-567fddd60653"],
+
+Cell[BoxData[""],ExpressionUUID->"70d51079-e1ab-4ab7-8f3d-4f37b90239cf"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"GaugeTransformationSources",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "GaugeTransformationSources", "GAUGETRANSFORMATIONSOURCES", 
+      "gaugetransformationsources"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`SchwEqs Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`SchwEqs", "status" -> "None", "summary" -> 
+    "GaugeTransformationEquations[] returns the source terms of the metric \
+perturbation amplitude gauge transformation equations for a transformation \
+from RWZ to Lorenz gauge.", 
+    "synonyms" -> {
+     "GaugeTransformationSources", "GAUGETRANSFORMATIONSOURCES", 
+      "gaugetransformationsources"}, "title" -> "GaugeTransformationSources", 
+    "windowTitle" -> "GaugeTransformationSources", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/GaugeTransformationSources", "WorkflowDockedCell" -> 
+    ""}, "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> 
+  False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

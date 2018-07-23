@@ -1,0 +1,163 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"2d93b526-f343-4c83-a74d-92980e7dc5f4"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`SchwEqs",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`SchwEqs"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["MasterFunctionAsTeukolskyFunction",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/MasterFunctionAsTeukolskyFunction"]
+}], "LinkTrail",ExpressionUUID->"26ad52e3-604d-48f3-8e3f-e247e50a991b"],
+
+Cell[CellGroupData[{
+
+Cell["MasterFunctionAsTeukolskyFunction", \
+"ObjectName",ExpressionUUID->"7e7da75e-9182-41db-9dc9-95eb8c72bf14"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["MasterFunctionAsTeukolskyFunction",
+        BaseStyle->"Link",
+        ButtonData->
+         "paclet:BlackHoleAnalysis/ref/MasterFunctionAsTeukolskyFunction"], 
+       "[", "]"}]], "InlineFormula",ExpressionUUID->
+      "d8514ad4-635b-4cdf-9396-cac31021d7b6"],
+     "\[LineSeparator]returns the frequency domain master function written in \
+terms of the Teukolsky function and its first r derivative."
+    }],ExpressionUUID->"682d947b-ce9b-4faf-87fe-00a80fbd6821"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["MasterFunctionAsTeukolskyFunction",
+        BaseStyle->"Link",
+        ButtonData->
+         "paclet:BlackHoleAnalysis/ref/MasterFunctionAsTeukolskyFunction"], 
+       "[", 
+       StyleBox["n", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "c33c2f30-5385-484d-a30a-9a7cc7976ed8"],
+     "\[LineSeparator]returns the nth r derivative frequency domain master \
+function written in terms of the Teukolsky function and its first r \
+derivative."
+    }],ExpressionUUID->"f5cf45be-95b5-4ff9-8753-7a46bf7aa1a3"]}
+  }]], "Usage",ExpressionUUID->"061ad2e6-47a7-4d8b-bfd6-1e49037dd04f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"a4ad2d1c-9dfd-4c63-8da8-99a59ca371a6"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"b81a910c-67f0-4adf-b14a-ace78b282677"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "b0708ba7-6974-40fe-a8f1-9d3fd716aa58"], "Parity", "Even", Cell["\<\
+Specifies the parity of the master function, (\"Even\" or \"Odd\"\
+\>", "TableText",ExpressionUUID->"8c76e399-abbd-4e3f-be06-9e5e37429d4c"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"84c9a39e-d68c-441c-a339-0c39cdd00b9a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"d4fc171c-c1f0-46d8-8533-d67dc54cd782"],
+
+Cell[BoxData[""],ExpressionUUID->"0cb90c43-02cc-4cc7-aad4-f8e128d2d67e"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"MasterFunctionAsTeukolskyFunction",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "MasterFunctionAsTeukolskyFunction", "MASTERFUNCTIONASTEUKOLSKYFUNCTION",
+       "masterfunctionasteukolskyfunction"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`SchwEqs Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`SchwEqs", "status" -> "None", "summary" -> 
+    "MasterFunctionAsTeukolskyFunction[] returns the frequency domain master \
+function written in terms of the Teukolsky function and its first r \
+derivative.\nMasterFunctionAsTeukolskyFunction[n] returns the nth r \
+derivative frequency domain master function written in terms of the Teukolsky \
+function and its first r derivative.", 
+    "synonyms" -> {
+     "MasterFunctionAsTeukolskyFunction", "MASTERFUNCTIONASTEUKOLSKYFUNCTION",
+       "masterfunctionasteukolskyfunction"}, "title" -> 
+    "MasterFunctionAsTeukolskyFunction", "windowTitle" -> 
+    "MasterFunctionAsTeukolskyFunction", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/MasterFunctionAsTeukolskyFunction", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

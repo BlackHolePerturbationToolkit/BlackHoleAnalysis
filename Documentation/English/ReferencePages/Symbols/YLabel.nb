@@ -1,0 +1,72 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"2d119365-8d82-4ca5-a982-e19ffb088fe2"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Labels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Labels"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["YLabel",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/YLabel"]
+}], "LinkTrail",ExpressionUUID->"237b796b-d9b5-4c33-b700-1ff8495cc230"],
+
+Cell[CellGroupData[{
+
+Cell["YLabel", \
+"ObjectName",ExpressionUUID->"857092b1-08b9-4049-97bb-5f93ae511a52"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["YLabel",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/YLabel"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"507270e8-273a-4c4a-9983-08c48430e968"],
+     
+     "\[LineSeparator]returns the string treated as a label for the scalar \
+spherical harmonics Y_lm"
+    }],ExpressionUUID->"a6ed958e-0a86-43e4-a50a-470b2ff9a171"]}
+  }]], "Usage",ExpressionUUID->"32df635f-e026-4ffc-923f-847c71a559ca"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"dddd694b-eb23-4be2-bd4b-46c54fe70808"],
+
+Cell[BoxData[""],ExpressionUUID->"a17a76e9-16d4-4fde-93a3-bd73ffeba0c1"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"YLabel",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"YLabel", "YLABEL", "ylabel"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Labels Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Labels", "status" -> "None", "summary" -> 
+    "YLabel[] returns the string treated as a label for the scalar spherical \
+harmonics Y_lm", "synonyms" -> {"YLabel", "YLABEL", "ylabel"}, "title" -> 
+    "YLabel", "windowTitle" -> "YLabel", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/YLabel", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

@@ -1,0 +1,77 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"a9cd52a3-d2d6-4c97-b7c5-fa0a9bf17b70"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`AnalyticTools",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`AnalyticTools"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["RemoveSingular",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/RemoveSingular"]
+}], "LinkTrail",ExpressionUUID->"22e92467-035a-4caa-b15c-0a40e8dd04ed"],
+
+Cell[CellGroupData[{
+
+Cell["RemoveSingular", \
+"ObjectName",ExpressionUUID->"ee7475b9-deb2-4592-b8be-395498198005"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["RemoveSingular",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/RemoveSingular"], "[", 
+       StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "41f9681e-95c4-463a-a217-8d64aab03a72"],
+     "\[LineSeparator]removes all terms in expr not proportional to Heaviside \
+functions (this includes derivatives of Heavisides)."
+    }],ExpressionUUID->"c33a2680-08b3-480b-9dfb-17a75071a18c"]}
+  }]], "Usage",ExpressionUUID->"1d06ad27-95de-4bf8-bea7-337cf43b88db"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"4e00a450-3ee7-40b6-850f-0de68568852d"],
+
+Cell[BoxData[""],ExpressionUUID->"64081cd3-53fe-4068-a1d7-0c2b2c213a93"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"RemoveSingular",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"RemoveSingular", "REMOVESINGULAR", "removesingular"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`AnalyticTools Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`AnalyticTools", "status" -> "None", 
+    "summary" -> 
+    "RemoveSingular[expr] removes all terms in expr not proportional to \
+Heaviside functions (this includes derivatives of Heavisides).", 
+    "synonyms" -> {"RemoveSingular", "REMOVESINGULAR", "removesingular"}, 
+    "title" -> "RemoveSingular", "windowTitle" -> "RemoveSingular", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/RemoveSingular", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

@@ -1,0 +1,149 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"13db50b5-7405-48e8-b57d-9bcb518bbd7b"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Labels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Labels"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["GaugeVectorLabels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/GaugeVectorLabels"]
+}], "LinkTrail",ExpressionUUID->"7fd4b2d1-a9bc-458b-aacd-64dc2aa72e59"],
+
+Cell[CellGroupData[{
+
+Cell["GaugeVectorLabels", \
+"ObjectName",ExpressionUUID->"d06fe272-d662-465c-9436-abfd6a24bfc6"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["GaugeVectorLabels",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/GaugeVectorLabels"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "3e3b514b-f468-412f-9794-4a7e0a032ce4"],
+     "\[LineSeparator]returns a list of strings that label the gauge vector \
+amplitudes."
+    }],ExpressionUUID->"a1c8c11b-712a-4ff4-bd12-3745698a4f42"]}
+  }]], "Usage",ExpressionUUID->"3600a60c-af05-454d-a29b-203c0f7b46af"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"e07685a1-067b-4563-9a39-8a127799e5b6"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"30c7b0c7-3247-47b5-8f49-94493d0ec24a"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "e856da93-5473-48a4-bc8a-cffe468305b1"], "Mode", "Radiative", Cell["\<\
+l mode, restricting labels based on which spherical harmonic amplitudes are \
+defined, (\"Radiative\", \"Dipole\", or \"Monopole\")\
+\>", "TableText",ExpressionUUID->"9c9a51d0-e50e-4659-9f50-e3deb6298812"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "3524e7ec-ff6c-43b2-b69f-80cf0df6d61e"], "Parity", "Both", Cell["\<\
+Specifies which parities to include, (\"Even\", \"Odd\", or \"Both\")\
+\>", "TableText",ExpressionUUID->"58fc5d32-bff5-472e-b009-2702e78452c2"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {None, {None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, 
+      True}}}},ExpressionUUID->"1e9951bb-d343-44a4-99ff-58542994629d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"dca17c6b-d07e-4b6d-9359-26c322eb54ba"],
+
+Cell[BoxData[""],ExpressionUUID->"97b7a6cf-7015-4dfd-9c5c-f0a47a8d1e19"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"GaugeVectorLabels",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "GaugeVectorLabels", "GAUGEVECTORLABELS", "gaugevectorlabels"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Labels Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Labels", "status" -> 
+    "None", "summary" -> 
+    "GaugeVectorLabels[] returns a list of strings that label the gauge \
+vector amplitudes.", 
+    "synonyms" -> {
+     "GaugeVectorLabels", "GAUGEVECTORLABELS", "gaugevectorlabels"}, "title" -> 
+    "GaugeVectorLabels", "windowTitle" -> "GaugeVectorLabels", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/GaugeVectorLabels", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

@@ -1,0 +1,75 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"23377e4f-127e-43a2-acc0-7388cd684d2f"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["SymbolFunction",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/SymbolFunction"]
+}], "LinkTrail",ExpressionUUID->"7424718f-905f-4c45-b6ea-c725e954dc90"],
+
+Cell[CellGroupData[{
+
+Cell["SymbolFunction", \
+"ObjectName",ExpressionUUID->"418eb1c4-6629-433e-a10d-9749235a6321"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["SymbolFunction",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/SymbolFunction"], "[", 
+       StyleBox["label", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "e56d85b7-0f27-4a63-8960-cff9ac400eff"],
+     "\[LineSeparator]returns the function for returning a symbol associated \
+with label."
+    }],ExpressionUUID->"0331586a-8f42-4e37-824f-5abd3c1d22b6"]}
+  }]], "Usage",ExpressionUUID->"a21a4e9e-4520-47c9-aabf-4676a84f1ae8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"4ca2a8e1-7d83-401c-bf52-e79a2fda59ca"],
+
+Cell[BoxData[""],ExpressionUUID->"5c9bc2de-653f-4ba5-bcfb-33bac1f1bff0"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"SymbolFunction",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"SymbolFunction", "SYMBOLFUNCTION", "symbolfunction"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "SymbolFunction[label] returns the function for returning a symbol \
+associated with label.", 
+    "synonyms" -> {"SymbolFunction", "SYMBOLFUNCTION", "symbolfunction"}, 
+    "title" -> "SymbolFunction", "windowTitle" -> "SymbolFunction", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/SymbolFunction", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

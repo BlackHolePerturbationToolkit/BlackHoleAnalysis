@@ -1,0 +1,146 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"cea82f89-2f52-4482-af8d-20fb78a95e26"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["SasakiNakamuraFunctionSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/SasakiNakamuraFunctionSymbol"]
+}], "LinkTrail",ExpressionUUID->"bf633919-dc18-4e0b-9921-5c615ba7d652"],
+
+Cell[CellGroupData[{
+
+Cell["SasakiNakamuraFunctionSymbol", \
+"ObjectName",ExpressionUUID->"543291b2-7f32-4fd1-bf52-d48922c1acf1"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["SasakiNakamuraFunctionSymbol",
+        BaseStyle->"Link",
+        ButtonData->
+         "paclet:BlackHoleAnalysis/ref/SasakiNakamuraFunctionSymbol"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "a21d84d4-7981-4dc2-87f8-b051dd2da974"],
+     "\[LineSeparator]returns the symbol for the Sasaki-Nakamura function."
+    }],ExpressionUUID->"e37a38aa-ed91-40c2-b69a-6764bd81132c"]}
+  }]], "Usage",ExpressionUUID->"1d1f7445-018b-4c94-b927-cb6cff37d951"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"edb7852d-88e5-45b7-a9de-7ac8f3801f21"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"201d01ed-814d-46b2-b7d5-521d1874e124"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "3454b6d0-a4f8-4980-9726-ad9b73061695"], "SpinWeight", 
+    RowBox[{"-", "2"}], Cell["\<\
+Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
+\>", "TableText",ExpressionUUID->"4e5b0930-4b62-40b1-b896-fe7d87064683"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"06c34c9d-a338-4c05-94ef-12fdf2e43a45"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"c5a58a09-ab7a-40e8-a4b1-924d8ba3caf1"],
+
+Cell[BoxData[""],ExpressionUUID->"f5ad9c15-ef29-41c3-8d1b-5a7887d51b59"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"SasakiNakamuraFunctionSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "SasakiNakamuraFunctionSymbol", "SASAKINAKAMURAFUNCTIONSYMBOL", 
+      "sasakinakamurafunctionsymbol"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "SasakiNakamuraFunctionSymbol[] returns the symbol for the \
+Sasaki-Nakamura function.", 
+    "synonyms" -> {
+     "SasakiNakamuraFunctionSymbol", "SASAKINAKAMURAFUNCTIONSYMBOL", 
+      "sasakinakamurafunctionsymbol"}, "title" -> 
+    "SasakiNakamuraFunctionSymbol", "windowTitle" -> 
+    "SasakiNakamuraFunctionSymbol", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/SasakiNakamuraFunctionSymbol", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

@@ -1,0 +1,67 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"04d3ece9-d4aa-48fb-95dc-1ccf8039c445"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["OmegaRSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/OmegaRSymbol"]
+}], "LinkTrail",ExpressionUUID->"de1a99cb-364d-4dea-96ce-d05e13b3d36e"],
+
+Cell[CellGroupData[{
+
+Cell["OmegaRSymbol", \
+"ObjectName",ExpressionUUID->"0c9e655f-3215-4396-9efd-e17378863761"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell["\<\
+OmegaPhiSymbol[] returns the (formatted) symbol for OmegaR, the frequency of \
+radial libration.\
+\>",ExpressionUUID->"de093af8-ad93-4e66-85fc-e95da4ebe29c"]}
+  }]], "Usage",ExpressionUUID->"e0dd9e8d-58fd-4351-8c09-cb69c826d94a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"08daab99-5013-452f-b2e3-2d5ba1bc3360"],
+
+Cell[BoxData[""],ExpressionUUID->"0850ec33-67c1-4c03-ae4f-d6fedffdba3d"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"OmegaRSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"OmegaRSymbol", "OMEGARSYMBOL", "omegarsymbol"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> 
+    "None", "summary" -> 
+    "OmegaPhiSymbol[] returns the (formatted) symbol for OmegaR, the \
+frequency of radial libration.", 
+    "synonyms" -> {"OmegaRSymbol", "OMEGARSYMBOL", "omegarsymbol"}, "title" -> 
+    "OmegaRSymbol", "windowTitle" -> "OmegaRSymbol", "type" -> "Symbol", 
+    "uri" -> "BlackHoleAnalysis/ref/OmegaRSymbol", "WorkflowDockedCell" -> 
+    ""}, "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

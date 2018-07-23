@@ -1,0 +1,147 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"067eca16-54de-4ddf-ac8c-f16726a30ad3"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`AnalyticTools",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`AnalyticTools"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["EvaluateDiscontinuities",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/EvaluateDiscontinuities"]
+}], "LinkTrail",ExpressionUUID->"fbf7334c-bab8-4650-81a6-595a6f14b8f0"],
+
+Cell[CellGroupData[{
+
+Cell["EvaluateDiscontinuities", \
+"ObjectName",ExpressionUUID->"96555fea-b754-4e03-a71a-a034e6f09ead"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["EvaluateDiscontinuities",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/EvaluateDiscontinuities"], 
+       "[", 
+       StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "152765ce-2760-4286-97a2-5f9ec3baa820"],
+     "\[LineSeparator]calls EvaluateHeavisides, EvaluateDeltas and \
+EvaluateJumps on expr."
+    }],ExpressionUUID->"720b6c1a-ba59-4275-87b9-bb8fc56b6a07"]}
+  }]], "Usage",ExpressionUUID->"93f6aaa8-547a-4755-9c44-83e28371f136"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"21878efc-f547-40e6-bbd2-1c18d96e6062"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"73762dd8-c096-48df-aab6-00b8b84ef0d0"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "251341e4-29bb-4cf0-83bc-da7d12ed3ab6"], "Simplify", "True", Cell[
+    "Collect and Simplify the final output.", "TableText",ExpressionUUID->
+     "92c6e0c3-a0d2-437c-a28e-cda3f4d650ad"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"f15094fb-4808-480d-b9a5-578e20239926"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"8e2bc10a-c2f9-4292-b7c5-86034ba964af"],
+
+Cell[BoxData[""],ExpressionUUID->"c3ec7d91-5e1a-4c05-9c06-9a68d582b8db"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"EvaluateDiscontinuities",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "EvaluateDiscontinuities", "EVALUATEDISCONTINUITIES", 
+      "evaluatediscontinuities"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`AnalyticTools Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`AnalyticTools", "status" -> "None", 
+    "summary" -> 
+    "EvaluateDiscontinuities[expr] calls EvaluateHeavisides, EvaluateDeltas \
+and EvaluateJumps on expr.", 
+    "synonyms" -> {
+     "EvaluateDiscontinuities", "EVALUATEDISCONTINUITIES", 
+      "evaluatediscontinuities"}, "title" -> "EvaluateDiscontinuities", 
+    "windowTitle" -> "EvaluateDiscontinuities", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/EvaluateDiscontinuities", "WorkflowDockedCell" -> 
+    ""}, "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> 
+  False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

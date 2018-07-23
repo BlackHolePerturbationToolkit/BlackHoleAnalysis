@@ -1,0 +1,77 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"88677e65-9d61-4471-9173-b05e92c5c80d"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Labels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Labels"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["MasterFunctionLabel",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/MasterFunctionLabel"]
+}], "LinkTrail",ExpressionUUID->"3ca42824-6529-4cad-a2d9-655fdc723950"],
+
+Cell[CellGroupData[{
+
+Cell["MasterFunctionLabel", \
+"ObjectName",ExpressionUUID->"a23c00f9-e9b9-4ca8-aa5f-bd9ce7424e86"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["MasterFunctionLabel",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/MasterFunctionLabel"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "c5edc090-2286-47bc-bd45-95d4d07b4074"],
+     "\[LineSeparator]returns the string treated as a label for the master \
+function Psi"
+    }],ExpressionUUID->"04837436-3050-489f-bb90-3f102edf46b4"]}
+  }]], "Usage",ExpressionUUID->"9c131249-a863-4b7f-841d-92584faa2a56"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"b4bb3303-b57d-4c75-9a50-75b6260b3f97"],
+
+Cell[BoxData[""],ExpressionUUID->"9962f5bb-de93-463e-859b-874046b0b870"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"MasterFunctionLabel",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "MasterFunctionLabel", "MASTERFUNCTIONLABEL", "masterfunctionlabel"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Labels Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Labels", "status" -> "None", "summary" -> 
+    "MasterFunctionLabel[] returns the string treated as a label for the \
+master function Psi", 
+    "synonyms" -> {
+     "MasterFunctionLabel", "MASTERFUNCTIONLABEL", "masterfunctionlabel"}, 
+    "title" -> "MasterFunctionLabel", "windowTitle" -> "MasterFunctionLabel", 
+    "type" -> "Symbol", "uri" -> "BlackHoleAnalysis/ref/MasterFunctionLabel", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

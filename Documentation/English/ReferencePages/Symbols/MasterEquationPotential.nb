@@ -1,0 +1,154 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"dca64c4c-c104-4119-b619-634528dbbddb"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`SchwEqs",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`SchwEqs"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["MasterEquationPotential",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/MasterEquationPotential"]
+}], "LinkTrail",ExpressionUUID->"e48a54c6-65a5-41b6-8e27-1887cfe9ef74"],
+
+Cell[CellGroupData[{
+
+Cell["MasterEquationPotential", \
+"ObjectName",ExpressionUUID->"d72b84c9-2699-4c34-8bfa-5e1fbf33ab50"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["MasterEquationPotential",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/MasterEquationPotential"], 
+       "[", "]"}]], "InlineFormula",ExpressionUUID->
+      "2f13cb3b-cfda-4ee0-a658-a0956e4f9d6d"],
+     "\[LineSeparator]returns the potential for the master equation."
+    }],ExpressionUUID->"b65b603b-f0ae-4bb2-9255-f8e67f36a147"]}
+  }]], "Usage",ExpressionUUID->"992ca1c3-d42c-4acf-af63-c87d94017d6b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"e5edef5d-e973-44d3-bd3d-3ec3d93efb7b"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"5a3a0d90-c5c4-42ea-90a6-db6b0724e418"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "92515a2c-a5c6-47fc-a562-88f6b7f357c0"], "Parity", "Default", Cell["\<\
+Parity of the master function (Default, \"Even\", or \"Odd\"). Choosing \
+Default allows \"Parity\" to be set by the \"Variable\" Option. When both \
+Options are Default, the \"Parity\" is \"Even\".\
+\>", "TableText",ExpressionUUID->"527d5d05-c27c-40fa-800d-2cb0bd2a0531"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "275a4412-4d71-4bfe-8806-20e38362951a"], "Variable", "Default", 
+    Cell["\<\
+The specific master function variable to use (Default, \"ZM\", \"ZM1\", ... \
+\"ZM7\" and \"CPM\", \"CPM1\", ... \"CPM6\"). Choosing Default is equivalent \
+to \"ZM\" when \"Parity\"->\"Even\" and \"CPM\" when \"Parity\"->\"Odd\". \
+When both Options are Default, the \"Parity\" is \"Even\".\
+\>", "TableText",ExpressionUUID->"6293bfc8-e172-4e95-9faa-93ae641ee04a"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {None, {None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, 
+      True}}}},ExpressionUUID->"ffb18733-bb3d-434f-826c-0faa1fe8ea84"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"9f7fe5e9-b3df-4d48-931d-320f1e76ce36"],
+
+Cell[BoxData[""],ExpressionUUID->"62625747-9f4a-4e54-9032-d0f1d5ce522f"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"MasterEquationPotential",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "MasterEquationPotential", "MASTEREQUATIONPOTENTIAL", 
+      "masterequationpotential"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`SchwEqs Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`SchwEqs", "status" -> "None", "summary" -> 
+    "MasterEquationPotential[] returns the potential for the master \
+equation.", 
+    "synonyms" -> {
+     "MasterEquationPotential", "MASTEREQUATIONPOTENTIAL", 
+      "masterequationpotential"}, "title" -> "MasterEquationPotential", 
+    "windowTitle" -> "MasterEquationPotential", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/MasterEquationPotential", "WorkflowDockedCell" -> 
+    ""}, "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> 
+  False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

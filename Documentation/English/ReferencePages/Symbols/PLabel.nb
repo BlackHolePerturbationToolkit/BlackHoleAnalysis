@@ -1,0 +1,73 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"6f11634d-0955-4cfe-af18-c3f0d1daa78e"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Labels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Labels"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["PLabel",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/PLabel"]
+}], "LinkTrail",ExpressionUUID->"489b1d4f-1700-46c0-a587-165a3195f2f0"],
+
+Cell[CellGroupData[{
+
+Cell["PLabel", \
+"ObjectName",ExpressionUUID->"bd8a32ef-6c2e-463b-89ea-a4c46af8036d"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["PLabel",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/PLabel"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"f77ea8c3-1d9f-409a-94a8-f709b992af07"],
+     
+     "\[LineSeparator]returns the string treated as a label for the metric \
+perturbation amplitude source term P"
+    }],ExpressionUUID->"1ecf54d0-8740-4c96-adb8-829bb2ee9817"]}
+  }]], "Usage",ExpressionUUID->"6d511e98-6216-40af-b26f-25c729665825"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"e3c8a02f-e737-4eab-a5c4-ba7ad9aa4db2"],
+
+Cell[BoxData[""],ExpressionUUID->"1dd26cd9-9cff-4dbd-aa69-315377e65d17"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"PLabel",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"PLabel", "PLABEL", "plabel"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Labels Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Labels", "status" -> "None", "summary" -> 
+    "PLabel[] returns the string treated as a label for the metric \
+perturbation amplitude source term P", 
+    "synonyms" -> {"PLabel", "PLABEL", "plabel"}, "title" -> "PLabel", 
+    "windowTitle" -> "PLabel", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/PLabel", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

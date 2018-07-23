@@ -1,0 +1,148 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"6e4ea118-8e44-4a4b-a47b-f2d16a111875"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["SpinWeightedSpheroidalHarmonicSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/ref/SpinWeightedSpheroidalHarmonicSymbol"]
+}], "LinkTrail",ExpressionUUID->"818d1158-fb5a-4ab3-8308-0de13ea9f4d1"],
+
+Cell[CellGroupData[{
+
+Cell["SpinWeightedSpheroidalHarmonicSymbol", \
+"ObjectName",ExpressionUUID->"dfdb9441-a850-4fa7-a455-df671c9cb7eb"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell["\<\
+SpinWeightedHarmonicSymbol[] returns the (formatted) symbol for the \
+spin-weighted spheroidal harmonic.\
+\>",ExpressionUUID->"8667bd35-a28b-4b5c-8045-d746e44ff045"]}
+  }]], "Usage",ExpressionUUID->"6c9f32b7-1709-4307-8368-115b18871d71"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"04591da7-7b6c-45b0-b89f-6bf39a4094c1"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"482358c2-cf24-4e94-848b-d6fe85595c60"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "f8ea58b2-4e29-4ca1-a1a2-4a9692b50a1b"], "Conjugate", "False", Cell["\<\
+Sepcifies whether to return the symbol for the complex conjugate of the \
+harmonic\
+\>", "TableText",ExpressionUUID->"42592084-74cb-42b5-97d3-0be07584b9bc"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "1a34594a-d998-44e1-a13a-2ee95901fdb6"], "SpinWeight", 
+    RowBox[{"-", "2"}], Cell["\<\
+Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
+\>", "TableText",ExpressionUUID->"47436f45-fe7a-4413-93bf-28f3950d3b78"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {None, {None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, 
+      True}}}},ExpressionUUID->"1e66aa80-8b3b-4794-b73a-5b69249bba2d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"761b90c5-7eac-41e4-b058-817993d8ac18"],
+
+Cell[BoxData[""],ExpressionUUID->"70e8ef45-14e4-4576-9fe2-4a95f53e7d2a"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"SpinWeightedSpheroidalHarmonicSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "SpinWeightedSpheroidalHarmonicSymbol", 
+      "SPINWEIGHTEDSPHEROIDALHARMONICSYMBOL", 
+      "spinweightedspheroidalharmonicsymbol"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "SpinWeightedHarmonicSymbol[] returns the (formatted) symbol for the \
+spin-weighted spheroidal harmonic.", 
+    "synonyms" -> {
+     "SpinWeightedSpheroidalHarmonicSymbol", 
+      "SPINWEIGHTEDSPHEROIDALHARMONICSYMBOL", 
+      "spinweightedspheroidalharmonicsymbol"}, "title" -> 
+    "SpinWeightedSpheroidalHarmonicSymbol", "windowTitle" -> 
+    "SpinWeightedSpheroidalHarmonicSymbol", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/SpinWeightedSpheroidalHarmonicSymbol", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

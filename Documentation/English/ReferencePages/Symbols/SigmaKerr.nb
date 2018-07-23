@@ -1,0 +1,73 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"2e8cb3f7-907c-4fa2-8395-e0bee76780bb"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Coordinates",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Coordinates"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["SigmaKerr",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/SigmaKerr"]
+}], "LinkTrail",ExpressionUUID->"812d7fe0-b676-444c-9df6-bc777786bbc7"],
+
+Cell[CellGroupData[{
+
+Cell["SigmaKerr", \
+"ObjectName",ExpressionUUID->"ac66b476-c8f5-4b64-ab59-3d6957b799a5"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["SigmaKerr",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/SigmaKerr"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"8984e4fa-5c9d-48f7-91df-20333831b0c9"],
+     
+     "\[LineSeparator]returns the Kerr quantity Capital Sigma."
+    }],ExpressionUUID->"aa591c8b-66ed-49f0-9c05-c1acaab99ba0"]}
+  }]], "Usage",ExpressionUUID->"6357d7f6-a4fe-4123-a7f1-c4e898de6a33"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"c50db184-72be-4cfa-bc83-94e90007400a"],
+
+Cell[BoxData[""],ExpressionUUID->"7ffa45b7-b3f6-4e7b-897c-d56eb348d40d"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"SigmaKerr",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"SigmaKerr", "SIGMAKERR", "sigmakerr"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Coordinates Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Coordinates", "status" -> 
+    "None", "summary" -> 
+    "SigmaKerr[] returns the Kerr quantity Capital Sigma.", 
+    "synonyms" -> {"SigmaKerr", "SIGMAKERR", "sigmakerr"}, "title" -> 
+    "SigmaKerr", "windowTitle" -> "SigmaKerr", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/SigmaKerr", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

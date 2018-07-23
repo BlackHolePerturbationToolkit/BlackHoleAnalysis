@@ -1,0 +1,75 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"6cb2cbf9-40cf-4540-b02b-f34feedc7dd5"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["DefaultSymbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/DefaultSymbols"]
+}], "LinkTrail",ExpressionUUID->"ce03ff50-2769-40b2-b27a-b9fb8ea8a564"],
+
+Cell[CellGroupData[{
+
+Cell["DefaultSymbols", \
+"ObjectName",ExpressionUUID->"5e629c86-5efe-4c11-b1f5-0340e24120aa"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["DefaultSymbols",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/DefaultSymbols"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "40fb1fd1-0344-4766-ac30-07d97fd20485"],
+     "\[LineSeparator]returns an Association of correspondences between \
+labels and symbols."
+    }],ExpressionUUID->"de6a9e90-09d2-4e8e-85ca-dfbc5046d094"]}
+  }]], "Usage",ExpressionUUID->"09020666-68cb-4edf-9ddb-de72cd009060"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"9fe37d38-4b40-4f10-b586-aac94968ba1e"],
+
+Cell[BoxData[""],ExpressionUUID->"b7772dd5-a18c-45f9-ad4c-4de8ed7ee219"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"DefaultSymbols",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"DefaultSymbols", "DEFAULTSYMBOLS", "defaultsymbols"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "DefaultSymbols[] returns an Association of correspondences between \
+labels and symbols.", 
+    "synonyms" -> {"DefaultSymbols", "DEFAULTSYMBOLS", "defaultsymbols"}, 
+    "title" -> "DefaultSymbols", "windowTitle" -> "DefaultSymbols", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/DefaultSymbols", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

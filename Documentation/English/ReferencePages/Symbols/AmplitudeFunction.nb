@@ -1,0 +1,77 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"bab17066-89be-425e-9e7e-6985ad45b938"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Fields",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Fields"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["AmplitudeFunction",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/AmplitudeFunction"]
+}], "LinkTrail",ExpressionUUID->"4648b828-896d-4689-af3c-feac57239c8c"],
+
+Cell[CellGroupData[{
+
+Cell["AmplitudeFunction", \
+"ObjectName",ExpressionUUID->"ef02a1f4-2ec3-40d1-80b4-d68f32868df9"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["AmplitudeFunction",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/AmplitudeFunction"], "[", 
+       StyleBox["label", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "3233af69-8bf3-4b30-8c37-444e5d0b915a"],
+     "\[LineSeparator]returns the function for returning the amplitude \
+associated with label."
+    }],ExpressionUUID->"a5a3621c-3561-49b0-8d0c-d5263ad19e54"]}
+  }]], "Usage",ExpressionUUID->"5a719093-30aa-4cbd-8def-3f349eea7dfc"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"5868ada0-ebd1-4440-964a-9706c4bbcea2"],
+
+Cell[BoxData[""],ExpressionUUID->"680cf191-863d-4312-a28e-9f3f5177a595"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"AmplitudeFunction",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "AmplitudeFunction", "AMPLITUDEFUNCTION", "amplitudefunction"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Fields Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Fields", "status" -> 
+    "None", "summary" -> 
+    "AmplitudeFunction[label] returns the function for returning the \
+amplitude associated with label.", 
+    "synonyms" -> {
+     "AmplitudeFunction", "AMPLITUDEFUNCTION", "amplitudefunction"}, "title" -> 
+    "AmplitudeFunction", "windowTitle" -> "AmplitudeFunction", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/AmplitudeFunction", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

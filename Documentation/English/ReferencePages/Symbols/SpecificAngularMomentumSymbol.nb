@@ -1,0 +1,79 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"28307d27-e023-4eb0-b5d9-17f84c4129b1"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["SpecificAngularMomentumSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificAngularMomentumSymbol"]
+}], "LinkTrail",ExpressionUUID->"cd60716e-a364-4ae2-81fc-644cb704fc68"],
+
+Cell[CellGroupData[{
+
+Cell["SpecificAngularMomentumSymbol", \
+"ObjectName",ExpressionUUID->"5012aa7f-c4d7-4040-a4c1-5ab43a4679eb"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["SpecificAngularMomentumSymbol",
+        BaseStyle->"Link",
+        ButtonData->
+         "paclet:BlackHoleAnalysis/ref/SpecificAngularMomentumSymbol"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "9754fafb-038c-491b-8a22-0a5ba9fdae04"],
+     "\[LineSeparator]returns the symbol for specific angular momentum."
+    }],ExpressionUUID->"59483432-8337-4ca6-ade7-2f9ad6cb5fa2"]}
+  }]], "Usage",ExpressionUUID->"b2037a7b-d858-463d-aca8-c3dc97f04ea6"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"8ec5300d-c54f-44fb-91f6-466549340603"],
+
+Cell[BoxData[""],ExpressionUUID->"4446fb51-54db-4b28-b5fc-002494d94cc0"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"SpecificAngularMomentumSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "SpecificAngularMomentumSymbol", "SPECIFICANGULARMOMENTUMSYMBOL", 
+      "specificangularmomentumsymbol"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "SpecificAngularMomentumSymbol[] returns the symbol for specific angular \
+momentum.", 
+    "synonyms" -> {
+     "SpecificAngularMomentumSymbol", "SPECIFICANGULARMOMENTUMSYMBOL", 
+      "specificangularmomentumsymbol"}, "title" -> 
+    "SpecificAngularMomentumSymbol", "windowTitle" -> 
+    "SpecificAngularMomentumSymbol", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/SpecificAngularMomentumSymbol", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

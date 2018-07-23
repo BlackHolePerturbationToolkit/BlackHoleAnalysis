@@ -1,0 +1,73 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"4d7d345f-3d9b-462d-90f1-dc1eaef49d5d"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["ApoapsisSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/ApoapsisSymbol"]
+}], "LinkTrail",ExpressionUUID->"0eff2345-bf98-4b07-83d5-6731be6bb7d4"],
+
+Cell[CellGroupData[{
+
+Cell["ApoapsisSymbol", \
+"ObjectName",ExpressionUUID->"f10c3bd2-1b69-4c8a-a9ed-3f5483cf29a5"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["ApoapsisSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/ApoapsisSymbol"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "2e6c3ba0-e1e9-437e-b135-5800932a8518"],
+     "\[LineSeparator]returns the (formatted) symbol for apoapsis (rMax)."
+    }],ExpressionUUID->"bbfbcb35-8808-4d0f-ad16-5f0f81752900"]}
+  }]], "Usage",ExpressionUUID->"0bbbe9f7-8c18-4c84-bf8e-1e7e1ce51228"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"9c696659-6807-4d5a-aff5-6d4244730c13"],
+
+Cell[BoxData[""],ExpressionUUID->"a7fdd0b9-ad79-48e9-8d0b-87f577cf968e"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"ApoapsisSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"ApoapsisSymbol", "APOAPSISSYMBOL", "apoapsissymbol"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "ApoapsisSymbol[] returns the (formatted) symbol for apoapsis (rMax).", 
+    "synonyms" -> {"ApoapsisSymbol", "APOAPSISSYMBOL", "apoapsissymbol"}, 
+    "title" -> "ApoapsisSymbol", "windowTitle" -> "ApoapsisSymbol", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/ApoapsisSymbol", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

@@ -1,0 +1,157 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"29ab3f1c-cc8f-4a8a-8e96-ad6928fb15e7"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Sources",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Sources"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["QtrSource",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/QtrSource"]
+}], "LinkTrail",ExpressionUUID->"3fbd03e4-d19c-4eb7-b62f-7a31e7a5ba5d"],
+
+Cell[CellGroupData[{
+
+Cell["QtrSource", \
+"ObjectName",ExpressionUUID->"d005a1bb-5bfd-4eaf-9c75-272bd2873de5"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["QtrSource",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/QtrSource"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"a81a9d90-1dbb-48c1-b1e9-cc8f3ce65313"],
+     
+     "\[LineSeparator]returns the metric perturbation amplitude source term \
+Qtr in symbolic form."
+    }],ExpressionUUID->"990e6647-2e02-4773-9396-9a1818dc4381"]}
+  }]], "Usage",ExpressionUUID->"0bc04c6a-2c95-4c37-8846-303d1f9264bf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"0e87414e-adbd-4b7c-922f-7f74167d9ec2"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"36ce93fd-91f8-46bf-8d83-7f8d7ff2253f"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "70367868-7cc5-4397-95dc-f97fa69819a8"], "Capital", "True", Cell["\<\
+Sepcifies whether to return the uppercase symbol (which includes the Dirac \
+delta) or the lowercase symbol (which does not)\
+\>", "TableText",ExpressionUUID->"c0ffe956-a4b8-4e5b-83e9-f7cd825d7475"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "f8f95b3e-1a6e-4681-8c3f-fdc03d6c6616"], "Indices", "Down", Cell[
+    "Position of the indices, (\"Up\" or \"Down\")", "TableText",
+     ExpressionUUID->"cb791e1a-fcaf-4f4a-9ce8-deb8da591d1f"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "40b260c1-3347-41e5-9d3c-085355e55b56"], "ReturnSymbol", "False", 
+    Cell["\<\
+Boolean stating whether to only return the symbol of the source term (with no \
+arguments)\
+\>", "TableText",ExpressionUUID->"4408485f-1f6c-47f6-b4e7-b499ea7fda04"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "8878e88e-7c04-4b81-af45-6d7001c3ffd1"], "SourceExpansion", "Full", 
+    Cell["\<\
+States to what extent source terms should be expanded, (\"Full\", \
+\"Partial\", or \"None\")\
+\>", "TableText",ExpressionUUID->"70beaa13-f0b9-4b9c-9347-a6cd33bb35db"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+   "Rows" -> {None, None, None, {None}}, "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, True, True, 
+      True}}}},ExpressionUUID->"df3620e2-b0f5-4384-88e9-f1892c6e126a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"20897b75-a834-4059-b157-b7c00ca003ac"],
+
+Cell[BoxData[""],ExpressionUUID->"15bf528c-9220-4ff8-97b5-25318e49e148"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"QtrSource",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"QtrSource", "QTRSOURCE", "qtrsource"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Sources Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Sources", "status" -> 
+    "None", "summary" -> 
+    "QtrSource[] returns the metric perturbation amplitude source term Qtr in \
+symbolic form.", "synonyms" -> {"QtrSource", "QTRSOURCE", "qtrsource"}, 
+    "title" -> "QtrSource", "windowTitle" -> "QtrSource", "type" -> "Symbol", 
+    "uri" -> "BlackHoleAnalysis/ref/QtrSource", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

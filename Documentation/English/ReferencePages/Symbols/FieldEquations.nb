@@ -1,0 +1,176 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"c152bdac-0139-4b10-b6ea-0f472ac38ec3"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`SchwEqs",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`SchwEqs"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["FieldEquations",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/FieldEquations"]
+}], "LinkTrail",ExpressionUUID->"e23005f1-9e63-409f-b803-578cb253c01b"],
+
+Cell[CellGroupData[{
+
+Cell["FieldEquations", \
+"ObjectName",ExpressionUUID->"59529f9e-32cd-47da-936d-dba1049e635b"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["FieldEquations",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/FieldEquations"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "0a8f0116-d7be-4f50-a27c-177689730b3e"],
+     "\[LineSeparator]returns the first-order field equations decomposed in \
+spherical harmonics for a particle orbiting a Schwarzschild black hole."
+    }],ExpressionUUID->"1e1b179a-6cc1-44e6-beb0-f5e0f3a749c6"]}
+  }]], "Usage",ExpressionUUID->"1eb900fd-f2a7-4b0c-8ad2-f769af4b649c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"185a7732-0aea-4152-a414-5276cb9db099"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"7dac3de7-5249-4f9e-8d78-9960874ec98f"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "9304a703-7b73-44f8-9614-03e7e4ec28b5"], "Gauge", "RWZ", Cell["\<\
+Gauge of metric perturbation amplitudes (\"RWZ\", \"Lorenz\",  \"Undefined\", \
+\"Invariant\", or Null)\
+\>", "TableText",ExpressionUUID->"96d2cdfd-10ed-4629-9fee-4de5c8756075"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "e94a90f2-9aaf-4ae4-8f17-08ee8a1efe48"], "Homogeneous", "False", Cell[
+    "Boolean stating whether to include source terms", "TableText",
+     ExpressionUUID->"f8dc964e-2606-402d-ad28-f137cb7082dd"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "6b1fde06-9505-4aac-8f1e-2ed676aebbf0"], "Invariant", "False", Cell["\<\
+Boolean stating whether to return the field equations for the gauge invariant \
+metric perturbation amplitudes\
+\>", "TableText",ExpressionUUID->"59c95559-6a29-4214-a550-adbcd4887640"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "5d609e36-71b2-4d7d-91d8-57fb2a65ef51"], "Mode", "Radiative", Cell["\<\
+l mode, restricting equations based on which spherical harmonic amplitudes \
+are defined, (\"Radiative\", \"Dipole\", or \"Monopole\")\
+\>", "TableText",ExpressionUUID->"7f6031e1-e737-446b-a680-54593e03adc1"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "c9acc5a1-4825-40f4-b3a3-b71d23068163"], "Parity", "Both", Cell["\<\
+Specifies which parities to include, (\"Even\", \"Odd\", or \"Both\")\
+\>", "TableText",ExpressionUUID->"2a479d6c-c034-4dd9-9fdf-8ad9efc83d1d"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "8deedfd9-6435-4d43-9a09-f859601bed4e"], "SourceExpansion", "None", 
+    Cell["\<\
+States to what extent source terms should be expanded, (\"Full\", \
+\"Partial\", or \"None\")\
+\>", "TableText",ExpressionUUID->"9fb6f354-2237-4c5d-a442-ae22bcfae32c"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "9958eb17-6c91-460b-acb1-7335628e3417"], "SourceIndices", "Down", Cell[
+    "Position of indices on source terms, (\"Up\" or \"Down\"", "TableText",
+     ExpressionUUID->"fc91cd12-158b-4e5d-9c9f-5d5909b16e49"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "2198e068-bad8-4282-993c-79d6a3d4a86d"], "Weak", "False", Cell["\<\
+Boolean stating whether the amplitudes should be given in a weak form\
+\>", "TableText",ExpressionUUID->"162c6f36-df19-41ab-ac7f-19e7fda43bbf"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+   "Rows" -> {None, None, None, None, None, None, None, {None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, True, True, True, True, True, True, 
+      True}}}},ExpressionUUID->"68756b3b-6492-4d87-97ce-b94aea4d7127"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"b622ec42-6854-4b08-a723-735184fbc520"],
+
+Cell[BoxData[""],ExpressionUUID->"fb55f26a-5018-4cba-8d3f-e13562da8266"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"FieldEquations",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"FieldEquations", "FIELDEQUATIONS", "fieldequations"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`SchwEqs Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`SchwEqs", "status" -> "None", "summary" -> 
+    "FieldEquations[] returns the first-order field equations decomposed in \
+spherical harmonics for a particle orbiting a Schwarzschild black hole.", 
+    "synonyms" -> {"FieldEquations", "FIELDEQUATIONS", "fieldequations"}, 
+    "title" -> "FieldEquations", "windowTitle" -> "FieldEquations", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/FieldEquations", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

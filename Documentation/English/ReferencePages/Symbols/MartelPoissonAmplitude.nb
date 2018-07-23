@@ -1,0 +1,79 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"f371f126-a5dd-447b-8779-be67b3b092cd"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Fields",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Fields"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["MartelPoissonAmplitude",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/MartelPoissonAmplitude"]
+}], "LinkTrail",ExpressionUUID->"32cb252f-1af5-47c5-8f73-2d6e3ecfc1db"],
+
+Cell[CellGroupData[{
+
+Cell["MartelPoissonAmplitude", \
+"ObjectName",ExpressionUUID->"e4d9db6f-58a0-41db-bb2e-326b63a46dad"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["MartelPoissonAmplitude",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/MartelPoissonAmplitude"], 
+       "[", 
+       StyleBox["label", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "e36351b9-cbaf-4399-9e61-11a8d5c198e3"],
+     "\[LineSeparator]returns the Martel and Poisson metric perturbation \
+corresponding to label written in terms of the Barack and Sago amplitudes."
+    }],ExpressionUUID->"e051bacd-0e93-4242-867c-4fc37e5a0f37"]}
+  }]], "Usage",ExpressionUUID->"00a26709-48ad-437f-9cd1-34077c06aecc"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"2f3986db-46e4-4907-b455-906a8a265764"],
+
+Cell[BoxData[""],ExpressionUUID->"2babc50c-0173-4666-8f14-5f188d204477"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"MartelPoissonAmplitude",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "MartelPoissonAmplitude", "MARTELPOISSONAMPLITUDE", 
+      "martelpoissonamplitude"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Fields Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Fields", "status" -> "None", "summary" -> 
+    "MartelPoissonAmplitude[label] returns the Martel and Poisson metric \
+perturbation corresponding to label written in terms of the Barack and Sago \
+amplitudes.", 
+    "synonyms" -> {
+     "MartelPoissonAmplitude", "MARTELPOISSONAMPLITUDE", 
+      "martelpoissonamplitude"}, "title" -> "MartelPoissonAmplitude", 
+    "windowTitle" -> "MartelPoissonAmplitude", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/MartelPoissonAmplitude", "WorkflowDockedCell" -> 
+    ""}, "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

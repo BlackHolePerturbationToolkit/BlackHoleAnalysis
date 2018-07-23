@@ -1,0 +1,158 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"afc753f6-8f9d-45cd-9e4c-59a7d0dfda4d"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Coordinates",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Coordinates"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["SchwarzschildMetric",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/SchwarzschildMetric"]
+}], "LinkTrail",ExpressionUUID->"9673b89c-67c5-4cfc-98a5-751bc09a8717"],
+
+Cell[CellGroupData[{
+
+Cell["SchwarzschildMetric", \
+"ObjectName",ExpressionUUID->"4872fb10-6ede-4e89-af01-3090d0a79ac0"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["SchwarzschildMetric",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/SchwarzschildMetric"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "dedb21fa-96f0-419b-a018-e40c0becd725"],
+     "\[LineSeparator]returns the Schwarzschild metric in Schwarzschild \
+coordinates."
+    }],ExpressionUUID->"df1ef33a-5ce4-43ea-80f9-f23d9665034f"]}
+  }]], "Usage",ExpressionUUID->"5992a095-050a-432e-9fe1-46f89c25fca6"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"42f4835f-1a16-4e33-a6b8-503d35690207"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"f15295c5-db26-4080-ac4e-312e60014056"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "92806e33-29e8-410f-b8da-110087996899"], "AtParticle", "False", 
+    Cell["\<\
+Boolean stating whether to evaluate the metric components at the location of \
+the particle, r=rp[t] and theta = \[Theta]p[t]\
+\>", "TableText",ExpressionUUID->"f30d686c-9f8f-487d-929e-7242b1c4f216"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "d09968fc-1578-4dd5-934b-701a07b7d1c4"], "Equatorial", "True", Cell["\<\
+Boolean stating whether the particle will be confined to \[Theta]p[t] = \
+\[Pi]/2\
+\>", "TableText",ExpressionUUID->"32f37db4-c9e0-453b-b585-7c3b7c15925f"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "a14ed8ff-6986-4a58-b29a-deb007dd969c"], "Indices", "Down", Cell["\<\
+States whether the indices should be covariant (\"Down\") or contravariant \
+(\"Up\")\
+\>", "TableText",ExpressionUUID->"10dc68e8-83bb-45f4-b471-746a218a8f2e"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+   "Rows" -> {None, None, {None}}, "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, True, 
+      True}}}},ExpressionUUID->"afa10b17-7304-4fca-883d-d082473aa7bc"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"9f25405d-cf2f-456c-adbf-17e5514697c0"],
+
+Cell[BoxData[""],ExpressionUUID->"4511c28f-1bba-473e-9ea9-529afce5d23d"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"SchwarzschildMetric",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "SchwarzschildMetric", "SCHWARZSCHILDMETRIC", "schwarzschildmetric"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Coordinates Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`Coordinates", "status" -> "None", 
+    "summary" -> 
+    "SchwarzschildMetric[] returns the Schwarzschild metric in Schwarzschild \
+coordinates.", 
+    "synonyms" -> {
+     "SchwarzschildMetric", "SCHWARZSCHILDMETRIC", "schwarzschildmetric"}, 
+    "title" -> "SchwarzschildMetric", "windowTitle" -> "SchwarzschildMetric", 
+    "type" -> "Symbol", "uri" -> "BlackHoleAnalysis/ref/SchwarzschildMetric", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

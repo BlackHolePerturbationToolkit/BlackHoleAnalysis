@@ -1,0 +1,73 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"c68806f9-02fb-4ad7-8254-5028b9bee7c3"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`OverloadedSymbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`OverloadedSymbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["ROfChi",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/ROfChi"]
+}], "LinkTrail",ExpressionUUID->"deb7c523-2987-49f2-9f30-fb0becebeac1"],
+
+Cell[CellGroupData[{
+
+Cell["ROfChi", \
+"ObjectName",ExpressionUUID->"0a34485a-1297-45bf-b40b-88c0ffc26042"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["ROfChi",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/ROfChi"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"d378fc44-c2ef-4ebc-a5af-bc4616f653cf"],
+     
+     "\[LineSeparator]returns the Darwin's expression for r(chi)."
+    }],ExpressionUUID->"8b4361d7-c053-4f5b-b735-df2156b71553"]}
+  }]], "Usage",ExpressionUUID->"7b94c760-d2f4-4e1c-bbc2-66688e1b08a5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"f3a1dbb2-abf9-45eb-8487-db5c2e45561c"],
+
+Cell[BoxData[""],ExpressionUUID->"2f5b32a4-45e8-4360-a463-7db440dde744"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"ROfChi",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"ROfChi", "ROFCHI", "rofchi"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`OverloadedSymbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`OverloadedSymbols", 
+    "status" -> "None", "summary" -> 
+    "ROfChi[] returns the Darwin's expression for r(chi).", 
+    "synonyms" -> {"ROfChi", "ROFCHI", "rofchi"}, "title" -> "ROfChi", 
+    "windowTitle" -> "ROfChi", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/ROfChi", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

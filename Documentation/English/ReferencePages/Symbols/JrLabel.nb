@@ -1,0 +1,72 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"b0ddf0a7-dfd4-4e77-b5b4-45e63c445419"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Labels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Labels"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["JrLabel",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/JrLabel"]
+}], "LinkTrail",ExpressionUUID->"1434d71f-43be-4955-a281-cc74c4d5fe5f"],
+
+Cell[CellGroupData[{
+
+Cell["JrLabel", \
+"ObjectName",ExpressionUUID->"5eaf150f-bbe8-439e-8c89-6d9be824b514"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["JrLabel",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/JrLabel"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"39e43fcc-bd09-4b6b-9e36-aeb09fe9b426"],
+     
+     "\[LineSeparator]returns the string treated as a label for the metric \
+perturbation amplitude jr"
+    }],ExpressionUUID->"0e5b846b-dda2-4137-bdd4-df7c00c63fde"]}
+  }]], "Usage",ExpressionUUID->"439da963-1cf0-4a7d-8e77-453de084bef8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"2d818c1b-1a66-45ca-968f-7da251ce5497"],
+
+Cell[BoxData[""],ExpressionUUID->"b04a7f4b-7db7-4349-87eb-1a3f5a8721bf"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"JrLabel",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"JrLabel", "JRLABEL", "jrlabel"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Labels Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Labels", "status" -> "None", "summary" -> 
+    "JrLabel[] returns the string treated as a label for the metric \
+perturbation amplitude jr", "synonyms" -> {"JrLabel", "JRLABEL", "jrlabel"}, 
+    "title" -> "JrLabel", "windowTitle" -> "JrLabel", "type" -> "Symbol", 
+    "uri" -> "BlackHoleAnalysis/ref/JrLabel", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

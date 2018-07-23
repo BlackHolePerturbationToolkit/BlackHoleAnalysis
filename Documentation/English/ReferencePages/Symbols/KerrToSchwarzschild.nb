@@ -1,0 +1,78 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"b429afd2-b87a-416c-84ca-b025509876a0"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`SchwEqs",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`SchwEqs"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["KerrToSchwarzschild",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/KerrToSchwarzschild"]
+}], "LinkTrail",ExpressionUUID->"ff809cdb-64ff-44a1-bf9f-89a635060c05"],
+
+Cell[CellGroupData[{
+
+Cell["KerrToSchwarzschild", \
+"ObjectName",ExpressionUUID->"8f2e5d14-82a6-4c4f-aa1a-13bdd85aa9ee"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["KerrToSchwarzschild",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/KerrToSchwarzschild"], "[", 
+       
+       StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "6f439f9f-9634-439b-bd6e-61df9250d15d"],
+     "\[LineSeparator]converts all Kerr symbols to their Schwarzschild \
+limit."
+    }],ExpressionUUID->"0f9725b4-f096-493c-aea0-c2f548a18f94"]}
+  }]], "Usage",ExpressionUUID->"11e1a69e-f3dc-4b81-8575-51c4657b52a8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"6d28ae83-d0bf-43f9-956a-a8c2d77c3bce"],
+
+Cell[BoxData[""],ExpressionUUID->"261236bb-c847-4f74-b93a-a89cffda9b7d"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"KerrToSchwarzschild",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "KerrToSchwarzschild", "KERRTOSCHWARZSCHILD", "kerrtoschwarzschild"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`SchwEqs Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`SchwEqs", "status" -> "None", "summary" -> 
+    "KerrToSchwarzschild[expr] converts all Kerr symbols to their \
+Schwarzschild limit.", 
+    "synonyms" -> {
+     "KerrToSchwarzschild", "KERRTOSCHWARZSCHILD", "kerrtoschwarzschild"}, 
+    "title" -> "KerrToSchwarzschild", "windowTitle" -> "KerrToSchwarzschild", 
+    "type" -> "Symbol", "uri" -> "BlackHoleAnalysis/ref/KerrToSchwarzschild", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

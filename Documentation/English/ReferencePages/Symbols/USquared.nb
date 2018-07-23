@@ -1,0 +1,75 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"17ace92a-b73d-4e43-9cc2-1d882479d7d6"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Coordinates",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Coordinates"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["USquared",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/USquared"]
+}], "LinkTrail",ExpressionUUID->"a261d646-a1ca-4fc7-8071-bbc94290f48b"],
+
+Cell[CellGroupData[{
+
+Cell["USquared", \
+"ObjectName",ExpressionUUID->"4e27c2da-2b2c-4c49-a8f5-73cc1b21a301"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["USquared",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/USquared"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"31ca4d3f-203c-45ba-82e1-00c335312e85"],
+     
+     "\[LineSeparator]returns U^2, the effective potential that shows up in \
+the Schwarzschild geodesic equations."
+    }],ExpressionUUID->"c9cac579-fc0f-44da-81fb-9d6a1b9ec7af"]}
+  }]], "Usage",ExpressionUUID->"6fb29f14-9702-4eb1-b3e3-3bbb0d5cdf1e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"dd9f84e7-9aa7-4183-95d2-da3f30682589"],
+
+Cell[BoxData[""],ExpressionUUID->"26ddcada-333f-42e6-998e-0b762c2f00a0"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"USquared",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"USquared", "USQUARED", "usquared"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Coordinates Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Coordinates", "status" -> 
+    "None", "summary" -> 
+    "USquared[] returns U^2, the effective potential that shows up in the \
+Schwarzschild geodesic equations.", 
+    "synonyms" -> {"USquared", "USQUARED", "usquared"}, "title" -> "USquared",
+     "windowTitle" -> "USquared", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/USquared", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

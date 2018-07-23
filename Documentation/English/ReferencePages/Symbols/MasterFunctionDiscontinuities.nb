@@ -1,0 +1,172 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"b568ade1-0f9d-4be7-b978-1c83b2c55be9"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Discontinuities",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Discontinuities"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["MasterFunctionDiscontinuities",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/MasterFunctionDiscontinuities"]
+}], "LinkTrail",ExpressionUUID->"634cbb68-bf27-4300-b2b1-90bd1dcda6cc"],
+
+Cell[CellGroupData[{
+
+Cell["MasterFunctionDiscontinuities", \
+"ObjectName",ExpressionUUID->"c1262e3d-4638-4c84-825a-be042ca19975"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["MasterFunctionDiscontinuities",
+        BaseStyle->"Link",
+        ButtonData->
+         "paclet:BlackHoleAnalysis/ref/MasterFunctionDiscontinuities"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "f254b2a2-a9f3-41ed-b2df-d1481ada7e02"],
+     "\[LineSeparator]returns an Association with discontinuities in the \
+master function and its first three r derivatives."
+    }],ExpressionUUID->"ca5e3c3f-9197-46f0-96b8-ceb721c1e9db"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["MasterFunctionDiscontinuities",
+        BaseStyle->"Link",
+        ButtonData->
+         "paclet:BlackHoleAnalysis/ref/MasterFunctionDiscontinuities"], "[", 
+       StyleBox[
+        RowBox[{"{", 
+         RowBox[{"m", ",", "n"}], "}"}], "TI"], "]"}]], "InlineFormula",
+      ExpressionUUID->"230b048e-1681-4641-b6d7-6e52380ab28d"],
+     "\[LineSeparator]returns an Association with discontinuities in the m-th \
+time derivative and n-th r derivative of the master function."
+    }],ExpressionUUID->"459651c4-5374-4088-9ee8-cc86d834a25e"]}
+  }]], "Usage",ExpressionUUID->"b0cd6f55-d9af-45a8-b409-fff918766dda"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"52966ebc-a1d0-49b1-ae01-8dd3a05c9649"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"3df42677-b154-4cbd-b0f6-e88e88ed4375"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "3cc03504-5892-4a9f-a3f8-d2979845446f"], "Labels", "True", Cell["\<\
+Boolean specifying whether the Keys of the Association should be formatted \
+labels or the order of discontinuity (-1 for jump, -2 for \[Delta], -3 for \
+\[Delta]', etc.)\
+\>", "TableText",ExpressionUUID->"ef58e7b0-9acc-4284-8da7-6e75c2490b0f"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "52a59542-c948-4acd-91ee-a057f9040383"], "Parity", "Even", Cell["\<\
+The discontinuities in the ZM (\"Even\") or CPM (\"Odd\") master function\
+\>", "TableText",ExpressionUUID->"b3106e3f-1e22-4f8a-98eb-10b712d93c62"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {None, {None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, 
+      True}}}},ExpressionUUID->"2423fd68-09c1-454c-a0c9-1eb59d9512ed"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"20c24b5d-c6cb-4664-966c-848e6955e7a7"],
+
+Cell[BoxData[""],ExpressionUUID->"6dc3a6de-19c5-4bdc-948e-6f20ff8dd308"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"MasterFunctionDiscontinuities",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "MasterFunctionDiscontinuities", "MASTERFUNCTIONDISCONTINUITIES", 
+      "masterfunctiondiscontinuities"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Discontinuities Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`Discontinuities", "status" -> "None",
+     "summary" -> 
+    "MasterFunctionDiscontinuities[] returns an Association with \
+discontinuities in the master function and its first three r derivatives.\n\
+MasterFunctionDiscontinuities[{m,n}] returns an Association with \
+discontinuities in the m-th time derivative and n-th r derivative of the \
+master function.", 
+    "synonyms" -> {
+     "MasterFunctionDiscontinuities", "MASTERFUNCTIONDISCONTINUITIES", 
+      "masterfunctiondiscontinuities"}, "title" -> 
+    "MasterFunctionDiscontinuities", "windowTitle" -> 
+    "MasterFunctionDiscontinuities", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/MasterFunctionDiscontinuities", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

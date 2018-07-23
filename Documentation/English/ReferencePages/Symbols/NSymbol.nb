@@ -1,0 +1,71 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"8f9aca25-4c69-4406-9756-a0d7445c8424"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["NSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/NSymbol"]
+}], "LinkTrail",ExpressionUUID->"e5022409-77e5-48fe-8498-f2542ae584f1"],
+
+Cell[CellGroupData[{
+
+Cell["NSymbol", \
+"ObjectName",ExpressionUUID->"154ba9af-b907-4da0-bdd6-7702e768fe6d"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["NSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/NSymbol"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"76102447-0b33-4341-ad6b-08bc4f559829"],
+     
+     "\[LineSeparator]returns the symbol for mode number n."
+    }],ExpressionUUID->"7427def6-8d8a-41a6-8a79-99f0602e2e6e"]}
+  }]], "Usage",ExpressionUUID->"1b1bbea4-0a69-4f42-80bc-77e4518d0517"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"8960be1d-37fc-44ef-b31c-9cf9760d8b25"],
+
+Cell[BoxData[""],ExpressionUUID->"b443178e-a98e-4d9d-8311-4540cf44d5b5"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"NSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"NSymbol", "NSYMBOL", "nsymbol"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "NSymbol[] returns the symbol for mode number n.", 
+    "synonyms" -> {"NSymbol", "NSYMBOL", "nsymbol"}, "title" -> "NSymbol", 
+    "windowTitle" -> "NSymbol", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/NSymbol", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

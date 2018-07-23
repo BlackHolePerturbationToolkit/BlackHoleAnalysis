@@ -1,0 +1,83 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"59366c10-2a8a-479c-952f-bee49cfb9132"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`ValidityTests",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`ValidityTests"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["VerifyBlackHoleSpin",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/VerifyBlackHoleSpin"]
+}], "LinkTrail",ExpressionUUID->"fb7814ae-c24d-4bdd-a11c-57d0e927c3ce"],
+
+Cell[CellGroupData[{
+
+Cell["VerifyBlackHoleSpin", \
+"ObjectName",ExpressionUUID->"1c7e727b-7270-4c56-8d79-b8f711de183c"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["VerifyBlackHoleSpin",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/VerifyBlackHoleSpin"], "[", 
+       
+       StyleBox[
+        RowBox[{"syms", ",", 
+         RowBox[{"{", 
+          RowBox[{"a", ",", "M"}], "}"}]}], "TI"], "]"}]], "InlineFormula",
+      ExpressionUUID->"c499d20a-7091-4db1-a4bd-3c539f626559"],
+     "\[LineSeparator]aborts with an error message if the spin of the black \
+hole a is not between -M and M."
+    }],ExpressionUUID->"384c94c6-bf59-48ee-921a-32d6cb1ea6ef"]}
+  }]], "Usage",ExpressionUUID->"a2b8fb2c-4464-4cd2-8953-219eefe22bcb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"b95abd5f-450d-4ff5-bfd8-b3d5400a2603"],
+
+Cell[BoxData[""],ExpressionUUID->"ab5aab7a-6413-4ee5-9943-03a4f1557d74"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"VerifyBlackHoleSpin",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "VerifyBlackHoleSpin", "VERIFYBLACKHOLESPIN", "verifyblackholespin"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`ValidityTests Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`ValidityTests", "status" -> "None", 
+    "summary" -> 
+    "VerifyBlackHoleSpin[syms,{a,M}] aborts with an error message if the spin \
+of the black hole a is not between -M and M.", 
+    "synonyms" -> {
+     "VerifyBlackHoleSpin", "VERIFYBLACKHOLESPIN", "verifyblackholespin"}, 
+    "title" -> "VerifyBlackHoleSpin", "windowTitle" -> "VerifyBlackHoleSpin", 
+    "type" -> "Symbol", "uri" -> "BlackHoleAnalysis/ref/VerifyBlackHoleSpin", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

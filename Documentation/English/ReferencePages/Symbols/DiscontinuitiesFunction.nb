@@ -1,0 +1,80 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"63130643-356b-4eb8-8de4-5ff3db2550e9"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Discontinuities",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Discontinuities"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["DiscontinuitiesFunction",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/DiscontinuitiesFunction"]
+}], "LinkTrail",ExpressionUUID->"a3c2e01e-19f2-495d-b111-c66ddf2d52f2"],
+
+Cell[CellGroupData[{
+
+Cell["DiscontinuitiesFunction", \
+"ObjectName",ExpressionUUID->"300651e8-202e-48ca-acab-46769d54ca3e"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["DiscontinuitiesFunction",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/DiscontinuitiesFunction"], 
+       "[", 
+       StyleBox["label", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "e2531bde-4f95-4b86-8928-d647fe961d76"],
+     "\[LineSeparator]returns the function that provides discontinuities for \
+the field associated with label."
+    }],ExpressionUUID->"1618e97f-1671-4df5-8501-82c9d6859190"]}
+  }]], "Usage",ExpressionUUID->"e76f5b70-d8ca-4369-ad79-8270bc5e0ecb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"9aaeea12-cdeb-45c1-8b93-8378d8dc5be2"],
+
+Cell[BoxData[""],ExpressionUUID->"bd401a0a-6111-4c86-8df2-6602e7b3d47d"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"DiscontinuitiesFunction",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "DiscontinuitiesFunction", "DISCONTINUITIESFUNCTION", 
+      "discontinuitiesfunction"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Discontinuities Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`Discontinuities", "status" -> "None",
+     "summary" -> 
+    "DiscontinuitiesFunction[label] returns the function that provides \
+discontinuities for the field associated with label.", 
+    "synonyms" -> {
+     "DiscontinuitiesFunction", "DISCONTINUITIESFUNCTION", 
+      "discontinuitiesfunction"}, "title" -> "DiscontinuitiesFunction", 
+    "windowTitle" -> "DiscontinuitiesFunction", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/DiscontinuitiesFunction", "WorkflowDockedCell" -> 
+    ""}, "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

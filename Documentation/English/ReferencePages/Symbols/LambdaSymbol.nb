@@ -1,0 +1,71 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"63bec497-0b58-499d-8f9e-93ebdd31a98d"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["LambdaSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/LambdaSymbol"]
+}], "LinkTrail",ExpressionUUID->"8b82ae6e-4aa6-4f23-a51a-3b5092b2e969"],
+
+Cell[CellGroupData[{
+
+Cell["LambdaSymbol", \
+"ObjectName",ExpressionUUID->"59509fb8-4e4c-497a-a512-cbbda75fbf4e"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["LambdaSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/LambdaSymbol"], "[", "]"}]],
+       "InlineFormula",ExpressionUUID->"def61b69-4628-428c-aabd-680bb1b9294c"],
+     "\[LineSeparator]returns the symbol for mode number combination lambda."
+    }],ExpressionUUID->"944b34d4-59fe-4bcf-aea5-1f45d6017b43"]}
+  }]], "Usage",ExpressionUUID->"8a7a4674-7ef6-4a8a-9d09-81686f0aa311"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"59024d95-325c-440a-a0c2-4a9941deb024"],
+
+Cell[BoxData[""],ExpressionUUID->"1d5af170-5476-4f99-b3cc-397b4533476b"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"LambdaSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"LambdaSymbol", "LAMBDASYMBOL", "lambdasymbol"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> 
+    "None", "summary" -> 
+    "LambdaSymbol[] returns the symbol for mode number combination lambda.", 
+    "synonyms" -> {"LambdaSymbol", "LAMBDASYMBOL", "lambdasymbol"}, "title" -> 
+    "LambdaSymbol", "windowTitle" -> "LambdaSymbol", "type" -> "Symbol", 
+    "uri" -> "BlackHoleAnalysis/ref/LambdaSymbol", "WorkflowDockedCell" -> 
+    ""}, "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

@@ -1,0 +1,155 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"4ddb611e-3bf0-4db9-b83e-0ff4a2dcc2ed"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Sources",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Sources"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["GSource",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/GSource"]
+}], "LinkTrail",ExpressionUUID->"48cef600-3367-427e-8060-c673c00fd080"],
+
+Cell[CellGroupData[{
+
+Cell["GSource", \
+"ObjectName",ExpressionUUID->"256418cb-b440-4406-ae3d-1b21e44ee1d2"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["GSource",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/GSource"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"12a8a3bc-cbf1-479c-8dc2-ba4c4f49107a"],
+     
+     "\[LineSeparator]returns the source G-tilde term of the master equation \
+source term in symbolic form."
+    }],ExpressionUUID->"2660d380-4ba0-4597-bfbf-64d199c92b40"]}
+  }]], "Usage",ExpressionUUID->"6f933dca-aaba-424b-bdc4-8352f558c272"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"13105d24-9bca-4cf3-93e5-dade8123c0f8"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"43ce7d20-7ffa-4d84-a28f-13d93abe5866"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "d2fce615-58f5-4650-8ea3-cd0b15517dae"], "Parity", "Default", Cell["\<\
+Parity of the master function (Default, \"Even\", or \"Odd\"). Choosing \
+Default allows \"Parity\" to be set by the \"Variable\" Option. When both \
+Options are Default, the \"Parity\" is \"Even\".\
+\>", "TableText",ExpressionUUID->"1e3c111e-2729-4e52-9451-dd2a20d454d7"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "e677b975-6116-4723-9457-0bf56502dedd"], "SourceExpansion", "Partial", 
+    Cell["\<\
+States to what extent source terms should be expanded, (\"Full\", \
+\"Partial\", or \"None\")\
+\>", "TableText",ExpressionUUID->"02209367-7ae0-4682-b356-e35e1922800b"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "2564bd57-e0aa-47d5-aab0-94722a300ea2"], "Variable", "Default", 
+    Cell["\<\
+The specific master function variable to use (Default, \"ZM\", \"ZM1\", ... \
+\"ZM7\" and \"CPM\", \"CPM1\", ... \"CPM6\"). Choosing Default is equivalent \
+to \"ZM\" when \"Parity\"->\"Even\" and \"CPM\" when \"Parity\"->\"Odd\". \
+When both Options are Default, the \"Parity\" is \"Even\".\
+\>", "TableText",ExpressionUUID->"116fc12e-5088-43e6-b8f6-b1c51efc1a03"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+   "Rows" -> {None, None, {None}}, "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, True, 
+      True}}}},ExpressionUUID->"ebb72147-3142-4921-9b78-3fb164b6e26f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"e828988c-16e3-42fe-a8ee-6ebde97fd867"],
+
+Cell[BoxData[""],ExpressionUUID->"8396cde3-b538-45a9-a013-7036b0bb7a25"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"GSource",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"GSource", "GSOURCE", "gsource"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Sources Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Sources", "status" -> "None", "summary" -> 
+    "GSource[] returns the source G-tilde term of the master equation source \
+term in symbolic form.", "synonyms" -> {"GSource", "GSOURCE", "gsource"}, 
+    "title" -> "GSource", "windowTitle" -> "GSource", "type" -> "Symbol", 
+    "uri" -> "BlackHoleAnalysis/ref/GSource", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

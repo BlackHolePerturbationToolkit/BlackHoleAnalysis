@@ -1,0 +1,73 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"18ea6efb-dcf5-4e5e-8e7a-f30a86d87146"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["ThetaPSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/ThetaPSymbol"]
+}], "LinkTrail",ExpressionUUID->"95a4193b-392b-4f87-bdff-f502793b21e9"],
+
+Cell[CellGroupData[{
+
+Cell["ThetaPSymbol", \
+"ObjectName",ExpressionUUID->"8df19a9c-6270-4c76-9bed-067f02df942e"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["ThetaPSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/ThetaPSymbol"], "[", "]"}]],
+       "InlineFormula",ExpressionUUID->"17475a5d-3964-4472-84b8-e7ce05779e20"],
+     "\[LineSeparator]returns the (formatted) symbol for the polar particle \
+location theta_p."
+    }],ExpressionUUID->"5a51095f-d894-4da4-9616-e48094ea6403"]}
+  }]], "Usage",ExpressionUUID->"82939d42-67fb-43a5-828f-55c361125c8e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"a9cd6da4-009b-451a-8c28-4378dcca5af2"],
+
+Cell[BoxData[""],ExpressionUUID->"31e4eedf-d6a5-448d-b50f-d22ddffe0508"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"ThetaPSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"ThetaPSymbol", "THETAPSYMBOL", "thetapsymbol"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> 
+    "None", "summary" -> 
+    "ThetaPSymbol[] returns the (formatted) symbol for the polar particle \
+location theta_p.", 
+    "synonyms" -> {"ThetaPSymbol", "THETAPSYMBOL", "thetapsymbol"}, "title" -> 
+    "ThetaPSymbol", "windowTitle" -> "ThetaPSymbol", "type" -> "Symbol", 
+    "uri" -> "BlackHoleAnalysis/ref/ThetaPSymbol", "WorkflowDockedCell" -> 
+    ""}, "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

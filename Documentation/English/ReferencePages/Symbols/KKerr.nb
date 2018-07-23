@@ -1,0 +1,72 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"2d3fde60-03cb-48b8-9618-fa9ae299cb05"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Coordinates",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Coordinates"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["KKerr",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/KKerr"]
+}], "LinkTrail",ExpressionUUID->"f7c49b43-3ea7-4f91-baa5-bc8cf380f9bd"],
+
+Cell[CellGroupData[{
+
+Cell["KKerr", \
+"ObjectName",ExpressionUUID->"af733a59-e8f8-4cdd-ba13-6c6300ab3941"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["KKerr",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/KKerr"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"622582b2-c025-446f-9564-d0a7784ac16e"],
+     
+     "\[LineSeparator]returns the Kerr quantity K."
+    }],ExpressionUUID->"e87878fa-8dec-4fbc-a8f5-42e923ce3ce9"]}
+  }]], "Usage",ExpressionUUID->"936d441f-a051-446a-b8fd-7347237c7621"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"3984da00-7ad4-48d8-901b-8823658b86a4"],
+
+Cell[BoxData[""],ExpressionUUID->"e6e7a1dd-59a5-4c65-8859-42036f48a1d1"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"KKerr",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"KKerr", "KKERR", "kkerr"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Coordinates Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`Coordinates", "status" -> "None", 
+    "summary" -> "KKerr[] returns the Kerr quantity K.", 
+    "synonyms" -> {"KKerr", "KKERR", "kkerr"}, "title" -> "KKerr", 
+    "windowTitle" -> "KKerr", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/KKerr", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

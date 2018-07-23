@@ -1,0 +1,75 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"8f99d854-f06a-4d27-a958-c18d4ee517bd"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`OverloadedSymbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`OverloadedSymbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["Apoapsis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/Apoapsis"]
+}], "LinkTrail",ExpressionUUID->"d07f2116-402f-49f9-af2e-57f1c16852d3"],
+
+Cell[CellGroupData[{
+
+Cell["Apoapsis", \
+"ObjectName",ExpressionUUID->"fcfd7308-a989-4daf-ae31-5de3f972d01b"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["Apoapsis",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/Apoapsis"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"f2a3c190-a376-40bb-a56b-533c387fad5d"],
+     
+     "\[LineSeparator]returns the apoapsis (rMax) of an orbit written as a \
+function of eccentricity and semi-latus rectum."
+    }],ExpressionUUID->"419ab4fc-91f4-46e9-a321-6900e340d01a"]}
+  }]], "Usage",ExpressionUUID->"2133bab0-0f4d-4f4e-b703-3050fd5a8b00"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"f767855f-f13e-4473-9ef4-ae55850f64fa"],
+
+Cell[BoxData[""],ExpressionUUID->"b54150d3-e371-4634-8b90-bab76bc3d1ca"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"Apoapsis",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"Apoapsis", "APOAPSIS", "apoapsis"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`OverloadedSymbols Symbol",
+     "language" -> "en", "paclet" -> "BlackHoleAnalysis`OverloadedSymbols", 
+    "status" -> "None", "summary" -> 
+    "Apoapsis[] returns the apoapsis (rMax) of an orbit written as a function \
+of eccentricity and semi-latus rectum.", 
+    "synonyms" -> {"Apoapsis", "APOAPSIS", "apoapsis"}, "title" -> "Apoapsis",
+     "windowTitle" -> "Apoapsis", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/Apoapsis", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

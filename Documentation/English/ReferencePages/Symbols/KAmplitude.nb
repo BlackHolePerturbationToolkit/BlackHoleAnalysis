@@ -1,0 +1,185 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"a41f61be-509a-4c0a-a0e4-a91cb18f8d77"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Fields",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Fields"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["KAmplitude",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/KAmplitude"]
+}], "LinkTrail",ExpressionUUID->"40a7bc89-b866-4ee6-b0fa-1d936930b1fc"],
+
+Cell[CellGroupData[{
+
+Cell["KAmplitude", \
+"ObjectName",ExpressionUUID->"0e72376c-8c03-44ae-8ab0-b8cec78471d0"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["KAmplitude",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/KAmplitude"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"ba550c43-3d3a-4f11-9673-cce228d41ef7"],
+     
+     "\[LineSeparator]returns the metric perturbation amplitude K in symbolic \
+form."
+    }],ExpressionUUID->"1cb9b843-99ad-43b7-be8f-6ae918e1c58b"]}
+  }]], "Usage",ExpressionUUID->"561b7b41-2295-4ace-a31e-79ceb8441b32"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"a372f068-5a46-4e28-a976-91ee222a551c"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"5a8f25b8-2973-4679-b92a-83e8bb1eac15"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "6e6292ea-2fc2-42b7-9673-5bee090d4de3"], "ExpandGaugeVector", "False", 
+    Cell["\<\
+Boolean stating whether to expand the analytic gauge vector connecting RW and \
+ModRW gauges\
+\>", "TableText",ExpressionUUID->"a0362860-c91f-47f7-8428-84d6cb53009a"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "16b5df46-b10a-4e99-bb09-db62db20089b"], "ExpandZerilli", "False", 
+    Cell["\<\
+Boolean stating whether to write out the analytic Zerilli solution to a low \
+order mode\
+\>", "TableText",ExpressionUUID->"75416536-32a4-4451-91c9-61451651d3df"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "19a1b601-0678-4374-a070-19f6f773b79f"], "Gauge", "RWZ", Cell[
+    "Gauge (\"RWZ\", \"ModRWZ\", \"Lorenz\",  \"Undefined\", or Null)", 
+     "TableText",ExpressionUUID->"db906664-44f6-47c9-8995-795bd462b6f5"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "0206cfeb-a7dd-4bbf-a06a-0892e3745265"], "Mode", "Radiative", Cell[
+    "l mode (\"Radiative\", \"Dipole\", or \"Monopole\")", "TableText",
+     ExpressionUUID->"f1ed9ee2-a476-4069-8ae5-8dd33367e135"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "beb31aff-0195-47c6-a810-c4fe72d84f5c"], "PushFrom", "Same", Cell["\<\
+Specifies a gauge to start in. A gauge vector term is used to \"push\" from \
+that gauge. For no push use the default, \"PushFrom\"->\"Same\". Other option \
+values are \"RWZ\", \"ModRWZ\", and \"Lorenz\"\
+\>", "TableText",ExpressionUUID->"404a4660-fd74-4a15-ab8e-a298e8e74714"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "82e83a58-15e1-43eb-b85c-a1fd43d187d4"], "Reconstruct", "False", Cell["\<\
+Boolean stating whether the metric perturbation amplitude should be written \
+in terms of the master function\
+\>", "TableText",ExpressionUUID->"dc72171c-17ef-4abb-9ec6-50a24de97fff"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "0837a48d-8891-47c6-9c9b-4255ecceaa37"], "ReturnSymbol", "False", 
+    Cell["\<\
+Boolean stating whether to only return the symbol of the field (with no \
+arguments)\
+\>", "TableText",ExpressionUUID->"065a1a48-7867-4dab-9d97-4e6113449b8f"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "366f02a5-54a9-4c2a-99e3-e49ed4f5bfb9"], "SourceExpansion", "None", 
+    Cell["\<\
+States to what extent source terms (resulting from expansion of metric \
+perturbation amplitudes) should be expanded, (\"Full\", \"Partial\", or \
+\"None\")\
+\>", "TableText",ExpressionUUID->"1c4478fe-46d3-4473-9189-df875a290fce"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "6e8ff36e-f22b-41ef-a6e8-e4b1a7567cac"], "Weak", "False", Cell["\<\
+Boolean stating whether the amplitude should be given in a weak form\
+\>", "TableText",ExpressionUUID->"421f7351-1f0d-4396-a8aa-f7c921df46f4"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+   "Rows" -> {None, None, None, None, None, None, None, None, {None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, True, True, True, True, True, True, True, 
+      True}}}},ExpressionUUID->"9167da86-fa35-4417-af7d-3868a9e5c992"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"6e39f2ec-3e37-4900-be87-a6bfd4527786"],
+
+Cell[BoxData[""],ExpressionUUID->"2cb285c9-d8c6-4dd3-93ac-a8af910e91f6"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"KAmplitude",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"KAmplitude", "KAMPLITUDE", "kamplitude"}, "index" -> True,
+     "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Fields Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Fields", "status" -> 
+    "None", "summary" -> 
+    "KAmplitude[] returns the metric perturbation amplitude K in symbolic \
+form.", "synonyms" -> {"KAmplitude", "KAMPLITUDE", "kamplitude"}, "title" -> 
+    "KAmplitude", "windowTitle" -> "KAmplitude", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/KAmplitude", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

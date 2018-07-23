@@ -1,0 +1,93 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"c3023d9b-fb9f-4216-abd8-9f348965a9a8"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`OverloadedSymbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`OverloadedSymbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["XPN",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/XPN"]
+}], "LinkTrail",ExpressionUUID->"ff70fc71-18e1-41ba-a7b7-202c36668cdf"],
+
+Cell[CellGroupData[{
+
+Cell["XPN", \
+"ObjectName",ExpressionUUID->"58545586-7ea5-45d0-8d0c-5b4a02e47e9b"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["XPN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/XPN"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"c09b1037-bde4-4d1f-b1ee-aaf0006428ea"],
+     
+     "\[LineSeparator]returns the post-Newtonian parameter x = (M \
+OmegaPhi)^2/3 of a particle in an eccentric orbit around a Schwarzschild \
+black hole, expanded to 1 PN using the inverse of the semi-latus rectum as \
+the expansion parameter."
+    }],ExpressionUUID->"4d88bf6a-6419-4bb5-aed8-2513adf234a5"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["XPN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/XPN"], "[", 
+       StyleBox["n", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "4ac87f83-92d2-4e62-b085-e45edff3a414"],
+     "\[LineSeparator]returns the post-Newtonian parameter x of a particle in \
+an eccentric orbit around a Schwarzschild black hole, expanded to n PN using \
+the inverse of the semi-latus rectum as the expansion parameter."
+    }],ExpressionUUID->"416c7534-e6ae-45c5-b56f-c88e37242192"]}
+  }]], "Usage",ExpressionUUID->"7178339d-0568-474a-afea-c541b903308b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"742e2a9a-3bb9-4bed-b4db-10a0289aeae3"],
+
+Cell[BoxData[""],ExpressionUUID->"95a5b208-e313-4ec2-b631-28775525d2ec"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"XPN",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", "keywords" -> {"XPN", "XPN", "xpn"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`OverloadedSymbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`OverloadedSymbols", 
+    "status" -> "None", "summary" -> 
+    "XPN[] returns the post-Newtonian parameter x = (M OmegaPhi)^2/3 of a \
+particle in an eccentric orbit around a Schwarzschild black hole, expanded to \
+1 PN using the inverse of the semi-latus rectum as the expansion parameter.\n\
+XPN[n] returns the post-Newtonian parameter x of a particle in an eccentric \
+orbit around a Schwarzschild black hole, expanded to n PN using the inverse \
+of the semi-latus rectum as the expansion parameter.", 
+    "synonyms" -> {"XPN", "XPN", "xpn"}, "title" -> "XPN", "windowTitle" -> 
+    "XPN", "type" -> "Symbol", "uri" -> "BlackHoleAnalysis/ref/XPN", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

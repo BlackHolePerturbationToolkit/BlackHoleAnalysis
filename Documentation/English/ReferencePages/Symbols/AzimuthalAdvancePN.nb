@@ -1,0 +1,185 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"4d60a9e6-b7c0-4793-9afc-b23e93ac87ca"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`PN",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`PN"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["AzimuthalAdvancePN",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/AzimuthalAdvancePN"]
+}], "LinkTrail",ExpressionUUID->"0a8def95-6892-4401-9c1e-ae69220b3a4b"],
+
+Cell[CellGroupData[{
+
+Cell["AzimuthalAdvancePN", \
+"ObjectName",ExpressionUUID->"f846992e-c444-4145-8cd1-e978dcff49ca"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["AzimuthalAdvancePN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/AzimuthalAdvancePN"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "75cb6c99-1940-4cad-93ac-723136564662"],
+     "\[LineSeparator]returns the total azimuthal advance during one radial \
+libration of a particle in an eccentric orbit around a Schwarzschild black \
+hole, expanded to 1 term using the inverse of p, the semi-latus rectum, as \
+the expansion parameter."
+    }],ExpressionUUID->"8784170e-58eb-466d-927d-7ca239554fd4"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["AzimuthalAdvancePN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/AzimuthalAdvancePN"], "[", 
+       StyleBox["n", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "6cb5021d-4489-45a1-b5bb-6e2c07c667e0"],
+     "\[LineSeparator]returns the azimuthal advance expanded to n terms."
+    }],ExpressionUUID->"058e340e-b1b4-4392-98d5-38179db13a8e"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["AzimuthalAdvancePN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/AzimuthalAdvancePN"], "[", 
+       StyleBox["par", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "03201a89-25a7-481b-8c3f-eb9bd5be83ce"],
+     "\[LineSeparator]returns the azimuthal advance expanded to 1 term, using \
+par (\"p\" or \"x\") as the expansion parameter."
+    }],ExpressionUUID->"9bd9cd0d-7f83-4d27-a62f-3d075f9d1dc4"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["AzimuthalAdvancePN",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/AzimuthalAdvancePN"], "[", 
+       StyleBox[
+        RowBox[{"n", ",", "par"}], "TI"], "]"}]], "InlineFormula",
+      ExpressionUUID->"9d61a034-9a07-451f-b32c-74011f6db458"],
+     "\[LineSeparator]returns the azimuthal advance expanded to n terms, \
+using par (\"p\" or \"x\") as the expansion parameter."
+    }],ExpressionUUID->"70706a73-f08b-4c17-bef3-55e30a9c7e0d"]}
+  }]], "Usage",ExpressionUUID->"09e6c52b-a3e6-4e3e-b6cf-1bc80f3ab603"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"97023b27-110f-43d2-8dee-ddb20239e4fe"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"7d2455f1-f844-4966-83ff-8ac229148861"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "ddf32fe7-e702-4435-a31b-d52a5eb8ab54"], "Metric", "Schwarzschild", 
+    Cell["\<\
+Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
+\>", "TableText",ExpressionUUID->"e3c75fbe-7281-4c06-a891-8c980ed09d91"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"5c0e4fc4-5012-4e10-83d3-e567f3c65846"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"3e56e8bd-e36f-4b3b-b9ac-a832c7e76cab"],
+
+Cell[BoxData[""],ExpressionUUID->"7eee36f7-da0c-4a21-85e6-afeafa46688c"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"AzimuthalAdvancePN",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "AzimuthalAdvancePN", "AZIMUTHALADVANCEPN", "azimuthaladvancepn"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`PN Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`PN", "status" -> "None", "summary" -> 
+    "AzimuthalAdvancePN[] returns the total azimuthal advance during one \
+radial libration of a particle in an eccentric orbit around a Schwarzschild \
+black hole, expanded to 1 term using the inverse of p, the semi-latus rectum, \
+as the expansion parameter.\nAzimuthalAdvancePN[n] returns the azimuthal \
+advance expanded to n terms.\nAzimuthalAdvancePN[par] returns the azimuthal \
+advance expanded to 1 term, using par (\"p\" or \"x\") as the expansion \
+parameter.\nAzimuthalAdvancePN[n,par] returns the azimuthal advance expanded \
+to n terms, using par (\"p\" or \"x\") as the expansion parameter.", 
+    "synonyms" -> {
+     "AzimuthalAdvancePN", "AZIMUTHALADVANCEPN", "azimuthaladvancepn"}, 
+    "title" -> "AzimuthalAdvancePN", "windowTitle" -> "AzimuthalAdvancePN", 
+    "type" -> "Symbol", "uri" -> "BlackHoleAnalysis/ref/AzimuthalAdvancePN", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

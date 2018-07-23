@@ -1,0 +1,75 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"e209ba1d-9824-40d1-ad19-f702f70b5df6"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["OmegaPhiSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/OmegaPhiSymbol"]
+}], "LinkTrail",ExpressionUUID->"958ec7e7-3932-4ee1-b7ca-0b553efc817d"],
+
+Cell[CellGroupData[{
+
+Cell["OmegaPhiSymbol", \
+"ObjectName",ExpressionUUID->"0cb2a106-c86b-4471-93aa-481ae16d10f2"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["OmegaPhiSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/OmegaPhiSymbol"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "04eab40a-822d-431d-be2b-f54b139534e1"],
+     "\[LineSeparator]returns the (formatted) symbol for OmegaPhi, the mean \
+rate of azimuthal advance."
+    }],ExpressionUUID->"70b3cfa7-d586-49fa-85bd-16e6cffbd8e1"]}
+  }]], "Usage",ExpressionUUID->"4acefb7d-6ff1-4c27-8a41-3b9ea0c58cf7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"34e46175-b571-476c-9a8e-a1f87e4cb52a"],
+
+Cell[BoxData[""],ExpressionUUID->"1e3b974e-facb-4d94-af66-caf1b4d1e0b1"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"OmegaPhiSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"OmegaPhiSymbol", "OMEGAPHISYMBOL", "omegaphisymbol"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "OmegaPhiSymbol[] returns the (formatted) symbol for OmegaPhi, the mean \
+rate of azimuthal advance.", 
+    "synonyms" -> {"OmegaPhiSymbol", "OMEGAPHISYMBOL", "omegaphisymbol"}, 
+    "title" -> "OmegaPhiSymbol", "windowTitle" -> "OmegaPhiSymbol", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/OmegaPhiSymbol", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

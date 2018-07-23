@@ -1,0 +1,77 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"744333d3-f280-47dd-a02f-efb3b2d7d919"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["GCoefficientSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/GCoefficientSymbol"]
+}], "LinkTrail",ExpressionUUID->"2b9d78e1-44ce-4b44-b7aa-e7a819c1696d"],
+
+Cell[CellGroupData[{
+
+Cell["GCoefficientSymbol", \
+"ObjectName",ExpressionUUID->"b5927f43-aeda-4c01-8310-8748614ee1d5"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["GCoefficientSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/GCoefficientSymbol"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "eb275e48-48dd-4ce0-98f5-b61356f7618c"],
+     "\[LineSeparator]returns the symbol for G, the coefficient of the Dirac \
+delta function."
+    }],ExpressionUUID->"f489893c-2469-456a-90d3-efab10d1c330"]}
+  }]], "Usage",ExpressionUUID->"48a85cc3-ce5b-4d85-affa-4eabc38eb6ea"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"8a81277e-307c-48c7-854e-14fc955b9632"],
+
+Cell[BoxData[""],ExpressionUUID->"877045f1-85a5-4bbe-8fe3-6249715218f1"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"GCoefficientSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "GCoefficientSymbol", "GCOEFFICIENTSYMBOL", "gcoefficientsymbol"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "GCoefficientSymbol[] returns the symbol for G, the coefficient of the \
+Dirac delta function.", 
+    "synonyms" -> {
+     "GCoefficientSymbol", "GCOEFFICIENTSYMBOL", "gcoefficientsymbol"}, 
+    "title" -> "GCoefficientSymbol", "windowTitle" -> "GCoefficientSymbol", 
+    "type" -> "Symbol", "uri" -> "BlackHoleAnalysis/ref/GCoefficientSymbol", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

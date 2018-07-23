@@ -1,0 +1,75 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"5456c1c5-9ef7-43d3-a88b-a7694dce4fdf"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["OrbitalEccentricitySymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/OrbitalEccentricitySymbol"]
+}], "LinkTrail",ExpressionUUID->"ed2c1f24-79dd-4981-a3e5-233a3552bdbd"],
+
+Cell[CellGroupData[{
+
+Cell["OrbitalEccentricitySymbol", \
+"ObjectName",ExpressionUUID->"8a9453de-be00-46b7-bb73-ab763f52cdc9"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["OrbitalEccentricitySymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/OrbitalEccentricitySymbol"],
+        "[", "]"}]], "InlineFormula",ExpressionUUID->
+      "fb6b9e10-bc66-467e-b1ce-8349d7729fc5"],
+     "\[LineSeparator]returns the symbol for eccentricity."
+    }],ExpressionUUID->"180d70fc-e510-480c-aabb-2887066d41b1"]}
+  }]], "Usage",ExpressionUUID->"68623371-19ca-4f4b-9fa5-5ba515319dbc"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"cd657690-3c59-453a-b87f-53f7e4d89172"],
+
+Cell[BoxData[""],ExpressionUUID->"7df82a41-158f-48a3-a24c-1fb02c562ea3"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"OrbitalEccentricitySymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "OrbitalEccentricitySymbol", "ORBITALECCENTRICITYSYMBOL", 
+      "orbitaleccentricitysymbol"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "OrbitalEccentricitySymbol[] returns the symbol for eccentricity.", 
+    "synonyms" -> {
+     "OrbitalEccentricitySymbol", "ORBITALECCENTRICITYSYMBOL", 
+      "orbitaleccentricitysymbol"}, "title" -> "OrbitalEccentricitySymbol", 
+    "windowTitle" -> "OrbitalEccentricitySymbol", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/OrbitalEccentricitySymbol", "WorkflowDockedCell" -> 
+    ""}, "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

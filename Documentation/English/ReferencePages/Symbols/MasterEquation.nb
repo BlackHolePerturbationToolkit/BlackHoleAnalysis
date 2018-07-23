@@ -1,0 +1,182 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"7b766981-8b93-40e0-93bf-1e4d0d2c6dca"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`SchwEqs",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`SchwEqs"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["MasterEquation",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/MasterEquation"]
+}], "LinkTrail",ExpressionUUID->"7f490d9d-eb91-4488-9c6e-dfa95caed9d0"],
+
+Cell[CellGroupData[{
+
+Cell["MasterEquation", \
+"ObjectName",ExpressionUUID->"df33a8c8-5845-40f3-9e99-e1636061a450"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["MasterEquation",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/MasterEquation"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "1300df8f-8781-40e6-a414-26ef91a530ea"],
+     "\[LineSeparator]returns the master equation for a particle orbiting a \
+Schwarzschild black hole."
+    }],ExpressionUUID->"560472b4-8f13-4285-9ff5-63e733ce325c"]}
+  }]], "Usage",ExpressionUUID->"ea1aa828-a0f6-417f-b34d-e768e337fe91"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"9c3f80cd-cd06-4452-a349-734b50a81cc3"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"15f8cc3a-38f3-4f19-a4bf-a8348e5113cb"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "6d0369dc-2100-49f5-90ab-480cade6f1e6"], "Gauge", "RWZ", Cell["\<\
+Gauge of metric perturbation amplitudes (if master function is expanded with \
+MPs->True), (\"RWZ\", \"Lorenz\",  or \"Undefined\")\
+\>", "TableText",ExpressionUUID->"949ed0d3-6d43-4b5a-a043-12b81d0a08cd"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "17aa4932-8a23-4928-beef-8070118656f4"], "GFForm", "True", Cell["\<\
+Boolean stating whether source term should be written in terms of G and F \
+coefficents of the Dirac delta distribution and its first derivative\
+\>", "TableText",ExpressionUUID->"f297040c-0f45-4829-9889-16f4abd20cef"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "267f1985-f6f2-468c-80ee-c33763a9a32d"], "Homogeneous", "False", Cell[
+    "Boolean stating whether to include source terms", "TableText",
+     ExpressionUUID->"be956d2d-ff34-44f8-8d44-d54fa5e12a52"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "c53317d2-1a89-4c6a-b704-690155723dc9"], "MPs", "False", Cell["\<\
+Boolean stating whether to expand the master function in terms of metric \
+perturbation amplitudes\
+\>", "TableText",ExpressionUUID->"51e4ef22-ae15-42a9-af0b-04818a75e548"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "6c56c875-2136-4aad-ab9e-e668db5005bd"], "Parity", "Default", Cell["\<\
+Parity of the master function (Default, \"Even\", or \"Odd\"). Choosing \
+Default allows \"Parity\" to be set by the \"Variable\" Option. When both \
+Options are Default, the \"Parity\" is \"Even\".\
+\>", "TableText",ExpressionUUID->"fe0b7e86-1601-47f7-81f7-7fbc295f3d4b"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "8de5d25b-e2f8-4e92-ba12-c57ec7d4d74e"], "SourceExpansion", "Partial", 
+    Cell["\<\
+States to what extent source terms should be expanded, (\"Full\", \
+\"Partial\", or \"None\")\
+\>", "TableText",ExpressionUUID->"76ef1dd8-a6d9-420e-ae92-27eb701df78a"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "715f0070-1dee-493c-89f6-4a1b6a7099c7"], "Variable", "Default", 
+    Cell["\<\
+The specific master function variable to use (Default, \"ZM\", \"ZM1\", ... \
+\"ZM7\" and \"CPM\", \"CPM1\", ... \"CPM6\"). Choosing Default is equivalent \
+to \"ZM\" when \"Parity\"->\"Even\" and \"CPM\" when \"Parity\"->\"Odd\". \
+When both Options are Default, the \"Parity\" is \"Even\".\
+\>", "TableText",ExpressionUUID->"8f14b664-5520-4aa4-951a-9be87dbcb1a9"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "4c2476bf-dc70-4901-9893-9d1d00bb9839"], "Weak", "False", Cell["\<\
+Boolean stating whether the amplitudes should be given in a weak form\
+\>", "TableText",ExpressionUUID->"2420576b-84c3-44a2-b419-d916260f2401"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+   "Rows" -> {None, None, None, None, None, None, None, {None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, True, True, True, True, True, True, 
+      True}}}},ExpressionUUID->"baa38279-26cc-4a7c-9f71-f621d865ea2a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"cebb2aa0-4dac-45ca-b3df-43379dd76211"],
+
+Cell[BoxData[""],ExpressionUUID->"fc5a52b9-1e9a-4b6c-a95e-08237b69f4ff"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"MasterEquation",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"MasterEquation", "MASTEREQUATION", "masterequation"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`SchwEqs Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`SchwEqs", "status" -> "None", "summary" -> 
+    "MasterEquation[] returns the master equation for a particle orbiting a \
+Schwarzschild black hole.", 
+    "synonyms" -> {"MasterEquation", "MASTEREQUATION", "masterequation"}, 
+    "title" -> "MasterEquation", "windowTitle" -> "MasterEquation", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/MasterEquation", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

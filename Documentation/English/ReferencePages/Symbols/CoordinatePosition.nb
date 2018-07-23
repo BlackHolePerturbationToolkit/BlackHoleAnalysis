@@ -1,0 +1,79 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"e23a3ff9-f6f7-48de-ba0b-096ccf006daa"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`OverloadedSymbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`OverloadedSymbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["CoordinatePosition",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/CoordinatePosition"]
+}], "LinkTrail",ExpressionUUID->"afc834d7-4ec1-4e30-beed-23080a67152d"],
+
+Cell[CellGroupData[{
+
+Cell["CoordinatePosition", \
+"ObjectName",ExpressionUUID->"8afd06b3-b50a-4600-b126-89f9da57b042"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["CoordinatePosition",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/CoordinatePosition"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "c1324262-6816-4f2e-836b-71113f8b1432"],
+     "\[LineSeparator]returns a list of elements characterizing the \
+particle's position in order {t,r,theta,phi}."
+    }],ExpressionUUID->"940fecea-0b11-484e-a8be-099502cbb17e"]}
+  }]], "Usage",ExpressionUUID->"244552cf-bbcc-46d6-8b32-aec165a8017d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"fff89ac4-499c-46a6-a031-d511d1121c82"],
+
+Cell[BoxData[""],ExpressionUUID->"ceab4cc1-8cdd-462a-997e-2f50e4fd34d3"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"CoordinatePosition",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "CoordinatePosition", "COORDINATEPOSITION", "coordinateposition"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`OverloadedSymbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`OverloadedSymbols", 
+    "status" -> "None", "summary" -> 
+    "CoordinatePosition[] returns a list of elements characterizing the \
+particle's position in order {t,r,theta,phi}.", 
+    "synonyms" -> {
+     "CoordinatePosition", "COORDINATEPOSITION", "coordinateposition"}, 
+    "title" -> "CoordinatePosition", "windowTitle" -> "CoordinatePosition", 
+    "type" -> "Symbol", "uri" -> "BlackHoleAnalysis/ref/CoordinatePosition", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

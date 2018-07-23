@@ -1,0 +1,73 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"8b53486b-d8e6-4ca1-b7cb-d10645b81555"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Labels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Labels"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["XPhiPhiLabel",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/XPhiPhiLabel"]
+}], "LinkTrail",ExpressionUUID->"8eff9093-8066-4700-bd05-1cc65fc4c586"],
+
+Cell[CellGroupData[{
+
+Cell["XPhiPhiLabel", \
+"ObjectName",ExpressionUUID->"f9a5ef64-4bf8-4360-9e50-77f35dbdfa3d"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["XPhiPhiLabel",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/XPhiPhiLabel"], "[", "]"}]],
+       "InlineFormula",ExpressionUUID->"27e3fda4-1279-4468-be38-84efd6b74495"],
+     "\[LineSeparator]returns the string treated as a label for the tensor \
+spherical harmonics X_lm_PhiPhi"
+    }],ExpressionUUID->"c1f6767a-862e-4188-b2d1-ed573992c061"]}
+  }]], "Usage",ExpressionUUID->"ad4f729e-ea17-4748-bc17-149cb99ccf67"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"6888b6d1-be42-4f40-9a9c-36c160b9a4af"],
+
+Cell[BoxData[""],ExpressionUUID->"6960542d-1815-44d8-9dda-3cfbaee71646"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"XPhiPhiLabel",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"XPhiPhiLabel", "XPHIPHILABEL", "xphiphilabel"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Labels Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Labels", "status" -> 
+    "None", "summary" -> 
+    "XPhiPhiLabel[] returns the string treated as a label for the tensor \
+spherical harmonics X_lm_PhiPhi", 
+    "synonyms" -> {"XPhiPhiLabel", "XPHIPHILABEL", "xphiphilabel"}, "title" -> 
+    "XPhiPhiLabel", "windowTitle" -> "XPhiPhiLabel", "type" -> "Symbol", 
+    "uri" -> "BlackHoleAnalysis/ref/XPhiPhiLabel", "WorkflowDockedCell" -> 
+    ""}, "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

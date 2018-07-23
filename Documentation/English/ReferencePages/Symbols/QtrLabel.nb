@@ -1,0 +1,74 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"48142e07-40b6-4d99-a4d9-ce156b9713f4"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Labels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Labels"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["QtrLabel",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/QtrLabel"]
+}], "LinkTrail",ExpressionUUID->"a4b4b1d8-f8a4-44b5-a944-e1e0c7e32153"],
+
+Cell[CellGroupData[{
+
+Cell["QtrLabel", \
+"ObjectName",ExpressionUUID->"db046821-db56-4869-942f-629791fb10c6"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["QtrLabel",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/QtrLabel"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"8a4970d4-b49b-49c1-9c35-4a66df4b501d"],
+     
+     "\[LineSeparator]returns the string treated as a label for the metric \
+perturbation amplitude source term Qtr"
+    }],ExpressionUUID->"d59d289a-5f4f-419c-b8e9-a9ef4027405a"]}
+  }]], "Usage",ExpressionUUID->"f9988ed8-080a-4cc6-a17b-c9284ef6626f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"5595a19b-766e-44c0-84a4-95a3e6ede5fa"],
+
+Cell[BoxData[""],ExpressionUUID->"9f77ecef-0d4f-44bc-8973-27eca94e0e8d"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"QtrLabel",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"QtrLabel", "QTRLABEL", "qtrlabel"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Labels Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Labels", "status" -> 
+    "None", "summary" -> 
+    "QtrLabel[] returns the string treated as a label for the metric \
+perturbation amplitude source term Qtr", 
+    "synonyms" -> {"QtrLabel", "QTRLABEL", "qtrlabel"}, "title" -> "QtrLabel",
+     "windowTitle" -> "QtrLabel", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/QtrLabel", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

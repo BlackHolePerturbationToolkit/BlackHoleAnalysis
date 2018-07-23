@@ -1,0 +1,152 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"9a8f8a05-d49b-48b6-8972-5eaa3aaf36fc"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`KerrEqs",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`KerrEqs"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["RemoveSasakiNakamuraFunctionRDerivatives",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/ref/RemoveSasakiNakamuraFunctionRDerivatives"]
+}], "LinkTrail",ExpressionUUID->"ee288cb3-0a81-4420-a7af-a85e68091472"],
+
+Cell[CellGroupData[{
+
+Cell["RemoveSasakiNakamuraFunctionRDerivatives", \
+"ObjectName",ExpressionUUID->"370591ff-f3d7-4ff0-9f88-a06b33531885"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["RemoveSasakiNakamuraFunctionRDerivatives",
+        BaseStyle->"Link",
+        ButtonData->
+         "paclet:BlackHoleAnalysis/ref/\
+RemoveSasakiNakamuraFunctionRDerivatives"], "[", 
+       StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "d8a44980-b9d2-41fc-9f23-c025bcf56222"],
+     "\[LineSeparator]uses the Sasaki-Nakamura equation to remove all r \
+derivatives of the Sasaki-Nakamura function higher than the first."
+    }],ExpressionUUID->"a924acfe-04f1-40e6-b98f-d93bb00338f6"]}
+  }]], "Usage",ExpressionUUID->"41f1c8f7-4ffc-45a4-9b9f-0883a0a7efac"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"188ce3e5-d370-463e-846b-6ab34e899655"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"ed934eca-bba8-4488-b4ce-f81cbe01f074"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "8226e806-1d15-4588-9a2c-706c34539f64"], "SpinWeight", 
+    RowBox[{"-", "2"}], Cell["\<\
+Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
+\>", "TableText",ExpressionUUID->"f75948d5-c956-4add-8aca-f0a783308b59"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"ee991e6d-71c6-4e00-80e9-82b9fff3edd1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"bf6d915d-3edd-4dae-89e8-98c8e6e93d85"],
+
+Cell[BoxData[""],ExpressionUUID->"3ffea68b-a743-41e8-9895-8b34f957dfce"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"RemoveSasakiNakamuraFunctionRDerivatives",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "RemoveSasakiNakamuraFunctionRDerivatives", 
+      "REMOVESASAKINAKAMURAFUNCTIONRDERIVATIVES", 
+      "removesasakinakamurafunctionrderivatives"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`KerrEqs Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`KerrEqs", "status" -> "None", "summary" -> 
+    "RemoveSasakiNakamuraFunctionRDerivatives[expr] uses the Sasaki-Nakamura \
+equation to remove all r derivatives of the Sasaki-Nakamura function higher \
+than the first.", 
+    "synonyms" -> {
+     "RemoveSasakiNakamuraFunctionRDerivatives", 
+      "REMOVESASAKINAKAMURAFUNCTIONRDERIVATIVES", 
+      "removesasakinakamurafunctionrderivatives"}, "title" -> 
+    "RemoveSasakiNakamuraFunctionRDerivatives", "windowTitle" -> 
+    "RemoveSasakiNakamuraFunctionRDerivatives", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/RemoveSasakiNakamuraFunctionRDerivatives", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

@@ -1,0 +1,72 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"34987b97-b0f5-4519-81c2-7ea70eec0be7"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Labels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Labels"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["KLabel",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/KLabel"]
+}], "LinkTrail",ExpressionUUID->"1a03f71d-1a31-42c4-9ee2-373f97cb382d"],
+
+Cell[CellGroupData[{
+
+Cell["KLabel", \
+"ObjectName",ExpressionUUID->"eec7b5ef-0da2-42cf-baa4-19c845fc4055"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["KLabel",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/KLabel"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"064e297f-6e75-406f-af5e-4467cd67568b"],
+     
+     "\[LineSeparator]returns the string treated as a label for the metric \
+perturbation amplitude K"
+    }],ExpressionUUID->"b970f80c-7d2d-4e6d-b815-c87c59439dda"]}
+  }]], "Usage",ExpressionUUID->"3a5191a5-540c-485b-8f61-77c3fdb33c56"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"1e072647-b52c-46b4-8095-64e66296560f"],
+
+Cell[BoxData[""],ExpressionUUID->"9c9cac43-0877-468e-a5f0-48b33e3ab7e3"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"KLabel",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"KLabel", "KLABEL", "klabel"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Labels Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Labels", "status" -> "None", "summary" -> 
+    "KLabel[] returns the string treated as a label for the metric \
+perturbation amplitude K", "synonyms" -> {"KLabel", "KLABEL", "klabel"}, 
+    "title" -> "KLabel", "windowTitle" -> "KLabel", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/KLabel", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

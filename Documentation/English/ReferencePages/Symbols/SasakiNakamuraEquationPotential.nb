@@ -1,0 +1,147 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"1c8e94ed-698e-46c4-97d9-ba0f7dcc0689"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`KerrEqs",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`KerrEqs"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["SasakiNakamuraEquationPotential",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/SasakiNakamuraEquationPotential"]
+}], "LinkTrail",ExpressionUUID->"6b94a325-be89-4099-a9bf-98232612a9a7"],
+
+Cell[CellGroupData[{
+
+Cell["SasakiNakamuraEquationPotential", \
+"ObjectName",ExpressionUUID->"cf005b0b-413d-4e90-95f7-f2dcba1551c7"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["SasakiNakamuraEquationPotential",
+        BaseStyle->"Link",
+        ButtonData->
+         "paclet:BlackHoleAnalysis/ref/SasakiNakamuraEquationPotential"], "[",
+        "]"}]], "InlineFormula",ExpressionUUID->
+      "a1b17151-a37f-4040-9a58-8a6eda84549d"],
+     "\[LineSeparator]returns the potential for the Sasaki-Nakamura \
+equation."
+    }],ExpressionUUID->"1c266ace-c5c4-4af2-a5c0-b905c78270e3"]}
+  }]], "Usage",ExpressionUUID->"92fbf7cd-3ea8-4378-bb67-1907a40def81"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"3e3608bd-5cc7-4a2d-9ddb-68451cd91326"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"a3e7891e-b3ed-45ca-81e6-ad21009f42dd"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "5147e0bf-200f-4bb5-a10a-5acd0989b5bc"], "SpinWeight", 
+    RowBox[{"-", "2"}], Cell["\<\
+Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
+\>", "TableText",ExpressionUUID->"1255115c-2ece-4d52-8f4b-4391014c849a"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {{None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True}}}},ExpressionUUID->"e56e350d-ff9a-4554-b3ac-917372935fe8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"2583832e-8b97-4d90-916a-693c707c5f4c"],
+
+Cell[BoxData[""],ExpressionUUID->"9329e545-9d2f-4872-bc85-048a8a02cba3"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"SasakiNakamuraEquationPotential",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "SasakiNakamuraEquationPotential", "SASAKINAKAMURAEQUATIONPOTENTIAL", 
+      "sasakinakamuraequationpotential"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`KerrEqs Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`KerrEqs", "status" -> "None", "summary" -> 
+    "SasakiNakamuraEquationPotential[] returns the potential for the \
+Sasaki-Nakamura equation.", 
+    "synonyms" -> {
+     "SasakiNakamuraEquationPotential", "SASAKINAKAMURAEQUATIONPOTENTIAL", 
+      "sasakinakamuraequationpotential"}, "title" -> 
+    "SasakiNakamuraEquationPotential", "windowTitle" -> 
+    "SasakiNakamuraEquationPotential", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/SasakiNakamuraEquationPotential", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

@@ -1,0 +1,74 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"8c4d9dff-f80d-4e39-97ae-644215b07af7"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Labels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Labels"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["XThetaLabel",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/XThetaLabel"]
+}], "LinkTrail",ExpressionUUID->"9aeec567-7b1f-4adf-85b7-bd96aa1a9dec"],
+
+Cell[CellGroupData[{
+
+Cell["XThetaLabel", \
+"ObjectName",ExpressionUUID->"ec9b89c2-1f6a-4a93-aef8-bbe40e2e2d28"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["XThetaLabel",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/XThetaLabel"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"ce6647ec-f9d3-4656-bf2b-d054da657ba6"],
+     
+     "\[LineSeparator]returns the string treated as a label for the vector \
+spherical harmonics X_lm_Theta"
+    }],ExpressionUUID->"5a947e1e-0fc2-4026-a664-fb6a418acad6"]}
+  }]], "Usage",ExpressionUUID->"015f3aaf-eea5-4694-935a-d7499c5a6794"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"bc7fe5ef-f01c-4cfe-8844-cb6f5b26e2d1"],
+
+Cell[BoxData[""],ExpressionUUID->"47ffa510-1614-468e-97c5-df82aae2657e"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"XThetaLabel",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"XThetaLabel", "XTHETALABEL", "xthetalabel"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Labels Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Labels", "status" -> 
+    "None", "summary" -> 
+    "XThetaLabel[] returns the string treated as a label for the vector \
+spherical harmonics X_lm_Theta", 
+    "synonyms" -> {"XThetaLabel", "XTHETALABEL", "xthetalabel"}, "title" -> 
+    "XThetaLabel", "windowTitle" -> "XThetaLabel", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/XThetaLabel", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

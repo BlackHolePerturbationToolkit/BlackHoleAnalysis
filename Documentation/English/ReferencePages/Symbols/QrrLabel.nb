@@ -1,0 +1,74 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"5464ec21-21d9-4994-ba60-f78d2ea32d85"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Labels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Labels"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["QrrLabel",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/QrrLabel"]
+}], "LinkTrail",ExpressionUUID->"726f69bf-c55d-4b20-9da5-25501bb37c9f"],
+
+Cell[CellGroupData[{
+
+Cell["QrrLabel", \
+"ObjectName",ExpressionUUID->"f1622415-1317-4501-82d7-90e5c3e5b268"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["QrrLabel",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/QrrLabel"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"f1c5aabc-1195-4cac-b834-3cc9166a6f57"],
+     
+     "\[LineSeparator]returns the string treated as a label for the metric \
+perturbation amplitude source term Qrr"
+    }],ExpressionUUID->"31bf00a2-a334-4bea-9478-28f24a1ab0b2"]}
+  }]], "Usage",ExpressionUUID->"df3f0823-b31e-452a-9713-ff7914e73bac"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"fbba30a9-057c-4fe5-9cd6-e66caf77d740"],
+
+Cell[BoxData[""],ExpressionUUID->"9b75da43-a001-4461-bb1d-7639eada7699"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"QrrLabel",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"QrrLabel", "QRRLABEL", "qrrlabel"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Labels Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Labels", "status" -> 
+    "None", "summary" -> 
+    "QrrLabel[] returns the string treated as a label for the metric \
+perturbation amplitude source term Qrr", 
+    "synonyms" -> {"QrrLabel", "QRRLABEL", "qrrlabel"}, "title" -> "QrrLabel",
+     "windowTitle" -> "QrrLabel", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/QrrLabel", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

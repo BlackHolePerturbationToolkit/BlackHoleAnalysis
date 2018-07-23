@@ -1,0 +1,72 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"edf1e2fb-101b-4642-81ef-bbe3b3f01040"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["ThetaSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/ThetaSymbol"]
+}], "LinkTrail",ExpressionUUID->"fc86796a-c4c8-4cba-bc3a-5c408878fb26"],
+
+Cell[CellGroupData[{
+
+Cell["ThetaSymbol", \
+"ObjectName",ExpressionUUID->"84bb838f-974e-41f5-a2b8-586c01b678de"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["ThetaSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/ThetaSymbol"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"1559d636-848b-406f-8527-062c22de7ce4"],
+     
+     "\[LineSeparator]returns the symbol for the angular coordinate theta."
+    }],ExpressionUUID->"92b595b5-28ca-4c7b-9ce2-feffb39cfd63"]}
+  }]], "Usage",ExpressionUUID->"b0f1d6fc-12ec-487c-b661-4f83d76a81a0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"d3c95a0b-8cd9-41bf-b1cc-60befff8c1a9"],
+
+Cell[BoxData[""],ExpressionUUID->"56a709b7-976f-4e56-8ab5-a4b482d8dffd"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"ThetaSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"ThetaSymbol", "THETASYMBOL", "thetasymbol"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> 
+    "None", "summary" -> 
+    "ThetaSymbol[] returns the symbol for the angular coordinate theta.", 
+    "synonyms" -> {"ThetaSymbol", "THETASYMBOL", "thetasymbol"}, "title" -> 
+    "ThetaSymbol", "windowTitle" -> "ThetaSymbol", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/ThetaSymbol", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

@@ -1,0 +1,78 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"dfec63bf-a6f1-42fb-8f35-2a609feb0b44"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`AnalyticTools",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`AnalyticTools"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["RemoveSHDots",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/RemoveSHDots"]
+}], "LinkTrail",ExpressionUUID->"07ff4bff-3208-4cf3-a147-58dcbe53f4fa"],
+
+Cell[CellGroupData[{
+
+Cell["RemoveSHDots", \
+"ObjectName",ExpressionUUID->"af741e25-7e1e-4f6c-ba04-0b2d9ce62e0c"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["RemoveSHDots",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/RemoveSHDots"], "[", 
+       StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "6e4fba1b-07da-487e-9988-116e9073240a"],
+     "\[LineSeparator]replaces coordinate time derivatives of scalar and \
+vector spherical harmonics in expr with higher-order vector or tensor \
+harmonics."
+    }],ExpressionUUID->"c6955818-10e0-4559-a089-a9db51b2c7e5"]}
+  }]], "Usage",ExpressionUUID->"f55d47ba-92ab-42be-8a7a-d31aea577f76"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"4a02da58-3121-41f3-8035-786c7f09d021"],
+
+Cell[BoxData[""],ExpressionUUID->"c4e3fa96-b00c-4ff6-b1eb-38203231f576"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"RemoveSHDots",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"RemoveSHDots", "REMOVESHDOTS", "removeshdots"}, "index" -> 
+    True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`AnalyticTools Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`AnalyticTools", "status" -> "None", 
+    "summary" -> 
+    "RemoveSHDots[expr] replaces coordinate time derivatives of scalar and \
+vector spherical harmonics in expr with higher-order vector or tensor \
+harmonics.", "synonyms" -> {"RemoveSHDots", "REMOVESHDOTS", "removeshdots"}, 
+    "title" -> "RemoveSHDots", "windowTitle" -> "RemoveSHDots", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/RemoveSHDots", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

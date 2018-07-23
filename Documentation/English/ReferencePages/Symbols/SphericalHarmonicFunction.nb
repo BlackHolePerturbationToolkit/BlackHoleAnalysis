@@ -1,0 +1,79 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"fcf7e72b-f6b4-46ac-bf0c-54f35aca19b4"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Harmonics",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Harmonics"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["SphericalHarmonicFunction",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/SphericalHarmonicFunction"]
+}], "LinkTrail",ExpressionUUID->"9545924c-54c5-4ec6-ba57-194b43d9fdcf"],
+
+Cell[CellGroupData[{
+
+Cell["SphericalHarmonicFunction", \
+"ObjectName",ExpressionUUID->"e4780771-dab9-4f5a-86ce-55baa80cf46b"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["SphericalHarmonicFunction",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/SphericalHarmonicFunction"],
+        "[", 
+       StyleBox["label", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "70d77bcf-0f20-4537-b653-a601d9f1b306"],
+     "\[LineSeparator]returns the function for returning a spherical harmonic \
+associated with label."
+    }],ExpressionUUID->"93047985-82bb-4353-860a-9a6cef41fd36"]}
+  }]], "Usage",ExpressionUUID->"bb56a781-4d81-48db-8d61-4ea018760de4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"9218b41e-e0a1-4836-9606-6a293a94f86f"],
+
+Cell[BoxData[""],ExpressionUUID->"17c6e50e-5553-4421-95b4-bcef6e9a46e8"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"SphericalHarmonicFunction",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "SphericalHarmonicFunction", "SPHERICALHARMONICFUNCTION", 
+      "sphericalharmonicfunction"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Harmonics Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`Harmonics", "status" -> "None", 
+    "summary" -> 
+    "SphericalHarmonicFunction[label] returns the function for returning a \
+spherical harmonic associated with label.", 
+    "synonyms" -> {
+     "SphericalHarmonicFunction", "SPHERICALHARMONICFUNCTION", 
+      "sphericalharmonicfunction"}, "title" -> "SphericalHarmonicFunction", 
+    "windowTitle" -> "SphericalHarmonicFunction", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/SphericalHarmonicFunction", "WorkflowDockedCell" -> 
+    ""}, "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

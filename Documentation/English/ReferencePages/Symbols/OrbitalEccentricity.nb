@@ -1,0 +1,79 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"6321300c-5730-40b4-bd42-c31729688793"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`OverloadedSymbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`OverloadedSymbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["OrbitalEccentricity",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/OrbitalEccentricity"]
+}], "LinkTrail",ExpressionUUID->"c23436e1-5767-4059-9777-ab97316c7fbe"],
+
+Cell[CellGroupData[{
+
+Cell["OrbitalEccentricity", \
+"ObjectName",ExpressionUUID->"f28b4828-a7f7-4586-a8a9-a96cac7a3626"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["OrbitalEccentricity",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/OrbitalEccentricity"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "c926255a-0d94-4cd4-8fd6-c58003a1b25d"],
+     "\[LineSeparator]returns the eccentricity of an orbit written as a \
+function of periapsis (rMin) and apoapsis (rMax)."
+    }],ExpressionUUID->"dc0e6094-0a5f-44a8-974e-a81d51ad9553"]}
+  }]], "Usage",ExpressionUUID->"216122c8-62a7-47d3-8596-719166c93435"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"e6666c8b-f413-4571-9ee6-d946196314a1"],
+
+Cell[BoxData[""],ExpressionUUID->"4c2c329b-7e57-4ef9-8e6c-6b43b3e171ce"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"OrbitalEccentricity",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "OrbitalEccentricity", "ORBITALECCENTRICITY", "orbitaleccentricity"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`OverloadedSymbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`OverloadedSymbols", 
+    "status" -> "None", "summary" -> 
+    "OrbitalEccentricity[] returns the eccentricity of an orbit written as a \
+function of periapsis (rMin) and apoapsis (rMax).", 
+    "synonyms" -> {
+     "OrbitalEccentricity", "ORBITALECCENTRICITY", "orbitaleccentricity"}, 
+    "title" -> "OrbitalEccentricity", "windowTitle" -> "OrbitalEccentricity", 
+    "type" -> "Symbol", "uri" -> "BlackHoleAnalysis/ref/OrbitalEccentricity", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

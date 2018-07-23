@@ -1,0 +1,74 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"367621a0-a34d-43c3-ba55-b3660b4a9d5f"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Fields",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Fields"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["PushFunction",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/PushFunction"]
+}], "LinkTrail",ExpressionUUID->"a02f9032-4e51-43e0-8163-841ad6294273"],
+
+Cell[CellGroupData[{
+
+Cell["PushFunction", \
+"ObjectName",ExpressionUUID->"a37d3b64-a998-4be9-9870-0dd486a19b3a"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["PushFunction",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/PushFunction"], "[", 
+       StyleBox["label", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "d218bac7-1868-4d98-83b9-b5a3ae6131e4"],
+     "\[LineSeparator]returns the function for returning the push function \
+associated with label."
+    }],ExpressionUUID->"688f479d-17e0-4718-a274-7627445210df"]}
+  }]], "Usage",ExpressionUUID->"555ce550-8c10-4bed-b64a-c26625da43f4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"0458b00c-7f22-431f-8a77-29b37a21d0e3"],
+
+Cell[BoxData[""],ExpressionUUID->"53f2bf3e-1c36-4c8f-beaf-5965ecfd2b42"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"PushFunction",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"PushFunction", "PUSHFUNCTION", "pushfunction"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Fields Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Fields", "status" -> 
+    "None", "summary" -> 
+    "PushFunction[label] returns the function for returning the push function \
+associated with label.", 
+    "synonyms" -> {"PushFunction", "PUSHFUNCTION", "pushfunction"}, "title" -> 
+    "PushFunction", "windowTitle" -> "PushFunction", "type" -> "Symbol", 
+    "uri" -> "BlackHoleAnalysis/ref/PushFunction", "WorkflowDockedCell" -> 
+    ""}, "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

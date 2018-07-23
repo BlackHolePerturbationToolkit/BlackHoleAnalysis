@@ -1,0 +1,79 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"db9405d7-dc35-4f40-9087-3d6b8bd1c409"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`AnalyticTools",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`AnalyticTools"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["ToFrequencyDomain",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/ToFrequencyDomain"]
+}], "LinkTrail",ExpressionUUID->"78a6c1a1-d69b-4055-aad0-7456c73facc1"],
+
+Cell[CellGroupData[{
+
+Cell["ToFrequencyDomain", \
+"ObjectName",ExpressionUUID->"dac9390d-7a7a-4d48-8604-c234c0f3aeb6"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["ToFrequencyDomain",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/ToFrequencyDomain"], "[", 
+       StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "fead3210-55b1-4663-a821-c42756b6df10"],
+     "\[LineSeparator]attempts to convert expr from the time domain to the \
+frequency domain."
+    }],ExpressionUUID->"6df11851-70d5-499b-8e44-a6a874f3d6d5"]}
+  }]], "Usage",ExpressionUUID->"6b9c6174-b327-4d9e-b9ff-33a9d52423f7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"11998f93-791e-4cd3-87cd-9fcd76a0e42c"],
+
+Cell[BoxData[""],ExpressionUUID->"0dccf620-0b6e-4d40-a58b-84bc107bc329"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"ToFrequencyDomain",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "ToFrequencyDomain", "TOFREQUENCYDOMAIN", "tofrequencydomain"}, "index" -> 
+    True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`AnalyticTools Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`AnalyticTools", "status" -> "None", 
+    "summary" -> 
+    "ToFrequencyDomain[expr] attempts to convert expr from the time domain to \
+the frequency domain.", 
+    "synonyms" -> {
+     "ToFrequencyDomain", "TOFREQUENCYDOMAIN", "tofrequencydomain"}, "title" -> 
+    "ToFrequencyDomain", "windowTitle" -> "ToFrequencyDomain", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/ToFrequencyDomain", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

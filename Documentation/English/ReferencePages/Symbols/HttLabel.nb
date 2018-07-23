@@ -1,0 +1,74 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"6aec44eb-c332-48fd-9d6c-461ebf70d698"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Labels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Labels"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["HttLabel",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/HttLabel"]
+}], "LinkTrail",ExpressionUUID->"611c664d-e748-49da-94ea-e9ebb8221faa"],
+
+Cell[CellGroupData[{
+
+Cell["HttLabel", \
+"ObjectName",ExpressionUUID->"ee4b5f6c-7a13-4149-b46e-2c1438bf9cf7"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["HttLabel",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/HttLabel"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"ef45449a-7927-4bd7-a2ae-90b25997e83a"],
+     
+     "\[LineSeparator]returns the string treated as a label for the metric \
+perturbation amplitude htt"
+    }],ExpressionUUID->"8b2205ab-de68-4c29-a520-2f62e88df583"]}
+  }]], "Usage",ExpressionUUID->"e6974ee7-4525-4bb3-8c68-dfc8f1a659f1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"c3b7dbb1-88a6-4b90-8aef-9b59f380acd5"],
+
+Cell[BoxData[""],ExpressionUUID->"4a4a409e-c096-4ada-bfbb-3fe040ac6ee9"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"HttLabel",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"HttLabel", "HTTLABEL", "httlabel"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Labels Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Labels", "status" -> 
+    "None", "summary" -> 
+    "HttLabel[] returns the string treated as a label for the metric \
+perturbation amplitude htt", 
+    "synonyms" -> {"HttLabel", "HTTLABEL", "httlabel"}, "title" -> "HttLabel",
+     "windowTitle" -> "HttLabel", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/HttLabel", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

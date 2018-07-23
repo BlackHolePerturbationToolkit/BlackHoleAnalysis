@@ -1,0 +1,73 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"32566345-0d48-47fe-af5b-ce4e677df589"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["FrequencySymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/FrequencySymbol"]
+}], "LinkTrail",ExpressionUUID->"d42436b1-1f23-41c3-b52f-55eb540408ba"],
+
+Cell[CellGroupData[{
+
+Cell["FrequencySymbol", \
+"ObjectName",ExpressionUUID->"89df2158-a53e-484a-9154-bd925f5604d0"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["FrequencySymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/FrequencySymbol"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "21a1b660-75bd-4bf9-ad80-0e55ad5e451e"],
+     "\[LineSeparator]returns the symbol for wave frequency omega."
+    }],ExpressionUUID->"85b7ba50-ef77-4abe-986e-99896ec18372"]}
+  }]], "Usage",ExpressionUUID->"ab1dee2c-24f3-4e1d-9bce-2ba60b407b98"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"993930cd-e094-4df9-84a1-faf5e5671688"],
+
+Cell[BoxData[""],ExpressionUUID->"ec8aa904-7dca-4dfc-9e4d-5b72746e6ccc"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"FrequencySymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"FrequencySymbol", "FREQUENCYSYMBOL", "frequencysymbol"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "FrequencySymbol[] returns the symbol for wave frequency omega.", 
+    "synonyms" -> {"FrequencySymbol", "FREQUENCYSYMBOL", "frequencysymbol"}, 
+    "title" -> "FrequencySymbol", "windowTitle" -> "FrequencySymbol", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/FrequencySymbol", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

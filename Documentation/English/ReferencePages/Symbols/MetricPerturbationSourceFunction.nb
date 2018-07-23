@@ -1,0 +1,82 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"cd76002b-72fb-4e4c-806b-9c23f52fa49b"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Sources",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Sources"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["MetricPerturbationSourceFunction",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/ref/MetricPerturbationSourceFunction"]
+}], "LinkTrail",ExpressionUUID->"e16cfd51-bd3f-4906-9e13-2237316c7b13"],
+
+Cell[CellGroupData[{
+
+Cell["MetricPerturbationSourceFunction", \
+"ObjectName",ExpressionUUID->"497af6d8-eae3-4ab2-b65c-482622baf87b"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["MetricPerturbationSourceFunction",
+        BaseStyle->"Link",
+        ButtonData->
+         "paclet:BlackHoleAnalysis/ref/MetricPerturbationSourceFunction"], 
+       "[", 
+       StyleBox["label", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "23c84b06-234e-4ce1-831d-82923359cd26"],
+     "\[LineSeparator]returns the function for returning a metric \
+perturbation source term associated with label."
+    }],ExpressionUUID->"289d5e53-da86-40d7-96ad-7c4dea0afbf3"]}
+  }]], "Usage",ExpressionUUID->"08f3a521-9ab6-4947-bf1f-be240fcea5dd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"b899e975-7e16-4f6a-b956-305e1f392e9a"],
+
+Cell[BoxData[""],ExpressionUUID->"2579357e-c8d4-465e-aa6e-e91245905bfd"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"MetricPerturbationSourceFunction",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "MetricPerturbationSourceFunction", "METRICPERTURBATIONSOURCEFUNCTION", 
+      "metricperturbationsourcefunction"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Sources Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Sources", "status" -> "None", "summary" -> 
+    "MetricPerturbationSourceFunction[label] returns the function for \
+returning a metric perturbation source term associated with label.", 
+    "synonyms" -> {
+     "MetricPerturbationSourceFunction", "METRICPERTURBATIONSOURCEFUNCTION", 
+      "metricperturbationsourcefunction"}, "title" -> 
+    "MetricPerturbationSourceFunction", "windowTitle" -> 
+    "MetricPerturbationSourceFunction", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/MetricPerturbationSourceFunction", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

@@ -1,0 +1,83 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"a7ee1420-a98e-4766-89e1-4c7247d17bba"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`AnalyticTools",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`AnalyticTools"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["HeavisideCoefficientsToJumps",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/HeavisideCoefficientsToJumps"]
+}], "LinkTrail",ExpressionUUID->"bda36515-60fc-4e76-958a-a5409c3252c9"],
+
+Cell[CellGroupData[{
+
+Cell["HeavisideCoefficientsToJumps", \
+"ObjectName",ExpressionUUID->"7e43caf3-36d8-4a62-8654-e1e76d2c3592"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["HeavisideCoefficientsToJumps",
+        BaseStyle->"Link",
+        ButtonData->
+         "paclet:BlackHoleAnalysis/ref/HeavisideCoefficientsToJumps"], "[", 
+       StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "3cea0d74-327c-413e-9fc3-421d73259ae0"],
+     "\[LineSeparator]removes singular terms in expr, and then computes the \
+jumps in the remaining extended expressions at the location of the particle."
+    }],ExpressionUUID->"df32ee99-ba6d-4ec2-b040-8b6a62d2b84d"]}
+  }]], "Usage",ExpressionUUID->"e594f231-b372-4fdd-ba1f-7cb01644461e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"d96011bf-dbed-489a-b0b8-ba72fad1454d"],
+
+Cell[BoxData[""],ExpressionUUID->"a0e3bbe6-e318-4c68-a865-c5f9f2d71b56"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"HeavisideCoefficientsToJumps",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "HeavisideCoefficientsToJumps", "HEAVISIDECOEFFICIENTSTOJUMPS", 
+      "heavisidecoefficientstojumps"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`AnalyticTools Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`AnalyticTools", "status" -> "None", 
+    "summary" -> 
+    "HeavisideCoefficientsToJumps[expr] removes singular terms in expr, and \
+then computes the jumps in the remaining extended expressions at the location \
+of the particle.", 
+    "synonyms" -> {
+     "HeavisideCoefficientsToJumps", "HEAVISIDECOEFFICIENTSTOJUMPS", 
+      "heavisidecoefficientstojumps"}, "title" -> 
+    "HeavisideCoefficientsToJumps", "windowTitle" -> 
+    "HeavisideCoefficientsToJumps", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/HeavisideCoefficientsToJumps", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

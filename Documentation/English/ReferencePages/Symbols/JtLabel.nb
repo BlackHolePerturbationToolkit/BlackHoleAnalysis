@@ -1,0 +1,72 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"945ef9fb-0b27-4f21-a457-9dc1881839d5"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Labels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Labels"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["JtLabel",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/JtLabel"]
+}], "LinkTrail",ExpressionUUID->"052a1a6a-d857-43a2-81fe-dc82e3b64623"],
+
+Cell[CellGroupData[{
+
+Cell["JtLabel", \
+"ObjectName",ExpressionUUID->"53a8ed20-d487-471d-9a1b-4c16745010de"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["JtLabel",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/JtLabel"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"39b908c7-8137-4b83-92bb-847f2826c9dc"],
+     
+     "\[LineSeparator]returns the string treated as a label for the metric \
+perturbation amplitude jt"
+    }],ExpressionUUID->"d6bb471b-c605-48c3-b0bd-97fb8304ee3a"]}
+  }]], "Usage",ExpressionUUID->"0772bcca-d5cc-4549-9249-1c346e8aee74"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"97d68189-a8a3-4b8e-bd07-0f2086999259"],
+
+Cell[BoxData[""],ExpressionUUID->"444f2027-1536-4d2e-965b-4fcba769a132"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"JtLabel",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"JtLabel", "JTLABEL", "jtlabel"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Labels Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Labels", "status" -> "None", "summary" -> 
+    "JtLabel[] returns the string treated as a label for the metric \
+perturbation amplitude jt", "synonyms" -> {"JtLabel", "JTLABEL", "jtlabel"}, 
+    "title" -> "JtLabel", "windowTitle" -> "JtLabel", "type" -> "Symbol", 
+    "uri" -> "BlackHoleAnalysis/ref/JtLabel", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

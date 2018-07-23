@@ -1,0 +1,71 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"20f479a6-aef3-4467-9328-659c46a73943"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["MSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/MSymbol"]
+}], "LinkTrail",ExpressionUUID->"ac583d52-efb0-4382-be01-49ac1c7158da"],
+
+Cell[CellGroupData[{
+
+Cell["MSymbol", \
+"ObjectName",ExpressionUUID->"4ef7b218-dc9f-4815-b1cb-e50a751c1e84"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["MSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/MSymbol"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"7395a649-c254-4583-a230-5993e5009d32"],
+     
+     "\[LineSeparator]returns the symbol for mode number m."
+    }],ExpressionUUID->"859e39cf-9bab-4005-b18d-13929366336d"]}
+  }]], "Usage",ExpressionUUID->"a001e91d-f422-4a45-a4d1-28430de09486"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"a0d6ea85-a3d6-48de-a080-27d48e5ef1ad"],
+
+Cell[BoxData[""],ExpressionUUID->"818b96ec-69fd-4fd5-94e2-d3c44cfb48db"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"MSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"MSymbol", "MSYMBOL", "msymbol"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "MSymbol[] returns the symbol for mode number m.", 
+    "synonyms" -> {"MSymbol", "MSYMBOL", "msymbol"}, "title" -> "MSymbol", 
+    "windowTitle" -> "MSymbol", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/MSymbol", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

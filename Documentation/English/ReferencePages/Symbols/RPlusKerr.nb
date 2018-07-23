@@ -1,0 +1,74 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"934dde7d-9ad0-4d3e-b60a-05870af55c80"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Coordinates",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Coordinates"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["RPlusKerr",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/RPlusKerr"]
+}], "LinkTrail",ExpressionUUID->"8f851adc-112e-405d-8da6-c803af49bb9d"],
+
+Cell[CellGroupData[{
+
+Cell["RPlusKerr", \
+"ObjectName",ExpressionUUID->"ff62788c-2cd4-4eff-8288-7cbd85471547"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["RPlusKerr",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/RPlusKerr"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"c8de8cd0-a7b7-49b4-87cf-674e2536616e"],
+     
+     "\[LineSeparator]returns r+ in terms of the Kerr black hole's mass and \
+spin."
+    }],ExpressionUUID->"31609a6c-b2a8-41a2-91c6-af2329bd5ca3"]}
+  }]], "Usage",ExpressionUUID->"6a76e289-56e3-4ce2-837a-ee80a8ae95de"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"0354536b-ae3b-440c-8b36-f608ff5be3da"],
+
+Cell[BoxData[""],ExpressionUUID->"024b3f5a-b5d1-4b7e-b48b-7f69851f7599"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"RPlusKerr",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"RPlusKerr", "RPLUSKERR", "rpluskerr"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Coordinates Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Coordinates", "status" -> 
+    "None", "summary" -> 
+    "RPlusKerr[] returns r+ in terms of the Kerr black hole's mass and spin.",
+     "synonyms" -> {"RPlusKerr", "RPLUSKERR", "rpluskerr"}, "title" -> 
+    "RPlusKerr", "windowTitle" -> "RPlusKerr", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/RPlusKerr", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

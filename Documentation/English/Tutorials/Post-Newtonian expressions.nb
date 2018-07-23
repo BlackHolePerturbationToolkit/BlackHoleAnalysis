@@ -1,0 +1,2204 @@
+Notebook[{
+Cell[" ", "TutorialColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"f4e00e26-d834-403d-9b40-47306d780076"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["Post-Newtonian expressions",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/tutorial/Post-Newtonian expressions"]
+}], "LinkTrail",ExpressionUUID->"8facacb0-8065-408f-b4d8-b25968f8dc5c"],
+
+Cell[BoxData[GridBox[{
+   {Cell["POST-NEWTONIAN EXPRESSIONS TUTORIAL", "PacletNameCell",
+     ExpressionUUID->"f26b40d0-7902-440a-a17d-d1b617047019"], Cell[TextData[{
+     Cell[BoxData[
+      ActionMenuBox[
+       FrameBox["\<\"Related Tutorials \[RightGuillemet]\"\>",
+        StripOnInput->False], {
+       RowBox[{"Field", " ", "equations", " ", "on", " ", "Schwarzschild"}]:>
+       Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/tutorial/Field equations on Schwarzschild"], 
+       
+       RowBox[{"Source", " ", "terms"}]:>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/tutorial/Source terms"], 
+       RowBox[{"Equations", " ", "of", " ", "motion"}]:>
+       Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/tutorial/Equations of motion"], "Examples":>
+       Documentation`HelpLookup["paclet:BlackHoleAnalysis/tutorial/Examples"]},
+       Appearance->None,
+       MenuAppearance->Automatic]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "be2d163a-2c62-4403-9865-de279dd534a4"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      ActionMenuBox[
+       FrameBox["\<\"URL \[RightGuillemet]\"\>",
+        StripOnInput->False], {"\<\"Go to BlackHoleAnalysis website\"\>":>
+       FrontEndExecute[{
+         NotebookLocate[{
+           URL[None], None}]}], 
+       Delimiter, "\<\"Go to wolfram Mathematica website\"\>":>
+       FrontEndExecute[{
+         NotebookLocate[{
+           URL[
+           "http://reference.wolfram.com/mathematica/guide/Mathematica.html"],
+            None}]}]},
+       Appearance->None,
+       MenuAppearance->Automatic]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "2d486211-4355-4bc5-bc12-73709e3e4cf9"]
+    }], "AnchorBar",ExpressionUUID->"8ee32b9b-143e-4769-b999-5365c818393a"]}
+  }]], "AnchorBarGrid",ExpressionUUID->"3512f787-9872-4fa0-b5af-6c9752c2d0c5"],
+
+Cell[CellGroupData[{
+
+Cell["BlackHoleAnalysis - Post-Newtonian expressions", "Title",
+ CellChangeTimes->{{3.741280861195511*^9, 
+  3.741280866490025*^9}},ExpressionUUID->"21c8475f-a173-457b-aa89-\
+71e1f364ace2"],
+
+Cell["\<\
+BlackHoleAnalysis provides post-Newtonian expressions for several eccentric \
+orbital parameters both on Schwarzschild and equatorial Kerr.\
+\>", "Text",
+ CellChangeTimes->{{3.741280871250886*^9, 3.741280883270241*^9}, {
+  3.741280972535709*^9, 
+  3.741281006887936*^9}},ExpressionUUID->"bc0b0f7b-3458-4d1a-baa7-\
+748cec2488a6"],
+
+Cell[BoxData[
+ RowBox[{"<<", "BlackHoleAnalysis`"}]], "Input",
+ CellLabel->
+  "(Local) In[1]:=",ExpressionUUID->"e43002c8-4d91-4790-8813-3c470110f57f"],
+
+Cell[CellGroupData[{
+
+Cell["Schwarzschild", "Section",
+ CellChangeTimes->{{3.741281881356564*^9, 
+  3.7412818832138968`*^9}},ExpressionUUID->"dd874a0a-317d-4c1f-9607-\
+63f18ea3e4bb"],
+
+Cell[CellGroupData[{
+
+Cell["The PN parameter", "Subsection",
+ CellChangeTimes->{{3.741281020069077*^9, 
+  3.7412810234261723`*^9}},ExpressionUUID->"2044d4bc-8be2-40a7-80bc-\
+939469e33e8e"],
+
+Cell[TextData[{
+ "PN series are often parametrized with the parameter ",
+ StyleBox["x",
+  FontSlant->"Italic"],
+ ", which is defined in terms of the angular frequency ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalOmega]", "\[Phi]"], TraditionalForm]],
+  ExpressionUUID->"accf10c2-ef61-41b8-a93a-c7156c7c2657"],
+ ", i.e. ",
+ Cell[BoxData[
+  RowBox[{"x", "\[Congruent]", 
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{
+      FormBox[
+       SubscriptBox["\[CapitalOmega]", "\[Phi]"],
+       TraditionalForm], "M"}], ")"}], 
+    RowBox[{"2", "/", "3"}]]}]],
+  CellChangeTimes->{{3.741281025271906*^9, 3.741281067395288*^9}, {
+   3.741281266708061*^9, 3.74128130599083*^9}},ExpressionUUID->
+  "0ccd31c1-1a78-44ba-a60f-c83a49ab13bf"],
+ "."
+}], "Item",
+ CellChangeTimes->{{3.741281025271906*^9, 3.741281067395288*^9}, {
+  3.741281266708061*^9, 3.7412813087094517`*^9}, {3.7412822657470713`*^9, 
+  3.7412822902998047`*^9}},ExpressionUUID->"b21fca32-0e84-4d39-b943-\
+071f62799587"],
+
+Cell[TextData[{
+ "Note that ",
+ StyleBox["x",
+  FontSlant->"Italic"],
+ " is not available for Kerr black holes in BlackHoleAnalysis."
+}], "Item",
+ CellChangeTimes->{{3.741281025271906*^9, 3.741281067395288*^9}, {
+  3.741281266708061*^9, 3.7412813087094517`*^9}, {3.7412822657470713`*^9, 
+  3.741282315947095*^9}},ExpressionUUID->"0e3c3408-5cfb-4525-971c-\
+4be53878d238"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Alternatively, we can expand in the inverse of the semi-latus rectum.\
+\>", "Item",
+ CellChangeTimes->{{3.741281332342638*^9, 
+  3.741281354357525*^9}},ExpressionUUID->"c97271a1-567f-482b-9efe-\
+e9a60cc649c4"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"?", "XPN"}], "\[IndentingNewLine]", 
+ RowBox[{"?", "SemiLatusRectumPN"}]}], "Input",
+ CellChangeTimes->{{3.741281380901874*^9, 3.7412813849943533`*^9}},
+ CellLabel->
+  "(Local) In[2]:=",ExpressionUUID->"1bd0a4cb-869c-4178-ae8f-7eb954642efc"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\<\"XPN[] returns the post-Newtonian parameter x = (M OmegaPhi)^2/3 \
+of a particle in an eccentric orbit around a Schwarzschild black hole, \
+expanded to 1 PN using the inverse of the semi-latus rectum as the expansion \
+parameter.\\nXPN[n] returns the post-Newtonian parameter x of a particle in \
+an eccentric orbit around a Schwarzschild black hole, expanded to n PN using \
+the inverse of the semi-latus rectum as the expansion parameter.\"\>", 
+  "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->"paclet:BlackHoleAnalysis/ref/XPN"]}]], "Print", "PrintUsage",
+ CellTags->
+  "Info23741340369-4539924",ExpressionUUID->"e1aa7c56-6ba1-4550-995f-\
+db0fd1bc099b"],
+
+Cell[BoxData[
+ RowBox[{"\<\"SemiLatusRectumPN[] returns the semi-latus rectum of a particle \
+in an eccentric orbit around a Schwarzschild black hole, expanded to 1 PN \
+using the inverse of p, the semi-latus rectum, as the expansion \
+parameter.\\nSemiLatusRectumPN[n] returns the semi-latus rectum of a particle \
+in an eccentric orbit around a Schwarzschild black hole, expanded to n PN \
+using the the post-Newtonian parameter x as the expansion parameter.\"\>", 
+  "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:BlackHoleAnalysis/ref/SemiLatusRectumPN"]}]], "Print", \
+"PrintUsage",
+ CellTags->
+  "Info33741340369-4539924",ExpressionUUID->"9d028816-dded-4b8c-a086-\
+6990a91d7c68"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["The two are related by", "Item",
+ CellChangeTimes->{{3.741281332342638*^9, 
+  3.741281358570219*^9}},ExpressionUUID->"6a6010a3-f21b-4a8e-95c5-\
+b8adbdafeb2b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"XPN", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.741281071126397*^9, 3.741281072829323*^9}},
+ CellLabel->
+  "(Local) In[4]:=",ExpressionUUID->"4b3fcffe-d7a5-404f-82ab-863df9d4d1d3"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{"1", "-", 
+     SuperscriptBox["e", "2"]}], "p"], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], 
+     RowBox[{"3", "/", "2"}]],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, 2, 3, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[1], {1 - $CellContext`e^2}, 2, 3, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[4]=",ExpressionUUID->"0b691b96-b383-419b-b33b-bc2a62228559"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SemiLatusRectumPN", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.741281361541754*^9, 3.741281363333054*^9}},
+ CellLabel->
+  "(Local) In[5]:=",ExpressionUUID->"83dd2931-e0a6-42eb-ac0d-1383db4063f1"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{"1", "-", 
+     SuperscriptBox["e", 
+      "2"]}], "\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \
+\\\"\\\\\\\"PN\\\\\\\"\\\"]\\)\"\>"], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{
+     "O", "[", "\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \\\"\\\\\\\"PN\\\\\\\"\\\
+\"]\\)\"\>", "]"}], "0"],
+    SeriesData[$CellContext`xPN, 0, {}, -1, 0, 1],
+    Editable->False]}],
+  SeriesData[$CellContext`xPN, 0, {1 - $CellContext`e^2}, -1, 0, 1],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[5]=",ExpressionUUID->"b708df52-62bd-48e0-8d2e-126d779f9357"]
+}, Open  ]]
+}, Open  ]],
+
+Cell["\<\
+Of course, those equalities are not exact. They are only correct to the order \
+of the expansion.\
+\>", "Item",
+ CellChangeTimes->{{3.74128139848105*^9, 
+  3.741281487880835*^9}},ExpressionUUID->"f7d648e6-430e-435e-9423-\
+a45d34b52948"],
+
+Cell[CellGroupData[{
+
+Cell["We can increase the order of the expansion with a parameter", "Item",
+ CellChangeTimes->{{3.74128139848105*^9, 
+  3.741281426905533*^9}},ExpressionUUID->"7cc5b722-57c7-48ec-8fe5-\
+4850f8d71cff"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"XPN", "[", "3", "]"}]], "Input",
+ CellChangeTimes->{{3.741281428567586*^9, 3.741281432696594*^9}},
+ CellLabel->
+  "(Local) In[6]:=",ExpressionUUID->"0585b78c-fd86-437e-9006-1d968b49aa26"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{"1", "-", 
+     SuperscriptBox["e", "2"]}], "p"], "-", 
+   FractionBox[
+    RowBox[{"2", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox["e", "2"], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", "1"}], "+", 
+         SuperscriptBox["e", "2"]}], ")"}]}], ")"}]}], 
+    SuperscriptBox["p", "2"]], "-", 
+   FractionBox[
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", 
+       SuperscriptBox["e", "2"]}], ")"}], " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"10", " ", 
+        SuperscriptBox["e", "4"]}], "-", 
+       RowBox[{"10", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "1"}], "+", 
+          SqrtBox[
+           RowBox[{"1", "-", 
+            SuperscriptBox["e", "2"]}]]}], ")"}]}], "+", 
+       RowBox[{
+        SuperscriptBox["e", "2"], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "3"}], "+", 
+          RowBox[{"10", " ", 
+           SqrtBox[
+            RowBox[{"1", "-", 
+             SuperscriptBox["e", "2"]}]]}]}], ")"}]}]}], ")"}]}], 
+    RowBox[{"2", " ", 
+     SuperscriptBox["p", "3"]}]], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], 
+     RowBox[{"7", "/", "2"}]],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, 2, 7, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[1], {
+   1 - $CellContext`e^2, 0, (-2) $CellContext`e^2 (-1 + $CellContext`e^2), 0, 
+    Rational[-1, 2] (-1 + $CellContext`e^2) (10 $CellContext`e^4 - 
+     10 (-1 + (1 - $CellContext`e^2)^Rational[1, 2]) + $CellContext`e^2 (-3 + 
+       10 (1 - $CellContext`e^2)^Rational[1, 2]))}, 2, 7, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[6]=",ExpressionUUID->"870966b2-b97e-4cfb-beca-307e8fd2c3cf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SemiLatusRectumPN", "[", "3", "]"}]], "Input",
+ CellChangeTimes->{{3.741281434767952*^9, 3.74128144075879*^9}, {
+  3.741281496553871*^9, 3.741281505554933*^9}},
+ CellLabel->
+  "(Local) In[7]:=",ExpressionUUID->"43c55204-ec9e-4809-a17a-7ae581a3d037"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{"1", "-", 
+     SuperscriptBox["e", 
+      "2"]}], "\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \
+\\\"\\\\\\\"PN\\\\\\\"\\\"]\\)\"\>"], "+", 
+   RowBox[{"2", " ", 
+    SuperscriptBox["e", "2"]}], "+", 
+   FractionBox[
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        SuperscriptBox["e", "2"], " ", 
+        RowBox[{"(", 
+         RowBox[{"20", "-", 
+          RowBox[{"3", " ", 
+           SqrtBox[
+            RowBox[{"1", "-", 
+             SuperscriptBox["e", "2"]}]]}]}], ")"}]}], "+", 
+       RowBox[{"2", " ", 
+        SuperscriptBox["e", "4"], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "5"}], "+", 
+          SqrtBox[
+           RowBox[{"1", "-", 
+            SuperscriptBox["e", "2"]}]]}], ")"}]}], "+", 
+       RowBox[{"10", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "1"}], "+", 
+          SqrtBox[
+           RowBox[{"1", "-", 
+            SuperscriptBox["e", "2"]}]]}], ")"}]}]}], ")"}], 
+     " ", "\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \
+\\\"\\\\\\\"PN\\\\\\\"\\\"]\\)\"\>"}], 
+    RowBox[{"2", " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]]}]], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{
+     "O", "[", "\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \\\"\\\\\\\"PN\\\\\\\"\\\
+\"]\\)\"\>", "]"}], "2"],
+    SeriesData[$CellContext`xPN, 0, {}, -1, 2, 1],
+    Editable->False]}],
+  SeriesData[$CellContext`xPN, 0, {
+   1 - $CellContext`e^2, 2 $CellContext`e^2, 
+    Rational[1, 2] (1 - $CellContext`e^2)^
+     Rational[-3, 2] ($CellContext`e^2 (20 - 
+       3 (1 - $CellContext`e^2)^Rational[1, 2]) + 
+     2 $CellContext`e^4 (-5 + (1 - $CellContext`e^2)^Rational[1, 2]) + 
+     10 (-1 + (1 - $CellContext`e^2)^Rational[1, 2]))}, -1, 2, 1],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[7]=",ExpressionUUID->"2d097be7-56e9-4ece-900b-04bb32d2e779"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["The angular frequencies", "Subsection",
+ CellChangeTimes->{{3.7412815146201468`*^9, 
+  3.741281519252734*^9}},ExpressionUUID->"368ec56f-2050-492f-b86f-\
+8366be26ef5c"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Eccentric orbits possess two angular frequencies, ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalOmega]", "r"], TraditionalForm]],ExpressionUUID->
+  "e8db340f-ece4-4d49-b4c1-e7a069b886a0"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalOmega]", "\[Phi]"], TraditionalForm]],
+  ExpressionUUID->"d20ead90-8692-49d2-bb18-d6c1d7281850"],
+ "."
+}], "Item",
+ CellChangeTimes->{{3.7412815220583878`*^9, 
+  3.741281565035434*^9}},ExpressionUUID->"01c4afe4-9aa7-47fc-9343-\
+f0112d03bf5a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"?", "OmegaPhiPN"}], "\[IndentingNewLine]", 
+ RowBox[{"?", "OmegaRPN"}]}], "Input",
+ CellChangeTimes->{{3.7412816418020563`*^9, 3.741281646877406*^9}},
+ CellLabel->
+  "(Local) In[8]:=",ExpressionUUID->"b77c1867-391a-46a0-9b19-3a33e8bfb42e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\<\"OmegaPhiPN[] returns the phi frequency of a particle in an \
+eccentric orbit around a Schwarzschild black hole, expanded to 1 term using \
+the inverse of p, the semi-latus rectum, as the expansion \
+parameter.\\nOmegaPhiPN[par] returns the phi frequency expanded to 1 term, \
+using par (\\\"p\\\" or \\\"x\\\") as the expansion \
+parameter.\\nOmegaPhiPN[n,par] returns the phi frequency expanded to n terms, \
+using par (\\\"p\\\" or \\\"x\\\") as the expansion parameter.\"\>", 
+  "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:BlackHoleAnalysis/ref/OmegaPhiPN"]}]], "Print", "PrintUsage",
+ CellTags->
+  "Info83741340370-4539924",ExpressionUUID->"ecfacab3-6a1a-4ba4-bccf-\
+c611f8e70fae"],
+
+Cell[BoxData[
+ RowBox[{"\<\"OmegaRPN[] returns the radial frequency of a particle in an \
+eccentric orbit around a Schwarzschild black hole, expanded to 1 term using \
+the inverse of p, the semi-latus rectum, as the expansion \
+parameter.\\nOmegaRPN[n] returns the radial frequency expanded to n \
+terms.\\nOmegaRPN[par] returns the radial frequency expanded to 1 term, using \
+par (\\\"p\\\" or \\\"x\\\") as the expansion parameter.\\nOmegaRPN[n,par] \
+returns the radial frequency expanded to n terms, using par (\\\"p\\\" or \
+\\\"x\\\") as the expansion parameter.\"\>", "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:BlackHoleAnalysis/ref/OmegaRPN"]}]], "Print", "PrintUsage",
+ CellTags->
+  "Info93741340370-4539924",ExpressionUUID->"0678b92e-80c2-44a2-beb5-\
+46f98df341f3"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalOmega]", "r"], TraditionalForm]],ExpressionUUID->
+  "05392889-b03d-4013-9c04-d0593747ed2d"],
+ " agrees with ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalOmega]", "\[Phi]"], TraditionalForm]],
+  ExpressionUUID->"5b4481fb-cd54-4c13-9191-3d45d7847c4f"],
+ " at lowest order"
+}], "Item",
+ CellChangeTimes->{{3.7412815739054413`*^9, 3.741281599351852*^9}, 
+   3.741281636834113*^9, {3.741281672264573*^9, 3.741281697893366*^9}, {
+   3.741282702236382*^9, 
+   3.741282702582366*^9}},ExpressionUUID->"6277e4d1-f16f-48ca-bb80-\
+76191fbb1dbd"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"OmegaPhiPN", "[", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"OmegaRPN", "[", "]"}]}], "Input",
+ CellChangeTimes->{{3.741282688356661*^9, 3.7412826917883253`*^9}},
+ CellLabel->
+  "(Local) In[10]:=",ExpressionUUID->"0fd61441-6f74-4053-b445-0754288af900"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"3", "/", "2"}]]}], "M"], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], "2"],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, 3, 4, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[
+   1], {(1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M}, 3, 4, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[10]=",ExpressionUUID->"42bb6a3c-189e-4fa6-b655-51c63d3484bb"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"3", "/", "2"}]]}], "M"], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], "2"],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, 3, 4, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[
+   1], {(1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M}, 3, 4, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[11]=",ExpressionUUID->"6f4d29b2-9f96-4ddf-8e01-9f87f09a20e1"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "We can increase the order of the expansions in ",
+ StyleBox["p",
+  FontSlant->"Italic"]
+}], "Item",
+ CellChangeTimes->{{3.7412817406174917`*^9, 3.741281749209524*^9}, {
+  3.7412826749312897`*^9, 
+  3.741282681627646*^9}},ExpressionUUID->"e9f24441-9741-4f48-9a55-\
+fc69960e21d8"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"OmegaPhiPN", "[", "2", "]"}], "//", 
+  "Simplify"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"OmegaRPN", "[", "2", "]"}], "//", "Simplify"}]}], "Input",
+ CellChangeTimes->{{3.7412817130753603`*^9, 3.7412817137241707`*^9}, {
+  3.7412817553167067`*^9, 3.741281770753401*^9}, {3.741282667893631*^9, 
+  3.741282670335881*^9}},
+ CellLabel->
+  "(Local) In[12]:=",ExpressionUUID->"6182c0a0-a711-441a-a0d0-4aa643c71e46"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"3", "/", "2"}]]}], "M"], "+", 
+   FractionBox[
+    RowBox[{"3", " ", 
+     SuperscriptBox["e", "2"], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"5", "/", "2"}]]}], "M"], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], "3"],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, 3, 6, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[
+   1], {(1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M, 0, 
+    3 $CellContext`e^2 (1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M}, 
+   3, 6, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[12]=",ExpressionUUID->"f033aefd-4802-42f5-8ab1-5de4ff61990a"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"3", "/", "2"}]]}], "M"], "-", 
+   FractionBox[
+    RowBox[{"3", " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"5", "/", "2"}]], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"5", "/", "2"}]]}], "M"], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], "3"],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, 3, 6, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[
+   1], {(1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M, 
+    0, (-3) (1 - $CellContext`e^2)^Rational[5, 2]/$CellContext`M}, 3, 6, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[13]=",ExpressionUUID->"c532a087-ae52-4d15-8dd1-daac3c1fce11"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalOmega]", "\[Phi]"], TraditionalForm]],
+  ExpressionUUID->"c3e88e76-aff3-4112-ba40-f97780dd9388"],
+ " is (by definition) exact to all orders in ",
+ Cell[BoxData[
+  FormBox["x", TraditionalForm]],ExpressionUUID->
+  "f2e427fa-d80f-48ca-aedd-744a68aae725"],
+ "."
+}], "Item",
+ CellChangeTimes->{{3.7412815739054413`*^9, 3.741281599351852*^9}, 
+   3.741281636834113*^9, {3.741281670219302*^9, 
+   3.7412816702197037`*^9}},ExpressionUUID->"bf39c1e7-7af5-467c-b331-\
+d755b2998026"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"OmegaPhiPN", "[", 
+  RowBox[{"All", ",", "\"\<x\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.7412817253668213`*^9, 3.741281725673348*^9}, {
+  3.74128250185185*^9, 3.741282502665469*^9}},
+ CellLabel->
+  "(Local) In[14]:=",ExpressionUUID->"d634456d-e232-46ee-92e7-86da376ec92a"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \\\"\\\\\\\"PN\\\\\\\
+\"\\\"]\\)\"\>", 
+     RowBox[{"3", "/", "2"}]], "M"], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{
+     "O", "[", "\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \\\"\\\\\\\"PN\\\\\\\"\\\
+\"]\\)\"\>", "]"}], 
+     RowBox[{"43", "/", "2"}]],
+    SeriesData[$CellContext`xPN, 0, {}, 3, 43, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`xPN, 0, {$CellContext`M^(-1)}, 3, 43, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[14]=",ExpressionUUID->"0c6254f1-d545-495e-8008-6542ead13f44"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Again, ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalOmega]", "r"], TraditionalForm]],ExpressionUUID->
+  "2319cd4e-daa8-4ed6-acbd-c05423732665"],
+ " agrees with ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalOmega]", "\[Phi]"], TraditionalForm]],
+  ExpressionUUID->"10c12558-662a-4238-8292-3b7352c44c96"],
+ ", but only to lowest order"
+}], "Item",
+ CellChangeTimes->{{3.7412815739054413`*^9, 3.741281599351852*^9}, 
+   3.741281636834113*^9, {3.741281672264573*^9, 3.741281697893366*^9}, {
+   3.741282709314526*^9, 
+   3.741282710429049*^9}},ExpressionUUID->"a99d00cd-4b73-4da1-a3c8-\
+2a2c32a74a45"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"OmegaPhiPN", "[", "\"\<x\>\"", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"OmegaRPN", "[", "\"\<x\>\"", "]"}]}], "Input",
+ CellChangeTimes->{{3.7412816023347683`*^9, 3.741281633895993*^9}, {
+  3.7412817027063303`*^9, 3.741281704843713*^9}, {3.741282508363682*^9, 
+  3.7412825115743723`*^9}},
+ CellLabel->
+  "(Local) In[15]:=",ExpressionUUID->"056096cf-9c76-46da-af17-65990d385f90"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \\\"\\\\\\\"PN\\\\\\\
+\"\\\"]\\)\"\>", 
+     RowBox[{"3", "/", "2"}]], "M"], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{
+     "O", "[", "\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \\\"\\\\\\\"PN\\\\\\\"\\\
+\"]\\)\"\>", "]"}], "2"],
+    SeriesData[$CellContext`xPN, 0, {}, 3, 4, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`xPN, 0, {$CellContext`M^(-1)}, 3, 4, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[15]=",ExpressionUUID->"646ec242-2d7f-44e1-924c-a0a8c1547c84"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \\\"\\\\\\\"PN\\\\\\\
+\"\\\"]\\)\"\>", 
+     RowBox[{"3", "/", "2"}]], "M"], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{
+     "O", "[", "\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \\\"\\\\\\\"PN\\\\\\\"\\\
+\"]\\)\"\>", "]"}], "2"],
+    SeriesData[$CellContext`xPN, 0, {}, 3, 4, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`xPN, 0, {$CellContext`M^(-1)}, 3, 4, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[16]=",ExpressionUUID->"b702f484-3e74-45a0-86d7-1474c5717153"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"OmegaPhiPN", "[", 
+  RowBox[{"2", ",", "\"\<x\>\""}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"OmegaRPN", "[", 
+  RowBox[{"2", ",", "\"\<x\>\""}], "]"}]}], "Input",
+ CellChangeTimes->{{3.7412817130753603`*^9, 3.7412817137241707`*^9}, {
+  3.741282515642169*^9, 3.741282519803013*^9}},
+ CellLabel->
+  "(Local) In[17]:=",ExpressionUUID->"acf5d366-246b-45bf-8ed8-c0944910a361"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \\\"\\\\\\\"PN\\\\\\\
+\"\\\"]\\)\"\>", 
+     RowBox[{"3", "/", "2"}]], "M"], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{
+     "O", "[", "\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \\\"\\\\\\\"PN\\\\\\\"\\\
+\"]\\)\"\>", "]"}], "3"],
+    SeriesData[$CellContext`xPN, 0, {}, 3, 6, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`xPN, 0, {$CellContext`M^(-1)}, 3, 6, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[17]=",ExpressionUUID->"7e6c4407-662e-4eee-aea7-ec38427674ae"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \\\"\\\\\\\"PN\\\\\\\
+\"\\\"]\\)\"\>", 
+     RowBox[{"3", "/", "2"}]], "M"], "+", 
+   FractionBox[
+    RowBox[{"3", " ", 
+     SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \
+\\\"\\\\\\\"PN\\\\\\\"\\\"]\\)\"\>", 
+      RowBox[{"5", "/", "2"}]]}], 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", 
+       SuperscriptBox["e", "2"]}], ")"}], " ", "M"}]], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{
+     "O", "[", "\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \\\"\\\\\\\"PN\\\\\\\"\\\
+\"]\\)\"\>", "]"}], "3"],
+    SeriesData[$CellContext`xPN, 0, {}, 3, 6, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`xPN, 
+   0, {$CellContext`M^(-1), 0, 3 (-1 + $CellContext`e^2)^(-1)/$CellContext`M},
+    3, 6, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[18]=",ExpressionUUID->"00da62f7-53c1-45f3-bddb-9eb8ed95f361"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Specific energy and angular momentum", "Subsection",
+ CellChangeTimes->{{3.7412817896978483`*^9, 
+  3.741281795091733*^9}},ExpressionUUID->"132ef236-7a7f-41d7-b619-\
+cb461396e67b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"?", "SpecificEnergyPN"}], "\[IndentingNewLine]", 
+ RowBox[{"?", "SpecificAngularMomentumPN"}]}], "Input",
+ CellChangeTimes->{{3.741281798107999*^9, 3.741281810303184*^9}},
+ CellLabel->
+  "(Local) In[19]:=",ExpressionUUID->"2dddf6c8-a232-4b0b-9553-e3fe3cecbc8c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\<\"SpecificEnergyPN[] returns the specific energy of a particle in \
+an eccentric orbit around a Schwarzschild black hole, expanded to 1 term \
+using the inverse of p, the semi-latus rectum, as the expansion \
+parameter.\\nSpecificEnergyPN[n] returns the specific energy expanded to n \
+terms.\\nSpecificEnergyPN[par] returns the specific energy expanded to 1 \
+term, using par (\\\"p\\\" or \\\"x\\\") as the expansion \
+parameter.\\nSpecificEnergyPN[n,par] returns the specific energy expanded to \
+n terms, using par (\\\"p\\\" or \\\"x\\\") as the expansion parameter.\"\>", 
+  "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:BlackHoleAnalysis/ref/SpecificEnergyPN"]}]], "Print", "PrintUsage",
+ CellTags->
+  "Info193741340370-4539924",ExpressionUUID->"72d40b84-cc2e-4fea-8a77-\
+8655b7242021"],
+
+Cell[BoxData[
+ RowBox[{"\<\"SpecificAngularMomentumPN[] returns the specific angular \
+momentum of a particle in an eccentric orbit around a Schwarzschild black \
+hole, expanded to 1 term using the inverse of p, the semi-latus rectum, as \
+the expansion parameter.\\nSpecificAngularMomentumPN[n] returns the specific \
+angular momentum expanded to n terms.\\nSpecificAngularMomentumPN[par] \
+returns the specific angular momentum expanded to 1 term, using par \
+(\\\"p\\\" or \\\"x\\\") as the expansion \
+parameter.\\nSpecificAngularMomentumPN[n,par] returns the specific angular \
+momentum expanded to n terms, using par (\\\"p\\\" or \\\"x\\\") as the \
+expansion parameter.\"\>", "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:BlackHoleAnalysis/ref/SpecificAngularMomentumPN"]}]], "Print", \
+"PrintUsage",
+ CellTags->
+  "Info203741340370-4539924",ExpressionUUID->"89fb1501-8967-4459-9d2d-\
+780c57e69794"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"SpecificEnergyPN", "[", "3", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"SpecificAngularMomentumPN", "[", "3", "]"}]}], "Input",
+ CellChangeTimes->{{3.741281815433402*^9, 3.7412818295803823`*^9}},
+ CellLabel->
+  "(Local) In[21]:=",ExpressionUUID->"afda10ed-fc4e-4993-bb89-c728578eb23a"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"1", "+", 
+   FractionBox[
+    RowBox[{
+     RowBox[{"-", "1"}], "+", 
+     SuperscriptBox["e", "2"]}], 
+    RowBox[{"2", " ", "p"}]], "+", 
+   FractionBox[
+    RowBox[{"3", " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "1"}], "+", 
+        SuperscriptBox["e", "2"]}], ")"}], "2"]}], 
+    RowBox[{"8", " ", 
+     SuperscriptBox["p", "2"]}]], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], "3"],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, 0, 3, 1],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[1], {
+   1, Rational[1, 2] (-1 + $CellContext`e^2), 
+    Rational[3, 8] (-1 + $CellContext`e^2)^2}, 0, 3, 1],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[21]=",ExpressionUUID->"ced8dd95-4c53-4231-8796-8b2a5e346efa"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   RowBox[{
+    SqrtBox[
+     SuperscriptBox["M", "2"]], " ", 
+    SqrtBox["p"]}], "+", 
+   RowBox[{
+    FractionBox["1", "2"], " ", 
+    RowBox[{"(", 
+     RowBox[{"3", "+", 
+      SuperscriptBox["e", "2"]}], ")"}], " ", 
+    SqrtBox[
+     SuperscriptBox["M", "2"]], " ", 
+    SqrtBox[
+     FractionBox["1", "p"]]}], "+", 
+   RowBox[{
+    FractionBox["3", "8"], " ", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"3", "+", 
+       SuperscriptBox["e", "2"]}], ")"}], "2"], " ", 
+    SqrtBox[
+     SuperscriptBox["M", "2"]], " ", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      FractionBox["1", "p"], ")"}], 
+     RowBox[{"3", "/", "2"}]]}], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], "2"],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, -1, 4, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[
+   1], {($CellContext`M^2)^Rational[1, 2], 0, 
+    Rational[1, 2] (3 + $CellContext`e^2) ($CellContext`M^2)^Rational[1, 2], 
+    0, Rational[3, 8] (3 + $CellContext`e^2)^2 ($CellContext`M^2)^
+     Rational[1, 2]}, -1, 4, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[22]=",ExpressionUUID->"2eee54ac-873a-428c-93ae-872a68af2a4d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"SpecificEnergyPN", "[", 
+  RowBox[{"3", ",", "\"\<x\>\""}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"SpecificAngularMomentumPN", "[", 
+  RowBox[{"3", ",", "\"\<x\>\""}], "]"}]}], "Input",
+ CellChangeTimes->{{3.741281815433402*^9, 3.741281843486555*^9}, {
+  3.741282722782988*^9, 3.741282724450033*^9}},
+ CellLabel->
+  "(Local) In[23]:=",ExpressionUUID->"ae27a2ae-eab8-4ecf-8413-0aec74c692cf"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"1", "-", 
+   FractionBox["\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \\\"\\\\\\\"PN\\\\\\\"\\\
+\"]\\)\"\>", "2"], "+", 
+   FractionBox[
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"3", "+", 
+       RowBox[{"5", " ", 
+        SuperscriptBox["e", "2"]}]}], ")"}], " ", 
+     SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \
+\\\"\\\\\\\"PN\\\\\\\"\\\"]\\)\"\>", "2"]}], 
+    RowBox[{"8", "-", 
+     RowBox[{"8", " ", 
+      SuperscriptBox["e", "2"]}]}]], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{
+     "O", "[", "\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \\\"\\\\\\\"PN\\\\\\\"\\\
+\"]\\)\"\>", "]"}], "3"],
+    SeriesData[$CellContext`xPN, 0, {}, 0, 3, 1],
+    Editable->False]}],
+  SeriesData[$CellContext`xPN, 0, {1, 
+    Rational[-1, 2], (8 - 8 $CellContext`e^2)^(-1) (3 + 5 $CellContext`e^2)}, 
+   0, 3, 1],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[23]=",ExpressionUUID->"7b53745e-4736-4f13-9871-154c7690be88"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SqrtBox[
+      RowBox[{"1", "-", 
+       SuperscriptBox["e", "2"]}]], " ", "M"}], 
+    SqrtBox["\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \\\"\\\\\\\"PN\\\\\\\"\\\"]\
+\\)\"\>"]], "+", 
+   FractionBox[
+    RowBox[{"3", " ", 
+     RowBox[{"(", 
+      RowBox[{"1", "+", 
+       SuperscriptBox["e", "2"]}], ")"}], " ", "M", " ", 
+     SqrtBox["\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \
+\\\"\\\\\\\"PN\\\\\\\"\\\"]\\)\"\>"]}], 
+    RowBox[{"2", " ", 
+     SqrtBox[
+      RowBox[{"1", "-", 
+       SuperscriptBox["e", "2"]}]]}]], "+", 
+   FractionBox[
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"47", "-", 
+       SuperscriptBox["e", "4"], "-", 
+       RowBox[{"20", " ", 
+        SqrtBox[
+         RowBox[{"1", "-", 
+          SuperscriptBox["e", "2"]}]]}], "+", 
+       RowBox[{"20", " ", 
+        SuperscriptBox["e", "2"], " ", 
+        SqrtBox[
+         RowBox[{"1", "-", 
+          SuperscriptBox["e", "2"]}]]}]}], ")"}], " ", "M", " ", 
+     SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \
+\\\"\\\\\\\"PN\\\\\\\"\\\"]\\)\"\>", 
+      RowBox[{"3", "/", "2"}]]}], 
+    RowBox[{"8", " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]]}]], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{
+     "O", "[", "\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \\\"\\\\\\\"PN\\\\\\\"\\\
+\"]\\)\"\>", "]"}], "2"],
+    SeriesData[$CellContext`xPN, 0, {}, -1, 4, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`xPN, 
+   0, {(1 - $CellContext`e^2)^Rational[1, 2] $CellContext`M, 0, 
+    Rational[3, 2] (1 - $CellContext`e^2)^Rational[-1, 2] (
+     1 + $CellContext`e^2) $CellContext`M, 0, 
+    Rational[1, 8] (1 - $CellContext`e^2)^Rational[-3, 2] (
+     47 - $CellContext`e^4 - 20 (1 - $CellContext`e^2)^Rational[1, 2] + 
+     20 $CellContext`e^2 (1 - $CellContext`e^2)^
+       Rational[1, 2]) $CellContext`M}, -1, 4, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[24]=",ExpressionUUID->"77b0a114-6851-493c-806c-9fd1ecea46e9"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Radial period and azimuthal advance", "Subsection",
+ CellChangeTimes->{{3.7412819855880737`*^9, 
+  3.741281994862278*^9}},ExpressionUUID->"2ed5a4c0-b22b-4a97-83f8-\
+25bd3ddbcfba"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"?", "RadialPeriodPN"}], "\[IndentingNewLine]", 
+ RowBox[{"?", "AzimuthalAdvancePN"}]}], "Input",
+ CellChangeTimes->{{3.74128199590493*^9, 3.741282001235097*^9}},
+ CellLabel->
+  "(Local) In[25]:=",ExpressionUUID->"c7f7457e-d7c8-48e7-bb43-5569c95cd9e8"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\<\"RadialPeriodPN[] returns the radial period of a particle in an \
+eccentric orbit around a Schwarzschild black hole, expanded to 1 term using \
+the inverse of p, the semi-latus rectum, as the expansion \
+parameter.\\nRadialPeriodPN[n] returns the radial period expanded to n terms.\
+\\nRadialPeriodPN[par] returns the radial period expanded to 1 term, using \
+par (\\\"p\\\" or \\\"x\\\") as the expansion \
+parameter.\\nRadialPeriodPN[n,par] returns the radial period expanded to n \
+terms, using par (\\\"p\\\" or \\\"x\\\") as the expansion parameter.\"\>", 
+  "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:BlackHoleAnalysis/ref/RadialPeriodPN"]}]], "Print", "PrintUsage",
+ CellTags->
+  "Info253741340370-4539924",ExpressionUUID->"d9b0a1a0-d6db-40e5-a835-\
+fda6c48d32f1"],
+
+Cell[BoxData[
+ RowBox[{"\<\"AzimuthalAdvancePN[] returns the total azimuthal advance during \
+one radial libration of a particle in an eccentric orbit around a \
+Schwarzschild black hole, expanded to 1 term using the inverse of p, the \
+semi-latus rectum, as the expansion parameter.\\nAzimuthalAdvancePN[n] \
+returns the azimuthal advance expanded to n terms.\\nAzimuthalAdvancePN[par] \
+returns the azimuthal advance expanded to 1 term, using par (\\\"p\\\" or \
+\\\"x\\\") as the expansion parameter.\\nAzimuthalAdvancePN[n,par] returns \
+the azimuthal advance expanded to n terms, using par (\\\"p\\\" or \\\"x\\\") \
+as the expansion parameter.\"\>", "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:BlackHoleAnalysis/ref/AzimuthalAdvancePN"]}]], "Print", \
+"PrintUsage",
+ CellTags->
+  "Info263741340370-4539924",ExpressionUUID->"3564e76c-ec48-46de-ab4c-\
+691ee6ae40d8"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"RadialPeriodPN", "[", "3", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"AzimuthalAdvancePN", "[", "3", "]"}]}], "Input",
+ CellChangeTimes->{{3.741282035409829*^9, 3.741282045134182*^9}},
+ CellLabel->
+  "(Local) In[27]:=",ExpressionUUID->"93976749-bac7-4e6c-bc08-44ffba5aa164"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{"2", " ", "M", " ", "\[Pi]", " ", 
+     SuperscriptBox["p", 
+      RowBox[{"3", "/", "2"}]]}], 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"1", "-", 
+       SuperscriptBox["e", "2"]}], ")"}], 
+     RowBox[{"3", "/", "2"}]]], "+", 
+   FractionBox[
+    RowBox[{"6", " ", "M", " ", "\[Pi]", " ", 
+     SqrtBox["p"]}], 
+    SqrtBox[
+     RowBox[{"1", "-", 
+      SuperscriptBox["e", "2"]}]]], "+", 
+   RowBox[{"3", " ", 
+    RowBox[{"(", 
+     RowBox[{"5", "+", 
+      FractionBox["4", 
+       SqrtBox[
+        RowBox[{"1", "-", 
+         SuperscriptBox["e", "2"]}]]]}], ")"}], " ", "M", " ", "\[Pi]", " ", 
+    SqrtBox[
+     FractionBox["1", "p"]]}], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], "1"],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, -3, 2, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[1], {
+   2 (1 - $CellContext`e^2)^Rational[-3, 2] $CellContext`M Pi, 0, 
+    6 (1 - $CellContext`e^2)^Rational[-1, 2] $CellContext`M Pi, 0, 
+    3 (5 + 4 (1 - $CellContext`e^2)^Rational[-1, 2]) $CellContext`M Pi}, -3, 
+   2, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[27]=",ExpressionUUID->"43d65122-1a5c-4135-8f38-435e4934533b"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   RowBox[{"2", " ", "\[Pi]"}], "+", 
+   FractionBox[
+    RowBox[{"6", " ", "\[Pi]"}], "p"], "+", 
+   FractionBox[
+    RowBox[{"3", " ", 
+     RowBox[{"(", 
+      RowBox[{"18", "+", 
+       SuperscriptBox["e", "2"]}], ")"}], " ", "\[Pi]"}], 
+    RowBox[{"2", " ", 
+     SuperscriptBox["p", "2"]}]], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], "3"],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, 0, 3, 1],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[1], {
+   2 Pi, 6 Pi, Rational[3, 2] (18 + $CellContext`e^2) Pi}, 0, 3, 1],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[28]=",ExpressionUUID->"bbcab9fb-eddc-4b5d-a2a5-29907676a469"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"RadialPeriodPN", "[", 
+  RowBox[{"3", ",", "\"\<x\>\""}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"AzimuthalAdvancePN", "[", 
+  RowBox[{"3", ",", "\"\<x\>\""}], "]"}]}], "Input",
+ CellChangeTimes->{{3.741282035409829*^9, 3.741282045134182*^9}, {
+  3.741282356257189*^9, 3.741282359933617*^9}, {3.7412827317277117`*^9, 
+  3.74128273315241*^9}},
+ CellLabel->
+  "(Local) In[29]:=",ExpressionUUID->"1515d720-d978-48e3-9a54-f323c5aeb8e0"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{"2", " ", "M", " ", "\[Pi]"}], 
+    SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \\\"\\\\\\\"PN\\\\\\\
+\"\\\"]\\)\"\>", 
+     RowBox[{"3", "/", "2"}]]], "-", 
+   FractionBox[
+    RowBox[{"6", " ", 
+     RowBox[{"(", 
+      RowBox[{"M", " ", "\[Pi]"}], ")"}]}], 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", 
+       SuperscriptBox["e", "2"]}], ")"}], " ", 
+     SqrtBox["\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \
+\\\"\\\\\\\"PN\\\\\\\"\\\"]\\)\"\>"]}]], "-", 
+   FractionBox[
+    RowBox[{"3", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", "18"}], "+", 
+         RowBox[{"7", " ", 
+          SuperscriptBox["e", "2"]}]}], ")"}], " ", "M", " ", "\[Pi]"}], 
+      ")"}], " ", 
+     SqrtBox["\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \
+\\\"\\\\\\\"PN\\\\\\\"\\\"]\\)\"\>"]}], 
+    RowBox[{"2", " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "1"}], "+", 
+        SuperscriptBox["e", "2"]}], ")"}], "2"]}]], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{
+     "O", "[", "\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \\\"\\\\\\\"PN\\\\\\\"\\\
+\"]\\)\"\>", "]"}], "1"],
+    SeriesData[$CellContext`xPN, 0, {}, -3, 2, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`xPN, 0, {
+   2 $CellContext`M Pi, 0, (-6) (-1 + $CellContext`e^2)^(-1) $CellContext`M 
+    Pi, 0, 
+    Rational[-3, 2] (-1 + $CellContext`e^2)^(-2) (-18 + 
+     7 $CellContext`e^2) $CellContext`M Pi}, -3, 2, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[29]=",ExpressionUUID->"1c8ac7fe-3a09-4818-b6eb-b13034cd9ddc"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   RowBox[{"2", " ", "\[Pi]"}], "-", 
+   FractionBox[
+    RowBox[{
+    "6", " ", "\[Pi]", 
+     " ", "\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \
+\\\"\\\\\\\"PN\\\\\\\"\\\"]\\)\"\>"}], 
+    RowBox[{
+     RowBox[{"-", "1"}], "+", 
+     SuperscriptBox["e", "2"]}]], "-", 
+   FractionBox[
+    RowBox[{"3", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", "18"}], "+", 
+         RowBox[{"7", " ", 
+          SuperscriptBox["e", "2"]}]}], ")"}], " ", "\[Pi]"}], ")"}], " ", 
+     SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \
+\\\"\\\\\\\"PN\\\\\\\"\\\"]\\)\"\>", "2"]}], 
+    RowBox[{"2", " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "1"}], "+", 
+        SuperscriptBox["e", "2"]}], ")"}], "2"]}]], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{
+     "O", "[", "\<\"\\!\\(\\*SubscriptBox[\\\"x\\\", \\\"\\\\\\\"PN\\\\\\\"\\\
+\"]\\)\"\>", "]"}], "3"],
+    SeriesData[$CellContext`xPN, 0, {}, 0, 3, 1],
+    Editable->False]}],
+  SeriesData[$CellContext`xPN, 0, {
+   2 Pi, (-6) (-1 + $CellContext`e^2)^(-1) Pi, 
+    Rational[-3, 2] (-1 + $CellContext`e^2)^(-2) (-18 + 7 $CellContext`e^2) 
+    Pi}, 0, 3, 1],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[30]=",ExpressionUUID->"ec45338e-a7fa-4dc9-8107-74e5eb015223"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Kerr equatorial orbits", "Section",
+ CellChangeTimes->{{3.741281881356564*^9, 
+  3.741281892870081*^9}},ExpressionUUID->"515c1a68-5047-4572-bb5c-\
+66ad8d14295a"],
+
+Cell["The same expansions are available on Kerr.", "Item",
+ CellChangeTimes->{{3.741281896738414*^9, 3.741281904571431*^9}, {
+  3.741282325989314*^9, 
+  3.74128232599233*^9}},ExpressionUUID->"a7494377-18ed-40d6-a4d5-\
+2beb87105284"],
+
+Cell[TextData[{
+ "Note that ",
+ StyleBox["x",
+  FontSlant->"Italic"],
+ " is not available for Kerr black holes in BlackHoleAnalysis."
+}], "Item",
+ CellChangeTimes->{{3.741281896738414*^9, 3.741281904571431*^9}, 
+   3.741282326183366*^9},ExpressionUUID->"f1fddce0-2f28-4cea-a8bd-\
+52eca228b625"],
+
+Cell[CellGroupData[{
+
+Cell["The angular frequencies", "Subsection",
+ CellChangeTimes->{{3.7412815146201468`*^9, 
+  3.741281519252734*^9}},ExpressionUUID->"17f5aa0a-a42e-48b5-a64a-\
+f4bc6bab12a3"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"OmegaPhiPN", "[", 
+  RowBox[{"Metric", "\[Rule]", "\"\<Kerr\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.7412817253668213`*^9, 3.741281725673348*^9}, {
+  3.741281927149643*^9, 3.741281956612068*^9}},
+ CellLabel->
+  "(Local) In[31]:=",ExpressionUUID->"b8d572ca-f70d-44c0-80c1-bd250815574f"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"3", "/", "2"}]]}], "M"], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], "2"],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, 3, 4, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[
+   1], {(1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M}, 3, 4, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[31]=",ExpressionUUID->"4fdd7cd5-7e41-41c2-a6a7-652d1d117f6b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Again, ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalOmega]", "r"], TraditionalForm]],ExpressionUUID->
+  "444cb453-e4ed-42b9-b4fc-8a49d7addb4b"],
+ " agrees with ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalOmega]", "\[Phi]"], TraditionalForm]],
+  ExpressionUUID->"e4054185-5e36-4d79-b7a2-e708126b5a46"],
+ ", but only to lowest order"
+}], "Item",
+ CellChangeTimes->{{3.7412815739054413`*^9, 3.741281599351852*^9}, 
+   3.741281636834113*^9, {3.741281672264573*^9, 3.741281697893366*^9}, {
+   3.741282750084517*^9, 
+   3.741282751272893*^9}},ExpressionUUID->"dd164942-db86-46bd-b0a3-\
+05a6f7ef148d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"OmegaPhiPN", "[", 
+  RowBox[{"Metric", "\[Rule]", "\"\<Kerr\>\""}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"OmegaRPN", "[", 
+  RowBox[{"Metric", "\[Rule]", "\"\<Kerr\>\""}], "]"}]}], "Input",
+ CellChangeTimes->{{3.7412816023347683`*^9, 3.741281633895993*^9}, {
+  3.7412817027063303`*^9, 3.741281704843713*^9}, {3.741282743828988*^9, 
+  3.7412827446601887`*^9}},
+ CellLabel->
+  "(Local) In[32]:=",ExpressionUUID->"a9c0bb49-0611-4669-8bc5-e3913ad5410f"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"3", "/", "2"}]]}], "M"], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], "2"],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, 3, 4, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[
+   1], {(1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M}, 3, 4, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[32]=",ExpressionUUID->"a1eb32ca-3f4f-4b05-ad20-214def65bf55"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"3", "/", "2"}]]}], "M"], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], "2"],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, 3, 4, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[
+   1], {(1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M}, 3, 4, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[33]=",ExpressionUUID->"86e03fb9-2415-4a3c-a963-64b5365786a9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"OmegaPhiPN", "[", 
+  RowBox[{"2", ",", 
+   RowBox[{"Metric", "\[Rule]", "\"\<Kerr\>\""}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"OmegaRPN", "[", 
+  RowBox[{"2", ",", 
+   RowBox[{"Metric", "\[Rule]", "\"\<Kerr\>\""}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.7412817130753603`*^9, 3.7412817137241707`*^9}, {
+  3.741282756587261*^9, 3.741282791976901*^9}},
+ CellLabel->
+  "(Local) In[34]:=",ExpressionUUID->"dbb7acfd-b4b7-4859-a466-6c2febda162f"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"3", "/", "2"}]]}], "M"], "+", 
+   FractionBox[
+    RowBox[{"3", " ", 
+     SuperscriptBox["e", "2"], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"5", "/", "2"}]]}], "M"], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], "3"],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, 3, 6, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[
+   1], {(1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M, 0, 
+    3 $CellContext`e^2 (1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M}, 
+   3, 6, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[34]=",ExpressionUUID->"5e941905-2608-47ed-a6bf-712c58c541aa"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"3", "/", "2"}]]}], "M"], "-", 
+   FractionBox[
+    RowBox[{"3", " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"5", "/", "2"}]], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"5", "/", "2"}]]}], "M"], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], "3"],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, 3, 6, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[
+   1], {(1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M, 
+    0, (-3) (1 - $CellContext`e^2)^Rational[5, 2]/$CellContext`M}, 3, 6, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[35]=",ExpressionUUID->"5d7a0b66-ee7f-4274-9e84-8bd135d7a433"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Spin effects don\[CloseCurlyQuote]t come in until the 3rd term.", "Item",
+ CellChangeTimes->{{3.741282796809568*^9, 
+  3.741282825335935*^9}},ExpressionUUID->"01de67c8-6822-4509-a80f-\
+04a6e89726d3"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"OmegaPhiPN", "[", 
+  RowBox[{"3", ",", 
+   RowBox[{"Metric", "\[Rule]", "\"\<Kerr\>\""}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"OmegaRPN", "[", 
+  RowBox[{"3", ",", 
+   RowBox[{"Metric", "\[Rule]", "\"\<Kerr\>\""}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.7412817130753603`*^9, 3.7412817137241707`*^9}, {
+  3.741282756587261*^9, 3.741282819182541*^9}},
+ CellLabel->
+  "(Local) In[36]:=",ExpressionUUID->"53e4c9ca-2fbc-4b5f-ac94-5e9fe24b4976"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"3", "/", "2"}]]}], "M"], "+", 
+   FractionBox[
+    RowBox[{"3", " ", 
+     SuperscriptBox["e", "2"], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"5", "/", "2"}]]}], "M"], "-", 
+   FractionBox[
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]], " ", 
+     RowBox[{"(", 
+      RowBox[{"a", "+", 
+       RowBox[{"3", " ", "a", " ", 
+        SuperscriptBox["e", "2"]}]}], ")"}]}], 
+    RowBox[{
+     SuperscriptBox["M", "2"], " ", 
+     SuperscriptBox["p", "3"]}]], "+", 
+   FractionBox[
+    RowBox[{"3", " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]], " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"2", " ", 
+        SuperscriptBox["a", "2"], " ", 
+        SuperscriptBox["e", "2"]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"12", " ", 
+           SuperscriptBox["e", "4"]}], "-", 
+          RowBox[{"10", " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SqrtBox[
+              RowBox[{"1", "-", 
+               SuperscriptBox["e", "2"]}]]}], ")"}]}], "+", 
+          RowBox[{
+           SuperscriptBox["e", "2"], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "3"}], "+", 
+             RowBox[{"10", " ", 
+              SqrtBox[
+               RowBox[{"1", "-", 
+                SuperscriptBox["e", "2"]}]]}]}], ")"}]}]}], ")"}], " ", 
+        SuperscriptBox["M", "2"]}]}], ")"}], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"7", "/", "2"}]]}], 
+    RowBox[{"4", " ", 
+     SuperscriptBox["M", "3"]}]], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], "4"],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, 3, 8, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[
+   1], {(1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M, 0, 
+    3 $CellContext`e^2 (1 - $CellContext`e^2)^
+     Rational[3, 2]/$CellContext`M, -(1 - $CellContext`e^2)^
+     Rational[3, 2] ($CellContext`a + 
+     3 $CellContext`a $CellContext`e^2) $CellContext`M^(-2), 
+    Rational[3, 4] (1 - $CellContext`e^2)^Rational[3, 2] $CellContext`M^(-3) (
+     2 $CellContext`a^2 $CellContext`e^2 + (12 $CellContext`e^4 - 
+       10 (-1 + (1 - $CellContext`e^2)^Rational[1, 2]) + $CellContext`e^2 (-3 + 
+         10 (1 - $CellContext`e^2)^Rational[1, 2])) $CellContext`M^2)}, 3, 8, 
+   2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[36]=",ExpressionUUID->"7e93192b-4bbd-4d86-81ca-d16ff3bad553"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"3", "/", "2"}]]}], "M"], "-", 
+   FractionBox[
+    RowBox[{"3", " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"5", "/", "2"}]], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"5", "/", "2"}]]}], "M"], "+", 
+   FractionBox[
+    RowBox[{"3", " ", "a", " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["e", "2"]}], ")"}], 
+      RowBox[{"5", "/", "2"}]]}], 
+    RowBox[{
+     SuperscriptBox["M", "2"], " ", 
+     SuperscriptBox["p", "3"]}]], "-", 
+   FractionBox[
+    RowBox[{"3", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"1", "-", 
+          SuperscriptBox["e", "2"]}], ")"}], 
+        RowBox[{"5", "/", "2"}]], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         SuperscriptBox["a", "2"], "+", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", "2"}], "+", 
+            RowBox[{"6", " ", 
+             SuperscriptBox["e", "2"]}], "+", 
+            RowBox[{"5", " ", 
+             SqrtBox[
+              RowBox[{"1", "-", 
+               SuperscriptBox["e", "2"]}]]}]}], ")"}], " ", 
+          SuperscriptBox["M", "2"]}]}], ")"}]}], ")"}], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"7", "/", "2"}]]}], 
+    RowBox[{"2", " ", 
+     SuperscriptBox["M", "3"]}]], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], "4"],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, 3, 8, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[
+   1], {(1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M, 
+    0, (-3) (1 - $CellContext`e^2)^Rational[5, 2]/$CellContext`M, 
+    3 $CellContext`a (1 - $CellContext`e^2)^
+     Rational[5, 2] $CellContext`M^(-2), 
+    Rational[-3, 2] (1 - $CellContext`e^2)^
+     Rational[5, 2] $CellContext`M^(-3) ($CellContext`a^2 + (-2 + 
+       6 $CellContext`e^2 + 
+       5 (1 - $CellContext`e^2)^Rational[1, 2]) $CellContext`M^2)}, 3, 8, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[37]=",ExpressionUUID->"3a001c91-f848-4c74-a21a-a369f22782e6"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Specific energy and angular momentum", "Subsection",
+ CellChangeTimes->{{3.7412817896978483`*^9, 
+  3.741281795091733*^9}},ExpressionUUID->"c0e8619b-8ef2-429f-9deb-\
+3ce0029a6137"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"SpecificEnergyPN", "[", 
+  RowBox[{"3", ",", 
+   RowBox[{"Metric", "\[Rule]", "\"\<Kerr\>\""}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"SpecificAngularMomentumPN", "[", 
+  RowBox[{"3", ",", 
+   RowBox[{"Metric", "\[Rule]", "\"\<Kerr\>\""}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.741281815433402*^9, 3.7412818295803823`*^9}, {
+  3.741282839825245*^9, 3.741282871236869*^9}},
+ CellLabel->
+  "(Local) In[38]:=",ExpressionUUID->"f85e71c4-5658-4595-bbcc-c02f7ff3c472"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"1", "+", 
+   FractionBox[
+    RowBox[{
+     RowBox[{"-", "1"}], "+", 
+     SuperscriptBox["e", "2"]}], 
+    RowBox[{"2", " ", "p"}]], "+", 
+   FractionBox[
+    RowBox[{"3", " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "1"}], "+", 
+        SuperscriptBox["e", "2"]}], ")"}], "2"]}], 
+    RowBox[{"8", " ", 
+     SuperscriptBox["p", "2"]}]], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], 
+     RowBox[{"5", "/", "2"}]],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, 0, 5, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[1], {
+   1, 0, Rational[1, 2] (-1 + $CellContext`e^2), 0, 
+    Rational[3, 8] (-1 + $CellContext`e^2)^2}, 0, 5, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[38]=",ExpressionUUID->"0dd764b5-bb33-4a12-a257-2280b2af094d"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   RowBox[{"M", " ", 
+    SqrtBox["p"]}], "+", 
+   RowBox[{
+    FractionBox["1", "2"], " ", 
+    RowBox[{"(", 
+     RowBox[{"3", "+", 
+      SuperscriptBox["e", "2"]}], ")"}], " ", "M", " ", 
+    SqrtBox[
+     FractionBox["1", "p"]]}], "-", 
+   FractionBox[
+    RowBox[{"a", " ", 
+     RowBox[{"(", 
+      RowBox[{"3", "+", 
+       SuperscriptBox["e", "2"]}], ")"}]}], "p"], "+", 
+   FractionBox[
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"8", " ", 
+        SuperscriptBox["a", "2"], " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", 
+          SuperscriptBox["e", "2"]}], ")"}]}], "+", 
+       RowBox[{"3", " ", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{"3", "+", 
+           SuperscriptBox["e", "2"]}], ")"}], "2"], " ", 
+        SuperscriptBox["M", "2"]}]}], ")"}], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"3", "/", "2"}]]}], 
+    RowBox[{"8", " ", "M"}]], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], "2"],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, -1, 4, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[
+   1], {$CellContext`M, 0, 
+    Rational[1, 2] (3 + $CellContext`e^2) $CellContext`M, -$CellContext`a (
+     3 + $CellContext`e^2), 
+    Rational[1, 8] $CellContext`M^(-1) (
+     8 $CellContext`a^2 (1 + $CellContext`e^2) + 
+     3 (3 + $CellContext`e^2)^2 $CellContext`M^2)}, -1, 4, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[39]=",ExpressionUUID->"bf6e4a43-ec66-4392-9522-5d5dc72d2612"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Radial period and azimuthal advance", "Subsection",
+ CellChangeTimes->{{3.7412819855880737`*^9, 
+  3.741281994862278*^9}},ExpressionUUID->"5e2b426c-9fd6-4aa4-8dff-\
+b96551ac6110"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"RadialPeriodPN", "[", 
+  RowBox[{"3", ",", 
+   RowBox[{"Metric", "\[Rule]", "\"\<Kerr\>\""}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"AzimuthalAdvancePN", "[", 
+  RowBox[{"3", ",", 
+   RowBox[{"Metric", "\[Rule]", "\"\<Kerr\>\""}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.741282035409829*^9, 3.741282045134182*^9}, {
+  3.741282875771925*^9, 3.741282877641816*^9}},
+ CellLabel->
+  "(Local) In[40]:=",ExpressionUUID->"cdd114c6-595c-49af-83c7-bb1a7b54bac0"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{"2", " ", "M", " ", "\[Pi]", " ", 
+     SuperscriptBox["p", 
+      RowBox[{"3", "/", "2"}]]}], 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"1", "-", 
+       SuperscriptBox["e", "2"]}], ")"}], 
+     RowBox[{"3", "/", "2"}]]], "+", 
+   FractionBox[
+    RowBox[{"6", " ", "M", " ", "\[Pi]", " ", 
+     SqrtBox["p"]}], 
+    SqrtBox[
+     RowBox[{"1", "-", 
+      SuperscriptBox["e", "2"]}]]], "-", 
+   FractionBox[
+    RowBox[{"6", " ", 
+     RowBox[{"(", 
+      RowBox[{"a", " ", "\[Pi]"}], ")"}]}], 
+    SqrtBox[
+     RowBox[{"1", "-", 
+      SuperscriptBox["e", "2"]}]]], "+", 
+   FractionBox[
+    RowBox[{"3", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox["a", "2"], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"4", "+", 
+          RowBox[{"5", " ", 
+           SqrtBox[
+            RowBox[{"1", "-", 
+             SuperscriptBox["e", "2"]}]]}]}], ")"}], " ", 
+        SuperscriptBox["M", "2"]}]}], ")"}], " ", "\[Pi]", " ", 
+     SqrtBox[
+      FractionBox["1", "p"]]}], 
+    RowBox[{
+     SqrtBox[
+      RowBox[{"1", "-", 
+       SuperscriptBox["e", "2"]}]], " ", "M"}]], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], "1"],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, -3, 2, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[1], {
+   2 (1 - $CellContext`e^2)^Rational[-3, 2] $CellContext`M Pi, 0, 
+    6 (1 - $CellContext`e^2)^Rational[-1, 2] $CellContext`M 
+    Pi, (-6) $CellContext`a (1 - $CellContext`e^2)^Rational[-1, 2] Pi, 
+    3 (1 - $CellContext`e^2)^
+     Rational[-1, 2] $CellContext`M^(-1) ($CellContext`a^2 + (4 + 
+       5 (1 - $CellContext`e^2)^Rational[1, 2]) $CellContext`M^2) Pi}, -3, 2, 
+   2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[40]=",ExpressionUUID->"63cc8dd6-1f05-4348-aa82-62312debb291"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   RowBox[{"2", " ", "\[Pi]"}], "+", 
+   FractionBox[
+    RowBox[{"6", " ", "\[Pi]"}], "p"], "-", 
+   FractionBox[
+    RowBox[{"8", " ", 
+     RowBox[{"(", 
+      RowBox[{"a", " ", "\[Pi]"}], ")"}], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["1", "p"], ")"}], 
+      RowBox[{"3", "/", "2"}]]}], "M"], "+", 
+   FractionBox[
+    RowBox[{"3", " ", 
+     RowBox[{"(", 
+      RowBox[{"18", "+", 
+       SuperscriptBox["e", "2"], "+", 
+       FractionBox[
+        RowBox[{"2", " ", 
+         SuperscriptBox["a", "2"]}], 
+        SuperscriptBox["M", "2"]]}], ")"}], " ", "\[Pi]"}], 
+    RowBox[{"2", " ", 
+     SuperscriptBox["p", "2"]}]], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", 
+      FractionBox["1", "p"], "]"}], 
+     RowBox[{"5", "/", "2"}]],
+    SeriesData[$CellContext`p, 
+     DirectedInfinity[1], {}, 0, 5, 2],
+    Editable->False]}],
+  SeriesData[$CellContext`p, 
+   DirectedInfinity[1], {
+   2 Pi, 0, 6 Pi, (-8) $CellContext`a $CellContext`M^(-1) Pi, 
+    Rational[3, 2] (18 + $CellContext`e^2 + 
+     2 $CellContext`a^2 $CellContext`M^(-2)) Pi}, 0, 5, 2],
+  Editable->False]], "Output",
+ CellLabel->
+  "(Local) Out[41]=",ExpressionUUID->"92c0da14-d061-4c4b-bae3-e9f703ce2e37"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "RelatedTutorialsSection",
+ WholeCellGroupOpener->True,
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       ButtonBox[
+       "RELATED TUTORIALS", BaseStyle -> None, 
+        Appearance -> {Automatic, None}, Evaluator -> None, Method -> 
+        "Preemptive", ButtonFunction :> (FrontEndExecute[{
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], All, ButtonCell], 
+           FrontEndToken["OpenCloseGroup"], 
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]], 
+      "RelatedTutorialsSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Related Tutorials"}], 
+        "RelatedTutorialsSection"], BaseStyle -> None, 
+       Appearance -> {Automatic, None}, Evaluator -> None, Method -> 
+       "Preemptive", ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
+   None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"d8809448-9821-4668-8250-b4d94e35e3dd"],
+
+Cell[TextData[ButtonBox["Field equations on Schwarzschild",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:BlackHoleAnalysis/tutorial/Field equations on Schwarzschild"]], \
+"RelatedTutorials",ExpressionUUID->"af7a99cb-a5b8-4384-822c-db88c64b11d8"],
+
+Cell[TextData[ButtonBox["Source terms",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:BlackHoleAnalysis/tutorial/Source terms"]], \
+"RelatedTutorials",ExpressionUUID->"9ed87881-e4c7-4708-8cbb-5a5ab29ba937"],
+
+Cell[TextData[ButtonBox["Equations of motion",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:BlackHoleAnalysis/tutorial/Equations of motion"]], \
+"RelatedTutorials",ExpressionUUID->"494b465f-fe5f-44d5-a444-98159b891d89"],
+
+Cell[TextData[ButtonBox["Examples",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:BlackHoleAnalysis/tutorial/Examples"]], \
+"RelatedTutorials",ExpressionUUID->"3d8939a6-4dc5-4683-8d88-a6edca092017"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[" ", \
+"FooterCell",ExpressionUUID->"1ef83ee2-3c73-45aa-afbf-043c08d2f0ee"]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"Post-Newtonian expressions",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"Post", "Newtonian", "Source", "Expansion"}, "index" -> 
+    True, "label" -> "Post-Newtonian expressions", "language" -> "en", 
+    "paclet" -> "Post-Newtonian expressions", "status" -> "None", "summary" -> 
+    "Post-Newtonian expressions", "synonyms" -> {}, "title" -> 
+    "Post-Newtonian expressions", "windowTitle" -> 
+    "Post-Newtonian expressions", "type" -> "Tutorial", "uri" -> 
+    "BlackHoleAnalysis/tutorial/Post-Newtonian expressions", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

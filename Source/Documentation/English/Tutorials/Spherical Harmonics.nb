@@ -1,0 +1,709 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     24725,        701]
+NotebookOptionsPosition[     17399,        557]
+NotebookOutlinePosition[     20125,        619]
+CellTagsIndexPosition[     19597,        604]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["BlackHoleAnalysis - Spherical harmonics", "Title",ExpressionUUID->"64364337-75f9-4d80-b087-fea8447864fa"],
+
+Cell[TextData[{
+ "BlackHoleAnalysis provides expressions for spherical harmonics. The \
+conventions are based on the Martel & Poisson formalism  (",
+ ButtonBox["arxiv.org/abs/gr-qc/0502028",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://arxiv.org/abs/gr-qc/0502028"], None},
+  ButtonNote->"https://arxiv.org/abs/gr-qc/0502028"],
+ ")."
+}], "Text",ExpressionUUID->"06f8f470-abc3-4983-8da2-c8af27fe45c8"],
+
+Cell[BoxData[
+ RowBox[{"<<", "BlackHoleAnalysis`"}]], "Input",
+ CellLabel->
+  "(Local) In[1]:=",ExpressionUUID->"cd46333a-252c-45d8-946e-49de93b6176b"],
+
+Cell[CellGroupData[{
+
+Cell["Introduction", "Section",ExpressionUUID->"faa6ea38-d219-4e2e-8e56-f25466f05d99"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Scalar, vector and tensor spherical harmonics provide the appropriate basis \
+for decomposing the metric perturbation on a spherically symmetric background.\
+\>", "Item",ExpressionUUID->"aeedd6ff-c8e4-475c-8bac-779f280b658e"],
+
+Cell["\<\
+Starting with the scalar harmonic, BlackHoleAnalysis provides YHarmonic.\
+\>", "Item",ExpressionUUID->"9416c952-8077-436a-ba4e-fa1e49457848"],
+
+Cell["\<\
+It gives the standard spherical harmonic in a slightly nicer form than \
+Mathematica\[CloseCurlyQuote]s SphericalHarmonicY.\
+\>", "Item",ExpressionUUID->"c96c05c2-2ca6-4b91-a194-16f738138c01"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "YHarmonic"}]], "Input",
+ CellLabel->
+  "(Local) In[173]:=",ExpressionUUID->"2066f82b-2211-4d70-8960-98c6115cdcb4"],
+
+Cell[BoxData[
+ RowBox[{"\<\"YHarmonic[{l,m},{theta,phi}] returns the scalar spherical \
+harmonics Y_lm[theta,phi].\\nYHarmonic[{l,m},{theta,phi},s] returns the \
+spin-weighted spherical harmonic _s Y_lm[theta,phi].\"\>", 
+  "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->"paclet:BlackHoleAnalysis/ref/YHarmonic"]}]], "Print", \
+"PrintUsage",
+ CellTags->
+  "Info1733741182382-2691191",ExpressionUUID->"2194b4bf-9022-4f1a-8ae9-\
+743595d25b8f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"YHarmonic", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"l", ",", "m"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Theta]", ",", "\[Phi]"}], "}"}]}], "]"}]], "Input",
+ CellLabel->
+  "(Local) In[174]:=",ExpressionUUID->"0203d645-f855-495e-9844-a5a4cb9862fb"],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{
+   SuperscriptBox["\[ExponentialE]", 
+    RowBox[{"\[ImaginaryI]", " ", "m", " ", "\[Phi]"}]], " ", 
+   SqrtBox[
+    FractionBox[
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"1", "+", 
+        RowBox[{"2", " ", "l"}]}], ")"}], " ", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"l", "-", "m"}], ")"}], "!"}]}], 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"l", "+", "m"}], ")"}], "!"}]]], " ", 
+   RowBox[{"LegendreP", "[", 
+    RowBox[{"l", ",", "m", ",", 
+     RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "]"}]}], 
+  RowBox[{"2", " ", 
+   SqrtBox["\[Pi]"]}]]], "Output",
+ CellLabel->
+  "(Local) Out[174]=",ExpressionUUID->"5bc9b6f7-eacd-4926-8ca6-b9ddcf2a3212"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Vector harmonics", "Section",ExpressionUUID->"e2018584-2549-4f3e-8868-712671965c31"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+The vector harmonics come from differentiating the scalar harmonic.\
+\>", "Item",ExpressionUUID->"8860ed13-f7cc-4ef5-9a6d-e9e187ce8e5f"],
+
+Cell[TextData[{
+ "There is an even-parity harmonic, ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["Y", "A"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "5a80a97c-0c02-48fa-9e96-4286e054ea10"],
+ " and an odd-parity harmonic ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["X", "A"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "5c1012d9-26c2-46a8-be4f-ce7978a4da87"],
+ ", where A \[Element] {\[Theta],\[Phi]}"
+}], "Item",ExpressionUUID->"d473e25a-359c-4768-a4ea-510b40641ee2"],
+
+Cell["\<\
+The following four functions provide the different components of the vector \
+harmonics\
+\>", "Item",ExpressionUUID->"7e897ae5-ff74-4686-97d5-ab579eb323bb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"?", "YTheta"}], "\[IndentingNewLine]", 
+ RowBox[{"?", "YPhi"}], "\[IndentingNewLine]", 
+ RowBox[{"?", "XTheta"}], "\[IndentingNewLine]", 
+ RowBox[{"?", "XPhi"}]}], "Input",
+ CellLabel->
+  "(Local) In[175]:=",ExpressionUUID->"b980af81-0cba-47b8-9445-abefce0e83f3"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\<\"YTheta[{l,m},{theta,phi}] returns the vector spherical \
+harmonics Y_lm_Theta[theta,phi].\"\>", "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->"paclet:BlackHoleAnalysis/ref/YTheta"]}]], "Print", \
+"PrintUsage",
+ CellTags->
+  "Info1753741182594-2691191",ExpressionUUID->"af466a37-0457-48cd-98d3-\
+adbfeea7d4db"],
+
+Cell[BoxData[
+ RowBox[{"\<\"YPhi[{l,m},{theta,phi}] returns the vector spherical harmonics \
+Y_lm_Phi[theta,phi].\"\>", "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->"paclet:BlackHoleAnalysis/ref/YPhi"]}]], "Print", "PrintUsage",
+ 
+ CellTags->
+  "Info1763741182594-2691191",ExpressionUUID->"a172926e-fbe8-4033-9f67-\
+cfa0b295b9da"],
+
+Cell[BoxData[
+ RowBox[{"\<\"XTheta[{l,m},{theta,phi}] returns the vector spherical \
+harmonics X_lm_Theta[theta,phi].\"\>", "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->"paclet:BlackHoleAnalysis/ref/XTheta"]}]], "Print", \
+"PrintUsage",
+ CellTags->
+  "Info1773741182594-2691191",ExpressionUUID->"3a7474a0-ece8-42e9-a7ee-\
+c74a99c1ae19"],
+
+Cell[BoxData[
+ RowBox[{"\<\"XPhi[{l,m},{theta,phi}] returns the vector spherical harmonics \
+Y_lm_Phi[theta,phi].\"\>", "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->"paclet:BlackHoleAnalysis/ref/XPhi"]}]], "Print", "PrintUsage",
+ 
+ CellTags->
+  "Info1783741182594-2691191",ExpressionUUID->"63727bda-3888-40ab-bb77-\
+06b28905b9db"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"YTheta", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"l", ",", "m"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Theta]", ",", "\[Phi]"}], "}"}]}], "]"}]], "Input",
+ CellLabel->
+  "(Local) In[179]:=",ExpressionUUID->"feac6ee4-56e3-439b-8d1e-8ef46de3aa75"],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{
+   SuperscriptBox["\[ExponentialE]", 
+    RowBox[{"\[ImaginaryI]", " ", "m", " ", "\[Phi]"}]], " ", 
+   SqrtBox[
+    FractionBox[
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"1", "+", 
+        RowBox[{"2", " ", "l"}]}], ")"}], " ", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"l", "-", "m"}], ")"}], "!"}]}], 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"l", "+", "m"}], ")"}], "!"}]]], " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"Cos", "[", "\[Theta]", "]"}], " ", 
+      RowBox[{"LegendreP", "[", 
+       RowBox[{"l", ",", "m", ",", 
+        RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "]"}]}], "+", 
+     RowBox[{"l", " ", 
+      RowBox[{"Cos", "[", "\[Theta]", "]"}], " ", 
+      RowBox[{"LegendreP", "[", 
+       RowBox[{"l", ",", "m", ",", 
+        RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "]"}]}], "-", 
+     RowBox[{"LegendreP", "[", 
+      RowBox[{
+       RowBox[{"1", "+", "l"}], ",", "m", ",", 
+       RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "]"}], "-", 
+     RowBox[{"l", " ", 
+      RowBox[{"LegendreP", "[", 
+       RowBox[{
+        RowBox[{"1", "+", "l"}], ",", "m", ",", 
+        RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "]"}]}], "+", 
+     RowBox[{"m", " ", 
+      RowBox[{"LegendreP", "[", 
+       RowBox[{
+        RowBox[{"1", "+", "l"}], ",", "m", ",", 
+        RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "]"}]}]}], ")"}], " ", 
+   RowBox[{"Sin", "[", "\[Theta]", "]"}]}], 
+  RowBox[{"2", " ", 
+   SqrtBox["\[Pi]"], " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"-", "1"}], "+", 
+     SuperscriptBox[
+      RowBox[{"Cos", "[", "\[Theta]", "]"}], "2"]}], ")"}]}]]], "Output",
+ CellLabel->
+  "(Local) Out[179]=",ExpressionUUID->"9bbad0f5-bbcd-42c2-8799-c366323e90a9"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Tensor harmonics", "Section",ExpressionUUID->"0d04888e-b645-42f2-90e4-e4d1e19fce88"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "The even-parity tensor harmonics are ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["Y", "AB"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "8328e7c7-8a80-4852-a892-26522fd575ee"],
+ " and Y ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalOmega]", "AB"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "61d24d69-4891-4d05-9a1c-48667d041fd8"],
+ ", where A,B \[Element] {\[Theta],\[Phi]}"
+}], "Item",ExpressionUUID->"9add6801-f65a-4f43-9552-df416e9af119"],
+
+Cell[TextData[{
+ "The odd-parity tensor harmonics are ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["X", "AB"], TraditionalForm]],ExpressionUUID->
+  "9a18aec8-5087-4a10-9ab4-26e3efdb8875"],
+ ", where A,B \[Element] {\[Theta],\[Phi]}"
+}], "Item",ExpressionUUID->"a6799d8e-ac0a-4f46-84f5-58d559aec917"],
+
+Cell["\<\
+The following six functions provide the different components of the tensor \
+harmonics\
+\>", "Item",ExpressionUUID->"7813c01b-10fe-4507-97b7-b10c3720550f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"?", "YThetaTheta"}], "\[IndentingNewLine]", 
+ RowBox[{"?", "YThetaPhi"}], "\[IndentingNewLine]", 
+ RowBox[{"?", "YPhiPhi"}], "\[IndentingNewLine]", 
+ RowBox[{"?", "XThetaTheta"}], "\[IndentingNewLine]", 
+ RowBox[{"?", "XThetaPhi"}], "\[IndentingNewLine]", 
+ RowBox[{"?", "XPhiPhi"}]}], "Input",
+ CellLabel->
+  "(Local) In[181]:=",ExpressionUUID->"914ab5f7-8480-4d8f-830d-3eb8786bd7da"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\<\"YThetaTheta[{l,m},{theta,phi}] returns the tensor spherical \
+harmonics Y_lm_ThetaTheta[theta,phi].\"\>", "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->"paclet:BlackHoleAnalysis/ref/YThetaTheta"]}]], "Print", \
+"PrintUsage",
+ CellTags->
+  "Info1813741182758-2691191",ExpressionUUID->"816fb7f6-d371-45bd-b75b-\
+24ed77ab81aa"],
+
+Cell[BoxData[
+ RowBox[{"\<\"YThetaPhi[{l,m},{theta,phi}] returns the tensor spherical \
+harmonics Y_lm_ThetaPhi[theta,phi].\"\>", "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->"paclet:BlackHoleAnalysis/ref/YThetaPhi"]}]], "Print", \
+"PrintUsage",
+ CellTags->
+  "Info1823741182758-2691191",ExpressionUUID->"d265610e-8eb3-48b4-8f3a-\
+32c286f91e8c"],
+
+Cell[BoxData[
+ RowBox[{"\<\"YPhiPhi[{l,m},{theta,phi}] returns the tensor spherical \
+harmonics Y_lm_PhiPhi[theta,phi].\"\>", "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->"paclet:BlackHoleAnalysis/ref/YPhiPhi"]}]], "Print", \
+"PrintUsage",
+ CellTags->
+  "Info1833741182758-2691191",ExpressionUUID->"bd772671-ef40-4b83-92d8-\
+8a423a539a04"],
+
+Cell[BoxData[
+ RowBox[{"\<\"XThetaTheta[{l,m},{theta,phi}] returns the tensor spherical \
+harmonics X_lm_ThetaTheta[theta,phi].\"\>", "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->"paclet:BlackHoleAnalysis/ref/XThetaTheta"]}]], "Print", \
+"PrintUsage",
+ CellTags->
+  "Info1843741182758-2691191",ExpressionUUID->"fad37ffe-0784-47ee-8801-\
+e4b29285f3a1"],
+
+Cell[BoxData[
+ RowBox[{"\<\"XThetaPhi[{l,m},{theta,phi}] returns the tensor spherical \
+harmonics X_lm_ThetaPhi[theta,phi].\"\>", "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->"paclet:BlackHoleAnalysis/ref/XThetaPhi"]}]], "Print", \
+"PrintUsage",
+ CellTags->
+  "Info1853741182758-2691191",ExpressionUUID->"cd1b2323-94ae-4079-ba90-\
+ef293a6387b2"],
+
+Cell[BoxData[
+ RowBox[{"\<\"XPhiPhi[{l,m},{theta,phi}] returns the tensor spherical \
+harmonics X_lm_PhiPhi[theta,phi].\"\>", "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->"paclet:BlackHoleAnalysis/ref/XPhiPhi"]}]], "Print", \
+"PrintUsage",
+ CellTags->
+  "Info1863741182759-2691191",ExpressionUUID->"cb0c19e8-f77e-400f-a1ef-\
+0eb767ccba1e"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"YThetaPhi", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"l", ",", "m"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Theta]", ",", "\[Phi]"}], "}"}]}], "]"}]], "Input",
+ CellLabel->
+  "(Local) In[189]:=",ExpressionUUID->"6900b0b9-c479-4414-84c8-94aafd05bb8d"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"-", 
+   FractionBox[
+    RowBox[{"\[ImaginaryI]", " ", 
+     SuperscriptBox["\[ExponentialE]", 
+      RowBox[{"\[ImaginaryI]", " ", "m", " ", "\[Phi]"}]], " ", "m", " ", 
+     RowBox[{"Cot", "[", "\[Theta]", "]"}], " ", 
+     SqrtBox[
+      FractionBox[
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"1", "+", 
+          RowBox[{"2", " ", "l"}]}], ")"}], " ", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"l", "-", "m"}], ")"}], "!"}]}], 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"l", "+", "m"}], ")"}], "!"}]]], " ", 
+     RowBox[{"LegendreP", "[", 
+      RowBox[{"l", ",", "m", ",", 
+       RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "]"}]}], 
+    RowBox[{"2", " ", 
+     SqrtBox["\[Pi]"]}]]}], "+", 
+  FractionBox[
+   RowBox[{"\[ImaginaryI]", " ", 
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{"\[ImaginaryI]", " ", "m", " ", "\[Phi]"}]], " ", "m", " ", 
+    SqrtBox[
+     FractionBox[
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1", "+", 
+         RowBox[{"2", " ", "l"}]}], ")"}], " ", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"l", "-", "m"}], ")"}], "!"}]}], 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"l", "+", "m"}], ")"}], "!"}]]], " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"Cos", "[", "\[Theta]", "]"}], " ", 
+       RowBox[{"LegendreP", "[", 
+        RowBox[{"l", ",", "m", ",", 
+         RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "]"}]}], "+", 
+      RowBox[{"l", " ", 
+       RowBox[{"Cos", "[", "\[Theta]", "]"}], " ", 
+       RowBox[{"LegendreP", "[", 
+        RowBox[{"l", ",", "m", ",", 
+         RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "]"}]}], "-", 
+      RowBox[{"LegendreP", "[", 
+       RowBox[{
+        RowBox[{"1", "+", "l"}], ",", "m", ",", 
+        RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "]"}], "-", 
+      RowBox[{"l", " ", 
+       RowBox[{"LegendreP", "[", 
+        RowBox[{
+         RowBox[{"1", "+", "l"}], ",", "m", ",", 
+         RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "]"}]}], "+", 
+      RowBox[{"m", " ", 
+       RowBox[{"LegendreP", "[", 
+        RowBox[{
+         RowBox[{"1", "+", "l"}], ",", "m", ",", 
+         RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "]"}]}]}], ")"}], " ", 
+    RowBox[{"Sin", "[", "\[Theta]", "]"}]}], 
+   RowBox[{"2", " ", 
+    SqrtBox["\[Pi]"], " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"-", "1"}], "+", 
+      SuperscriptBox[
+       RowBox[{"Cos", "[", "\[Theta]", "]"}], "2"]}], ")"}]}]]}]], "Output",
+ CellLabel->
+  "(Local) Out[189]=",ExpressionUUID->"f2e15a8f-2542-43d0-871b-3e242f60191f"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Spin-weighted spherical harmonics", "Section",ExpressionUUID->"76c7ec65-f703-47b7-b21c-fbf492f94945"],
+
+Cell["\<\
+The spin-weighted spherical harmonic is provided through YHarmonic\
+\>", "Item",ExpressionUUID->"bd95c964-d0e9-4887-97bd-7d2bf91be6e4"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"YHarmonic", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"2", ",", "2"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Theta]", ",", "\[Phi]"}], "}"}], ",", 
+   RowBox[{"-", "2"}]}], "]"}]], "Input",
+ CellLabel->
+  "(Local) In[191]:=",ExpressionUUID->"25ee3955-0fc0-4a42-9ed6-c3cc496f2c45"],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["1", "2"], " ", 
+  SuperscriptBox["\[ExponentialE]", 
+   RowBox[{"2", " ", "\[ImaginaryI]", " ", "\[Phi]"}]], " ", 
+  SqrtBox[
+   FractionBox["5", "\[Pi]"]], " ", 
+  SuperscriptBox[
+   RowBox[{"Cos", "[", 
+    FractionBox["\[Theta]", "2"], "]"}], "4"]}]], "Output",
+ CellLabel->
+  "(Local) Out[191]=",ExpressionUUID->"138646ba-9fd1-4273-904b-7bc78c430f8c"]
+}, Open  ]],
+
+Cell[TextData[{
+ "Note that  ",
+ StyleBox["spin-weighted spheroidal harmonics are not provided. ",
+  FontSlant->"Italic"],
+ "The Black Hole Perturbation Toolkit does provide another package for \
+these."
+}], "Item",ExpressionUUID->"8fb851f7-87ce-4f3b-8083-a43976628cf2"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1680, 1005},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "Info1733741182382-2691191"->{
+  Cell[2175, 68, 524, 13, 70, "Print",ExpressionUUID->"2194b4bf-9022-4f1a-8ae9-743595d25b8f",
+   CellTags->"Info1733741182382-2691191"]},
+ "Info1753741182594-2691191"->{
+  Cell[5097, 167, 421, 11, 47, "Print",ExpressionUUID->"af466a37-0457-48cd-98d3-adbfeea7d4db",
+   CellTags->"Info1753741182594-2691191"]},
+ "Info1763741182594-2691191"->{
+  Cell[5521, 180, 415, 11, 47, "Print",ExpressionUUID->"a172926e-fbe8-4033-9f67-cfa0b295b9da",
+   CellTags->"Info1763741182594-2691191"]},
+ "Info1773741182594-2691191"->{
+  Cell[5939, 193, 421, 11, 47, "Print",ExpressionUUID->"3a7474a0-ece8-42e9-a7ee-c74a99c1ae19",
+   CellTags->"Info1773741182594-2691191"]},
+ "Info1783741182594-2691191"->{
+  Cell[6363, 206, 415, 11, 47, "Print",ExpressionUUID->"63727bda-3888-40ab-bb77-06b28905b9db",
+   CellTags->"Info1783741182594-2691191"]},
+ "Info1813741182758-2691191"->{
+  Cell[10506, 340, 436, 11, 47, "Print",ExpressionUUID->"816fb7f6-d371-45bd-b75b-24ed77ab81aa",
+   CellTags->"Info1813741182758-2691191"]},
+ "Info1823741182758-2691191"->{
+  Cell[10945, 353, 430, 11, 47, "Print",ExpressionUUID->"d265610e-8eb3-48b4-8f3a-32c286f91e8c",
+   CellTags->"Info1823741182758-2691191"]},
+ "Info1833741182758-2691191"->{
+  Cell[11378, 366, 424, 11, 47, "Print",ExpressionUUID->"bd772671-ef40-4b83-92d8-8a423a539a04",
+   CellTags->"Info1833741182758-2691191"]},
+ "Info1843741182758-2691191"->{
+  Cell[11805, 379, 436, 11, 47, "Print",ExpressionUUID->"fad37ffe-0784-47ee-8801-e4b29285f3a1",
+   CellTags->"Info1843741182758-2691191"]},
+ "Info1853741182758-2691191"->{
+  Cell[12244, 392, 430, 11, 47, "Print",ExpressionUUID->"cd1b2323-94ae-4079-ba90-ef293a6387b2",
+   CellTags->"Info1853741182758-2691191"]},
+ "Info1863741182759-2691191"->{
+  Cell[12677, 405, 424, 11, 47, "Print",ExpressionUUID->"cb0c19e8-f77e-400f-a1ef-0eb767ccba1e",
+   CellTags->"Info1863741182759-2691191"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"Info1733741182382-2691191", 17720, 568},
+ {"Info1753741182594-2691191", 17890, 571},
+ {"Info1763741182594-2691191", 18061, 574},
+ {"Info1773741182594-2691191", 18232, 577},
+ {"Info1783741182594-2691191", 18403, 580},
+ {"Info1813741182758-2691191", 18574, 583},
+ {"Info1823741182758-2691191", 18746, 586},
+ {"Info1833741182758-2691191", 18918, 589},
+ {"Info1843741182758-2691191", 19090, 592},
+ {"Info1853741182758-2691191", 19262, 595},
+ {"Info1863741182759-2691191", 19434, 598}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 111, 0, 98, "Title",ExpressionUUID->"64364337-75f9-4d80-b087-fea8447864fa"],
+Cell[694, 24, 414, 9, 35, "Text",ExpressionUUID->"06f8f470-abc3-4983-8da2-c8af27fe45c8"],
+Cell[1111, 35, 151, 3, 30, "Input",ExpressionUUID->"cd46333a-252c-45d8-946e-49de93b6176b"],
+Cell[CellGroupData[{
+Cell[1287, 42, 86, 0, 67, "Section",ExpressionUUID->"faa6ea38-d219-4e2e-8e56-f25466f05d99"],
+Cell[CellGroupData[{
+Cell[1398, 46, 235, 3, 32, "Item",ExpressionUUID->"aeedd6ff-c8e4-475c-8bac-779f280b658e"],
+Cell[1636, 51, 151, 2, 32, "Item",ExpressionUUID->"9416c952-8077-436a-ba4e-fa1e49457848"],
+Cell[1790, 55, 202, 3, 32, "Item",ExpressionUUID->"c96c05c2-2ca6-4b91-a194-16f738138c01"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2029, 63, 143, 3, 41, "Input",ExpressionUUID->"2066f82b-2211-4d70-8960-98c6115cdcb4"],
+Cell[2175, 68, 524, 13, 70, "Print",ExpressionUUID->"2194b4bf-9022-4f1a-8ae9-743595d25b8f",
+ CellTags->"Info1733741182382-2691191"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2736, 86, 286, 8, 41, "Input",ExpressionUUID->"0203d645-f855-495e-9844-a5a4cb9862fb"],
+Cell[3025, 96, 716, 23, 91, "Output",ExpressionUUID->"5bc9b6f7-eacd-4926-8ca6-b9ddcf2a3212"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3790, 125, 90, 0, 67, "Section",ExpressionUUID->"e2018584-2549-4f3e-8868-712671965c31"],
+Cell[CellGroupData[{
+Cell[3905, 129, 146, 2, 32, "Item",ExpressionUUID->"8860ed13-f7cc-4ef5-9a6d-e9e187ce8e5f"],
+Cell[4054, 133, 524, 14, 32, "Item",ExpressionUUID->"d473e25a-359c-4768-a4ea-510b40641ee2"],
+Cell[4581, 149, 166, 3, 32, "Item",ExpressionUUID->"7e897ae5-ff74-4686-97d5-ab579eb323bb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4784, 157, 288, 6, 105, "Input",ExpressionUUID->"b980af81-0cba-47b8-9445-abefce0e83f3"],
+Cell[CellGroupData[{
+Cell[5097, 167, 421, 11, 47, "Print",ExpressionUUID->"af466a37-0457-48cd-98d3-adbfeea7d4db",
+ CellTags->"Info1753741182594-2691191"],
+Cell[5521, 180, 415, 11, 47, "Print",ExpressionUUID->"a172926e-fbe8-4033-9f67-cfa0b295b9da",
+ CellTags->"Info1763741182594-2691191"],
+Cell[5939, 193, 421, 11, 47, "Print",ExpressionUUID->"3a7474a0-ece8-42e9-a7ee-c74a99c1ae19",
+ CellTags->"Info1773741182594-2691191"],
+Cell[6363, 206, 415, 11, 47, "Print",ExpressionUUID->"63727bda-3888-40ab-bb77-06b28905b9db",
+ CellTags->"Info1783741182594-2691191"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6827, 223, 283, 8, 41, "Input",ExpressionUUID->"feac6ee4-56e3-439b-8d1e-8ef46de3aa75"],
+Cell[7113, 233, 1763, 52, 95, "Output",ExpressionUUID->"9bbad0f5-bbcd-42c2-8799-c366323e90a9"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8925, 291, 90, 0, 67, "Section",ExpressionUUID->"0d04888e-b645-42f2-90e4-e4d1e19fce88"],
+Cell[CellGroupData[{
+Cell[9040, 295, 524, 14, 32, "Item",ExpressionUUID->"9add6801-f65a-4f43-9552-df416e9af119"],
+Cell[9567, 311, 299, 7, 32, "Item",ExpressionUUID->"a6799d8e-ac0a-4f46-84f5-58d559aec917"],
+Cell[9869, 320, 165, 3, 32, "Item",ExpressionUUID->"7813c01b-10fe-4507-97b7-b10c3720550f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10071, 328, 410, 8, 147, "Input",ExpressionUUID->"914ab5f7-8480-4d8f-830d-3eb8786bd7da"],
+Cell[CellGroupData[{
+Cell[10506, 340, 436, 11, 47, "Print",ExpressionUUID->"816fb7f6-d371-45bd-b75b-24ed77ab81aa",
+ CellTags->"Info1813741182758-2691191"],
+Cell[10945, 353, 430, 11, 47, "Print",ExpressionUUID->"d265610e-8eb3-48b4-8f3a-32c286f91e8c",
+ CellTags->"Info1823741182758-2691191"],
+Cell[11378, 366, 424, 11, 47, "Print",ExpressionUUID->"bd772671-ef40-4b83-92d8-8a423a539a04",
+ CellTags->"Info1833741182758-2691191"],
+Cell[11805, 379, 436, 11, 47, "Print",ExpressionUUID->"fad37ffe-0784-47ee-8801-e4b29285f3a1",
+ CellTags->"Info1843741182758-2691191"],
+Cell[12244, 392, 430, 11, 47, "Print",ExpressionUUID->"cd1b2323-94ae-4079-ba90-ef293a6387b2",
+ CellTags->"Info1853741182758-2691191"],
+Cell[12677, 405, 424, 11, 47, "Print",ExpressionUUID->"cb0c19e8-f77e-400f-a1ef-0eb767ccba1e",
+ CellTags->"Info1863741182759-2691191"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13150, 422, 286, 8, 41, "Input",ExpressionUUID->"6900b0b9-c479-4414-84c8-94aafd05bb8d"],
+Cell[13439, 432, 2606, 76, 171, "Output",ExpressionUUID->"f2e15a8f-2542-43d0-871b-3e242f60191f"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16094, 514, 107, 0, 67, "Section",ExpressionUUID->"76c7ec65-f703-47b7-b21c-fbf492f94945"],
+Cell[16204, 516, 145, 2, 32, "Item",ExpressionUUID->"bd95c964-d0e9-4887-97bd-7d2bf91be6e4"],
+Cell[CellGroupData[{
+Cell[16374, 522, 315, 9, 41, "Input",ExpressionUUID->"25ee3955-0fc0-4a42-9ed6-c3cc496f2c45"],
+Cell[16692, 533, 394, 11, 69, "Output",ExpressionUUID->"138646ba-9fd1-4273-904b-7bc78c430f8c"]
+}, Open  ]],
+Cell[17101, 547, 270, 6, 32, "Item",ExpressionUUID->"8fb851f7-87ce-4f3b-8083-a43976628cf2"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

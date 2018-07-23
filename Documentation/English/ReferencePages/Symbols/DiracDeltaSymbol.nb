@@ -1,0 +1,75 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"e4fa838c-2444-43ba-a246-b1b54f48bec0"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["DiracDeltaSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/DiracDeltaSymbol"]
+}], "LinkTrail",ExpressionUUID->"dc37c996-9c1e-4a33-b8ec-53cc767f749f"],
+
+Cell[CellGroupData[{
+
+Cell["DiracDeltaSymbol", \
+"ObjectName",ExpressionUUID->"ff2d4c65-298e-4f3c-a1f9-732616fea1d6"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["DiracDeltaSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/DiracDeltaSymbol"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "be76541f-87e7-45fb-b536-4058e13b6a2b"],
+     "\[LineSeparator]returns the symbol for the Dirac delta function."
+    }],ExpressionUUID->"817aa5ab-825b-40de-b864-f2ceabd3e0a6"]}
+  }]], "Usage",ExpressionUUID->"0b0d6118-7ee5-4d6d-be58-5edb4c289832"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"5ca15849-5d2f-460d-aaec-1cac9fa44d55"],
+
+Cell[BoxData[""],ExpressionUUID->"d1acf484-37fc-4eaa-8fbb-e05df9e2e61c"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"DiracDeltaSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "DiracDeltaSymbol", "DIRACDELTASYMBOL", "diracdeltasymbol"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> 
+    "None", "summary" -> 
+    "DiracDeltaSymbol[] returns the symbol for the Dirac delta function.", 
+    "synonyms" -> {
+     "DiracDeltaSymbol", "DIRACDELTASYMBOL", "diracdeltasymbol"}, "title" -> 
+    "DiracDeltaSymbol", "windowTitle" -> "DiracDeltaSymbol", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/DiracDeltaSymbol", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

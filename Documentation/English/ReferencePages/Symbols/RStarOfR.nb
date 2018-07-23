@@ -1,0 +1,178 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"e6489f0a-86e4-4e31-9540-e85861811f39"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Coordinates",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Coordinates"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["RStarOfR",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/RStarOfR"]
+}], "LinkTrail",ExpressionUUID->"32e3d3fd-19d3-4544-a05b-2b9344e972fb"],
+
+Cell[CellGroupData[{
+
+Cell["RStarOfR", \
+"ObjectName",ExpressionUUID->"05b797b2-e853-4d9a-b801-bc2431a7bddd"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["RStarOfR",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/RStarOfR"], "[", 
+       StyleBox[
+        RowBox[{"r", ",", "M"}], "TI"], "]"}]], "InlineFormula",
+      ExpressionUUID->"7691dfbb-7406-43c2-8323-f9cba23a6a88"],
+     "\[LineSeparator]returns the usual tortoise coordinate in terms of \
+Schwarzschild r and black hole mass M, normalized such that r=r_*=4M."
+    }],ExpressionUUID->"24ba1af0-1693-4efc-badc-94ade811e0a9"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["RStarOfR",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/RStarOfR"], "[", 
+       StyleBox[
+        RowBox[{"r", ",", "M", ",", "a"}], "TI"], "]"}]], "InlineFormula",
+      ExpressionUUID->"a252d2f3-49fe-4e06-9ee0-a7b50d9092c8"],
+     "\[LineSeparator]returns the Kerr metric tortoise coordinate in terms of \
+Boyer-Lindquist r, mass M, and spin parameter a."
+    }],ExpressionUUID->"a145812f-1844-4285-887d-363977b56053"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["RStarOfR",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/RStarOfR"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"f70abf4b-a21d-41dc-b471-78f5a9b78c68"],
+     
+     "\[LineSeparator]returns RStarOfR[r,M] using built-in symbols."
+    }],ExpressionUUID->"4becfe70-f634-4d65-8c94-a2747ba69036"]}
+  }]], "Usage",ExpressionUUID->"8267b8cd-8699-49d3-bbd4-c4b19d7e1ae8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"91f43151-7e92-404d-a241-718868cd1a8a"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"f7601516-83ac-4c2a-b2ef-566601826373"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "f09b8638-eb1d-4b65-b7b1-00a71273b9e0"], "IntegrationConstant", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"4", " ", "M"}], ",", " ", 
+      RowBox[{"4", " ", "M"}]}], "}"}], Cell["\<\
+Constant chosen when defining Schwarzschild tortoise coordinate. Either given \
+explicitly, or as a list {r,r_*} specifying where r=r_*.\
+\>", "TableText",ExpressionUUID->"1f929076-b77c-4555-9f34-e03923a8af32"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "c87b3bf6-3059-4cbe-9504-f41c12bf3ea7"], "Metric", "Schwarzschild", 
+    Cell["\<\
+Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
+\>", "TableText",ExpressionUUID->"6f89329d-2cde-4dc4-b7f7-38df1c612498"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, "Rows" -> {None, {None}}, 
+   "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, 
+      True}}}},ExpressionUUID->"e321188a-50b8-4292-a4c1-49de71cccf31"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"385b80e1-4516-4657-86cd-6b8ed4ae3275"],
+
+Cell[BoxData[""],ExpressionUUID->"97aeb4f3-8bbd-4d01-af9c-b7497f25488d"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"RStarOfR",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"RStarOfR", "RSTAROFR", "rstarofr"}, "index" -> True, 
+    "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Coordinates Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Coordinates", "status" -> 
+    "None", "summary" -> 
+    "RStarOfR[r,M] returns the usual tortoise coordinate in terms of \
+Schwarzschild r and black hole mass M, normalized such that r=r_*=4M.\n\
+RStarOfR[r,M,a] returns the Kerr metric tortoise coordinate in terms of \
+Boyer-Lindquist r, mass M, and spin parameter a.\nRStarOfR[] returns \
+RStarOfR[r,M] using built-in symbols.", 
+    "synonyms" -> {"RStarOfR", "RSTAROFR", "rstarofr"}, "title" -> "RStarOfR",
+     "windowTitle" -> "RStarOfR", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/RStarOfR", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

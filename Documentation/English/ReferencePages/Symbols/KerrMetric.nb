@@ -1,0 +1,154 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"4bd67cdc-6c54-46b6-8b71-fd087bca4e29"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Coordinates",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Coordinates"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["KerrMetric",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/KerrMetric"]
+}], "LinkTrail",ExpressionUUID->"fa2b4b50-5c23-4269-9847-2c03e6be949f"],
+
+Cell[CellGroupData[{
+
+Cell["KerrMetric", \
+"ObjectName",ExpressionUUID->"4d00fd7b-87ab-4d80-bb1a-19824d5ba2c3"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["KerrMetric",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/KerrMetric"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"224df0f3-f0c0-460d-a1df-a8bd31c69320"],
+     
+     "\[LineSeparator]returns the Kerr metric in Boyer-Lindquist \
+coordinates."
+    }],ExpressionUUID->"b6b699c6-6c30-4269-8d30-850083b1bbf9"]}
+  }]], "Usage",ExpressionUUID->"ba529b83-d486-4db1-a907-e84358d4511a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       Cell[
+        BoxData[
+         ButtonBox[
+          FrameBox[
+           StyleBox[
+            RowBox[{"MORE", " ", "INFORMATION"}], "NotesFrameText"], 
+           StripOnInput -> False], Appearance -> {Automatic, None}, BaseStyle -> 
+          None, ButtonFunction :> (FrontEndExecute[{
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], All, ButtonCell], 
+             FrontEndToken["OpenCloseGroup"], 
+             FrontEnd`SelectionMove[
+              FrontEnd`SelectedNotebook[], After, CellContents]}]& ), 
+          Evaluator -> None, Method -> "Preemptive"]]]], "NotesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Details and Options"}], 
+        "NotesSection"], Appearance -> {Automatic, None}, BaseStyle -> None, 
+       ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
+       None, Method -> "Preemptive"]]], None}, {None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"b8466b2a-48c7-4915-8f83-48d836d61278"],
+
+Cell["The following options can be given: ", \
+"Notes",ExpressionUUID->"9e5cf431-a56b-4ad7-aade-628e9eccf579"],
+
+Cell[BoxData[GridBox[{
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "778996e9-87f1-4aa3-baf9-27795f55091f"], "AtParticle", "False", 
+    Cell["\<\
+Boolean stating whether to evaluate the metric components at the location of \
+the particle, r=rp[t] and theta = \[Theta]p[t]\
+\>", "TableText",ExpressionUUID->"59328086-9bd4-46bb-a7ba-f1610b234abf"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "e38546e8-7db3-4fc5-a441-62a740051fde"], "Equatorial", "False", 
+    Cell["\<\
+Boolean stating whether the particle will be confined to \[Theta]p[t] = \
+\[Pi]/2\
+\>", "TableText",ExpressionUUID->"b0686896-5d35-419e-933e-344f8c7c4f76"]},
+   {Cell["      ", "TableRowIcon",ExpressionUUID->
+     "904504f1-e616-44b0-83d8-08db93057c11"], "Indices", "Down", Cell["\<\
+States whether the indices should be covariant (\"Down\") or contravariant \
+(\"Up\")\
+\>", "TableText",ExpressionUUID->"73537aec-2dd6-4aed-aaa9-3ea616c329ea"]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
+    "Rows" -> {{Baseline}}, "RowsIndexed" -> {}}]], "3ColumnTableMod",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+   "Rows" -> {None, None, {None}}, "RowsIndexed" -> {}},
+ GridBoxDividers->{
+  "Rows" -> {{
+     True, True, True, 
+      True}}}},ExpressionUUID->"86289a98-ee13-49f2-ba22-b43491f203ff"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"9624709e-9f9b-46c1-8a27-35b96df70f54"],
+
+Cell[BoxData[""],ExpressionUUID->"23bc62d5-8b60-45dc-b106-bd4f9d00880c"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"KerrMetric",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"KerrMetric", "KERRMETRIC", "kerrmetric"}, "index" -> True,
+     "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Coordinates Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Coordinates", "status" -> 
+    "None", "summary" -> 
+    "KerrMetric[] returns the Kerr metric in Boyer-Lindquist coordinates.", 
+    "synonyms" -> {"KerrMetric", "KERRMETRIC", "kerrmetric"}, "title" -> 
+    "KerrMetric", "windowTitle" -> "KerrMetric", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/KerrMetric", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> "", "NewStyles" -> False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

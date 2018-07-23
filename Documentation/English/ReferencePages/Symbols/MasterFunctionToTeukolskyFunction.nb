@@ -1,0 +1,83 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"70e5a7e7-6628-49b9-9442-c68da33b7091"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`SchwEqs",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`SchwEqs"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["MasterFunctionToTeukolskyFunction",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/MasterFunctionToTeukolskyFunction"]
+}], "LinkTrail",ExpressionUUID->"486edd69-8ebc-444a-a19b-14df487e2b88"],
+
+Cell[CellGroupData[{
+
+Cell["MasterFunctionToTeukolskyFunction", \
+"ObjectName",ExpressionUUID->"982bf95b-ee6c-4b32-9eba-7dc8f1b02b04"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["MasterFunctionToTeukolskyFunction",
+        BaseStyle->"Link",
+        ButtonData->
+         "paclet:BlackHoleAnalysis/ref/MasterFunctionToTeukolskyFunction"], 
+       "[", 
+       StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+      "2e36a239-e1f9-4c02-9f88-ddd8bed82bdd"],
+     "\[LineSeparator]converts all frequency domain instances of the master \
+function (both parities) and its r derivatives to the Teukolsky function and \
+its first r derivative."
+    }],ExpressionUUID->"b99dcd2f-ae89-4fdc-beab-cf416c241e86"]}
+  }]], "Usage",ExpressionUUID->"799844cb-8347-4cb1-9fc7-2d5cc0b21678"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"d281afd9-51f4-4439-a4e7-7cda0a495837"],
+
+Cell[BoxData[""],ExpressionUUID->"3dbeef57-f3e5-4918-a97b-fb1b1c973c0f"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"MasterFunctionToTeukolskyFunction",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "MasterFunctionToTeukolskyFunction", "MASTERFUNCTIONTOTEUKOLSKYFUNCTION",
+       "masterfunctiontoteukolskyfunction"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`SchwEqs Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`SchwEqs", "status" -> "None", "summary" -> 
+    "MasterFunctionToTeukolskyFunction[expr] converts all frequency domain \
+instances of the master function (both parities) and its r derivatives to the \
+Teukolsky function and its first r derivative.", 
+    "synonyms" -> {
+     "MasterFunctionToTeukolskyFunction", "MASTERFUNCTIONTOTEUKOLSKYFUNCTION",
+       "masterfunctiontoteukolskyfunction"}, "title" -> 
+    "MasterFunctionToTeukolskyFunction", "windowTitle" -> 
+    "MasterFunctionToTeukolskyFunction", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/MasterFunctionToTeukolskyFunction", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

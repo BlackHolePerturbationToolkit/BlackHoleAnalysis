@@ -1,0 +1,77 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"017c0e60-a322-468e-ba2d-3e48f3daf51b"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleSpinSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/BlackHoleSpinSymbol"]
+}], "LinkTrail",ExpressionUUID->"e1c59cbe-8ab3-46cf-9450-fe3b81e64e1b"],
+
+Cell[CellGroupData[{
+
+Cell["BlackHoleSpinSymbol", \
+"ObjectName",ExpressionUUID->"ece55471-67e2-4176-b301-a7d89f20bb82"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["BlackHoleSpinSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/BlackHoleSpinSymbol"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "796765e7-d1f5-4119-af47-1ab07f2815b2"],
+     "\[LineSeparator]returns the symbol for the spin of the central black \
+hole."
+    }],ExpressionUUID->"b1914d0d-9160-43b5-a5e2-1f8a960a6983"]}
+  }]], "Usage",ExpressionUUID->"c1b6eb95-fa94-4308-ab92-ae214944f904"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"72895d11-9d65-492b-ac73-25512e9634a4"],
+
+Cell[BoxData[""],ExpressionUUID->"ceb2570b-ae5b-4982-8af6-c0cae41089e0"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"BlackHoleSpinSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "BlackHoleSpinSymbol", "BLACKHOLESPINSYMBOL", "blackholespinsymbol"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "BlackHoleSpinSymbol[] returns the symbol for the spin of the central \
+black hole.", 
+    "synonyms" -> {
+     "BlackHoleSpinSymbol", "BLACKHOLESPINSYMBOL", "blackholespinsymbol"}, 
+    "title" -> "BlackHoleSpinSymbol", "windowTitle" -> "BlackHoleSpinSymbol", 
+    "type" -> "Symbol", "uri" -> "BlackHoleAnalysis/ref/BlackHoleSpinSymbol", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

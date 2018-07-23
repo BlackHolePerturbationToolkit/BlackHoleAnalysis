@@ -1,0 +1,74 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"86d1b8d7-315b-41d4-b932-b15cf003c817"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Labels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Labels"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["QFlatLabel",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/QFlatLabel"]
+}], "LinkTrail",ExpressionUUID->"6fd1a82f-0ad5-4b18-92b5-fde3c912fafa"],
+
+Cell[CellGroupData[{
+
+Cell["QFlatLabel", \
+"ObjectName",ExpressionUUID->"97b719bd-a4e4-4791-bd75-711f5884faa6"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["QFlatLabel",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/QFlatLabel"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"3c7f49a7-2824-424c-abf6-dfa4260c936b"],
+     
+     "\[LineSeparator]returns the string treated as a label for the metric \
+perturbation amplitude source term QFlat"
+    }],ExpressionUUID->"4a2bebf1-945b-42e9-8015-73899cf0e389"]}
+  }]], "Usage",ExpressionUUID->"4b2880d1-c973-4cd3-ab53-82d0c8d94a92"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"ebd41801-3c4a-4d9a-9919-9659d0233e78"],
+
+Cell[BoxData[""],ExpressionUUID->"d919091e-e612-412f-9876-48b85aa3ddb5"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"QFlatLabel",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"QFlatLabel", "QFLATLABEL", "qflatlabel"}, "index" -> True,
+     "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Labels Symbol", 
+    "language" -> "en", "paclet" -> "BlackHoleAnalysis`Labels", "status" -> 
+    "None", "summary" -> 
+    "QFlatLabel[] returns the string treated as a label for the metric \
+perturbation amplitude source term QFlat", 
+    "synonyms" -> {"QFlatLabel", "QFLATLABEL", "qflatlabel"}, "title" -> 
+    "QFlatLabel", "windowTitle" -> "QFlatLabel", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/QFlatLabel", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

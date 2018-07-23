@@ -1,0 +1,72 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"fa7c4015-0db8-44b2-874b-b53a7b5750d6"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Labels",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Labels"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["H2Label",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/H2Label"]
+}], "LinkTrail",ExpressionUUID->"95d95b19-1bfb-4f5e-a47e-e28a39374e0b"],
+
+Cell[CellGroupData[{
+
+Cell["H2Label", \
+"ObjectName",ExpressionUUID->"e8730bca-3a3f-425e-a047-d3dcd49152e4"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["H2Label",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/H2Label"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"2ed398f6-fb37-4822-934f-9dcf44db3370"],
+     
+     "\[LineSeparator]returns the string treated as a label for the metric \
+perturbation amplitude h2"
+    }],ExpressionUUID->"a8406bfb-2fe7-4e38-bb4f-55441f6ce80b"]}
+  }]], "Usage",ExpressionUUID->"7d703911-26c7-44f9-8d2e-72abb7ee5e55"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"73ae4859-e409-46c4-a32e-0ba6d2217820"],
+
+Cell[BoxData[""],ExpressionUUID->"8a1b1057-2e1a-4053-88dc-b2c2edb2a5ab"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"H2Label",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"H2Label", "H2LABEL", "h2label"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Labels Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Labels", "status" -> "None", "summary" -> 
+    "H2Label[] returns the string treated as a label for the metric \
+perturbation amplitude h2", "synonyms" -> {"H2Label", "H2LABEL", "h2label"}, 
+    "title" -> "H2Label", "windowTitle" -> "H2Label", "type" -> "Symbol", 
+    "uri" -> "BlackHoleAnalysis/ref/H2Label", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

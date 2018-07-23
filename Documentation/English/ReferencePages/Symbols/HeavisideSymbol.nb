@@ -1,0 +1,73 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"f1dd2ae6-d1fa-4d4d-8324-d5ab05067aec"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["HeavisideSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/HeavisideSymbol"]
+}], "LinkTrail",ExpressionUUID->"436a3ca1-dd3a-4fbc-a669-6cbcbf269355"],
+
+Cell[CellGroupData[{
+
+Cell["HeavisideSymbol", \
+"ObjectName",ExpressionUUID->"a957421f-7705-429a-9e4c-b412e3de35c2"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["HeavisideSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/HeavisideSymbol"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "112cdcc8-412c-443f-8e6a-d5e190e33feb"],
+     "\[LineSeparator]returns the symbol for the Heaviside step function."
+    }],ExpressionUUID->"9b6f712b-b00b-46be-9fad-bd987781b68d"]}
+  }]], "Usage",ExpressionUUID->"842003cd-08d6-4eaa-ba47-37209c5c5acc"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"5f10e386-d35c-4e31-ae03-d35942825fde"],
+
+Cell[BoxData[""],ExpressionUUID->"9eeab4db-93af-40d9-8988-d47118e31f13"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"HeavisideSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"HeavisideSymbol", "HEAVISIDESYMBOL", "heavisidesymbol"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "HeavisideSymbol[] returns the symbol for the Heaviside step function.", 
+    "synonyms" -> {"HeavisideSymbol", "HEAVISIDESYMBOL", "heavisidesymbol"}, 
+    "title" -> "HeavisideSymbol", "windowTitle" -> "HeavisideSymbol", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/HeavisideSymbol", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

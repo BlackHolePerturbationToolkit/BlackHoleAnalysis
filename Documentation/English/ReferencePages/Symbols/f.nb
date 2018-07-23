@@ -1,0 +1,82 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"71b6ac61-dabb-42da-8419-2cf4d7014526"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Coordinates",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Coordinates"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["f",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/f"]
+}], "LinkTrail",ExpressionUUID->"20648bcb-752f-480e-b9a9-efe0bbdfab7c"],
+
+Cell[CellGroupData[{
+
+Cell["f", "ObjectName",ExpressionUUID->"2674870f-a360-43cb-86ad-d1dfec50f5eb"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["f",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/f"], "[", 
+       StyleBox[
+        RowBox[{"r", ",", "M"}], "TI"], "]"}]], "InlineFormula",
+      ExpressionUUID->"16bafe65-d3f3-4da3-ad98-4a1164387d53"],
+     "\[LineSeparator]returns the Schwarzschild redshift 1-2M/r."
+    }],ExpressionUUID->"fa2b4a53-1227-4f87-bac1-9d6eacea6881"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["f",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/f"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"ca5774fa-1da7-4819-9072-a11de7326ec4"],
+     
+     "\[LineSeparator]returns f[r,M] using built-in symbols."
+    }],ExpressionUUID->"9c6c51f2-5986-482f-8747-98531fd56c0a"]}
+  }]], "Usage",ExpressionUUID->"dfed39b8-4134-48d2-9ee4-cea1b48a3834"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"2119096a-199d-4465-b409-2bb5580dbeee"],
+
+Cell[BoxData[""],ExpressionUUID->"5f3d4c8a-6e08-4131-a59c-479cde1c31ef"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"f",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", "keywords" -> {"f", "F", "f"}, "index" -> 
+    True, "label" -> "BlackHoleAnalysis/BlackHoleAnalysis`Coordinates Symbol",
+     "language" -> "en", "paclet" -> "BlackHoleAnalysis`Coordinates", 
+    "status" -> "None", "summary" -> 
+    "f[r,M] returns the Schwarzschild redshift 1-2M/r.\nf[] returns f[r,M] \
+using built-in symbols.", "synonyms" -> {"f", "F", "f"}, "title" -> "f", 
+    "windowTitle" -> "f", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/f", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

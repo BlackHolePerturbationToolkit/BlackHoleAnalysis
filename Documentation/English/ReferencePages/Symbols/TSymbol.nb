@@ -1,0 +1,71 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"9aaa0a4e-a407-4838-ac68-5c6f066cd0d5"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["TSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/TSymbol"]
+}], "LinkTrail",ExpressionUUID->"e830049a-2b57-4047-84da-1cb3b35bf6f8"],
+
+Cell[CellGroupData[{
+
+Cell["TSymbol", \
+"ObjectName",ExpressionUUID->"1300f77b-10f0-4327-aaf8-b509f1e7a88f"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["TSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/TSymbol"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"6943d5c0-f3d9-4dae-a274-213c439710fa"],
+     
+     "\[LineSeparator]returns the symbol for Schwarzschild t."
+    }],ExpressionUUID->"8d16cb41-32a2-4202-964b-1d38ae8af519"]}
+  }]], "Usage",ExpressionUUID->"dc864a62-4dac-40df-aa45-91871503a09b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"419ef0b5-b31c-47b5-b6a6-4ece23f1d11a"],
+
+Cell[BoxData[""],ExpressionUUID->"98680dca-0e04-40b9-8d27-0bf56c1070dd"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"TSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"TSymbol", "TSYMBOL", "tsymbol"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "TSymbol[] returns the symbol for Schwarzschild t.", 
+    "synonyms" -> {"TSymbol", "TSYMBOL", "tsymbol"}, "title" -> "TSymbol", 
+    "windowTitle" -> "TSymbol", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/TSymbol", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

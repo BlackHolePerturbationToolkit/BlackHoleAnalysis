@@ -1,0 +1,77 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"5437d673-53f1-4913-9613-851c66fc25cf"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["ImpactParameterSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/ImpactParameterSymbol"]
+}], "LinkTrail",ExpressionUUID->"3d10a40c-0a1c-4b1c-a7b0-07cdb793b45a"],
+
+Cell[CellGroupData[{
+
+Cell["ImpactParameterSymbol", \
+"ObjectName",ExpressionUUID->"4ab20077-3281-478e-9794-ca61a5aa9420"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["ImpactParameterSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/ImpactParameterSymbol"], 
+       "[", "]"}]], "InlineFormula",ExpressionUUID->
+      "e4c555c4-bb0a-40fb-8354-0f59d7874f29"],
+     "\[LineSeparator]returns the symbol for the impact parameter of a \
+particle in a hyperbolic trajectory relative to the central black hole."
+    }],ExpressionUUID->"c38c5c65-bbc1-4e1e-b757-2086c1581f09"]}
+  }]], "Usage",ExpressionUUID->"6f9e44e0-2171-4ad3-aec4-7e91b085f7c9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"053217eb-d9b8-4935-9d9b-5f6f4af7bc82"],
+
+Cell[BoxData[""],ExpressionUUID->"e2747a22-cdf5-443c-8633-7ef3ac35c3f8"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"ImpactParameterSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {
+     "ImpactParameterSymbol", "IMPACTPARAMETERSYMBOL", 
+      "impactparametersymbol"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "ImpactParameterSymbol[] returns the symbol for the impact parameter of a \
+particle in a hyperbolic trajectory relative to the central black hole.", 
+    "synonyms" -> {
+     "ImpactParameterSymbol", "IMPACTPARAMETERSYMBOL", 
+      "impactparametersymbol"}, "title" -> "ImpactParameterSymbol", 
+    "windowTitle" -> "ImpactParameterSymbol", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/ImpactParameterSymbol", "WorkflowDockedCell" -> 
+    ""}, "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

@@ -1,0 +1,71 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"b0217b0b-f6e1-46b3-a4ab-93543d972514"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Symbols",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Symbols"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["LSymbol",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/LSymbol"]
+}], "LinkTrail",ExpressionUUID->"ce198893-c61d-4089-a176-1ab1fcf25b9f"],
+
+Cell[CellGroupData[{
+
+Cell["LSymbol", \
+"ObjectName",ExpressionUUID->"818278a8-c48c-4740-be06-bca3b3fd9fcc"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["LSymbol",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/LSymbol"], "[", "]"}]], 
+      "InlineFormula",ExpressionUUID->"3c64fd86-a361-4887-9e31-ad1f82b2c9d8"],
+     
+     "\[LineSeparator]returns the symbol for mode number l."
+    }],ExpressionUUID->"0c936f69-61d6-4ba0-86d0-e309364c717f"]}
+  }]], "Usage",ExpressionUUID->"8073b4e2-8b4b-4faf-8af2-45ebfb59e6e7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"f9075a45-60ea-42fa-95b9-408e6fe37ac4"],
+
+Cell[BoxData[""],ExpressionUUID->"a4a589a8-03b8-4986-95cc-79f083209f47"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"LSymbol",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"LSymbol", "LSYMBOL", "lsymbol"}, "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Symbols Symbol", "language" -> "en", 
+    "paclet" -> "BlackHoleAnalysis`Symbols", "status" -> "None", "summary" -> 
+    "LSymbol[] returns the symbol for mode number l.", 
+    "synonyms" -> {"LSymbol", "LSYMBOL", "lsymbol"}, "title" -> "LSymbol", 
+    "windowTitle" -> "LSymbol", "type" -> "Symbol", "uri" -> 
+    "BlackHoleAnalysis/ref/LSymbol", "WorkflowDockedCell" -> ""}, 
+  "SearchTextTranslated" -> "", "LinkTrails" -> ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+
