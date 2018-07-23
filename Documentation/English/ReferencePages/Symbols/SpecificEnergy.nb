@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"6739cdf5-6bf3-4b4f-8b7a-9f94b27f600f"],
+   0}},ExpressionUUID->"09a06b21-517e-40f6-a012-46e972ab919b"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -16,12 +16,12 @@ Cell[TextData[{
  ButtonBox["SpecificEnergy",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificEnergy"]
-}], "LinkTrail",ExpressionUUID->"a0039988-d171-4060-ad47-082c09853964"],
+}], "LinkTrail",ExpressionUUID->"7e02d39a-9361-4ed2-b7d5-6ac6bbaeaa75"],
 
 Cell[CellGroupData[{
 
 Cell["SpecificEnergy", \
-"ObjectName",ExpressionUUID->"235e91a5-f2f8-4e77-b8cf-e53f2f34e81a"],
+"ObjectName",ExpressionUUID->"56b2d9a0-89fd-45de-8952-5a4d5006b8a5"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -31,11 +31,11 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificEnergy"], "[", 
        "]"}]], "InlineFormula",ExpressionUUID->
-      "4f42875d-fbc0-4e8b-bf98-27eb9339823e"],
+      "fb781614-8383-43dc-badb-d0073982a05d"],
      "\[LineSeparator]returns the specific energy (conserved energy per mass) \
 of an orbit written as a function of eccentricity and semi-latus rectum."
-    }],ExpressionUUID->"80da6c27-1bd2-4498-8370-8dfc3a5c82e9"]}
-  }]], "Usage",ExpressionUUID->"38229a0a-3ae0-481d-a530-704fe9a3851c"]
+    }],ExpressionUUID->"cc0c96c1-30c1-486c-895f-caeff49fb136"]}
+  }]], "Usage",ExpressionUUID->"1bed9a85-20cd-41df-a5f7-c69794de2e37"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -81,17 +81,17 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"822a35e6-b7b3-474d-86b6-7d752eaf52cb"],
+  0,ExpressionUUID->"936edeb5-3233-4df4-a572-06d64bfff43f"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"3a72ed7d-b1fe-4bd9-9b86-935ecfd97a8e"],
+"Notes",ExpressionUUID->"5e08bd7d-2ada-4a65-885d-e9e2e0e90db5"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "de6205a0-b64f-4a14-9b0f-9a3ee9082aa9"], "Metric", "Schwarzschild", 
+     "1021ab12-818a-47d1-976b-fa651b47cbd2"], "Metric", "Schwarzschild", 
     Cell["\<\
 Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
-\>", "TableText",ExpressionUUID->"763d7d2f-b7d8-416e-88e0-2243c4b0f7ed"]}
+\>", "TableText",ExpressionUUID->"ceab65bc-a18d-4ac8-bb93-a730fc614ea6"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -102,14 +102,14 @@ Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"e1d525da-817f-421d-a25c-bd6a3aca2303"]
+     True, True}}}},ExpressionUUID->"7711c09b-4c53-4fd3-a40c-0333873e615d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"d63f2713-355c-4a4a-b2dc-04f873ff024a"],
+Cell[" ", "FooterCell",ExpressionUUID->"31c1c889-1fe3-4b4b-85c3-8396768eabaf"],
 
-Cell[BoxData[""],ExpressionUUID->"c838da22-1a5e-442a-99ee-8c2d01742407"]
+Cell[BoxData[""],ExpressionUUID->"d1d25b38-7983-4ff0-8c6f-e19b2e42ad5d"]
 }, Open  ]]
 },
 Saveable->False,

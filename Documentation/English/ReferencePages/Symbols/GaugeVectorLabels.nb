@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"13db50b5-7405-48e8-b57d-9bcb518bbd7b"],
+   0}},ExpressionUUID->"7ebed95d-b148-49a2-af8f-e1cb7196a0ec"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["GaugeVectorLabels",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/GaugeVectorLabels"]
-}], "LinkTrail",ExpressionUUID->"7fd4b2d1-a9bc-458b-aacd-64dc2aa72e59"],
+}], "LinkTrail",ExpressionUUID->"29f3dc51-7f5f-4b76-8c73-4a26e1630b87"],
 
 Cell[CellGroupData[{
 
 Cell["GaugeVectorLabels", \
-"ObjectName",ExpressionUUID->"d06fe272-d662-465c-9436-abfd6a24bfc6"],
+"ObjectName",ExpressionUUID->"ad03d519-a51c-4e76-8b42-2a08224f7fc3"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -30,11 +30,11 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/GaugeVectorLabels"], "[", 
        "]"}]], "InlineFormula",ExpressionUUID->
-      "3e3b514b-f468-412f-9794-4a7e0a032ce4"],
+      "00c55554-b84b-404a-9ade-bc552aee183e"],
      "\[LineSeparator]returns a list of strings that label the gauge vector \
 amplitudes."
-    }],ExpressionUUID->"a1c8c11b-712a-4ff4-bd12-3745698a4f42"]}
-  }]], "Usage",ExpressionUUID->"3600a60c-af05-454d-a29b-203c0f7b46af"]
+    }],ExpressionUUID->"417b1c1c-dda9-4f1e-845f-d339463a13a9"]}
+  }]], "Usage",ExpressionUUID->"744c87af-3f2d-4577-8ece-63b7d215e52d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -80,21 +80,21 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"e07685a1-067b-4563-9a39-8a127799e5b6"],
+  0,ExpressionUUID->"1c57866f-0780-4e39-a4f7-c4bd206ae80b"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"30c7b0c7-3247-47b5-8f49-94493d0ec24a"],
+"Notes",ExpressionUUID->"c6182d57-fa98-429b-b5b5-b4bc7d79e909"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "e856da93-5473-48a4-bc8a-cffe468305b1"], "Mode", "Radiative", Cell["\<\
+     "d0e48e0a-243f-4741-b424-a21be0bd7010"], "Mode", "Radiative", Cell["\<\
 l mode, restricting labels based on which spherical harmonic amplitudes are \
 defined, (\"Radiative\", \"Dipole\", or \"Monopole\")\
-\>", "TableText",ExpressionUUID->"9c9a51d0-e50e-4659-9f50-e3deb6298812"]},
+\>", "TableText",ExpressionUUID->"e6f789fd-0c18-423d-b436-c4cfd81b8d03"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "3524e7ec-ff6c-43b2-b69f-80cf0df6d61e"], "Parity", "Both", Cell["\<\
+     "eed0b126-f180-4211-ad1b-8eba0e516994"], "Parity", "Both", Cell["\<\
 Specifies which parities to include, (\"Even\", \"Odd\", or \"Both\")\
-\>", "TableText",ExpressionUUID->"58fc5d32-bff5-472e-b009-2702e78452c2"]}
+\>", "TableText",ExpressionUUID->"04b6a16c-6a51-46c5-86b8-7c9358a23fa7"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -106,14 +106,14 @@ Specifies which parities to include, (\"Even\", \"Odd\", or \"Both\")\
  GridBoxDividers->{
   "Rows" -> {{
      True, True, 
-      True}}}},ExpressionUUID->"1e9951bb-d343-44a4-99ff-58542994629d"]
+      True}}}},ExpressionUUID->"d46b980d-ff23-4b2a-afdb-51d4643b175a"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"dca17c6b-d07e-4b6d-9359-26c322eb54ba"],
+Cell[" ", "FooterCell",ExpressionUUID->"930db0be-18a5-42ea-bfda-90fb4b6f9eb1"],
 
-Cell[BoxData[""],ExpressionUUID->"97b7a6cf-7015-4dfd-9c5c-f0a47a8d1e19"]
+Cell[BoxData[""],ExpressionUUID->"522857c2-6a14-46f6-9bb3-1d83a562962f"]
 }, Open  ]]
 },
 Saveable->False,

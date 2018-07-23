@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"6ee9388c-5e95-4031-b04d-71c254ac139f"],
+   0}},ExpressionUUID->"396c2e7f-3a40-4c73-b28d-73e46f38004d"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,63 @@ Cell[TextData[{
  ButtonBox["HttAmplitude",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/HttAmplitude"]
-}], "LinkTrail",ExpressionUUID->"3a1af071-1b67-4f85-8b1f-ecff50eee953"],
+}], "LinkTrail",ExpressionUUID->"de3fc52f-52cc-4ede-a39b-71c01d339b9e"],
+
+Cell[BoxData[GridBox[{
+   {Cell["BLACKHOLEANALYSIS`FIELDS PACLET SYMBOL", "PacletNameCell",
+     ExpressionUUID->"0ba16771-5247-4e93-baed-23d437d199f9"], Cell[TextData[{
+     Cell[BoxData[
+      ActionMenuBox[
+       FrameBox["\<\"Tutorials \[RightGuillemet]\"\>",
+        StripOnInput->False], {"Conventions":>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/tutorial/Conventions"], 
+       RowBox[{"Time", " ", "domain", " ", "amplitudes"}]:>
+       Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/tutorial/Time domain amplitudes"], 
+       RowBox[{"Low", " ", "order", " ", "modes"}]:>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/tutorial/Low order modes"], 
+       RowBox[{
+       "Using", " ", "labels", " ", "to", " ", "act", " ", "on", " ", 
+        "groups", " ", "of", " ", "variables"}]:>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/tutorial/Using labels to act on groups of \
+variables"]},
+       Appearance->None,
+       MenuAppearance->Automatic]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "00d0d324-faf5-4049-8a27-7b0015dd9fc1"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      ActionMenuBox[
+       FrameBox["\<\"See Also \[RightGuillemet]\"\>",
+        StripOnInput->False], {"AmplitudeFunction":>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/ref/AmplitudeFunction"], "HtrAmplitude":>
+       Documentation`HelpLookup["paclet:BlackHoleAnalysis/ref/HtrAmplitude"], 
+       "HrrAmplitude":>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/ref/HrrAmplitude"], "JtAmplitude":>
+       Documentation`HelpLookup["paclet:BlackHoleAnalysis/ref/JtAmplitude"], 
+       "JrAmplitude":>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/ref/JrAmplitude"], "KAmplitude":>
+       Documentation`HelpLookup["paclet:BlackHoleAnalysis/ref/KAmplitude"], 
+       "GAmplitude":>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/ref/GAmplitude"], "HtAmplitude":>
+       Documentation`HelpLookup["paclet:BlackHoleAnalysis/ref/HtAmplitude"], 
+       "HrAmplitude":>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/ref/HrAmplitude"], "H2Amplitude":>
+       Documentation`HelpLookup["paclet:BlackHoleAnalysis/ref/H2Amplitude"]},
+       Appearance->None,
+       MenuAppearance->Automatic]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "3f45ee92-4740-4ffe-b32d-5e8c17cd7b8e"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]"
+    }], "AnchorBar",ExpressionUUID->"ad9e33cc-1f4f-4bd2-918e-62eae5b3b770"]}
+  }]], "AnchorBarGrid",ExpressionUUID->"484718b1-5275-4c7b-86d2-79bb9a26ecca"],
 
 Cell[CellGroupData[{
 
 Cell["HttAmplitude", \
-"ObjectName",ExpressionUUID->"55ba1790-62a8-481d-9100-cb40e70bf606"],
+"ObjectName",ExpressionUUID->"69d8b038-ee9d-4a6d-beca-7e68a706a4f2"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -29,11 +80,11 @@ Cell[BoxData[GridBox[{
        ButtonBox["HttAmplitude",
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/HttAmplitude"], "[", "]"}]],
-       "InlineFormula",ExpressionUUID->"b9d409c6-fb1b-4618-a1d5-39c083c5244e"],
+       "InlineFormula",ExpressionUUID->"c7d45afc-eb78-4e77-95b7-a7c3e9f3323b"],
      "\[LineSeparator]returns the metric perturbation amplitude h_tt in \
 symbolic form."
-    }],ExpressionUUID->"25ecab10-a1d5-4057-8ae4-c084cf6d0d50"]}
-  }]], "Usage",ExpressionUUID->"d233d6a7-29b9-44fc-abdb-d4d8f9fb7af4"]
+    }],ExpressionUUID->"d0cd9eaf-3003-4d5c-98d1-f60dd204cb24"]}
+  }]], "Usage",ExpressionUUID->"46082fcc-6500-4e8e-b8a5-57eaeeaffc38"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -79,60 +130,60 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"4bd70c55-ba9a-4da1-93a6-faefac6f3c93"],
+  0,ExpressionUUID->"3c90663f-17be-4b21-98c7-668c74725ce8"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"04c8364a-c7c6-443a-88f0-b00f8172e938"],
+"Notes",ExpressionUUID->"71233401-6a5b-4992-9dcd-f241ca897300"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "1c83ed28-d7f2-4f9d-bab7-4762df58777b"], "ExpandGaugeVector", "False", 
+     "2661a068-7f2d-4f30-95ef-c13810838092"], "ExpandGaugeVector", "False", 
     Cell["\<\
 Boolean stating whether to expand the analytic gauge vector connecting RW and \
 ModRW gauges\
-\>", "TableText",ExpressionUUID->"cb7d06a2-87fe-4b9c-b6b9-11d24de5556e"]},
+\>", "TableText",ExpressionUUID->"7f0e2e4d-5375-4ea6-b76d-0a923db72ecd"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "b705dcd8-f51a-48e6-85ea-4312877e43f8"], "ExpandZerilli", "False", 
+     "453e2e6b-774b-41e9-9341-625a90652ca0"], "ExpandZerilli", "False", 
     Cell["\<\
 Boolean stating whether to write out the analytic Zerilli solution to a low \
 order mode\
-\>", "TableText",ExpressionUUID->"f2a587b1-6143-4add-bdea-1644a6b781ab"]},
+\>", "TableText",ExpressionUUID->"f969e917-4948-4535-8f94-8c1fb1d093d7"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "b5b4023a-4693-4d83-bb14-313387e7b256"], "Gauge", "RWZ", Cell[
+     "52a2155b-483f-4837-8f53-77b6429d51c3"], "Gauge", "RWZ", Cell[
     "Gauge (\"RWZ\", \"ModRWZ\", \"Lorenz\",  \"Undefined\", or Null)", 
-     "TableText",ExpressionUUID->"464d382a-a10a-4eb6-a176-d4c5d967e6ce"]},
+     "TableText",ExpressionUUID->"699428ea-8282-48ca-8714-c4649f1ba5f1"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "e3c509e8-259c-47dd-80e1-a28e1c0134e4"], "Mode", "Radiative", Cell[
+     "46095f98-e8ce-49c8-a2c0-0c08d1b59a81"], "Mode", "Radiative", Cell[
     "l mode (\"Radiative\", \"Dipole\", or \"Monopole\")", "TableText",
-     ExpressionUUID->"7d21df0a-22b7-47aa-90aa-92fbf258ff9f"]},
+     ExpressionUUID->"793060d2-acc9-496c-967b-9e162134879d"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "cbaa7c62-f540-4389-9d12-819934fc730d"], "PushFrom", "Same", Cell["\<\
+     "4f9dee56-a6a1-4ebc-87e8-e771013a3532"], "PushFrom", "Same", Cell["\<\
 Specifies a gauge to start in. A gauge vector term is used to \"push\" from \
 that gauge. For no push use the default, \"PushFrom\"->\"Same\". Other option \
 values are \"RWZ\", \"ModRWZ\", and \"Lorenz\"\
-\>", "TableText",ExpressionUUID->"ba3544d8-ef9e-404f-94b1-41d2f0ccd676"]},
+\>", "TableText",ExpressionUUID->"b184c34e-5186-419e-917b-ffa214382555"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "077b9ac3-1784-4ec3-bef8-e96bfeb5e317"], "Reconstruct", "False", Cell["\<\
+     "78139ca4-53af-4584-9104-66b4a01adf43"], "Reconstruct", "False", Cell["\<\
 Boolean stating whether the metric perturbation amplitude should be written \
 in terms of the master function\
-\>", "TableText",ExpressionUUID->"cee43cbc-3420-494a-8bb4-81b83b6c8498"]},
+\>", "TableText",ExpressionUUID->"9a86843b-b5b9-4f44-b7d2-2cb4ca128d37"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "ac9a8b04-927e-4dbc-8e09-7f3020e76629"], "ReturnSymbol", "False", 
+     "69bc374e-94a0-4d41-a7c0-23cd5caeaaf2"], "ReturnSymbol", "False", 
     Cell["\<\
 Boolean stating whether to only return the symbol of the field (with no \
 arguments)\
-\>", "TableText",ExpressionUUID->"83529dea-2719-4070-b15b-15c406db52fe"]},
+\>", "TableText",ExpressionUUID->"99a9dc03-5bec-4fe5-bf76-eb3de67616fe"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "acbe6642-2987-4ca8-8a57-b4bb18170037"], "SourceExpansion", "None", 
+     "9e35ff45-7436-4be1-b3e8-c935ba5f038e"], "SourceExpansion", "None", 
     Cell["\<\
 States to what extent source terms (resulting from expansion of metric \
 perturbation amplitudes) should be expanded, (\"Full\", \"Partial\", or \
 \"None\")\
-\>", "TableText",ExpressionUUID->"538b0db2-8121-4ef5-b2de-c605f56be998"]},
+\>", "TableText",ExpressionUUID->"203f5969-177e-4e8f-aa90-04c524358f5e"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "6e12b83d-efd9-4288-b80d-09f72e360ddc"], "Weak", "False", Cell["\<\
+     "29adf9ec-0915-47d2-93fd-1091e5f03cf7"], "Weak", "False", Cell["\<\
 Boolean stating whether the amplitude should be given in a weak form\
-\>", "TableText",ExpressionUUID->"2994b396-099b-432f-91cc-15b1b272bb43"]}
+\>", "TableText",ExpressionUUID->"6dd7f4fd-dc1b-452b-ac84-c5151ea118d4"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -145,14 +196,300 @@ Boolean stating whether the amplitude should be given in a weak form\
  GridBoxDividers->{
   "Rows" -> {{
      True, True, True, True, True, True, True, True, True, 
-      True}}}},ExpressionUUID->"91204c27-020e-4c6b-a0f1-5a2ded9906fb"]
+      True}}}},ExpressionUUID->"f1876186-e951-4f11-afa4-e6bf61458e2d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"5ab124ba-ce4e-424e-b85b-21cb8c56b3db"],
+Cell["", "PrimaryExamplesSection",
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       ButtonBox[
+       "EXAMPLES", BaseStyle -> None, Appearance -> {Automatic, None}, 
+        Evaluator -> None, Method -> "Preemptive", 
+        ButtonFunction :> (FrontEndExecute[{
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], All, ButtonCell], 
+           FrontEndToken["OpenCloseGroup"], 
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]], 
+      "PrimaryExamplesSection", CellTags -> "PrimaryExamplesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Examples"}], 
+        "PrimaryExamplesSection", CellTags -> "PrimaryExamplesSection"], 
+       BaseStyle -> None, Appearance -> {Automatic, None}, Evaluator -> None, 
+       Method -> "Preemptive", ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
+   None, None}},
+ CellFrameLabelMargins->0,
+ CellTags->
+  "PrimaryExamplesSection",ExpressionUUID->"b1111f64-7cbf-4feb-a3fc-\
+e00e1c53f1a8"],
 
-Cell[BoxData[""],ExpressionUUID->"73a2de65-659f-494e-a576-7813ccbd0617"]
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Basic Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "1fd7085a-5555-4b22-addb-796aa79698d1"]
+}], "ExampleSection",ExpressionUUID->"d116402d-1e96-4529-9241-fd7d024252fc"],
+
+Cell[CellGroupData[{
+
+Cell["HttAmplitude[]", "Input",
+ CellLabel->"In[1]:=",ExpressionUUID->"8d3e29f2-4747-40df-a7bb-0f6d5e143f50"],
+
+Cell[BoxData[
+ RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\\\\\
+*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\\\
+\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"h\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"tt\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \
+\\\"\\\\\\\"RWZ\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+  RowBox[{"t", ",", "r"}], "]"}]], "Output",
+ CellLabel->"Out[1]:= ",ExpressionUUID->"6280058c-73b1-49a5-9098-0b2ad5e527f5"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SeeAlsoSection",
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       ButtonBox[
+       "SEE ALSO", BaseStyle -> None, Appearance -> {Automatic, None}, 
+        Evaluator -> None, Method -> "Preemptive", 
+        ButtonFunction :> (FrontEndExecute[{
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], All, ButtonCell], 
+           FrontEndToken["OpenCloseGroup"], 
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]], 
+      "SeeAlsoSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "See Also"}], "SeeAlsoSection"], 
+       BaseStyle -> None, Appearance -> {Automatic, None}, Evaluator -> None, 
+       Method -> "Preemptive", ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
+   None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"318d702d-a2ff-4787-b3e5-adbf9d577edc"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["AmplitudeFunction",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/AmplitudeFunction"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "0bea72ab-43d3-4d17-969b-b5948c00d8ff"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["HtrAmplitude",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/HtrAmplitude"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "ebda25b7-3a62-497b-92fc-c58fedd7466b"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["HrrAmplitude",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/HrrAmplitude"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "98f0505c-1b59-4774-a0c2-7a80d1a34e78"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["JtAmplitude",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/JtAmplitude"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "4bf44ef4-6f25-4f62-8aae-0dbdd6263c02"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["JrAmplitude",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/JrAmplitude"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "9d3f728e-d1ed-42be-9c73-09da14ad6c39"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["KAmplitude",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/KAmplitude"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "8c86a35c-519a-4e05-b664-5124c10f3d5b"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["GAmplitude",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/GAmplitude"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "3efc5238-ca9b-466a-9b95-42a964c0f650"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["HtAmplitude",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/HtAmplitude"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "ad97c4cd-ea95-4f05-8635-a1cc846d2de4"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["HrAmplitude",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/HrAmplitude"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "c02e1aee-d495-4d16-b654-08050ed966f1"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["H2Amplitude",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/H2Amplitude"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "a509ccd3-d376-4815-9884-0c134be8cd75"]
+}], "SeeAlso",ExpressionUUID->"49a2c3ff-89bb-4ad2-98e0-c99ebbba435a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "TutorialsSection",
+ WholeCellGroupOpener->True,
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       ButtonBox[
+       "TUTORIALS", BaseStyle -> None, Appearance -> {Automatic, None}, 
+        Evaluator -> None, Method -> "Preemptive", 
+        ButtonFunction :> (FrontEndExecute[{
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], All, ButtonCell], 
+           FrontEndToken["OpenCloseGroup"], 
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]], 
+      "TutorialsSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Tutorials"}], 
+        "TutorialsSection"], BaseStyle -> None, 
+       Appearance -> {Automatic, None}, Evaluator -> None, Method -> 
+       "Preemptive", ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
+   None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"9a1b0204-32cf-45de-9122-d8a2b34846e3"],
+
+Cell[TextData[ButtonBox["Conventions",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:BlackHoleAnalysis/tutorial/Conventions"]], \
+"Tutorials",ExpressionUUID->"b06c725a-d0a7-404e-9144-a5c0c226ce36"],
+
+Cell[TextData[ButtonBox["Time domain amplitudes",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:BlackHoleAnalysis/tutorial/Time domain amplitudes"]], \
+"Tutorials",ExpressionUUID->"16727e37-0ad5-497d-a780-28a2c2b83fcf"],
+
+Cell[TextData[ButtonBox["Low order modes",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:BlackHoleAnalysis/tutorial/Low order modes"]], \
+"Tutorials",ExpressionUUID->"ac6779ab-8802-4b99-8766-7e1479bf2c77"],
+
+Cell[TextData[ButtonBox["Using labels to act on groups of variables",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:BlackHoleAnalysis/tutorial/Using labels to act on groups of \
+variables"]], \
+"Tutorials",ExpressionUUID->"0efc3994-52f2-4d49-9550-70a2726a3030"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"ba5be039-116a-42f3-a1d3-e8df44e4ee04"],
+
+Cell[BoxData[""],ExpressionUUID->"d7c6a5b5-de9d-4bdf-a3b5-9fefe4ec15bd"]
 }, Open  ]]
 },
 Saveable->False,

@@ -25,48 +25,28 @@
        {"TeukolskyFunction", "4D Teukolsky function"},
        {"RadialTeukolskyFunction", "1D radial Teukolsky function"},
        {"SasakiNakamuraFunction", "Spin -2 Sasaki-Nakamura function"},
-       {"HttAmplitude", "Martel-Poisson even-parity metric perturbation amplitude htt"},
-       {"HtrAmplitude", "Martel-Poisson even-parity metric perturbation amplitude htr"},
-       {"HrrAmplitude", "Martel-Poisson even-parity metric perturbation amplitude hrr"},
-       {"JtAmplitude", "Martel-Poisson even-parity metric perturbation amplitude jt"},
-       {"JrAmplitude", "Martel-Poisson even-parity metric perturbation amplitude jr"},
-       {"KAmplitude", "Martel-Poisson even-parity metric perturbation amplitude K"},
-       {"GAmplitude", "Martel-Poisson even-parity metric perturbation amplitude G"},
-       {"HtAmplitude", "Martel-Poisson odd-parity metric perturbation amplitude ht"},
-       {"HrAmplitude", "Martel-Poisson odd-parity metric perturbation amplitude hr"},
-       {"H2Amplitude", "Martel-Poisson odd-parity metric perturbation amplitude h2"},
-       {"AmplitudeFunction", "Provides the function that gives a field for an associated label"}
+       {"HttAmplitude", "Martel-Poisson even-parity MP amplitude htt. Similar functions exist for htr, hrr, jt, jr, K, G, ht, hr and h2."},
+       {"AmplitudeFunction", "Provides the function that gives a field for an associated label"},
+       {"HttInvariantAmplitude", "Martel-Poisson even-parity MP gauge-invariant amplitude htt. Similar functions exist for htr, hrr, K, ht and hr."},
+       {"InvariantAmplitudeFunction", "Provides the function that gives a gauge-invariant field for an associated label"},
+       {"HttPush", "How the Martel-Poisson even-parity MP amplitude htt changes under a gauge transformation. \
+Similar functions exist for htr, hrr, jt, jr, K, G, ht, hr and h2."},
+       {"PushFunction", "Provides the function that gives the push equation for the associated label"}
      }
     },
     {"Title" -> "Source terms",
      "DetailedFunctions" -> {
        {"MasterEquationSource", "Source terms to the RWZ - style master equation"},
-       {"QttSource", "Martel-Poisson even-parity source Qtt"},
-       {"QtrSource", "Martel-Poisson even-parity source Qtr"},
-       {"QrrSource", "Martel-Poisson even-parity source Qrr"},
-       {"QtSource", "Martel-Poisson even-parity source Qt"},
-       {"QrSource", "Martel-Poisson even-parity source Qr"},
-       {"QSharpSource", "Martel-Poisson even-parity source QSharp"},
-       {"QFlatSource", "Martel-Poisson even-parity source QFlat"},
-       {"PtSource", "Martel-Poisson odd-parity source Pt"},
-       {"PrSource", "Martel-Poisson odd-parity source Pr"},
-       {"PSource", "Martel-Poisson odd-parity source P"},
+       {"QttSource", "Martel-Poisson even-parity source Qtt. Similar functions exist for Qtr, Qrr, Qt, Qr, QSharp, QFlat, Pt, Pr and P."},
        {"MetricPerturbationSourceFunction", "Provides the function that gives a source for an associated label"}
      }
     },
      {"Title"->"Spherical harmonics",
         "DetailedFunctions" -> {
             {"YHarmonic", "Scalar spherical harmonic, or spin-weighted spherical harmonic"},
-            {"YTheta", "Component of Martel-Poisson even-parity vector spherical harmonic Y_theta"},
-            {"YPhi", "Component of Martel-Poisson even-parity vector spherical harmonic Y_phi"},
-            {"YThetaTheta", "Component of Martel-Poisson even-parity tensor spherical harmonic Y_theta_theta"},
-            {"YThetaPhi", "Component of Martel-Poisson even-parity tensor spherical harmonic Y_tehta_phi"},
-            {"YPhiPhi", "Component of Martel-Poisson even-parity tensor spherical harmonic Y_phi_phi"},
-            {"XTheta", "Component of Martel-Poisson odd-parity vector spherical harmonic X_theta"},
-            {"XPhi", "Component of Martel-Poisson odd-parity vector spherical harmonic X_phi"},
-            {"XThetaTheta", "Component of Martel-Poisson odd-parity tensor spherical harmonic X_theta_theta"},
-            {"XThetaPhi", "Component of Martel-Poisson odd-parity tensor spherical harmonic X_tehta_phi"},
-            {"XPhiPhi", "Component of Martel-Poisson odd-parity tensor spherical harmonic X_phi_phi"},
+            {"YTheta", "Component of Martel-Poisson harmonic Y_\[Theta]. \
+Similar functions exist for Y_\[Phi], Y_\[Theta]\[Theta], Y_\[Theta]\[Phi], Y_\[Phi]\[Phi], \
+X_\[Theta], X_\[Phi], X_\[Theta]\[Theta], X_\[Theta]\[Phi] and X_\[Phi]\[Phi]"},
             {"SpinWeightedSpheroidalHarmonicFunction", "Symbolic representation of the spin-weighted spheroidal harmonic"},
             {"SphericalHarmonicFunction", "Provides the function that gives a harmonic for an associated label"}
         }
@@ -98,16 +78,8 @@
        "DetailedFunctions" -> {
            {"EvaluateDiscontinuities", "Evaluate coefficients of delta functions, their derivatives, and the derivatives of step functions."},
            {"MasterFunctionDiscontinuities", "Discontinuities in the master function"},
-           {"HttDiscontinuities", "Discontinuities in the the MP amplitude htt in RWZ or Lorenz gauge"},
-           {"HtrDiscontinuities", "Discontinuities in the the MP amplitude htr in RWZ or Lorenz gauge"},
-           {"HrrDiscontinuities", "Discontinuities in the the MP amplitude hrr in RWZ or Lorenz gauge"},
-           {"JtDiscontinuities", "Discontinuities in the the MP amplitude jt in RWZ or Lorenz gauge"},
-           {"JrDiscontinuities", "Discontinuities in the the MP amplitude jr in RWZ or Lorenz gauge"},
-           {"KDiscontinuities", "Discontinuities in the the MP amplitude K in RWZ or Lorenz gauge"},
-           {"GDiscontinuities", "Discontinuities in the the MP amplitude G in RWZ or Lorenz gauge"},
-           {"HtDiscontinuities", "Discontinuities in the the MP amplitude ht in RWZ or Lorenz gauge"},
-           {"HrDiscontinuities", "Discontinuities in the the MP amplitude hr in RWZ or Lorenz gauge"},
-           {"H2Discontinuities", "Discontinuities in the the MP amplitude h2 in RWZ or Lorenz gauge"},
+           {"HttDiscontinuities", "Discontinuities in the the MP amplitude htt in RWZ or Lorenz gauge. \
+Similar functions exist for htr, hrr, jt, jr, K, G, ht, hr, and h2."},
            {"DiscontinuitiesFunction", "Provides the function that gives discontinuities for an associated label"}
        }
     },
@@ -134,12 +106,14 @@
            {"EvenMasterFunctionAsOdd", "Even-parity Zerilli-Moncrief function in terms of the odd-parity Cunningham-Price-Moncrief function."},
            {"MasterFunctionAsTeukolskyFunction", "Frequency domain RWZ master function in terms of the radial Teukolsky function"},
            {"TeukolskyFunctionAsSasakiNakamuraFunction", "Radial Teukolsky function in terms of the Sasaki-Nakamura function"},
-           {"SasakiNakamuraFunctionAsTeukolskyFunction", "Sasaki-Nakamura function in terms of the radial Teukolsky function"}
+           {"SasakiNakamuraFunctionAsTeukolskyFunction", "Sasaki-Nakamura function in terms of the radial Teukolsky function"},
+           {"MartelPoissonAmplitude", "Martel-Poisson amplitude written as Barack-Sago amplitudes"},
+           {"BarackSagoAmplitude", "Barack-Sago amplitude written as Martel-Poisson amplitudes"}
        }
     },
     {"Title"->"Removing derivatives with differential equations",
        "DetailedFunctions" -> {
-           {"RemoveMasterFunctionRDerivatives", "Reduce order of r-derivatives of master functions (in time or freqeuncy domain)"},
+           {"RemoveMasterFunctionRDerivatives", "Reduce order of r-derivatives of master functions (in time or frequency domain)"},
            {"RemoveTeukolskyFunctionRDerivatives", "Reduce order of r-derivatives of the radial Teukolsky function"},
            {"RemoveSlmThetaDerivatives", "Reduce order of \[Theta]-derivatives of spin-weighted spheroidal harmonics"},
            {"RemoveSasakiNakamuraFunctionRDerivatives", "Reduce order of r-derivatives of the Sasaki-Nakamura function"}
@@ -171,17 +145,18 @@
            {"DeltaKerr", "The quantity \[CapitalDelta] used on Kerr"},
            {"RPlusKerr", "The quantity r+ used on Kerr"},
            {"RMinusKerr", "The quantity r- used on Kerr"},
-           {"LambdaOfL", "Lambda (l+2)(l-1)/2 in terms of l"},
            {"LambdaToL", "Replace lambdas with (l+2)(l-1)/2"}
        }
     }
   },
  "Tutorials" -> {
+     "Conventions",
      "Discontinuities",
      "Equations of motion",
      "Examples",
      "Field equations on Schwarzschild",
      "Kerr equations",
+     "Low order modes",
      "Post-Newtonian expressions",
      "RWZ master equations",
      "Simplifying expressions",

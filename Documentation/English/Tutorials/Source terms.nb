@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "TutorialColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"b7d01180-9187-4e41-ae35-8510b35b31ba"],
+   0}},ExpressionUUID->"32fe7147-e32d-44fe-9329-df31401df49e"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -13,11 +13,11 @@ Cell[TextData[{
   ButtonData->
    "paclet:BlackHoleAnalysis/tutorial/Source terms to field equations and \
 master equations"]
-}], "LinkTrail",ExpressionUUID->"c56002c9-0d8e-41bd-a585-02f533e7b809"],
+}], "LinkTrail",ExpressionUUID->"9c3b724d-e3d4-4fde-9a2f-c229d446bad9"],
 
 Cell[BoxData[GridBox[{
    {Cell["SOURCE TERMS TUTORIAL", "PacletNameCell",ExpressionUUID->
-     "91bca61a-b55a-4381-b188-d239eac3c3cb"], Cell[TextData[{
+     "869be055-ac99-4761-a8ee-3139ba69f421"], Cell[TextData[{
      Cell[BoxData[
       ActionMenuBox[
        FrameBox["\<\"Related Tutorials \[RightGuillemet]\"\>",
@@ -41,7 +41,7 @@ variables"], "Examples":>Documentation`HelpLookup[
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "321c3c0c-53ce-4c01-a639-c70d387f1114"],
+      "ba0f9e93-27ec-44f8-ae70-675db8db09c7"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -60,14 +60,14 @@ variables"], "Examples":>Documentation`HelpLookup[
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "6beda5de-e8de-4eee-8ba5-efb0a96fe7e3"]
-    }], "AnchorBar",ExpressionUUID->"996f3dee-fbf5-4bb8-93a9-17290ab129fd"]}
-  }]], "AnchorBarGrid",ExpressionUUID->"ffbb49bf-e398-40d8-b8c5-e70cef859fa2"],
+      "f49db9a3-a57f-4236-b42e-3943cb9c5a8f"]
+    }], "AnchorBar",ExpressionUUID->"5698e6a3-3cdc-4fed-9234-3cbdd9001841"]}
+  }]], "AnchorBarGrid",ExpressionUUID->"4841c095-37ed-4a7a-994b-144d9ea14e10"],
 
 Cell[CellGroupData[{
 
 Cell["BlackHoleAnalysis - Source terms", \
-"Title",ExpressionUUID->"28d25111-bd76-487b-aa83-b80e7c095582"],
+"Title",ExpressionUUID->"ad4fba7e-7abe-4c7e-a438-944eb5f651e4"],
 
 Cell[TextData[{
  "BlackHoleAnalysis provides expressions for many source terms. Most of these \
@@ -78,39 +78,37 @@ are based on the Martel & Poisson formalism  (",
     URL["https://arxiv.org/abs/gr-qc/0502028"], None},
   ButtonNote->"https://arxiv.org/abs/gr-qc/0502028"],
  ")."
-}], "Text",ExpressionUUID->"500509cf-d622-45a0-814b-fb0a3558b162"],
+}], "Text",ExpressionUUID->"0fec0d7b-0ab3-48ce-ab4a-5a0e6826c787"],
 
 Cell[BoxData[
  RowBox[{"<<", "BlackHoleAnalysis`"}]], "Input",
- CellLabel->
-  "(Local) In[1]:=",ExpressionUUID->"cc712ba1-d3c5-4967-9e44-4e0aa99b139f"],
+ CellLabel->"In[1]:=",ExpressionUUID->"4a73c138-c3d9-46bf-afcf-696323bcfd58"],
 
 Cell[CellGroupData[{
 
 Cell["Field equation source terms", \
-"Section",ExpressionUUID->"550650a2-7b49-40b2-b318-87068b255eb0"],
+"Section",ExpressionUUID->"3d44a01d-121b-4699-8a34-c86fe4e5b1a9"],
 
 Cell[CellGroupData[{
 
 Cell["Default behavior", \
-"Subsection",ExpressionUUID->"77c82a98-e475-4319-877b-1fc7987e5e6f"],
+"Subsection",ExpressionUUID->"499d84d4-f2e6-455b-81c0-22b3a6d4c386"],
 
 Cell["\<\
 The field equations have source terms based on the spherical harmonic \
 decomposition of the stress energy tensor induced by the particle.\
-\>", "Item",ExpressionUUID->"aa4a7049-9e52-42dd-a476-556d2d880ed1"],
+\>", "Item",ExpressionUUID->"f44ec57a-4ded-4bad-b562-057fc84bc535"],
 
 Cell[CellGroupData[{
 
 Cell["One of them is:", \
-"Item",ExpressionUUID->"044a8cf8-0237-44e2-ac8c-888e38dec352"],
+"Item",ExpressionUUID->"5bb6976e-e760-4679-a16c-0f7755de61a7"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"QttSource", "[", "]"}]], "Input",
- CellLabel->
-  "(Local) In[2]:=",ExpressionUUID->"fa122c31-e7a7-4c62-8c60-589208ae243a"],
+ CellLabel->"In[2]:=",ExpressionUUID->"dcdaa529-d7c1-438f-8630-1044c2146d59"],
 
 Cell[BoxData[
  FractionBox[
@@ -130,23 +128,21 @@ Cell[BoxData[
   SuperscriptBox[
    RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"]]], "Output",
- CellLabel->
-  "(Local) Out[2]=",ExpressionUUID->"49006c1c-2db4-484d-a424-30e6589c79ac"]
+ CellLabel->"Out[2]=",ExpressionUUID->"67518e38-7dae-4ed2-bb3f-6003cc724258"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Other full list of source functions is:", \
-"Item",ExpressionUUID->"cffc2934-873d-47f0-b80b-5343d33a457e"],
+"Item",ExpressionUUID->"46af11dd-075c-4800-b07d-2dc3c4fe77ca"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"MetricPerturbationSourceFunction", "/@", 
   RowBox[{"MetricPerturbationSourceLables", "[", "]"}]}]], "Input",
- CellLabel->
-  "(Local) In[3]:=",ExpressionUUID->"54f1af7b-0052-47cc-8823-914dbb014c5c"],
+ CellLabel->"In[3]:=",ExpressionUUID->"edfacc47-6dfb-4be2-b36a-c94b046204de"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -154,8 +150,7 @@ Cell[BoxData[
   "QttSource", ",", "QtrSource", ",", "QrrSource", ",", "QtSource", ",", 
    "QrSource", ",", "QFlatSource", ",", "QSharpSource", ",", "PtSource", ",", 
    "PrSource", ",", "PSource"}], "}"}]], "Output",
- CellLabel->
-  "(Local) Out[3]=",ExpressionUUID->"51c219e5-0584-4e3a-995a-391240fdb9ef"]
+ CellLabel->"Out[3]=",ExpressionUUID->"b93be8ac-c852-47f6-8044-0c4f8cf1207c"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -163,28 +158,26 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell["Source expansion", \
-"Subsection",ExpressionUUID->"4bb6a3bd-e480-46c2-9e9b-f18ac688842e"],
+"Subsection",ExpressionUUID->"42b2ed89-216b-48fb-afd2-9d1f4cd3a60a"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 Options change what this output looks like. For instance, we can see it as:\
-\>", "Item",ExpressionUUID->"2ab112da-f3af-4d47-8f89-385102bcbd96"],
+\>", "Item",ExpressionUUID->"0a30f2f4-39c7-4ea7-8ef1-b3eb9b2f9c3b"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"QttSource", "[", 
   RowBox[{"SourceExpansion", "\[Rule]", "\"\<None\>\""}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[4]:=",ExpressionUUID->"be773b22-e12c-4213-8424-6b41412135e1"],
+ CellLabel->"In[4]:=",ExpressionUUID->"1c6d79e5-2019-43b9-892f-ab697530899f"],
 
 Cell[BoxData[
  RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*RowBox[{\\\\\\\"\
 Q\\\\\\\"}]\\\\)\\\", \\\"tt\\\"], DisplayForm]\\)\"\>", "[", 
   RowBox[{"t", ",", "r"}], "]"}]], "Output",
- CellLabel->
-  "(Local) Out[4]=",ExpressionUUID->"c4d6759e-689e-4568-b436-73f2c8835e80"]
+ CellLabel->"Out[4]=",ExpressionUUID->"0000dd42-122c-47a9-a61e-0443057b6ecf"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -192,8 +185,7 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"QttSource", "[", 
   RowBox[{"SourceExpansion", "\[Rule]", "\"\<Partial\>\""}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[5]:=",ExpressionUUID->"c8436c83-8bb1-4a31-b56e-70d9ad24c525"],
+ CellLabel->"In[5]:=",ExpressionUUID->"0015a96b-90b4-4518-969a-f11506388fe0"],
 
 Cell[BoxData[
  RowBox[{
@@ -204,8 +196,7 @@ Cell[BoxData[
   RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*RowBox[{\\\\\\\
 \"q\\\\\\\"}]\\\\)\\\", \\\"tt\\\"], DisplayForm]\\)\"\>", "[", "t", 
    "]"}]}]], "Output",
- CellLabel->
-  "(Local) Out[5]=",ExpressionUUID->"dd614a66-c0ea-4e4a-a88f-62d30c7c8d66"]
+ CellLabel->"Out[5]=",ExpressionUUID->"d40f2408-5a45-427f-aed7-8761783434ca"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -213,12 +204,12 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell["Indices", \
-"Subsection",ExpressionUUID->"c2938718-b8c7-4848-bf89-adae6cd5a06b"],
+"Subsection",ExpressionUUID->"de349a09-89c4-4d11-9872-2299552aa987"],
 
 Cell[CellGroupData[{
 
 Cell["The indices may be raised.", \
-"Item",ExpressionUUID->"648ae5b1-6d90-4cf8-a454-7707d0e4f86e"],
+"Item",ExpressionUUID->"076f9931-c5da-4ce0-9c85-a4a117a7c202"],
 
 Cell[CellGroupData[{
 
@@ -227,15 +218,13 @@ Cell[BoxData[
   RowBox[{
    RowBox[{"SourceExpansion", "\[Rule]", "\"\<None\>\""}], ",", 
    RowBox[{"Indices", "\[Rule]", "\"\<Up\>\""}]}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[6]:=",ExpressionUUID->"82290ef7-99a4-4cb9-9d0e-07d8a7d659d6"],
+ CellLabel->"In[6]:=",ExpressionUUID->"8553311b-7c2f-4efc-86a1-bd8c83a92a9d"],
 
 Cell[BoxData[
  RowBox[{"\<\"\\!\\(\\*TagBox[SuperscriptBox[\\\"\\\\!\\\\(\\\\*RowBox[{\\\\\\\
 \"Q\\\\\\\"}]\\\\)\\\", \\\"tt\\\"], DisplayForm]\\)\"\>", "[", 
   RowBox[{"t", ",", "r"}], "]"}]], "Output",
- CellLabel->
-  "(Local) Out[6]=",ExpressionUUID->"d3e0d50c-76ab-4373-bce9-35000975e3ee"]
+ CellLabel->"Out[6]=",ExpressionUUID->"0f189778-7d5d-4f78-971b-1f7948d1526e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -245,8 +234,7 @@ Cell[BoxData[
   RowBox[{
    RowBox[{"SourceExpansion", "\[Rule]", "\"\<Full\>\""}], ",", 
    RowBox[{"Indices", "\[Rule]", "\"\<Up\>\""}]}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[7]:=",ExpressionUUID->"0fcb0fc3-ca5c-4b91-aa22-78c7f09073af"],
+ CellLabel->"In[7]:=",ExpressionUUID->"f41c2df3-0ab9-4ca5-94f4-9de0786a438a"],
 
 Cell[BoxData[
  FractionBox[
@@ -267,8 +255,7 @@ Cell[BoxData[
    SuperscriptBox[
     RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"]}]]], "Output",
- CellLabel->
-  "(Local) Out[7]=",ExpressionUUID->"427e64f1-202e-4c01-a794-f24d58f1d0da"]
+ CellLabel->"Out[7]=",ExpressionUUID->"1d09283a-7205-4ee3-a6cc-3959d64998e5"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -276,7 +263,7 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell["Capital/lowercase source terms", \
-"Subsection",ExpressionUUID->"5de4c462-1591-478d-b289-17721b31c79c"],
+"Subsection",ExpressionUUID->"91fe14e0-4423-4dbe-a312-1fb64111f0a4"],
 
 Cell[CellGroupData[{
 
@@ -301,8 +288,8 @@ Cell[TextData[{
      RowBox[{"r", "-", 
       RowBox[{
        SubscriptBox["r", "p"], "[", "t", "]"}]}], "]"}]}]}]],ExpressionUUID->
-  "b380baae-cb18-42df-9962-81ec657744d1"]
-}], "Item",ExpressionUUID->"561f980e-de0c-46ee-942b-ccdb53caedd2"],
+  "907188be-e885-4b77-8c72-a7b4005b9959"]
+}], "Item",ExpressionUUID->"ebdeed11-2803-4111-b61a-57e884e495f5"],
 
 Cell[CellGroupData[{
 
@@ -311,15 +298,13 @@ Cell[BoxData[
   RowBox[{
    RowBox[{"SourceExpansion", "\[Rule]", "\"\<None\>\""}], ",", 
    RowBox[{"Capital", "\[Rule]", "False"}]}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[8]:=",ExpressionUUID->"5c3a123a-a095-48f0-870c-be2e8b004d17"],
+ CellLabel->"In[8]:=",ExpressionUUID->"72fe7f8d-e89e-4cc9-a166-1911d4e199d0"],
 
 Cell[BoxData[
  RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*RowBox[{\\\\\\\"\
 q\\\\\\\"}]\\\\)\\\", \\\"tt\\\"], DisplayForm]\\)\"\>", "[", "t", 
   "]"}]], "Output",
- CellLabel->
-  "(Local) Out[8]=",ExpressionUUID->"b4f60af0-b885-4d4b-949b-333dcd22f7f9"]
+ CellLabel->"Out[8]=",ExpressionUUID->"d8e82ddb-50a5-4ed3-a293-6e01449befdc"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -329,8 +314,7 @@ Cell[BoxData[
   RowBox[{
    RowBox[{"SourceExpansion", "\[Rule]", "\"\<Full\>\""}], ",", 
    RowBox[{"Capital", "\[Rule]", "False"}]}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[9]:=",ExpressionUUID->"a1e895ed-4cfc-4483-80e3-09362ce510bd"],
+ CellLabel->"In[9]:=",ExpressionUUID->"bed2531a-0919-48e4-8d76-8245c33401b3"],
 
 Cell[BoxData[
  FractionBox[
@@ -346,8 +330,7 @@ Cell[BoxData[
   SuperscriptBox[
    RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"]]], "Output",
- CellLabel->
-  "(Local) Out[9]=",ExpressionUUID->"f660c96d-8387-4491-8ec6-f03b000893a0"]
+ CellLabel->"Out[9]=",ExpressionUUID->"1c3b6cb8-43af-4b37-918f-e779bab8eca9"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -355,21 +338,20 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell["Using ExpandHarmonics", \
-"Subsection",ExpressionUUID->"79e1fb58-e0de-447b-9f66-46e8a834e832"],
+"Subsection",ExpressionUUID->"ad9c663f-8a69-4daf-b9b7-836f42343443"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 The final expansion (of the spherical harmonic) can be found with \
 ExpandHarmonics\
-\>", "Item",ExpressionUUID->"5fa83ef3-1582-4fa3-be7f-2341afb8bd3b"],
+\>", "Item",ExpressionUUID->"af268e04-cd4b-4d10-b7cc-f92de6b45ee2"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "ExpandHarmonics"}]], "Input",
- CellLabel->
-  "(Local) In[10]:=",ExpressionUUID->"fe79671c-6dc9-45bf-b38f-75f3a1616a6a"],
+ CellLabel->"In[10]:=",ExpressionUUID->"d2986f7a-a893-4b34-89cd-f50a0aaaa2d3"],
 
 Cell[BoxData[
  RowBox[{"\<\"ExpandHarmonics[expr] expands symbolic scalar, vector and \
@@ -383,8 +365,8 @@ tensor spherical harmonic in terms of trigonometric terms.\"\>",
     "paclet:BlackHoleAnalysis/ref/ExpandHarmonics"]}]], "Print", "PrintUsage",
  
  CellTags->
-  "Info103741340388-4539924",ExpressionUUID->"7fd19716-1e87-4fec-9629-\
-09fc1ea92497"]
+  "Info103741357190-9892469",ExpressionUUID->"e02c5164-534c-41a4-9eb7-\
+0e4ee91c04ab"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -392,8 +374,7 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"ExpandHarmonics", "[", 
   RowBox[{"QttSource", "[", "]"}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[11]:=",ExpressionUUID->"51255800-00ab-40b4-91bd-da29b1c6c4cd"],
+ CellLabel->"In[11]:=",ExpressionUUID->"c16d94a2-0b1f-4b1b-b44c-2decc000cea8"],
 
 Cell[BoxData[
  FractionBox[
@@ -432,7 +413,7 @@ Cell[BoxData[
    RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"]]], "Output",
  CellLabel->
-  "(Local) Out[11]=",ExpressionUUID->"f7d1310c-69fc-455c-bf6f-d19fbde77ae2"]
+  "Out[11]=",ExpressionUUID->"37ffc917-72f0-4994-bfed-fa4ad66397db"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -441,19 +422,19 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell["Master equation source terms", \
-"Section",ExpressionUUID->"30b644ea-5d5b-4b2a-a9ca-5ec1eda4e7b8"],
+"Section",ExpressionUUID->"b0c61b08-b622-4046-ab12-7b245ed9d72d"],
 
 Cell[CellGroupData[{
 
 Cell["Default behavior", \
-"Subsection",ExpressionUUID->"c31aea5f-8ad3-49ec-a100-dc78279bda89"],
+"Subsection",ExpressionUUID->"d5ab20e5-4bd0-449b-8415-b3faaf4ed4d1"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 The master equations for the ZM and CPM variables have source terms of the \
 form\
-\>", "Item",ExpressionUUID->"1cf4e393-c83b-4fdd-b762-6b28396a258c"],
+\>", "Item",ExpressionUUID->"eeacbb3e-ae62-4ad9-91a4-2e06b088199f"],
 
 Cell[TextData[{
  "\t",
@@ -475,22 +456,21 @@ Cell[TextData[{
        RowBox[{"\[Delta]", "'"}], "[", 
        RowBox[{"r", "-", 
         SubscriptBox["r", "p"]}], "]"}]}]}]}], TraditionalForm]],
-  ExpressionUUID->"576aa15d-6e4d-48f6-a0b2-55a7676a9caa"]
-}], "Text",ExpressionUUID->"8813bdc5-e1fe-4044-97df-bdba18910af8"]
+  ExpressionUUID->"c5429e1d-9bbb-4042-b756-02b439330525"]
+}], "Text",ExpressionUUID->"06e0ebc3-4d90-4d9f-ad19-a4d995c88363"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["These are built in as expected:", \
-"Item",ExpressionUUID->"41c84e51-72bd-4583-8ca8-17540b6960d2"],
+"Item",ExpressionUUID->"8bcf0d8c-a000-4a9c-8b41-19ad496713b8"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[{
  RowBox[{"GSource", "[", "]"}], "\[IndentingNewLine]", 
  RowBox[{"FSource", "[", "]"}]}], "Input",
- CellLabel->
-  "(Local) In[12]:=",ExpressionUUID->"f4266056-2816-4565-b309-441c7778db5c"],
+ CellLabel->"In[12]:=",ExpressionUUID->"df3b8951-c83d-46d2-904a-ee8da3a32fc7"],
 
 Cell[BoxData[
  RowBox[{
@@ -618,8 +598,7 @@ SuperscriptBox]]\\)\"\>", "[", "t", "]"}]}],
 SuperscriptBox]]\\)\"\>", "[", "t", "]"}]}], 
    RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]]}]], "Output",
- CellLabel->
-  "(Local) Out[12]=",ExpressionUUID->"b2d9a7c2-e953-42df-835d-626e94d477af"],
+ CellLabel->"Out[12]=",ExpressionUUID->"52c6f7fa-b0aa-4258-8889-826a468312bb"],
 
 Cell[BoxData[
  RowBox[{
@@ -673,15 +652,14 @@ Cell[BoxData[
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]]}], ")"}]}]]}]], "Output",
  
  CellLabel->
-  "(Local) Out[13]=",ExpressionUUID->"5e9a06a9-d550-41de-a776-c9fa4990e66d"]
+  "Out[13]=",ExpressionUUID->"6ac27220-cadc-476a-880d-de1b8569f43a"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"MasterEquationSource", "[", "]"}]], "Input",
- CellLabel->
-  "(Local) In[14]:=",ExpressionUUID->"ef415a15-429d-4227-9c75-35f2a415bb1e"],
+ CellLabel->"In[14]:=",ExpressionUUID->"dfd199c9-5b8e-4512-8d22-2e88c0014018"],
 
 Cell[BoxData[
  RowBox[{
@@ -889,7 +867,7 @@ SuperscriptBox]]\\)\"\>", "[", "t", "]"}]}],
      RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\"]\
 \\)\"\>", "[", "t", "]"}]}], "]"}]}]}]], "Output",
  CellLabel->
-  "(Local) Out[14]=",ExpressionUUID->"57e0f4d7-3dbe-4065-8f0b-2cfe114ab3d0"]
+  "Out[14]=",ExpressionUUID->"e19990c3-3202-40a4-8be8-0fbd1d0a8df7"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -897,7 +875,7 @@ SuperscriptBox]]\\)\"\>", "[", "t", "]"}]}],
 Cell[CellGroupData[{
 
 Cell["Source expansion", \
-"Subsection",ExpressionUUID->"4aa84c70-33ed-4808-b90a-5a1fa1490ef6"],
+"Subsection",ExpressionUUID->"6a0b39e9-15ea-4d7f-a094-c60f7417c6c8"],
 
 Cell[CellGroupData[{
 
@@ -905,8 +883,7 @@ Cell[BoxData[
  RowBox[{"MasterEquationSource", "[", 
   RowBox[{"\"\<SourceExpansion\>\"", "\[Rule]", "\"\<Full\>\""}], 
   "]"}]], "Input",
- CellLabel->
-  "(Local) In[15]:=",ExpressionUUID->"5eef53b9-44f1-422b-99b1-b9e1ac9a72aa"],
+ CellLabel->"In[15]:=",ExpressionUUID->"e304e098-caba-4338-bd22-c6c1136f3246"],
 
 Cell[BoxData[
  RowBox[{
@@ -1172,14 +1149,14 @@ OverscriptBox[\\\\\\\"Y\\\\\\\", \
         RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
 \"]\\)\"\>", "[", "t", "]"}], "3"]}]]}], ")"}]}]}]], "Output",
  CellLabel->
-  "(Local) Out[15]=",ExpressionUUID->"12e4bdcf-e53f-497c-9a21-50fecd118681"]
+  "Out[15]=",ExpressionUUID->"dbf13353-5532-4264-8171-1090329d122e"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Variables", \
-"Subsection",ExpressionUUID->"7bb7b0cc-b3d5-4b0e-8929-ee125b761b12"],
+"Subsection",ExpressionUUID->"4da792d2-d69c-4bbf-acbf-6e53faf40fbf"],
 
 Cell[CellGroupData[{
 
@@ -1187,15 +1164,14 @@ Cell["\<\
 By default BlackHoleAnalysis gives the ZM source when Parity \[Rule] \
 \[OpenCurlyDoubleQuote]Even\[CloseCurlyDoubleQuote] and the CPM source when \
 Parity \[Rule] \[OpenCurlyDoubleQuote]Odd\[CloseCurlyDoubleQuote]\
-\>", "Item",ExpressionUUID->"5438ce87-0d7e-44b8-9cbc-ca2e7db3f4aa"],
+\>", "Item",ExpressionUUID->"2a416093-7cef-47f4-a66d-a2aad2874cf7"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"MasterEquationSource", "[", 
   RowBox[{"Parity", "\[Rule]", "\"\<Odd\>\""}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[16]:=",ExpressionUUID->"d5e9300f-3d77-42c2-bb12-5496439a35aa"],
+ CellLabel->"In[16]:=",ExpressionUUID->"3d5f3737-dba3-4a14-b6c2-b7c2bf03b6ae"],
 
 Cell[BoxData[
  RowBox[{
@@ -1275,7 +1251,7 @@ RowBox[{\\\\\\\"p\\\\\\\"}]\\\\)\\\", \\\"r\\\"], DisplayForm]\\)\"\>",
          MultilineFunction->None], "[", "t", "]"}]}], "\[Lambda]"]}], 
     ")"}]}]}]], "Output",
  CellLabel->
-  "(Local) Out[16]=",ExpressionUUID->"adfc1652-5a99-4d3e-aa4b-67567cddfd40"]
+  "Out[16]=",ExpressionUUID->"6821c25c-f224-490e-bbf2-1aa400a02df6"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1287,26 +1263,25 @@ Cell[TextData[{
     URL["https://arxiv.org/abs/1706.05455"], None},
   ButtonNote->"https://arxiv.org/abs/1706.05455"],
  ") there are other possible variables, related via time derivatives."
-}], "Item",ExpressionUUID->"37ebe415-f5ac-4541-ba0c-118a588eb603"],
+}], "Item",ExpressionUUID->"1c140731-a327-4027-8ccf-427ccdde2d3c"],
 
 Cell["\<\
 The original RW variable is essentially just the time derivative of the CPM \
 variable.\
-\>", "Item",ExpressionUUID->"688a5d9a-b601-4f3a-a6e7-390c19761dcf"],
+\>", "Item",ExpressionUUID->"47ed398d-4d8c-43d6-af4d-4358b974d2d6"],
 
 Cell[CellGroupData[{
 
 Cell["Its source term is given by setting Variable \[Rule] \
 \[OpenCurlyDoubleQuote]CPM1\[CloseCurlyDoubleQuote].", \
-"Item",ExpressionUUID->"5420001d-17ac-4ca6-a876-c749e0a79b36"],
+"Item",ExpressionUUID->"e04b0d49-cf7d-4dfa-83d8-2de5263e00f9"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"MasterEquationSource", "[", 
   RowBox[{"Variable", "\[Rule]", "\"\<CPM1\>\""}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[17]:=",ExpressionUUID->"f8cf0b38-16e9-423a-b9c1-3f65f6a85e1e"],
+ CellLabel->"In[17]:=",ExpressionUUID->"5eca0a11-60f6-4b3b-9b30-53409ffae2e3"],
 
 Cell[BoxData[
  RowBox[{
@@ -1365,28 +1340,27 @@ Cell[BoxData[
    RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]]}]], "Output",
  CellLabel->
-  "(Local) Out[17]=",ExpressionUUID->"3421fd2e-56d3-4026-bd68-0d9a57d1a841"]
+  "Out[17]=",ExpressionUUID->"adb8ccec-1aa9-4903-9099-e99480d76624"]
 }, Open  ]]
 }, Open  ]],
 
 Cell["\<\
 Similarly, the original Zerilli variable is the timer derivative of the ZM \
 variable.\
-\>", "Item",ExpressionUUID->"e7477942-4bcf-4e3b-b9f5-690aa6618602"],
+\>", "Item",ExpressionUUID->"6bb78a97-0567-43a3-ae37-1c85061800a5"],
 
 Cell[CellGroupData[{
 
 Cell["Its source term is given by setting Variable \[Rule] \
 \[OpenCurlyDoubleQuote]ZM1\[CloseCurlyDoubleQuote].", \
-"Item",ExpressionUUID->"3cb95ac6-2e29-49d2-8e73-5a69a5fef48f"],
+"Item",ExpressionUUID->"e1fbce6a-6cc5-4228-aa8d-81d32c661a1e"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"MasterEquationSource", "[", 
   RowBox[{"Variable", "\[Rule]", "\"\<ZM1\>\""}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[18]:=",ExpressionUUID->"af71b47d-82ec-4384-8b82-c4f78077a2fe"],
+ CellLabel->"In[18]:=",ExpressionUUID->"47f6a786-27ed-42aa-8c95-8e005fb1b7b1"],
 
 Cell[BoxData[
  RowBox[{
@@ -1732,20 +1706,20 @@ Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "\[Prime]",
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"]]}], 
     ")"}]}]}]], "Output",
  CellLabel->
-  "(Local) Out[18]=",ExpressionUUID->"5521cece-3856-467b-89c9-c61dcdf17651"]
+  "Out[18]=",ExpressionUUID->"fd1369dd-da97-4e83-973b-c9daa6780cd0"]
 }, Open  ]]
 }, Open  ]],
 
 Cell["\<\
 Higher time derivatives of master functions also have built-in source terms.\
-\>", "Item",ExpressionUUID->"8259f160-c799-4947-826b-7d06bc53e052"],
+\>", "Item",ExpressionUUID->"fad458e5-f3b9-48ea-8cce-a77f7d5ec3e1"],
 
 Cell["\<\
 Source terms up to \[OpenCurlyDoubleQuote]ZM7\[CloseCurlyDoubleQuote] (7 \
 derivatives of the ZM variable) and \[OpenCurlyDoubleQuote]CPM6\
 \[CloseCurlyDoubleQuote] (6 derivatives of the CPM variable) are included \
 with BlackHoleAnalysis.\
-\>", "Item",ExpressionUUID->"1cff3535-35cb-40c2-b61b-7d8d4ce9adec"]
+\>", "Item",ExpressionUUID->"087733d6-13c7-461a-a4ef-aa6007b966c8"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1788,43 +1762,43 @@ Cell["", "RelatedTutorialsSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
    None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"f13a88a3-0116-45ed-8a17-6110509b1287"],
+  0,ExpressionUUID->"e2fe3497-4c4b-43c8-95e2-9e99205a5661"],
 
 Cell[TextData[ButtonBox["Field equations on Schwarzschild",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Field equations on Schwarzschild"]], \
-"RelatedTutorials",ExpressionUUID->"54e33b43-69a1-4c8f-a3e4-09b689bd765b"],
+"RelatedTutorials",ExpressionUUID->"25a1087d-fb0e-4689-bf93-cbdb4cdc11cc"],
 
 Cell[TextData[ButtonBox["Time domain amplitudes",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Time domain amplitudes"]], \
-"RelatedTutorials",ExpressionUUID->"85d81936-0f55-4bfc-959d-d4c2065d87d1"],
+"RelatedTutorials",ExpressionUUID->"feb8016c-a8d5-4c44-8f85-efa7a7d51be7"],
 
 Cell[TextData[ButtonBox["Equations of motion",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Equations of motion"]], \
-"RelatedTutorials",ExpressionUUID->"cb2f4707-7743-4227-a9a7-702f46fb44dc"],
+"RelatedTutorials",ExpressionUUID->"f65c2cf0-38e2-4a87-bc80-5c373c80a4b7"],
 
 Cell[TextData[ButtonBox["Using labels to act on groups of variables",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Using labels to act on groups of \
 variables"]], \
-"RelatedTutorials",ExpressionUUID->"cf519269-b809-409f-aec0-c1a6eb49e7ae"],
+"RelatedTutorials",ExpressionUUID->"ba34a4bd-f1b0-4479-b530-3e3cf43782b6"],
 
 Cell[TextData[ButtonBox["Examples",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Examples"]], \
-"RelatedTutorials",ExpressionUUID->"6cb8bcaf-0a07-48ee-96ce-dc14afa8fab2"]
+"RelatedTutorials",ExpressionUUID->"7fc891af-db58-4690-80b1-4c601c1d3864"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[" ", \
-"FooterCell",ExpressionUUID->"683e8ae2-1298-49f6-bf58-e6f2f2acffc0"]
+"FooterCell",ExpressionUUID->"b2517e71-f890-44f1-a09c-3d2b8850b1c3"]
 },
 Saveable->False,
 ScreenStyleEnvironment->"Working",

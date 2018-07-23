@@ -4,6 +4,7 @@
  "Related Tutorials" -> {
      "Source terms",
      "Time domain amplitudes",
+     "Conventions",
      "Examples",
      "Weak functions",
      "Using labels to act on groups of variables"

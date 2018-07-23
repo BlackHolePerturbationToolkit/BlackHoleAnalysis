@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"9c2e0a13-82e3-47c2-afd3-81f2fc5e9c14"],
+   0}},ExpressionUUID->"6059050f-3e8d-4a1c-af18-905ced5099ca"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["MasterFunctionSymbol",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/MasterFunctionSymbol"]
-}], "LinkTrail",ExpressionUUID->"7788a3c6-22d1-43b7-a1fa-f6d8f88e7695"],
+}], "LinkTrail",ExpressionUUID->"9f51f521-67db-4b82-b419-9eee67d2f9a8"],
 
 Cell[CellGroupData[{
 
 Cell["MasterFunctionSymbol", \
-"ObjectName",ExpressionUUID->"a6a9f14d-b41e-4088-a138-c5a3872741f7"],
+"ObjectName",ExpressionUUID->"7e0f87ea-ac38-4cd3-81f6-22ffd58efae3"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -30,11 +30,11 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/MasterFunctionSymbol"], "[",
         "]"}]], "InlineFormula",ExpressionUUID->
-      "1d253306-9d61-49d8-82c6-af65654703f8"],
+      "4ceb75c0-f7f4-48c2-a429-4e07459cf2d5"],
      "\[LineSeparator]returns the (formatted) symbol for the RWZ-style master \
 function."
-    }],ExpressionUUID->"1e274272-8e04-4813-bc0c-18b30ba034a3"]}
-  }]], "Usage",ExpressionUUID->"c741752a-5b42-453f-a9f5-58b81da7cbe3"]
+    }],ExpressionUUID->"d8886c1f-4f38-4b8a-93ab-8ecd04151e2b"]}
+  }]], "Usage",ExpressionUUID->"94c7a556-f50d-48a2-91f5-8278abb6b016"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -80,26 +80,26 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"12274e21-5e1c-43ac-8a9e-0a527e3b9a9c"],
+  0,ExpressionUUID->"3c237177-ad3f-491a-a2c0-6aa099227c0b"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"366ed328-1103-4218-8f17-f8004eec2c50"],
+"Notes",ExpressionUUID->"c26d7c4a-332c-4019-b3aa-ebe65c1ff8c4"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "19fab815-2eaa-4802-b86a-10439f7e7c60"], "Parity", "Default", Cell["\<\
+     "072fc8e4-7af0-475f-8425-25334eb49a27"], "Parity", "Default", Cell["\<\
 Parity of the master function (Default, \"Even\", or \"Odd\"). Choosing \
 Default allows \"Parity\" to be set by the \"Variable\" Option. When both \
 Options are Default, the \"Parity\" is \"Even\".\
-\>", "TableText",ExpressionUUID->"03a043c1-9707-4a6e-a86c-a0f1d8a38dab"]},
+\>", "TableText",ExpressionUUID->"c965874e-2435-4dbb-8fc2-56a9d620b4ff"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "8516e6f4-04d6-42f0-85c2-645125c0987b"], "Variable", "Default", 
+     "26d47ca6-7ea9-4537-9196-6f6cc8e29932"], "Variable", "Default", 
     Cell["\<\
 The specific master function variable to use (Default, \"ZM\", \"ZM1\", ... \
 \"ZM7\" and \"CPM\", \"CPM1\", ... \"CPM6\"). Choosing Default is equivalent \
 to \"ZM\" when \"Parity\"->\"Even\" and \"CPM\" when \"Parity\"->\"Odd\". \
 When both Options are Default, the \"Parity\" is \"Even\".\
-\>", "TableText",ExpressionUUID->"7cc7881c-671b-4c48-ad89-a07fe27efe4f"]}
+\>", "TableText",ExpressionUUID->"13096d4b-52da-40e6-aac9-454c3afcb9de"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -111,14 +111,14 @@ When both Options are Default, the \"Parity\" is \"Even\".\
  GridBoxDividers->{
   "Rows" -> {{
      True, True, 
-      True}}}},ExpressionUUID->"fbf40352-fe85-4cdf-965c-d113c059d950"]
+      True}}}},ExpressionUUID->"05e01adc-1db5-4dd4-a319-e11d7c3e55b4"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"86a7999a-7f7a-4277-86d7-00d32d17d084"],
+Cell[" ", "FooterCell",ExpressionUUID->"9b63a045-4355-4d51-892a-02a0a2b770be"],
 
-Cell[BoxData[""],ExpressionUUID->"8424d85c-836e-4e48-a487-046c31cc8171"]
+Cell[BoxData[""],ExpressionUUID->"e475cc92-3bdb-4960-9915-5f31a40578c7"]
 }, Open  ]]
 },
 Saveable->False,

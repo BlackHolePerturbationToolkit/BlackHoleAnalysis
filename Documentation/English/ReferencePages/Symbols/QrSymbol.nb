@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"0bffb117-0645-499d-aa5b-14733e69dbab"],
+   0}},ExpressionUUID->"37422a57-7830-400c-8a37-5919b5443258"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["QrSymbol",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/QrSymbol"]
-}], "LinkTrail",ExpressionUUID->"39f3f4f1-2d97-401b-9282-7ca641a21639"],
+}], "LinkTrail",ExpressionUUID->"8dab4bd2-f1ed-4fa0-9d96-559caba0f51e"],
 
 Cell[CellGroupData[{
 
 Cell["QrSymbol", \
-"ObjectName",ExpressionUUID->"c0ba2af6-60b4-444b-89b7-970cd87f6f2a"],
+"ObjectName",ExpressionUUID->"51f1553f-526f-4976-915b-65b777f5742a"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -29,12 +29,12 @@ Cell[BoxData[GridBox[{
        ButtonBox["QrSymbol",
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/QrSymbol"], "[", "]"}]], 
-      "InlineFormula",ExpressionUUID->"a49cafea-c999-4a7b-a5c7-c727c97978a3"],
+      "InlineFormula",ExpressionUUID->"ef802aa2-38f2-4ee9-ad06-142b1606de3b"],
      
      "\[LineSeparator]returns the (formatted) symbol for metric perturbation \
 amplitude source term Qr."
-    }],ExpressionUUID->"143a58df-5da9-4a9b-a508-73cbd62c3128"]}
-  }]], "Usage",ExpressionUUID->"da1a1b01-1933-4551-ab12-ea81ef42c466"]
+    }],ExpressionUUID->"fa30cae8-5804-4431-8b7e-861f59966e3f"]}
+  }]], "Usage",ExpressionUUID->"6afdaa22-7876-4950-80c4-e7b8cba05a48"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -80,21 +80,21 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"43321f73-35a4-4a1d-87b6-2bb5b9c59b60"],
+  0,ExpressionUUID->"dbb915e3-1239-484e-bd3f-c36e71d9c972"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"c8a84654-7cc6-4237-92de-67da812d942e"],
+"Notes",ExpressionUUID->"1e1799e0-c476-4e06-b71b-2e818f14b153"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "11e4597a-de15-4706-8077-0769718b7a1c"], "Capital", "True", Cell["\<\
+     "5cae580c-57a9-41da-a015-a3f5cec9a02d"], "Capital", "True", Cell["\<\
 Sepcifies whether to return the uppercase symbol (which includes the Dirac \
 delta) or the lowercase symbol (which does not)\
-\>", "TableText",ExpressionUUID->"36676ee9-2213-4cde-9e85-0e37809b413d"]},
+\>", "TableText",ExpressionUUID->"7c076fa6-e7d6-4bb6-8260-b7c6448b14cf"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "73db1f14-fbdb-4751-a7cb-08710697aa07"], "Indices", "Down", Cell[
+     "3bb59173-f9c9-477e-a500-254539ebf58a"], "Indices", "Down", Cell[
     "Position of the indices, (\"Up\" or \"Down\")", "TableText",
-     ExpressionUUID->"7c326ff3-f4d7-458d-a9ac-35bedc97bfee"]}
+     ExpressionUUID->"fdda3646-4fa6-4b59-ac7e-9d4bac2c3cc9"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -106,14 +106,14 @@ delta) or the lowercase symbol (which does not)\
  GridBoxDividers->{
   "Rows" -> {{
      True, True, 
-      True}}}},ExpressionUUID->"a15c9da3-950e-49d3-a8ce-73399fd6660b"]
+      True}}}},ExpressionUUID->"81e98e43-dec7-451f-ba1f-6e4a4a36dc07"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"f2e14e5e-2126-4c37-9ff4-a348f2894336"],
+Cell[" ", "FooterCell",ExpressionUUID->"f12fecb3-58f9-4816-821e-ff93f3926f65"],
 
-Cell[BoxData[""],ExpressionUUID->"f18ce20e-5bdc-4747-8165-6a3065ebaf16"]
+Cell[BoxData[""],ExpressionUUID->"4c772069-78e6-45d2-8b03-146f0f9866d0"]
 }, Open  ]]
 },
 Saveable->False,

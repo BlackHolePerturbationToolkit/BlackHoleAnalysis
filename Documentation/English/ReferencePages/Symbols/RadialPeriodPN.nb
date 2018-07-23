@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"21bf42df-13c1-4bf4-b9d5-e30c227e2568"],
+   0}},ExpressionUUID->"355067d1-7042-4d14-9333-63c2d248faf5"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["RadialPeriodPN",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/RadialPeriodPN"]
-}], "LinkTrail",ExpressionUUID->"a8e41152-36c4-427d-acbb-2c72d6d7da75"],
+}], "LinkTrail",ExpressionUUID->"dfa8ba7f-c61a-414b-94df-ffecf32efe7d"],
 
 Cell[CellGroupData[{
 
 Cell["RadialPeriodPN", \
-"ObjectName",ExpressionUUID->"f2e093d3-2b05-4a0f-aed3-696e629a4652"],
+"ObjectName",ExpressionUUID->"0be13964-37d4-4c88-9b51-da1ff1f59b76"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -30,11 +30,11 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/RadialPeriodPN"], "[", 
        "]"}]], "InlineFormula",ExpressionUUID->
-      "1feeb718-b350-4bfa-9664-c9526d10b37c"],
+      "010bf79f-dae6-40a3-90b9-194aa797471b"],
      "\[LineSeparator]returns the radial period of a particle in an eccentric \
 orbit around a Schwarzschild black hole, expanded to 1 term using the inverse \
 of p, the semi-latus rectum, as the expansion parameter."
-    }],ExpressionUUID->"d7d93997-8732-4330-9e77-4b586d975f8f"]},
+    }],ExpressionUUID->"f187ef7b-87dd-46d3-9f3b-ac4ed9f05208"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -42,9 +42,9 @@ of p, the semi-latus rectum, as the expansion parameter."
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/RadialPeriodPN"], "[", 
        StyleBox["n", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
-      "419fc077-29d7-4ec9-8d05-c4d2e32a9dfc"],
+      "01958e35-c63c-41ef-b888-42a832100932"],
      "\[LineSeparator]returns the radial period expanded to n terms."
-    }],ExpressionUUID->"e4e0070d-a601-4584-94d6-db3d5d01aff8"]},
+    }],ExpressionUUID->"9ff54a12-7d54-4e5f-a3a7-64b028af20fd"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -52,10 +52,10 @@ of p, the semi-latus rectum, as the expansion parameter."
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/RadialPeriodPN"], "[", 
        StyleBox["par", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
-      "92b00584-ad33-4670-af2e-c48132880c8f"],
+      "43c53afc-bfa4-454c-8a3b-576ed1d609e2"],
      "\[LineSeparator]returns the radial period expanded to 1 term, using par \
 (\"p\" or \"x\") as the expansion parameter."
-    }],ExpressionUUID->"c7f871f6-86c5-4a32-bcf1-65a470c65635"]},
+    }],ExpressionUUID->"7654e740-2bdb-458e-b79c-a300e5b20357"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -64,11 +64,11 @@ of p, the semi-latus rectum, as the expansion parameter."
         ButtonData->"paclet:BlackHoleAnalysis/ref/RadialPeriodPN"], "[", 
        StyleBox[
         RowBox[{"n", ",", "par"}], "TI"], "]"}]], "InlineFormula",
-      ExpressionUUID->"b67e852b-38d4-4e0b-b1ad-a3da3e0d7c28"],
+      ExpressionUUID->"bbd5d5e5-ad0f-4cf5-9045-1f62190797c0"],
      "\[LineSeparator]returns the radial period expanded to n terms, using \
 par (\"p\" or \"x\") as the expansion parameter."
-    }],ExpressionUUID->"5fd5b1c7-d73a-4eb2-be94-41c8e075086a"]}
-  }]], "Usage",ExpressionUUID->"4bc66f47-eb64-4093-ac43-b16ab1115742"]
+    }],ExpressionUUID->"ba25449b-52aa-4fa1-a4c6-444b7550cb5e"]}
+  }]], "Usage",ExpressionUUID->"582b7efc-ff6f-4e08-928f-2414ba65752b"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -114,17 +114,17 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"531a7d28-989b-462c-b95f-659feea1e75c"],
+  0,ExpressionUUID->"7a577f16-6a8e-4a59-a19d-e36f25362486"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"325fe8f6-cc08-4d6f-8ed2-7d2e5a5dcf6f"],
+"Notes",ExpressionUUID->"0975e88f-8b5e-4537-8d27-707b882937c6"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "be7f9226-d3a5-4d8f-8b3d-c293e043482b"], "Metric", "Schwarzschild", 
+     "122a062c-3e1a-4144-bd34-fe052d25ad3c"], "Metric", "Schwarzschild", 
     Cell["\<\
 Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
-\>", "TableText",ExpressionUUID->"f55b3113-c964-4d4f-ba53-276ef5541332"]}
+\>", "TableText",ExpressionUUID->"75c744d6-5a3a-402c-89b7-ceeff9e2ed2d"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -135,14 +135,14 @@ Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"7d63b55e-3a3c-4c9b-bae4-2615ab8965a0"]
+     True, True}}}},ExpressionUUID->"11459a9d-6752-4717-b0f2-353cb77276bf"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"d66c366e-d6b7-40cf-bccd-6a6d1b2c854d"],
+Cell[" ", "FooterCell",ExpressionUUID->"a0f8f7f0-df74-4c4b-a3c7-8d4d914e17f1"],
 
-Cell[BoxData[""],ExpressionUUID->"90db2aae-c9ca-4420-ac90-3466a6dded7a"]
+Cell[BoxData[""],ExpressionUUID->"1865b189-75a3-44a6-8afe-eb7001bb1b5e"]
 }, Open  ]]
 },
 Saveable->False,

@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"0ca2ceb3-c963-4c88-8430-81181d80e1d5"],
+   0}},ExpressionUUID->"a026e853-be11-4d63-b4cf-682b6be3276a"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -16,12 +16,12 @@ Cell[TextData[{
  ButtonBox["EvaluateDeltas",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/EvaluateDeltas"]
-}], "LinkTrail",ExpressionUUID->"97f81938-ca2d-4fb9-a031-ce15594ff89b"],
+}], "LinkTrail",ExpressionUUID->"75e5ab6b-9ae5-431c-a7f8-e634d2bf03a6"],
 
 Cell[CellGroupData[{
 
 Cell["EvaluateDeltas", \
-"ObjectName",ExpressionUUID->"b644c954-6f02-4902-b8f0-d4cc4648d855"],
+"ObjectName",ExpressionUUID->"fe79f086-366d-444c-85ce-00b23607c689"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -31,11 +31,11 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/EvaluateDeltas"], "[", 
        StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
-      "03d5911b-0aef-428c-bc1f-f14a8b69e240"],
+      "9bd6a418-81a0-460c-9442-9a46ed1e645a"],
      "\[LineSeparator]evaluates coefficients of Dirac delta distributions and \
 their derivatives in expr at r=r_p[t]."
-    }],ExpressionUUID->"1a7e1e18-09f9-47bb-8b32-75f13e1549f6"]}
-  }]], "Usage",ExpressionUUID->"96ebc3af-6b03-40b1-a61e-613a81647ad3"]
+    }],ExpressionUUID->"047e5956-fde2-4383-8261-487379d6d455"]}
+  }]], "Usage",ExpressionUUID->"90115d62-97ef-4754-9226-c1fa0712b6a4"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -81,16 +81,16 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"009ba852-56af-4554-984b-b4a6ee856d8f"],
+  0,ExpressionUUID->"a33c772b-2f61-4e60-8481-e2d500aa24ab"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"ff06d4f9-551d-49f4-9e72-5940ed61bf34"],
+"Notes",ExpressionUUID->"a6e4067d-07b2-4ee5-9acf-ebf78a2373c1"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "9594c15b-9d8a-4421-9cdb-f61c11d16dfa"], "Simplify", "True", Cell[
+     "5459f58a-1ed6-4aaa-b3ec-3cfc313050c5"], "Simplify", "True", Cell[
     "Collect and Simplify the final output.", "TableText",ExpressionUUID->
-     "767afd40-4c29-4915-bd4b-fcfcedb7151a"]}
+     "97ad8db6-00e6-4529-9b7a-8ef241707d9c"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -101,14 +101,14 @@ Cell[BoxData[GridBox[{
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"9ebe0a38-44c7-4fc3-9d35-e9d259b81a46"]
+     True, True}}}},ExpressionUUID->"83a2af5a-4a32-4df8-8f9b-1609ffe2baeb"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"04c9dacc-5e04-4bfb-ab66-1a4e7375f86c"],
+Cell[" ", "FooterCell",ExpressionUUID->"7a33ada9-44b8-4cbc-a003-d19374b4f434"],
 
-Cell[BoxData[""],ExpressionUUID->"b5d1ce28-6c51-46ae-8d01-a31eeb553680"]
+Cell[BoxData[""],ExpressionUUID->"84d3c7e8-d03e-427a-a018-1a8023cae3c1"]
 }, Open  ]]
 },
 Saveable->False,

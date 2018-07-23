@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"453a6df4-5cc3-4776-91e1-3e65da2e2e18"],
+   0}},ExpressionUUID->"6ed07d57-26b7-447c-a0c4-5a6e4f7acffb"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,63 @@ Cell[TextData[{
  ButtonBox["HttPush",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/HttPush"]
-}], "LinkTrail",ExpressionUUID->"d13d1033-e005-4e49-a28d-7998c5144928"],
+}], "LinkTrail",ExpressionUUID->"700b1db3-f6de-4e28-ab06-439f369a1793"],
+
+Cell[BoxData[GridBox[{
+   {Cell["BLACKHOLEANALYSIS`FIELDS PACLET SYMBOL", "PacletNameCell",
+     ExpressionUUID->"57e25ef9-eb1c-40b6-b1f1-c4bd79fb84f7"], Cell[TextData[{
+     Cell[BoxData[
+      ActionMenuBox[
+       FrameBox["\<\"Tutorials \[RightGuillemet]\"\>",
+        StripOnInput->False], {"Conventions":>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/tutorial/Conventions"], 
+       RowBox[{"Time", " ", "domain", " ", "amplitudes"}]:>
+       Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/tutorial/Time domain amplitudes"], 
+       RowBox[{"Low", " ", "order", " ", "modes"}]:>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/tutorial/Low order modes"], 
+       RowBox[{
+       "Using", " ", "labels", " ", "to", " ", "act", " ", "on", " ", 
+        "groups", " ", "of", " ", "variables"}]:>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/tutorial/Using labels to act on groups of \
+variables"]},
+       Appearance->None,
+       MenuAppearance->Automatic]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "7866b52b-95fa-41f6-b56d-f39bf8324a49"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      ActionMenuBox[
+       FrameBox["\<\"See Also \[RightGuillemet]\"\>",
+        StripOnInput->False], {"PushFunction":>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/ref/PushFunction"], "HtrPush":>
+       Documentation`HelpLookup["paclet:BlackHoleAnalysis/ref/HtrPush"], 
+       "HrrPush":>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/ref/HrrPush"], "JtPush":>
+       Documentation`HelpLookup["paclet:BlackHoleAnalysis/ref/JtPush"], 
+       "JrPush":>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/ref/JrPush"], "KPush":>
+       Documentation`HelpLookup["paclet:BlackHoleAnalysis/ref/KPush"], 
+       "GPush":>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/ref/GPush"], "HtPush":>
+       Documentation`HelpLookup["paclet:BlackHoleAnalysis/ref/HtPush"], 
+       "HrPush":>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/ref/HrPush"], "H2Push":>
+       Documentation`HelpLookup["paclet:BlackHoleAnalysis/ref/H2Push"]},
+       Appearance->None,
+       MenuAppearance->Automatic]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "a7ff84a7-6c29-4267-b002-c15f8b78f5a4"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]"
+    }], "AnchorBar",ExpressionUUID->"2f1c4e64-fa07-4fed-9968-2350dcf5734f"]}
+  }]], "AnchorBarGrid",ExpressionUUID->"e244cfff-ae10-4495-ad97-79b8e5fddec9"],
 
 Cell[CellGroupData[{
 
 Cell["HttPush", \
-"ObjectName",ExpressionUUID->"a7594cff-9b4f-45ae-92ba-00c9f24dd893"],
+"ObjectName",ExpressionUUID->"d3a87c2a-af9f-4df6-8b20-6ee1bc59b7ed"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -29,12 +80,12 @@ Cell[BoxData[GridBox[{
        ButtonBox["HttPush",
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/HttPush"], "[", "]"}]], 
-      "InlineFormula",ExpressionUUID->"4bd70441-ef8b-4117-949b-f3c45d05ea5c"],
+      "InlineFormula",ExpressionUUID->"e942e3cd-2079-466f-9b1c-e94fc3e900f7"],
      
      "\[LineSeparator]returns the change in the metric perturbation amplitude \
 h_tt as it is pushed between two Options-specifiable gauges."
-    }],ExpressionUUID->"165779b2-0c95-4d95-a3ad-7baf6b97aab7"]}
-  }]], "Usage",ExpressionUUID->"4a983621-f773-4660-91d3-067333701966"]
+    }],ExpressionUUID->"587b0ffa-15c5-48e2-a0cd-cee60a8dfe99"]}
+  }]], "Usage",ExpressionUUID->"d6febe29-db12-4e27-9d2a-821f7b779609"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -80,34 +131,34 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"fb9c04f4-9d63-4d84-838e-f198833e6d10"],
+  0,ExpressionUUID->"6054f097-991a-4ae5-af91-194ec195fd7f"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"dbf77725-c3a8-4542-a495-9704aea35274"],
+"Notes",ExpressionUUID->"d1e8681c-92b8-405d-9a0e-c4594dc3f2d6"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "a50d5857-b53f-431f-a33f-0ae370526e06"], "Expand", "False", Cell["\<\
+     "4a513700-373a-454c-9c65-927f402d19f7"], "Expand", "False", Cell["\<\
 Boolean stating whether expand the gauge vector. Only RWZ->ModRWZ (or \
 opposite) can be expanded.\
-\>", "TableText",ExpressionUUID->"bc665305-f525-4ab2-8d05-f2899ea9b646"]},
+\>", "TableText",ExpressionUUID->"a777de0f-eb2b-44d5-9189-65a4c6cd98a8"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "7fd61f48-3021-4027-85fd-b7ba8821cb99"], "FinalGauge", "Lorenz", Cell[
+     "4b5573d7-5809-48cc-9e50-95dfa94021a7"], "FinalGauge", "Lorenz", Cell[
     "Final gauge (\"RWZ\", \"ModRWZ\", \"Lorenz\", or Null)", "TableText",
-     ExpressionUUID->"75ee139a-8f04-4b82-b6c1-28256cad234d"]},
+     ExpressionUUID->"6b8627f6-f8ee-48cb-94ac-a33d65a90949"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "16f80707-4f69-4289-9e5f-bcf88ccb9bf7"], "InitialGauge", "RWZ", Cell[
+     "6f2b97c1-3592-4d35-b526-c58ebbfc140c"], "InitialGauge", "RWZ", Cell[
     "Initial gauge (\"RWZ\", \"ModRWZ\", \"Lorenz\", or Null)", "TableText",
-     ExpressionUUID->"790d9088-e8c9-4813-84f0-ae2272267055"]},
+     ExpressionUUID->"a92f003f-7b5e-484e-b182-93fb16dcc9e0"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "5b25cefd-1a27-49e2-ac27-e498cd8cf100"], "Mode", "Radiative", Cell[
+     "e020afaa-0c0e-4241-af89-71260bfa58cb"], "Mode", "Radiative", Cell[
     "l mode (\"Radiative\", \"Dipole\", or \"Monopole\")", "TableText",
-     ExpressionUUID->"9c958117-7546-4230-8265-034e500120b5"]},
+     ExpressionUUID->"2083c59d-a0ff-4e5b-9547-3603677eeff0"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "7ba630a6-f287-4636-b49d-e81fe841de5a"], "Weak", "False", Cell["\<\
+     "da6f2213-e8f7-4191-85e2-201e7499e11f"], "Weak", "False", Cell["\<\
 Boolean stating whether the metric perturvation amplitude should be given in \
 a weak form\
-\>", "TableText",ExpressionUUID->"b37c31e2-2811-4e65-be1a-611ae81459f3"]}
+\>", "TableText",ExpressionUUID->"c1b920dc-6991-4669-ab46-f2dca579be69"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -119,14 +170,324 @@ a weak form\
  GridBoxDividers->{
   "Rows" -> {{
      True, True, True, True, True, 
-      True}}}},ExpressionUUID->"7f901ea6-4d6c-48f7-9f5a-e23aa2d5dbc0"]
+      True}}}},ExpressionUUID->"700af4c5-b040-4798-be1b-ad08440fa5f4"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"115eba2a-d70d-48a7-82a0-0d9f23296595"],
+Cell["", "PrimaryExamplesSection",
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       ButtonBox[
+       "EXAMPLES", BaseStyle -> None, Appearance -> {Automatic, None}, 
+        Evaluator -> None, Method -> "Preemptive", 
+        ButtonFunction :> (FrontEndExecute[{
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], All, ButtonCell], 
+           FrontEndToken["OpenCloseGroup"], 
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]], 
+      "PrimaryExamplesSection", CellTags -> "PrimaryExamplesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Examples"}], 
+        "PrimaryExamplesSection", CellTags -> "PrimaryExamplesSection"], 
+       BaseStyle -> None, Appearance -> {Automatic, None}, Evaluator -> None, 
+       Method -> "Preemptive", ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
+   None, None}},
+ CellFrameLabelMargins->0,
+ CellTags->
+  "PrimaryExamplesSection",ExpressionUUID->"854faba3-f023-40fa-85db-\
+b00f56170873"],
 
-Cell[BoxData[""],ExpressionUUID->"447e5474-4168-4794-ad6e-a6db1f6d4551"]
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Basic Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "312d4c65-04f0-453d-9921-2ef02df90ac3"]
+}], "ExampleSection",ExpressionUUID->"1c00b3a7-b71b-4703-86a6-0bd1409ee8d2"],
+
+Cell[CellGroupData[{
+
+Cell["HttPush[]", "Input",
+ CellLabel->"In[1]:=",ExpressionUUID->"587ff7d9-b584-4be0-9bdb-89506f6a8b96"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"-", "2"}], " ", 
+   RowBox[{
+    SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\
+\\(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\
+\\\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"t\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", 
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{"1", ",", "0"}], ")"}],
+      Derivative],
+     MultilineFunction->None], "[", 
+    RowBox[{"t", ",", "r"}], "]"}]}], "+", 
+  FractionBox[
+   RowBox[{"2", " ", "M", " ", 
+    RowBox[{"(", 
+     RowBox[{"1", "-", 
+      FractionBox[
+       RowBox[{"2", " ", "M"}], "r"]}], ")"}], " ", 
+    RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\
+\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\
+\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"r\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+     RowBox[{"t", ",", "r"}], "]"}]}], 
+   SuperscriptBox["r", "2"]]}]], "Output",
+ CellLabel->"Out[1]:= ",ExpressionUUID->"ae018fad-0380-4df6-ab55-e377414c213f"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SeeAlsoSection",
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       ButtonBox[
+       "SEE ALSO", BaseStyle -> None, Appearance -> {Automatic, None}, 
+        Evaluator -> None, Method -> "Preemptive", 
+        ButtonFunction :> (FrontEndExecute[{
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], All, ButtonCell], 
+           FrontEndToken["OpenCloseGroup"], 
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]], 
+      "SeeAlsoSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "See Also"}], "SeeAlsoSection"], 
+       BaseStyle -> None, Appearance -> {Automatic, None}, Evaluator -> None, 
+       Method -> "Preemptive", ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
+   None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"b1ba017d-8e48-4da3-a9c5-b2129ccc818a"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["PushFunction",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/PushFunction"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "50aedbe0-7b21-4fab-a4bc-792ef9f0f134"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["HtrPush",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/HtrPush"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "902292d1-ef3a-4de0-bc6b-0a5090fd0833"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["HrrPush",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/HrrPush"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "e3500f6c-c500-4417-b045-ffb1e319e193"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["JtPush",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/JtPush"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "2da152a1-c90e-4c13-8de8-afbef5a24938"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["JrPush",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/JrPush"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "ac7a3ca4-35ea-4cda-990d-5d07b652d611"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["KPush",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/KPush"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "97ddf75a-3506-42fb-9e35-0ea2ea6f8431"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["GPush",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/GPush"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "f469834e-7e56-480e-9d79-6259d7c289d6"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["HtPush",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/HtPush"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "50ca9903-044b-40f5-b843-99796fde32f9"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["HrPush",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/HrPush"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "d1f6d7ad-3f62-41c0-8093-b5f4321cbfab"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["H2Push",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/H2Push"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "fe67909a-6ec4-4373-b4d5-5b911d5a7014"]
+}], "SeeAlso",ExpressionUUID->"50e4bc51-3976-4b9b-b2e7-5cbfe11e2cfb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "TutorialsSection",
+ WholeCellGroupOpener->True,
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       ButtonBox[
+       "TUTORIALS", BaseStyle -> None, Appearance -> {Automatic, None}, 
+        Evaluator -> None, Method -> "Preemptive", 
+        ButtonFunction :> (FrontEndExecute[{
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], All, ButtonCell], 
+           FrontEndToken["OpenCloseGroup"], 
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]], 
+      "TutorialsSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Tutorials"}], 
+        "TutorialsSection"], BaseStyle -> None, 
+       Appearance -> {Automatic, None}, Evaluator -> None, Method -> 
+       "Preemptive", ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
+   None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"7f7687d8-bb97-4aa1-bec2-d8e844276de7"],
+
+Cell[TextData[ButtonBox["Conventions",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:BlackHoleAnalysis/tutorial/Conventions"]], \
+"Tutorials",ExpressionUUID->"3b38f98d-01d3-40c0-9c7f-a0b4cfda8b02"],
+
+Cell[TextData[ButtonBox["Time domain amplitudes",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:BlackHoleAnalysis/tutorial/Time domain amplitudes"]], \
+"Tutorials",ExpressionUUID->"90bbe7c1-c974-4c07-b3bd-d5f60f59a328"],
+
+Cell[TextData[ButtonBox["Low order modes",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:BlackHoleAnalysis/tutorial/Low order modes"]], \
+"Tutorials",ExpressionUUID->"ce9c5496-32aa-4b38-9e3f-e35873221efd"],
+
+Cell[TextData[ButtonBox["Using labels to act on groups of variables",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:BlackHoleAnalysis/tutorial/Using labels to act on groups of \
+variables"]], \
+"Tutorials",ExpressionUUID->"f46045bf-fb3b-4567-ae93-062a49ff367b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"1b769cd0-c6a6-4c7b-aa6e-0d30b16ab2da"],
+
+Cell[BoxData[""],ExpressionUUID->"e8e0559e-1a93-4233-98ea-544605bb412a"]
 }, Open  ]]
 },
 Saveable->False,

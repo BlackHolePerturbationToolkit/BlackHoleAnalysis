@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"7789fddd-546f-44e2-86aa-33bc9e4e3e05"],
+   0}},ExpressionUUID->"e6122032-910f-4791-a7e0-22e006d8d8b4"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["SasakiNakamuraEquation",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/SasakiNakamuraEquation"]
-}], "LinkTrail",ExpressionUUID->"626d9ee7-3b20-43e8-b7d5-92fed070d02c"],
+}], "LinkTrail",ExpressionUUID->"4d084d56-a601-4a4d-a884-728bd3d625e6"],
 
 Cell[CellGroupData[{
 
 Cell["SasakiNakamuraEquation", \
-"ObjectName",ExpressionUUID->"0b0e4e6f-c2bf-429e-8a35-27ddc94250c4"],
+"ObjectName",ExpressionUUID->"bea873d0-ed05-4c1f-a756-5acb891ab106"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -30,10 +30,10 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/SasakiNakamuraEquation"], 
        "[", "]"}]], "InlineFormula",ExpressionUUID->
-      "fdf0130b-3d4c-4b65-b229-210506645597"],
+      "7eebd6b7-1b46-42bd-95fd-40b363bb12af"],
      "\[LineSeparator]returns the homogeneous Sasaki-Nakamura equation."
-    }],ExpressionUUID->"c3c84094-3cfb-420b-a645-fa8941ef3f17"]}
-  }]], "Usage",ExpressionUUID->"7d755136-3f02-40a2-bfac-53048b2c291b"]
+    }],ExpressionUUID->"ac4af095-ef8c-424f-a4d8-c0efc246abbf"]}
+  }]], "Usage",ExpressionUUID->"73c316a4-faec-4558-a042-28077ff03304"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -79,17 +79,17 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"a17077bb-de01-4aa5-bab9-1e1a15b09a3e"],
+  0,ExpressionUUID->"81b7bebe-1cbb-44c8-8151-403c5e029b3b"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"41e89f75-9856-41d8-9dfc-bef271e53a11"],
+"Notes",ExpressionUUID->"60d59fb7-b3b5-487e-bfc2-d51d5857e868"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "71f49d62-04b5-4d7c-9e8a-b3b9b9cd5e6a"], "SpinWeight", 
+     "0c792a0d-4cd1-4206-8c70-76ce5f41896b"], "SpinWeight", 
     RowBox[{"-", "2"}], Cell["\<\
 Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
-\>", "TableText",ExpressionUUID->"698a7ae5-2800-4eb7-aace-d77bd3e2dfca"]}
+\>", "TableText",ExpressionUUID->"117b388f-7b5d-452c-bba1-aad8232062da"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -100,14 +100,14 @@ Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"ad4ee24a-ecda-43e3-9a8f-257e3fd6f007"]
+     True, True}}}},ExpressionUUID->"f8042c93-554e-47f9-a2c4-4e63f1c9e6ca"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"4488e270-bef8-4ea5-9813-6e0f2b023ffc"],
+Cell[" ", "FooterCell",ExpressionUUID->"491892a5-6b73-41ed-882c-0045c486fc61"],
 
-Cell[BoxData[""],ExpressionUUID->"e7f5350f-19be-4188-b073-ac8cb8a81d01"]
+Cell[BoxData[""],ExpressionUUID->"818b6469-559d-45ec-acaf-10814a2c207e"]
 }, Open  ]]
 },
 Saveable->False,

@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "TutorialColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"ac9cffbf-8efe-416e-a0d6-1aa4f76acf08"],
+   0}},ExpressionUUID->"b0aa07e3-a16d-44bb-8eca-0648c6c2e0a4"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -12,11 +12,11 @@ Cell[TextData[{
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->
    "paclet:BlackHoleAnalysis/tutorial/Field equations on Schwarzschild"]
-}], "LinkTrail",ExpressionUUID->"ed45c6f2-3895-40fc-809b-228e5267e125"],
+}], "LinkTrail",ExpressionUUID->"54ad2d33-a6b2-41d4-a296-1d7f8960462b"],
 
 Cell[BoxData[GridBox[{
    {Cell["FIELD EQUATIONS ON SCHWARZSCHILD TUTORIAL", "PacletNameCell",
-     ExpressionUUID->"220269e8-5713-4555-8455-743e2267fd0e"], Cell[TextData[{
+     ExpressionUUID->"8c930a8c-f8a7-4fb5-8184-8ebcf55bf1bf"], Cell[TextData[{
      Cell[BoxData[
       ActionMenuBox[
        FrameBox["\<\"Related Tutorials \[RightGuillemet]\"\>",
@@ -26,8 +26,9 @@ Cell[BoxData[GridBox[{
        RowBox[{"Time", " ", "domain", " ", "amplitudes"}]:>
        Documentation`HelpLookup[
        "paclet:BlackHoleAnalysis/tutorial/Time domain amplitudes"], 
-       "Examples":>Documentation`HelpLookup[
-       "paclet:BlackHoleAnalysis/tutorial/Examples"], 
+       "Conventions":>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/tutorial/Conventions"], "Examples":>
+       Documentation`HelpLookup["paclet:BlackHoleAnalysis/tutorial/Examples"], 
        RowBox[{"Weak", " ", "functions"}]:>Documentation`HelpLookup[
        "paclet:BlackHoleAnalysis/tutorial/Weak functions"], 
        RowBox[{
@@ -38,7 +39,7 @@ variables"]},
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "86c6ccee-e112-479a-a9bd-f07d2d244bed"],
+      "a9339623-c6f4-4e88-8b31-6570afc9e7fe"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -57,35 +58,34 @@ variables"]},
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "ea100def-3bc4-40ae-afb5-95f2dd194fb6"]
-    }], "AnchorBar",ExpressionUUID->"e3383f60-1c6e-47e2-b065-fd331fdb029a"]}
-  }]], "AnchorBarGrid",ExpressionUUID->"90649dee-8562-4bf0-8b9d-9955eebc0b5a"],
+      "f53dbf81-3e6c-4dd3-9399-c575fa6a3f94"]
+    }], "AnchorBar",ExpressionUUID->"824f4af1-3c60-423a-8748-a2c87733646a"]}
+  }]], "AnchorBarGrid",ExpressionUUID->"8a0e1eb6-a1fc-4a30-9ae3-f5f375852612"],
 
 Cell[CellGroupData[{
 
 Cell["BlackHoleAnalysis - Field equations on Schwarzschild", \
-"Title",ExpressionUUID->"5b01215a-95b8-48f2-ac10-261c2d02b3dc"],
+"Title",ExpressionUUID->"6576915c-ba22-44cc-80d9-96c1796813d2"],
 
 Cell[BoxData[
  RowBox[{"<<", "BlackHoleAnalysis`"}]], "Input",
- CellLabel->
-  "(Local) In[1]:=",ExpressionUUID->"7357cef6-d37a-4a50-b38e-d382db9a7026"],
+ CellLabel->"In[1]:=",ExpressionUUID->"34e6d20d-1d23-4a87-a488-6d734ad2f8e6"],
 
 Cell[CellGroupData[{
 
 Cell["Introduction", \
-"Section",ExpressionUUID->"e814c1e7-06b7-4fcd-8f58-d694fd894993"],
+"Section",ExpressionUUID->"3e40f412-5585-4abc-b97e-09a9e0ff6b26"],
 
 Cell["\<\
 After decomposing the first-order Einstein equations in tensor spherical \
 harmonics, we are left with 10 equations for each l,m mode. \
-\>", "Item",ExpressionUUID->"d848e0d2-91f6-4e47-9e91-c3b129854417"],
+\>", "Item",ExpressionUUID->"20cab1d9-26ca-42d8-8242-5e958fba8ff7"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 BlackHoleAnalysis provides these equations in different gauges.\
-\>", "Item",ExpressionUUID->"0d10e8e6-4a0c-443a-8b38-8644b0493df3"],
+\>", "Item",ExpressionUUID->"bf0dacdb-8d58-448b-a537-8049f99bc821"],
 
 Cell[BoxData[GridBox[{
    {
@@ -96,9 +96,9 @@ Cell[BoxData[GridBox[{
     Cell["\<\
 returns the 1+1 field equations sourced by a particle in generic motion on \
 Schwarzschild\
-\>", "TableText",ExpressionUUID->"9a39b81b-ebea-4457-a054-85fa40b055e6"]}
+\>", "TableText",ExpressionUUID->"ef1aac45-78f8-4575-b066-7f72622e513c"]}
   }]], "DefinitionBox",
- CellID->27847004,ExpressionUUID->"14bcadcd-d9ea-4cee-8500-a171b11f703f"]
+ CellID->27847004,ExpressionUUID->"cb180a0c-a62d-43c3-ac90-ae7098ae28da"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -110,22 +110,22 @@ Poisson (",
     URL["https://arxiv.org/abs/gr-qc/0502028"], None},
   ButtonNote->"https://arxiv.org/abs/gr-qc/0502028"],
  ")."
-}], "Item",ExpressionUUID->"b75849a2-f8a0-45c5-91ff-64ede774a39b"],
+}], "Item",ExpressionUUID->"46c086cd-716f-4eea-b64e-b26187a96104"],
 
 Cell["\<\
 Source terms are subtracted to the LHS, so each equation implicitly equals \
 zero.\
-\>", "Item",ExpressionUUID->"92c057b8-74bb-4a30-9246-afc7fa89455e"],
+\>", "Item",ExpressionUUID->"f035a6b8-d0fc-4262-b1d4-19bbd6da5e28"],
 
 Cell["\<\
 FieldEquations can return many different forms of the equations.\
-\>", "Item",ExpressionUUID->"adf1b154-815c-4dab-95dc-e0787d0638de"],
+\>", "Item",ExpressionUUID->"84e76c31-9e08-4e3d-93a4-126ccb6e54c7"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 The form is determined by the various options that are available.\
-\>", "Item",ExpressionUUID->"087e2576-5756-45f5-ae49-223aaf4ad1a0"],
+\>", "Item",ExpressionUUID->"585b19df-4b4e-4f62-b116-92cf6a148430"],
 
 Cell[BoxData[GridBox[{
    {"Gauge", 
@@ -146,7 +146,7 @@ Cell[BoxData[GridBox[{
    {"Mode", Cell["\<\
 l mode, restricting equations by which harmonic amplitudes are defined, \
 (\"Radiative\", \"Dipole\", or \"Monopole\")\
-\>", "TableText",ExpressionUUID->"1220d9f8-0cc7-4e87-a00d-48c0899cca1c"]},
+\>", "TableText",ExpressionUUID->"2085c1ad-a525-4bdc-b4d0-c332a0202220"]},
    {"Parity", 
     RowBox[{
      RowBox[{"Which", " ", "parity", " ", "to", " ", "include"}], ",", 
@@ -175,7 +175,7 @@ l mode, restricting equations by which harmonic amplitudes are defined, \
      "form"}]}
   }]], "DefinitionBox",
  CellChangeTimes->{{3.74127813204821*^9, 3.7412781322574043`*^9}},
- CellID->827635554,ExpressionUUID->"b52b3a14-25cf-493b-9d8f-42d17cc2258b"]
+ CellID->827635554,ExpressionUUID->"043e12b6-844b-473a-8204-3c962e6468b2"]
 }, Open  ]]
 }, Open  ]],
 
@@ -183,24 +183,23 @@ Cell[CellGroupData[{
 
 Cell["Full field equations", "Section",
  CellChangeTimes->{{3.74127709736344*^9, 
-  3.741277106077404*^9}},ExpressionUUID->"2caae022-df36-4e59-8d63-\
-a0de0edac99b"],
+  3.741277106077404*^9}},ExpressionUUID->"ae94d1f0-0023-4281-9c60-\
+e301176da89f"],
 
 Cell[CellGroupData[{
 
 Cell["RWZ gauge equations", "Subsection",
  CellChangeTimes->{{3.741277127243186*^9, 3.741277131046628*^9}, {
   3.7412777638235083`*^9, 
-  3.7412777645065327`*^9}},ExpressionUUID->"658ff2a2-d796-4944-b5d1-\
-76d99d408dfb"],
+  3.7412777645065327`*^9}},ExpressionUUID->"8378dd67-2666-453f-b74b-\
+d24b14d81589"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"FieldEquations", "[", "]"}], "//", "TableForm"}]], "Input",
- CellLabel->
-  "(Local) In[2]:=",ExpressionUUID->"f70781c7-0076-4305-8c27-2b2bb26fbf18"],
+ CellLabel->"In[2]:=",ExpressionUUID->"55b0718c-519d-4abb-ad29-3858a06d9a8d"],
 
 Cell[BoxData[
  TagBox[
@@ -1146,8 +1145,8 @@ SuperscriptBox]]\\)\"\>", "[",
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "(Local) Out[2]//TableForm=",ExpressionUUID->"77c09f40-8e8e-4852-bb08-\
-ee7cbcef4eaa"]
+  "Out[2]//TableForm=",ExpressionUUID->"b0d85157-de52-4156-b4bd-1004e1a97e18"]\
+
 }, Open  ]]
 }, Open  ]],
 
@@ -1155,8 +1154,8 @@ Cell[CellGroupData[{
 
 Cell["Lorenz gauge equations", "Subsection",
  CellChangeTimes->{{3.741277135003914*^9, 
-  3.74127714037532*^9}},ExpressionUUID->"8665c047-dcfc-4f9a-8d0d-\
-ae3d968e5b79"],
+  3.74127714037532*^9}},ExpressionUUID->"570d2e4b-074e-4d85-a0a3-\
+c03ed59dcb7f"],
 
 Cell[CellGroupData[{
 
@@ -1166,8 +1165,7 @@ Cell[BoxData[
    RowBox[{"Gauge", "\[Rule]", "\"\<Lorenz\>\""}], "]"}], "//", 
   "TableForm"}]], "Input",
  CellChangeTimes->{{3.741277148719243*^9, 3.74127715207835*^9}},
- CellLabel->
-  "(Local) In[3]:=",ExpressionUUID->"68f361a1-915f-4d9d-8f2b-6266c1606c5d"],
+ CellLabel->"In[3]:=",ExpressionUUID->"85a7d6ab-2fd1-419b-b07e-f454a9a9a3da"],
 
 Cell[BoxData[
  TagBox[
@@ -2793,8 +2791,8 @@ SuperscriptBox]]\\)\"\>", "[",
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "(Local) Out[3]//TableForm=",ExpressionUUID->"23086739-505b-44f2-ae20-\
-aa0752086852"]
+  "Out[3]//TableForm=",ExpressionUUID->"760f1b1a-a9d5-4ca8-9270-ba01d1315cd5"]\
+
 }, Open  ]]
 }, Open  ]],
 
@@ -2802,8 +2800,8 @@ Cell[CellGroupData[{
 
 Cell["Gauge undefined", "Subsection",
  CellChangeTimes->{{3.7412774476384897`*^9, 
-  3.7412774501770267`*^9}},ExpressionUUID->"098187d6-f96b-4f30-8f92-\
-4414c6c0a0dc"],
+  3.7412774501770267`*^9}},ExpressionUUID->"d97da526-b7a3-4a29-98c9-\
+31f0e43f58b2"],
 
 Cell[CellGroupData[{
 
@@ -2816,8 +2814,7 @@ Cell[BoxData[
    3.741277258218586*^9, {3.741277290030921*^9, 3.741277310759791*^9}, {
    3.7412773970593576`*^9, 3.7412774284507723`*^9}, {3.741277459218801*^9, 
    3.741277460561225*^9}},
- CellLabel->
-  "(Local) In[4]:=",ExpressionUUID->"47dfe89c-bc10-4827-8605-ea7806c96d9c"],
+ CellLabel->"In[4]:=",ExpressionUUID->"20f3b32e-f56b-4bfa-bc8a-d2d7b26562d2"],
 
 Cell[BoxData[
  TagBox[
@@ -7600,8 +7597,8 @@ Rule[SyntaxForm, SuperscriptBox]]\\)\"\>",
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "(Local) Out[4]//TableForm=",ExpressionUUID->"1f9da446-363e-4d06-bb74-\
-afc2ab807a14"]
+  "Out[4]//TableForm=",ExpressionUUID->"d3b8ac49-f88b-4209-9328-3d030813c879"]\
+
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -7610,22 +7607,22 @@ Cell[CellGroupData[{
 
 Cell["Low-order modes", "Section",
  CellChangeTimes->{{3.741277480144795*^9, 
-  3.741277483858638*^9}},ExpressionUUID->"31370d09-4741-4cb4-8234-\
-e4a14bd9506b"],
+  3.741277483858638*^9}},ExpressionUUID->"97b5d87c-6120-4c71-a019-\
+e8d733eb5234"],
 
 Cell[CellGroupData[{
 
 Cell["Dipole", "Subsection",
  CellChangeTimes->{{3.74127749338866*^9, 
-  3.741277494283761*^9}},ExpressionUUID->"b5953360-5f0c-4447-9537-\
-9c16b097702d"],
+  3.741277494283761*^9}},ExpressionUUID->"58986012-51bb-4f72-925e-\
+b45a42fc3956"],
 
 Cell[CellGroupData[{
 
 Cell["RWZ gauge", "Subsubsection",
  CellChangeTimes->{{3.7412775155147943`*^9, 
-  3.7412775178477087`*^9}},ExpressionUUID->"ca8453e6-aaf7-4ee2-8748-\
-730cb34db8eb"],
+  3.7412775178477087`*^9}},ExpressionUUID->"d97b9164-22e5-4a32-b8c3-\
+1fb5375d3341"],
 
 Cell[CellGroupData[{
 
@@ -7635,8 +7632,7 @@ Cell[BoxData[
    RowBox[{"Mode", "\[Rule]", "\"\<Dipole\>\""}], "]"}], "//", 
   "TableForm"}]], "Input",
  CellChangeTimes->{{3.7412774869296417`*^9, 3.741277506697097*^9}},
- CellLabel->
-  "(Local) In[5]:=",ExpressionUUID->"2bd95f69-516b-4995-b9bb-c19103a1d781"],
+ CellLabel->"In[5]:=",ExpressionUUID->"babee878-bb28-4a94-a492-50be9d0bcbb2"],
 
 Cell[BoxData[
  TagBox[
@@ -8210,8 +8206,8 @@ SuperscriptBox]]\\)\"\>",
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "(Local) Out[5]//TableForm=",ExpressionUUID->"9f52e234-3e66-4f39-84ec-\
-4d0545990dc1"]
+  "Out[5]//TableForm=",ExpressionUUID->"b039f21c-2620-494c-971f-11154290a87d"]\
+
 }, Open  ]]
 }, Open  ]],
 
@@ -8219,8 +8215,8 @@ Cell[CellGroupData[{
 
 Cell["Lorenz gauge", "Subsubsection",
  CellChangeTimes->{{3.7412775200391417`*^9, 
-  3.741277521617592*^9}},ExpressionUUID->"9398542c-46a7-4319-b99e-\
-0beb4651b5cd"],
+  3.741277521617592*^9}},ExpressionUUID->"43e83c40-0877-4790-b4d6-\
+3a1b9e90c1e1"],
 
 Cell[CellGroupData[{
 
@@ -8232,8 +8228,7 @@ Cell[BoxData[
     RowBox[{"Mode", "\[Rule]", "\"\<Dipole\>\""}]}], "]"}], "//", 
   "TableForm"}]], "Input",
  CellChangeTimes->{{3.741277525365882*^9, 3.741277530423015*^9}},
- CellLabel->
-  "(Local) In[6]:=",ExpressionUUID->"c74900a6-72dd-4a18-9944-824dbfbf65b3"],
+ CellLabel->"In[6]:=",ExpressionUUID->"133d0334-f542-44b0-909a-1bee900a53d0"],
 
 Cell[BoxData[
  TagBox[
@@ -9531,8 +9526,8 @@ SuperscriptBox]]\\)\"\>", "[",
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "(Local) Out[6]//TableForm=",ExpressionUUID->"64dfe2b9-d033-4b1c-b5df-\
-00a35dfd2694"]
+  "Out[6]//TableForm=",ExpressionUUID->"91002d72-b390-4246-ad27-c669dc3156d7"]\
+
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -9542,15 +9537,15 @@ Cell[CellGroupData[{
 Cell["Monopole", "Subsection",
  CellChangeTimes->{{3.74127749338866*^9, 3.741277494283761*^9}, {
   3.741277545963821*^9, 
-  3.741277547308297*^9}},ExpressionUUID->"25101b55-7e3b-4746-bde5-\
-1d695ed268bb"],
+  3.741277547308297*^9}},ExpressionUUID->"beba8ed0-e4ff-4d2e-8c9f-\
+e5da4359bb21"],
 
 Cell[CellGroupData[{
 
 Cell["RWZ gauge", "Subsubsection",
  CellChangeTimes->{{3.7412775155147943`*^9, 
-  3.7412775178477087`*^9}},ExpressionUUID->"e2e9dc7f-d09c-4736-86e5-\
-ccc420cebb8f"],
+  3.7412775178477087`*^9}},ExpressionUUID->"d63a3854-4242-4d17-9f20-\
+8ef77464d563"],
 
 Cell[CellGroupData[{
 
@@ -9561,8 +9556,7 @@ Cell[BoxData[
   "TableForm"}]], "Input",
  CellChangeTimes->{{3.7412774869296417`*^9, 3.741277506697097*^9}, {
   3.7412775535134373`*^9, 3.7412775547621193`*^9}},
- CellLabel->
-  "(Local) In[7]:=",ExpressionUUID->"3daf2ab5-7b68-44fc-8e7b-753048925980"],
+ CellLabel->"In[7]:=",ExpressionUUID->"5d4375c9-3824-4a1c-8c4f-c72702979c76"],
 
 Cell[BoxData[
  TagBox[
@@ -9841,8 +9835,8 @@ SuperscriptBox]]\\)\"\>",
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "(Local) Out[7]//TableForm=",ExpressionUUID->"75841a51-5c25-43cf-b2f7-\
-390da56a3b34"]
+  "Out[7]//TableForm=",ExpressionUUID->"482c6d71-feef-46a1-b104-5bc535949869"]\
+
 }, Open  ]]
 }, Open  ]],
 
@@ -9850,8 +9844,8 @@ Cell[CellGroupData[{
 
 Cell["Lorenz gauge", "Subsubsection",
  CellChangeTimes->{{3.7412775200391417`*^9, 
-  3.741277521617592*^9}},ExpressionUUID->"6938bcdc-b3df-4602-bf52-\
-bf542be6c9b3"],
+  3.741277521617592*^9}},ExpressionUUID->"216c045c-c0a7-4a2c-a69f-\
+db2bd5d8be6b"],
 
 Cell[CellGroupData[{
 
@@ -9863,8 +9857,7 @@ Cell[BoxData[
     RowBox[{"Mode", "\[Rule]", "\"\<Monopole\>\""}]}], "]"}], "//", 
   "TableForm"}]], "Input",
  CellChangeTimes->{{3.741277525365882*^9, 3.74127755785828*^9}},
- CellLabel->
-  "(Local) In[8]:=",ExpressionUUID->"a58e6671-d0b2-4b25-960e-e573bc138821"],
+ CellLabel->"In[8]:=",ExpressionUUID->"c0effb60-ab41-4163-9b78-47d839664e04"],
 
 Cell[BoxData[
  TagBox[
@@ -10572,8 +10565,8 @@ Rule[SyntaxForm, SuperscriptBox]]\\)\"\>",
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "(Local) Out[8]//TableForm=",ExpressionUUID->"04565457-aa0e-4527-aa0e-\
-3df11c6687f1"]
+  "Out[8]//TableForm=",ExpressionUUID->"1b40cf3b-9999-46d9-bebb-7d3148dea666"]\
+
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -10583,16 +10576,22 @@ Cell[CellGroupData[{
 
 Cell["Gauge transformation equation", "Section",
  CellChangeTimes->{{3.741277797923669*^9, 
-  3.741277803331786*^9}},ExpressionUUID->"fd0b24a6-35da-43d8-83c7-\
-d7ee89cda03c"],
+  3.741277803331786*^9}},ExpressionUUID->"1251deb2-f0fa-40aa-8bbb-\
+2a423847d218"],
+
+Cell[CellGroupData[{
+
+Cell["Gauge transformation equations are built in", "Item",
+ CellChangeTimes->{{3.741350203803615*^9, 
+  3.7413502115253763`*^9}},ExpressionUUID->"71b0dfe7-a9f9-4c27-b8a1-\
+e4e10fea0e83"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "GaugeTransformationEquations"}]], "Input",
  CellChangeTimes->{{3.741277805110834*^9, 3.741277811366943*^9}},
- CellLabel->
-  "(Local) In[9]:=",ExpressionUUID->"a75950bc-74a5-46ab-91ea-c41b176d52d0"],
+ CellLabel->"In[9]:=",ExpressionUUID->"bf04fa78-1442-4f40-8de7-7dbc396885ec"],
 
 Cell[BoxData[
  RowBox[{"\<\"GaugeTransformationEquations[] returns the metric perturbation \
@@ -10606,8 +10605,8 @@ Lorenz gauge.\"\>", "\[NonBreakingSpace]",
     "paclet:BlackHoleAnalysis/ref/GaugeTransformationEquations"]}]], "Print", \
 "PrintUsage",
  CellTags->
-  "Info93741340355-4539924",ExpressionUUID->"a2652aec-3785-40b1-a8e6-\
-fbc2d36db3c6"]
+  "Info93741357156-9892469",ExpressionUUID->"571a07c3-d590-42f4-b0ae-\
+8a2c17f48e06"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -10617,8 +10616,7 @@ Cell[BoxData[
   RowBox[{"GaugeTransformationEquations", "[", "]"}], "//", 
   "TableForm"}]], "Input",
  CellChangeTimes->{{3.741277815911924*^9, 3.7412778214158487`*^9}},
- CellLabel->
-  "(Local) In[10]:=",ExpressionUUID->"31ab831f-c0b3-4031-ae80-f8965e041992"],
+ CellLabel->"In[10]:=",ExpressionUUID->"b0931f87-ebf9-4cf2-8e7a-5907298c5192"],
 
 Cell[BoxData[
  TagBox[
@@ -11165,8 +11163,103 @@ SuperscriptBox]]\\)\"\>", "[",
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "(Local) Out[10]//TableForm=",ExpressionUUID->"9e4d42e0-63b6-43da-bfb5-\
-c71ae028beaa"]
+  "Out[10]//TableForm=",ExpressionUUID->"ea309e71-3edf-4e03-bfc7-b34768c46b03"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+There are also push equations for how each MP amplitude changes\
+\>", "Item",
+ CellChangeTimes->{{3.741350218676257*^9, 
+  3.741350233327936*^9}},ExpressionUUID->"594ff826-973a-42d8-870f-\
+154aa201f76a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "HttPush"}]], "Input",
+ CellChangeTimes->{{3.7413502342828703`*^9, 3.741350236497753*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"c2351511-dd2e-4d64-a305-fb6e37c9835f"],
+
+Cell[BoxData[
+ RowBox[{"\<\"HttPush[] returns the change in the metric perturbation \
+amplitude h_tt as it is pushed between two Options-specifiable gauges.\"\>", 
+  "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:BlackHoleAnalysis/ref/HttPush"]}]], "Print", "PrintUsage",
+ CellTags->
+  "Info113741357156-9892469",ExpressionUUID->"3a787f56-af72-4122-8a13-\
+70b9da612663"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Options", "@", "HttPush"}]], "Input",
+ CellChangeTimes->{{3.741350254588148*^9, 3.7413502557084846`*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"751693f5-a1f2-47ca-a65b-8ee51e20993f"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\<\"Mode\"\>", "\[Rule]", "\<\"Radiative\"\>"}], ",", 
+   RowBox[{"\<\"Weak\"\>", "\[Rule]", "False"}], ",", 
+   RowBox[{"\<\"InitialGauge\"\>", "\[Rule]", "\<\"RWZ\"\>"}], ",", 
+   RowBox[{"\<\"FinalGauge\"\>", "\[Rule]", "\<\"Lorenz\"\>"}], ",", 
+   RowBox[{"\<\"Expand\"\>", "\[Rule]", "False"}]}], "}"}]], "Output",
+ CellLabel->
+  "Out[12]=",ExpressionUUID->"72a81e55-0d5d-41d7-abb7-c06ff45fb142"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"HttPush", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.74135023781947*^9, 3.7413502432738857`*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"ba103767-7358-44ef-ac4b-749648f098a3"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"-", "2"}], " ", 
+   RowBox[{
+    SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\
+\\(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\
+\\\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"t\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", 
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{"1", ",", "0"}], ")"}],
+      Derivative],
+     MultilineFunction->None], "[", 
+    RowBox[{"t", ",", "r"}], "]"}]}], "+", 
+  FractionBox[
+   RowBox[{"2", " ", "M", " ", 
+    RowBox[{"(", 
+     RowBox[{"1", "-", 
+      FractionBox[
+       RowBox[{"2", " ", "M"}], "r"]}], ")"}], " ", 
+    RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\
+\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\
+\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"r\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+     RowBox[{"t", ",", "r"}], "]"}]}], 
+   SuperscriptBox["r", "2"]]}]], "Output",
+ CellLabel->
+  "Out[13]=",ExpressionUUID->"d9007a98-416a-4090-a58d-da774af27df3"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]],
 
@@ -11209,43 +11302,49 @@ Cell["", "RelatedTutorialsSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
    None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"0ae415f2-8ac7-495a-a6e8-eb3752438294"],
+  0,ExpressionUUID->"0e3d87ff-c647-4f1b-8f4a-ae24e5fe1e89"],
 
 Cell[TextData[ButtonBox["Source terms",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Source terms"]], \
-"RelatedTutorials",ExpressionUUID->"1e1476b0-a0c9-48cf-be40-bad3dbcaf587"],
+"RelatedTutorials",ExpressionUUID->"8acfeee4-cd0a-410d-8290-5f975a24bdad"],
 
 Cell[TextData[ButtonBox["Time domain amplitudes",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Time domain amplitudes"]], \
-"RelatedTutorials",ExpressionUUID->"8ce31233-ba5a-4069-972a-4d7d3f12ced3"],
+"RelatedTutorials",ExpressionUUID->"98789ba7-052a-430d-a86d-1e71b7c49982"],
+
+Cell[TextData[ButtonBox["Conventions",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:BlackHoleAnalysis/tutorial/Conventions"]], \
+"RelatedTutorials",ExpressionUUID->"5e383626-2e80-4500-9453-70792ffb62de"],
 
 Cell[TextData[ButtonBox["Examples",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Examples"]], \
-"RelatedTutorials",ExpressionUUID->"fc67c1fc-b1ea-4dad-97aa-722cd6bd3ba2"],
+"RelatedTutorials",ExpressionUUID->"5d0c8e9e-295f-40a3-8d16-3da9422868df"],
 
 Cell[TextData[ButtonBox["Weak functions",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Weak functions"]], \
-"RelatedTutorials",ExpressionUUID->"a2b85f4b-f9a0-4160-8230-668d9e29ccdc"],
+"RelatedTutorials",ExpressionUUID->"4bf4360a-61df-4423-abab-d02a1a26d839"],
 
 Cell[TextData[ButtonBox["Using labels to act on groups of variables",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Using labels to act on groups of \
 variables"]], \
-"RelatedTutorials",ExpressionUUID->"999bc5d9-da1a-4016-ac93-ac6db709b333"]
+"RelatedTutorials",ExpressionUUID->"ad8137b2-276f-4719-85d3-1be2b281a07d"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[" ", \
-"FooterCell",ExpressionUUID->"742304b6-718b-4740-8909-276998a14eaf"]
+"FooterCell",ExpressionUUID->"321a185b-08a8-42fa-a062-e425de6a8f5e"]
 },
 Saveable->False,
 ScreenStyleEnvironment->"Working",

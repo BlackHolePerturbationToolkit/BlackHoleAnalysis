@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"96450136-86eb-4ba6-90eb-2d4b301bbe89"],
+   0}},ExpressionUUID->"53f10d27-6fd3-4012-b377-fa6ee345f597"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["RadialTeukolskyFunction",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/RadialTeukolskyFunction"]
-}], "LinkTrail",ExpressionUUID->"b87b2c69-76e7-42e2-8d35-0ceac7e85a05"],
+}], "LinkTrail",ExpressionUUID->"42a6643f-440a-4043-a09a-9b95c5cc9962"],
 
 Cell[CellGroupData[{
 
 Cell["RadialTeukolskyFunction", \
-"ObjectName",ExpressionUUID->"e70b78ef-3330-4dee-a6ad-bced33b7cc43"],
+"ObjectName",ExpressionUUID->"c722ffc9-57ed-4e49-9772-1ade69acc6d5"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -30,11 +30,11 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/RadialTeukolskyFunction"], 
        "[", "]"}]], "InlineFormula",ExpressionUUID->
-      "57f927b6-689c-41ab-9f01-f9553962bd0b"],
+      "d4093a74-e6de-4200-b84f-427f6518dcb2"],
      "\[LineSeparator]returns the radial Teukolsky function in symbolic \
 form."
-    }],ExpressionUUID->"6dba2aeb-de4d-4a37-9167-a079c49e1561"]}
-  }]], "Usage",ExpressionUUID->"a0d1295c-9325-46ba-aacf-0a3af54f9b1e"]
+    }],ExpressionUUID->"1d70f4c8-0e09-49f0-a5e4-55485407f39e"]}
+  }]], "Usage",ExpressionUUID->"77db71a5-0295-4822-805a-c64a31e01fed"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -80,23 +80,23 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"1e74c2c4-0666-40fc-a42c-9181ed135674"],
+  0,ExpressionUUID->"2affcc10-9add-4de9-aa9a-a88da343b9d0"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"d82d476c-0a7b-4d5e-abe4-babb59f8a253"],
+"Notes",ExpressionUUID->"f2b82c46-f602-49b4-9d97-85be22c7e431"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "cd4bbe47-ee74-4169-88f2-c8295273eb92"], "ReturnSymbol", "False", 
+     "8a4ce9ec-237d-496c-a6e6-62eff4700504"], "ReturnSymbol", "False", 
     Cell["\<\
 Boolean stating whether to only return the symbol of the field (with no \
 arguments)\
-\>", "TableText",ExpressionUUID->"6cf90baf-8161-4ac6-8adc-40c84cf1980f"]},
+\>", "TableText",ExpressionUUID->"aff0053a-bf26-4067-9bc8-6ffdfcbc91ff"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "2094c0b7-36d7-4cb3-a9fb-92a027f35417"], "SpinWeight", 
+     "2c31469f-3e60-4724-8ec5-86a8ddd09821"], "SpinWeight", 
     RowBox[{"-", "2"}], Cell["\<\
 Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
-\>", "TableText",ExpressionUUID->"f7bd9a84-8036-48b7-831c-f18593c132c7"]}
+\>", "TableText",ExpressionUUID->"9fe470fb-7660-494d-8b2c-18aa0e1e3599"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -108,14 +108,14 @@ Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
  GridBoxDividers->{
   "Rows" -> {{
      True, True, 
-      True}}}},ExpressionUUID->"2a274d2b-fcd0-4ec5-9126-27bf30ec01e5"]
+      True}}}},ExpressionUUID->"70ef0c36-9a8d-46c4-be1a-582b5eb882e0"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"ac77b9f0-40b4-4662-a216-8872cae7ced3"],
+Cell[" ", "FooterCell",ExpressionUUID->"29de060c-4582-4b33-9616-4775a784e1f0"],
 
-Cell[BoxData[""],ExpressionUUID->"1a7660e2-57cf-45aa-8035-c705684cd97c"]
+Cell[BoxData[""],ExpressionUUID->"514a9b8b-a144-41db-874b-e1def29f0827"]
 }, Open  ]]
 },
 Saveable->False,

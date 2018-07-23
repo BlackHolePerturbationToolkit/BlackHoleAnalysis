@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"6b7495f9-e871-4fbb-82b1-ef107b07f149"],
+   0}},ExpressionUUID->"57be844a-be49-48ef-a4c1-f8f7eb7b390a"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["FSource",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/FSource"]
-}], "LinkTrail",ExpressionUUID->"99780e56-854e-4adc-95a8-2e90c36a4552"],
+}], "LinkTrail",ExpressionUUID->"07e6ece0-8178-4949-9835-471aabfa65e0"],
 
 Cell[CellGroupData[{
 
 Cell["FSource", \
-"ObjectName",ExpressionUUID->"0d7d670b-3425-4cdb-b961-d6f7bc383596"],
+"ObjectName",ExpressionUUID->"fb96b47b-bf7b-4f5f-9388-ea67c3667059"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -29,12 +29,12 @@ Cell[BoxData[GridBox[{
        ButtonBox["FSource",
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/FSource"], "[", "]"}]], 
-      "InlineFormula",ExpressionUUID->"ad3eacf9-f447-4751-875b-9e968571322a"],
+      "InlineFormula",ExpressionUUID->"c2f33fe4-ba61-4a5b-91cb-6a82e0844209"],
      
      "\[LineSeparator]returns the source F-tilde term of the master equation \
 source term in symbolic form."
-    }],ExpressionUUID->"d772367f-b167-4bb9-9628-5ed6bdaba9b9"]}
-  }]], "Usage",ExpressionUUID->"cacf5b20-7752-4ff8-a769-2663b5f824e5"]
+    }],ExpressionUUID->"0adddb68-2c7c-441d-bdd1-93a72bba6aa7"]}
+  }]], "Usage",ExpressionUUID->"0b258f4c-284c-4254-9fcf-ed925ff92d4a"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -80,32 +80,32 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"e2c29674-1360-411d-a7a5-ee5f09b9b1d7"],
+  0,ExpressionUUID->"1e1c9b96-eed1-469c-b7e5-e22aec894c1c"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"02ba69aa-be4a-43a3-8a7b-0f79d8def4f4"],
+"Notes",ExpressionUUID->"db5cee4e-7e0b-4f3a-bf94-425fab7dbd34"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "ecf998dc-1422-45eb-962a-316cf8fa9800"], "Parity", "Default", Cell["\<\
+     "db9eed09-c7a5-4a2f-93ac-a4f3a6859a46"], "Parity", "Default", Cell["\<\
 Parity of the master function (Default, \"Even\", or \"Odd\"). Choosing \
 Default allows \"Parity\" to be set by the \"Variable\" Option. When both \
 Options are Default, the \"Parity\" is \"Even\".\
-\>", "TableText",ExpressionUUID->"42ce19e1-bd7a-4bb9-a37c-c3e9df1f1be6"]},
+\>", "TableText",ExpressionUUID->"a288e9fc-0768-451f-9471-9c41107bd60f"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "3a2efa03-1ece-4205-9435-66cbde60558c"], "SourceExpansion", "Partial", 
+     "b9f8aed7-3179-4960-b911-d4ef63b80f1b"], "SourceExpansion", "Partial", 
     Cell["\<\
 States to what extent source terms should be expanded, (\"Full\", \
 \"Partial\", or \"None\")\
-\>", "TableText",ExpressionUUID->"e39c54f5-0a3f-4dc2-987d-f8e0be54d7f1"]},
+\>", "TableText",ExpressionUUID->"91f0ddab-7fe9-439b-bb1c-b7d98d4b8b9a"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "37462599-8682-4db3-8f7e-1bf4168eea0c"], "Variable", "Default", 
+     "e2c7c68e-6962-4f69-8c42-6b8ddb03c7f3"], "Variable", "Default", 
     Cell["\<\
 The specific master function variable to use (Default, \"ZM\", \"ZM1\", ... \
 \"ZM7\" and \"CPM\", \"CPM1\", ... \"CPM6\"). Choosing Default is equivalent \
 to \"ZM\" when \"Parity\"->\"Even\" and \"CPM\" when \"Parity\"->\"Odd\". \
 When both Options are Default, the \"Parity\" is \"Even\".\
-\>", "TableText",ExpressionUUID->"90130e5f-9525-4267-ba41-97e31c1a58e8"]}
+\>", "TableText",ExpressionUUID->"b46eed56-e424-4578-b914-1c6f4fc236de"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -117,14 +117,14 @@ When both Options are Default, the \"Parity\" is \"Even\".\
  GridBoxDividers->{
   "Rows" -> {{
      True, True, True, 
-      True}}}},ExpressionUUID->"c7f0df0d-d82b-422d-9f05-2798978bf76c"]
+      True}}}},ExpressionUUID->"d530d922-880e-407e-959b-91985594c6d1"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"69ee3124-2b3e-4dea-b84c-8282a37184ae"],
+Cell[" ", "FooterCell",ExpressionUUID->"0d6df02f-2d2e-4073-a415-67a4e503ced4"],
 
-Cell[BoxData[""],ExpressionUUID->"45e24f19-6761-42b6-97a6-0425476eca81"]
+Cell[BoxData[""],ExpressionUUID->"d85eca65-fef0-4ff1-aced-f4630f51607a"]
 }, Open  ]]
 },
 Saveable->False,

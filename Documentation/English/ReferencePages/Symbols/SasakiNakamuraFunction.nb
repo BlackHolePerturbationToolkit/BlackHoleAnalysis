@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"99325c64-b933-4708-8e95-f1550d4f9b73"],
+   0}},ExpressionUUID->"5d875e85-7871-40ac-be0f-6498862ff6ab"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["SasakiNakamuraFunction",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/SasakiNakamuraFunction"]
-}], "LinkTrail",ExpressionUUID->"05193c28-7b79-4afc-9207-e7e2bdc27f66"],
+}], "LinkTrail",ExpressionUUID->"606666f1-f75b-4144-8495-d947371cc044"],
 
 Cell[CellGroupData[{
 
 Cell["SasakiNakamuraFunction", \
-"ObjectName",ExpressionUUID->"2283ccbf-437c-4552-b1d1-b5209fd6573c"],
+"ObjectName",ExpressionUUID->"63441b70-a35c-493e-8993-bae3e089fac4"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -30,10 +30,10 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/SasakiNakamuraFunction"], 
        "[", "]"}]], "InlineFormula",ExpressionUUID->
-      "d82af175-fde3-430b-a16f-50826b4ca4fa"],
+      "fc4bac40-8838-48c1-9874-af0dcba75a48"],
      "\[LineSeparator]returns the Sasaki-Nakamura function in symbolic form."
-    }],ExpressionUUID->"935bb884-7aea-4a00-9566-e6de8355faa7"]}
-  }]], "Usage",ExpressionUUID->"08a00eb9-b1ed-4ddb-8400-f713d68ae980"]
+    }],ExpressionUUID->"26f20620-f7fe-4fb1-a5b5-9550989bc18e"]}
+  }]], "Usage",ExpressionUUID->"3f790653-0211-4092-8fa9-62eb519d58bc"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -79,23 +79,23 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"2b1f2d9b-197d-421a-a672-ec42c61e9900"],
+  0,ExpressionUUID->"6044a6ab-f85f-4b17-b9ac-8f95523ed75c"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"5d799fbd-8b04-4578-beed-cca187b50de0"],
+"Notes",ExpressionUUID->"7f9a9ace-d20a-4d8b-844c-2993e873fd68"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "65d9d003-fdfb-415e-9755-7b2c7ecd26b7"], "ReturnSymbol", "False", 
+     "12cd94d7-d469-4ca5-946a-e39ed60c44cd"], "ReturnSymbol", "False", 
     Cell["\<\
 Boolean stating whether to only return the symbol of the field (with no \
 arguments)\
-\>", "TableText",ExpressionUUID->"e13f92f8-66c2-49d9-9a66-3cd3ce0590f5"]},
+\>", "TableText",ExpressionUUID->"2f520b6b-64c7-407d-9f96-b67b972f3159"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "8c42060d-bf73-48e2-b068-bc4c38209282"], "SpinWeight", 
+     "ce140c5f-7281-4926-becc-ba09fbda0bd1"], "SpinWeight", 
     RowBox[{"-", "2"}], Cell["\<\
 Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
-\>", "TableText",ExpressionUUID->"8dc0bbf8-fafa-4a6f-95e0-01c66bbaa558"]}
+\>", "TableText",ExpressionUUID->"3945b4dd-3c2f-4734-b68e-1b0950a25670"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -107,14 +107,14 @@ Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
  GridBoxDividers->{
   "Rows" -> {{
      True, True, 
-      True}}}},ExpressionUUID->"87f78684-94cb-4ae5-8c61-e40c341c051f"]
+      True}}}},ExpressionUUID->"2a237be6-686c-4b0f-827f-8cf9ed992ba5"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"2a5690da-b829-439d-8228-b88493eb583f"],
+Cell[" ", "FooterCell",ExpressionUUID->"c7e61e5b-3de4-460a-9dd2-1f40554ac237"],
 
-Cell[BoxData[""],ExpressionUUID->"edd770c0-e795-40d3-862c-c33c46e179df"]
+Cell[BoxData[""],ExpressionUUID->"94f2ed88-8817-4d5f-9a67-c17ac2cfd570"]
 }, Open  ]]
 },
 Saveable->False,

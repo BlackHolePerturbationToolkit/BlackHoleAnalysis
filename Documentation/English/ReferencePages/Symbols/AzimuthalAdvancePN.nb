@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"4d60a9e6-b7c0-4793-9afc-b23e93ac87ca"],
+   0}},ExpressionUUID->"8b1e5514-9612-4f3b-aa8d-d0ea11b1bf06"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["AzimuthalAdvancePN",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/AzimuthalAdvancePN"]
-}], "LinkTrail",ExpressionUUID->"0a8def95-6892-4401-9c1e-ae69220b3a4b"],
+}], "LinkTrail",ExpressionUUID->"4e6faf55-608a-48ca-bff4-76e003a878b0"],
 
 Cell[CellGroupData[{
 
 Cell["AzimuthalAdvancePN", \
-"ObjectName",ExpressionUUID->"f846992e-c444-4145-8cd1-e978dcff49ca"],
+"ObjectName",ExpressionUUID->"42da4ca5-6dea-424d-802a-a71bc1e62026"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -30,12 +30,12 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/AzimuthalAdvancePN"], "[", 
        "]"}]], "InlineFormula",ExpressionUUID->
-      "75cb6c99-1940-4cad-93ac-723136564662"],
+      "d42613be-a8e4-4fc4-a589-1aa2acb9ab14"],
      "\[LineSeparator]returns the total azimuthal advance during one radial \
 libration of a particle in an eccentric orbit around a Schwarzschild black \
 hole, expanded to 1 term using the inverse of p, the semi-latus rectum, as \
 the expansion parameter."
-    }],ExpressionUUID->"8784170e-58eb-466d-927d-7ca239554fd4"]},
+    }],ExpressionUUID->"40896497-12ee-4fef-ab19-fd7532a9ccbf"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -43,9 +43,9 @@ the expansion parameter."
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/AzimuthalAdvancePN"], "[", 
        StyleBox["n", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
-      "6cb5021d-4489-45a1-b5bb-6e2c07c667e0"],
+      "83b6e813-0ff1-4092-84bc-6becefce53e7"],
      "\[LineSeparator]returns the azimuthal advance expanded to n terms."
-    }],ExpressionUUID->"058e340e-b1b4-4392-98d5-38179db13a8e"]},
+    }],ExpressionUUID->"57e127a9-a529-49fa-820c-6dbe4a236799"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -53,10 +53,10 @@ the expansion parameter."
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/AzimuthalAdvancePN"], "[", 
        StyleBox["par", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
-      "03201a89-25a7-481b-8c3f-eb9bd5be83ce"],
+      "f4c798b8-7a2d-434d-96e2-26d64b706b95"],
      "\[LineSeparator]returns the azimuthal advance expanded to 1 term, using \
 par (\"p\" or \"x\") as the expansion parameter."
-    }],ExpressionUUID->"9bd9cd0d-7f83-4d27-a62f-3d075f9d1dc4"]},
+    }],ExpressionUUID->"4cfe01ff-93cd-432b-871f-e30f9bf5a278"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -65,11 +65,11 @@ par (\"p\" or \"x\") as the expansion parameter."
         ButtonData->"paclet:BlackHoleAnalysis/ref/AzimuthalAdvancePN"], "[", 
        StyleBox[
         RowBox[{"n", ",", "par"}], "TI"], "]"}]], "InlineFormula",
-      ExpressionUUID->"9d61a034-9a07-451f-b32c-74011f6db458"],
+      ExpressionUUID->"689f08f4-b7b9-4601-aa44-ec611ea03cfb"],
      "\[LineSeparator]returns the azimuthal advance expanded to n terms, \
 using par (\"p\" or \"x\") as the expansion parameter."
-    }],ExpressionUUID->"70706a73-f08b-4c17-bef3-55e30a9c7e0d"]}
-  }]], "Usage",ExpressionUUID->"09e6c52b-a3e6-4e3e-b6cf-1bc80f3ab603"]
+    }],ExpressionUUID->"a20459f3-81b8-4aae-81c9-8846bb341577"]}
+  }]], "Usage",ExpressionUUID->"ff643a98-319a-4262-a9c5-97b6d883284d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -115,17 +115,17 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"97023b27-110f-43d2-8dee-ddb20239e4fe"],
+  0,ExpressionUUID->"4c307ad1-65f2-4902-a44f-bcfff254fe48"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"7d2455f1-f844-4966-83ff-8ac229148861"],
+"Notes",ExpressionUUID->"5a8411ff-f758-4435-ad41-36961b1fdeff"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "ddf32fe7-e702-4435-a31b-d52a5eb8ab54"], "Metric", "Schwarzschild", 
+     "a9ceb399-6f56-49d1-9fc8-f3c68af9f5a1"], "Metric", "Schwarzschild", 
     Cell["\<\
 Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
-\>", "TableText",ExpressionUUID->"e3c75fbe-7281-4c06-a891-8c980ed09d91"]}
+\>", "TableText",ExpressionUUID->"3b3359ff-4bd5-4cb1-bbbd-23ef617c752d"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -136,14 +136,14 @@ Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"5c0e4fc4-5012-4e10-83d3-e567f3c65846"]
+     True, True}}}},ExpressionUUID->"0ca93efa-5700-4ca1-a80a-f04934fdf3d1"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"3e56e8bd-e36f-4b3b-b9ac-a832c7e76cab"],
+Cell[" ", "FooterCell",ExpressionUUID->"7eb3b7dd-c3e9-4f88-8a3d-09124cac9df5"],
 
-Cell[BoxData[""],ExpressionUUID->"7eee36f7-da0c-4a21-85e6-afeafa46688c"]
+Cell[BoxData[""],ExpressionUUID->"3b1311cd-2aff-4fb8-ad5c-896bbc9de49f"]
 }, Open  ]]
 },
 Saveable->False,

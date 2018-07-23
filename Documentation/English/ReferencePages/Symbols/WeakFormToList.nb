@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"6765db08-19b0-4d14-888d-978b08e2ce89"],
+   0}},ExpressionUUID->"7a78c879-5027-490a-9c7a-d7e7477313fc"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -16,12 +16,12 @@ Cell[TextData[{
  ButtonBox["WeakFormToList",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/WeakFormToList"]
-}], "LinkTrail",ExpressionUUID->"c246787f-e69b-478b-9fc7-8aaa9b741178"],
+}], "LinkTrail",ExpressionUUID->"69ea0d3b-0409-486b-a1b5-f416427a9e62"],
 
 Cell[CellGroupData[{
 
 Cell["WeakFormToList", \
-"ObjectName",ExpressionUUID->"c5ca1a83-14d4-499a-a63f-2bf419674104"],
+"ObjectName",ExpressionUUID->"d9d93f45-f53f-4abc-978b-92292b840e97"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -31,11 +31,11 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/WeakFormToList"], "[", 
        StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
-      "6064f93a-0c72-4290-a4f0-58b3dd5d8d3e"],
+      "68cb9074-9c50-419c-9b5a-96ad7ed8fcdb"],
      "\[LineSeparator]replaces the weak forms in expr with a list. Each \
 element in the list has a higher degree of discontinuity."
-    }],ExpressionUUID->"f72fe995-e859-4e7b-8899-85a12ff0ca92"]}
-  }]], "Usage",ExpressionUUID->"141f5313-0333-4ad3-9a65-956db1e8ac1d"]
+    }],ExpressionUUID->"96341f3e-bcdd-4e1f-a5a6-223989f6340b"]}
+  }]], "Usage",ExpressionUUID->"c79d0707-0981-4451-976e-89c58481c75e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -81,16 +81,16 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"644df86d-a649-44f9-b50d-5be59d929bd5"],
+  0,ExpressionUUID->"79acd27e-acbb-42df-98b7-bd3727050bf4"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"8572167a-8274-4c03-a25f-3c8b6999702a"],
+"Notes",ExpressionUUID->"0332bf08-1a81-46a5-a1dc-1be067f10252"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "e4063251-7218-43ef-a98e-bc583aa04dd8"], "Simplify", "True", Cell[
+     "71889183-c325-48dc-be80-7200a2fd3d38"], "Simplify", "True", Cell[
     "Collect and Simplify the final output.", "TableText",ExpressionUUID->
-     "9ac6120d-1d34-46df-967d-ff691736216b"]}
+     "1bc63622-3942-4fa1-b9d9-c0cdeb61b887"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -101,14 +101,14 @@ Cell[BoxData[GridBox[{
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"13ea9f8b-811f-47fd-b964-8d9acda77100"]
+     True, True}}}},ExpressionUUID->"ab9a4cfa-8b42-4808-bcae-510a61ab92fe"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"05e439be-1a6d-4372-b1bd-6f54f8bf9940"],
+Cell[" ", "FooterCell",ExpressionUUID->"1400da76-3e0a-41f9-bec9-e48690a25876"],
 
-Cell[BoxData[""],ExpressionUUID->"d0371494-c75d-4e79-8ee8-6c47e940d459"]
+Cell[BoxData[""],ExpressionUUID->"289a1dda-55bf-486d-a79e-f0b876dcf8f7"]
 }, Open  ]]
 },
 Saveable->False,

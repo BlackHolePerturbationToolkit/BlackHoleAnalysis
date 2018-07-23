@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    488364,      11250]
-NotebookOptionsPosition[    483017,      11137]
-NotebookOutlinePosition[    483592,      11159]
-CellTagsIndexPosition[    483502,      11154]
+NotebookDataLength[    493273,      11372]
+NotebookOptionsPosition[    486789,      11240]
+NotebookOutlinePosition[    487583,      11266]
+CellTagsIndexPosition[    487447,      11260]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -10548,6 +10548,11 @@ Cell["Gauge transformation equation", "Section",
   3.741277803331786*^9}},ExpressionUUID->"bc08ff48-2df6-4e3b-a83c-\
 8bd8fcbdf3bc"],
 
+Cell["Gauge transformation equations are built in", "Item",
+ CellChangeTimes->{{3.741350203803615*^9, 
+  3.7413502115253763`*^9}},ExpressionUUID->"02261ece-1b0e-4760-a58c-\
+b29d18a9adc7"],
+
 Cell[CellGroupData[{
 
 Cell[BoxData[
@@ -11131,6 +11136,104 @@ SuperscriptBox]]\\)\"\>", "[",
  CellLabel->
   "(Local) Out[78]//TableForm=",ExpressionUUID->"ae42825f-f67d-4a39-b795-\
 bfd25152a68f"]
+}, Open  ]],
+
+Cell["\<\
+There are also push equations for how each MP amplitude changes\
+\>", "Item",
+ CellChangeTimes->{{3.741350218676257*^9, 
+  3.741350233327936*^9}},ExpressionUUID->"b96507d0-ba44-413a-a7d7-\
+d591bfca263a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "HttPush"}]], "Input",
+ CellChangeTimes->{{3.7413502342828703`*^9, 3.741350236497753*^9}},
+ CellLabel->
+  "(Local) In[25]:=",ExpressionUUID->"d0ac6b86-52e2-4504-86d4-4064e1bdfc71"],
+
+Cell[BoxData[
+ RowBox[{"\<\"HttPush[] returns the change in the metric perturbation \
+amplitude h_tt as it is pushed between two Options-specifiable gauges.\"\>", 
+  "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->"paclet:BlackHoleAnalysis/ref/HttPush"]}]], "Print", \
+"PrintUsage",
+ CellChangeTimes->{3.741350236957006*^9},
+ CellTags->
+  "Info253741353836-9883461",ExpressionUUID->"7be3ea91-e1d1-4546-8fbd-\
+9b06086a457c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Options", "@", "HttPush"}]], "Input",
+ CellChangeTimes->{{3.741350254588148*^9, 3.7413502557084846`*^9}},
+ CellLabel->
+  "(Local) In[28]:=",ExpressionUUID->"d5ff7eff-3e9e-422a-ab38-14a5219ce96e"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\<\"Mode\"\>", "\[Rule]", "\<\"Radiative\"\>"}], ",", 
+   RowBox[{"\<\"Weak\"\>", "\[Rule]", "False"}], ",", 
+   RowBox[{"\<\"InitialGauge\"\>", "\[Rule]", "\<\"RWZ\"\>"}], ",", 
+   RowBox[{"\<\"FinalGauge\"\>", "\[Rule]", "\<\"Lorenz\"\>"}], ",", 
+   RowBox[{"\<\"Expand\"\>", "\[Rule]", "False"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.7413502560758533`*^9},
+ CellLabel->
+  "(Local) Out[28]=",ExpressionUUID->"a1df7038-c919-47ae-b4b1-eeba54aeff25"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"HttPush", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.74135023781947*^9, 3.7413502432738857`*^9}},
+ CellLabel->
+  "(Local) In[27]:=",ExpressionUUID->"1f4a7c9d-c9de-4a0c-a72a-62afab35d7fa"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"-", "2"}], " ", 
+   RowBox[{
+    SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\
+\\(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\
+\\\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"t\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", 
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{"1", ",", "0"}], ")"}],
+      Derivative],
+     MultilineFunction->None], "[", 
+    RowBox[{"t", ",", "r"}], "]"}]}], "+", 
+  FractionBox[
+   RowBox[{"2", " ", "M", " ", 
+    RowBox[{"(", 
+     RowBox[{"1", "-", 
+      FractionBox[
+       RowBox[{"2", " ", "M"}], "r"]}], ")"}], " ", 
+    RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\
+\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\
+\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"r\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+     RowBox[{"t", ",", "r"}], "]"}]}], 
+   SuperscriptBox["r", "2"]]}]], "Output",
+ CellChangeTimes->{{3.7413502414233913`*^9, 3.741350243592916*^9}},
+ CellLabel->
+  "(Local) Out[27]=",ExpressionUUID->"950aa0b7-3df2-419f-8bf8-33a2e53a9560"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -11147,13 +11250,17 @@ StyleDefinitions->"Default.nb"
 (*CellTagsOutline
 CellTagsIndex->{
  "Info763741281411-7636783"->{
-  Cell[458046, 10558, 554, 14, 47, "Print",ExpressionUUID->"4062027d-107b-4199-a382-f90147f949fd",
-   CellTags->"Info763741281411-7636783"]}
+  Cell[458236, 10563, 554, 14, 47, "Print",ExpressionUUID->"4062027d-107b-4199-a382-f90147f949fd",
+   CellTags->"Info763741281411-7636783"]},
+ "Info253741353836-9883461"->{
+  Cell[483631, 11155, 505, 13, 47, "Print",ExpressionUUID->"7be3ea91-e1d1-4546-8fbd-9b06086a457c",
+   CellTags->"Info253741353836-9883461"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Info763741281411-7636783", 483337, 11148}
+ {"Info763741281411-7636783", 487109, 11251},
+ {"Info253741353836-9883461", 487282, 11254}
  }
 *)
 (*NotebookFileOutline
@@ -11241,14 +11348,29 @@ Cell[426895, 9829, 30649, 708, 200, "Output",ExpressionUUID->"71f1e588-be7c-4e90
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[457617, 10545, 174, 3, 67, "Section",ExpressionUUID->"bc08ff48-2df6-4e3b-a83c-8bd8fcbdf3bc"],
+Cell[457794, 10550, 187, 3, 32, "Item",ExpressionUUID->"02261ece-1b0e-4760-a58c-b29d18a9adc7"],
 Cell[CellGroupData[{
-Cell[457816, 10552, 227, 4, 30, "Input",ExpressionUUID->"c2d5ef29-1feb-43fd-8718-01741a7e3b82"],
-Cell[458046, 10558, 554, 14, 47, "Print",ExpressionUUID->"4062027d-107b-4199-a382-f90147f949fd",
+Cell[458006, 10557, 227, 4, 30, "Input",ExpressionUUID->"c2d5ef29-1feb-43fd-8718-01741a7e3b82"],
+Cell[458236, 10563, 554, 14, 47, "Print",ExpressionUUID->"4062027d-107b-4199-a382-f90147f949fd",
  CellTags->"Info763741281411-7636783"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[458637, 10577, 269, 6, 30, "Input",ExpressionUUID->"f689f777-6ca0-4960-bc33-d0262decfb05"],
-Cell[458909, 10585, 24068, 547, 156, "Output",ExpressionUUID->"ae42825f-f67d-4a39-b795-bfd25152a68f"]
+Cell[458827, 10582, 269, 6, 30, "Input",ExpressionUUID->"f689f777-6ca0-4960-bc33-d0262decfb05"],
+Cell[459099, 10590, 24068, 547, 156, "Output",ExpressionUUID->"ae42825f-f67d-4a39-b795-bfd25152a68f"]
+}, Open  ]],
+Cell[483182, 11140, 213, 5, 32, "Item",ExpressionUUID->"b96507d0-ba44-413a-a7d7-d591bfca263a"],
+Cell[CellGroupData[{
+Cell[483420, 11149, 208, 4, 30, "Input",ExpressionUUID->"d0ac6b86-52e2-4504-86d4-4064e1bdfc71"],
+Cell[483631, 11155, 505, 13, 47, "Print",ExpressionUUID->"7be3ea91-e1d1-4546-8fbd-9b06086a457c",
+ CellTags->"Info253741353836-9883461"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[484173, 11173, 219, 4, 30, "Input",ExpressionUUID->"d5ff7eff-3e9e-422a-ab38-14a5219ce96e"],
+Cell[484395, 11179, 505, 10, 34, "Output",ExpressionUUID->"a1df7038-c919-47ae-b4b1-eeba54aeff25"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[484937, 11194, 212, 4, 30, "Input",ExpressionUUID->"1f4a7c9d-c9de-4a0c-a72a-62afab35d7fa"],
+Cell[485152, 11200, 1597, 35, 58, "Output",ExpressionUUID->"950aa0b7-3df2-419f-8bf8-33a2e53a9560"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

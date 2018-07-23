@@ -9,8 +9,7 @@ Cell[BoxData[
   RowBox[{"SetDirectory", "[", 
    RowBox[{"ParentDirectory", "[", 
     RowBox[{"NotebookDirectory", "[", "]"}], "]"}], "]"}], ";"}]], "Input",
- CellLabel->
-  "(Local) In[6]:=",ExpressionUUID->"8bb10079-8c34-404e-ab42-115785414ac6"],
+ CellLabel->"In[1]:=",ExpressionUUID->"8bb10079-8c34-404e-ab42-115785414ac6"],
 
 Cell[CellGroupData[{
 
@@ -24,13 +23,11 @@ Cell[BoxData[
        RowBox[{"FindFile", "[", "\"\<BlackHoleAnalysis`\>\"", "]"}], ",", 
        RowBox[{"-", "2"}]}], "]"}], ",", "\"\<Documentation\>\""}], "}"}], 
    "]"}]}]], "Input",
- CellLabel->
-  "(Local) In[7]:=",ExpressionUUID->"8cdfb8f9-f81c-4a89-88df-c8325b76a926"],
+ CellLabel->"In[2]:=",ExpressionUUID->"8cdfb8f9-f81c-4a89-88df-c8325b76a926"],
 
 Cell[BoxData["\<\"/Users/hoppese/Library/Mathematica/Applications/\
 BlackHoleAnalysis/Documentation\"\>"], "Output",
- CellLabel->
-  "(Local) Out[7]=",ExpressionUUID->"feb65aef-c65e-43ec-9f12-ba39aa54cbed"]
+ CellLabel->"Out[2]=",ExpressionUUID->"635b60d3-62ee-4953-a4cc-f9cfc9efcfe0"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -47,8 +44,7 @@ Cell[BoxData[
        RowBox[{"!", 
         RowBox[{"DirectoryQ", "[", "#", "]"}]}], "&"}]}], "]"}]}], ",", 
    "10"}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[8]:=",ExpressionUUID->"a53a9b87-93f1-4aad-afec-ae2712eb729c"],
+ CellLabel->"In[3]:=",ExpressionUUID->"a53a9b87-93f1-4aad-afec-ae2712eb729c"],
 
 Cell[BoxData[
  TagBox[
@@ -60,7 +56,7 @@ BlackHoleAnalysis/Documentation/English/ReferencePages/Symbols/AddJumpDots.nb\
 \"\>", ",", \
 "\<\"/Users/hoppese/Library/Mathematica/Applications/BlackHoleAnalysis/\
 Documentation/English/ReferencePages/Symbols/AmplitudeFunction.nb\"\>", ",", 
-    RowBox[{"\[LeftSkeleton]", "298", "\[RightSkeleton]"}], 
+    RowBox[{"\[LeftSkeleton]", "300", "\[RightSkeleton]"}], 
     ",", "\<\"/Users/hoppese/Library/Mathematica/Applications/\
 BlackHoleAnalysis/Documentation/English/Tutorials/Using labels to act on \
 groups of variables.nb\"\>", 
@@ -69,21 +65,18 @@ BlackHoleAnalysis/Documentation/English/Tutorials/Weak functions.nb\"\>"}],
    "}"}],
   Short[#, 10]& ]], "Output",
  CellLabel->
-  "(Local) Out[8]//Short=",ExpressionUUID->"bb3a3d04-674e-4a16-ba5f-\
-7542845b5a31"]
+  "Out[3]//Short=",ExpressionUUID->"88b3305a-c493-47bf-aff2-6b51d1cf1425"]
 }, Open  ]],
 
 Cell[BoxData[
  RowBox[{"DeleteFile", "[", "docFiles", "]"}]], "Input",
- CellLabel->
-  "(Local) In[9]:=",ExpressionUUID->"26118471-3bda-4b76-aa0e-41e8d411037c"],
+ CellLabel->"In[4]:=",ExpressionUUID->"26118471-3bda-4b76-aa0e-41e8d411037c"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"<<", "\"\<Source/GenerateDocumentation.m\>\""}]], "Input",
- CellLabel->
-  "(Local) In[10]:=",ExpressionUUID->"a090ed56-29bd-41c9-b6d1-12edb7214fd2"],
+ CellLabel->"In[5]:=",ExpressionUUID->"a090ed56-29bd-41c9-b6d1-12edb7214fd2"],
 
 Cell[CellGroupData[{
 
@@ -96,8 +89,8 @@ Cell[BoxData[
   "Undocumented symbols for package OverloadedSymbols skipped:\n", {"TOfChi"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"0ac2bfce-73ec-43a9-9cd8-8c1c8a2007d0"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"587dba78-035b-431c-9d65-a432719d710c"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -113,8 +106,8 @@ Cell[BoxData[
     "NormalNested", "SetValueNested"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"49b8acf7-9101-46fe-89d8-59ddbfc7ab94"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"8129bd95-6139-472e-914d-bea5c629ad2f"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -137,8 +130,8 @@ Cell[BoxData[
     "RPrRules", "RPtRules"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"bd9b2d13-9346-49d1-be18-2cbd185764b6"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"489723dc-53a1-484f-84ec-f3e3504d3011"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -156,8 +149,8 @@ Cell[BoxData[
     "YPhi$", "YThetaPhi$", "YThetaTheta$", "YTheta$"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"c3489f44-fd6c-48ae-ac0e-3bf200e3dac2"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"ded3c62e-ec36-405e-9e0a-7a4c8d38c735"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -176,8 +169,8 @@ Cell[BoxData[
     "SeriesVariable", "TruncateSeries"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"14742b37-e5a2-499d-9e8f-f828cea0956d"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"48b112c7-3937-4d28-85cd-d89e44746f33"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -208,8 +201,8 @@ Cell[BoxData[
     "testDef", "TestMetaData", "TestOptions"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"2284b22c-ae35-4875-8495-3ae68f19fd14"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"48f7e2e9-8d2f-41c1-a1c9-aefe9f292c72"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -232,1463 +225,1463 @@ skipped:\\n\"\>", "\[InvisibleSpace]",
     "VerifyRadiativeLM", "VerifyRange", "VerifySameListElements"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"18397bfe-f010-4667-b4bd-a76b8ca916e4"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"4d316cbf-cc9e-4fb3-9660-25ec811cb44a"],
 
 Cell[BoxData["\<\"Building symbol reference pages\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"87bbc3d7-f698-4f76-8ab1-76ad8368a081"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"da96f8d7-3fff-4a0b-9a70-09569d24478a"],
 
 Cell[BoxData["\<\"Apoapsis\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"0bbc4675-1cef-4141-925b-8f7e1f5944d5"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"0f7b9cfc-cebb-4d7f-8b37-d716e8c3603c"],
 
 Cell[BoxData["\<\"CoordinatePosition\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"e2ee43c3-048d-4758-b57f-4a7025c5f604"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"c21a7236-4a5e-40f9-af05-fe0f408c3715"],
 
 Cell[BoxData["\<\"CoordinateVelocity\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"7df78fe8-9879-4cc5-bb73-9c2a0af309ce"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"64b09bca-06ec-496a-b6ae-73bbbcc395c9"],
 
 Cell[BoxData["\<\"DPhiDT\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"be7e1a51-96f0-45f7-bc4a-901e661c81a4"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"b7b6f4d6-fe08-49bc-86b4-b363103208c1"],
 
 Cell[BoxData["\<\"DRDT\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"4e837fe3-a44c-4f47-b828-5aa9d080e858"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"e6e86bc1-432b-481b-87b2-24a0692c24e0"],
 
 Cell[BoxData["\<\"FourVelocity\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"01219939-cade-4186-b5fe-2c069f9b3e66"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"416fe238-1dec-4777-81c3-dc707b427935"],
 
 Cell[BoxData["\<\"OrbitalEccentricity\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"2a8a67ad-4a50-45eb-a658-b373a0c7d95e"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"3648c189-f0a7-4082-b3ca-e5016db164c1"],
 
 Cell[BoxData["\<\"Parity\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"9acd1180-f918-4853-af0d-b9f3a7dc9df7"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"0895eefa-a10e-4272-83de-780f82a2b861"],
 
 Cell[BoxData["\<\"Periapsis\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"838e9cee-71ec-4663-97a7-341a1bb32e2b"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"072a8285-3b9f-4efe-a57d-b23afef19231"],
 
 Cell[BoxData["\<\"PhiOfChi\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"18d5f796-ca3c-454e-94a3-a446f6586d26"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"6597fe81-95be-4d44-aa79-ba2c1864e31e"],
 
 Cell[BoxData["\<\"ROfChi\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"503dea63-57fd-4663-b412-f4df67384fec"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"c498194b-44ff-42ee-9f9c-3c436a0c6984"],
 
 Cell[BoxData["\<\"SemiLatusRectum\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"f488e9d6-7f17-4ce4-bf66-f6982d59346a"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"c0cb2f25-55fc-4946-bdf7-8f1261062157"],
 
 Cell[BoxData["\<\"SpecificAngularMomentum\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"237341ea-5761-4e5e-bc21-c1cbbb2a8722"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"c64dbe48-9f7f-456e-933d-3e0e7c825f4f"],
 
 Cell[BoxData["\<\"SpecificEnergy\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"4bdfc598-07c8-4970-8dbf-b5db7e7ba02e"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"0a9c7f57-8d1a-48dc-8039-88c1a60f5398"],
 
 Cell[BoxData["\<\"XPN\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"3104b947-5a5f-414f-af33-980ad0fcb5f6"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"be596b13-74bb-4b9a-8ead-8b0972884972"],
 
 Cell[BoxData["\<\"AddJumpDots\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"78fd1448-8edd-4ac5-ae2c-2b11ef4c8e57"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"b377fe1c-322e-4925-9f0a-6c086014ae25"],
 
 Cell[BoxData["\<\"EvaluateDeltas\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"d4716e72-c66f-47b4-9465-7bf26b1f088b"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"88d13aad-40e7-4a35-924f-92137ddf8482"],
 
 Cell[BoxData["\<\"EvaluateDiscontinuities\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"756def1e-0d8f-469c-a296-048815e0aff6"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"81b43658-e589-4d4c-ad38-2c17e046925c"],
 
 Cell[BoxData["\<\"EvaluateHeavisides\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"a3910ac3-19b3-4ca4-a6d0-c1a20a23971c"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"3edd919e-faad-4084-b3ad-279b8cdf584d"],
 
 Cell[BoxData["\<\"EvaluateJumps\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"ca6b02d0-58d7-4855-8b47-c6e503a46853"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"ec9bee44-28f1-438d-a7ae-6508059fc36f"],
 
 Cell[BoxData["\<\"HeavisideCoefficientsToJumps\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"4160ee41-9312-41f6-8c5f-096487a54c6e"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"b68913fe-807a-4226-a66a-28644219e7ce"],
 
 Cell[BoxData["\<\"LambdaToL\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"7c9f7442-6286-4c4f-839e-a2a95aeb5abe"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"6261e437-4677-47bd-bb3e-584b950402c5"],
 
 Cell[BoxData["\<\"MakeFieldWeak\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"9d9407f8-a604-4798-883b-6971baaa2920"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"bded4590-10bc-4673-a34a-803e035d1bb4"],
 
 Cell[BoxData["\<\"ReduceLegendreP\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"f88dd2c8-6e82-4477-a728-91c3182054e7"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"fa4e0486-be31-4977-baa7-6c0ac60575df"],
 
 Cell[BoxData["\<\"RemoveExtended\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"7a23ebfd-b95d-47c2-bb68-b2078f401733"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"191fb9b9-2bf5-4218-afd5-0fb30f40e221"],
 
 Cell[BoxData["\<\"RemoveJumpDots\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"e4574ead-f515-4459-8eaa-cd2023c3558a"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"a45d20a9-bc42-4e3b-a126-4353e04bf5f2"],
 
 Cell[BoxData["\<\"RemovePhiPDots\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"6857d590-0c63-4556-94de-fd6ebd5e37bf"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"45d9089c-08c6-4b73-8295-4f58bb576dfb"],
 
 Cell[BoxData["\<\"RemoveRpDotDot\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"fc559bf8-d42a-4ea3-822e-d9b12956d831"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"3982cd90-eb0c-41e8-9718-af14ffbdba23"],
 
 Cell[BoxData["\<\"RemoveRpDots\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"166fcf30-ccc2-4be4-baf4-b25f5d4ba350"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"8fd982f2-6a59-4810-b34e-16a629526370"],
 
 Cell[BoxData["\<\"RemoveRpDotSquared\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"e4f74c73-9e0e-4d9f-b04b-f06e6752afdb"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"5db43206-efe2-4e8c-b466-9db639ef2a0a"],
 
 Cell[BoxData["\<\"RemoveSHDots\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"37e26e25-cf51-47f4-a3cf-fa26c16c0eea"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"c16e8026-76b6-4da7-8bad-058f3fd8dc40"],
 
 Cell[BoxData["\<\"RemoveSingular\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"d2313c2e-6573-4454-9b8a-d2c4d2f8bde6"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"b732af24-0e0d-4183-88ba-b2d3a4de6d6b"],
 
 Cell[BoxData["\<\"RStarToR\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"7f648443-8330-4fe8-bf24-5bc3bfc67243"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"9d8ba14a-756b-4ad0-a733-3a6bbf222a47"],
 
 Cell[BoxData["\<\"RToRStar\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"ff978c03-46b8-47dd-85bb-aca321beb16e"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"5b8cc1cc-609e-419e-b66e-7354b913834f"],
 
 Cell[BoxData["\<\"ToFrequencyDomain\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"f7158200-d28b-4904-abdf-8dc035b2be43"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"91a721cd-130f-454d-9e26-1e69e5e9b3c0"],
 
 Cell[BoxData["\<\"WeakFormToList\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"d4c7baf6-666c-4e0d-bfb5-30ec51c92cc0"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"571641e9-10a4-41c0-bb4d-79d0499f3415"],
 
 Cell[BoxData["\<\"CapitalLambda\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"6165cb9b-3bfb-46de-ac76-0ab4cb449835"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"a56157dc-8827-446e-abef-234dfe31872c"],
 
 Cell[BoxData["\<\"DeltaKerr\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"287da067-cafc-4db5-9f37-026090e77d33"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"16d93c9f-3124-4299-8307-54bf38244b6b"],
 
 Cell[BoxData["\<\"DPhiDChi\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"e9d10a6b-84ed-43f2-b838-fe2b8983a8e7"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"fa35746d-3180-4843-b2c2-aad8128fcd85"],
 
 Cell[BoxData["\<\"DTauDChi\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"e8219b98-0fdd-43ce-a699-331f58e5ef4c"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"415d1212-c8d8-467b-a2df-50a1e3b53678"],
 
 Cell[BoxData["\<\"DTDChi\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"0da2e334-7393-4894-8b07-38e1cdf3e5f4"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"6fde22e0-ca7b-4684-a311-b3733a363097"],
 
 Cell[BoxData["\<\"f\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"4ef9cb45-616a-4c67-a5e5-4904a32638a7"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"16ae7d54-ef06-475e-881d-0a188440cf24"],
 
 Cell[BoxData["\<\"KerrMetric\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"60a30389-01dc-414b-ad13-ab39b58c3e2e"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"44c0f4c0-bd99-401d-890f-6a1a66a7cab9"],
 
 Cell[BoxData["\<\"KKerr\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"175d443e-2564-4ca6-9f88-aa8c698c80b1"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"da937fc6-4f0d-47b3-818b-a543d6a037a0"],
 
 Cell[BoxData["\<\"LambdaOfL\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"3db9b267-9458-4792-a26a-67328e24e089"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"1019de00-6a33-4a68-a2b6-02dbc8c56e62"],
 
 Cell[BoxData["\<\"RMinusKerr\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"fe149723-d083-4647-923c-9f4cd89b58bf"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"fc147ff2-85bb-4fce-be28-1515f24b3b91"],
 
 Cell[BoxData["\<\"ROfRStar\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"f88ded36-135c-4741-9c49-c1aad68ca2e2"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"5c2a3d61-74bf-4ee2-b82c-98a9d8b8f0d4"],
 
 Cell[BoxData["\<\"RpDotDot\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"6c5db649-cd15-47cd-a132-f238bdf3bc8b"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"72fe9f6d-001c-4a68-813a-0cef122c932a"],
 
 Cell[BoxData["\<\"RpDotSquared\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"e398f086-e71c-4007-97d8-7d1e8a5eeafa"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"9860c134-8891-42a1-bd79-7ff3fa691ecf"],
 
 Cell[BoxData["\<\"RPlusKerr\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"d465a4d7-81ee-4efe-96cc-0a178c43f4ed"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"776df453-75d8-4cf5-99e3-e8d544252edb"],
 
 Cell[BoxData["\<\"RStarOfR\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"16dd93cf-17e2-4321-9024-14b620c93977"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"7c6c0d82-2e4b-4729-9194-9bd4c6bd8cb9"],
 
 Cell[BoxData["\<\"SchwarzschildMetric\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"5306e742-b275-40fd-8921-1a9884548271"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"5b929509-ed49-4062-9043-99aa176b0d5d"],
 
 Cell[BoxData["\<\"Separatrix\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"2b889109-94de-4fc5-8839-e2fcdef55d22"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"4d260310-3210-4a0c-af6e-688f5b71b22e"],
 
 Cell[BoxData["\<\"SigmaKerr\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"46566024-f4a3-4cb3-a11f-d3dadc79dbec"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"9df3d17e-1fea-493a-b22b-8752a478de7d"],
 
 Cell[BoxData["\<\"USquared\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"e1314071-56f7-4aa0-95bd-a7d918716a2d"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"048c2215-69cb-4ac5-9caf-9eb0c4c0afa6"],
 
 Cell[BoxData["\<\"DiscontinuitiesFunction\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"068590ef-8a09-4cd3-a9eb-4e61f1c13f27"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"c95056c2-3d47-4815-a8a5-41b22fe9d4f5"],
 
 Cell[BoxData["\<\"GDiscontinuities\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"0b9f65de-2275-41ff-af70-dab6cf256c74"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"063dcd60-07eb-49bd-a9d3-edbb495961df"],
 
 Cell[BoxData["\<\"H2Discontinuities\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"7d3888e8-0185-4a82-99eb-ee6c95f8f919"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"0afb13f9-a6a7-4b84-9273-e4e8dd11f915"],
 
 Cell[BoxData["\<\"HrDiscontinuities\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"9e53d4e6-d3db-4c3c-aaf0-b4839d348e11"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"29ce1aba-d4a3-40e5-8d5d-c9c92f9cc07a"],
 
 Cell[BoxData["\<\"HrrDiscontinuities\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"4514bba9-c8ca-4851-98b6-78c44b7c03ab"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"69329186-606f-4286-8d0d-0394ce7ae4ff"],
 
 Cell[BoxData["\<\"HtDiscontinuities\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"eefcf234-3df3-4cf6-be3a-19d475a9dd34"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"5a9da9a0-8370-44c8-b443-3497b8a23295"],
 
 Cell[BoxData["\<\"HtrDiscontinuities\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"be2ac32b-9568-45f9-a209-ba441578424f"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"9cde7b4c-d79b-439c-b33c-6c38acc0fac3"],
 
 Cell[BoxData["\<\"HttDiscontinuities\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"7a720f0f-8da9-40d2-a1c8-038e439ba1d6"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"78e4690a-ddae-4d77-8226-887c8a2964a3"],
 
 Cell[BoxData["\<\"JrDiscontinuities\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"dd89cd3e-bfd2-4354-8ec1-86529eb199ef"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"50a89e6a-97aa-4945-b79c-00cfd2eba346"],
 
 Cell[BoxData["\<\"JtDiscontinuities\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"da6adc2b-e144-499d-bfc7-c111994ca998"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"862f9b36-80e1-486b-82ff-2caf17348480"],
 
 Cell[BoxData["\<\"KDiscontinuities\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"d3401742-9487-49fd-8bf7-95bb534846bf"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"de68a2c3-7c10-4bdd-af70-af7dd6db8b81"],
 
 Cell[BoxData["\<\"MasterFunctionDiscontinuities\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"7ea7b7b7-2014-42fc-a413-3663e378ab5e"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"aef536c6-c0aa-41da-83e1-e30e0feae503"],
 
 Cell[BoxData["\<\"AmplitudeFunction\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"338a704a-256b-421b-b7f3-9059d16f0c16"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"1f012bec-3365-4dcc-b6c2-51ef71daf9df"],
 
 Cell[BoxData["\<\"BarackSagoAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"915d75eb-3afe-4958-ab9a-86454d873542"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"ad73eea9-56f6-4dcb-a58c-9fafb4366e81"],
 
 Cell[BoxData["\<\"GAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"9ffa3c1d-3cf3-4643-836d-5abd2dbb933b"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"86d66d5f-8738-40ee-9bd4-8e3136a72c51"],
 
 Cell[BoxData["\<\"GPush\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"20db94fc-4534-4c51-99b9-2f58e6a41f8b"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"16d71603-14da-4278-b536-9ab9d839decd"],
 
 Cell[BoxData["\<\"H2Amplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"50590b93-582e-4d6d-a4fe-831f8ab8857d"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"edede21b-13dc-460d-98d9-dfab25760ffa"],
 
 Cell[BoxData["\<\"H2Push\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"3c5dfa9a-f478-41fe-bf2d-ee5c6aae8e1f"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"9b8316dc-e2e6-49e2-959b-4e912be15014"],
 
 Cell[BoxData["\<\"HrAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"4fe1e96d-d3f5-4958-b72e-2732226e88db"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"fd6dd861-02fb-4b9f-94de-497dfbc3c0e6"],
 
 Cell[BoxData["\<\"HrInvariantAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"85a03578-90c9-4a7a-8283-3a6c50a511c6"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"f4dc129f-0842-45b5-843e-6885f90e95b3"],
 
 Cell[BoxData["\<\"HrPush\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"35847ac7-c926-43da-9a4b-7a7e1c553e96"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"7bf47785-7034-466c-9662-3dfbb00a3f66"],
 
 Cell[BoxData["\<\"HrrAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"3ccf573c-85f8-4a6a-ae16-f9afca0a829c"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"94e972a7-fccd-4e77-ae4f-df6ec41b4670"],
 
 Cell[BoxData["\<\"HrrInvariantAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"db954298-e347-47df-9e1b-4ee5296a7e9d"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"464727e4-248c-4f0e-a5f9-257b9706c61e"],
 
 Cell[BoxData["\<\"HrrPush\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"d0044ac6-b607-4d0c-a5ad-218354b74c95"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"c63e0245-6852-43c5-bda5-1a4ff8057464"],
 
 Cell[BoxData["\<\"HtAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"b98767a0-e5fb-48dd-a2a3-ab5d66ec882b"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"9c5b6364-cc28-48c9-9c42-0755891d3ba0"],
 
 Cell[BoxData["\<\"HtInvariantAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"b8158aef-4a35-4291-b6c3-2ed9c3f847a6"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"d36f23ca-695e-4438-9a20-373ea0ad24e5"],
 
 Cell[BoxData["\<\"HtPush\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"9f10a8a2-7b37-45fb-89a3-4e8a1e006277"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"f6f7b3c1-6cc0-4b93-8cd9-36b833a178cb"],
 
 Cell[BoxData["\<\"HtrAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"39c513bb-b99d-4758-83d4-7fc79e6f984e"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"7c2ebe19-2910-43bf-947e-a5090d86b99c"],
 
 Cell[BoxData["\<\"HtrInvariantAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"9990e415-3c66-483a-8f4d-e0ab48182306"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"52e9b840-a829-404e-9bcb-78e010c965a8"],
 
 Cell[BoxData["\<\"HtrPush\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"9a98f450-0ea1-451c-8410-caa1ffb8d005"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"3adafb47-3e63-49ab-928b-ee8bae53e4c5"],
 
 Cell[BoxData["\<\"HttAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"b32248fd-8256-4b17-b837-0a89bb5d5cca"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"5a9ed1a0-df8e-43c9-b24a-651024195f1d"],
 
 Cell[BoxData["\<\"HttInvariantAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"c988e587-10da-4b7e-9796-8f63309f52c3"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"5f27393e-5cc2-4af7-9173-37f707adc842"],
 
 Cell[BoxData["\<\"HttPush\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"68b53cf4-11fa-4630-8cbc-356d88d18293"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"f430a39d-bac9-46b7-ac3c-a6f264d40d15"],
 
 Cell[BoxData["\<\"InvariantAmplitudeFunction\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"702c49b3-f39c-4fb4-b815-c3dd175c965e"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"62a7ce9a-8297-45f3-b299-c32be603bb2d"],
 
 Cell[BoxData["\<\"JrAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"39c21754-5356-4f40-aba1-d195bdd337e3"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"4c1b33f1-e412-413b-b23b-6c2dc7eea74d"],
 
 Cell[BoxData["\<\"JrPush\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"46afb012-872a-4e21-8dec-5a1ad40effcb"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"f542da97-0358-44a7-b7da-0fbb2b83d54f"],
 
 Cell[BoxData["\<\"JtAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"a4e758b0-3022-40ec-8ce4-8176de11aa94"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"46259d70-34ec-4986-afb2-0050a9faf82f"],
 
 Cell[BoxData["\<\"JtPush\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"e761da0f-3055-41b0-8006-19a8da82fd7c"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"5ee3ce01-4069-4d11-8b30-ac432ded75f2"],
 
 Cell[BoxData["\<\"KAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"a9628aae-21e0-44ae-a00e-68057e34739b"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"584b272d-ef40-4f4d-b56b-22c7d22aa44b"],
 
 Cell[BoxData["\<\"KInvariantAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"7563f408-52f5-45c0-b83f-c555d826a0a2"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"22726276-6364-4f5b-a7dd-8b2b747fa07c"],
 
 Cell[BoxData["\<\"KPush\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"bf91167a-ccfb-4bc7-9f4a-3d36ea7ae21f"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"98278dc5-a44a-4ad1-af71-e4980367355f"],
 
 Cell[BoxData["\<\"MartelPoissonAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"cdf8605e-ac4f-4293-953c-5ccef45d1664"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"309250e8-3d16-4dfe-bf1f-30e760f7d79d"],
 
 Cell[BoxData["\<\"MasterFunction\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"936e54b2-ef41-41e9-b157-5751c6ed03e9"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"64c5e662-0f2f-449f-bba6-2efdcd54b100"],
 
 Cell[BoxData["\<\"PushFunction\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"0eec1218-7fc3-483f-9456-03276cb1e1ed"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"6386f5cc-23bd-4d9d-9424-0c1c48091a69"],
 
 Cell[BoxData["\<\"RadialTeukolskyFunction\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"ea5c9604-5ba3-411a-bd97-633b47d95ad0"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"0c01ae86-88ed-4235-b77a-dab67ca92866"],
 
 Cell[BoxData["\<\"SasakiNakamuraFunction\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"30114a71-26ec-4e99-9790-0a12118dd0cf"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"0d66f981-13f4-4483-9590-77cbe8918233"],
 
 Cell[BoxData["\<\"SpinWeightedSpheroidalHarmonicFunction\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"677b1994-a1fa-4355-9e19-119055fd7233"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"ef9c6f4d-6459-4273-87ff-183b475ace6c"],
 
 Cell[BoxData["\<\"TeukolskyFunction\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"a729ad71-14e2-49e0-9cef-ac7612000a5a"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"773ee517-a514-4212-a59f-482d66232fd8"],
 
 Cell[BoxData["\<\"XiEvenAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"50cb1f7a-5ec7-43d9-a2ac-5f89a26528fc"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"e7ae7f4c-6317-4441-839b-91116bf19f4d"],
 
 Cell[BoxData["\<\"XiEvenRAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"3b859aae-d719-40e7-856c-2b66f4e5f8da"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"75472485-09d1-4f7d-86c7-924d9a39409f"],
 
 Cell[BoxData["\<\"XiEvenTAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"de8eae21-1481-4dbd-9e05-97a84e6e6742"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"b93466cb-e751-4df1-87c0-8407631f8cc7"],
 
 Cell[BoxData["\<\"XiOddAmplitude\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"0d5eff03-f4e9-4396-b6ec-05737cefffc6"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"8a37df20-b9f3-4617-86cb-4b2b00484b24"],
 
 Cell[BoxData["\<\"ExpandHarmonics\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"bda55bd8-9bc1-4dda-85b7-b271e087d818"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"8e2e6eaf-f66e-41ff-acea-ae38333feb81"],
 
 Cell[BoxData["\<\"SphericalHarmonicFunction\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"d65e74af-5b89-4cb5-8841-3e5365650723"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"045285b6-a13b-42e7-887a-46a4474bb14d"],
 
 Cell[BoxData["\<\"XPhi\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"5a4a710a-8389-425e-a170-380e3eefdd36"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"d676bfa8-467c-4ebf-bb8c-5d465ae23eee"],
 
 Cell[BoxData["\<\"XPhiPhi\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"c6282b7b-a9df-487d-b59b-0c09089d417c"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"730913d4-3b31-4fde-9b39-7b1ba17deda8"],
 
 Cell[BoxData["\<\"XTheta\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"246c9faf-2c86-4df5-80c6-84822266d73f"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"ca1d81f7-7e8d-4290-82c4-9cf0359861d0"],
 
 Cell[BoxData["\<\"XThetaPhi\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"fb34a51a-f23a-47a2-9a51-af63699fab0d"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"ae92ead5-c787-48b5-abd9-c0d3954f39c1"],
 
 Cell[BoxData["\<\"XThetaTheta\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"ec297d83-344b-4320-8547-536274e5f332"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"18dee665-06d9-42e5-8010-f1b20a75462f"],
 
 Cell[BoxData["\<\"YHarmonic\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"89b4a67a-6b01-4583-b615-aa8da6b4af6c"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"41ba8a41-dd82-45df-bae0-bd17adad9245"],
 
 Cell[BoxData["\<\"YPhi\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"66278107-0175-4345-a6d6-608818b2ae8f"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"4e7488c8-03d6-45b8-bb71-1435992319aa"],
 
 Cell[BoxData["\<\"YPhiPhi\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"9db68807-5d67-4f89-80fe-4951d398b172"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"c3db464a-0fe5-41a7-a8ae-454a012fb9e2"],
 
 Cell[BoxData["\<\"YTheta\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"976bafa6-313d-485f-9309-27aee1b2d057"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"d61eab31-4388-4334-b45a-14896a7d5819"],
 
 Cell[BoxData["\<\"YThetaPhi\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"c72c7053-b096-4789-a5b8-a01b5a2ab844"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"f41ee59d-d359-494a-9cc9-883167ba3891"],
 
 Cell[BoxData["\<\"YThetaTheta\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"e95912f9-259b-4a45-979f-a9634c03c19f"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"dcb4fba0-b9bb-4003-9424-65ca776c667f"],
 
 Cell[BoxData["\<\"AngularTeukolskyEquation\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"9af99a42-5e33-43c1-87a4-9f11f5d3e763"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"119a8e29-7e9a-462a-8dc9-7feafe42d80d"],
 
 Cell[BoxData["\<\"RadialTeukolskyEquation\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"0b0bd2ee-6234-4c44-af6b-b570896d9385"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"cee092a5-4170-47be-aa89-8262a0f5c433"],
 
 Cell[BoxData["\<\"RadialTeukolskyEquationPotential\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"b84074d3-d7df-4da2-ab20-094ff4ec6d7f"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"60f6a191-0a21-4f36-8af2-800c05668338"],
 
 Cell[BoxData["\<\"RemoveSasakiNakamuraFunctionRDerivatives\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"dab2da07-2cd4-41cf-b7d2-f517e95b4e21"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"778e2730-5d14-4c71-b79d-dc59fb8c62bf"],
 
 Cell[BoxData["\<\"RemoveSlmThetaDerivatives\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"79b78d49-bb1a-4ee9-98f2-37059fb0775d"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"43a2a16e-1544-46ce-ac46-b5cbf03bf475"],
 
 Cell[BoxData["\<\"RemoveTeukolskyFunctionRDerivatives\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"73a75e35-6023-4b87-a9ab-84fb57ea5ee3"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"06d68b86-5711-4e33-b79e-8cde93a4c04c"],
 
 Cell[BoxData["\<\"SasakiNakamuraEquation\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"3dc9c018-c8ea-41b3-8910-f94ee5d99568"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"af31fc2f-307e-4699-9ba5-9a548ef12dea"],
 
 Cell[BoxData["\<\"SasakiNakamuraEquationPotential\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"d17a23fc-852c-47cc-9c31-1a32422e2711"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"c68d129b-0381-409c-ad40-ac36ce5d6ac4"],
 
 Cell[BoxData["\<\"SasakiNakamuraFunctionAsTeukolskyFunction\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"fb041038-40b2-40da-a67d-9499d732bcf7"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"36fd713c-7e08-4edc-81a4-e832ab364b2a"],
 
 Cell[BoxData["\<\"TeukolskyEquation\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"0618f7ed-05db-4400-9540-8db16be087eb"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"5c56ca5d-b234-45af-b907-cbd151f9ad4f"],
 
 Cell[BoxData["\<\"TeukolskyFunctionAsSasakiNakamuraFunction\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"c8fd4b59-c853-414b-97ce-16f1e332f585"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"305d1393-196a-43b6-93c3-01c6f75ea29e"],
 
 Cell[BoxData["\<\"GaugeVectorLabels\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"cf46073b-378b-4e6c-a962-067f33f6c31e"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"aadb1a61-7b6b-4f4f-911a-848e3b7a6a28"],
 
 Cell[BoxData["\<\"GLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"3d825706-3395-4bfb-a3e4-7d839c296d26"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"35648b73-d3d6-4fca-b8eb-c2370c8e750c"],
 
 Cell[BoxData["\<\"H2Label\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"d03f8408-409b-4c5f-82cb-bf49345b9dee"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"92c32041-9267-460f-a805-8d01d4a1bf2d"],
 
 Cell[BoxData["\<\"HrLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"a1580aca-0dff-48b3-86a0-c6c417f4fc33"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"3844f795-2afc-41eb-90a3-d049bc5072a5"],
 
 Cell[BoxData["\<\"HrrLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"bcc0ce31-cfa9-4e4f-b0d7-cda4d57179d2"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"aa0dfc22-ddde-47a4-83dd-e67e3c74d4d2"],
 
 Cell[BoxData["\<\"HtLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"cd99d139-a487-406c-a8f2-4a334e9ec20c"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"d972794d-290d-4786-abcb-55418381f8a5"],
 
 Cell[BoxData["\<\"HtrLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"937c000f-b854-410f-a23b-c97a6ed2ac1c"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"4f62fb22-1bda-43d9-b2a4-351dd8bd7763"],
 
 Cell[BoxData["\<\"HttLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"e79facd6-998c-4551-a179-0b5d45767ab5"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"7e1612be-9f0f-4cd9-83b8-40577205ddc8"],
 
 Cell[BoxData["\<\"JrLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"8165b042-5911-456f-a346-8b9ccd32cc11"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"a12a19a0-c0a1-4f32-a210-c5de7a481a3e"],
 
 Cell[BoxData["\<\"JtLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"ca3e5ca7-ed0c-41ac-88cf-137b417039b4"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"57143b0f-e4fb-4461-90eb-136071e8466f"],
 
 Cell[BoxData["\<\"KLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"f4544142-a2aa-4d48-839e-da442e8f2e91"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"7abfe5ff-8693-4a70-b26a-27f31b1d3194"],
 
 Cell[BoxData["\<\"MasterFunctionLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"fe21cc2c-b57b-43bd-ba06-15518c023994"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"f3e43441-b20c-47cf-b7b0-64e6571e4c3c"],
 
 Cell[BoxData["\<\"MetricPerturbationLables\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"bc08993a-25f0-437c-bbf2-56108ee5f8b3"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"8639fa5a-5cab-4eb4-b936-5612e1affee6"],
 
 Cell[BoxData["\<\"MetricPerturbationSourceLables\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"0544dfe9-feb7-4c15-b5a3-55977d86838e"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"31b07f9b-0afa-4fe0-9a01-6b6538643370"],
 
 Cell[BoxData["\<\"PLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"f4e2e52b-d0bf-4223-abbf-72cec6af79a3"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"78b0f17b-3e4a-4914-ad46-b181bfc34c7f"],
 
 Cell[BoxData["\<\"PrLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"956b35de-e9ba-47d4-a230-8741dc56cf96"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"5beb98eb-cdd2-40f6-b1e0-78e43c60ba80"],
 
 Cell[BoxData["\<\"PtLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"40ebd21f-cab4-40ea-93f4-992197a28ba5"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"0588380f-586c-4aef-8f7b-66959d045a8a"],
 
 Cell[BoxData["\<\"QFlatLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"ea1784a6-faeb-4c3d-a6f1-eb41e22c34a9"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"7b3b74fe-f543-4fb1-b6b3-57b847a171bf"],
 
 Cell[BoxData["\<\"QrLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"40841c73-7a55-444c-961d-443c512dc90f"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"e277d563-012b-44a2-8646-1b2b55179854"],
 
 Cell[BoxData["\<\"QrrLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"d2ea557a-9853-4048-9664-4879781f1ea7"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"9471af19-e3c1-4330-a523-529ca2ce19c0"],
 
 Cell[BoxData["\<\"QSharpLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"a8b1326d-42f9-40c1-8990-f361fa044d2d"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"cfe5d816-ee82-4733-9017-106a7019627e"],
 
 Cell[BoxData["\<\"QtLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"7676c33f-3daf-44f7-9966-cd7cd7ba1a3e"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"82bb3d2a-0c35-4b8c-9579-2b953ef4b01e"],
 
 Cell[BoxData["\<\"QtrLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"c577d8b1-37c2-4d86-81df-b25bada86f0f"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"0c8fef09-0e0a-4dbe-b51d-05d8d88eae2d"],
 
 Cell[BoxData["\<\"QttLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"021db6e7-7fd8-4449-b60d-09a8bf69062c"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"62e4fd23-5fcd-43db-9862-ea091aca917a"],
 
 Cell[BoxData["\<\"SphericalHarmonicLabels\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"966cfee7-3e26-452a-a242-7079880e59e5"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"4e13141c-c798-4dd5-abc7-e5eb6408bdf4"],
 
 Cell[BoxData["\<\"XiEvenLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"4e1e8e71-2a31-41e8-b7d5-7fb63de87503"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"0b972616-a8db-4eec-ad65-a9043c543e0b"],
 
 Cell[BoxData["\<\"XiEvenRLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"daf856ec-760b-4d3e-9160-aba41da85451"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"b228859c-bac6-40a2-b3d3-56348ff770ac"],
 
 Cell[BoxData["\<\"XiEvenTLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"ca0d0ad2-3210-4b5f-b05f-1f1e9115b869"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"cf616220-297c-4019-8c15-6a5c66d9cae5"],
 
 Cell[BoxData["\<\"XiOddLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"c43fd6fb-3de3-4d1d-80f5-41914a33f835"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"af8ffa8f-c610-48a6-910d-e2f9264da713"],
 
 Cell[BoxData["\<\"XPhiLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"e222577b-a86f-4354-a387-63ad383329f0"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"b3782b08-5669-487e-8411-be655dbe65b7"],
 
 Cell[BoxData["\<\"XPhiPhiLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"3e288f8a-4bb4-4306-b41d-608dd70ff350"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"eb41b275-c6a8-4eab-a6a9-a5342ea64cb5"],
 
 Cell[BoxData["\<\"XThetaLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"462d5551-9d00-425e-ba8f-416d68a8e646"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"b91229af-ca2d-48d7-ab3c-27942777c278"],
 
 Cell[BoxData["\<\"XThetaPhiLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"e8481174-4639-4d1c-ad03-80f874653a05"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"cf7d8c88-b56e-4926-a4af-05df9fc39d91"],
 
 Cell[BoxData["\<\"XThetaThetaLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"f6ee01f1-505c-4258-b86a-fc77cd7266de"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"0783fd48-4cb5-40a9-b713-747307ac6f46"],
 
 Cell[BoxData["\<\"YLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"3efe4838-9766-4159-a0c9-0426d1af07a4"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"509696f6-5f95-44b9-bee8-0aae2e78db5a"],
 
 Cell[BoxData["\<\"YPhiLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"90370993-88f4-407d-b554-6b7d1809f52d"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"eeaee965-014b-4c7c-94c5-a16ffa7fb1af"],
 
 Cell[BoxData["\<\"YPhiPhiLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"ce57f2e4-566b-4436-89e8-5f661a49f304"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"e979b8a6-948b-4751-843d-0496fc2954b4"],
 
 Cell[BoxData["\<\"YThetaLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"326e500d-4d77-45de-b7cc-ed9ef6b8b0fd"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"c04d5fe8-2967-4756-9e3d-32115f2c8964"],
 
 Cell[BoxData["\<\"YThetaPhiLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"a263df54-f969-45bb-aed4-bc27d956724c"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"ebcfd576-c26c-45cf-bcb1-bfdb37688c1c"],
 
 Cell[BoxData["\<\"YThetaThetaLabel\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"23a7de0d-ac42-4c35-94d6-81fe503931ce"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"171b8737-8447-45f8-aff3-7aabc5009485"],
 
 Cell[BoxData["\<\"AzimuthalAdvancePN\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"626744d3-9787-4ce0-b83a-fd845e43142b"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"4c66f32a-f209-469d-8890-a094ab176985"],
 
 Cell[BoxData["\<\"OmegaPhiPN\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"ec7ee1e3-7961-47e8-a40b-03dd0f331a83"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"b0aadb40-8ba3-4ffb-915f-54fbe1d06b47"],
 
 Cell[BoxData["\<\"OmegaRPN\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"98e9fe89-b3bb-4c05-83cc-c0370c37631d"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"178ce1de-2986-45f8-980c-d4737fe4335b"],
 
 Cell[BoxData["\<\"RadialPeriodPN\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"3d778313-5557-4edf-8f86-c942d3b63912"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"c77e96dc-7e86-4fea-8cba-3ee84fdcf7bc"],
 
 Cell[BoxData["\<\"SemiLatusRectumPN\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"15e6299f-72ca-42ea-88c3-5c27380ff76b"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"d2e47171-f795-4721-9448-daf7d799dc0a"],
 
 Cell[BoxData["\<\"SpecificAngularMomentumPN\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"3c713165-60a8-4ffe-a98b-2cab984e85ae"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"ac042f62-09c1-4aec-877b-8ca98d819216"],
 
 Cell[BoxData["\<\"SpecificEnergyPN\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"c27d3ee8-2b4d-4e9f-ac83-bf859957c7bf"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"d3f4dc69-9f47-4659-8ebf-54f34a85b28a"],
 
 Cell[BoxData["\<\"EvenMasterFunctionAsOdd\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"a4f179e2-f78a-4a05-ac5a-0e2dae53907f"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"8367c794-d11a-4ab5-993c-cecf4ec3744e"],
 
 Cell[BoxData["\<\"FieldEquations\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"fea13b0c-a95b-4d83-b7f3-711ab1cc4885"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"980c0da5-2902-4ec2-9136-1ea618727d24"],
 
 Cell[BoxData["\<\"GaugeConditions\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"3a457f0c-8733-4c92-bbcc-ddcae8e80ced"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"c280d756-2fd0-478b-9b2b-32c5ba33bdab"],
 
 Cell[BoxData["\<\"GaugeTransformationEquations\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"e0d89512-a838-4bc9-be3f-b40a1270e0f9"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"4297dcc6-67b0-40fa-90de-be6bc150d43f"],
 
 Cell[BoxData["\<\"GaugeTransformationSources\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"9dfcdb31-cd70-40c8-b5e1-53084d676de2"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"0ac5f60c-d090-4258-85f3-578f318a3328"],
 
 Cell[BoxData["\<\"KerrToSchwarzschild\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"a1134239-f5da-4279-bbf6-15f4e232cbcf"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"6ba7a594-c8b4-47cc-b9f9-0b97451f69c8"],
 
 Cell[BoxData["\<\"MasterEquation\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"083e83c3-a067-4ba0-9883-3e5a53bda96e"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"bf44b9f0-dcff-437a-af81-a5009f6ed3ca"],
 
 Cell[BoxData["\<\"MasterEquationPotential\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"7f6565d8-e526-45ef-96ca-299d39f9d719"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"cb7db0c9-017c-4d91-ac71-0d5263e3b950"],
 
 Cell[BoxData["\<\"MasterFunctionAsTeukolskyFunction\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"0d2e1cc0-9fcd-40c3-9017-1127235bdfa4"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"94d1c9dd-bf26-499b-96b4-2928bd024ebf"],
 
 Cell[BoxData["\<\"MasterFunctionToTeukolskyFunction\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"8e87929b-aafe-43f0-9400-de1d60c68467"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"f80d4aea-42c2-4854-bb4f-37274dfbeeae"],
 
 Cell[BoxData["\<\"RemoveMasterFunctionRDerivatives\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"e68e5f15-e304-4777-b084-5f74f3807fda"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"9e06283e-8a6a-4357-89b5-62635b0e5854"],
 
 Cell[BoxData["\<\"SourceConservation\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"3a610290-ab32-4f49-8995-b11727e2fd70"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"04dfe86c-5e0c-45ff-83c1-bb22486466f3"],
 
 Cell[BoxData["\<\"FSource\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"cb9a2505-3c90-4627-8e99-58448e91c472"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"5e5ef2a8-5b53-4bc6-9369-9efa642738d4"],
 
 Cell[BoxData["\<\"GSource\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"87b99aef-81b9-416d-b03b-9143cc233f6c"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"9d518e42-0993-4b3d-b76b-6fddccbd9444"],
 
 Cell[BoxData["\<\"MasterEquationSource\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"a8e89dc4-e767-499c-9206-9b7a02574df4"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"62418c57-b60f-4075-82b4-9d90914463bb"],
 
 Cell[BoxData["\<\"MetricPerturbationSourceFunction\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"67dbc876-30c5-4bbc-baf5-a539ca0a2780"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"9862c2fa-33f5-4c37-a29b-280ca3e34f97"],
 
 Cell[BoxData["\<\"PrSource\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"a73e427f-eb83-4801-a606-c462b3f4dabb"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"6ff4cf95-8bb5-4b90-9e6c-e069aa3ae3a4"],
 
 Cell[BoxData["\<\"PSource\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"0470d3fe-6313-4aa1-adb9-e8764559acb8"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"f62d8137-97b2-4ae0-87af-5809c78e1eb4"],
 
 Cell[BoxData["\<\"PtSource\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"7804e621-02e5-41ba-a32e-ac8abe3a2915"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"92b8fcf9-6662-412e-b087-fa2487ce250e"],
 
 Cell[BoxData["\<\"QFlatSource\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"ca3c5eb8-8ac3-46ed-9062-d8d47608cff4"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"7748db0d-be5f-4374-b2e0-166164acdd8c"],
 
 Cell[BoxData["\<\"QrrSource\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"9129051f-2ac0-4ab5-987e-66cadc49f38a"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"c20273b3-f40b-4ff8-8101-147b27a4c4a8"],
 
 Cell[BoxData["\<\"QrSource\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"397b00cc-ccb4-4ac6-9903-0ffd09ecd091"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"7589e4cf-7fc1-4a6b-b931-64907f9cc668"],
 
 Cell[BoxData["\<\"QSharpSource\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"1876a42b-10fd-4674-9e67-cdb4018c4368"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"b89f6776-9b61-4fca-a7a4-47569177e2c9"],
 
 Cell[BoxData["\<\"QtrSource\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"bc81116a-14dc-4e4c-801d-d709a7f86da7"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"58621c99-43c9-44c1-8cc6-41bf685caaf4"],
 
 Cell[BoxData["\<\"QtSource\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"aa8e344b-912a-4555-b8b3-89efb0e45633"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"387adb37-bf08-46c1-a66a-f6633d379a02"],
 
 Cell[BoxData["\<\"QttSource\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"d38121f5-0b6d-4d71-89d6-f84dbba67f41"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"42684994-8ff8-4495-b883-fdf451d37e72"],
 
 Cell[BoxData["\<\"ApoapsisSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"c17a9748-74c8-4177-8731-19b05bc8735a"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"d7c98e87-8af2-4ad8-acb3-e18a08573ab5"],
 
 Cell[BoxData["\<\"BlackHoleMassSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"53e8aa07-62f9-4813-9554-a7677c3e9e31"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"3a95cab8-3b6b-4c03-bd7b-5f2db31d62b6"],
 
 Cell[BoxData["\<\"BlackHoleSpinSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"440072d8-cfdd-4642-b234-2cb9d1ab3bef"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"29f432e1-cd6f-4bac-a8db-9ed2d1fd8f8e"],
 
 Cell[BoxData["\<\"CapitalOmegaSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"8283a125-a55e-4e65-b4fa-7f726211a97c"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"1f54ef26-d48c-4c20-ac6a-d8253e35584c"],
 
 Cell[BoxData["\<\"ChiSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"7b3eae76-73f6-4507-8d16-8a92b2780eb2"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"25c0446b-ba0a-4eec-a426-263025b601fb"],
 
 Cell[BoxData["\<\"CSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"fc313dee-c759-47c8-8a5e-a1bbc9bf6617"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"ded478f9-e541-4260-be1a-3aee5be203a5"],
 
 Cell[BoxData["\<\"DefaultSymbols\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"45833e70-e503-4a64-bc6a-eaba4d14b777"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"2babb1c1-72c2-4e09-bc6b-78b51da374d7"],
 
 Cell[BoxData["\<\"DeltaPhiSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"d675a054-c0b5-40eb-918c-403db5092169"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"18a1c1c1-0fbf-47da-b758-0220405b5e69"],
 
 Cell[BoxData["\<\"DiracDeltaSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"426d5238-99ff-48e2-bc7c-19f87b5fecb5"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"c5e439eb-bd08-4dd0-bbc3-f023b7871a4b"],
 
 Cell[BoxData["\<\"ECoefficientSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"76972cb5-0e1f-4575-bdba-9c0eda784703"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"3414d6e5-a4e3-4249-8783-521d40222882"],
 
 Cell[BoxData["\<\"FCoefficientSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"6dc7569a-6d83-4bfb-96d7-97ad89a6ee2f"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"8d6454c4-0f75-44a0-ae02-961c63660c4a"],
 
 Cell[BoxData["\<\"FrequencySymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"ed94aa9e-b2ea-420f-a682-0e19a867763b"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"32d11a20-f4b9-4cd4-aae4-9ac09fe9b66a"],
 
 Cell[BoxData["\<\"GCoefficientSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"0f88993c-5131-4ba6-a089-cf2f11a2b1ff"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"921593f6-6364-4693-9ffc-47bfcaee918d"],
 
 Cell[BoxData["\<\"GSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"578cc6c0-f694-43fc-a5b3-fb805213d4fd"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"ad62ffa6-008b-418e-8d8e-131b96aaaf11"],
 
 Cell[BoxData["\<\"H2Symbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"f8747464-f564-4f34-bdf4-ec489ee56cd0"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"96b37542-5307-43f5-9aba-8e34fe937652"],
 
 Cell[BoxData["\<\"HBarackSagoSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"f164801e-6668-4487-9305-56ef5ee84bc8"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"5f56339a-9358-4705-9c1e-c4a84cce0a7e"],
 
 Cell[BoxData["\<\"HeavisideSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"2f5a1c69-c24b-4041-8087-2bea04f46027"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"03dce8b6-fd17-455a-9812-c9ec0b43eddf"],
 
 Cell[BoxData["\<\"HrrSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"903d1363-04d7-47e4-803d-2deea4a19007"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"47f6db0c-eff5-4704-bbff-aa0a201a1e5f"],
 
 Cell[BoxData["\<\"HrSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"9ef18fe1-bbb6-4e3f-a030-9819a5c6c9d6"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"eb2ce40d-58bf-4e02-9400-fbd66f7caace"],
 
 Cell[BoxData["\<\"HtrSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"b84d5f7a-5f8c-48f4-b036-b4d4a891330a"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"2d2eb85d-62a2-47d3-9312-9995c6b23735"],
 
 Cell[BoxData["\<\"HtSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"e01bc07f-7f95-4292-a366-b4f4dcc9f639"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"884dd26d-0e53-4bda-9dfd-aa4ac9609d36"],
 
 Cell[BoxData["\<\"HttSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"24fbc98f-9228-4347-8531-14386ec918dc"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"f41de02b-f95e-48c6-a3a1-a1d0926c8218"],
 
 Cell[BoxData["\<\"ImpactParameterSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"d5719ed0-f53a-49c6-bfab-351286b99d0d"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"1e33a986-313e-4b35-9b98-215e463a9fb3"],
 
 Cell[BoxData["\<\"JrSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"d5bc2f7b-4c5a-41ce-8adf-e9d61bb271b7"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"261b195d-1662-4de1-ba44-bed08d92d8db"],
 
 Cell[BoxData["\<\"JtSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"b7206407-7234-43a0-b049-70c57b493044"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"f2b2a596-384e-446b-ae24-02d178560866"],
 
 Cell[BoxData["\<\"Jump\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"c62ff808-9609-4345-9e3f-3513578ab2dc"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"96c06cf5-21fd-473a-b7fc-2fe8d04c1ef6"],
 
 Cell[BoxData["\<\"KSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"430188dc-2882-444b-9895-501e77ac923a"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"7af49ccc-0d85-4c08-8b84-571feeca5780"],
 
 Cell[BoxData["\<\"LambdaSpinSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"1d987101-6e90-4f62-92d6-056248f4a32a"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"9764b650-b4b6-4f1a-ae5c-3117837fd559"],
 
 Cell[BoxData["\<\"LambdaSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"a3a625e5-8b57-4b9b-ab8d-19bfef75602c"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"4d416c5d-d1b1-416f-88de-ed536e9cd287"],
 
 Cell[BoxData["\<\"LSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"7c9e6758-d052-4a93-82d2-c350e2a954cb"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"22c811a1-1d6f-4199-ac44-2eca4dbd18cc"],
 
 Cell[BoxData["\<\"MasterFunctionSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"7fd416b3-7e67-44d0-84b7-8dc4abc6f11c"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"6fa70f8f-a574-49ec-a67d-7a9ec8902fbf"],
 
 Cell[BoxData["\<\"MSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"4609457c-2793-4340-83dc-034f15b022d2"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"918a3644-ed68-47f9-81e4-7c83222b9acb"],
 
 Cell[BoxData["\<\"NSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"13834f3d-d4d7-4b3e-b137-27439b9692b9"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"7fd98fb1-32e3-4c33-b560-420a499e9f9c"],
 
 Cell[BoxData["\<\"OmegaPhiSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"c9e51879-95e4-42e8-9f8d-98fc1fb78673"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"fe236294-1ccf-4d95-9fba-76030f0b0a4c"],
 
 Cell[BoxData["\<\"OmegaRSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"e584539c-fda8-47e1-a8e2-10e6ea4f589d"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"529bf2a0-a1ea-4992-b565-9c54ac6461fb"],
 
 Cell[BoxData["\<\"OrbitalEccentricitySymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"6a1b2d17-5bd1-4283-ac97-a83627aa2e43"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"76d8485a-e968-4374-bf2c-59fd818ef0ad"],
 
 Cell[BoxData["\<\"ParityAndVariable\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"433a0153-1d2e-4cf0-ae2a-f3e33522857c"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"23f1f680-571b-4088-ab5d-1d32a80242d0"],
 
 Cell[BoxData["\<\"ParticleMassSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"7fd91e38-cf3f-4d9b-8f02-80c29b9a1ae0"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"1c4ea0d3-ef46-4977-b646-26e2b950a631"],
 
 Cell[BoxData["\<\"PeriapsisSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"8da782d2-b087-44b9-9288-317b37e9fd2a"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"efdb44f8-9435-4a9f-be7e-80a5e644c509"],
 
 Cell[BoxData["\<\"PhiPSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"7d31eb72-61e9-4ace-acbe-dcd58074d1ab"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"12209847-e556-433a-a74e-8a949ea0e3b7"],
 
 Cell[BoxData["\<\"PhiSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"c7aa5682-d9c8-4e96-9258-228ee8ddacee"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"c3a118e0-3536-4f4f-aa33-a850fb3fafa4"],
 
 Cell[BoxData["\<\"PrSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"75a35342-eb98-4a53-82c1-e761fd741555"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"5b721d82-7514-4537-9943-a78387977619"],
 
 Cell[BoxData["\<\"PSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"9d0c869c-cd16-4919-b6c4-c54c6811b0fa"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"7e66b10e-00fd-424e-8e12-89e246f423fe"],
 
 Cell[BoxData["\<\"PtSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"866ccdaa-a51f-49e6-a433-39d47ff5aa4d"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"1f89f344-fd1b-46f3-969c-49ead76afbe0"],
 
 Cell[BoxData["\<\"QFlatSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"cb87a917-65e0-499a-be39-93e515af0a41"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"578b39e9-fee1-4331-a0cf-f4d8de6f5705"],
 
 Cell[BoxData["\<\"QrrSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"0fecc23a-990b-445f-911d-1b16b1b7d3ce"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"e2b6b4cd-a35d-42de-b63a-6a22d0a510a3"],
 
 Cell[BoxData["\<\"QrSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"8440f2c2-2207-49eb-9c1c-fe1722ac42e1"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"7e14fb6c-c4ed-470f-abe4-cb3a2d6d908d"],
 
 Cell[BoxData["\<\"QSharpSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"f2cc14c8-35d3-4a8c-83c4-253ec73fd52e"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"031647db-d363-4179-bf4a-7e40f111b1c0"],
 
 Cell[BoxData["\<\"QtrSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"5a26e91c-c955-4b25-a985-552de268b296"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"ea174bce-5848-4922-91cb-645b74fada1f"],
 
 Cell[BoxData["\<\"QtSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"a8cf34bf-465f-45aa-ae0c-9b821481c233"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"0adf3c18-5974-4433-8afd-5f4c340c94b0"],
 
 Cell[BoxData["\<\"QttSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"b6ccf2b6-a905-43ea-a51e-8796d90007bc"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"32e0e9d5-e880-4a3a-92a3-d3fe79d37bb7"],
 
 Cell[BoxData["\<\"RadialTeukolskyFunctionSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"c24710f7-9672-4f46-85cc-4e5b3d0805b0"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"e6104992-f395-44fe-88d9-536d71f9dacf"],
 
 Cell[BoxData["\<\"RpSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"7320823f-d848-45d4-ad2b-f56565039608"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"7ca25271-370a-47fc-ac09-dcc821032dc7"],
 
 Cell[BoxData["\<\"RStarSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"7f5031e2-0d5b-49f0-9879-8b7465e552dd"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"ae2622a9-bcb6-41af-94dc-79564f204105"],
 
 Cell[BoxData["\<\"RSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"4eca31cf-ac68-4eaa-abfa-b563ee42aad6"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"a1f8b45f-45ac-4a6e-b7b1-8fc699940643"],
 
 Cell[BoxData["\<\"SasakiNakamuraFunctionSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"fb86cabe-8326-422a-986b-06febd03d3e5"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"a28f8c23-8781-4dea-b3d3-77251b855467"],
 
 Cell[BoxData["\<\"SemiLatusRectumSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"7825c63f-1ae4-4217-97c3-bc1a7870d49e"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"eb10b51f-44b2-48b7-b4fd-1b4a9ed177b5"],
 
 Cell[BoxData["\<\"SpecificAngularMomentumSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"5b67bc0f-8d24-47c1-a7ae-46bc1427712c"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"966fb921-bc66-4857-abf8-7f58d3354377"],
 
 Cell[BoxData["\<\"SpecificEnergySymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"9f7ef9ea-fac2-484d-8df6-166a3722030d"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"d4fcccb9-9e49-4786-bada-1eb24a9fbf6f"],
 
 Cell[BoxData["\<\"SpinWeightedSpheroidalHarmonicSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"fd94c8b8-fb94-46b5-98f0-e7df207b2740"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"28dc9fce-8f91-42f2-a735-95bd011645fd"],
 
 Cell[BoxData["\<\"SpinWeightSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"1e416079-ebfd-4d7f-b3a4-eef45a70bd3c"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"838bce7d-abda-41d6-8611-ede528f03b8e"],
 
 Cell[BoxData["\<\"SymbolFunction\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"106a7e8a-20cd-4d97-be7a-c8337e931074"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"fd937132-728f-4d3d-898c-2c3798012ba1"],
 
 Cell[BoxData["\<\"TeukolskyFunctionSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"40aa4a67-9e5a-4ff0-9f3f-a3a12502f7c1"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"1c9597dd-b857-42e2-926a-f84e0189d403"],
 
 Cell[BoxData["\<\"ThetaPSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"39332e12-a52c-4b2a-b4c4-c25b94f322ec"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"b443d58b-a781-498a-abda-2e8f5c941fa1"],
 
 Cell[BoxData["\<\"ThetaSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"8a947a5f-509c-41bb-84ee-b975194112d8"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"1bb49ab1-086f-4dd3-87f8-3f2a1de2cc93"],
 
 Cell[BoxData["\<\"TSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"a57441f8-fa52-4f61-867b-70e6b2e39ad3"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"9fea93f5-849a-44f7-8d86-31d74cb0c3c1"],
 
 Cell[BoxData["\<\"XiEvenRSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"c421ea6c-8102-4237-8fda-f7897397ee18"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"342ba400-9305-4a7e-adfb-545c3cc7a906"],
 
 Cell[BoxData["\<\"XiEvenSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"4e4f2f5f-76ce-4c67-927c-a7a3e0b9e8c4"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"1bf13b5d-7625-4c97-bff3-1052ccc3430d"],
 
 Cell[BoxData["\<\"XiEvenTSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"f355052c-4c01-4647-bc88-a15ad4ad6776"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"2033c080-a298-45b4-b8e8-ae8d085e6007"],
 
 Cell[BoxData["\<\"XiOddSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"aa5070de-71c4-46a1-b88a-f0b33047e32d"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"4e6e1e8e-e19b-4461-929d-16fd0bad3835"],
 
 Cell[BoxData["\<\"XPhiPhiSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"4a1211d7-36d7-493c-ab8a-7133fc0b6cf5"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"9d04e0a7-9057-4641-99c3-fbe2660164de"],
 
 Cell[BoxData["\<\"XPhiSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"59ecf0aa-9d55-4b3c-9ad0-b6b675b60eda"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"d475a835-3764-4348-8d89-349f41d24cbf"],
 
 Cell[BoxData["\<\"XPNSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"f4278df9-55de-40ad-9751-91a84e4b078c"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"9cb7feb5-759f-47ec-88fc-117a73ad2a43"],
 
 Cell[BoxData["\<\"XSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"38e30cb3-0419-4a0e-a8a5-3644cb277458"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"4bfb9c0c-b1f7-47f4-8ede-e41d223598de"],
 
 Cell[BoxData["\<\"XThetaPhiSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"e2344a89-582f-4602-98ff-0d38f30392e0"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"7ab3a934-744d-4a36-8c6f-57e0d522ef4b"],
 
 Cell[BoxData["\<\"XThetaSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"ff4ad288-285b-4370-922d-e6a663ed5020"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"2c56690d-c00d-4606-a0eb-5b0585dde31e"],
 
 Cell[BoxData["\<\"XThetaThetaSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"e0ea126b-03a0-4359-bb12-965d8ac4b35f"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"3354b7dc-0fe3-493e-92f6-f4838e0e81c8"],
 
 Cell[BoxData["\<\"YPhiPhiSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"ef7cabe7-75e2-4157-9e13-115fdb27014e"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"6b8d6ab2-8c5c-4bae-b63e-dd71c6188f3e"],
 
 Cell[BoxData["\<\"YPhiSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"57368630-1ef5-48e6-90be-de144aa38d28"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"d6ba42b9-34b4-4f93-a981-e57326519fda"],
 
 Cell[BoxData["\<\"YSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"275c0818-9473-4c58-a6d7-3f3e38b89a21"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"db62ba12-94d6-4071-ab7c-a53da90b5f87"],
 
 Cell[BoxData["\<\"YThetaPhiSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"d96f6d27-6608-443d-841f-ab2607ee37ff"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"aa38f850-ef0f-44f7-91bb-6ccc44740f92"],
 
 Cell[BoxData["\<\"YThetaSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"f37490e6-1818-47be-990e-d5d40bc4a087"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"5d4d2c66-0e35-404a-88e0-e087774d5cc6"],
 
 Cell[BoxData["\<\"YThetaThetaSymbol\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"1f7f7d77-a7ff-4465-ba1f-ea26d4534f96"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"5870f26d-a36a-42ec-9860-a01311669897"],
 
 Cell[BoxData["\<\"VerifyBlackHoleSpin\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"4323b5ea-9ba7-4c9b-9208-44757b99888c"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"866b3162-dbf0-4865-af9e-ea0df00af809"],
 
 Cell[BoxData["\<\"VerifyOrbit\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"8ee615b9-d4a5-4325-af8c-06518174ad84"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"66cf6ec7-dffa-422a-8704-6e3bec3ca1e1"],
 
 Cell[BoxData["\<\"Building guides\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"36a03ee1-565b-4b00-abd7-05505a37fe75"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"4520d68b-112f-42a7-9a65-9eb02afbf9d2"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1701,19 +1694,41 @@ Cell[BoxData[
    "/Users/hoppese/Research/BlackHoleAnalysis/Documentation/English/Guides"],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"8194246e-2728-471f-8591-595b8cda9fbe"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"6a2aea65-6d89-4201-b069-c731de64e068"],
 
 Cell[BoxData["\<\"Building tutorials\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"81a9994c-5b17-40be-b699-de798b90096d"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"a8a454a9-c0f5-43a1-b590-e4517dba1b3c"],
+
+Cell[BoxData["\<\"Source/Documentation/English/Tutorials/Conventions.md\"\>"],\
+ "Print",
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"3e8073af-03b4-4e78-ae6c-c4e6d454cc7d"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Removing \"\>", "\[InvisibleSpace]", 
+   RowBox[{"{", 
+    RowBox[{"\<\"feOddMP\"\>", ",", "\<\"labelsOdd\"\>", 
+     ",", "\<\"result\"\>", ",", "\<\"ReturnSymbol\"\>", 
+     ",", "\<\"rulesMPToBS\"\>", ",", "\<\"rulesMPToBSDerivs\"\>"}], "}"}]}],
+  SequenceForm[
+  "Removing ", {
+   "feOddMP", "labelsOdd", "result", "ReturnSymbol", "rulesMPToBS", 
+    "rulesMPToBSDerivs"}],
+  Editable->False]], "Print",
+ CellLabel->
+  "During evaluation of \
+In[15]:=",ExpressionUUID->"d903ba5d-e51c-48e7-b473-67f0a21a542a"],
 
 Cell[BoxData["\<\"Source/Documentation/English/Tutorials/Discontinuities.md\"\
 \>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[10]:=",ExpressionUUID->"a332bd97-9af2-4554-8b47-b3cde6d3982c"],
+  "During evaluation of \
+In[15]:=",ExpressionUUID->"857f6c8b-5b42-45ec-b7bc-957f2f12b847"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1727,14 +1742,14 @@ Cell[BoxData[
    "Gauge", "Labels", "result", "Weak", "XCPM", "XZM", "zmJump", "zmWeak"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[22]:=",ExpressionUUID->"08ca9c07-d331-46a3-a507-1ccc63bd0abd"],
+  "During evaluation of \
+In[22]:=",ExpressionUUID->"cf1381fe-426f-4dad-84c9-a3cda297802c"],
 
 Cell[BoxData["\<\"Source/Documentation/English/Tutorials/Equations of \
 motion.md\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[22]:=",ExpressionUUID->"4b9c83ee-16e0-4d10-80e0-f20d90e21cd5"],
+  "During evaluation of \
+In[22]:=",ExpressionUUID->"2cfd4158-0d7c-4e14-acc9-7b2f5d42dfb5"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1750,14 +1765,14 @@ Cell[BoxData[
     "XCPM"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[49]:=",ExpressionUUID->"2bfb6224-b1b5-4c83-ac81-7b65d076dd4c"],
+  "During evaluation of \
+In[49]:=",ExpressionUUID->"bf194250-4308-4bdf-843d-7b2a5ced3e53"],
 
 Cell[BoxData["\<\"Source/Documentation/English/Tutorials/Examples.md\"\>"], \
 "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[49]:=",ExpressionUUID->"d1420f04-ab3e-44f4-ba6c-11943d2ec16b"],
+  "During evaluation of \
+In[49]:=",ExpressionUUID->"7f0fb98e-ebd3-4b5e-8a18-9cdb7b9ac0c7"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1766,9 +1781,7 @@ Cell[BoxData[
     RowBox[{"\<\"cpmEq\"\>", ",", "\<\"cpmEqWeak1\"\>", 
      ",", "\<\"cpmEqWeak2\"\>", ",", "\<\"cpmEqWeak3\"\>", 
      ",", "\<\"cpmJumps\"\>", ",", "\<\"cpmJumpsDr\"\>", 
-     ",", "\<\"cpmJumpsDt\"\>", ",", "\<\"DiscontinuityOrder\"\>", 
-     ",", "\<\"drgWeak1\"\>", ",", "\<\"g\"\>", ",", "\<\"gWeak1\"\>", 
-     ",", "\<\"gWeak2\"\>", ",", "\<\"jump\"\>", ",", "\<\"result\"\>", 
+     ",", "\<\"cpmJumpsDt\"\>", ",", "\<\"jump\"\>", ",", "\<\"result\"\>", 
      ",", "\<\"ReturnSymbol\"\>", ",", "\<\"rwEq\"\>", 
      ",", "\<\"SourceExpansion\"\>", ",", "\<\"symCPM\"\>", 
      ",", "\<\"Variable\"\>", ",", "\<\"Weak\"\>", ",", "\<\"weakCPM\"\>", 
@@ -1776,20 +1789,19 @@ Cell[BoxData[
   SequenceForm[
   "Removing ", {
    "cpmEq", "cpmEqWeak1", "cpmEqWeak2", "cpmEqWeak3", "cpmJumps", 
-    "cpmJumpsDr", "cpmJumpsDt", "DiscontinuityOrder", "drgWeak1", "g", 
-    "gWeak1", "gWeak2", "jump", "result", "ReturnSymbol", "rwEq", 
+    "cpmJumpsDr", "cpmJumpsDt", "jump", "result", "ReturnSymbol", "rwEq", 
     "SourceExpansion", "symCPM", "Variable", "Weak", "weakCPM", "XCPM", 
     "XCPM1"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[29]:=",ExpressionUUID->"ea01e3bc-ab60-4f0f-b337-5abd7ef2d066"],
+  "During evaluation of \
+In[15]:=",ExpressionUUID->"d27e3b91-2d71-42ad-bb73-c2a92e21d709"],
 
 Cell[BoxData["\<\"Source/Documentation/English/Tutorials/Field equations on \
 Schwarzschild.md\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[29]:=",ExpressionUUID->"e7c48ba2-c1df-4112-9feb-8ca1caeb77a8"],
+  "During evaluation of \
+In[15]:=",ExpressionUUID->"d145b9b7-2eb4-4966-a6a7-0dc69edaa544"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1799,14 +1811,14 @@ Cell[BoxData[
   SequenceForm["Removing ", {"Gauge", "result"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[11]:=",ExpressionUUID->"7e0f2188-414c-41cf-8fa4-8efdf402fe93"],
+  "During evaluation of \
+In[14]:=",ExpressionUUID->"5c1521fc-0fc5-49f6-b09b-77116c67f281"],
 
 Cell[BoxData["\<\"Source/Documentation/English/Tutorials/Kerr \
 equations.md\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[11]:=",ExpressionUUID->"04528728-32d6-42de-b0ac-49fc715e8294"],
+  "During evaluation of \
+In[14]:=",ExpressionUUID->"880d482e-e1e4-4757-9c41-59a3c0940d1f"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1825,14 +1837,49 @@ Cell[BoxData[
     "\[Psi]4"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[24]:=",ExpressionUUID->"07230f81-abd1-48f9-a77c-72f82d1b2629"],
+  "During evaluation of \
+In[24]:=",ExpressionUUID->"5307cb02-7b1d-432c-87b1-e252fb0f6ed0"],
+
+Cell[BoxData["\<\"Source/Documentation/English/Tutorials/Low order modes.md\"\
+\>"], "Print",
+ CellLabel->
+  "During evaluation of \
+In[24]:=",ExpressionUUID->"e40449b9-8ba0-4444-a726-48fdc395c887"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Removing \"\>", "\[InvisibleSpace]", 
+   RowBox[{"{", 
+    RowBox[{"\<\"diEvenFEs\"\>", ",", "\<\"diEvenFEsPlugIn1\"\>", 
+     ",", "\<\"diEvenFEsPlugIn2\"\>", ",", "\<\"diEvenLabels\"\>", 
+     ",", "\<\"diEvenRulesAmps\"\>", ",", "\<\"diEvenRulesDerivs\"\>", 
+     ",", "\<\"diOddFEs\"\>", ",", "\<\"diOddFEsPlugIn1\"\>", 
+     ",", "\<\"diOddFEsPlugIn2\"\>", ",", "\<\"diOddLabels\"\>", 
+     ",", "\<\"diOddRulesAmps\"\>", ",", "\<\"diOddRulesDerivs\"\>", 
+     ",", "\<\"ExpandZerilli\"\>", ",", "\<\"Gauge\"\>", 
+     ",", "\<\"monoFEs\"\>", ",", "\<\"monoFEsPlugIn1\"\>", 
+     ",", "\<\"monoFEsPlugIn2\"\>", ",", "\<\"monoLabels\"\>", 
+     ",", "\<\"monoRulesAmps\"\>", ",", "\<\"monoRulesDerivs\"\>", 
+     ",", "\<\"result\"\>", ",", "\<\"ReturnSymbol\"\>", 
+     ",", "\<\"SourceExpansion\"\>"}], "}"}]}],
+  SequenceForm[
+  "Removing ", {
+   "diEvenFEs", "diEvenFEsPlugIn1", "diEvenFEsPlugIn2", "diEvenLabels", 
+    "diEvenRulesAmps", "diEvenRulesDerivs", "diOddFEs", "diOddFEsPlugIn1", 
+    "diOddFEsPlugIn2", "diOddLabels", "diOddRulesAmps", "diOddRulesDerivs", 
+    "ExpandZerilli", "Gauge", "monoFEs", "monoFEsPlugIn1", "monoFEsPlugIn2", 
+    "monoLabels", "monoRulesAmps", "monoRulesDerivs", "result", 
+    "ReturnSymbol", "SourceExpansion"}],
+  Editable->False]], "Print",
+ CellLabel->
+  "During evaluation of \
+In[22]:=",ExpressionUUID->"d02cb71b-7fc4-4e45-b0e8-62cf931a49e2"],
 
 Cell[BoxData["\<\"Source/Documentation/English/Tutorials/Post-Newtonian \
 expressions.md\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[24]:=",ExpressionUUID->"0170904d-2beb-4925-ac85-b10ca6d63507"],
+  "During evaluation of \
+In[22]:=",ExpressionUUID->"14a32824-80c0-4436-a860-992f10c3c992"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1842,14 +1889,14 @@ Cell[BoxData[
   SequenceForm["Removing ", {"Metric", "result"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[42]:=",ExpressionUUID->"1f286afd-cece-4e17-8491-9cb443481ba7"],
+  "During evaluation of \
+In[42]:=",ExpressionUUID->"14e6a339-5cd0-4fbb-ae23-441e597b4b3e"],
 
 Cell[BoxData["\<\"Source/Documentation/English/Tutorials/RWZ master \
 equations.md\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[42]:=",ExpressionUUID->"f38cdba8-7a6c-4731-9ae8-c09203056fd0"],
+  "During evaluation of \
+In[42]:=",ExpressionUUID->"887c23b6-5bc5-4601-a435-378e0c4cbea2"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1865,14 +1912,14 @@ Cell[BoxData[
     "Weak", "XCPM", "XZM"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[13]:=",ExpressionUUID->"b01082d9-948b-4d4d-a744-091ee6913644"],
+  "During evaluation of \
+In[13]:=",ExpressionUUID->"d3766bab-5d7d-4acb-868f-b403b42313df"],
 
 Cell[BoxData["\<\"Source/Documentation/English/Tutorials/Simplifying \
 expressions.md\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[13]:=",ExpressionUUID->"6a84f939-8804-48b0-bc6a-5c2266368af5"],
+  "During evaluation of \
+In[13]:=",ExpressionUUID->"4e46b0fa-eff9-42b0-88ff-e81d7fe56e6f"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1883,23 +1930,23 @@ Cell[BoxData[
      ",", "\<\"result\"\>", ",", "\<\"Rm2\"\>", ",", "\<\"Slmm2\"\>", 
      ",", "\<\"sourceCPM\"\>", ",", "\<\"SourceExpansion\"\>", 
      ",", "\<\"Variable\"\>", ",", "\<\"XCPM\"\>", ",", "\<\"xPhiSym\"\>", 
-     ",", "\<\"XSNm2\"\>", ",", "\<\"yPhi\"\>", ",", "\<\"\[Lambda]sm2\"\>", 
-     ",", "\<\"\[Psi]4\"\>"}], "}"}]}],
+     ",", "\<\"XSNm2\"\>", ",", "\<\"yPhi\"\>", ",", "\<\"\[Lambda]sm2\"\>"}],
+     "}"}]}],
   SequenceForm[
   "Removing ", {
    "d2rSN", "d2rTeuk", "d2ThSlm", "dr2X", "FD", "Homogeneous", "result", 
     "Rm2", "Slmm2", "sourceCPM", "SourceExpansion", "Variable", "XCPM", 
-    "xPhiSym", "XSNm2", "yPhi", "\[Lambda]sm2", "\[Psi]4"}],
+    "xPhiSym", "XSNm2", "yPhi", "\[Lambda]sm2"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[40]:=",ExpressionUUID->"16d48620-0fd7-4152-8af4-e393f946d51b"],
+  "During evaluation of \
+In[40]:=",ExpressionUUID->"1c8c9050-ff10-4415-a5db-0903a26d2bb5"],
 
 Cell[BoxData["\<\"Source/Documentation/English/Tutorials/Source \
 terms.md\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[40]:=",ExpressionUUID->"1aad83c0-a6d2-43e0-abb7-5e882ff6ee7e"],
+  "During evaluation of \
+In[40]:=",ExpressionUUID->"74f49b9f-d8f2-4069-96b3-e7e90769fb8b"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1912,14 +1959,14 @@ Cell[BoxData[
    "Capital", "Indices", "result", "SourceExpansion", "Variable"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[19]:=",ExpressionUUID->"f834ccf8-3f33-42db-8340-ef7b99eea071"],
+  "During evaluation of \
+In[19]:=",ExpressionUUID->"d6458c34-657d-4b0b-a1d4-57b61f383853"],
 
 Cell[BoxData["\<\"Source/Documentation/English/Tutorials/Spherical \
 harmonics.md\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[19]:=",ExpressionUUID->"51e4a166-27c4-498b-83c6-a8dffb05abdf"],
+  "During evaluation of \
+In[19]:=",ExpressionUUID->"344ce5ab-c003-46c0-8361-5f55cfeec7d1"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1928,74 +1975,65 @@ Cell[BoxData[
   SequenceForm["Removing ", {"result"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[17]:=",ExpressionUUID->"1cdea885-ae26-48c8-bc79-142d9f5d55bf"],
+  "During evaluation of \
+In[17]:=",ExpressionUUID->"bbe3eec2-5098-495e-9896-2b40881c6717"],
 
 Cell[BoxData["\<\"Source/Documentation/English/Tutorials/Time domain \
 amplitudes.md\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[17]:=",ExpressionUUID->"3d1a2198-f2af-4205-8313-4168d9276a19"],
+  "During evaluation of \
+In[17]:=",ExpressionUUID->"263575d8-6bc4-485c-87af-236c90fef8fc"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"Removing \"\>", "\[InvisibleSpace]", 
    RowBox[{"{", 
-    RowBox[{"\<\"cpmEq\"\>", ",", "\<\"cpmEqWeak1\"\>", 
-     ",", "\<\"cpmEqWeak2\"\>", ",", "\<\"cpmEqWeak3\"\>", 
-     ",", "\<\"cpmJumps\"\>", ",", "\<\"cpmJumpsDr\"\>", 
-     ",", "\<\"cpmJumpsDt\"\>", ",", "\<\"discFunctions\"\>", 
-     ",", "\<\"functions\"\>", ",", "\<\"Gauge\"\>", ",", "\<\"jump\"\>", 
+    RowBox[{"\<\"ExpandZerilli\"\>", ",", "\<\"Gauge\"\>", 
      ",", "\<\"jumps\"\>", ",", "\<\"KWeak\"\>", ",", "\<\"KWeakEval\"\>", 
      ",", "\<\"MPs\"\>", ",", "\<\"PushFrom\"\>", ",", "\<\"Reconstruct\"\>", 
-     ",", "\<\"result\"\>", ",", "\<\"ReturnSymbol\"\>", ",", "\<\"rwEq\"\>", 
-     ",", "\<\"SourceExpansion\"\>", ",", "\<\"symCPM\"\>", 
-     ",", "\<\"Variable\"\>", ",", "\<\"Weak\"\>", ",", "\<\"weakCPM\"\>", 
-     ",", "\<\"XCPM\"\>", ",", "\<\"XCPM1\"\>", ",", "\<\"XZM\"\>"}], "}"}]}],
-  
+     ",", "\<\"result\"\>", ",", "\<\"SourceExpansion\"\>", 
+     ",", "\<\"Weak\"\>", ",", "\<\"XCPM\"\>", ",", "\<\"XZM\"\>"}], "}"}]}],
   SequenceForm[
   "Removing ", {
-   "cpmEq", "cpmEqWeak1", "cpmEqWeak2", "cpmEqWeak3", "cpmJumps", 
-    "cpmJumpsDr", "cpmJumpsDt", "discFunctions", "functions", "Gauge", "jump",
-     "jumps", "KWeak", "KWeakEval", "MPs", "PushFrom", "Reconstruct", 
-    "result", "ReturnSymbol", "rwEq", "SourceExpansion", "symCPM", "Variable",
-     "Weak", "weakCPM", "XCPM", "XCPM1", "XZM"}],
+   "ExpandZerilli", "Gauge", "jumps", "KWeak", "KWeakEval", "MPs", "PushFrom",
+     "Reconstruct", "result", "SourceExpansion", "Weak", "XCPM", "XZM"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[56]:=",ExpressionUUID->"a4650610-9aaa-406f-bddb-e51177904694"],
+  "During evaluation of \
+In[33]:=",ExpressionUUID->"ace519b0-8d71-4001-a6e4-c640cca6eb95"],
 
 Cell[BoxData["\<\"Source/Documentation/English/Tutorials/Using labels to act \
 on groups of variables.md\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[56]:=",ExpressionUUID->"d82634fd-84f2-4db2-9db9-7522ff65699f"],
+  "During evaluation of \
+In[33]:=",ExpressionUUID->"df7b0171-4e99-4566-832e-64a6b1fac7c1"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"Removing \"\>", "\[InvisibleSpace]", 
    RowBox[{"{", 
     RowBox[{"\<\"discFunctions\"\>", ",", "\<\"functions\"\>", 
-     ",", "\<\"Gauge\"\>", ",", "\<\"Indices\"\>", ",", "\<\"labels\"\>", 
+     ",", "\<\"Gauge\"\>", ",", "\<\"Indices\"\>", ",", "\<\"invFns\"\>", 
+     ",", "\<\"labels\"\>", ",", "\<\"pushFns\"\>", 
      ",", "\<\"Reconstruct\"\>", ",", "\<\"result\"\>", 
      ",", "\<\"shFunctions\"\>", ",", "\<\"SourceExpansion\"\>", 
      ",", "\<\"sourceFunctions\"\>", ",", "\<\"Weak\"\>", ",", "\<\"XCPM\"\>",
       ",", "\<\"XZM\"\>"}], "}"}]}],
   SequenceForm[
   "Removing ", {
-   "discFunctions", "functions", "Gauge", "Indices", "labels", "Reconstruct", 
-    "result", "shFunctions", "SourceExpansion", "sourceFunctions", "Weak", 
-    "XCPM", "XZM"}],
+   "discFunctions", "functions", "Gauge", "Indices", "invFns", "labels", 
+    "pushFns", "Reconstruct", "result", "shFunctions", "SourceExpansion", 
+    "sourceFunctions", "Weak", "XCPM", "XZM"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[28]:=",ExpressionUUID->"6716813e-2bd7-416d-857f-9bc681f68966"],
+  "During evaluation of \
+In[35]:=",ExpressionUUID->"4d19dc9f-5324-4731-9661-2c3ebcb892e4"],
 
 Cell[BoxData["\<\"Source/Documentation/English/Tutorials/Weak \
 functions.md\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[28]:=",ExpressionUUID->"ccbec823-a16b-4b9d-97d5-47e4e05ea55c"],
+  "During evaluation of \
+In[35]:=",ExpressionUUID->"8b991bfc-a836-4aa9-b105-70ccbad01237"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -2014,13 +2052,13 @@ Cell[BoxData[
     "XZM", "zmVar", "zmVarWeak"}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[39]:=",ExpressionUUID->"c721c6e4-b61b-47e0-b07f-ba9a88858d23"],
+  "During evaluation of \
+In[39]:=",ExpressionUUID->"0e99e611-6fb1-42f5-be3d-5af1fba283f3"],
 
 Cell[BoxData["\<\"Indexing Documentation\"\>"], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[39]:=",ExpressionUUID->"b9ca6dbe-36c0-4c4c-9736-d258a42555b6"]
+  "During evaluation of \
+In[39]:=",ExpressionUUID->"7f14a59c-d71d-4ebb-ba5c-f86ab7d6c844"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -2046,33 +2084,33 @@ java.lang.ClassLoader.loadClass(ClassLoader.java:357)\\\\\\\\n\\\\\\\\tat \
 java.lang.Class.getDeclaredConstructors0(Native Method)\\\\\\\\n\\\\\\\\tat \
 java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)\\\\\\\\n\\\\\\\
 \\tat java.lang.Class.getConstructors(Class.java:1651)\\\\\\\"\\\"}]\\).\"",2,
-   10,5,20227958981325499342,"Local","JLink`Java"},
+   5,1,20228084457070808933,"Local","JLink`Java"},
   "MessageTemplate2"]], "Message", "MSG",
  CellLabel->
-  "During evaluation of (Local) \
-In[39]:=",ExpressionUUID->"bc159974-d371-4526-9f8f-afbf653d56a0"],
+  "During evaluation of \
+In[39]:=",ExpressionUUID->"30343192-0324-4045-afe8-d49120da42b8"],
 
 Cell[BoxData[
  TemplateBox[{
   "JLink`LoadJavaClass","fail",
    "\"Java failed to load class \
 \\!\\(\\*RowBox[{\\\"\\\\\\\"com.wolfram.documentationsearch.\
-DocumentationIndexer\\\\\\\"\\\"}]\\).\"",2,10,6,20227958981325499342,"Local",
+DocumentationIndexer\\\\\\\"\\\"}]\\).\"",2,5,2,20228084457070808933,"Local",
    "JLink`LoadJavaClass"},
   "MessageTemplate2"]], "Message", "MSG",
  CellLabel->
-  "During evaluation of (Local) \
-In[39]:=",ExpressionUUID->"c42f94a4-449d-43cf-8dde-2ddabf46e8de"],
+  "During evaluation of \
+In[39]:=",ExpressionUUID->"f30c87e0-162d-4909-8388-81df1c3adc38"],
 
 Cell[BoxData[
  TemplateBox[{
   "JLink`KeepJavaObject","obj",
    "\"At least one argument to KeepJavaObject was not a valid Java object.\"",
-   2,10,7,20227958981325499342,"Local","JLink`KeepJavaObject"},
+   2,5,3,20228084457070808933,"Local","JLink`KeepJavaObject"},
   "MessageTemplate2"]], "Message", "MSG",
  CellLabel->
-  "During evaluation of (Local) \
-In[39]:=",ExpressionUUID->"15f2d871-4f97-4862-9d76-ce6ad6d649bd"],
+  "During evaluation of \
+In[39]:=",ExpressionUUID->"fb2fc648-e840-4706-b3ca-7632ec259a17"],
 
 Cell[BoxData[
  TemplateBox[{
@@ -2082,17 +2120,250 @@ Cell[BoxData[
 org.apache.lucene.index.IndexReader.open(Ljava/lang/String;)Lorg/apache/\
 lucene/index/IndexReader;\\\\\\\\n\\\\\\\\tat \
 com.wolfram.documentationsearch.spelling.DidYouMeanIndexer.createSpellIndex(\
-DidYouMeanIndexer.java:17)\\\\\\\"\\\"}]\\).\"",2,10,8,20227958981325499342,
+DidYouMeanIndexer.java:17)\\\\\\\"\\\"}]\\).\"",2,5,4,20228084457070808933,
    "Local","JLink`Java"},
   "MessageTemplate2"]], "Message", "MSG",
  CellLabel->
-  "During evaluation of (Local) \
-In[39]:=",ExpressionUUID->"e3255c75-da98-4eec-a307-bfa794293aa1"],
+  "During evaluation of \
+In[39]:=",ExpressionUUID->"77e1e890-1011-47ea-9202-2ea6782f1094"],
 
 Cell[BoxData["\<\"Done\"\>"], "Print",
  CellLabel->
+  "During evaluation of \
+In[39]:=",ExpressionUUID->"ba8b8b01-b70e-4e41-b65b-7a8d4f2e79bd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "HttDiscontinuities"}]], "Input",
+ CellLabel->
+  "(Local) In[6]:=",ExpressionUUID->"8bfcbde0-e724-447e-8115-cf44d5adc5aa"],
+
+Cell[BoxData[
+ RowBox[{"\<\"HttDiscontinuities[] returns an Association with \
+discontinuities in htt and its derivatives.\\nHttDiscontinuities[{m,n}] \
+returns an Association with discontinuities in the m-th time derivative and \
+n-th r derivative of htt.\"\>", "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:BlackHoleAnalysis/ref/HttDiscontinuities"]}]], "Print", \
+"PrintUsage",
+ CellTags->
+  "Info63741352779-9883461",ExpressionUUID->"757b7ed5-eac5-438c-8451-\
+2264b0dbb6be"]
+}, Open  ]],
+
+Cell[BoxData["PushFunction"], \
+"Input",ExpressionUUID->"f15f36b5-0f7d-4139-9333-876b807e7c22"],
+
+Cell[BoxData["InvariantAmplitudeFunction"], \
+"Input",ExpressionUUID->"340ec3a7-2faa-4b7c-b28d-6b0b36ebc37b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"HttInvariantAmplitude", "[", 
+  RowBox[{"Gauge", "\[Rule]", "\"\<Undefined\>\""}], "]"}]], "Input",
+ CellLabel->
+  "(Local) In[9]:=",ExpressionUUID->"08864a8b-acaf-4af3-9302-6a103703663c"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"-", "M"}], " ", 
+   RowBox[{"(", 
+    RowBox[{"1", "-", 
+     FractionBox[
+      RowBox[{"2", " ", "M"}], "r"]}], ")"}], " ", 
+   RowBox[{
+    SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\
+\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[ScriptCapitalG]\\\\\\\\\\\\\\\"}]\\\\\
+\\\\)\\\\\\\"\\\", \\\"\\\\\\\"GU\\\\\\\"\\\"], \\\"Superscript\\\", \
+Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", 
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{"0", ",", "1"}], ")"}],
+      Derivative],
+     MultilineFunction->None], "[", 
+    RowBox[{"t", ",", "r"}], "]"}]}], "-", 
+  RowBox[{"2", " ", 
+   RowBox[{
+    SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\
+\\(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\
+\\\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"j\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"t\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"GU\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\
+\\)\"\>", 
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{"1", ",", "0"}], ")"}],
+      Derivative],
+     MultilineFunction->None], "[", 
+    RowBox[{"t", ",", "r"}], "]"}]}], "+", 
+  RowBox[{
+   SuperscriptBox["r", "2"], " ", 
+   RowBox[{
+    SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\
+\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[ScriptCapitalG]\\\\\\\\\\\\\\\"}]\\\\\
+\\\\)\\\\\\\"\\\", \\\"\\\\\\\"GU\\\\\\\"\\\"], \\\"Superscript\\\", \
+Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", 
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{"2", ",", "0"}], ")"}],
+      Derivative],
+     MultilineFunction->None], "[", 
+    RowBox[{"t", ",", "r"}], "]"}]}], "+", 
+  RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\\\
+\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\\\
+\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"h\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"tt\\\\\\\\\\\\\\\
+\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"GU\\\\\\\"\\\"], \
+\\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
+   RowBox[{"t", ",", "r"}], "]"}], "+", 
+  FractionBox[
+   RowBox[{"2", " ", "M", " ", 
+    RowBox[{"(", 
+     RowBox[{"1", "-", 
+      FractionBox[
+       RowBox[{"2", " ", "M"}], "r"]}], ")"}], " ", 
+    RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\
+\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\\\
+\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"j\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"r\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"GU\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\
+\\)\"\>", "[", 
+     RowBox[{"t", ",", "r"}], "]"}]}], 
+   SuperscriptBox["r", "2"]]}]], "Output",
+ CellLabel->
+  "(Local) Out[9]=",ExpressionUUID->"a3fa91d3-ea37-4ec2-b63a-f2586848dd0c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"MetricPerturbationLables", "//", "Options"}]], "Input",
+ CellLabel->
+  "(Local) In[17]:=",ExpressionUUID->"243522be-f0e3-4637-b9c7-a5e3d3194ed7"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\<\"Parity\"\>", "\[Rule]", "\<\"Both\"\>"}], ",", 
+   RowBox[{"\<\"Mode\"\>", "\[Rule]", "\<\"Radiative\"\>"}], ",", 
+   RowBox[{"\<\"Gauge\"\>", "\[Rule]", "\<\"Lorenz\"\>"}]}], "}"}]], "Output",
+ 
+ CellLabel->
+  "(Local) Out[17]=",ExpressionUUID->"14cb7887-0908-4246-a365-ed058d586408"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "YHarmonic"}]], "Input",
+ CellLabel->
+  "(Local) In[18]:=",ExpressionUUID->"1f27cec7-cb65-4ef9-aa84-7291efb624ca"],
+
+Cell[BoxData[
+ RowBox[{"\<\"YHarmonic[{l,m},{theta,phi}] returns the scalar spherical \
+harmonic Y_lm[theta,phi]. \\nYHarmonic[{l,m},{theta,phi},s] returns the \
+spin-weighted spherical harmonic _s Y_lm[theta,phi].\"\>", 
+  "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:BlackHoleAnalysis/ref/YHarmonic"]}]], "Print", "PrintUsage",
+ CellTags->
+  "Info183741353504-9883461",ExpressionUUID->"7c5caca2-b8f3-4264-ab85-\
+bbe808fb1046"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"YHarmonic", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"2", ",", "2"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Theta]", ",", "\[Phi]"}], "}"}], ",", 
+   RowBox[{"-", "2"}]}], "]"}]], "Input",
+ CellLabel->
+  "(Local) In[21]:=",ExpressionUUID->"3c3cb14b-ffc1-48a3-9754-0e678661c345"],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["1", "2"], " ", 
+  SuperscriptBox["\[ExponentialE]", 
+   RowBox[{"2", " ", "\[ImaginaryI]", " ", "\[Phi]"}]], " ", 
+  SqrtBox[
+   FractionBox["5", "\[Pi]"]], " ", 
+  SuperscriptBox[
+   RowBox[{"Cos", "[", 
+    FractionBox["\[Theta]", "2"], "]"}], "4"]}]], "Output",
+ CellLabel->
+  "(Local) Out[21]=",ExpressionUUID->"d6f58fe7-0eda-4f4a-81b6-888573db20e3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"InvariantAmplitudeFunction", "/@", 
+  RowBox[{"MetricPerturbationLables", "[", 
+   RowBox[{"Gauge", "\[Rule]", "\"\<RWZ\>\""}], "]"}]}]], "Input",
+ CellLabel->
+  "(Local) In[16]:=",ExpressionUUID->"da23ab88-06d9-4b88-be43-bb0b82606981"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "HttInvariantAmplitude", ",", "HtrInvariantAmplitude", ",", 
+   "HrrInvariantAmplitude", ",", "KInvariantAmplitude", ",", 
+   "HtInvariantAmplitude", ",", "HrInvariantAmplitude"}], "}"}]], "Output",
+ CellLabel->
+  "(Local) Out[16]=",ExpressionUUID->"864e57e8-7bf4-4278-9c00-415641668493"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"HttAmplitude", "[", 
+  RowBox[{"Gauge", "\[Rule]", "\"\<Invariant\>\""}], "]"}]], "Input",
+ CellLabel->
+  "(Local) In[13]:=",ExpressionUUID->"71d334c8-4adf-4890-a899-19d4c1730fcb"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox["\<\"Passed option '\\!\\(\\*RowBox[{\\\"\\\\\\\"Gauge\\\\\
+\\\"\\\", \\\"\[Rule]\\\", \\\"\\\\\\\"Invariant\\\\\\\"\\\"}]\\)' did not \
+satisfy test \
+\\!\\(\\*RowBox[{\\\"BlackHoleAnalysis`Fields`Private`gaugeQ\\\"}]\\)\"\>",
+  StringForm[
+  "Passed option '`1`' did not satisfy test `2`", "Gauge" -> "Invariant", 
+   BlackHoleAnalysis`Fields`Private`gaugeQ],
+  Editable->False]], "Print",
+ CellLabel->
   "During evaluation of (Local) \
-In[39]:=",ExpressionUUID->"162e27ec-3142-4846-b974-dcd48ecd5660"]
+In[13]:=",ExpressionUUID->"e6076d4c-fc41-4e84-b6a1-81663eba9a87"],
+
+Cell[BoxData["\<\"Aborting in \
+BlackHoleAnalysis`Fields`Private`getMPAmplitude[].\"\>"], "Print",
+ CellLabel->
+  "During evaluation of (Local) \
+In[13]:=",ExpressionUUID->"aecf129c-465d-41b0-b3f5-48bb3a6157bf"]
+}, Open  ]],
+
+Cell[BoxData["$Aborted"], "Output",
+ CellLabel->
+  "(Local) Out[13]=",ExpressionUUID->"3e6a1c25-b912-4ff1-b8b9-5538cef04b02"]
 }, Open  ]]
 },
 WindowSize->{895, 1005},

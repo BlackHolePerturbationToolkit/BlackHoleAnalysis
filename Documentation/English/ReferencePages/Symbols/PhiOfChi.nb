@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"70c0732e-55e9-473e-a133-0d00f1a05d5b"],
+   0}},ExpressionUUID->"d2f56b81-ae32-419b-b7a9-c60421095e6a"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -16,12 +16,12 @@ Cell[TextData[{
  ButtonBox["PhiOfChi",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/PhiOfChi"]
-}], "LinkTrail",ExpressionUUID->"3ef3fdd4-f2aa-4f51-9316-1ae328f8af99"],
+}], "LinkTrail",ExpressionUUID->"19722be8-64d4-43f5-af07-bf4aabc83e09"],
 
 Cell[CellGroupData[{
 
 Cell["PhiOfChi", \
-"ObjectName",ExpressionUUID->"5bad258f-7c57-4e7d-aa88-ac530fb25c87"],
+"ObjectName",ExpressionUUID->"13ceb8c0-7d15-41f7-85e9-b656d2223a64"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -30,12 +30,12 @@ Cell[BoxData[GridBox[{
        ButtonBox["PhiOfChi",
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/PhiOfChi"], "[", "]"}]], 
-      "InlineFormula",ExpressionUUID->"15012c4f-e80d-4009-85c4-7812b9703e29"],
+      "InlineFormula",ExpressionUUID->"2b88441c-bc06-4a9e-b0c3-6faacad70f24"],
      
      "\[LineSeparator]returns a closed-form expression for Darwin's phi(chi) \
 in terms of EllipticF."
-    }],ExpressionUUID->"5598142c-6a24-4c80-a036-1eac2830cc4f"]}
-  }]], "Usage",ExpressionUUID->"2f3ed5af-9b10-4543-9069-84f3bb33f770"]
+    }],ExpressionUUID->"831c04b0-3d73-47c6-993e-5c7b8a36493d"]}
+  }]], "Usage",ExpressionUUID->"f1d2e237-b9ac-4488-80e4-fb04f700ae56"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -81,17 +81,17 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"f3936296-2c05-4a4f-882b-27fb21c45254"],
+  0,ExpressionUUID->"9f3bb528-7ecf-4a2d-a453-31c6f093eee8"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"70056977-947d-41fd-8f01-efd323cf72af"],
+"Notes",ExpressionUUID->"45b1169c-5a66-45c1-ba3a-08ad52d988a3"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "356a2f76-e399-4ca4-a5cc-a9330311cfa7"], "Metric", "Schwarzschild", 
+     "06492fa0-db99-48f9-b968-7a7b2ab263fc"], "Metric", "Schwarzschild", 
     Cell["\<\
 Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
-\>", "TableText",ExpressionUUID->"dfb014bf-9781-44ba-b31d-d13689d48963"]}
+\>", "TableText",ExpressionUUID->"646efbae-7b09-4a1f-91a9-69bc19e56cb7"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -102,14 +102,14 @@ Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"4b13b9d4-dcb2-4bbf-8f5f-daa6c83d7f6e"]
+     True, True}}}},ExpressionUUID->"146efa65-1ca8-471c-94c9-40e13f4a44b6"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"2dd36bba-b56d-4e7f-b491-dffe8af2ed13"],
+Cell[" ", "FooterCell",ExpressionUUID->"e52c482a-0f5c-44f3-8e82-25e6967bae36"],
 
-Cell[BoxData[""],ExpressionUUID->"d5cc2634-d9dc-4ad9-b999-2fa75db57d70"]
+Cell[BoxData[""],ExpressionUUID->"2bdb2a9c-294e-432f-b9dc-6e080e85fc29"]
 }, Open  ]]
 },
 Saveable->False,

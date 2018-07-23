@@ -3,6 +3,7 @@
  "Title" -> "Time domain amplitudes",
  "Related Tutorials" -> {
      "Field equations on Schwarzschild",
+     "Conventions",
      "Using labels to act on groups of variables",
      "Weak functions",
      "Discontinuities",

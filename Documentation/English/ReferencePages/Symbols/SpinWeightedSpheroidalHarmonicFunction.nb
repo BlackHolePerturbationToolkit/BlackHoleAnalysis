@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"07bdbd98-8f13-4ec2-94ef-7c9650eb57b8"],
+   0}},ExpressionUUID->"2dcc52fc-7066-4534-b419-b7447b0e69d5"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -16,12 +16,12 @@ Cell[TextData[{
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->
    "paclet:BlackHoleAnalysis/ref/SpinWeightedSpheroidalHarmonicFunction"]
-}], "LinkTrail",ExpressionUUID->"e87d80f9-988c-4d6c-80d4-8cb2bf36ae64"],
+}], "LinkTrail",ExpressionUUID->"8a30add0-6d6b-443d-8969-34c00465b73e"],
 
 Cell[CellGroupData[{
 
 Cell["SpinWeightedSpheroidalHarmonicFunction", \
-"ObjectName",ExpressionUUID->"fc9e1f9b-c318-47c3-bf4c-c2d32161a554"],
+"ObjectName",ExpressionUUID->"2f3a1ac6-cf69-4c70-9e54-53c5902c5f1c"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -32,11 +32,11 @@ Cell[BoxData[GridBox[{
         ButtonData->
          "paclet:BlackHoleAnalysis/ref/\
 SpinWeightedSpheroidalHarmonicFunction"], "[", "]"}]], "InlineFormula",
-      ExpressionUUID->"725e6890-eea3-4745-8dde-e460b77c54fe"],
+      ExpressionUUID->"9ee4632c-b0c8-4734-b9a6-6448eadc1f55"],
      "\[LineSeparator]returns the symbolic spheroidal harmonic with spin \
 weight s."
-    }],ExpressionUUID->"a588ed0f-adab-4336-bf9d-d7afeb9ca8b1"]}
-  }]], "Usage",ExpressionUUID->"7416e228-ea0c-47c8-9258-055054210633"]
+    }],ExpressionUUID->"5b65987d-dfc1-4cdc-9826-82d09c1ce5ac"]}
+  }]], "Usage",ExpressionUUID->"98ef7ac4-2299-45f6-8a91-f50113c4bfb9"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -82,28 +82,28 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"0bb9d128-0b05-42e4-9219-d8fa2abd4c32"],
+  0,ExpressionUUID->"e933c341-6481-48ea-ba9f-19e8426b868a"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"4265a6af-8844-48a0-8b78-57bc151f358a"],
+"Notes",ExpressionUUID->"10dd0c83-d052-4a6d-9d8b-4ccbe46413c0"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "aff3ba2d-bdca-4af7-a31a-1a791348fd0d"], "Conjugate", "False", Cell["\<\
+     "c9138acc-78dd-410b-8aa2-22a9ea6213c7"], "Conjugate", "False", Cell["\<\
 Sepcifies whether to return the symbol for the complex conjugate of the \
 harmonic\
-\>", "TableText",ExpressionUUID->"8d6a1f31-2ac2-4e13-8b0b-405fe8d8c370"]},
+\>", "TableText",ExpressionUUID->"73809f20-b5e4-4526-93b1-4b66a9110f23"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "5bdbb02c-cf2a-40c0-8626-abf92d649170"], "ReturnSymbol", "False", 
+     "c8c9b53f-01c0-4d35-9e10-9dbc3ec7bc1d"], "ReturnSymbol", "False", 
     Cell["\<\
 Boolean stating whether to only return the symbol of the field (with no \
 arguments)\
-\>", "TableText",ExpressionUUID->"8f7247dc-cd7f-4246-abb7-39e87c98b939"]},
+\>", "TableText",ExpressionUUID->"05c2f446-3f46-485f-9f1f-4fc01897cc39"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "b53ce170-34f0-4770-880a-c8a33675b7a1"], "SpinWeight", 
+     "fe5538e5-ab51-4dd4-af01-be29b57c0b98"], "SpinWeight", 
     RowBox[{"-", "2"}], Cell["\<\
 Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
-\>", "TableText",ExpressionUUID->"11b525bb-0ad4-4ed8-a4f9-8aef919ae458"]}
+\>", "TableText",ExpressionUUID->"65271a7a-eac2-40cc-8671-2a2c1741ad2c"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -115,14 +115,14 @@ Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
  GridBoxDividers->{
   "Rows" -> {{
      True, True, True, 
-      True}}}},ExpressionUUID->"98c587f5-7de0-4d4f-9de3-310d230a1e48"]
+      True}}}},ExpressionUUID->"f3cab89c-2bbb-432f-b8cd-85105154d2fa"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"415b4880-43da-49f6-8654-c4698fb5a771"],
+Cell[" ", "FooterCell",ExpressionUUID->"a30e6d79-8bc7-4cf9-bf39-69ca594c23a5"],
 
-Cell[BoxData[""],ExpressionUUID->"b22bbe8e-5900-4713-bfeb-eca471803097"]
+Cell[BoxData[""],ExpressionUUID->"fcf56906-de2b-4b33-b4db-2665650dbb3c"]
 }, Open  ]]
 },
 Saveable->False,

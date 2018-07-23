@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"9754ce12-67b6-47cf-8d92-976696d26864"],
+   0}},ExpressionUUID->"b84ff551-da78-47ce-8e19-b780ac375658"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,63 @@ Cell[TextData[{
  ButtonBox["YHarmonic",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/YHarmonic"]
-}], "LinkTrail",ExpressionUUID->"34d83b5b-4c99-4056-9d00-78a75a1cd19a"],
+}], "LinkTrail",ExpressionUUID->"3271cc7d-7a09-43a6-b278-111e5716ec44"],
+
+Cell[BoxData[GridBox[{
+   {Cell["BLACKHOLEANALYSIS`HARMONICS PACLET SYMBOL", "PacletNameCell",
+     ExpressionUUID->"7558e14f-567d-4856-9b1f-49aefbb340cf"], Cell[TextData[{
+     Cell[BoxData[
+      ActionMenuBox[
+       FrameBox["\<\"Tutorials \[RightGuillemet]\"\>",
+        StripOnInput->False], {
+       RowBox[{"Spherical", " ", "harmonics"}]:>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/tutorial/Spherical harmonics"], 
+       "Conventions":>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/tutorial/Conventions"], 
+       RowBox[{
+       "Using", " ", "labels", " ", "to", " ", "act", " ", "on", " ", 
+        "groups", " ", "of", " ", "variables"}]:>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/tutorial/Using labels to act on groups of \
+variables"]},
+       Appearance->None,
+       MenuAppearance->Automatic]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "ba4c4148-4525-4d18-b4ad-017a730c61ca"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      ActionMenuBox[
+       FrameBox["\<\"See Also \[RightGuillemet]\"\>",
+        StripOnInput->False], {"SphericalHarmonicFunction":>
+       Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/ref/SphericalHarmonicFunction"], "YTheta":>
+       Documentation`HelpLookup["paclet:BlackHoleAnalysis/ref/YTheta"], 
+       "YPhi":>Documentation`HelpLookup["paclet:BlackHoleAnalysis/ref/YPhi"], 
+       "YThetaTheta":>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/ref/YThetaTheta"], "YThetaPhi":>
+       Documentation`HelpLookup["paclet:BlackHoleAnalysis/ref/YThetaPhi"], 
+       "YPhiPhi":>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/ref/YPhiPhi"], "XTheta":>
+       Documentation`HelpLookup["paclet:BlackHoleAnalysis/ref/XTheta"], 
+       "XPhi":>Documentation`HelpLookup["paclet:BlackHoleAnalysis/ref/XPhi"], 
+       "XThetaTheta":>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/ref/XThetaTheta"], "XThetaPhi":>
+       Documentation`HelpLookup["paclet:BlackHoleAnalysis/ref/XThetaPhi"], 
+       "XPhiPhi":>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/ref/XPhiPhi"]},
+       Appearance->None,
+       MenuAppearance->Automatic]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "77d87fa5-1bf0-4c2e-9c79-9a944868a16b"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]"
+    }], "AnchorBar",ExpressionUUID->"31260324-886d-4575-bae3-ecd5cfb45358"]}
+  }]], "AnchorBarGrid",ExpressionUUID->"a118ead8-5fc1-459b-a31e-6ec472535f51"],
 
 Cell[CellGroupData[{
 
 Cell["YHarmonic", \
-"ObjectName",ExpressionUUID->"8c44ceb3-d4b0-4796-8e40-b12b48f45853"],
+"ObjectName",ExpressionUUID->"f543e9ae-669c-4043-a204-31cbbf322d6b"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -35,11 +86,11 @@ Cell[BoxData[GridBox[{
           RowBox[{"l", ",", "m"}], "}"}], ",", 
          RowBox[{"{", 
           RowBox[{"theta", ",", "phi"}], "}"}]}], "TI"], "]"}]], 
-      "InlineFormula",ExpressionUUID->"11c1f5c7-c919-43b8-bd0e-b5030bd211f5"],
+      "InlineFormula",ExpressionUUID->"e7508a4e-9e68-43f3-97de-f1440abd8e67"],
      
      "\[LineSeparator]returns the scalar spherical harmonic Y_lm[theta,phi]. \
 "
-    }],ExpressionUUID->"9b20a3ab-7e9a-41ad-9e67-eba0c6b92af9"]},
+    }],ExpressionUUID->"5a207637-c165-4a43-bc7a-b0159100ad85"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -52,12 +103,12 @@ Cell[BoxData[GridBox[{
           RowBox[{"l", ",", "m"}], "}"}], ",", 
          RowBox[{"{", 
           RowBox[{"theta", ",", "phi"}], "}"}], ",", "s"}], "TI"], "]"}]], 
-      "InlineFormula",ExpressionUUID->"d7124580-6ad1-465b-8300-5195d04c4d14"],
+      "InlineFormula",ExpressionUUID->"52be7241-db99-407c-8c2f-f3ea36df5f2f"],
      
      "\[LineSeparator]returns the spin-weighted spherical harmonic _s \
 Y_lm[theta,phi]."
-    }],ExpressionUUID->"50d09ce6-51dc-4f20-9fef-d3a5dfce9cb9"]}
-  }]], "Usage",ExpressionUUID->"ac043256-6cad-4b86-a893-bfd5f25bacb3"]
+    }],ExpressionUUID->"074db2bb-d95d-4bec-8c49-35812dd3d648"]}
+  }]], "Usage",ExpressionUUID->"99685b8d-3241-4c41-a5f6-ee16a9ecad1c"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -103,17 +154,17 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"e4ee04d6-4cd2-4fda-b7b1-d8242b199c18"],
+  0,ExpressionUUID->"4f123072-942c-4811-a8a7-89f3bc2cabf6"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"2dba94d5-42d6-4dd3-b36f-37ed111ac530"],
+"Notes",ExpressionUUID->"70686ab2-211f-4fa5-bb25-7e715cf28553"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "1778d5da-b828-4ec7-b2e6-cda883b7c418"], "Phi", "True", Cell["\<\
+     "d31967c0-de28-46b1-8f1a-c350c6427335"], "Phi", "True", Cell["\<\
 Boolean specifying whether to include the phi factor with the spherical \
 harmonic\
-\>", "TableText",ExpressionUUID->"87c6748d-8541-45b8-8fcc-5286406358fc"]}
+\>", "TableText",ExpressionUUID->"00938b08-1354-4ce6-aa81-79d2e7ae3aed"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -124,14 +175,336 @@ harmonic\
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"1f8c6f83-ad6e-4f6f-bdb0-4b12ba71b743"]
+     True, True}}}},ExpressionUUID->"0f73b3f8-856c-4aa8-9920-e238c75938aa"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"cfb478fb-96fa-4d75-ab5d-f91ef95d82c5"],
+Cell["", "PrimaryExamplesSection",
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       ButtonBox[
+       "EXAMPLES", BaseStyle -> None, Appearance -> {Automatic, None}, 
+        Evaluator -> None, Method -> "Preemptive", 
+        ButtonFunction :> (FrontEndExecute[{
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], All, ButtonCell], 
+           FrontEndToken["OpenCloseGroup"], 
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]], 
+      "PrimaryExamplesSection", CellTags -> "PrimaryExamplesSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Examples"}], 
+        "PrimaryExamplesSection", CellTags -> "PrimaryExamplesSection"], 
+       BaseStyle -> None, Appearance -> {Automatic, None}, Evaluator -> None, 
+       Method -> "Preemptive", ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
+   None, None}},
+ CellFrameLabelMargins->0,
+ CellTags->
+  "PrimaryExamplesSection",ExpressionUUID->"f15a93b2-9094-41a1-9f48-\
+1b66be874186"],
 
-Cell[BoxData[""],ExpressionUUID->"2217ff97-8904-4a6e-87f1-1d241ad95830"]
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Basic Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(2)", "ExampleCount",ExpressionUUID->
+  "6f490481-efa8-4802-bb74-a1aec2d85c09"]
+}], "ExampleSection",ExpressionUUID->"abcba54f-8cf6-42f0-9dee-507d3c68cab8"],
+
+Cell[CellGroupData[{
+
+Cell["YHarmonic[{l,m},{\[Theta],\[Phi]}]", "Input",
+ CellLabel->"In[1]:=",ExpressionUUID->"9d81608d-378d-4c17-afb8-817c696a8dd8"],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{
+   SuperscriptBox["\[ExponentialE]", 
+    RowBox[{"\[ImaginaryI]", " ", "m", " ", "\[Phi]"}]], " ", 
+   SqrtBox[
+    FractionBox[
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"1", "+", 
+        RowBox[{"2", " ", "l"}]}], ")"}], " ", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"l", "-", "m"}], ")"}], "!"}]}], 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"l", "+", "m"}], ")"}], "!"}]]], " ", 
+   RowBox[{"LegendreP", "[", 
+    RowBox[{"l", ",", "m", ",", 
+     RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "]"}]}], 
+  RowBox[{"2", " ", 
+   SqrtBox["\[Pi]"]}]]], "Output",
+ CellLabel->"Out[1]:= ",ExpressionUUID->"3150e4fc-1a2c-4038-80f3-eeca56251191"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["YHarmonic[{2, 2}, {\[Theta], \[Phi]}, -2]", "Input",
+ CellLabel->"In[1]:=",ExpressionUUID->"5853ba8b-47d6-404f-aa7f-e6282d2bd33d"],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["1", "2"], " ", 
+  SuperscriptBox["\[ExponentialE]", 
+   RowBox[{"2", " ", "\[ImaginaryI]", " ", "\[Phi]"}]], " ", 
+  SqrtBox[
+   FractionBox["5", "\[Pi]"]], " ", 
+  SuperscriptBox[
+   RowBox[{"Cos", "[", 
+    FractionBox["\[Theta]", "2"], "]"}], "4"]}]], "Output",
+ CellLabel->"Out[1]:= ",ExpressionUUID->"f241cb7a-8532-40d9-940e-9b41b6390a14"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SeeAlsoSection",
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       ButtonBox[
+       "SEE ALSO", BaseStyle -> None, Appearance -> {Automatic, None}, 
+        Evaluator -> None, Method -> "Preemptive", 
+        ButtonFunction :> (FrontEndExecute[{
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], All, ButtonCell], 
+           FrontEndToken["OpenCloseGroup"], 
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]], 
+      "SeeAlsoSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "See Also"}], "SeeAlsoSection"], 
+       BaseStyle -> None, Appearance -> {Automatic, None}, Evaluator -> None, 
+       Method -> "Preemptive", ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
+   None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"21b61d9a-907f-4664-81e2-8fefa74a702f"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["SphericalHarmonicFunction",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/SphericalHarmonicFunction"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "a3b0d36a-f616-4937-936f-8c04b20914e7"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["YTheta",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/YTheta"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "9083738d-00f0-40f5-8a37-136b8264b7d9"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["YPhi",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/YPhi"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "d1226474-7b58-4ebd-82e8-4f153a8ac452"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["YThetaTheta",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/YThetaTheta"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "f8eedb25-52b8-40c8-843c-2d175cdebd8f"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["YThetaPhi",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/YThetaPhi"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "27a997fc-c831-42d3-98ed-152d0cc1b192"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["YPhiPhi",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/YPhiPhi"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "ba03f21b-5555-44e5-b209-fbe1d555565a"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["XTheta",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/XTheta"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "51a18394-8899-421c-922f-18dba91f2426"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["XPhi",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/XPhi"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "3024e472-dea9-4d19-8543-9914b488f33f"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["XThetaTheta",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/XThetaTheta"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "088768f7-3218-45bd-a89c-7a382dda8920"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["XThetaPhi",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/XThetaPhi"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "23f30c31-a94a-4d83-a78e-b80d9c29d8a1"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  StyleBox[
+   ButtonBox["XPhiPhi",
+    BaseStyle->"Link",
+    ButtonData->"paclet:BlackHoleAnalysis/ref/XPhiPhi"],
+   FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
+  "950896e3-867d-4ff3-a92a-33d140ac4a6c"]
+}], "SeeAlso",ExpressionUUID->"cb6a7417-141a-409a-a7c4-7c7c9488d2c7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "TutorialsSection",
+ WholeCellGroupOpener->True,
+ CellFrameLabels->{{
+    FEPrivate`If[
+     FEPrivate`Or[
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "6.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "7.0"], 
+      FEPrivate`SameQ[FEPrivate`$ProductVersion, "8.0"]], 
+     Cell[
+      TextData[
+       ButtonBox[
+       "TUTORIALS", BaseStyle -> None, Appearance -> {Automatic, None}, 
+        Evaluator -> None, Method -> "Preemptive", 
+        ButtonFunction :> (FrontEndExecute[{
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], All, ButtonCell], 
+           FrontEndToken["OpenCloseGroup"], 
+           FrontEnd`SelectionMove[
+            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]], 
+      "TutorialsSection"], 
+     TextData[
+      ButtonBox[
+       Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            TemplateBox[{24}, "Spacer1"]]], "Tutorials"}], 
+        "TutorialsSection"], BaseStyle -> None, 
+       Appearance -> {Automatic, None}, Evaluator -> None, Method -> 
+       "Preemptive", ButtonFunction :> (FrontEndExecute[{
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], All, ButtonCell], 
+          FrontEndToken["OpenCloseGroup"], 
+          FrontEnd`SelectionMove[
+           FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
+   None, None}},
+ CellFrameLabelMargins->
+  0,ExpressionUUID->"521059b0-2c75-4bb9-bf8f-b6da3afe85fb"],
+
+Cell[TextData[ButtonBox["Spherical harmonics",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:BlackHoleAnalysis/tutorial/Spherical harmonics"]], \
+"Tutorials",ExpressionUUID->"57c1fbdd-9739-4a6f-afe4-4c1eb859c67b"],
+
+Cell[TextData[ButtonBox["Conventions",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:BlackHoleAnalysis/tutorial/Conventions"]], \
+"Tutorials",ExpressionUUID->"7db8f923-f573-4933-ae3f-14025b8a5b2f"],
+
+Cell[TextData[ButtonBox["Using labels to act on groups of variables",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:BlackHoleAnalysis/tutorial/Using labels to act on groups of \
+variables"]], \
+"Tutorials",ExpressionUUID->"1fc170a5-d44e-48b5-ac69-fdc52703add6"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"82d34a3b-9fb4-4cf9-92c0-e532f8faddae"],
+
+Cell[BoxData[""],ExpressionUUID->"5817eeec-d9b7-480e-9178-c0dbacc93c5f"]
 }, Open  ]]
 },
 Saveable->False,

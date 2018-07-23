@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "TutorialColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"101d4b71-a111-45e3-9e10-354d0fca4ab9"],
+   0}},ExpressionUUID->"c9e325f8-f1d4-49df-9558-6880be02d3b0"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -11,11 +11,11 @@ Cell[TextData[{
  ButtonBox["Discontinuities",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/tutorial/Discontinuities"]
-}], "LinkTrail",ExpressionUUID->"ad7edb45-cf93-4098-b15b-bb5622b96dc0"],
+}], "LinkTrail",ExpressionUUID->"493bae5c-a43d-4743-bf50-5523914e122b"],
 
 Cell[BoxData[GridBox[{
    {Cell["DISCONTINUITIES TUTORIAL", "PacletNameCell",ExpressionUUID->
-     "b44bebbf-f372-4c8c-9a25-793581e4c5aa"], Cell[TextData[{
+     "ae1b60fb-7c29-404d-89f1-db3580346fb5"], Cell[TextData[{
      Cell[BoxData[
       ActionMenuBox[
        FrameBox["\<\"Related Tutorials \[RightGuillemet]\"\>",
@@ -33,7 +33,7 @@ Cell[BoxData[GridBox[{
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "d011cb84-d7cb-4d8e-abba-b3e8de3d0d64"],
+      "288a62d0-0c24-4d53-8214-840832d83961"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -52,43 +52,41 @@ Cell[BoxData[GridBox[{
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "64cfb786-8c36-4c7a-a21e-fb2e92d2a96e"]
-    }], "AnchorBar",ExpressionUUID->"cc5407ce-74da-488b-8e5e-fe4255fecc1e"]}
-  }]], "AnchorBarGrid",ExpressionUUID->"b94cc2cf-b59d-4f9b-bb73-270ac3ccfd34"],
+      "1144687a-5b5b-4b5c-87cb-2d43e7594597"]
+    }], "AnchorBar",ExpressionUUID->"532b25a5-b2da-463e-9d20-94bebc3d9e14"]}
+  }]], "AnchorBarGrid",ExpressionUUID->"d28e498e-95b8-4485-9b23-d22286b16a00"],
 
 Cell[CellGroupData[{
 
 Cell["BlackHoleAnalysis - Built in discontinuities", \
-"Title",ExpressionUUID->"fba8b336-6a74-471e-ac53-93569a626c73"],
+"Title",ExpressionUUID->"9dd7917f-8df0-4964-b64d-ab431db3a5a1"],
 
 Cell["\<\
 Many common functions have known discontinuities. BlackHoleAnalysis provides \
 many of these for perturbations of Schwarzschild spacetime.\
-\>", "Text",ExpressionUUID->"afd2f583-217e-4160-b550-35b038ad2865"],
+\>", "Text",ExpressionUUID->"5de0521e-2611-44ca-a5f2-bc9dfc35e99b"],
 
 Cell[BoxData[
  RowBox[{"<<", "BlackHoleAnalysis`"}]], "Input",
- CellLabel->
-  "(Local) In[1]:=",ExpressionUUID->"6230bd82-a3e9-4434-996a-32cdc91a7bff"],
+ CellLabel->"In[1]:=",ExpressionUUID->"9acffc62-bd69-4c88-8593-17b5be1913e0"],
 
 Cell[CellGroupData[{
 
 Cell["Introduction", \
-"Section",ExpressionUUID->"a4c10b53-cbb1-4201-ad40-bc3873c63faf"],
+"Section",ExpressionUUID->"b5f48dd7-385c-41ac-b30f-ecd34167642d"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 The Zerilli-Moncrief function for a given (implicit)  \[ScriptL],\[ScriptM] \
 is provided symbolically via:\
-\>", "Item",ExpressionUUID->"ce1bc16b-d65b-42c6-a7dd-26054606103b"],
+\>", "Item",ExpressionUUID->"1947abba-6bd1-48f1-900d-085675871f40"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "MasterFunction"}]], "Input",
- CellLabel->
-  "(Local) In[2]:=",ExpressionUUID->"0a0ee9cc-8368-4b0c-9c0d-eb6f8fee7af5"],
+ CellLabel->"In[2]:=",ExpressionUUID->"0dcd2d8b-ed98-4801-9bee-a52a0945b51d"],
 
 Cell[BoxData[
  RowBox[{"\<\"MasterFunction[] returns the gauge-invariant master function in \
@@ -100,24 +98,22 @@ symbolic form.\"\>", "\[NonBreakingSpace]",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/MasterFunction"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info23741340341-4539924",ExpressionUUID->"4860e184-2004-4752-ae29-\
-32c5b7ae73f6"]
+  "Info23741357142-9892469",ExpressionUUID->"da925d5f-afc0-406d-89ed-\
+d9cb73b41a04"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"MasterFunction", "[", "]"}]], "Input",
- CellLabel->
-  "(Local) In[3]:=",ExpressionUUID->"9f935c04-3648-45ad-a356-3b515a6adf98"],
+ CellLabel->"In[3]:=",ExpressionUUID->"28c90005-3783-496b-a2fe-c8c6c93192b0"],
 
 Cell[BoxData[
  RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"X\\\", \
 \\\"\\\\\\\"ZM\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
 SuperscriptBox]]\\)\"\>", "[", 
   RowBox[{"t", ",", "r"}], "]"}]], "Output",
- CellLabel->
-  "(Local) Out[3]=",ExpressionUUID->"65d6199b-06a5-4eec-9f88-92eb05bc899a"]
+ CellLabel->"Out[3]=",ExpressionUUID->"34606052-06f6-4da9-9903-20b4f95bfd2d"]
 }, Open  ]]
 }, Open  ]],
 
@@ -129,15 +125,15 @@ Cell[TextData[{
   FormBox[
    RowBox[{
     SubscriptBox["r", "p"], "(", "t", ")"}], TraditionalForm]],
-  ExpressionUUID->"cd155ba7-f9f8-4d67-be62-52949d91bfdf"],
+  ExpressionUUID->"b171e83b-4094-4198-9f5e-a86546e64dbf"],
  ", there will be a jump at  r = ",
  Cell[BoxData[
   FormBox[
    RowBox[{
     SubscriptBox["r", "p"], "(", "t", ")"}], TraditionalForm]],
-  ExpressionUUID->"e26a73ad-1ff1-4364-8ec7-77979b9b95e6"],
+  ExpressionUUID->"cde2d015-0553-452e-b31e-d2b3a689982c"],
  ", as evident with:"
-}], "Item",ExpressionUUID->"fc9137b9-2b77-4662-9b44-beddaf8a43e8"],
+}], "Item",ExpressionUUID->"985bec8b-3c00-4dc5-8284-b2b743860942"],
 
 Cell[CellGroupData[{
 
@@ -146,8 +142,7 @@ Cell[BoxData[
   RowBox[{"MasterFunction", "[", 
    RowBox[{"Weak", "\[Rule]", "True"}], "]"}]}]], "Input",
  CellChangeTimes->{{3.7412856532299347`*^9, 3.741285653413609*^9}},
- CellLabel->
-  "(Local) In[4]:=",ExpressionUUID->"ae3ce69e-0f4d-4add-9539-0dc737852d80"],
+ CellLabel->"In[4]:=",ExpressionUUID->"b3342a8e-2bdc-4910-8ecf-0af770a3af0b"],
 
 Cell[BoxData[
  RowBox[{
@@ -194,8 +189,7 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\"\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"+\\\\\\\"\\\"], \
 \\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
     RowBox[{"t", ",", "r"}], "]"}]}]}]], "Output",
- CellLabel->
-  "(Local) Out[4]=",ExpressionUUID->"6e818deb-dd03-415e-8c52-ccadbe5f97f0"]
+ CellLabel->"Out[4]=",ExpressionUUID->"f7cd3904-b6fa-477e-8670-c4bd7fdea3b6"]
 }, Open  ]]
 }, Open  ]],
 
@@ -204,23 +198,22 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    SuperscriptBox["\[CapitalPsi]", "ZM"], TraditionalForm]],ExpressionUUID->
-  "ba44bc24-ef1a-4c7e-bb88-41c2f31020fd"],
+  "80b94570-b92d-4a86-9967-ffe54863779c"],
  " on the left (-) and right (+) side of the particle is given by  \
 \[LeftDoubleBracket]\[CapitalPsi]\[RightDoubleBracket][t]."
-}], "Item",ExpressionUUID->"284b7b8e-19e7-4af4-af8a-da0f9ea13878"],
+}], "Item",ExpressionUUID->"80302514-8766-43a5-98a9-c41543a223ad"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 We can form it quickly with the function HeavisideCoefficientsToJumps\
-\>", "Item",ExpressionUUID->"75a758c9-a714-40f8-bcc2-2483df3334f4"],
+\>", "Item",ExpressionUUID->"4f09d40e-c06b-492c-8eef-7e9412c41456"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "HeavisideCoefficientsToJumps"}]], "Input",
- CellLabel->
-  "(Local) In[5]:=",ExpressionUUID->"0f70c33d-c3b9-4380-a529-164531fc111b"],
+ CellLabel->"In[5]:=",ExpressionUUID->"b4042332-0a3b-4171-8d27-7bf03e7cd5ad"],
 
 Cell[BoxData[
  RowBox[{"\<\"HeavisideCoefficientsToJumps[expr] removes singular terms in \
@@ -234,8 +227,8 @@ the location of the particle.\"\>", "\[NonBreakingSpace]",
     "paclet:BlackHoleAnalysis/ref/HeavisideCoefficientsToJumps"]}]], "Print", \
 "PrintUsage",
  CellTags->
-  "Info53741340341-4539924",ExpressionUUID->"2ee5a425-d1a7-4827-ba80-\
-ebc3cd779b3c"]
+  "Info53741357142-9892469",ExpressionUUID->"b2783542-6272-446e-a246-\
+c5dfbfa993f2"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -244,8 +237,7 @@ Cell[BoxData[
  RowBox[{"zmJump", "=", 
   RowBox[{"HeavisideCoefficientsToJumps", "[", "zmWeak", "]"}]}]], "Input",
  CellChangeTimes->{{3.741285655619485*^9, 3.741285656908628*^9}},
- CellLabel->
-  "(Local) In[6]:=",ExpressionUUID->"a1f081b7-da76-4db9-a85d-043f9f91c4c1"],
+ CellLabel->"In[6]:=",ExpressionUUID->"87f96891-e4fd-4519-a3cd-c5661444548f"],
 
 Cell[BoxData[
  RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\\\\\\\
@@ -254,8 +246,7 @@ Cell[BoxData[
 \\\"\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\"Superscript\\\\\\\\\\\\\\\", \
 Rule[SyntaxForm, SuperscriptBox]]\\\\\\\\)\\\\\\\"\\\"}]\\)\
 \[RightDoubleBracket]\"\>", "[", "t", "]"}]], "Output",
- CellLabel->
-  "(Local) Out[6]=",ExpressionUUID->"231994e8-7ae5-4c14-ba6f-256a18e55627"]
+ CellLabel->"Out[6]=",ExpressionUUID->"1514497b-3064-4a15-99df-c554519c9072"]
 }, Open  ]]
 }, Open  ]],
 
@@ -263,14 +254,13 @@ Cell[CellGroupData[{
 
 Cell["\<\
 The value of this jump is know and provided by MasterFunctionDiscontinuities\
-\>", "Item",ExpressionUUID->"6bff292a-2b65-49c6-b369-346ef661f188"],
+\>", "Item",ExpressionUUID->"57a6b780-7946-4338-b6d7-18c66fb7b690"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "MasterFunctionDiscontinuities"}]], "Input",
- CellLabel->
-  "(Local) In[7]:=",ExpressionUUID->"2f9c6b71-5c38-485f-a98f-31f7b52bcbff"],
+ CellLabel->"In[7]:=",ExpressionUUID->"3b5bb409-6aa8-4ec1-92ed-90f82c4e1d37"],
 
 Cell[BoxData[
  RowBox[{"\<\"MasterFunctionDiscontinuities[] returns an Association with \
@@ -286,8 +276,8 @@ master function.\"\>", "\[NonBreakingSpace]",
     "paclet:BlackHoleAnalysis/ref/MasterFunctionDiscontinuities"]}]], \
 "Print", "PrintUsage",
  CellTags->
-  "Info73741340341-4539924",ExpressionUUID->"e561e73a-89f9-44f2-95a8-\
-a91f6713352b"]
+  "Info73741357142-9892469",ExpressionUUID->"3912f218-9c92-4aed-bb69-\
+6022fd679f57"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -296,8 +286,7 @@ Cell[BoxData[
  RowBox[{"zmJump", "/.", 
   RowBox[{"MasterFunctionDiscontinuities", "[", "]"}]}]], "Input",
  CellChangeTimes->{3.7412856580208*^9},
- CellLabel->
-  "(Local) In[8]:=",ExpressionUUID->"a603e7ba-6446-4eb9-811d-c1da7d59d572"],
+ CellLabel->"In[8]:=",ExpressionUUID->"05b9b7a7-915e-497d-b33f-7327d4fb4926"],
 
 Cell[BoxData[
  FractionBox[
@@ -315,8 +304,7 @@ Cell[BoxData[
      RowBox[{"\[Lambda]", " ", 
       RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}]}], ")"}]}]]], "Output",
- CellLabel->
-  "(Local) Out[8]=",ExpressionUUID->"ec9ec6e6-e310-41c6-ae8f-5c3909556e22"]
+ CellLabel->"Out[8]=",ExpressionUUID->"addfb71b-3b22-443b-9ce7-4a18e8c7b66d"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -324,21 +312,21 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell["Available discontinuities", \
-"Section",ExpressionUUID->"7aa6a8c6-436f-4dcb-95cf-62aa91dcd250"],
+"Section",ExpressionUUID->"8213fbf9-0977-435f-9910-607bd19e87db"],
 
 Cell[CellGroupData[{
 
 Cell["Master function", \
-"Subsection",ExpressionUUID->"4a72a79d-6119-446e-8052-52b9ba001116"],
+"Subsection",ExpressionUUID->"c644617a-ca84-4f92-a3b4-d957172ad03b"],
 
 Cell["\<\
 As already shown, jumps in the master function are available.\
-\>", "Item",ExpressionUUID->"66f3dcd8-5f23-433b-a3fd-8c7145f9140f"],
+\>", "Item",ExpressionUUID->"c5a08ebf-e208-4d23-a421-dc0699ced8d3"],
 
 Cell[CellGroupData[{
 
 Cell["This is true for both even and odd parities.", \
-"Item",ExpressionUUID->"0fec361e-06e6-4d1d-85b2-3cb31db536c1"],
+"Item",ExpressionUUID->"8984696f-a030-492b-9fd5-5a812d3c6ac1"],
 
 Cell[CellGroupData[{
 
@@ -346,8 +334,7 @@ Cell[BoxData[
  RowBox[{"Keys", "@", 
   RowBox[{"MasterFunctionDiscontinuities", "[", 
    RowBox[{"Parity", "\[Rule]", "\"\<Even\>\""}], "]"}]}]], "Input",
- CellLabel->
-  "(Local) In[9]:=",ExpressionUUID->"9a7f3bb3-47a4-476a-a048-6f4428b3fe16"],
+ CellLabel->"In[9]:=",ExpressionUUID->"b373a504-8924-4efd-bfda-3a6975a6b913"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -368,8 +355,7 @@ SuperscriptBox]]\\)\[RightDoubleBracket]\"\>", "[", "t", "]"}], ",",
 \\\"\\\\\\\"ZM\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
 SuperscriptBox]]\\)\[RightDoubleBracket]\"\>", "[", "t", "]"}]}], 
   "}"}]], "Output",
- CellLabel->
-  "(Local) Out[9]=",ExpressionUUID->"55db3e10-6826-4720-a1eb-129dcb811041"]
+ CellLabel->"Out[9]=",ExpressionUUID->"ede274b1-2ab2-4630-b549-1753730c4b64"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -378,8 +364,7 @@ Cell[BoxData[
  RowBox[{"Keys", "@", 
   RowBox[{"MasterFunctionDiscontinuities", "[", 
    RowBox[{"Parity", "\[Rule]", "\"\<Odd\>\""}], "]"}]}]], "Input",
- CellLabel->
-  "(Local) In[10]:=",ExpressionUUID->"97e34c99-ed45-4c96-958a-a5fcaeadd378"],
+ CellLabel->"In[10]:=",ExpressionUUID->"6f81f647-1ac7-4743-8f6b-432c7771ddab"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -400,7 +385,7 @@ SuperscriptBox]]\\)\[RightDoubleBracket]\"\>", "[", "t", "]"}], ",",
 \\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\
 \[RightDoubleBracket]\"\>", "[", "t", "]"}]}], "}"}]], "Output",
  CellLabel->
-  "(Local) Out[10]=",ExpressionUUID->"71cd97cd-f569-4ec1-9563-6805b4d5b25b"]
+  "Out[10]=",ExpressionUUID->"fb10b7c2-35d4-4ebf-8dc0-e097e8a3d9d9"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -408,7 +393,7 @@ SuperscriptBox]]\\)\[RightDoubleBracket]\"\>", "[", "t", "]"}], ",",
 Cell[CellGroupData[{
 
 Cell["Metric perturbation amplitudes", \
-"Subsection",ExpressionUUID->"8a7148e9-aa4d-40a6-be88-73154446747c"],
+"Subsection",ExpressionUUID->"21f5fcf8-1aed-418b-9f8f-46307b751ac6"],
 
 Cell[CellGroupData[{
 
@@ -421,14 +406,13 @@ Martel-Poisson  (",
     URL["https://arxiv.org/abs/gr-qc/0502028"], None},
   ButtonNote->"https://arxiv.org/abs/gr-qc/0502028"],
  ") fields."
-}], "Item",ExpressionUUID->"c52f1d4e-593e-4f68-b599-e5d73c0902bb"],
+}], "Item",ExpressionUUID->"0f6471f2-e4a1-4d2a-88f2-0dbd53c5a932"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "DiscontinuitiesFunction"}]], "Input",
- CellLabel->
-  "(Local) In[11]:=",ExpressionUUID->"a5ac8936-8f1c-4b44-9875-f4dd26205b98"],
+ CellLabel->"In[11]:=",ExpressionUUID->"1f599919-7f7f-4ce6-af3a-a2ca2f88fd39"],
 
 Cell[BoxData[
  RowBox[{"\<\"DiscontinuitiesFunction[label] returns the function that \
@@ -442,8 +426,8 @@ provides discontinuities for the field associated with label.\"\>",
     "paclet:BlackHoleAnalysis/ref/DiscontinuitiesFunction"]}]], "Print", \
 "PrintUsage",
  CellTags->
-  "Info113741340342-4539924",ExpressionUUID->"da612b8d-2a4e-4384-be4c-\
-4b93f16c65a2"]
+  "Info113741357142-9892469",ExpressionUUID->"a4bdb9b5-c1e0-419c-86d9-\
+603935314bfd"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -451,8 +435,7 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"DiscontinuitiesFunction", "/@", 
   RowBox[{"MetricPerturbationLables", "[", "]"}]}]], "Input",
- CellLabel->
-  "(Local) In[12]:=",ExpressionUUID->"446d8e64-832d-44d3-8188-c450bcd57f77"],
+ CellLabel->"In[12]:=",ExpressionUUID->"fbb5518f-0c7b-4da8-bda9-48367fbccd0b"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -462,22 +445,21 @@ Cell[BoxData[
    "KDiscontinuities", ",", "GDiscontinuities", ",", "HtDiscontinuities", ",",
     "HrDiscontinuities", ",", "H2Discontinuities"}], "}"}]], "Output",
  CellLabel->
-  "(Local) Out[12]=",ExpressionUUID->"5f9f80c8-388c-4226-ad71-774c8c85736c"]
+  "Out[12]=",ExpressionUUID->"2760e4aa-a62e-411e-99dd-1a054c4a01b9"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["By default these discontinuities are provided in RWZ gauge", \
-"Item",ExpressionUUID->"ff302b59-5f59-4570-8113-2dc61be1c83e"],
+"Item",ExpressionUUID->"b2141af5-8db3-4121-b73e-22b01931300b"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Keys", "@", 
   RowBox[{"HtDiscontinuities", "[", "]"}]}]], "Input",
- CellLabel->
-  "(Local) In[13]:=",ExpressionUUID->"5e072b5b-f39a-4510-844b-884511d32240"],
+ CellLabel->"In[13]:=",ExpressionUUID->"25675f56-05bf-4b5a-a706-82b3991c31c5"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -499,15 +481,14 @@ DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"RWZ\\\\\\\"\\\"], \
 SuperscriptBox]]\\)\[RightDoubleBracket]\"\>", "[", "t", "]"}]}], 
   "}"}]], "Output",
  CellLabel->
-  "(Local) Out[13]=",ExpressionUUID->"8719b3b3-b14c-444d-b689-501cdfee7cb0"]
+  "Out[13]=",ExpressionUUID->"ae771886-220e-4d22-8772-6a2f3c92367a"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"HtDiscontinuities", "[", "]"}]], "Input",
- CellLabel->
-  "(Local) In[14]:=",ExpressionUUID->"c28224af-e8ee-44bb-b7e9-0e701f180e5b"],
+ CellLabel->"In[14]:=",ExpressionUUID->"004226bf-b5b0-462e-b311-b66152843fbc"],
 
 Cell[BoxData[
  RowBox[{"\[LeftAssociation]", 
@@ -725,7 +706,7 @@ OverscriptBox[\\\\\\\"X\\\\\\\", \
 \"\\\"]\\)\"\>", "[", "t", "]"}], "2"]}], ")"}], "3"]}], ")"}]}]}]}]}], 
   "\[RightAssociation]"}]], "Output",
  CellLabel->
-  "(Local) Out[14]=",ExpressionUUID->"f2156b18-49aa-4b57-ba01-e94dfe2e18f9"]
+  "Out[14]=",ExpressionUUID->"08253356-d5b4-4031-b497-a438ca2c7717"]
 }, Open  ]]
 }, Open  ]],
 
@@ -737,9 +718,9 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    SuperscriptBox["C", "0"], TraditionalForm]],ExpressionUUID->
-  "2eb9a114-3da5-444c-8d96-8c586a54442d"],
+  "6d504c42-b6a0-4a38-ace6-8c3ffb627a7f"],
  "."
-}], "Item",ExpressionUUID->"f28fdee9-3a7a-4c98-9144-969bd02cb7ae"],
+}], "Item",ExpressionUUID->"e5605f55-70fa-426e-93cf-50c5ee12d5ed"],
 
 Cell[CellGroupData[{
 
@@ -752,8 +733,7 @@ Cell[BoxData[
       RowBox[{"MetricPerturbationLables", "[", "]"}]}], ")"}], "[", 
     RowBox[{"Gauge", "\[Rule]", "\"\<Lorenz\>\""}], "]"}], "]"}], "//", 
   "TableForm"}]], "Input",
- CellLabel->
-  "(Local) In[15]:=",ExpressionUUID->"01544ee9-6a34-43a0-a4b6-37ac49737ddd"],
+ CellLabel->"In[15]:=",ExpressionUUID->"506d35cc-74a9-49aa-b971-56d80c0b45c3"],
 
 Cell[BoxData[
  TagBox[
@@ -1286,8 +1266,7 @@ OverscriptBox[\\\\\\\"X\\\\\\\", \
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "(Local) Out[15]//TableForm=",ExpressionUUID->"df3c9870-f838-4cb6-a61f-\
-85171134e532"]
+  "Out[15]//TableForm=",ExpressionUUID->"bcdf846f-1221-4333-a766-418a01279845"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -1295,22 +1274,21 @@ OverscriptBox[\\\\\\\"X\\\\\\\", \
 Cell[CellGroupData[{
 
 Cell["Metric perturbation amplitudes - non radiative", \
-"Subsection",ExpressionUUID->"39d1385c-ed39-4712-b89a-2fc4642a928e"],
+"Subsection",ExpressionUUID->"d39b5405-b7b6-49e3-9710-715bacda2b9a"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 Non radiative modes are available with the Options Mode \[Rule] Monopole, and \
 Mode \[Rule] Dipole\
-\>", "Item",ExpressionUUID->"5ee66abf-d322-4eaa-a94c-dd95aa4677eb"],
+\>", "Item",ExpressionUUID->"9ee12895-c297-42ef-8e24-e614c4d0ec52"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"HttDiscontinuities", "[", 
   RowBox[{"Mode", "\[Rule]", "\"\<Dipole\>\""}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[16]:=",ExpressionUUID->"4226ffe2-a979-4de1-b922-fe05bb1853ee"],
+ CellLabel->"In[16]:=",ExpressionUUID->"6d3c4f38-9ad7-476d-82c3-3d9d700281ec"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1327,12 +1305,12 @@ Cell[BoxData[
     $CellContext`\[Phi]p[$CellContext`t]}],
   Editable->False]], "Print",
  CellLabel->
-  "During evaluation of (Local) \
-In[16]:=",ExpressionUUID->"a5953cad-c218-4b81-a7d3-297ad3da1db2"],
+  "During evaluation of \
+In[16]:=",ExpressionUUID->"14b7b48d-e6de-46d1-873e-8d97c028db44"],
 
 Cell[BoxData["$Aborted"], "Output",
  CellLabel->
-  "(Local) Out[16]=",ExpressionUUID->"fec85c11-4ef2-421c-b190-aee12de30043"]
+  "Out[16]=",ExpressionUUID->"dc9b2676-54d4-4882-800e-bdc04c606816"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1340,8 +1318,7 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"HttDiscontinuities", "[", 
   RowBox[{"Mode", "\[Rule]", "\"\<Monopole\>\""}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[17]:=",ExpressionUUID->"71500054-1e0f-4262-8a22-c370ea0264c5"],
+ CellLabel->"In[17]:=",ExpressionUUID->"915b88bd-8e2a-4eb8-a3de-f84360866f13"],
 
 Cell[BoxData[
  RowBox[{"\[LeftAssociation]", 
@@ -1471,7 +1448,7 @@ SuperscriptBox]]\\)\[RightDoubleBracket]\"\>", "[", "t", "]"}], "\[Rule]",
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "3"]}]]}]}], 
   "\[RightAssociation]"}]], "Output",
  CellLabel->
-  "(Local) Out[17]=",ExpressionUUID->"bbc9d72e-772b-40f8-a7a3-bb51146b5ac7"]
+  "Out[17]=",ExpressionUUID->"94d624f0-69f3-47b6-abc0-585d8696c1d8"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -1480,7 +1457,7 @@ SuperscriptBox]]\\)\[RightDoubleBracket]\"\>", "[", "t", "]"}], "\[Rule]",
 Cell[CellGroupData[{
 
 Cell["The \[OpenCurlyQuote]order\[CloseCurlyQuote] of the discontinuity", \
-"Section",ExpressionUUID->"d33c5271-186c-482a-a012-75704f67d789"],
+"Section",ExpressionUUID->"3b42e83e-0fe8-4cf1-8672-4571e218bc05"],
 
 Cell[TextData[{
  "A function with a kink (continuous, but with a discontinuity in its first \
@@ -1488,9 +1465,9 @@ derivative) is ",
  Cell[BoxData[
   FormBox[
    SuperscriptBox["C", "0"], TraditionalForm]],ExpressionUUID->
-  "275bafd8-90fa-419a-abff-6a3775459e9e"],
+  "a1f68645-6109-42b4-9103-42e800adb144"],
  ". "
-}], "Item",ExpressionUUID->"39dd9e2d-3687-4324-a468-b612e64d3e4f"],
+}], "Item",ExpressionUUID->"81a01440-11a7-4ba6-8c41-30add90e76eb"],
 
 Cell[TextData[{
  "Sometimes we refer to a function with a jump as ",
@@ -1499,9 +1476,9 @@ Cell[TextData[{
    RowBox[{" ", 
     SuperscriptBox["C", 
      RowBox[{"-", "1"}]]}], TraditionalForm]],ExpressionUUID->
-  "290f62ca-d759-4609-b91b-2f2d8c65ce1e"],
+  "cc3e3e4d-f789-484f-a30b-435b40b1c7d5"],
  "."
-}], "Item",ExpressionUUID->"bce0a4d0-9f79-465d-9b8c-eeaf4987658b"],
+}], "Item",ExpressionUUID->"6fcaba89-9484-4c5e-83a6-f1e58567a9d6"],
 
 Cell[TextData[{
  "Using the same logic, a function with a Dirac delta at ",
@@ -1509,15 +1486,15 @@ Cell[TextData[{
   FormBox[
    RowBox[{"r", "=", 
     SubscriptBox["r", "p"]}], TraditionalForm]],ExpressionUUID->
-  "7d0501fa-7d5d-4145-808d-086d736a7b23"],
+  "5a99e822-1b74-4b76-93ad-dd0b80d9831a"],
  " is ",
  Cell[BoxData[
   FormBox[
    SuperscriptBox["C", 
     RowBox[{"-", "2"}]], TraditionalForm]],ExpressionUUID->
-  "89031a53-c015-49b2-8300-9fcba92c5aff"],
+  "d0c5b875-17a7-462c-907d-3ef503baad34"],
  "."
-}], "Item",ExpressionUUID->"472cdd64-17d1-4915-a8a5-495eeac56cff"],
+}], "Item",ExpressionUUID->"571a0279-0d28-4c8d-809b-21f574c77e6d"],
 
 Cell[TextData[{
  "This pattern can be continued in both directions. Smoother functions are ",
@@ -1527,7 +1504,7 @@ Cell[TextData[{
     SuperscriptBox["C", "1"], ",", " ", 
     SuperscriptBox["C", "2"], ",", " ", 
     RowBox[{"etc", "."}]}], TraditionalForm]],ExpressionUUID->
-  "abc0183d-60f5-48ae-a7b6-cde5165f1ae7"],
+  "ffc04490-e741-466d-99bb-1a665d250155"],
  " while more discontinuous functions are ",
  Cell[BoxData[
   FormBox[
@@ -1536,9 +1513,9 @@ Cell[TextData[{
      RowBox[{"-", "3"}]], ",", " ", 
     SuperscriptBox["C", 
      RowBox[{"-", "4"}]], ","}], TraditionalForm]],ExpressionUUID->
-  "2e534075-6f46-461d-959e-f58bc0c36e39"],
+  "78c23ea0-1292-46af-9a9c-6fc30cdbdf7e"],
  " etc."
-}], "Item",ExpressionUUID->"9704100c-b0c0-4043-b8b7-8a1f9e1092cb"],
+}], "Item",ExpressionUUID->"d9d7221b-9edc-447e-aba4-acaddaabd1d0"],
 
 Cell[CellGroupData[{
 
@@ -1546,15 +1523,14 @@ Cell["\<\
 We use these exponents to characterize the \[OpenCurlyQuote]order\
 \[CloseCurlyQuote] of discontinuity, which can be seen explicitly with the \
 Option Labels \[Rule] False.\
-\>", "Item",ExpressionUUID->"081dabd5-5a52-40a5-825d-8815667624a5"],
+\>", "Item",ExpressionUUID->"15862dd7-6b4f-4056-84b1-e5ea504a3be1"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"HtDiscontinuities", "[", 
   RowBox[{"Labels", "\[Rule]", "False"}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[18]:=",ExpressionUUID->"ddbb3a28-67bc-467b-8f3c-7eb17c6870b5"],
+ CellLabel->"In[18]:=",ExpressionUUID->"9dc632cc-26ab-40e4-b2bc-31cacd5f8b7d"],
 
 Cell[BoxData[
  RowBox[{"\[LeftAssociation]", 
@@ -1758,7 +1734,7 @@ OverscriptBox[\\\\\\\"X\\\\\\\", \
 \"\\\"]\\)\"\>", "[", "t", "]"}], "2"]}], ")"}], "3"]}], ")"}]}]}]}]}], 
   "\[RightAssociation]"}]], "Output",
  CellLabel->
-  "(Local) Out[18]=",ExpressionUUID->"aa253e4f-9d51-4e80-a4f9-4d0f8b62a9a1"]
+  "Out[18]=",ExpressionUUID->"9f1318a6-811b-4f60-bf4c-6bd95f71518f"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1769,34 +1745,33 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    SubscriptBox["h", "t"], TraditionalForm]],ExpressionUUID->
-  "fd08e787-9e42-4cac-91b4-a5d113181e9f"],
+  "99f20a3a-2cb9-42b4-970b-440196fa9b98"],
  " is ",
  Cell[BoxData[
   FormBox[
    SuperscriptBox["C", 
     RowBox[{"-", "1"}]], TraditionalForm]],ExpressionUUID->
-  "9d9468dd-0ef1-447c-aa8b-20279a12bfdc"],
+  "21248101-672c-4f82-a188-2d0e94e27a86"],
  ", while ",
  Cell[BoxData[
   FormBox[
    SubscriptBox["h", "rr"], TraditionalForm]],ExpressionUUID->
-  "49a32105-01f5-4474-bb09-247e8e6b4fc3"],
+  "da5b11e8-891b-4c6a-89ea-c2bc3e36493b"],
  " is ",
  Cell[BoxData[
   FormBox[
    SuperscriptBox["C", 
     RowBox[{"-", "2"}]], TraditionalForm]],ExpressionUUID->
-  "e6544521-d571-41b5-bc95-86d12ccdafc0"],
+  "f9f64e85-d0cc-47ee-bb8d-8365267decfb"],
  " with a delta function at the location of the particle."
-}], "Item",ExpressionUUID->"79da4426-0a1f-436a-a347-6b8fd1347194"],
+}], "Item",ExpressionUUID->"97a9de3f-8a97-4fbb-845e-40e3309a8e76"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"HrrDiscontinuities", "[", 
   RowBox[{"Labels", "\[Rule]", "False"}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[19]:=",ExpressionUUID->"a247d429-f811-45c9-b7f7-18ac4769ff9d"],
+ CellLabel->"In[19]:=",ExpressionUUID->"891a8be7-9ce0-480b-b165-b344ee40c131"],
 
 Cell[BoxData[
  RowBox[{"\[LeftAssociation]", 
@@ -2457,7 +2432,7 @@ OverscriptBox[\\\\\\\"Y\\\\\\\", \
 \"\\\"]\\)\"\>", "[", "t", "]"}], "2"]}], ")"}], "5"]}], ")"}]}]}]}]}], 
   "\[RightAssociation]"}]], "Output",
  CellLabel->
-  "(Local) Out[19]=",ExpressionUUID->"cd7cce15-f296-4713-877e-653fdebfe580"]
+  "Out[19]=",ExpressionUUID->"2c2c17a9-f4e0-4db8-bb51-72b2f6259986"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -2465,12 +2440,12 @@ OverscriptBox[\\\\\\\"Y\\\\\\\", \
 Cell[CellGroupData[{
 
 Cell["Jumps in derivatives", \
-"Section",ExpressionUUID->"6ed2225f-0366-4c9b-a4be-b20a2d3ca2fc"],
+"Section",ExpressionUUID->"25baac3d-4044-43bb-a8ff-e38d5c5bc3de"],
 
 Cell["\<\
 In addition to discontinuities in the fields, we can access jumps in their \
 derivatives.\
-\>", "Item",ExpressionUUID->"ded335ce-73b5-430f-af47-7532d479731f"],
+\>", "Item",ExpressionUUID->"6093b63c-337e-4e5b-bc3f-f0cffb174bd9"],
 
 Cell[CellGroupData[{
 
@@ -2479,9 +2454,9 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    SubscriptBox["h", "t"], TraditionalForm]],ExpressionUUID->
-  "ab867e3b-91e9-4e31-b516-1e5aa87a3195"],
+  "3d6e59b3-560a-4bd6-b848-67888d92234e"],
  " are given by"
-}], "Item",ExpressionUUID->"0a7b8670-e1ed-4d56-8f4d-8b55a35be727"],
+}], "Item",ExpressionUUID->"437c1c65-0e99-4cca-b1df-1a38774eaca9"],
 
 Cell[CellGroupData[{
 
@@ -2489,8 +2464,7 @@ Cell[BoxData[
  RowBox[{"HtDiscontinuities", "[", 
   RowBox[{"{", 
    RowBox[{"0", ",", "1"}], "}"}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[20]:=",ExpressionUUID->"7136aca7-f23d-442a-a91b-24287a70a459"],
+ CellLabel->"In[20]:=",ExpressionUUID->"70f65514-1d00-48b2-9816-5617549da15a"],
 
 Cell[BoxData[
  RowBox[{"\[LeftAssociation]", 
@@ -2722,7 +2696,7 @@ OverscriptBox[\\\\\\\"X\\\\\\\", \
 \"\\\"]\\)\"\>", "[", "t", "]"}], "2"]}], ")"}], "3"]}], ")"}]}]}]}]}], 
   "\[RightAssociation]"}]], "Output",
  CellLabel->
-  "(Local) Out[20]=",ExpressionUUID->"1044e82f-009b-46c8-8444-8949e138e698"]
+  "Out[20]=",ExpressionUUID->"48ffeb67-626f-4661-98c6-ce4bcc925da9"]
 }, Open  ]]
 }, Open  ]],
 
@@ -2733,9 +2707,9 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    SubscriptBox["h", "t"], TraditionalForm]],ExpressionUUID->
-  "14c9aea3-157b-4272-8850-84b0e7cb6bd2"],
+  "0ea1ae64-e8cb-4c5a-a009-cdee4d30ff24"],
  " are given by"
-}], "Item",ExpressionUUID->"d3242f40-145a-4c72-a3b7-82acbba7e3f8"],
+}], "Item",ExpressionUUID->"f96bd82f-c07c-4868-9608-b2a577f29c4f"],
 
 Cell[CellGroupData[{
 
@@ -2743,8 +2717,7 @@ Cell[BoxData[
  RowBox[{"HtDiscontinuities", "[", 
   RowBox[{"{", 
    RowBox[{"1", ",", "0"}], "}"}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[21]:=",ExpressionUUID->"1b0ab0b4-db06-47dc-9d3b-f372ccb04437"],
+ CellLabel->"In[21]:=",ExpressionUUID->"94cfa88b-6bc4-4d04-bc97-3c8f63e0490e"],
 
 Cell[BoxData[
  RowBox[{"\[LeftAssociation]", 
@@ -3219,7 +3192,7 @@ OverscriptBox[\\\\\\\"X\\\\\\\", \
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"]}], ")"}], "3"]}], 
           ")"}]}]}], ")"}]}]}]}]}], "\[RightAssociation]"}]], "Output",
  CellLabel->
-  "(Local) Out[21]=",ExpressionUUID->"134e2ea3-d211-4c12-b634-9a75e55c03df"]
+  "Out[21]=",ExpressionUUID->"e7dd5a34-cba7-4157-9524-95e38c75085f"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -3263,36 +3236,36 @@ Cell["", "RelatedTutorialsSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
    None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"15083c8c-4475-4040-9de5-9923ce682ad6"],
+  0,ExpressionUUID->"c85be0d4-c9ca-48f7-a870-0e32762c7e53"],
 
 Cell[TextData[ButtonBox["Weak functions",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Weak functions"]], \
-"RelatedTutorials",ExpressionUUID->"c9983006-77f8-4e19-9fa5-32e5f6d7e2b4"],
+"RelatedTutorials",ExpressionUUID->"70237d5d-2c36-4859-939b-baf2eac9cb95"],
 
 Cell[TextData[ButtonBox["Examples",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Examples"]], \
-"RelatedTutorials",ExpressionUUID->"32c24f71-1f86-4433-91eb-0e0f926d7ca5"],
+"RelatedTutorials",ExpressionUUID->"e9c5c13d-662d-4e91-bef5-20ad4ba04c85"],
 
 Cell[TextData[ButtonBox["Time domain amplitudes",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Time domain amplitudes"]], \
-"RelatedTutorials",ExpressionUUID->"823bdee8-3dce-4ce4-a7ec-ec668eb1b5f4"],
+"RelatedTutorials",ExpressionUUID->"5afa5625-e0a9-482b-9e43-93748387d5ab"],
 
 Cell[TextData[ButtonBox["Field equations on Schwarzschild",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Field equations on Schwarzschild"]], \
-"RelatedTutorials",ExpressionUUID->"dfe36133-92ea-4b2a-bd01-73b3f48f9aab"]
+"RelatedTutorials",ExpressionUUID->"00de08e6-ba10-4453-b419-36a375fa4cad"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[" ", \
-"FooterCell",ExpressionUUID->"02afa2d8-6ffc-4d9d-9102-ff7769e9350b"]
+"FooterCell",ExpressionUUID->"f361851e-17ac-4cfb-a556-3612cc211f92"]
 },
 Saveable->False,
 ScreenStyleEnvironment->"Working",

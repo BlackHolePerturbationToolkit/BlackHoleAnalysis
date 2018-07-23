@@ -2,6 +2,7 @@
  "Application" -> "BlackHoleAnalysis",
  "Title" -> "Using labels to act on groups of variables",
  "Related Tutorials" -> {
+     "Conventions",
      "Field equations on Schwarzschild",
      "Time domain amplitudes",
      "Spherical harmonics",

@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"bd7c26b2-6880-4e02-a90b-aed366ec8d6f"],
+   0}},ExpressionUUID->"b927cd4f-8158-40ab-9bf7-d58a814dd150"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -16,12 +16,12 @@ Cell[TextData[{
  ButtonBox["CapitalLambda",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/CapitalLambda"]
-}], "LinkTrail",ExpressionUUID->"54509e58-4d7b-4da4-b6bd-7c903dcd865e"],
+}], "LinkTrail",ExpressionUUID->"bdcaef41-9f52-41df-8356-ce982c133057"],
 
 Cell[CellGroupData[{
 
 Cell["CapitalLambda", \
-"ObjectName",ExpressionUUID->"6ef6cdd8-e66b-4609-888b-a16e7803bfef"],
+"ObjectName",ExpressionUUID->"54d10940-8040-472d-a219-9f35162186ad"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -32,12 +32,12 @@ Cell[BoxData[GridBox[{
         ButtonData->"paclet:BlackHoleAnalysis/ref/CapitalLambda"], "[", 
        StyleBox[
         RowBox[{"r", ",", "M", ",", "lambda"}], "TI"], "]"}]], 
-      "InlineFormula",ExpressionUUID->"8db8dcfb-bc2b-4c67-b36f-4194e6fb002c"],
+      "InlineFormula",ExpressionUUID->"1595177f-a134-4637-89c1-1268d8add8bf"],
      
      "\[LineSeparator]returns the Capital Lambda quantity lambda + 3M/r  \
 where M is the black hole mass, r the Schwarzschild radius and lambda is \
 (l+2)(l-1)/2."
-    }],ExpressionUUID->"786af912-d366-4a5f-9725-6dde5eb5e5e0"]},
+    }],ExpressionUUID->"a4941b7c-856f-43ac-b3ca-ad44b90d4c26"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -45,18 +45,18 @@ where M is the black hole mass, r the Schwarzschild radius and lambda is \
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/CapitalLambda"], "[", 
        "]"}]], "InlineFormula",ExpressionUUID->
-      "30048122-900f-475d-a71c-26ef507d4563"],
+      "1dfd1c11-e72e-474a-b5ec-ab88cd9452e6"],
      "\[LineSeparator]returns CapitalLambda[r,M,lambda] using built-in \
 symbols."
-    }],ExpressionUUID->"4756dd70-0f5b-48b7-8714-729dfc8b88ee"]}
-  }]], "Usage",ExpressionUUID->"0605cfdf-4f45-4961-9a60-a8328858ee33"]
+    }],ExpressionUUID->"8463df21-199c-4e5c-8815-5131e930a8f6"]}
+  }]], "Usage",ExpressionUUID->"274196e7-c6ed-416e-b769-7b1ed9c9bff7"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"5a42acc5-fc87-4c89-b506-ad1ef245e89f"],
+Cell[" ", "FooterCell",ExpressionUUID->"63cd351b-748d-4cfc-ab53-be5801402d01"],
 
-Cell[BoxData[""],ExpressionUUID->"4562cbf3-f4fc-46fb-94fd-bdbd5066f10d"]
+Cell[BoxData[""],ExpressionUUID->"9fe17c3b-6fcc-4514-8b27-8402d80fdc45"]
 }, Open  ]]
 },
 Saveable->False,

@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"81963270-93bb-4c9e-be6e-b4f52da69009"],
+   0}},ExpressionUUID->"f54f0552-d60d-4bca-a5d7-c38a783d6e3c"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["JrSymbol",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/JrSymbol"]
-}], "LinkTrail",ExpressionUUID->"648de450-11b2-43f9-9a96-20a33df5b40c"],
+}], "LinkTrail",ExpressionUUID->"bfdc0562-a5e6-44dc-926b-6c4c5915d42d"],
 
 Cell[CellGroupData[{
 
 Cell["JrSymbol", \
-"ObjectName",ExpressionUUID->"83e66074-a097-478e-9739-54ad36806c2e"],
+"ObjectName",ExpressionUUID->"a5d22a77-4e60-4353-b812-fe11eb76f446"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -29,12 +29,12 @@ Cell[BoxData[GridBox[{
        ButtonBox["JrSymbol",
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/JrSymbol"], "[", "]"}]], 
-      "InlineFormula",ExpressionUUID->"46197d9d-946b-40cd-aa17-cfad3c859bdb"],
+      "InlineFormula",ExpressionUUID->"e0d52473-6e6a-4d67-a73a-e7fbef81edc7"],
      
      "\[LineSeparator]returns the (formatted) symbol for metric perturbation \
 amplitude jr."
-    }],ExpressionUUID->"5867fbaa-96ba-4d9d-b485-93a28a1a4256"]}
-  }]], "Usage",ExpressionUUID->"faf8f9b1-927e-4d87-815b-c80bc4a3842a"]
+    }],ExpressionUUID->"6ab96f0a-ff7c-484c-bea5-b5c35b7d6373"]}
+  }]], "Usage",ExpressionUUID->"93b83c77-1a4c-4a90-934c-14c8f3df8027"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -80,25 +80,25 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"aaa15fb5-60a3-4a56-b4a8-00aa4ff620c6"],
+  0,ExpressionUUID->"884f6635-ecda-47f7-8a3b-1adca7b29c68"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"a766ed28-d4e1-48b8-a7a2-34c1aaaac71d"],
+"Notes",ExpressionUUID->"9056e49d-5a00-48e2-ab97-a25d58d8bcbb"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "84dc0ccc-1967-435c-b470-805daa0b7164"], "Indices", "Down", Cell[
+     "ea3e7d9a-31ab-4fb9-b1d4-e3b58496baf2"], "Indices", "Down", Cell[
     "Position of the indices, (\"Up\" or \"Down\")", "TableText",
-     ExpressionUUID->"8c2c0f40-5e79-4837-a5f7-d6fe1f041585"]},
+     ExpressionUUID->"26c91fd9-ea38-4338-bb52-0c014358d903"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "3365d8f5-32d9-469a-94db-d70aac224885"], "Tag", "Null", Cell["\<\
+     "39c599da-3de5-4c55-9a2e-fe2cc912301a"], "Tag", "Null", Cell["\<\
 Specifies the Tag (referred to by its label in the symbols Association) to \
 attach to the symbol\
-\>", "TableText",ExpressionUUID->"3083e08b-81a6-4c96-8832-f199e8b3f1c2"]},
+\>", "TableText",ExpressionUUID->"23eb61e2-f985-45f5-893d-638fe92ad2d6"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "c73a2d9d-a159-4542-89d9-baf2c29617a7"], "TagPosition", "Up", Cell[
+     "b8682430-6b78-457c-a9ae-13c047b5488d"], "TagPosition", "Up", Cell[
     "Specifies the position of the Tag, (\"Up\" or \"Down\")", "TableText",
-     ExpressionUUID->"80fc8469-84da-4a79-be53-6f8e183c14b3"]}
+     ExpressionUUID->"cfe38b92-bb6f-4568-b4d7-6d136b05d65b"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -110,14 +110,14 @@ attach to the symbol\
  GridBoxDividers->{
   "Rows" -> {{
      True, True, True, 
-      True}}}},ExpressionUUID->"a5c4fe29-0741-4a84-b4e0-699e5c573a55"]
+      True}}}},ExpressionUUID->"dcf20c40-c263-43e7-8900-d5cb641d3a8c"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"8aaaa7ed-6903-4561-9e79-ffa2036964d3"],
+Cell[" ", "FooterCell",ExpressionUUID->"5da08ca5-cb86-4f79-b926-a0b8485dea70"],
 
-Cell[BoxData[""],ExpressionUUID->"a94b2fbb-617a-4292-b581-f2928501b5e4"]
+Cell[BoxData[""],ExpressionUUID->"d12e0517-3ddc-44e0-86a2-3347baccff52"]
 }, Open  ]]
 },
 Saveable->False,

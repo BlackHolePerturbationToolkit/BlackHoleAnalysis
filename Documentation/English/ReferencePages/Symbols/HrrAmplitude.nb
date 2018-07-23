@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"4d8fbe2c-927a-4232-a3de-c75e83249258"],
+   0}},ExpressionUUID->"bf9819a8-c6e1-4d98-9f62-79ca056f5483"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["HrrAmplitude",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/HrrAmplitude"]
-}], "LinkTrail",ExpressionUUID->"a7de3e3e-2f78-43f5-935f-07f9fc132d6e"],
+}], "LinkTrail",ExpressionUUID->"a627652a-98eb-45b6-8398-9aff3f9b8f55"],
 
 Cell[CellGroupData[{
 
 Cell["HrrAmplitude", \
-"ObjectName",ExpressionUUID->"6a2ce5f4-2f18-43f3-ab92-0d6ce6d1dd93"],
+"ObjectName",ExpressionUUID->"decec03a-91af-428f-a0f9-5eaeb50a5a88"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -29,11 +29,11 @@ Cell[BoxData[GridBox[{
        ButtonBox["HrrAmplitude",
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/HrrAmplitude"], "[", "]"}]],
-       "InlineFormula",ExpressionUUID->"be57f9a9-f75b-447f-a89f-33afeb2e4007"],
+       "InlineFormula",ExpressionUUID->"719ad3e7-5792-4e98-9624-19721e3fb6a1"],
      "\[LineSeparator]returns the metric perturbation amplitude h_rr in \
 symbolic form."
-    }],ExpressionUUID->"13ba1f02-0803-446d-b3bd-95c35bffcd5c"]}
-  }]], "Usage",ExpressionUUID->"619b8921-96d5-4b11-a2fb-265dee138478"]
+    }],ExpressionUUID->"d00d9273-51e6-4984-90f6-009b42e37fe9"]}
+  }]], "Usage",ExpressionUUID->"4e1ba4c1-b860-47bc-a95d-3b046d0b1e9c"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -79,60 +79,60 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"e867a6fc-ba99-4d41-a1cc-e2dcd5386e0b"],
+  0,ExpressionUUID->"59105cf9-1578-4c4e-9e9f-aa72a8be8cff"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"e56871ee-0d59-419f-8a38-fb2cccd34188"],
+"Notes",ExpressionUUID->"820ffec7-a99b-4a0e-b565-38ecf6433a3f"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "5de14150-706c-432e-996d-f296d321bdb8"], "ExpandGaugeVector", "False", 
+     "537301c6-3a93-4413-b09b-c97311a2f6b4"], "ExpandGaugeVector", "False", 
     Cell["\<\
 Boolean stating whether to expand the analytic gauge vector connecting RW and \
 ModRW gauges\
-\>", "TableText",ExpressionUUID->"d4e0ba5e-d9dd-4b5b-acf9-17f0e2d40200"]},
+\>", "TableText",ExpressionUUID->"5f8484ad-045c-4b75-b0ab-9c34fa0f7d22"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "27459fb6-0b18-4f88-9054-868a2b7c31ae"], "ExpandZerilli", "False", 
+     "a944c601-bb21-4df5-82c9-ea15a2f60b25"], "ExpandZerilli", "False", 
     Cell["\<\
 Boolean stating whether to write out the analytic Zerilli solution to a low \
 order mode\
-\>", "TableText",ExpressionUUID->"2e535f83-6272-4364-b9a3-c447d81105b9"]},
+\>", "TableText",ExpressionUUID->"f96d4ce7-fdf5-4e4f-993e-c8f251e61bb5"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "3af1f639-1780-4232-b3b2-b9b708ae4f42"], "Gauge", "RWZ", Cell[
+     "ec27861e-246b-46fb-88a0-10dfeb388c24"], "Gauge", "RWZ", Cell[
     "Gauge (\"RWZ\", \"ModRWZ\", \"Lorenz\",  \"Undefined\", or Null)", 
-     "TableText",ExpressionUUID->"c1f6eb00-926d-43a6-a5f4-e1ccda5803a0"]},
+     "TableText",ExpressionUUID->"e67f1b47-e274-4622-b988-3cc69c2d78e8"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "8f6489b8-6f41-4e53-8c7f-0efe520c28fb"], "Mode", "Radiative", Cell[
+     "4de1adb6-7e19-4b8d-a06f-249545cea99c"], "Mode", "Radiative", Cell[
     "l mode (\"Radiative\", \"Dipole\", or \"Monopole\")", "TableText",
-     ExpressionUUID->"3031aa3c-3ffa-4a7a-9257-e8a77cb095c2"]},
+     ExpressionUUID->"e89eb87e-4712-42f7-86cf-eabf05e50c1b"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "1b91a807-2f74-4d21-bcfa-bb288a6d6a39"], "PushFrom", "Same", Cell["\<\
+     "9ba12796-61bc-4c2a-93e1-718a9c1eadc7"], "PushFrom", "Same", Cell["\<\
 Specifies a gauge to start in. A gauge vector term is used to \"push\" from \
 that gauge. For no push use the default, \"PushFrom\"->\"Same\". Other option \
 values are \"RWZ\", \"ModRWZ\", and \"Lorenz\"\
-\>", "TableText",ExpressionUUID->"92ec8115-11c9-433e-b3ff-b5a0e18f7a47"]},
+\>", "TableText",ExpressionUUID->"c4460ab8-ba55-45fb-b009-bdb8bcf199d2"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "aef7486e-74eb-4489-bc25-b1cde99878c5"], "Reconstruct", "False", Cell["\<\
+     "db596446-1566-43fd-a012-645efe6144aa"], "Reconstruct", "False", Cell["\<\
 Boolean stating whether the metric perturbation amplitude should be written \
 in terms of the master function\
-\>", "TableText",ExpressionUUID->"f9965f61-731e-48c2-8b86-1ee7ed055da3"]},
+\>", "TableText",ExpressionUUID->"addcce4e-807c-4751-b78e-8b4eff954b59"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "9c8f190d-9837-4eab-8a81-7e1d40e7667f"], "ReturnSymbol", "False", 
+     "9d05c385-995b-4644-b4b7-79a78228b4d7"], "ReturnSymbol", "False", 
     Cell["\<\
 Boolean stating whether to only return the symbol of the field (with no \
 arguments)\
-\>", "TableText",ExpressionUUID->"79366d77-0f74-46c3-ab3c-c9254053cf35"]},
+\>", "TableText",ExpressionUUID->"74924bf9-fe87-4d4d-9738-3a59c8b753bb"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "174b6ce9-cc76-4b90-82a0-bc602a69a477"], "SourceExpansion", "None", 
+     "de1954ac-10e0-4acb-8caa-4de57ad6c8a7"], "SourceExpansion", "None", 
     Cell["\<\
 States to what extent source terms (resulting from expansion of metric \
 perturbation amplitudes) should be expanded, (\"Full\", \"Partial\", or \
 \"None\")\
-\>", "TableText",ExpressionUUID->"7881f5b8-9cb6-4585-bdb3-69d71af79a27"]},
+\>", "TableText",ExpressionUUID->"2a8f4ccc-ba72-478e-b064-452451894c92"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "882100a6-d242-4917-bc41-9d0121a81305"], "Weak", "False", Cell["\<\
+     "9791ccb2-e5b0-4d1c-b282-302d6e565bc9"], "Weak", "False", Cell["\<\
 Boolean stating whether the amplitude should be given in a weak form\
-\>", "TableText",ExpressionUUID->"72766c29-f77d-49ce-9583-4dd2325e839a"]}
+\>", "TableText",ExpressionUUID->"a6cbface-c3be-492e-8fc7-1e8bbfaed4e6"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -145,14 +145,14 @@ Boolean stating whether the amplitude should be given in a weak form\
  GridBoxDividers->{
   "Rows" -> {{
      True, True, True, True, True, True, True, True, True, 
-      True}}}},ExpressionUUID->"2f60456a-bf0d-4923-b9aa-cd87ea52e994"]
+      True}}}},ExpressionUUID->"7114b80c-2d7e-44f3-a609-ebc70f3c75be"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"1033c119-011d-45fa-9713-4ef06ac7b789"],
+Cell[" ", "FooterCell",ExpressionUUID->"30f0524e-5419-4725-9e26-f32c58abace6"],
 
-Cell[BoxData[""],ExpressionUUID->"d11ef1e1-9cb8-4327-9c76-6698b8231586"]
+Cell[BoxData[""],ExpressionUUID->"ecdba042-f162-4e4d-99a8-f75e44521cf0"]
 }, Open  ]]
 },
 Saveable->False,

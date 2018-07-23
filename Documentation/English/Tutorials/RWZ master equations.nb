@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "TutorialColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"0b4875ab-e788-4ae1-a9f4-9d7bd535b9bc"],
+   0}},ExpressionUUID->"e9a8c5e8-d3e2-4982-998a-c02b50655a0b"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -11,11 +11,11 @@ Cell[TextData[{
  ButtonBox["RWZ master equations",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/tutorial/RWZ master equations"]
-}], "LinkTrail",ExpressionUUID->"d250d61a-317f-4bfc-8a4b-7195b99fb8b4"],
+}], "LinkTrail",ExpressionUUID->"f054b3b1-0c41-4031-be31-9a2b4e2b7e10"],
 
 Cell[BoxData[GridBox[{
    {Cell["RWZ MASTER EQUATIONS TUTORIAL", "PacletNameCell",ExpressionUUID->
-     "1c818dd0-490d-4a7a-9fcb-a3c6d2d55f5b"], Cell[TextData[{
+     "91f0f36c-c534-4e38-95fb-eff66101b4b0"], Cell[TextData[{
      Cell[BoxData[
       ActionMenuBox[
        FrameBox["\<\"Related Tutorials \[RightGuillemet]\"\>",
@@ -42,7 +42,7 @@ Cell[BoxData[GridBox[{
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "6d0fb349-f1fd-4eb5-9367-681e14723210"],
+      "0109a91b-0c07-4a21-ac2e-062e13eb126b"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -61,26 +61,25 @@ Cell[BoxData[GridBox[{
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "93d0c059-4ad5-42c2-bf43-5ef5063b4363"]
-    }], "AnchorBar",ExpressionUUID->"8cd68778-1cee-48f3-ace7-33b7256963d6"]}
-  }]], "AnchorBarGrid",ExpressionUUID->"7b0acb84-bc73-4f0d-9912-d1ca064dab43"],
+      "3dbae9f6-bf56-459f-af3c-5dea16d7c175"]
+    }], "AnchorBar",ExpressionUUID->"1ab2b7c3-4af5-467e-bafb-539ff56f1570"]}
+  }]], "AnchorBarGrid",ExpressionUUID->"ad552f53-acd0-4468-bbf9-006fd1d61b5b"],
 
 Cell[CellGroupData[{
 
 Cell["BlackHoleAnalysis - Regge-Wheeler-Zerilli master equations", "Title",
  CellChangeTimes->{{3.7412778710017767`*^9, 
-  3.7412778787388887`*^9}},ExpressionUUID->"0d58fbeb-c5d2-4362-b45f-\
-806d494dd80b"],
+  3.7412778787388887`*^9}},ExpressionUUID->"0bb9c6ad-7d5b-44ee-bb98-\
+dbf83479aee2"],
 
 Cell[BoxData[
  RowBox[{"<<", "BlackHoleAnalysis`"}]], "Input",
- CellLabel->
-  "(Local) In[1]:=",ExpressionUUID->"4ad1ed13-2367-4a16-8ae2-7813dd28c233"],
+ CellLabel->"In[1]:=",ExpressionUUID->"c52aded3-bfdc-46c6-8820-2efa7977ca8f"],
 
 Cell[CellGroupData[{
 
 Cell["Introduction", \
-"Section",ExpressionUUID->"7a99d4d9-5591-4698-871e-0f10d8caaf14"],
+"Section",ExpressionUUID->"e15accc9-016d-47b7-815a-ba209472f7cf"],
 
 Cell[TextData[{
  "After decomposing the first-order Einstein equations in tensor spherical \
@@ -88,21 +87,21 @@ harmonics, we are left with 10 equations for each ",
  StyleBox["l,m",
   FontSlant->"Italic"],
  " mode. "
-}], "Item",ExpressionUUID->"ff0362ce-2ca4-4ab3-9600-c8b51506e1ab"],
+}], "Item",ExpressionUUID->"7eb3f9ec-0329-4df0-bc4d-50cd62b3284e"],
 
 Cell["\<\
 In Regge-Wheeler-Zerilli (RWZ) gauge these equations can be reduced to two \
 \[OpenCurlyQuote]master\[CloseCurlyQuote] equations.\
 \>", "Item",
  CellChangeTimes->{{3.741277890073889*^9, 
-  3.7412779324255323`*^9}},ExpressionUUID->"f4849033-2287-45b0-9642-\
-599cee90b5c8"],
+  3.7412779324255323`*^9}},ExpressionUUID->"add56097-154b-4728-8326-\
+63d51f7fe6fb"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 BlackHoleAnalysis provides these equations in different gauges.\
-\>", "Item",ExpressionUUID->"195ee1b6-764e-47a0-9fc7-e242b88b6953"],
+\>", "Item",ExpressionUUID->"0d56c2f4-05aa-48f2-bfd5-63004a88b2ca"],
 
 Cell[BoxData[GridBox[{
    {
@@ -113,10 +112,10 @@ Cell[BoxData[GridBox[{
     Cell["\<\
 returns the 1+1 RWZ master equations sourced by a particle in generic motion \
 on Schwarzschild\
-\>", "TableText",ExpressionUUID->"0d7d0774-3e3d-4f6c-a2d1-ef194e91d3b2"]}
+\>", "TableText",ExpressionUUID->"73faa8ed-1133-4912-acd3-c3c495597539"]}
   }]], "DefinitionBox",
  CellChangeTimes->{{3.74127793863231*^9, 3.741277975954084*^9}},
- CellID->27847004,ExpressionUUID->"1e86bbe3-a063-44aa-b4d9-97dc7b63d3aa"]
+ CellID->27847004,ExpressionUUID->"f7c205c9-18c3-43be-a905-6943a76c3a5a"]
 }, Open  ]],
 
 Cell["\<\
@@ -124,8 +123,8 @@ By default, the equation uses the Zerilli-Moncrief (ZM) variable (even \
 parity) or the Cunningham-Price-Moncrief (CPM) variable (odd parity).\
 \>", "Item",
  CellChangeTimes->{{3.741277997663232*^9, 
-  3.741278047667642*^9}},ExpressionUUID->"e690a927-18c5-4df0-9227-\
-52a4f3c10f0d"],
+  3.741278047667642*^9}},ExpressionUUID->"39bad8e5-bc46-47f9-9674-\
+e83cc00cd49b"],
 
 Cell[TextData[{
  "Other, functions are available, as discussed at length by Hopper (",
@@ -137,26 +136,26 @@ Cell[TextData[{
  ")."
 }], "Item",
  CellChangeTimes->{{3.741277997663232*^9, 
-  3.7412780935230217`*^9}},ExpressionUUID->"3f6c1078-f6ec-47a3-ab64-\
-acd37f6bd245"],
+  3.7412780935230217`*^9}},ExpressionUUID->"93d45a2c-8894-45f6-bac7-\
+b952896d7295"],
 
 Cell["\<\
 Source terms are subtracted to the LHS, so each equation implicitly equals \
 zero.\
-\>", "Item",ExpressionUUID->"de09a6b1-98e5-493c-b707-9ae87e8d07a1"],
+\>", "Item",ExpressionUUID->"e953ea54-f6f2-41cb-b1bf-bdd23e9cbb7e"],
 
 Cell["\<\
 MasterEquation can return many different forms of the same equation.\
 \>", "Item",
  CellChangeTimes->{{3.7412781071510067`*^9, 
-  3.74127811625935*^9}},ExpressionUUID->"d12cc275-ec34-49c5-8dfc-\
-b46ecc05640b"],
+  3.74127811625935*^9}},ExpressionUUID->"2b091eec-0707-4a93-8d5a-\
+591f73de5b5b"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 The form is determined by the various options that are available.\
-\>", "Item",ExpressionUUID->"7e775fbe-f3e5-4989-b4c2-97f8413dd063"],
+\>", "Item",ExpressionUUID->"efead3ac-f137-4b56-8f2e-7fd9878910a2"],
 
 Cell[BoxData[GridBox[{
    {"Parity", 
@@ -202,7 +201,7 @@ Cell[BoxData[GridBox[{
   }]], "DefinitionBox",
  CellChangeTimes->{{3.7412782924353523`*^9, 3.741278528953061*^9}, {
   3.741284305161758*^9, 3.741284362448101*^9}},
- CellID->827635554,ExpressionUUID->"2a25abe6-38f1-4610-852a-a36ce11b0cad"]
+ CellID->827635554,ExpressionUUID->"337f2f86-4987-4637-83d8-3ad3dcbfb8fd"]
 }, Open  ]]
 }, Open  ]],
 
@@ -210,8 +209,8 @@ Cell[CellGroupData[{
 
 Cell["Default behavior", "Section",
  CellChangeTimes->{{3.7412785555396748`*^9, 
-  3.741278558201208*^9}},ExpressionUUID->"80632d58-7e83-4659-bf33-\
-1abd338764cd"],
+  3.741278558201208*^9}},ExpressionUUID->"fe6f104b-747e-4c8e-85de-\
+90f3cc475a85"],
 
 Cell[CellGroupData[{
 
@@ -219,16 +218,15 @@ Cell["\<\
 By default the master equation assumes even-parity and the ZM variable\
 \>", "Item",
  CellChangeTimes->{{3.7412785602131*^9, 
-  3.741278575093646*^9}},ExpressionUUID->"1095e205-2dc9-4f98-adaa-\
-8b70f93ee992"],
+  3.741278575093646*^9}},ExpressionUUID->"385406da-b465-4c85-9100-\
+4405531cc379"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"MasterEquation", "[", "]"}]], "Input",
  CellChangeTimes->{{3.741278576021512*^9, 3.741278578418634*^9}},
- CellLabel->
-  "(Local) In[2]:=",ExpressionUUID->"2550ce28-60c9-4675-9d95-d37a137fb928"],
+ CellLabel->"In[2]:=",ExpressionUUID->"1037b1f6-d77e-449a-b250-a388248c3cf6"],
 
 Cell[BoxData[
  RowBox[{
@@ -514,8 +512,7 @@ SuperscriptBox]]\\)\"\>",
      Derivative],
     MultilineFunction->None], "[", 
    RowBox[{"t", ",", "r"}], "]"}]}]], "Output",
- CellLabel->
-  "(Local) Out[2]=",ExpressionUUID->"9c17b41e-ac65-407c-b7d6-969680c2a332"]
+ CellLabel->"Out[2]=",ExpressionUUID->"63648ca5-3fde-4e64-8945-9f808fc9ca7c"]
 }, Open  ]]
 }, Open  ]],
 
@@ -523,8 +520,8 @@ Cell[CellGroupData[{
 
 Cell["The odd parity uses the CPM variable", "Item",
  CellChangeTimes->{{3.7412786069255133`*^9, 
-  3.74127861763533*^9}},ExpressionUUID->"f202545f-95e5-4c98-befc-\
-d57ceb347877"],
+  3.74127861763533*^9}},ExpressionUUID->"c2af5a7a-e991-4de9-a5b8-\
+a08e47b18a50"],
 
 Cell[CellGroupData[{
 
@@ -532,8 +529,7 @@ Cell[BoxData[
  RowBox[{"MasterEquation", "[", 
   RowBox[{"Parity", "\[Rule]", "\"\<Odd\>\""}], "]"}]], "Input",
  CellChangeTimes->{{3.741278622470797*^9, 3.7412786252283487`*^9}},
- CellLabel->
-  "(Local) In[3]:=",ExpressionUUID->"4c252fe4-f2ff-494b-bae6-a8e81ad4df82"],
+ CellLabel->"In[3]:=",ExpressionUUID->"6f85a671-ed2e-42b0-ba9b-af4674f0d21d"],
 
 Cell[BoxData[
  RowBox[{
@@ -676,8 +672,7 @@ SuperscriptBox]]\\)\"\>",
      Derivative],
     MultilineFunction->None], "[", 
    RowBox[{"t", ",", "r"}], "]"}]}]], "Output",
- CellLabel->
-  "(Local) Out[3]=",ExpressionUUID->"2c5530ad-5538-46d1-b90b-959414b80c7e"]
+ CellLabel->"Out[3]=",ExpressionUUID->"3f31be7e-3f9d-4cfe-88a1-82974114f889"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -686,23 +681,23 @@ Cell[CellGroupData[{
 
 Cell["Manipulating source terms", "Section",
  CellChangeTimes->{{3.741279030897109*^9, 
-  3.741279035099886*^9}},ExpressionUUID->"2d72ff08-855b-4ddc-ae01-\
-4f95339166eb"],
+  3.741279035099886*^9}},ExpressionUUID->"3079cd13-96af-421d-9ede-\
+3d414e98d570"],
 
 Cell[CellGroupData[{
 
 Cell["Homogeneous equations", "Subsection",
  CellChangeTimes->{{3.7412794892358227`*^9, 
-  3.741279498317718*^9}},ExpressionUUID->"00d3c81a-b3bf-4481-a79a-\
-c19c1449bc56"],
+  3.741279498317718*^9}},ExpressionUUID->"49455ec0-47e7-42ec-b558-\
+b302d9834f86"],
 
 Cell[CellGroupData[{
 
 Cell["Source terms can be turned off with Homogeneous \[Rule] True.", "Item",
  CellChangeTimes->{{3.74127916382069*^9, 3.741279208810197*^9}, {
   3.741279444315135*^9, 
-  3.74127945684982*^9}},ExpressionUUID->"baadf66c-5a86-4554-9787-\
-30001624cb46"],
+  3.74127945684982*^9}},ExpressionUUID->"937ff43f-b6e0-4205-b235-\
+e8425e682a86"],
 
 Cell[CellGroupData[{
 
@@ -712,8 +707,7 @@ Cell[BoxData[
    RowBox[{"Parity", "\[Rule]", "\"\<Odd\>\""}], ",", 
    RowBox[{"Homogeneous", "\[Rule]", "True"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.7412794632674913`*^9, 3.741279465842599*^9}},
- CellLabel->
-  "(Local) In[4]:=",ExpressionUUID->"015e9b04-6ebf-4a87-8c95-c364216283e7"],
+ CellLabel->"In[4]:=",ExpressionUUID->"4e473842-c176-4f25-a8bc-a0471a9c6be1"],
 
 Cell[BoxData[
  RowBox[{
@@ -781,8 +775,7 @@ SuperscriptBox]]\\)\"\>",
      Derivative],
     MultilineFunction->None], "[", 
    RowBox[{"t", ",", "r"}], "]"}]}]], "Output",
- CellLabel->
-  "(Local) Out[4]=",ExpressionUUID->"d993f81c-d637-4893-8a00-48e9591467e7"]
+ CellLabel->"Out[4]=",ExpressionUUID->"50289470-c684-4c25-84ef-ea63ebfce16c"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -791,23 +784,23 @@ Cell[CellGroupData[{
 
 Cell["The \[OpenCurlyQuote]GF-Form\[CloseCurlyQuote] of sources", "Subsection",
  CellChangeTimes->{{3.7412795058896637`*^9, 
-  3.741279513620378*^9}},ExpressionUUID->"c973913e-6257-4817-bdd7-\
-00f6959f5b6c"],
+  3.741279513620378*^9}},ExpressionUUID->"1025da36-1dc6-49a7-bd27-\
+421159506064"],
 
 Cell["\<\
 By default source terms are written as coefficients of one \[Delta][r-rp] and \
 one \[Delta]'[r-rp]. We call this GFForm.\
 \>", "Item",
  CellChangeTimes->{{3.74127916382069*^9, 
-  3.741279208810197*^9}},ExpressionUUID->"99c94f70-bd84-49e4-9d83-\
-5ac40cdbb716"],
+  3.741279208810197*^9}},ExpressionUUID->"18f82402-917e-415e-9e08-\
+fc71ae3ca5a0"],
 
 Cell[CellGroupData[{
 
 Cell["This can be turned off with GFForm \[Rule] False.", "Item",
  CellChangeTimes->{{3.74127916382069*^9, 
-  3.741279246472769*^9}},ExpressionUUID->"c333c4a9-71e8-4cec-b2a4-\
-5b80411d6a77"],
+  3.741279246472769*^9}},ExpressionUUID->"9b6dac23-128c-427a-8fb4-\
+fc837c5bcefb"],
 
 Cell[CellGroupData[{
 
@@ -817,8 +810,7 @@ Cell[BoxData[
    RowBox[{"Parity", "\[Rule]", "\"\<Odd\>\""}], ",", 
    RowBox[{"GFForm", "\[Rule]", "False"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.74127922940899*^9, 3.741279232477344*^9}},
- CellLabel->
-  "(Local) In[5]:=",ExpressionUUID->"8118eae8-16cd-4dcd-9af0-303d879806f7"],
+ CellLabel->"In[5]:=",ExpressionUUID->"3f59dec5-7228-4e73-9f0b-50f5157069c5"],
 
 Cell[BoxData[
  RowBox[{
@@ -996,8 +988,7 @@ SuperscriptBox]]\\)\"\>",
      Derivative],
     MultilineFunction->None], "[", 
    RowBox[{"t", ",", "r"}], "]"}]}]], "Output",
- CellLabel->
-  "(Local) Out[5]=",ExpressionUUID->"86f6bf1f-f258-4ab9-9160-e179750b878a"]
+ CellLabel->"Out[5]=",ExpressionUUID->"7c595496-52f3-4e45-a778-930f81969d96"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -1006,8 +997,8 @@ Cell[CellGroupData[{
 
 Cell["Source expansion", "Subsection",
  CellChangeTimes->{{3.741279519242043*^9, 
-  3.741279521239974*^9}},ExpressionUUID->"996327b0-4610-4d7b-9362-\
-8c63c179301e"],
+  3.741279521239974*^9}},ExpressionUUID->"67b948fd-dd52-4182-a029-\
+b080b60ad0c1"],
 
 Cell[CellGroupData[{
 
@@ -1016,8 +1007,8 @@ Source terms can be fully expanded with SourceExpansion \[Rule] \
 \[OpenCurlyDoubleQuote]Full\[CloseCurlyDoubleQuote].\
 \>", "Item",
  CellChangeTimes->{{3.7412790460019093`*^9, 
-  3.741279074211297*^9}},ExpressionUUID->"cf9c8e2d-2659-4984-b6bd-\
-3f942e1b3b70"],
+  3.741279074211297*^9}},ExpressionUUID->"11b8a566-f5dc-46e6-9140-\
+b24ab907c043"],
 
 Cell[CellGroupData[{
 
@@ -1027,8 +1018,7 @@ Cell[BoxData[
    RowBox[{"Parity", "\[Rule]", "\"\<Odd\>\""}], ",", 
    RowBox[{"SourceExpansion", "\[Rule]", "\"\<Full\>\""}]}], "]"}]], "Input",
  CellChangeTimes->{{3.741279079958239*^9, 3.74127908499144*^9}},
- CellLabel->
-  "(Local) In[6]:=",ExpressionUUID->"248fa0ba-2e1d-48e0-a2d7-bc71a08a1e96"],
+ CellLabel->"In[6]:=",ExpressionUUID->"f19c8b13-4a02-48da-b65f-d44a2b04fef2"],
 
 Cell[BoxData[
  RowBox[{
@@ -1256,22 +1246,21 @@ DisplayForm]\\)\"\>", "[", "t", "]"}]}],
             RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\
 \"\\\"]\\)\"\>", "[", "t", "]"}], "2"]}]]}], ")"}]}], "\[Lambda]"]}], 
     ")"}]}]}]], "Output",
- CellLabel->
-  "(Local) Out[6]=",ExpressionUUID->"7f3b57b1-31ba-4f2b-8895-bac2037d3f57"]
+ CellLabel->"Out[6]=",ExpressionUUID->"0f5f2d6f-9237-4b94-a857-442c6441128d"]
 }, Open  ]]
 }, Open  ]],
 
 Cell["They can also be minimally expanded.", "Item",
  CellChangeTimes->{{3.741279101331065*^9, 
-  3.741279134986207*^9}},ExpressionUUID->"565f9ba9-2012-4a9e-ac20-\
-0d03d2b631ad"],
+  3.741279134986207*^9}},ExpressionUUID->"5d2d000a-7216-4a91-b3c3-\
+b9e3a2ae91a2"],
 
 Cell[CellGroupData[{
 
 Cell["This is only possible when GFForm is set to False.", "Item",
  CellChangeTimes->{{3.741279101331065*^9, 
-  3.741279146026848*^9}},ExpressionUUID->"183e50a5-c51b-4457-975a-\
-8add7170db14"],
+  3.741279146026848*^9}},ExpressionUUID->"460e72bd-42a3-4b69-a185-\
+ec817d1eb12e"],
 
 Cell[CellGroupData[{
 
@@ -1283,8 +1272,7 @@ Cell[BoxData[
    RowBox[{"GFForm", "\[Rule]", "False"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.741279113497985*^9, 3.741279113907686*^9}, {
   3.741279253937842*^9, 3.741279254597093*^9}},
- CellLabel->
-  "(Local) In[7]:=",ExpressionUUID->"082fa3fe-140f-4772-aa43-3f0d56bf4276"],
+ CellLabel->"In[7]:=",ExpressionUUID->"18eb1a86-c8b7-4a93-a298-a5940c024739"],
 
 Cell[BoxData[
  RowBox[{
@@ -1416,8 +1404,7 @@ RowBox[{\\\\\\\"P\\\\\\\"}]\\\\)\\\", \\\"r\\\"], DisplayForm]\\)\"\>",
      Derivative],
     MultilineFunction->None], "[", 
    RowBox[{"t", ",", "r"}], "]"}]}]], "Output",
- CellLabel->
-  "(Local) Out[7]=",ExpressionUUID->"cee3cdbc-81c4-49e9-8734-f37c6161c4e0"]
+ CellLabel->"Out[7]=",ExpressionUUID->"eb0b5efb-bb36-4e99-99b9-86fd1e0378c1"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1431,8 +1418,8 @@ Cell[TextData[{
 }], "Item",
  CellChangeTimes->{{3.741279272973668*^9, 3.741279311583693*^9}, {
   3.741279403128964*^9, 3.741279423989769*^9}, {3.741279810606887*^9, 
-  3.741279815645046*^9}},ExpressionUUID->"335b6a93-8afa-42a3-b282-\
-11322ae9c9e3"]
+  3.741279815645046*^9}},ExpressionUUID->"af660753-d05a-42dc-b1b7-\
+f640d964dc2e"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1440,8 +1427,8 @@ Cell[CellGroupData[{
 
 Cell["The master function as metric perturbation amplitudes", "Section",
  CellChangeTimes->{{3.7412795323989153`*^9, 
-  3.7412795696008673`*^9}},ExpressionUUID->"57d6690e-a804-4f49-bf62-\
-5803c86f3712"],
+  3.7412795696008673`*^9}},ExpressionUUID->"cdcc5f8b-0f27-40f4-ac99-\
+5812f1894967"],
 
 Cell["\<\
 The master function is gauge invariant and can be written as a linear \
@@ -1449,15 +1436,15 @@ combination of metric perturbation (MP) amplitudes.\
 \>", "Item",
  CellChangeTimes->{{3.741279572240589*^9, 3.741279603569643*^9}, {
   3.741279645325327*^9, 
-  3.7412796465251627`*^9}},ExpressionUUID->"65028524-b1e8-41be-af09-\
-a0cd9eb6e715"],
+  3.7412796465251627`*^9}},ExpressionUUID->"84d53871-ddbf-4bd2-b790-\
+fee7511df61e"],
 
 Cell[CellGroupData[{
 
 Cell["This can be seen directly with:", "Item",
  CellChangeTimes->{{3.741279572240589*^9, 
-  3.7412796093078337`*^9}},ExpressionUUID->"71b499dd-482c-4f1d-ba29-\
-815ddf62bcfd"],
+  3.7412796093078337`*^9}},ExpressionUUID->"d73ebd59-54ca-4db9-8f41-\
+791b6833ad93"],
 
 Cell[CellGroupData[{
 
@@ -1465,8 +1452,7 @@ Cell[BoxData[
  RowBox[{"MasterFunction", "[", 
   RowBox[{"MPs", "\[Rule]", "True"}], "]"}]], "Input",
  CellChangeTimes->{{3.741279610737899*^9, 3.741279620544208*^9}},
- CellLabel->
-  "(Local) In[8]:=",ExpressionUUID->"57eb2e7c-07d0-4d49-8d8d-01a8ad9f129b"],
+ CellLabel->"In[8]:=",ExpressionUUID->"a66134f7-693c-475f-b407-5c8ed3ff1cfd"],
 
 Cell[BoxData[
  FractionBox[
@@ -1514,8 +1500,7 @@ Rule[SyntaxForm, SuperscriptBox]]\\)\"\>",
        FractionBox[
         RowBox[{"3", " ", "M"}], "r"], "+", "\[Lambda]"}]]}], ")"}]}], 
   RowBox[{"1", "+", "\[Lambda]"}]]], "Output",
- CellLabel->
-  "(Local) Out[8]=",ExpressionUUID->"c8ba5c85-c95b-483c-8bf6-af2fa4982fde"]
+ CellLabel->"Out[8]=",ExpressionUUID->"b54db298-d043-4cc1-a6c8-80ee7f61eee4"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1525,8 +1510,8 @@ Cell["\<\
 Because it is gauge invariant, we can write the MP amplitudes in any gauge.\
 \>", "Item",
  CellChangeTimes->{{3.741279629369432*^9, 
-  3.7412796508982153`*^9}},ExpressionUUID->"72ee1fad-16bb-48d2-9711-\
-cea4a3291add"],
+  3.7412796508982153`*^9}},ExpressionUUID->"4d6b048f-df51-4a77-b410-\
+5ae7601f4e69"],
 
 Cell[CellGroupData[{
 
@@ -1540,8 +1525,7 @@ Cell[BoxData[
    RowBox[{"_", "[", 
     RowBox[{"t", ",", "r"}], "]"}], ",", "Simplify"}], "]"}]], "Input",
  CellChangeTimes->{{3.741279654185753*^9, 3.7412796745041723`*^9}},
- CellLabel->
-  "(Local) In[9]:=",ExpressionUUID->"58d16213-ac8b-4656-858c-a7bd8ec10294"],
+ CellLabel->"In[9]:=",ExpressionUUID->"cb94a966-f12b-4d5d-aeae-34f1db848635"],
 
 Cell[BoxData[
  RowBox[{
@@ -1621,8 +1605,7 @@ SuperscriptBox]]\\)\"\>", "[",
    RowBox[{
     RowBox[{"3", " ", "M"}], "+", 
     RowBox[{"r", " ", "\[Lambda]"}]}]]}]], "Output",
- CellLabel->
-  "(Local) Out[9]=",ExpressionUUID->"dc6c134b-93ea-4705-b640-74af42512ae2"]
+ CellLabel->"Out[9]=",ExpressionUUID->"579e2ac8-dda2-4de4-8ebd-fed7563aba87"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1630,8 +1613,8 @@ Cell[CellGroupData[{
 
 Cell["These same options can be passed to MasterEquation.", "Item",
  CellChangeTimes->{{3.741279689527383*^9, 
-  3.7412796973179893`*^9}},ExpressionUUID->"131cd084-596d-4035-aa62-\
-db8780a01d2b"],
+  3.7412796973179893`*^9}},ExpressionUUID->"44f2d260-0f0a-4089-8d0c-\
+88a97dd813d9"],
 
 Cell[CellGroupData[{
 
@@ -1646,8 +1629,7 @@ Cell[BoxData[
    RowBox[{"_", "[", 
     RowBox[{"t", ",", "r"}], "]"}], ",", "Simplify"}], "]"}]], "Input",
  CellChangeTimes->{{3.7412796995137587`*^9, 3.741279721805093*^9}},
- CellLabel->
-  "(Local) In[10]:=",ExpressionUUID->"e4d27dd1-6dd7-4509-be39-fd0d3399e98d"],
+ CellLabel->"In[10]:=",ExpressionUUID->"d9b1c8d6-0d69-4f0d-bcbe-c69648df6124"],
 
 Cell[BoxData[
  RowBox[{
@@ -1865,7 +1847,7 @@ SuperscriptBox]]\\)\"\>", "[",
    RowBox[{
     SuperscriptBox["r", "4"], " ", "\[Lambda]"}]]}]], "Output",
  CellLabel->
-  "(Local) Out[10]=",ExpressionUUID->"6e4c23e8-8a69-4c41-b162-d6fa855e7454"]
+  "Out[10]=",ExpressionUUID->"aa738d23-4246-462d-a2ce-f5aa4af4b018"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1873,8 +1855,8 @@ Cell[CellGroupData[{
 
 Cell["It is even possible to not specify a gauge.", "Item",
  CellChangeTimes->{{3.741279753780304*^9, 
-  3.741279761817914*^9}},ExpressionUUID->"416b4624-8acf-4f54-b406-\
-cff6662c8158"],
+  3.741279761817914*^9}},ExpressionUUID->"5b2ffb2e-ad6f-4978-a42d-\
+724eda385852"],
 
 Cell[CellGroupData[{
 
@@ -1890,8 +1872,7 @@ Cell[BoxData[
    RowBox[{"_", "[", 
     RowBox[{"t", ",", "r"}], "]"}], ",", "Simplify"}], "]"}]], "Input",
  CellChangeTimes->{{3.7412797455553923`*^9, 3.741279771688703*^9}},
- CellLabel->
-  "(Local) In[11]:=",ExpressionUUID->"b941eb0b-8b95-4e16-aca3-f95824ec57da"],
+ CellLabel->"In[11]:=",ExpressionUUID->"439afe64-2b17-4e95-8421-2af980abcc2c"],
 
 Cell[BoxData[
  RowBox[{
@@ -2401,7 +2382,7 @@ Rule[SyntaxForm, SuperscriptBox]]\\)\"\>",
        RowBox[{"3", " ", "M"}], "+", 
        RowBox[{"r", " ", "\[Lambda]"}]}], ")"}], "2"]}]]}]], "Output",
  CellLabel->
-  "(Local) Out[11]=",ExpressionUUID->"4423762b-a205-4d85-8365-6fc19e046ca0"]
+  "Out[11]=",ExpressionUUID->"757a5566-7bde-4d13-9e94-2e7685b90918"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -2410,8 +2391,8 @@ Cell[CellGroupData[{
 
 Cell["Weak equations", "Section",
  CellChangeTimes->{{3.7412798361390553`*^9, 
-  3.741279838274826*^9}},ExpressionUUID->"b51f2506-ce78-4080-82f2-\
-198e233b7265"],
+  3.741279838274826*^9}},ExpressionUUID->"80e69959-13cb-483d-839e-\
+00833e0bfe3a"],
 
 Cell[CellGroupData[{
 
@@ -2420,8 +2401,8 @@ As with all 1+1 equations in BlackHoleAnalysis, the master equation can be \
 written in a Weak form\
 \>", "Item",
  CellChangeTimes->{{3.741279840352743*^9, 
-  3.741279869118125*^9}},ExpressionUUID->"fa9525a5-1eee-4f45-81e8-\
-54ad10324441"],
+  3.741279869118125*^9}},ExpressionUUID->"03c5b31d-888b-4ee8-a4e0-\
+48f33579f487"],
 
 Cell[CellGroupData[{
 
@@ -2444,8 +2425,7 @@ Cell[BoxData[
       RowBox[{"t", ",", "r"}], "]"}]}], "}"}], ",", "Simplify"}], 
   "]"}]], "Input",
  CellChangeTimes->{{3.7412798731636963`*^9, 3.741279911165975*^9}},
- CellLabel->
-  "(Local) In[12]:=",ExpressionUUID->"a04d145d-a724-4628-86ba-676ac853923d"],
+ CellLabel->"In[12]:=",ExpressionUUID->"8447f55a-30e9-4cd1-8c26-6c93359faa30"],
 
 Cell[BoxData[
  RowBox[{
@@ -3039,7 +3019,7 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
        MultilineFunction->None], "[", 
       RowBox[{"t", ",", "r"}], "]"}]}], ")"}]}]}]], "Output",
  CellLabel->
-  "(Local) Out[12]=",ExpressionUUID->"5538373d-4884-4853-8232-077454b2ae86"]
+  "Out[12]=",ExpressionUUID->"e2e138bc-d026-4086-acc4-6e7c14bc15a0"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -3083,60 +3063,60 @@ Cell["", "RelatedTutorialsSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
    None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"a11b3bd9-014a-4abb-a959-1865436afacf"],
+  0,ExpressionUUID->"4dd5f7c6-b345-4160-9e0e-ed3f9c23224d"],
 
 Cell[TextData[ButtonBox["Field equations on Schwarzschild",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Field equations on Schwarzschild"]], \
-"RelatedTutorials",ExpressionUUID->"ff389e80-0d68-44ae-909f-bf8f7565039b"],
+"RelatedTutorials",ExpressionUUID->"2f44454b-919a-4e20-9088-aa7252d164eb"],
 
 Cell[TextData[ButtonBox["Time domain amplitudes",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Time domain amplitudes"]], \
-"RelatedTutorials",ExpressionUUID->"0bff3e65-00d5-468b-9393-c27714a59112"],
+"RelatedTutorials",ExpressionUUID->"f6ccffac-8dbd-47de-847d-4e3a92d4c12e"],
 
 Cell[TextData[ButtonBox["Source terms",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Source terms"]], \
-"RelatedTutorials",ExpressionUUID->"dd866eaf-5499-4cf2-a8cb-3d5afb906562"],
+"RelatedTutorials",ExpressionUUID->"22b2855a-f47d-4002-9662-6a7765505f07"],
 
 Cell[TextData[ButtonBox["Weak functions",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Weak functions"]], \
-"RelatedTutorials",ExpressionUUID->"82f00a3e-162d-43c5-aa4c-dcb27872dc98"],
+"RelatedTutorials",ExpressionUUID->"b419ee8b-c638-46b5-b5ae-699b2eeda9e3"],
 
 Cell[TextData[ButtonBox["Discontinuities",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Discontinuities"]], \
-"RelatedTutorials",ExpressionUUID->"b2a4c296-542a-4afd-a898-d5c7f99bc11f"],
+"RelatedTutorials",ExpressionUUID->"b7308737-3660-4f89-837f-fcda0a49ea64"],
 
 Cell[TextData[ButtonBox["Kerr equations",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Kerr equations"]], \
-"RelatedTutorials",ExpressionUUID->"95888ec4-c74e-4a48-b4be-ce95df22eb5f"],
+"RelatedTutorials",ExpressionUUID->"f2aa0841-281c-4bae-9b85-7b465638bb50"],
 
 Cell[TextData[ButtonBox["Simplifying expressions",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Simplifying expressions"]], \
-"RelatedTutorials",ExpressionUUID->"8038d072-9200-4ac7-97a4-c557580c6deb"],
+"RelatedTutorials",ExpressionUUID->"2e15c36c-8e97-4dca-85d4-6e8b1d2c9022"],
 
 Cell[TextData[ButtonBox["Examples",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Examples"]], \
-"RelatedTutorials",ExpressionUUID->"1757acf8-396a-42e8-acd3-810b3028fd19"]
+"RelatedTutorials",ExpressionUUID->"8883f0ab-ca3b-4856-a291-46c989c917ad"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[" ", \
-"FooterCell",ExpressionUUID->"7d8507e5-440c-4fca-9fbd-0c760e5f8c86"]
+"FooterCell",ExpressionUUID->"df5ad5cc-1cde-4a34-a38b-6dfa5d9fd763"]
 },
 Saveable->False,
 ScreenStyleEnvironment->"Working",

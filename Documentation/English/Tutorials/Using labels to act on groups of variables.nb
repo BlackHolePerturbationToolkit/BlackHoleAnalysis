@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "TutorialColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"b932437c-2975-4243-827b-ffb2f75eac76"],
+   0}},ExpressionUUID->"fecdb4e0-bf99-4104-bffb-d74828a2b7a3"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -13,16 +13,17 @@ Cell[TextData[{
   ButtonData->
    "paclet:BlackHoleAnalysis/tutorial/Using labels to act on groups of \
 variables"]
-}], "LinkTrail",ExpressionUUID->"832a5c74-50de-45ff-94c2-bd649c241525"],
+}], "LinkTrail",ExpressionUUID->"dba3b726-6e7a-4471-84d9-d171049364e4"],
 
 Cell[BoxData[GridBox[{
    {Cell["USING LABELS TO ACT ON GROUPS OF VARIABLES TUTORIAL", 
-     "PacletNameCell",ExpressionUUID->"9c1d49e7-f286-4dff-b7c7-ead86f5c269c"],
+     "PacletNameCell",ExpressionUUID->"0761b67f-0ea6-4601-bf45-72798bfe354d"],
      Cell[TextData[{
      Cell[BoxData[
       ActionMenuBox[
        FrameBox["\<\"Related Tutorials \[RightGuillemet]\"\>",
-        StripOnInput->False], {
+        StripOnInput->False], {"Conventions":>Documentation`HelpLookup[
+       "paclet:BlackHoleAnalysis/tutorial/Conventions"], 
        RowBox[{"Field", " ", "equations", " ", "on", " ", "Schwarzschild"}]:>
        Documentation`HelpLookup[
        "paclet:BlackHoleAnalysis/tutorial/Field equations on Schwarzschild"], 
@@ -38,7 +39,7 @@ Cell[BoxData[GridBox[{
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "09a122c7-ceec-4a72-ac7c-b02da5ba6ff8"],
+      "abd3ff6e-6a01-46ea-810c-321052e3fd29"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -57,63 +58,61 @@ Cell[BoxData[GridBox[{
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "aea71b34-007c-4b40-828d-28eb61d52b56"]
-    }], "AnchorBar",ExpressionUUID->"9a499201-67ad-42dc-9d19-52e2c5a4998e"]}
-  }]], "AnchorBarGrid",ExpressionUUID->"dfec8444-81a7-4d41-84e7-4dca52af3f5b"],
+      "de48d133-5f57-4f40-96d6-329c10a2e5b9"]
+    }], "AnchorBar",ExpressionUUID->"b8b5b7be-cec2-4096-885c-1fbe002c8a6a"]}
+  }]], "AnchorBarGrid",ExpressionUUID->"8efeb9cd-8b25-46de-a08f-18a25e1ad122"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 BlackHoleAnalysis - Using labels to simplify large calculations\
-\>", "Title",ExpressionUUID->"1f1053d0-5f8a-4d99-9e5f-eee4f6d4fa19"],
+\>", "Title",ExpressionUUID->"4c2cabf9-002a-4a04-8410-717edc590906"],
 
 Cell[BoxData[
  RowBox[{"<<", "BlackHoleAnalysis`"}]], "Input",
- CellLabel->
-  "(Local) In[1]:=",ExpressionUUID->"8c98c61a-a2df-49df-8e8b-e775e43b9aee"],
+ CellLabel->"In[1]:=",ExpressionUUID->"9264ecdf-78ac-4803-a89e-e8205d3643fd"],
 
 Cell[CellGroupData[{
 
 Cell["Introduction", \
-"Section",ExpressionUUID->"6b2d039e-468e-4913-bde8-1f998cf9f3e3"],
+"Section",ExpressionUUID->"f3a14a99-2ff6-4b26-8475-1bf52fd33cb4"],
 
 Cell["\<\
 The field equations involve 10 different metric perturbation (MP) amplitudes.\
 \
-\>", "Item",ExpressionUUID->"62ccc664-cdcf-47c6-b114-97a35646fa3a"],
+\>", "Item",ExpressionUUID->"1578a2f3-57eb-4ebb-9cf8-c09861c557be"],
 
 Cell["Calling functions on each of these is a pain.", \
-"Item",ExpressionUUID->"09e38137-7166-40f5-860a-4f28236dca7b"],
+"Item",ExpressionUUID->"5fe1e081-bb47-4474-9928-70722418a393"],
 
 Cell["\<\
 Fortunately, BlackHoleAnalysis provides built-in tools to makes this more \
 manageable.\
-\>", "Item",ExpressionUUID->"307ca46a-edfe-48ce-82a8-28b6b28d0008"]
+\>", "Item",ExpressionUUID->"8e08ce95-fc85-40b8-bb3b-5b15906a188c"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Labels of metric perturbation amplitudes", \
-"Section",ExpressionUUID->"cd74f868-186e-48df-a772-abc4bfe70085"],
+"Section",ExpressionUUID->"fcaca3df-5f0f-4dcb-8145-b80973faf475"],
 
 Cell[CellGroupData[{
 
 Cell["Intro", \
-"Subsection",ExpressionUUID->"5a2e118b-1de6-4232-b993-ee6462a0e56b"],
+"Subsection",ExpressionUUID->"9a3880bc-1430-4670-8a48-28e7ae43817a"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 Each of the MP amplitudes has an associated label, and the whole list is \
 found by MetricPerturbationLables.\
-\>", "Item",ExpressionUUID->"ce85eff7-4cff-4f57-9528-346f5219155c"],
+\>", "Item",ExpressionUUID->"31124335-9413-4d3c-9823-917c3040c0bf"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "MetricPerturbationLables"}]], "Input",
- CellLabel->
-  "(Local) In[2]:=",ExpressionUUID->"ccf78f45-13cb-42e5-9c55-70ad3ac537f6"],
+ CellLabel->"In[2]:=",ExpressionUUID->"03e00a93-9709-451d-b3c4-28910370e26a"],
 
 Cell[BoxData[
  RowBox[{"\<\"MetricPerturbationLables[] returns a list of strings that label \
@@ -126,24 +125,22 @@ the metric perturbation amplitudes.\"\>", "\[NonBreakingSpace]",
     "paclet:BlackHoleAnalysis/ref/MetricPerturbationLables"]}]], "Print", \
 "PrintUsage",
  CellTags->
-  "Info23741340401-4539924",ExpressionUUID->"e9da0f5c-1040-4048-8606-\
-8f0a0e663504"]
+  "Info23741357200-9892469",ExpressionUUID->"e0643c89-8f75-46aa-895f-\
+0e5fc721927d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"MetricPerturbationLables", "[", "]"}]], "Input",
- CellLabel->
-  "(Local) In[3]:=",ExpressionUUID->"35a7ee14-528b-4b2c-a985-6375b8be03ef"],
+ CellLabel->"In[3]:=",ExpressionUUID->"eb3b8e60-823b-4b0f-98d3-4e4061bf73e2"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{"\<\"htt\"\>", ",", "\<\"htr\"\>", ",", "\<\"hrr\"\>", 
    ",", "\<\"jt\"\>", ",", "\<\"jr\"\>", ",", "\<\"K\"\>", ",", "\<\"G\"\>", 
    ",", "\<\"ht\"\>", ",", "\<\"hr\"\>", ",", "\<\"h2\"\>"}], "}"}]], "Output",
- CellLabel->
-  "(Local) Out[3]=",ExpressionUUID->"0848bc81-1cdf-40c3-b80c-a1ca9393f7f1"]
+ CellLabel->"Out[3]=",ExpressionUUID->"77e4e149-09e3-43f4-b7f3-5c77f61ff4ee"]
 }, Open  ]]
 }, Open  ]],
 
@@ -152,7 +149,7 @@ Cell[CellGroupData[{
 Cell["\<\
 Each label feeds into a function called AmplitdueFunction, which returns the \
 function for each field.\
-\>", "Item",ExpressionUUID->"c1081292-7754-48c1-9168-1b695b4c02b6"],
+\>", "Item",ExpressionUUID->"0f2421b1-1034-422f-be23-60ae3cc76799"],
 
 Cell[CellGroupData[{
 
@@ -160,8 +157,7 @@ Cell[BoxData[
  RowBox[{"functions", "=", 
   RowBox[{"AmplitudeFunction", "/@", 
    RowBox[{"MetricPerturbationLables", "[", "]"}]}]}]], "Input",
- CellLabel->
-  "(Local) In[4]:=",ExpressionUUID->"efe448bf-5fca-4a01-9f87-b97ed59becdb"],
+ CellLabel->"In[4]:=",ExpressionUUID->"3786b62c-a511-424d-85bb-7b0cd366b0c1"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -170,33 +166,31 @@ Cell[BoxData[
    "JtAmplitude", ",", "JrAmplitude", ",", "KAmplitude", ",", "GAmplitude", 
    ",", "HtAmplitude", ",", "HrAmplitude", ",", "H2Amplitude"}], 
   "}"}]], "Output",
- CellLabel->
-  "(Local) Out[4]=",ExpressionUUID->"b822363d-0094-493f-9c45-f33459589400"]
+ CellLabel->"Out[4]=",ExpressionUUID->"c92f0b30-2967-427a-90a8-21f6f0559c6a"]
 }, Open  ]]
 }, Open  ]],
 
 Cell["\<\
 Now, we can call each of these functions with the same set of Options.\
-\>", "Item",ExpressionUUID->"57d62a92-430d-4c9e-a8df-650e065e54b1"]
+\>", "Item",ExpressionUUID->"621c9e25-60db-4e5d-a49e-8ec75296f000"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Use Through to call 10 functions on the same arguments", \
-"Subsection",ExpressionUUID->"70e2e57e-c5a0-48d8-9a3d-0e53cd7a191e"],
+"Subsection",ExpressionUUID->"d90c66df-f915-4bfc-b6d6-a051a59cb674"],
 
 Cell[CellGroupData[{
 
 Cell["By default, in RWZ gauge 4 of them vanish", \
-"Item",ExpressionUUID->"9ac2b19a-0498-435d-9668-04c6bc4dc77a"],
+"Item",ExpressionUUID->"0db5021d-f872-4496-962a-b0c6aba7aa46"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Through", "[", 
   RowBox[{"functions", "[", "]"}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[5]:=",ExpressionUUID->"52256e1e-924a-48e0-ab1a-0ae475d3de76"],
+ CellLabel->"In[5]:=",ExpressionUUID->"16c48d80-cf3c-4740-865c-f19dcaccabf8"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -243,15 +237,14 @@ SuperscriptBox]]\\)\"\>", "[",
 \\\\\"RWZ\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
 SuperscriptBox]]\\)\"\>", "[", 
     RowBox[{"t", ",", "r"}], "]"}], ",", "0"}], "}"}]], "Output",
- CellLabel->
-  "(Local) Out[5]=",ExpressionUUID->"6a00cded-dcc8-49dc-bcce-04dc1438e9e2"]
+ CellLabel->"Out[5]=",ExpressionUUID->"985d0fae-1c09-426b-b839-5e8f84ef2c91"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["But in Lorenz gauge all are non-zero", \
-"Item",ExpressionUUID->"34a273a6-f35c-48d0-9d52-3103093cf4df"],
+"Item",ExpressionUUID->"7ee0b3a3-ea7e-41e2-b325-23ef1b8b7f02"],
 
 Cell[CellGroupData[{
 
@@ -259,8 +252,7 @@ Cell[BoxData[
  RowBox[{"Through", "[", 
   RowBox[{"functions", "[", 
    RowBox[{"Gauge", "\[Rule]", "\"\<Lorenz\>\""}], "]"}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[6]:=",ExpressionUUID->"99fdc819-8f86-49df-8c18-1cf86a0fe41e"],
+ CellLabel->"In[6]:=",ExpressionUUID->"a74c94f1-01bc-40d7-8a76-b6479d43c012"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -333,15 +325,14 @@ SuperscriptBox]]\\)\"\>", "[",
 \\\"2\\\\\\\"\\\", \\\"\\\\\\\"L\\\\\\\"\\\"], \\\"Subsuperscript\\\", \
 Rule[SyntaxForm, SubsuperscriptBox]]\\)\"\>", "[", 
     RowBox[{"t", ",", "r"}], "]"}]}], "}"}]], "Output",
- CellLabel->
-  "(Local) Out[6]=",ExpressionUUID->"f40e31d8-9e6f-410d-b7bb-d229947769c1"]
+ CellLabel->"Out[6]=",ExpressionUUID->"0e9d1481-3d07-44a0-a21c-55bef437a956"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["The reconstruction for all the RWZ amplitudes is:", \
-"Item",ExpressionUUID->"cce8b204-2377-42e8-b984-e5669ef43724"],
+"Item",ExpressionUUID->"05e32ca9-79a0-45fb-aaca-f95db95090f8"],
 
 Cell[CellGroupData[{
 
@@ -354,8 +345,7 @@ Cell[BoxData[
      RowBox[{"functions", "[", 
       RowBox[{"Reconstruct", "\[Rule]", "True"}], "]"}], "]"}]}], "]"}], "//",
    "TableForm"}]], "Input",
- CellLabel->
-  "(Local) In[7]:=",ExpressionUUID->"583ee50b-d748-4e46-8576-fbf656d65d93"],
+ CellLabel->"In[7]:=",ExpressionUUID->"8e37eacb-44c7-43f6-9bca-c5826b5d7b78"],
 
 Cell[BoxData[
  TagBox[
@@ -853,8 +843,8 @@ SuperscriptBox]]\\)\"\>",
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "(Local) Out[7]//TableForm=",ExpressionUUID->"f787ec5a-b96d-47af-81a5-\
-81180eb14d9f"]
+  "Out[7]//TableForm=",ExpressionUUID->"9c02e8a3-6d1e-4fd4-a078-b0c8175e7619"]\
+
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -862,19 +852,19 @@ SuperscriptBox]]\\)\"\>",
 Cell[CellGroupData[{
 
 Cell["Examine the weak form of all 10 amplitudes", \
-"Subsection",ExpressionUUID->"780cb41c-20ca-4731-b1b2-0939d73ad5d4"],
+"Subsection",ExpressionUUID->"d2921731-c48b-48e2-9317-1c4ca0c9509f"],
 
 Cell[CellGroupData[{
 
 Cell["RWZ gauge", \
-"Subsubsection",ExpressionUUID->"cd1df8e2-318f-4ae0-ae07-ad1855ad8ec2"],
+"Subsubsection",ExpressionUUID->"a85b971d-d63e-487f-892a-0bf5ff9bdcc8"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 Note that 3 of the 10 amplitudes in RWZ gauge are singular, with terms \
 proportional delta functions \
-\>", "Item",ExpressionUUID->"0bdaeb5b-d522-4462-8b3f-cb4902c8282e"],
+\>", "Item",ExpressionUUID->"8d523da1-ab6e-4b8a-afa7-5feda9ed4017"],
 
 Cell[CellGroupData[{
 
@@ -887,8 +877,7 @@ Cell[BoxData[
      RowBox[{"functions", "[", 
       RowBox[{"Weak", "\[Rule]", "True"}], "]"}], "]"}]}], "]"}], "//", 
   "TableForm"}]], "Input",
- CellLabel->
-  "(Local) In[8]:=",ExpressionUUID->"3cf5ee7b-f5a3-41e2-8cd2-c54e3d768592"],
+ CellLabel->"In[8]:=",ExpressionUUID->"1d255f56-2169-40b1-9641-3fba2b49e629"],
 
 Cell[BoxData[
  TagBox[
@@ -1174,8 +1163,8 @@ SuperscriptBox]]\\)\"\>", "[",
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "(Local) Out[8]//TableForm=",ExpressionUUID->"e3bbe33d-044a-48d9-bc4d-\
-3cacb98c3a8b"]
+  "Out[8]//TableForm=",ExpressionUUID->"1c399eb5-b221-4dc7-97c9-aece1919ac9c"]\
+
 }, Open  ]]
 }, Open  ]],
 
@@ -1183,14 +1172,13 @@ Cell[CellGroupData[{
 
 Cell["\<\
 Now, see the discontinuities of each amplitude using DiscontinuitiesFunction\
-\>", "Item",ExpressionUUID->"80bcac31-88e0-4a8c-8f44-4362cae71c52"],
+\>", "Item",ExpressionUUID->"f0c02a18-fd1a-473a-bd60-aca446556fc7"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "DiscontinuitiesFunction"}]], "Input",
- CellLabel->
-  "(Local) In[9]:=",ExpressionUUID->"3c8e1ce8-16ae-49a6-98f2-c33d179fe1a4"],
+ CellLabel->"In[9]:=",ExpressionUUID->"0a4be072-e97d-406a-8e5c-45d143a65daf"],
 
 Cell[BoxData[
  RowBox[{"\<\"DiscontinuitiesFunction[label] returns the function that \
@@ -1204,8 +1192,8 @@ provides discontinuities for the field associated with label.\"\>",
     "paclet:BlackHoleAnalysis/ref/DiscontinuitiesFunction"]}]], "Print", \
 "PrintUsage",
  CellTags->
-  "Info93741340402-4539924",ExpressionUUID->"d11f361c-75f1-4e79-8fc2-\
-d5fe88b33f00"]
+  "Info93741357200-9892469",ExpressionUUID->"c420b266-1fcb-4406-bdfd-\
+eef4ac00b1a9"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1214,8 +1202,7 @@ Cell[BoxData[
  RowBox[{"discFunctions", "=", 
   RowBox[{"DiscontinuitiesFunction", "/@", 
    RowBox[{"MetricPerturbationLables", "[", "]"}]}]}]], "Input",
- CellLabel->
-  "(Local) In[10]:=",ExpressionUUID->"579d1448-1c37-4d25-9e83-2ced1618495a"],
+ CellLabel->"In[10]:=",ExpressionUUID->"b20d1c18-8e05-4d6a-aa32-851d9372b6e3"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -1225,7 +1212,7 @@ Cell[BoxData[
    "KDiscontinuities", ",", "GDiscontinuities", ",", "HtDiscontinuities", ",",
     "HrDiscontinuities", ",", "H2Discontinuities"}], "}"}]], "Output",
  CellLabel->
-  "(Local) Out[10]=",ExpressionUUID->"ae664fad-5c11-455b-a765-572e9d29bbb2"]
+  "Out[10]=",ExpressionUUID->"cafaebce-5702-4d94-93f5-2f09273f2e89"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1238,8 +1225,7 @@ Cell[BoxData[
     RowBox[{"Through", "[", 
      RowBox[{"discFunctions", "[", "]"}], "]"}]}], "]"}], "//", 
   "TableForm"}]], "Input",
- CellLabel->
-  "(Local) In[11]:=",ExpressionUUID->"e178ca96-854e-4875-8dfe-4615fd7c0ba7"],
+ CellLabel->"In[11]:=",ExpressionUUID->"842a1d66-9526-4833-9e77-495a2b61e56f"],
 
 Cell[BoxData[
  TagBox[
@@ -4965,8 +4951,7 @@ RowBox[{\\\\\\\\\\\\\\\"h\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\", \
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "(Local) Out[11]//TableForm=",ExpressionUUID->"1c3ddc45-c377-4c01-91e9-\
-483ef25c89ef"]
+  "Out[11]//TableForm=",ExpressionUUID->"ae281fba-d81a-41fa-961a-0880a1f4e1ac"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -4974,7 +4959,7 @@ RowBox[{\\\\\\\\\\\\\\\"h\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\", \
 Cell[CellGroupData[{
 
 Cell["Lorenz gauge", \
-"Subsubsection",ExpressionUUID->"d54d68a8-99f2-4eb8-a1cd-68896c55a966"],
+"Subsubsection",ExpressionUUID->"aecf4865-7613-4f70-99a5-85b9dfd7838f"],
 
 Cell[CellGroupData[{
 
@@ -4984,14 +4969,14 @@ Cell[TextData[{
   FormBox[
    SuperscriptBox["C", 
     RowBox[{"-", "1"}]], TraditionalForm]],ExpressionUUID->
-  "8c2c86c4-008f-4961-89ae-6e9a50175ae7"],
+  "439a930e-14d4-4c8a-94a6-9f7dd582deab"],
  " (actually, we\[CloseCurlyQuote]ll see below that everything is ",
  Cell[BoxData[
   FormBox[
    SuperscriptBox["C", "0"], TraditionalForm]],ExpressionUUID->
-  "60200a81-7653-4969-903a-0aab9bdcb5fb"],
+  "2d847453-f5ed-44c8-a1c4-814944104506"],
  ")"
-}], "Item",ExpressionUUID->"81a2c915-1581-4565-af56-4f29c2b5be98"],
+}], "Item",ExpressionUUID->"8d0de24f-a671-469f-88ba-c430c28b0fb6"],
 
 Cell[CellGroupData[{
 
@@ -5006,8 +4991,7 @@ Cell[BoxData[
        RowBox[{"Gauge", "\[Rule]", "\"\<Lorenz\>\""}], ",", 
        RowBox[{"Weak", "\[Rule]", "True"}]}], "]"}], "]"}]}], "]"}], "//", 
   "TableForm"}]], "Input",
- CellLabel->
-  "(Local) In[12]:=",ExpressionUUID->"fa459088-df29-49c9-9ff7-b7b43b86f557"],
+ CellLabel->"In[12]:=",ExpressionUUID->"c5e4f71f-56ea-48c1-82e6-f9017358d8cf"],
 
 Cell[BoxData[
  TagBox[
@@ -5323,8 +5307,7 @@ SuperscriptBox]]\\)\"\>", "[",
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "(Local) Out[12]//TableForm=",ExpressionUUID->"bb832728-d7fb-4d4f-a183-\
-a0d9287f032e"]
+  "Out[12]//TableForm=",ExpressionUUID->"637c8526-19f3-4a28-9216-c85aa8ab09a7"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -5338,8 +5321,7 @@ Cell[BoxData[
      RowBox[{"discFunctions", "[", 
       RowBox[{"Gauge", "\[Rule]", "\"\<Lorenz\>\""}], "]"}], "]"}]}], "]"}], "//",
    "TableForm"}]], "Input",
- CellLabel->
-  "(Local) In[13]:=",ExpressionUUID->"fa57dc1b-4251-4310-add1-1065e509e5a0"],
+ CellLabel->"In[13]:=",ExpressionUUID->"7627ade5-5717-40d0-8129-c01caa153858"],
 
 Cell[BoxData[
  TagBox[
@@ -5913,9 +5895,936 @@ OverscriptBox[\\\\\\\"X\\\\\\\", \
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "(Local) Out[13]//TableForm=",ExpressionUUID->"0517648f-a5c9-4fca-9a8c-\
-17c9dd5d8de7"]
+  "Out[13]//TableForm=",ExpressionUUID->"74d10d3d-62d7-49eb-b0c3-98fe6bbd6b36"]
 }, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["The push equations for all 10 amplitudes", "Subsection",
+ CellChangeTimes->{{3.74135199492519*^9, 
+  3.741352003796813*^9}},ExpressionUUID->"04e861f2-b0a1-47fa-93ff-\
+1ea39ce12556"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Now, see how each amplitude changes during a gauge transformation with \
+PushFunction\
+\>", "Item",
+ CellChangeTimes->{{3.7413520432896223`*^9, 
+  3.741352055493545*^9}},ExpressionUUID->"80f371e8-0571-4401-8427-\
+4b4bd00456e7"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "PushFunction"}]], "Input",
+ CellChangeTimes->{{3.741352006690539*^9, 3.741352008171852*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"1ef7ad14-5931-490d-bbea-0dab18d324ee"],
+
+Cell[BoxData[
+ RowBox[{"\<\"PushFunction[label] returns the function for returning the push \
+function associated with label.\"\>", "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:BlackHoleAnalysis/ref/PushFunction"]}]], "Print", "PrintUsage",
+ CellTags->
+  "Info143741357201-9892469",ExpressionUUID->"f9f87952-21fd-4acd-a501-\
+0ed60643a12e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"pushFns", "=", 
+  RowBox[{"PushFunction", "/@", 
+   RowBox[{"MetricPerturbationLables", "[", "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.741352010514674*^9, 3.741352010944813*^9}, {
+  3.741352058866282*^9, 3.741352081869732*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"dacd436d-0e25-4800-9180-ee23362c6a1c"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "HttPush", ",", "HtrPush", ",", "HrrPush", ",", "JtPush", ",", "JrPush", 
+   ",", "KPush", ",", "GPush", ",", "HtPush", ",", "HrPush", ",", "H2Push"}], 
+  "}"}]], "Output",
+ CellLabel->
+  "Out[15]=",ExpressionUUID->"675ddc25-9869-45de-b353-72a70b6e4e4b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Thread", "[", 
+   RowBox[{
+    RowBox[{"MetricPerturbationLables", "[", "]"}], "->", 
+    RowBox[{"Through", "[", 
+     RowBox[{"pushFns", "[", "]"}], "]"}]}], "]"}], "//", 
+  "TableForm"}]], "Input",
+ CellChangeTimes->{{3.7413520753356133`*^9, 3.741352108621935*^9}},
+ CellLabel->"In[16]:=",ExpressionUUID->"3fd639b6-d02d-4fb0-8a4a-2919f9ee5a1b"],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[GridBox[{
+     {
+      RowBox[{"\<\"htt\"\>", "\[Rule]", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "2"}], " ", 
+         RowBox[{
+          
+          SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\
+\\\\\\\\(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\
+\\\\\\\\\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\[Xi]\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \\\\\\\\\\\
+\\\\\"t\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \
+\\\"\\\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"1", ",", "0"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{"t", ",", "r"}], "]"}]}], "+", 
+        FractionBox[
+         RowBox[{"2", " ", "M", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "-", 
+            FractionBox[
+             RowBox[{"2", " ", "M"}], "r"]}], ")"}], " ", 
+          
+          RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\\
+(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\
+\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"r\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+           RowBox[{"t", ",", "r"}], "]"}]}], 
+         SuperscriptBox["r", "2"]]}]}]},
+     {
+      RowBox[{"\<\"htr\"\>", "\[Rule]", 
+       RowBox[{
+        RowBox[{"-", 
+         RowBox[{
+          
+          SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\
+\\\\\\\\(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\
+\\\\\\\\\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\[Xi]\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \\\\\\\\\\\
+\\\\\"t\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \
+\\\"\\\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"0", ",", "1"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{"t", ",", "r"}], "]"}]}], "-", 
+        RowBox[{
+         SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\
+\\\\\\(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\
+\\\\\\\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \\\\\\\\\\\\\
+\\\"r\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \
+\\\"\\\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", 
+          TagBox[
+           RowBox[{"(", 
+            RowBox[{"1", ",", "0"}], ")"}],
+           Derivative],
+          MultilineFunction->None], "[", 
+         RowBox[{"t", ",", "r"}], "]"}], "+", 
+        FractionBox[
+         RowBox[{"2", " ", "M", " ", 
+          
+          RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\\
+(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\
+\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"t\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+           RowBox[{"t", ",", "r"}], "]"}]}], 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"1", "-", 
+            FractionBox[
+             RowBox[{"2", " ", "M"}], "r"]}], ")"}], " ", 
+          SuperscriptBox["r", "2"]}]]}]}]},
+     {
+      RowBox[{"\<\"hrr\"\>", "\[Rule]", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "2"}], " ", 
+         RowBox[{
+          
+          SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\
+\\\\\\\\(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\
+\\\\\\\\\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\[Xi]\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \\\\\\\\\\\
+\\\\\"r\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \
+\\\"\\\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"0", ",", "1"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{"t", ",", "r"}], "]"}]}], "-", 
+        FractionBox[
+         RowBox[{"2", " ", "M", " ", 
+          
+          RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\\
+(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\
+\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"r\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+           RowBox[{"t", ",", "r"}], "]"}]}], 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"1", "-", 
+            FractionBox[
+             RowBox[{"2", " ", "M"}], "r"]}], ")"}], " ", 
+          SuperscriptBox["r", "2"]}]]}]}]},
+     {
+      RowBox[{"\<\"jt\"\>", "\[Rule]", 
+       RowBox[{
+        RowBox[{"-", 
+         RowBox[{
+          
+          SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\
+\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\\\\\\\"}]\\\\\\\\)\
+\\\\\\\"\\\", \\\"\\\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", \
+Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"1", ",", "0"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{"t", ",", "r"}], "]"}]}], "-", 
+        RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\
+\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\
+(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"t\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+         RowBox[{"t", ",", "r"}], "]"}]}]}]},
+     {
+      RowBox[{"\<\"jr\"\>", "\[Rule]", 
+       RowBox[{
+        FractionBox[
+         RowBox[{"2", " ", 
+          
+          RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\\
+(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\
+\\\", \\\"\\\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+           RowBox[{"t", ",", "r"}], "]"}]}], "r"], "-", 
+        RowBox[{
+         SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\
+\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\
+\\\\\"\\\", \\\"\\\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", \
+Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", 
+          TagBox[
+           RowBox[{"(", 
+            RowBox[{"0", ",", "1"}], ")"}],
+           Derivative],
+          MultilineFunction->None], "[", 
+         RowBox[{"t", ",", "r"}], "]"}], "-", 
+        RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\
+\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\
+(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"r\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+         RowBox[{"t", ",", "r"}], "]"}]}]}]},
+     {
+      RowBox[{"\<\"K\"\>", "\[Rule]", 
+       RowBox[{
+        FractionBox[
+         RowBox[{"2", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
+          
+          RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\\
+(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\
+\\\", \\\"\\\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+           RowBox[{"t", ",", "r"}], "]"}]}], 
+         SuperscriptBox["r", "2"]], "-", 
+        FractionBox[
+         RowBox[{"2", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "-", 
+            FractionBox[
+             RowBox[{"2", " ", "M"}], "r"]}], ")"}], " ", 
+          
+          RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\\
+(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\
+\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"r\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+           RowBox[{"t", ",", "r"}], "]"}]}], "r"]}]}]},
+     {
+      RowBox[{"\<\"G\"\>", "\[Rule]", 
+       RowBox[{"-", 
+        FractionBox[
+         RowBox[{"2", " ", 
+          
+          RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\\
+(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\
+\\\", \\\"\\\\\\\"e,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+           RowBox[{"t", ",", "r"}], "]"}]}], 
+         SuperscriptBox["r", "2"]]}]}]},
+     {
+      RowBox[{"\<\"ht\"\>", "\[Rule]", 
+       RowBox[{"-", 
+        RowBox[{
+         SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\
+\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\
+\\\\\"\\\", \\\"\\\\\\\"o,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", \
+Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", 
+          TagBox[
+           RowBox[{"(", 
+            RowBox[{"1", ",", "0"}], ")"}],
+           Derivative],
+          MultilineFunction->None], "[", 
+         RowBox[{"t", ",", "r"}], "]"}]}]}]},
+     {
+      RowBox[{"\<\"hr\"\>", "\[Rule]", 
+       RowBox[{
+        FractionBox[
+         RowBox[{"2", " ", 
+          
+          RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\\
+(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\
+\\\", \\\"\\\\\\\"o,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+           RowBox[{"t", ",", "r"}], "]"}]}], "r"], "-", 
+        RowBox[{
+         SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\
+\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\
+\\\\\"\\\", \\\"\\\\\\\"o,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", \
+Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", 
+          TagBox[
+           RowBox[{"(", 
+            RowBox[{"0", ",", "1"}], ")"}],
+           Derivative],
+          MultilineFunction->None], "[", 
+         RowBox[{"t", ",", "r"}], "]"}]}]}]},
+     {
+      RowBox[{"\<\"h2\"\>", "\[Rule]", 
+       RowBox[{
+        RowBox[{"-", "2"}], " ", 
+        RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\
+\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[Xi]\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\
+\", \\\"\\\\\\\"o,RWZ,L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+         RowBox[{"t", ",", "r"}], "]"}]}]}]}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.5599999999999999]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}],
+   Column],
+  Function[BoxForm`e$, 
+   TableForm[BoxForm`e$]]]], "Output",
+ CellLabel->
+  "Out[16]//TableForm=",ExpressionUUID->"2f03d08d-212a-408a-9676-690dbef5234a"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["All 6 invariant amplitudes", "Subsection",
+ CellChangeTimes->{{3.74135212452423*^9, 
+  3.741352128909013*^9}},ExpressionUUID->"8da5f163-739c-4f48-9ab0-\
+7e8056de347b"],
+
+Cell["\<\
+Martel & Poisson write down 6 invariant amplitudes on Schwarzschild.\
+\>", "Item",
+ CellChangeTimes->{{3.741352130382104*^9, 
+  3.741352142384378*^9}},ExpressionUUID->"6d357538-8e16-4f99-b1ef-\
+6a50447d2091"],
+
+Cell[CellGroupData[{
+
+Cell["See these with InvariantAmplitudeFunction", "Item",
+ CellChangeTimes->{{3.741352130382104*^9, 
+  3.741352150302876*^9}},ExpressionUUID->"706fb141-1095-47fe-826b-\
+0becf795c6e7"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "InvariantAmplitudeFunction"}]], "Input",
+ CellChangeTimes->{{3.741352146590358*^9, 3.7413521516503897`*^9}},
+ CellLabel->"In[17]:=",ExpressionUUID->"1f5e0a69-839d-4311-8ec6-2e3243516c25"],
+
+Cell[BoxData[
+ RowBox[{"\<\"InvariantAmplitudeFunction[label] returns the function for \
+returning the invariant metric perturbation amplitude associated with \
+label.\"\>", "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:BlackHoleAnalysis/ref/InvariantAmplitudeFunction"]}]], "Print", \
+"PrintUsage",
+ CellTags->
+  "Info173741357201-9892469",ExpressionUUID->"1ba40313-cf9e-4c21-9a38-\
+beafc7559633"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Note that we restrict MetricPerturbationLables to the relevant 6 labels with \
+Gauge \[Rule] \[OpenCurlyDoubleQuote]Invariant\[CloseCurlyDoubleQuote]\
+\>", "Item",
+ CellChangeTimes->{{3.7413521637914963`*^9, 
+  3.741352211252831*^9}},ExpressionUUID->"e34af7bb-50f9-418d-a3dd-\
+f9a3deb8225a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"invFns", "=", 
+  RowBox[{"InvariantAmplitudeFunction", "/@", 
+   RowBox[{"MetricPerturbationLables", "[", 
+    RowBox[{"Gauge", "\[Rule]", "\"\<Invariant\>\""}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.7413521989227467`*^9, 3.741352228687003*^9}},
+ CellLabel->"In[18]:=",ExpressionUUID->"db40e3b5-892e-4cc6-8499-4d92827d5d17"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "HttInvariantAmplitude", ",", "HtrInvariantAmplitude", ",", 
+   "HrrInvariantAmplitude", ",", "KInvariantAmplitude", ",", 
+   "HtInvariantAmplitude", ",", "HrInvariantAmplitude"}], "}"}]], "Output",
+ CellLabel->
+  "Out[18]=",ExpressionUUID->"1eef66ec-5cd7-49e9-b849-e1b1708bd8ad"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+In RWZ gauge, the invariant amplitudes simply equation the RWZ gauge \
+amplitude.\
+\>", "Item",
+ CellChangeTimes->{{3.741352234674309*^9, 
+  3.741352253323019*^9}},ExpressionUUID->"4673ebc8-e594-45f0-adc8-\
+9ef347851dd1"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Thread", "[", 
+   RowBox[{
+    RowBox[{"MetricPerturbationLables", "[", 
+     RowBox[{"Gauge", "\[Rule]", "\"\<Invariant\>\""}], "]"}], "->", 
+    RowBox[{"Through", "[", 
+     RowBox[{"invFns", "[", "]"}], "]"}]}], "]"}], "//", 
+  "TableForm"}]], "Input",
+ CellChangeTimes->{{3.741352259667206*^9, 3.741352267472019*^9}},
+ CellLabel->"In[19]:=",ExpressionUUID->"f9012460-0c30-4465-aedf-877f4f1b8526"],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[GridBox[{
+     {
+      RowBox[{"\<\"htt\"\>", "\[Rule]", 
+       RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\
+\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\
+\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"h\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"tt\\\\\\\\\\\
+\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"RWZ\\\\\\\"\\\"], \
+\\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
+        RowBox[{"t", ",", "r"}], "]"}]}]},
+     {
+      RowBox[{"\<\"htr\"\>", "\[Rule]", 
+       RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\
+\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\
+\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"h\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"tr\\\\\\\\\\\
+\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"RWZ\\\\\\\"\\\"], \
+\\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
+        RowBox[{"t", ",", "r"}], "]"}]}]},
+     {
+      RowBox[{"\<\"hrr\"\>", "\[Rule]", 
+       RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\
+\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\
+\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"h\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"rr\\\\\\\\\\\
+\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"RWZ\\\\\\\"\\\"], \
+\\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
+        RowBox[{"t", ",", "r"}], "]"}]}]},
+     {
+      RowBox[{"\<\"K\"\>", "\[Rule]", 
+       RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\
+\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[ScriptCapitalK]\\\\\\\\\\\\\\\"}]\\\\\\\\)\
+\\\\\\\"\\\", \\\"\\\\\\\"RWZ\\\\\\\"\\\"], \\\"Superscript\\\", \
+Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
+        RowBox[{"t", ",", "r"}], "]"}]}]},
+     {
+      RowBox[{"\<\"ht\"\>", "\[Rule]", 
+       RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\
+\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\
+\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"h\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"t\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"RWZ\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+        RowBox[{"t", ",", "r"}], "]"}]}]},
+     {
+      RowBox[{"\<\"hr\"\>", "\[Rule]", 
+       RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\
+\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\(\
+\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"h\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"r\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"RWZ\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+        RowBox[{"t", ",", "r"}], "]"}]}]}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.5599999999999999]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}],
+   Column],
+  Function[BoxForm`e$, 
+   TableForm[BoxForm`e$]]]], "Output",
+ CellLabel->
+  "Out[19]//TableForm=",ExpressionUUID->"0421124d-a338-4770-a2ad-dc83e7ca3d70"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["In another gauge, other terms are present.", "Item",
+ CellChangeTimes->{{3.741352270610002*^9, 
+  3.7413522772300177`*^9}},ExpressionUUID->"125bc191-951c-4ce0-9f8d-\
+1000fdf10e22"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Thread", "[", 
+   RowBox[{
+    RowBox[{"MetricPerturbationLables", "[", 
+     RowBox[{"Gauge", "\[Rule]", "\"\<Invariant\>\""}], "]"}], "->", 
+    RowBox[{"Through", "[", 
+     RowBox[{"invFns", "[", 
+      RowBox[{"Gauge", "\[Rule]", "\"\<Lorenz\>\""}], "]"}], "]"}]}], "]"}], "//",
+   "TableForm"}]], "Input",
+ CellChangeTimes->{{3.7413522826604967`*^9, 3.741352286127618*^9}},
+ CellLabel->"In[20]:=",ExpressionUUID->"9f6d3929-f1a7-4567-a6b5-6704eb6fe2a4"],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[GridBox[{
+     {
+      RowBox[{"\<\"htt\"\>", "\[Rule]", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "M"}], " ", 
+         RowBox[{"(", 
+          RowBox[{"1", "-", 
+           FractionBox[
+            RowBox[{"2", " ", "M"}], "r"]}], ")"}], " ", 
+         RowBox[{
+          
+          SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\
+\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[ScriptCapitalG]\\\\\\\\\\\\\\\"\
+}]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"L\\\\\\\"\\\"], \\\"Superscript\\\", \
+Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"0", ",", "1"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{"t", ",", "r"}], "]"}]}], "-", 
+        RowBox[{"2", " ", 
+         RowBox[{
+          
+          SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\
+\\\\\\\\(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\
+\\\\\\\\\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"j\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"t\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"1", ",", "0"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{"t", ",", "r"}], "]"}]}], "+", 
+        RowBox[{
+         SuperscriptBox["r", "2"], " ", 
+         RowBox[{
+          
+          SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\
+\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[ScriptCapitalG]\\\\\\\\\\\\\\\"\
+}]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"L\\\\\\\"\\\"], \\\"Superscript\\\", \
+Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"2", ",", "0"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{"t", ",", "r"}], "]"}]}], "+", 
+        RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\
+\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\
+(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"h\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"tt\\\\\\\\\
+\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"L\\\\\\\"\\\"], \
+\\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
+         RowBox[{"t", ",", "r"}], "]"}], "+", 
+        FractionBox[
+         RowBox[{"2", " ", "M", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "-", 
+            FractionBox[
+             RowBox[{"2", " ", "M"}], "r"]}], ")"}], " ", 
+          
+          RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\\
+(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\
+\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"j\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"r\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+           RowBox[{"t", ",", "r"}], "]"}]}], 
+         SuperscriptBox["r", "2"]]}]}]},
+     {
+      RowBox[{"\<\"htr\"\>", "\[Rule]", 
+       RowBox[{
+        RowBox[{"-", 
+         RowBox[{
+          
+          SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\
+\\\\\\\\(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\
+\\\\\\\\\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"j\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"t\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"0", ",", "1"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{"t", ",", "r"}], "]"}]}], "+", 
+        FractionBox[
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"-", "3"}], " ", "M"}], "+", "r"}], ")"}], " ", 
+          RowBox[{
+           
+           SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\
+\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[ScriptCapitalG]\\\\\\\\\\\\\\\"\
+}]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"L\\\\\\\"\\\"], \\\"Superscript\\\", \
+Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", 
+            TagBox[
+             RowBox[{"(", 
+              RowBox[{"1", ",", "0"}], ")"}],
+             Derivative],
+            MultilineFunction->None], "[", 
+           RowBox[{"t", ",", "r"}], "]"}]}], 
+         RowBox[{"1", "-", 
+          FractionBox[
+           RowBox[{"2", " ", "M"}], "r"]}]], "-", 
+        RowBox[{
+         SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\
+\\\\\\(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\
+\\\\\\\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"j\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"r\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", 
+          TagBox[
+           RowBox[{"(", 
+            RowBox[{"1", ",", "0"}], ")"}],
+           Derivative],
+          MultilineFunction->None], "[", 
+         RowBox[{"t", ",", "r"}], "]"}], "+", 
+        RowBox[{
+         SuperscriptBox["r", "2"], " ", 
+         RowBox[{
+          
+          SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\
+\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[ScriptCapitalG]\\\\\\\\\\\\\\\"\
+}]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"L\\\\\\\"\\\"], \\\"Superscript\\\", \
+Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"1", ",", "1"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{"t", ",", "r"}], "]"}]}], "+", 
+        RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\
+\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\
+(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"h\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"tr\\\\\\\\\
+\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"L\\\\\\\"\\\"], \
+\\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
+         RowBox[{"t", ",", "r"}], "]"}], "+", 
+        FractionBox[
+         RowBox[{"2", " ", "M", " ", 
+          
+          RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\\
+(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\
+\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"j\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"t\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+           RowBox[{"t", ",", "r"}], "]"}]}], 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"1", "-", 
+            FractionBox[
+             RowBox[{"2", " ", "M"}], "r"]}], ")"}], " ", 
+          SuperscriptBox["r", "2"]}]]}]}]},
+     {
+      RowBox[{"\<\"hrr\"\>", "\[Rule]", 
+       RowBox[{
+        FractionBox[
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"-", "3"}], " ", "M"}], "+", 
+            RowBox[{"2", " ", "r"}]}], ")"}], " ", 
+          RowBox[{
+           
+           SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\
+\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[ScriptCapitalG]\\\\\\\\\\\\\\\"\
+}]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"L\\\\\\\"\\\"], \\\"Superscript\\\", \
+Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", 
+            TagBox[
+             RowBox[{"(", 
+              RowBox[{"0", ",", "1"}], ")"}],
+             Derivative],
+            MultilineFunction->None], "[", 
+           RowBox[{"t", ",", "r"}], "]"}]}], 
+         RowBox[{"1", "-", 
+          FractionBox[
+           RowBox[{"2", " ", "M"}], "r"]}]], "-", 
+        RowBox[{"2", " ", 
+         RowBox[{
+          
+          SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\
+\\\\\\\\(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\
+\\\\\\\\\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"j\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"r\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"0", ",", "1"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{"t", ",", "r"}], "]"}]}], "+", 
+        RowBox[{
+         SuperscriptBox["r", "2"], " ", 
+         RowBox[{
+          
+          SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\
+\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[ScriptCapitalG]\\\\\\\\\\\\\\\"\
+}]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"L\\\\\\\"\\\"], \\\"Superscript\\\", \
+Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"0", ",", "2"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{"t", ",", "r"}], "]"}]}], "+", 
+        RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\
+\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\
+(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"h\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"rr\\\\\\\\\
+\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"L\\\\\\\"\\\"], \
+\\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
+         RowBox[{"t", ",", "r"}], "]"}], "-", 
+        FractionBox[
+         RowBox[{"2", " ", "M", " ", 
+          
+          RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\\
+(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\
+\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"j\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"r\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+           RowBox[{"t", ",", "r"}], "]"}]}], 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"1", "-", 
+            FractionBox[
+             RowBox[{"2", " ", "M"}], "r"]}], ")"}], " ", 
+          SuperscriptBox["r", "2"]}]]}]}]},
+     {
+      RowBox[{"\<\"K\"\>", "\[Rule]", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
+         RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\
+\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[ScriptCapitalG]\\\\\\\\\\\\\\\"}]\\\\\\\
+\\)\\\\\\\"\\\", \\\"\\\\\\\"L\\\\\\\"\\\"], \\\"Superscript\\\", \
+Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
+          RowBox[{"t", ",", "r"}], "]"}]}], "+", 
+        RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\
+\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[ScriptCapitalK]\\\\\\\\\\\\\\\"}]\\\\\\\
+\\)\\\\\\\"\\\", \\\"\\\\\\\"L\\\\\\\"\\\"], \\\"Superscript\\\", \
+Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
+         RowBox[{"t", ",", "r"}], "]"}], "+", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"1", "-", 
+           FractionBox[
+            RowBox[{"2", " ", "M"}], "r"]}], ")"}], " ", "r", " ", 
+         RowBox[{
+          
+          SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\
+\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\[ScriptCapitalG]\\\\\\\\\\\\\\\"\
+}]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"L\\\\\\\"\\\"], \\\"Superscript\\\", \
+Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"0", ",", "1"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{"t", ",", "r"}], "]"}]}], "-", 
+        FractionBox[
+         RowBox[{"2", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "-", 
+            FractionBox[
+             RowBox[{"2", " ", "M"}], "r"]}], ")"}], " ", 
+          
+          RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\\
+(\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\
+\\(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"j\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"r\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+           RowBox[{"t", ",", "r"}], "]"}]}], "r"]}]}]},
+     {
+      RowBox[{"\<\"ht\"\>", "\[Rule]", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", 
+          FractionBox["1", "2"]}], " ", 
+         RowBox[{
+          
+          SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\
+\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"h\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\
+\\\", \\\"\\\\\\\"2\\\\\\\"\\\", \\\"\\\\\\\"L\\\\\\\"\\\"], \
+\\\"Subsuperscript\\\", Rule[SyntaxForm, SubsuperscriptBox]]\\)\"\>", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"1", ",", "0"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{"t", ",", "r"}], "]"}]}], "+", 
+        RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\
+\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\
+(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"h\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"t\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+         RowBox[{"t", ",", "r"}], "]"}]}]}]},
+     {
+      RowBox[{"\<\"hr\"\>", "\[Rule]", 
+       RowBox[{
+        FractionBox[
+         RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\
+\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"h\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\", \\\
+\"\\\\\\\"2\\\\\\\"\\\", \\\"\\\\\\\"L\\\\\\\"\\\"], \\\"Subsuperscript\\\", \
+Rule[SyntaxForm, SubsuperscriptBox]]\\)\"\>", "[", 
+          RowBox[{"t", ",", "r"}], "]"}], "r"], "-", 
+        RowBox[{
+         FractionBox["1", "2"], " ", 
+         RowBox[{
+          
+          SuperscriptBox["\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\
+\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"h\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\
+\\\", \\\"\\\\\\\"2\\\\\\\"\\\", \\\"\\\\\\\"L\\\\\\\"\\\"], \
+\\\"Subsuperscript\\\", Rule[SyntaxForm, SubsuperscriptBox]]\\)\"\>", 
+           TagBox[
+            RowBox[{"(", 
+             RowBox[{"0", ",", "1"}], ")"}],
+            Derivative],
+           MultilineFunction->None], "[", 
+          RowBox[{"t", ",", "r"}], "]"}]}], "+", 
+        RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\
+\\\\\\\\*TagBox[SubscriptBox[\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\
+(\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"h\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\"}]\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\"r\\\\\\\\\\\\\\\"], DisplayForm]\\\\\\\\)\\\\\\\"\\\", \\\"\\\
+\\\\\"L\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
+SuperscriptBox]]\\)\"\>", "[", 
+         RowBox[{"t", ",", "r"}], "]"}]}]}]}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.5599999999999999]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}],
+   Column],
+  Function[BoxForm`e$, 
+   TableForm[BoxForm`e$]]]], "Output",
+ CellLabel->
+  "Out[20]//TableForm=",ExpressionUUID->"f7e8d073-6086-45bc-abaa-e11738e7e4c6"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -5924,26 +6833,25 @@ OverscriptBox[\\\\\\\"X\\\\\\\", \
 Cell[CellGroupData[{
 
 Cell["Labels of source terms", \
-"Section",ExpressionUUID->"48987ba3-41e0-4f6a-859b-d3cb48cc6759"],
+"Section",ExpressionUUID->"7a317652-2bb4-45e5-9879-e593f4e82704"],
 
 Cell[CellGroupData[{
 
 Cell["Intro", \
-"Subsection",ExpressionUUID->"5c1eb2fd-9a4b-40e7-b8e3-eeb0220b085d"],
+"Subsection",ExpressionUUID->"3162144b-f290-4f40-adc4-9d16d71f256c"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 As with the fields, the the source terms to the field equations each has a \
 label given by MetricPerturbationSourceLables.\
-\>", "Item",ExpressionUUID->"02a1f1e5-85c6-4204-8d4e-a20e4354a33e"],
+\>", "Item",ExpressionUUID->"fc0beb4f-01ec-49f4-ba60-143ad7ac5617"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "MetricPerturbationSourceLables"}]], "Input",
- CellLabel->
-  "(Local) In[14]:=",ExpressionUUID->"8fe74ac2-f244-42cb-962f-79d48d5c0482"],
+ CellLabel->"In[21]:=",ExpressionUUID->"c668255d-09df-4163-a574-e260e39a8090"],
 
 Cell[BoxData[
  RowBox[{"\<\"MetricPerturbationSourceLables[] returns a list of strings that \
@@ -5957,16 +6865,15 @@ label the metric perturbation amplitude source terms.\"\>",
     "paclet:BlackHoleAnalysis/ref/MetricPerturbationSourceLables"]}]], \
 "Print", "PrintUsage",
  CellTags->
-  "Info143741340403-4539924",ExpressionUUID->"da52d33e-8584-4506-8c72-\
-312d87a40e19"]
+  "Info213741357202-9892469",ExpressionUUID->"ed6a81ed-7243-40e8-9ad7-\
+79a62cfd4847"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"MetricPerturbationSourceLables", "[", "]"}]], "Input",
- CellLabel->
-  "(Local) In[15]:=",ExpressionUUID->"e3bd217f-5c41-47e9-8d6f-917a338a6ee3"],
+ CellLabel->"In[22]:=",ExpressionUUID->"2cca2e0b-f1ea-419d-aefd-5c372b4d3751"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -5975,7 +6882,7 @@ Cell[BoxData[
    ",", "\<\"QSharp\"\>", ",", "\<\"Pt\"\>", ",", "\<\"Pr\"\>", 
    ",", "\<\"P\"\>"}], "}"}]], "Output",
  CellLabel->
-  "(Local) Out[15]=",ExpressionUUID->"897b0716-366d-4599-8430-d63ee7740785"]
+  "Out[22]=",ExpressionUUID->"c1ec7214-4a4c-4bc4-971e-60d79bd936d4"]
 }, Open  ]]
 }, Open  ]],
 
@@ -5984,7 +6891,7 @@ Cell[CellGroupData[{
 Cell["\<\
 The functions associated with them are given by \
 MetricPerturbationSourceFunction\
-\>", "Item",ExpressionUUID->"6766cff9-e9d3-4b94-96f2-1d301f032c2e"],
+\>", "Item",ExpressionUUID->"3ab62134-b14f-41dd-8ce6-22b76b6d9843"],
 
 Cell[CellGroupData[{
 
@@ -5992,8 +6899,7 @@ Cell[BoxData[
  RowBox[{"sourceFunctions", "=", 
   RowBox[{"MetricPerturbationSourceFunction", "/@", 
    RowBox[{"MetricPerturbationSourceLables", "[", "]"}]}]}]], "Input",
- CellLabel->
-  "(Local) In[16]:=",ExpressionUUID->"03bb8520-c70d-4b26-99bc-82cf324f7059"],
+ CellLabel->"In[23]:=",ExpressionUUID->"c462948b-576c-4918-a9b9-1c623dfa023a"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -6002,14 +6908,14 @@ Cell[BoxData[
    "QrSource", ",", "QFlatSource", ",", "QSharpSource", ",", "PtSource", ",", 
    "PrSource", ",", "PSource"}], "}"}]], "Output",
  CellLabel->
-  "(Local) Out[16]=",ExpressionUUID->"e6734c89-ab3e-46b2-915b-6ec51a6b4b5e"]
+  "Out[23]=",ExpressionUUID->"87441ed4-6091-40f2-ba6f-df9a8f6e4cc2"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["All source terms with indices down are:", \
-"Item",ExpressionUUID->"3c29b7cc-8e4a-4cff-8ecc-8c45f95f5767"],
+"Item",ExpressionUUID->"c5420103-5d60-49a5-9557-bbe0c660def4"],
 
 Cell[CellGroupData[{
 
@@ -6023,8 +6929,7 @@ Cell[BoxData[
     RowBox[{"Through", "[", 
      RowBox[{"sourceFunctions", "[", "]"}], "]"}]}], "]"}], "//", 
   "TableForm"}]], "Input",
- CellLabel->
-  "(Local) In[17]:=",ExpressionUUID->"89d010e1-51df-44fb-8dda-9e542baf4cf9"],
+ CellLabel->"In[24]:=",ExpressionUUID->"02a585bb-ca01-4e05-97ba-bacf59d8e1e9"],
 
 Cell[BoxData[
  TagBox[
@@ -6378,15 +7283,14 @@ OverscriptBox[\\\\\\\"X\\\\\\\", \
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "(Local) Out[17]//TableForm=",ExpressionUUID->"f5069e8f-06b7-4e8a-9c4b-\
-a2528d19e545"]
+  "Out[24]//TableForm=",ExpressionUUID->"b051a5b8-a695-4673-a1b1-fbf461b6950b"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["All source terms with indices up are:", \
-"Item",ExpressionUUID->"6f8bb2d1-5d03-4366-9a20-15036f98140b"],
+"Item",ExpressionUUID->"548f190a-cde3-48c8-854f-ebe0da11f573"],
 
 Cell[CellGroupData[{
 
@@ -6403,8 +7307,7 @@ Cell[BoxData[
      RowBox[{"sourceFunctions", "[", 
       RowBox[{"Indices", "\[Rule]", "\"\<Up\>\""}], "]"}], "]"}]}], "]"}], "//",
    "TableForm"}]], "Input",
- CellLabel->
-  "(Local) In[18]:=",ExpressionUUID->"23f00d2a-d758-4927-bd36-900bd4d2c1af"],
+ CellLabel->"In[25]:=",ExpressionUUID->"7f72b89b-6fab-4ea5-8ded-a68309d21e01"],
 
 Cell[BoxData[
  TagBox[
@@ -6726,8 +7629,7 @@ OverscriptBox[\\\\\\\"X\\\\\\\", \
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "(Local) Out[18]//TableForm=",ExpressionUUID->"3783c1c5-4216-4e02-8438-\
-486e705a8ec2"]
+  "Out[25]//TableForm=",ExpressionUUID->"06132369-b05f-449a-a5ee-c4acbaae447a"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -6736,25 +7638,24 @@ OverscriptBox[\\\\\\\"X\\\\\\\", \
 Cell[CellGroupData[{
 
 Cell["Labels of spherical harmonics", \
-"Section",ExpressionUUID->"255ddeb6-01b2-4373-b62f-c336ed9c722f"],
+"Section",ExpressionUUID->"dc25c5d5-4929-4df6-8c69-ef71261f4f05"],
 
 Cell[CellGroupData[{
 
 Cell["Intro", \
-"Subsection",ExpressionUUID->"d2a69c85-3a4d-41bb-b64b-e866fe3ec22e"],
+"Subsection",ExpressionUUID->"c3791203-3701-4798-9757-949e645e324a"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 The different spherical harmonics all have associated labels.\
-\>", "Item",ExpressionUUID->"94cc3a68-02c5-4838-88d4-f473ef55c927"],
+\>", "Item",ExpressionUUID->"7896778b-66ff-4f23-8ecd-94b904136a13"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "SphericalHarmonicLabels"}]], "Input",
- CellLabel->
-  "(Local) In[19]:=",ExpressionUUID->"87a5ae2e-653c-4c7c-8439-382e08f40027"],
+ CellLabel->"In[26]:=",ExpressionUUID->"03dfc6d9-ade3-4ba5-a71c-ef5a74c514ec"],
 
 Cell[BoxData[
  RowBox[{"\<\"SphericalHarmonicLabels[] returns a list of strings that label \
@@ -6768,16 +7669,15 @@ the scalar, vector, and tensor spherical harmonics.\"\>",
     "paclet:BlackHoleAnalysis/ref/SphericalHarmonicLabels"]}]], "Print", \
 "PrintUsage",
  CellTags->
-  "Info193741340403-4539924",ExpressionUUID->"0a6d64b8-6182-43f4-bc44-\
-25d61e57557d"]
+  "Info263741357202-9892469",ExpressionUUID->"f0d3e0da-36e2-41fd-b88f-\
+e70fbc5007c8"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"SphericalHarmonicLabels", "[", "]"}]], "Input",
- CellLabel->
-  "(Local) In[20]:=",ExpressionUUID->"1c446301-0241-4ee3-acd3-1bcb037f8ae7"],
+ CellLabel->"In[27]:=",ExpressionUUID->"e24ad361-75ab-468b-8a56-6125ccc6c00f"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -6787,7 +7687,7 @@ Cell[BoxData[
    ",", "\<\"XThetaTheta\"\>", ",", "\<\"XThetaPhi\"\>", 
    ",", "\<\"XPhiPhi\"\>"}], "}"}]], "Output",
  CellLabel->
-  "(Local) Out[20]=",ExpressionUUID->"4bbd5d0e-8410-4997-8606-ba475f5742fe"]
+  "Out[27]=",ExpressionUUID->"81c263ab-67c2-46b4-9ab3-9cfd4c924028"]
 }, Open  ]]
 }, Open  ]],
 
@@ -6795,14 +7695,13 @@ Cell[CellGroupData[{
 
 Cell["\<\
 The functions associated with them are given by SphericalHarmonicFunction\
-\>", "Item",ExpressionUUID->"437977a3-5ae4-4374-91cc-755e019cb389"],
+\>", "Item",ExpressionUUID->"c634f0d9-70fb-43d0-aec5-bb9bf3290c99"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "SphericalHarmonicFunction"}]], "Input",
- CellLabel->
-  "(Local) In[21]:=",ExpressionUUID->"8f28eb08-53e9-4890-a12e-d7b349f9c074"],
+ CellLabel->"In[28]:=",ExpressionUUID->"a558aaff-3822-4f28-a061-7b60fdd88099"],
 
 Cell[BoxData[
  RowBox[{"\<\"SphericalHarmonicFunction[label] returns the function for \
@@ -6816,8 +7715,8 @@ returning a spherical harmonic associated with label.\"\>",
     "paclet:BlackHoleAnalysis/ref/SphericalHarmonicFunction"]}]], "Print", \
 "PrintUsage",
  CellTags->
-  "Info213741340403-4539924",ExpressionUUID->"8b822743-8f8b-48a6-a251-\
-108cd5f9c194"]
+  "Info283741357202-9892469",ExpressionUUID->"c708e70b-a822-4199-9d75-\
+c0ab23b7461f"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -6826,8 +7725,7 @@ Cell[BoxData[
  RowBox[{"shFunctions", "=", 
   RowBox[{"SphericalHarmonicFunction", "/@", 
    RowBox[{"SphericalHarmonicLabels", "[", "]"}]}]}]], "Input",
- CellLabel->
-  "(Local) In[22]:=",ExpressionUUID->"f06460a9-c2d6-454b-9ce0-02037c93193c"],
+ CellLabel->"In[29]:=",ExpressionUUID->"a17ee234-8248-4972-bdcd-8792826c4d35"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -6836,14 +7734,14 @@ Cell[BoxData[
    "YThetaPhi", ",", "YPhiPhi", ",", "XTheta", ",", "XPhi", ",", 
    "XThetaTheta", ",", "XThetaPhi", ",", "XPhiPhi"}], "}"}]], "Output",
  CellLabel->
-  "(Local) Out[22]=",ExpressionUUID->"b1b7a8cd-e37d-4bc4-a628-81dd64eed41e"]
+  "Out[29]=",ExpressionUUID->"a21c622e-90e7-4388-abd5-1f4c6c18f745"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["All source terms with indices down are:", \
-"Item",ExpressionUUID->"44ecf340-f86c-4185-a685-ac24cc77102a"],
+"Item",ExpressionUUID->"03661de4-aba7-42e0-9738-d91d3605ab73"],
 
 Cell[CellGroupData[{
 
@@ -6860,8 +7758,7 @@ Cell[BoxData[
        RowBox[{"{", 
         RowBox[{"\[Theta]", ",", "\[Phi]"}], "}"}]}], "]"}], "]"}]}], "]"}], "//",
    "TableForm"}]], "Input",
- CellLabel->
-  "(Local) In[23]:=",ExpressionUUID->"47429ac7-e92b-4840-a2e3-96875adf9db8"],
+ CellLabel->"In[30]:=",ExpressionUUID->"9578c57d-1a82-4d7e-a0ca-c645a9ac92ee"],
 
 Cell[BoxData[
  TagBox[
@@ -7121,8 +8018,7 @@ Cell[BoxData[
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "(Local) Out[23]//TableForm=",ExpressionUUID->"c6272e88-0c9d-4983-9268-\
-9ac9025db48c"]
+  "Out[30]//TableForm=",ExpressionUUID->"4ba5aeff-ff3b-42ca-b358-938a1e6bb547"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -7131,23 +8027,22 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell["Labels of symbols", \
-"Section",ExpressionUUID->"6f243ac1-78c9-4f4c-8a0c-d02838e0e1e4"],
+"Section",ExpressionUUID->"345465e2-5282-4250-a8f1-3dae70d500b7"],
 
 Cell["The symbols of BlackHoleAnalysis are at times opaque.", \
-"Item",ExpressionUUID->"c8744c8a-bd61-4af9-a179-a5f769b7f577"],
+"Item",ExpressionUUID->"ac881465-6913-44c6-8bec-dd5a2b3a3c11"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 The symbol associated with a label can be found via  SymbolFunction\
-\>", "Item",ExpressionUUID->"108afacd-8295-497d-a566-8f33fba5922e"],
+\>", "Item",ExpressionUUID->"d22fc1d5-20eb-4459-9b2e-dd1214fa76ec"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "SymbolFunction"}]], "Input",
- CellLabel->
-  "(Local) In[24]:=",ExpressionUUID->"7642e015-319e-4f29-ae30-7c6ad9414427"],
+ CellLabel->"In[31]:=",ExpressionUUID->"a8b33db4-0dd8-4598-960e-95898bf22b3f"],
 
 Cell[BoxData[
  RowBox[{"\<\"SymbolFunction[label] returns the function for returning a \
@@ -7159,20 +8054,19 @@ symbol associated with label.\"\>", "\[NonBreakingSpace]",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/SymbolFunction"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info243741340404-4539924",ExpressionUUID->"b63db431-018e-4864-91be-\
-4ea141171c9e"]
+  "Info313741357202-9892469",ExpressionUUID->"84f8c3ff-2437-4279-8e7a-\
+a7acc2469b11"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"SymbolFunction", "[", "\"\<htt\>\"", "]"}]], "Input",
- CellLabel->
-  "(Local) In[25]:=",ExpressionUUID->"f363d1d7-bfab-446b-b81b-9ce1c3aa388b"],
+ CellLabel->"In[32]:=",ExpressionUUID->"1f4cf5db-030f-4067-8e88-3cfb0b0e4230"],
 
 Cell[BoxData["HttSymbol"], "Output",
  CellLabel->
-  "(Local) Out[25]=",ExpressionUUID->"616075d0-d5f5-47d5-b10b-b64ecf2ff9ad"]
+  "Out[32]=",ExpressionUUID->"93c18235-26bc-476e-81d6-81c725406235"]
 }, Open  ]]
 }, Open  ]],
 
@@ -7181,7 +8075,7 @@ Cell[CellGroupData[{
 Cell["\<\
 The symbols for the MP amplitudes, source terms, and spherical harmonics are \
 found all at once via\
-\>", "Item",ExpressionUUID->"e9760b97-557d-45b8-bb04-c0fc691443d7"],
+\>", "Item",ExpressionUUID->"d30d1106-67a7-48e4-9259-0fcad562937a"],
 
 Cell[CellGroupData[{
 
@@ -7192,8 +8086,7 @@ Cell[BoxData[
     RowBox[{"MetricPerturbationLables", "[", "]"}], ",", 
     RowBox[{"MetricPerturbationSourceLables", "[", "]"}], ",", 
     RowBox[{"SphericalHarmonicLabels", "[", "]"}]}], "]"}]}]], "Input",
- CellLabel->
-  "(Local) In[26]:=",ExpressionUUID->"ae961dae-4abd-43ab-9cd1-7043f1e9f49b"],
+ CellLabel->"In[33]:=",ExpressionUUID->"e7fd54ab-09aa-40b8-b623-4214d3cb12b0"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -7209,7 +8102,7 @@ Cell[BoxData[
    ",", "\<\"XThetaTheta\"\>", ",", "\<\"XThetaPhi\"\>", 
    ",", "\<\"XPhiPhi\"\>"}], "}"}]], "Output",
  CellLabel->
-  "(Local) Out[26]=",ExpressionUUID->"aebe7936-68ab-425e-97c8-59e89b14d285"]
+  "Out[33]=",ExpressionUUID->"dbeabed3-8692-4a06-94fb-aad2f5d40f8f"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -7220,8 +8113,7 @@ Cell[BoxData[
    RowBox[{"(", 
     RowBox[{"SymbolFunction", "/@", "labels"}], ")"}], "[", "]"}], 
   "]"}]], "Input",
- CellLabel->
-  "(Local) In[27]:=",ExpressionUUID->"aabfbd3f-6836-44c6-8e53-43599bfabd6a"],
+ CellLabel->"In[34]:=",ExpressionUUID->"4cd173a7-b8bb-48ed-a890-2acf400326cb"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -7287,7 +8179,7 @@ X\\\\\\\"}]\\\\)\\\", \\\"\[Theta]\[Phi]\\\"], DisplayForm]\\)\"\>",
 X\\\\\\\"}]\\\\)\\\", \\\"\[Phi]\[Phi]\\\"], DisplayForm]\\)\"\>"}], 
   "}"}]], "Output",
  CellLabel->
-  "(Local) Out[27]=",ExpressionUUID->"c802ebea-9cff-4368-a030-f62d308ed60c"]
+  "Out[34]=",ExpressionUUID->"872e41a6-d6c9-438d-a6b5-351abf7a2840"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -7331,42 +8223,48 @@ Cell["", "RelatedTutorialsSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
    None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"28327131-c13e-4159-93ce-e3c78e42b947"],
+  0,ExpressionUUID->"3ed437dc-a458-4393-af27-56048549dfe2"],
+
+Cell[TextData[ButtonBox["Conventions",
+ BaseStyle->"Link",
+ ButtonData->
+  "paclet:BlackHoleAnalysis/tutorial/Conventions"]], \
+"RelatedTutorials",ExpressionUUID->"64917ffa-4c39-4d37-8972-476046adde42"],
 
 Cell[TextData[ButtonBox["Field equations on Schwarzschild",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Field equations on Schwarzschild"]], \
-"RelatedTutorials",ExpressionUUID->"16772c0e-4f66-431b-9a52-9097731be7b8"],
+"RelatedTutorials",ExpressionUUID->"681a8931-ea0d-4071-aa8f-fc46450e261d"],
 
 Cell[TextData[ButtonBox["Time domain amplitudes",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Time domain amplitudes"]], \
-"RelatedTutorials",ExpressionUUID->"84cc69b6-ea25-46cb-ba50-f691b73474f5"],
+"RelatedTutorials",ExpressionUUID->"74bba478-e7e7-4274-ac49-92183c9f1b36"],
 
 Cell[TextData[ButtonBox["Spherical harmonics",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Spherical harmonics"]], \
-"RelatedTutorials",ExpressionUUID->"d4b40d45-6b65-4f16-b663-05dcfdee5ea7"],
+"RelatedTutorials",ExpressionUUID->"74f6a8e7-b3df-4a18-a89a-ea847b33bb13"],
 
 Cell[TextData[ButtonBox["Source terms",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Source terms"]], \
-"RelatedTutorials",ExpressionUUID->"0037436e-1eea-4268-9889-121156f8cde2"],
+"RelatedTutorials",ExpressionUUID->"0d5dd724-1557-47c4-b628-2d1d4fa715d0"],
 
 Cell[TextData[ButtonBox["Examples",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Examples"]], \
-"RelatedTutorials",ExpressionUUID->"5cd71450-3f2c-469d-9bb1-59c201acd811"]
+"RelatedTutorials",ExpressionUUID->"1b1c827d-da39-4b0f-9a24-d09f5ff3cf61"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[" ", \
-"FooterCell",ExpressionUUID->"c98aff06-f272-41e9-a4a8-cce34891dee5"]
+"FooterCell",ExpressionUUID->"e3ba6c1a-4e1c-4a2d-ae66-4426cc16c948"]
 },
 Saveable->False,
 ScreenStyleEnvironment->"Working",

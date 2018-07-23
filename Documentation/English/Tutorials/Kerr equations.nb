@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "TutorialColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"a95d27af-9d0c-424a-9dc9-53a7a9c2edae"],
+   0}},ExpressionUUID->"5062c364-864c-41c1-831a-21581ac166b8"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -11,11 +11,11 @@ Cell[TextData[{
  ButtonBox["Kerr equations",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/tutorial/Kerr equations"]
-}], "LinkTrail",ExpressionUUID->"b2119056-1fce-4600-a859-8aab20dae0be"],
+}], "LinkTrail",ExpressionUUID->"7e9ad2bd-de8e-4b69-804d-5141432b70ef"],
 
 Cell[BoxData[GridBox[{
    {Cell["KERR EQUATIONS TUTORIAL", "PacletNameCell",ExpressionUUID->
-     "fa97f208-2b0d-4ece-8dd8-c5e15655b6eb"], Cell[TextData[{
+     "67b01493-eacd-41c0-82b0-defe75d14549"], Cell[TextData[{
      Cell[BoxData[
       ActionMenuBox[
        FrameBox["\<\"Related Tutorials \[RightGuillemet]\"\>",
@@ -34,7 +34,7 @@ Cell[BoxData[GridBox[{
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "e850ca40-6941-479a-bfc4-7738ef3cb29b"],
+      "00b91691-fd18-4846-bf4f-292005c0b16f"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -53,43 +53,41 @@ Cell[BoxData[GridBox[{
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "bdac5279-ddc8-4a94-8314-cbc756d3eb29"]
-    }], "AnchorBar",ExpressionUUID->"f57e4d6c-aec6-4f07-968c-c9c9d6032a8b"]}
-  }]], "AnchorBarGrid",ExpressionUUID->"d003f80f-4c42-4a83-9199-806f33f88092"],
+      "9af5373a-cff3-4695-9973-00a170311499"]
+    }], "AnchorBar",ExpressionUUID->"7d347d24-1338-4283-a2e7-12765fcd2828"]}
+  }]], "AnchorBarGrid",ExpressionUUID->"af1f1c95-e4b8-4a8d-9d92-de9a9f3194b0"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 BlackHoleAnalysis - Equations specifically for Kerr black holes\
-\>", "Title",ExpressionUUID->"206b478c-f1db-43f5-a782-2067ba870fa5"],
+\>", "Title",ExpressionUUID->"9bed6c66-e4e5-4567-8e9b-bbc6d49649b8"],
 
 Cell["\<\
 BlackHoleAnalysis is built primarily for studying the perturbations of \
 Schwarzschild black holes, but there are also several equations for Kerr \
 black holes included.\
-\>", "Text",ExpressionUUID->"3463fc36-cc46-4641-bbfc-e0c81744a15e"],
+\>", "Text",ExpressionUUID->"6b8bfcc3-0492-4ab6-a1ae-4deb46c3089a"],
 
 Cell[BoxData[
  RowBox[{"<<", "BlackHoleAnalysis`"}]], "Input",
- CellLabel->
-  "(Local) In[1]:=",ExpressionUUID->"f9bebf1f-d2db-4367-afc1-cc74b7c0ecd8"],
+ CellLabel->"In[1]:=",ExpressionUUID->"cd16751e-105b-4abc-91d0-3179d38dba08"],
 
 Cell[CellGroupData[{
 
 Cell["Kerr metric and associated functions", \
-"Section",ExpressionUUID->"3fbd5a26-7f3e-407c-b6a4-c2c1f9b75a6f"],
+"Section",ExpressionUUID->"aefdf209-4f7c-4e3a-a532-84c3e49fc8c6"],
 
 Cell[CellGroupData[{
 
 Cell["The Kerr metric in Boyer-Lindquist coordinates is built in.", \
-"Item",ExpressionUUID->"6b252d76-6891-4f1e-bbd6-5c2e6d8dc4fc"],
+"Item",ExpressionUUID->"fed1e530-1cd0-47a2-ae89-0c6c04810d12"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"KerrMetric", "[", "]"}]], "Input",
- CellLabel->
-  "(Local) In[2]:=",ExpressionUUID->"14118fdc-aeee-413c-a60c-48742cdb50fa"],
+ CellLabel->"In[2]:=",ExpressionUUID->"cb141d3a-7090-4aa2-bcdd-da7598e0ff63"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -187,8 +185,7 @@ Cell[BoxData[
         SuperscriptBox[
          RowBox[{"Cos", "[", "\[Theta]", "]"}], "2"]}]}]]}], "}"}]}], 
   "}"}]], "Output",
- CellLabel->
-  "(Local) Out[2]=",ExpressionUUID->"cbf0a6c0-65a9-4c3f-861d-e28a8f8e4a51"]
+ CellLabel->"Out[2]=",ExpressionUUID->"3634d331-5655-4512-b357-503fff5717de"]
 }, Open  ]]
 }, Open  ]],
 
@@ -196,16 +193,15 @@ Cell[CellGroupData[{
 
 Cell["Also provided are certain standard functions found on Kerr.", "Item",
  CellChangeTimes->{{3.741276718394517*^9, 
-  3.7412767203637047`*^9}},ExpressionUUID->"3e302b23-2f89-4a59-bff8-\
-d329a069c7b3"],
+  3.7412767203637047`*^9}},ExpressionUUID->"9e8fc74a-bc1d-4832-b92c-\
+c334da11da45"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[{
  RowBox[{"?", "DeltaKerr"}], "\[IndentingNewLine]", 
  RowBox[{"?", "SigmaKerr"}]}], "Input",
- CellLabel->
-  "(Local) In[3]:=",ExpressionUUID->"58883a64-f313-459a-8796-a0df93365d07"],
+ CellLabel->"In[3]:=",ExpressionUUID->"bc184e5b-b1b7-41ad-a285-3813fa9f78b9"],
 
 Cell[CellGroupData[{
 
@@ -219,8 +215,8 @@ Cell[BoxData[
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/DeltaKerr"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info33741340357-4539924",ExpressionUUID->"d5d4bc9c-fadf-4470-811f-\
-f4a473eb732c"],
+  "Info33741357158-9892469",ExpressionUUID->"3ce5fc8d-d2b4-4978-8841-\
+b8872166e1d0"],
 
 Cell[BoxData[
  RowBox[{"\<\"SigmaKerr[] returns the Kerr quantity Capital Sigma.\"\>", 
@@ -232,8 +228,8 @@ Cell[BoxData[
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/SigmaKerr"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info43741340357-4539924",ExpressionUUID->"788c26f8-1591-403f-96fd-\
-795f98d2eecc"]
+  "Info43741357158-9892469",ExpressionUUID->"2244061c-dd88-4132-b250-\
+6c77682fb4e6"]
 }, Open  ]]
 }, Open  ]],
 
@@ -242,16 +238,14 @@ Cell[CellGroupData[{
 Cell[BoxData[{
  RowBox[{"DeltaKerr", "[", "]"}], "\[IndentingNewLine]", 
  RowBox[{"SigmaKerr", "[", "]"}]}], "Input",
- CellLabel->
-  "(Local) In[5]:=",ExpressionUUID->"831128f4-aa51-42cb-8095-8354879e0665"],
+ CellLabel->"In[5]:=",ExpressionUUID->"6e706519-813a-449d-a6c2-2037976a0947"],
 
 Cell[BoxData[
  RowBox[{
   SuperscriptBox["a", "2"], "-", 
   RowBox[{"2", " ", "M", " ", "r"}], "+", 
   SuperscriptBox["r", "2"]}]], "Output",
- CellLabel->
-  "(Local) Out[5]=",ExpressionUUID->"89fecac2-59bb-4c0a-a33d-2fe2392538ac"],
+ CellLabel->"Out[5]=",ExpressionUUID->"eeeb6046-e483-41d3-b5bb-242a80127663"],
 
 Cell[BoxData[
  RowBox[{
@@ -260,8 +254,7 @@ Cell[BoxData[
    SuperscriptBox["a", "2"], " ", 
    SuperscriptBox[
     RowBox[{"Cos", "[", "\[Theta]", "]"}], "2"]}]}]], "Output",
- CellLabel->
-  "(Local) Out[6]=",ExpressionUUID->"aa86fa85-28bd-420e-ae5b-645f493ce823"]
+ CellLabel->"Out[6]=",ExpressionUUID->"1def06e4-2a2f-41a1-8677-ad596cf0b3ec"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -270,8 +263,7 @@ Cell[BoxData[{
  RowBox[{"?", "RPlusKerr"}], "\[IndentingNewLine]", 
  RowBox[{"?", "RMinusKerr"}]}], "Input",
  CellChangeTimes->{{3.7412764790320997`*^9, 3.741276487468122*^9}},
- CellLabel->
-  "(Local) In[7]:=",ExpressionUUID->"a67d1aa3-f0cf-48ed-8d3b-921bfdeebcc5"],
+ CellLabel->"In[7]:=",ExpressionUUID->"4502aa3b-8613-41b7-876a-2033ae85b222"],
 
 Cell[CellGroupData[{
 
@@ -285,8 +277,8 @@ and spin.\"\>", "\[NonBreakingSpace]",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/RPlusKerr"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info73741340358-4539924",ExpressionUUID->"0ccb0ac4-d362-42ae-9344-\
-1a895ba786de"],
+  "Info73741357158-9892469",ExpressionUUID->"b134e695-1852-47d5-add9-\
+6889167bb11e"],
 
 Cell[BoxData[
  RowBox[{"\<\"RMinusKerr[] returns r- in terms of the Kerr black hole's mass \
@@ -298,8 +290,8 @@ and spin.\"\>", "\[NonBreakingSpace]",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/RMinusKerr"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info83741340358-4539924",ExpressionUUID->"aff5f06d-e825-42ff-bcfb-\
-d232b1f21291"]
+  "Info83741357158-9892469",ExpressionUUID->"38ce624f-def5-4258-86f3-\
+f0a7fe8b89bd"]
 }, Open  ]]
 }, Open  ]],
 
@@ -309,8 +301,7 @@ Cell[BoxData[{
  RowBox[{"RPlusKerr", "[", "]"}], "\[IndentingNewLine]", 
  RowBox[{"RMinusKerr", "[", "]"}]}], "Input",
  CellChangeTimes->{{3.74127644782799*^9, 3.741276456648574*^9}},
- CellLabel->
-  "(Local) In[9]:=",ExpressionUUID->"8da7151e-44f3-413d-9bf7-dfe688734369"],
+ CellLabel->"In[9]:=",ExpressionUUID->"fe8d93c8-fb28-4b35-8588-d521892731ef"],
 
 Cell[BoxData[
  RowBox[{"M", "+", 
@@ -319,8 +310,7 @@ Cell[BoxData[
     RowBox[{"-", 
      SuperscriptBox["a", "2"]}], "+", 
     SuperscriptBox["M", "2"]}]]}]], "Output",
- CellLabel->
-  "(Local) Out[9]=",ExpressionUUID->"980a6976-da0e-4ec0-bb08-c1d82fbcf5eb"],
+ CellLabel->"Out[9]=",ExpressionUUID->"a26ea13b-88a7-41c0-82ec-dadae9785eaa"],
 
 Cell[BoxData[
  RowBox[{"M", "-", 
@@ -330,7 +320,7 @@ Cell[BoxData[
      SuperscriptBox["a", "2"]}], "+", 
     SuperscriptBox["M", "2"]}]]}]], "Output",
  CellLabel->
-  "(Local) Out[10]=",ExpressionUUID->"101089ff-f87a-41fd-a303-d30c56732c50"]
+  "Out[10]=",ExpressionUUID->"6d4da80a-c117-4549-90bd-def2db0f2661"]
 }, Open  ]]
 }, Open  ]],
 
@@ -339,8 +329,8 @@ Cell[CellGroupData[{
 Cell["The tortoise coordinate on Kerr is", "Item",
  CellChangeTimes->{{3.7412764380190067`*^9, 3.741276444513845*^9}, {
   3.741276727171324*^9, 
-  3.741276729958705*^9}},ExpressionUUID->"5dec8d01-80bc-48d2-ad2b-\
-2e5d4d45b9b2"],
+  3.741276729958705*^9}},ExpressionUUID->"950e48c4-eb34-46fd-90dc-\
+05a6c8b880e6"],
 
 Cell[CellGroupData[{
 
@@ -349,8 +339,7 @@ Cell[BoxData[
   RowBox[{"Metric", "\[Rule]", "\"\<Kerr\>\""}], "]"}]], "Input",
  CellChangeTimes->{{3.741276426275937*^9, 3.74127643094798*^9}, {
   3.7412767348994017`*^9, 3.7412767402973213`*^9}},
- CellLabel->
-  "(Local) In[11]:=",ExpressionUUID->"0c21fb4f-fba1-47a6-bc38-8639441ed435"],
+ CellLabel->"In[11]:=",ExpressionUUID->"9030168c-5593-4bab-80b6-ce1d08233a26"],
 
 Cell[BoxData[
  RowBox[{"r", "+", 
@@ -403,7 +392,7 @@ Cell[BoxData[
       SuperscriptBox["a", "2"]}], "+", 
      SuperscriptBox["M", "2"]}]]]}]], "Output",
  CellLabel->
-  "(Local) Out[11]=",ExpressionUUID->"8667f9bc-214c-40d7-9a9a-79c101701454"]
+  "Out[11]=",ExpressionUUID->"efb7bbce-0250-4677-b36d-46f53da87979"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -411,32 +400,31 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell["Perturbation equations", \
-"Section",ExpressionUUID->"72335934-e13a-4c7f-a9d4-f7d89d3c0594"],
+"Section",ExpressionUUID->"98d46f2e-aaa1-45c8-9c7d-c945f3bcddd4"],
 
 Cell[CellGroupData[{
 
 Cell["Teukolsky equation", \
-"Subsection",ExpressionUUID->"2b3f47c1-948d-44eb-92f2-9349062f36e7"],
+"Subsection",ExpressionUUID->"53fd1bda-b194-496e-8166-41b23cd79389"],
 
 Cell[CellGroupData[{
 
 Cell["The full 4D equation", "Subsubsection",
  CellChangeTimes->{{3.741276086410871*^9, 
-  3.74127609470667*^9}},ExpressionUUID->"07276ea7-0c51-4a55-9d2d-\
-a93da781c2ef"],
+  3.74127609470667*^9}},ExpressionUUID->"6b7dd23e-6f39-41f9-ba54-\
+fb7c594da0a4"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 The 4D homogeneous Teukolsky equation with spin-weight -2 is:\
-\>", "Item",ExpressionUUID->"9d2b76d8-9f48-4a42-874e-9d460db7a4d0"],
+\>", "Item",ExpressionUUID->"571e4cf1-b17f-4134-b424-059a7dd4de08"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"TeukolskyEquation", "[", "]"}]], "Input",
- CellLabel->
-  "(Local) In[12]:=",ExpressionUUID->"def60c66-02a7-4bd9-bdaf-ac117afa712a"],
+ CellLabel->"In[12]:=",ExpressionUUID->"20a1ebe7-35e1-4eb1-bfbd-d8a2c5759c37"],
 
 Cell[BoxData[
  RowBox[{
@@ -686,14 +674,14 @@ Cell[BoxData[
     RowBox[{"t", ",", "r", ",", "\[Theta]", ",", "\[Phi]"}], 
     "]"}]}]}]], "Output",
  CellLabel->
-  "(Local) Out[12]=",ExpressionUUID->"9844848b-35f3-4149-8303-69ba2ad19723"]
+  "Out[12]=",ExpressionUUID->"60356317-30c0-4ba3-8229-3958a776df96"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["It is available for spin-weights {-2,-1,-1/2,0,1/2,1,2} ", \
-"Item",ExpressionUUID->"2fd5a9fe-b3fe-4b57-8544-cac2407ac4d4"],
+"Item",ExpressionUUID->"6cdc6a4a-1b03-4df7-89b6-ce6d941c2bd9"],
 
 Cell[CellGroupData[{
 
@@ -701,8 +689,7 @@ Cell[BoxData[
  RowBox[{"TeukolskyEquation", "[", 
   RowBox[{"SpinWeight", "\[Rule]", 
    RowBox[{"-", "1"}]}], "]"}]], "Input",
- CellLabel->
-  "(Local) In[13]:=",ExpressionUUID->"6818ba08-7056-43ee-a171-42a1db1fce3a"],
+ CellLabel->"In[13]:=",ExpressionUUID->"40e3a447-6460-4b1d-8268-d8e6b15c5110"],
 
 Cell[BoxData[
  RowBox[{
@@ -944,7 +931,7 @@ Cell[BoxData[
     RowBox[{"t", ",", "r", ",", "\[Theta]", ",", "\[Phi]"}], 
     "]"}]}]}]], "Output",
  CellLabel->
-  "(Local) Out[13]=",ExpressionUUID->"893b8e31-64c0-46ac-8d79-1e893496562e"]
+  "Out[13]=",ExpressionUUID->"0872ba8d-bd4f-4bbc-b0f0-652136c86c2a"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -953,8 +940,8 @@ Cell[CellGroupData[{
 
 Cell["Radial Teukolsky equation", "Subsubsection",
  CellChangeTimes->{{3.741275787028266*^9, 
-  3.741275794085059*^9}},ExpressionUUID->"d66a5e2a-a63b-42d2-bd56-\
-c7bb6a4df6fb"],
+  3.741275794085059*^9}},ExpressionUUID->"60b7b0ce-243b-48c8-9386-\
+a08f0e657321"],
 
 Cell[CellGroupData[{
 
@@ -962,16 +949,15 @@ Cell["\<\
 The homogeneous part of the ODE in the radial sector is included.\
 \>", "Item",
  CellChangeTimes->{{3.741276106956586*^9, 
-  3.741276123983972*^9}},ExpressionUUID->"6a6e9e11-fdfe-4579-ab60-\
-b403f976ccbe"],
+  3.741276123983972*^9}},ExpressionUUID->"13ef278a-dd33-46bc-874a-\
+9bfafa1d0371"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"RadialTeukolskyEquation", "[", "]"}]], "Input",
  CellChangeTimes->{{3.741275797508074*^9, 3.7412758018914824`*^9}},
- CellLabel->
-  "(Local) In[14]:=",ExpressionUUID->"fc4ec031-679e-466c-aea3-c087fb7de6bf"],
+ CellLabel->"In[14]:=",ExpressionUUID->"c4e80cdb-6392-4765-b5ff-85d6df5cda1e"],
 
 Cell[BoxData[
  RowBox[{
@@ -1035,7 +1021,7 @@ Cell[BoxData[
 \"\\\"]\\)\"\>", "\[Prime]\[Prime]",
      MultilineFunction->None], "[", "r", "]"}]}]}]], "Output",
  CellLabel->
-  "(Local) Out[14]=",ExpressionUUID->"9f989557-b7a3-4e26-b6a4-be5a636363a4"]
+  "Out[14]=",ExpressionUUID->"1a1ee3f7-82c1-4c03-8ea9-aa4e0e42d709"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1046,8 +1032,8 @@ As with TeukolskyEquation, this is available for spin-weights \
 {-2,-1,-1/2,0,1/2,1,2} .\
 \>", "Item",
  CellChangeTimes->{{3.741275853051004*^9, 
-  3.741275868320635*^9}},ExpressionUUID->"91b797d0-0f6b-4f19-9e79-\
-ff458ed77792"],
+  3.741275868320635*^9}},ExpressionUUID->"99799a80-8b9c-40a1-8c10-\
+5b3e39c37c2d"],
 
 Cell[CellGroupData[{
 
@@ -1057,8 +1043,7 @@ Cell[BoxData[
    RowBox[{
     RowBox[{"-", "1"}], "/", "2"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.74127583917887*^9, 3.741275845270698*^9}},
- CellLabel->
-  "(Local) In[15]:=",ExpressionUUID->"3604f59a-174f-4bdf-bb2c-f05aa36f48d0"],
+ CellLabel->"In[15]:=",ExpressionUUID->"0520407b-b978-4312-93b4-e805625a36ca"],
 
 Cell[BoxData[
  RowBox[{
@@ -1122,7 +1107,7 @@ Cell[BoxData[
 \\\"\\\"]\\)\"\>", "\[Prime]\[Prime]",
      MultilineFunction->None], "[", "r", "]"}]}]}]], "Output",
  CellLabel->
-  "(Local) Out[15]=",ExpressionUUID->"eb93d89f-e5e3-4a25-8b26-cb79891c4599"]
+  "Out[15]=",ExpressionUUID->"d98def2c-403f-4359-ad0b-ccdc54c20206"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1132,16 +1117,15 @@ Cell["\<\
 The radial Teukolsky equation potential includes the following function.\
 \>", "Item",
  CellChangeTimes->{{3.741276359900798*^9, 
-  3.741276391912027*^9}},ExpressionUUID->"384d7138-f35d-413e-a9e4-\
-8408ef1a29f3"],
+  3.741276391912027*^9}},ExpressionUUID->"a0796b38-618f-4a89-8a1e-\
+9730cbd614a9"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"KKerr", "[", "]"}]], "Input",
  CellChangeTimes->{{3.7412763766548977`*^9, 3.741276384827839*^9}},
- CellLabel->
-  "(Local) In[16]:=",ExpressionUUID->"b6ae7d60-4775-4717-b917-acc3569aab24"],
+ CellLabel->"In[16]:=",ExpressionUUID->"279c2a97-83e7-476e-8f1b-8a36dd83987d"],
 
 Cell[BoxData[
  RowBox[{
@@ -1153,7 +1137,7 @@ Cell[BoxData[
      SuperscriptBox["a", "2"], "+", 
      SuperscriptBox["r", "2"]}], ")"}], " ", "\[Omega]"}]}]], "Output",
  CellLabel->
-  "(Local) Out[16]=",ExpressionUUID->"cde3476b-743b-436e-89e6-41bd61c156d5"]
+  "Out[16]=",ExpressionUUID->"73311452-1fc4-4b62-8d58-570eadd1ace0"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -1162,8 +1146,8 @@ Cell[CellGroupData[{
 
 Cell["Angular Teukolsky equation", "Subsubsection",
  CellChangeTimes->{{3.741275872309099*^9, 
-  3.741275878684636*^9}},ExpressionUUID->"cf14d7ba-9046-4f67-82a2-\
-2933e49eabb2"],
+  3.741275878684636*^9}},ExpressionUUID->"f50a7724-ab33-4e5d-922d-\
+2d047203c879"],
 
 Cell[CellGroupData[{
 
@@ -1172,16 +1156,15 @@ This is a homogeneous ODE. Its solutions are the spin-weighted spheroidal \
 harmonics.\
 \>", "Item",
  CellChangeTimes->{{3.74127588950655*^9, 
-  3.741275917108877*^9}},ExpressionUUID->"65c01d5d-4164-4fb4-8c3d-\
-8634aa414789"],
+  3.741275917108877*^9}},ExpressionUUID->"315bd8a5-231d-459b-bbda-\
+7b304a8e52ad"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"AngularTeukolskyEquation", "[", "]"}]], "Input",
  CellChangeTimes->{{3.741275919533702*^9, 3.74127592329349*^9}},
- CellLabel->
-  "(Local) In[17]:=",ExpressionUUID->"4eadf47a-ed2c-4ef4-b909-20b96e69a570"],
+ CellLabel->"In[17]:=",ExpressionUUID->"57817ed9-27be-4ec2-8757-34fcc0234a22"],
 
 Cell[BoxData[
  RowBox[{
@@ -1225,7 +1208,7 @@ Cell[BoxData[
 \\\\\"-2\\\\\\\"\\\"]\\)S\"\>", "\[Prime]\[Prime]",
     MultilineFunction->None], "[", "\[Theta]", "]"}]}]], "Output",
  CellLabel->
-  "(Local) Out[17]=",ExpressionUUID->"103dc19c-4eba-4e99-94c5-a2bc4de57383"]
+  "Out[17]=",ExpressionUUID->"5a4c2b11-2797-4803-b0d6-a0a0decd7fc2"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1234,8 +1217,7 @@ Cell[BoxData[
  RowBox[{"AngularTeukolskyEquation", "[", 
   RowBox[{"SpinWeight", "\[Rule]", "1"}], "]"}]], "Input",
  CellChangeTimes->{{3.74127592957041*^9, 3.741275934834502*^9}},
- CellLabel->
-  "(Local) In[18]:=",ExpressionUUID->"f0750b0d-7dc0-4fcc-8275-3b76afa65e18"],
+ CellLabel->"In[18]:=",ExpressionUUID->"8453dd86-4b7f-448b-91ca-87d225766a61"],
 
 Cell[BoxData[
  RowBox[{
@@ -1277,7 +1259,7 @@ Cell[BoxData[
 \\\\\"1\\\\\\\"\\\"]\\)S\"\>", "\[Prime]\[Prime]",
     MultilineFunction->None], "[", "\[Theta]", "]"}]}]], "Output",
  CellLabel->
-  "(Local) Out[18]=",ExpressionUUID->"7aa75760-ddec-44aa-8275-e85e62a893a3"]
+  "Out[18]=",ExpressionUUID->"fa7d18f9-df30-40d4-8564-a796318b9974"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1286,8 +1268,8 @@ The values for these harmonics are not built into BlackHoleAnalysis.\
 \>", "Item",
  CellChangeTimes->{{3.741275944143572*^9, 3.74127597467844*^9}, {
   3.741276033119945*^9, 
-  3.741276034427629*^9}},ExpressionUUID->"af9a1e3a-a48f-44bd-9e56-\
-3bed00e0b838"],
+  3.741276034427629*^9}},ExpressionUUID->"d7019b7b-f708-4e96-b26f-\
+e722a99dd637"],
 
 Cell[TextData[{
  "The package SpinWeightedSpheroidalHarmonics in the Black Hole Perturbation \
@@ -1295,12 +1277,12 @@ Toolkit provide them, along with the values ",
  Cell[BoxData[
   FormBox[
    SubscriptBox["\[Lambda]", "s"], TraditionalForm]],ExpressionUUID->
-  "0b2bbcb2-b3fc-47c3-8e7c-2238d2fb0a49"]
+  "e7e39ea4-3b62-4ae4-8697-c28c9c418474"]
 }], "Item",
  CellChangeTimes->{{3.741275944143572*^9, 3.74127597467844*^9}, {
   3.741276033119945*^9, 
-  3.741276067843939*^9}},ExpressionUUID->"45e7c1cc-24a2-4b17-95fa-\
-f0a3f445910e"]
+  3.741276067843939*^9}},ExpressionUUID->"77c55a96-22f3-4dfc-bc1d-\
+7e452fbede4a"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1308,23 +1290,22 @@ Cell[CellGroupData[{
 
 Cell["The Sasaki-Nakamura equation", "Subsection",
  CellChangeTimes->{{3.741276131786525*^9, 
-  3.7412761399686823`*^9}},ExpressionUUID->"0987fe4b-3b55-436f-98cd-\
-c143458c0e98"],
+  3.7412761399686823`*^9}},ExpressionUUID->"7c4d90f8-4f82-47eb-839e-\
+d974c0f34fe7"],
 
 Cell[CellGroupData[{
 
 Cell["The Sasaki-Nakamura equation is only provided for s = -2.", "Item",
  CellChangeTimes->{{3.741276163090502*^9, 
-  3.741276169886504*^9}},ExpressionUUID->"4e012b03-a399-4ec6-b3ad-\
-11f6f3fa2c03"],
+  3.741276169886504*^9}},ExpressionUUID->"68556af2-ee48-4b34-b9b9-\
+bff0e30caa0e"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"SasakiNakamuraEquation", "[", "]"}]], "Input",
  CellChangeTimes->{{3.741276145289557*^9, 3.741276146596053*^9}},
- CellLabel->
-  "(Local) In[19]:=",ExpressionUUID->"091c81f9-56df-4826-a224-938a5de75471"],
+ CellLabel->"In[19]:=",ExpressionUUID->"6ff9bd8b-4d68-4f4f-a5d0-ef5a945defaf"],
 
 Cell[BoxData[
  RowBox[{
@@ -2405,7 +2386,7 @@ Cell[BoxData[
       SuperscriptBox["a", "2"], "+", 
       SuperscriptBox["r", "2"]}], ")"}], "2"]]}]], "Output",
  CellLabel->
-  "(Local) Out[19]=",ExpressionUUID->"1747feca-3272-4c56-8500-bbbf419e491d"]
+  "Out[19]=",ExpressionUUID->"e1f7b5e4-e72a-4cf0-8097-e9d552a1d52d"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -2414,32 +2395,31 @@ Cell[CellGroupData[{
 
 Cell["Relations between Teukolsky and Sasaki-Nakamura variables", "Subsection",
  CellChangeTimes->{{3.7412761867833*^9, 
-  3.741276199119771*^9}},ExpressionUUID->"16997c07-de78-4be6-afc1-\
-5fc4e2a31da2"],
+  3.741276199119771*^9}},ExpressionUUID->"0c7c71c1-05d2-4bac-88a9-\
+459fc1bdd667"],
 
 Cell["\<\
 We can transform between the radial version of the Teukolsky function and the \
 Sasaki-Nakamura function.\
 \>", "Item",
  CellChangeTimes->{{3.741276260426983*^9, 
-  3.7412762974897423`*^9}},ExpressionUUID->"049f0320-66bb-43e1-b051-\
-9806ddbe0136"],
+  3.7412762974897423`*^9}},ExpressionUUID->"f99505e6-fd74-49e7-b8d7-\
+dfea640a2dc5"],
 
 Cell[CellGroupData[{
 
 Cell["Radial Teukolsky function as Sasaki-Nakamura function", "Subsubsection",
  
  CellChangeTimes->{{3.7412762072714777`*^9, 
-  3.741276218228299*^9}},ExpressionUUID->"f9fc8db3-e85a-4458-93bb-\
-368b8a7b86c0"],
+  3.741276218228299*^9}},ExpressionUUID->"315a1454-501f-4246-9109-\
+ab8b92a8152b"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "TeukolskyFunctionAsSasakiNakamuraFunction"}]], "Input",
  CellChangeTimes->{{3.7412762198867683`*^9, 3.7412762400361557`*^9}},
- CellLabel->
-  "(Local) In[20]:=",ExpressionUUID->"b07e124a-2d42-4c10-8b23-c5aa5650dee3"],
+ CellLabel->"In[20]:=",ExpressionUUID->"80891b7b-1120-4ab4-943d-41ebb1574631"],
 
 Cell[BoxData[
  RowBox[{"\<\"TeukolskyFunctionAsSasakiNakamuraFunction[] returns the \
@@ -2453,8 +2433,8 @@ function and its first derivative.\"\>", "\[NonBreakingSpace]",
     "paclet:BlackHoleAnalysis/ref/TeukolskyFunctionAsSasakiNakamuraFunction"]}\
 ]], "Print", "PrintUsage",
  CellTags->
-  "Info203741340367-4539924",ExpressionUUID->"8a22b400-1256-41cd-87e5-\
-fff1998eff8e"]
+  "Info203741357163-9892469",ExpressionUUID->"ba38a4a6-9102-4a74-b6d0-\
+990320f8f9d0"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2462,8 +2442,7 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"TeukolskyFunctionAsSasakiNakamuraFunction", "[", "]"}]], "Input",
  CellChangeTimes->{{3.741276244828817*^9, 3.741276247831029*^9}},
- CellLabel->
-  "(Local) In[21]:=",ExpressionUUID->"60f34f7b-910d-408a-aa33-30f75c57cf00"],
+ CellLabel->"In[21]:=",ExpressionUUID->"b11fc04d-74e2-45d0-a9e4-e75714db7b0e"],
 
 Cell[BoxData[
  RowBox[{
@@ -2779,7 +2758,7 @@ Rule[SyntaxForm, SubsuperscriptBox]]\\)\"\>", "[", "r", "]"}]}], ")"}], "/",
               SuperscriptBox["\[Omega]", "2"]}]}], ")"}]}]}], ")"}]}]}], 
       ")"}]}], ")"}]}]}]], "Output",
  CellLabel->
-  "(Local) Out[21]=",ExpressionUUID->"58d9a9a0-5ecc-4bfa-8108-1a3317b91c5a"]
+  "Out[21]=",ExpressionUUID->"88fac3e7-c090-4c47-8ed5-8d15f807cace"]
 }, Open  ]]
 }, Open  ]],
 
@@ -2789,8 +2768,8 @@ Cell["Sasaki-Nakamura function as radial Teukolsky function", "Subsubsection",
  
  CellChangeTimes->{{3.7412762072714777`*^9, 3.741276218228299*^9}, {
   3.74127630697971*^9, 
-  3.741276311527478*^9}},ExpressionUUID->"f7b1e36a-b31f-4647-bfcf-\
-393c1edfbcb9"],
+  3.741276311527478*^9}},ExpressionUUID->"70f7fcdf-4b55-485d-97ea-\
+d23f3b7f50a7"],
 
 Cell[CellGroupData[{
 
@@ -2798,8 +2777,7 @@ Cell[BoxData[
  RowBox[{"?", "SasakiNakamuraFunctionAsTeukolskyFunction"}]], "Input",
  CellChangeTimes->{{3.7412762198867683`*^9, 3.7412762400361557`*^9}, {
   3.741276314319832*^9, 3.741276316934957*^9}},
- CellLabel->
-  "(Local) In[22]:=",ExpressionUUID->"ea91fc4f-bb5a-4f3c-9163-216c1df37192"],
+ CellLabel->"In[22]:=",ExpressionUUID->"ec4a4cfb-3888-4cf2-9d3a-47c0db07143d"],
 
 Cell[BoxData[
  RowBox[{"\<\"SasakiNakamuraFunctionAsTeukolskyFunction[] returns the \
@@ -2813,8 +2791,8 @@ function and its first derivative.\"\>", "\[NonBreakingSpace]",
     "paclet:BlackHoleAnalysis/ref/SasakiNakamuraFunctionAsTeukolskyFunction"]}\
 ]], "Print", "PrintUsage",
  CellTags->
-  "Info223741340367-4539924",ExpressionUUID->"b3cf2f07-7efc-4413-8abf-\
-b4a000b833f5"]
+  "Info223741357163-9892469",ExpressionUUID->"54845e53-23a5-4ce3-9282-\
+8f4e632bd723"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2823,8 +2801,7 @@ Cell[BoxData[
  RowBox[{"SasakiNakamuraFunctionAsTeukolskyFunction", "[", "]"}]], "Input",
  CellChangeTimes->{{3.741276244828817*^9, 3.741276247831029*^9}, 
    3.7412763197917967`*^9},
- CellLabel->
-  "(Local) In[23]:=",ExpressionUUID->"5ab56e24-3266-4906-bccc-dc7b230fffbc"],
+ CellLabel->"In[23]:=",ExpressionUUID->"9204e4e7-ecd8-4dc4-9d1a-63893a779ba6"],
 
 Cell[BoxData[
  RowBox[{
@@ -2973,7 +2950,7 @@ Cell[BoxData[
           RowBox[{"-", "2"}], " ", "M"}], "+", "r"}], ")"}]}]}], 
      ")"}]}]]}]], "Output",
  CellLabel->
-  "(Local) Out[23]=",ExpressionUUID->"3edc2416-42fe-4954-8c18-bac1bddc583f"]
+  "Out[23]=",ExpressionUUID->"6dd61f24-c352-4f41-a64e-009b8b7c7a99"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -3018,36 +2995,36 @@ Cell["", "RelatedTutorialsSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
    None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"cf893afe-b150-4e84-9cd2-5d2fc7d1b208"],
+  0,ExpressionUUID->"0c4bc855-9823-4ee2-a021-9c82c99d7915"],
 
 Cell[TextData[ButtonBox["Field equations on Schwarzschild",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Field equations on Schwarzschild"]], \
-"RelatedTutorials",ExpressionUUID->"a9e03a82-a89d-4385-9e76-c83889d55f49"],
+"RelatedTutorials",ExpressionUUID->"fb27b5bb-b885-4b00-bb7b-c97c3a514147"],
 
 Cell[TextData[ButtonBox["RWZ master equations",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/RWZ master equations"]], \
-"RelatedTutorials",ExpressionUUID->"6ff68ec5-ac3b-4660-be16-3f03c681604c"],
+"RelatedTutorials",ExpressionUUID->"3f177535-efda-48b9-a598-40636ad13a80"],
 
 Cell[TextData[ButtonBox["Simplifying expressions",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Simplifying expressions"]], \
-"RelatedTutorials",ExpressionUUID->"1d68560d-ff5f-4418-8971-7733716279a5"],
+"RelatedTutorials",ExpressionUUID->"fc537476-3279-401b-aa3d-d64c269ca50c"],
 
 Cell[TextData[ButtonBox["Examples",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Examples"]], \
-"RelatedTutorials",ExpressionUUID->"a7543189-88e5-4792-ae12-7fc83f23922b"]
+"RelatedTutorials",ExpressionUUID->"1cdb9eea-da29-4de1-94e0-aa70053820e4"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[" ", \
-"FooterCell",ExpressionUUID->"bd24a1a4-3700-4887-a5a5-cfecdfedc197"]
+"FooterCell",ExpressionUUID->"a533a7f5-0674-452d-ae64-2e0cf9333cf9"]
 },
 Saveable->False,
 ScreenStyleEnvironment->"Working",

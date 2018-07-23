@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"c41b2c78-af27-45ca-9de7-1166d982bed0"],
+   0}},ExpressionUUID->"51ffe6f2-3de3-40cf-94c6-d1c7d34b0a5c"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["SpecificEnergyPN",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificEnergyPN"]
-}], "LinkTrail",ExpressionUUID->"56effdf4-0234-4d03-a4a7-7768b4797c15"],
+}], "LinkTrail",ExpressionUUID->"4dbcc5a2-5fa0-423b-a905-d3f59636d163"],
 
 Cell[CellGroupData[{
 
 Cell["SpecificEnergyPN", \
-"ObjectName",ExpressionUUID->"01da50df-cc30-4e0e-86b7-e3aeeb6c451f"],
+"ObjectName",ExpressionUUID->"a69126da-998f-47f1-9383-202f88dc08c7"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -30,11 +30,11 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificEnergyPN"], "[", 
        "]"}]], "InlineFormula",ExpressionUUID->
-      "4a4917d4-f717-47b9-84bc-680735ccbe0b"],
+      "4ad04309-7e08-4ade-a9e5-3f3db61d4e0e"],
      "\[LineSeparator]returns the specific energy of a particle in an \
 eccentric orbit around a Schwarzschild black hole, expanded to 1 term using \
 the inverse of p, the semi-latus rectum, as the expansion parameter."
-    }],ExpressionUUID->"dc6a9f42-64d2-4767-8934-4858b8a3915d"]},
+    }],ExpressionUUID->"9c789b84-eefd-4cd4-ae0d-1812493d56ef"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -42,9 +42,9 @@ the inverse of p, the semi-latus rectum, as the expansion parameter."
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificEnergyPN"], "[", 
        StyleBox["n", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
-      "030595f6-5aed-4009-8676-c3b522964374"],
+      "717904c3-a021-4294-9986-48927261a205"],
      "\[LineSeparator]returns the specific energy expanded to n terms."
-    }],ExpressionUUID->"ccbf4f31-7ed7-4609-9ce9-90ff3637cf94"]},
+    }],ExpressionUUID->"c3e55328-6aff-45e3-951d-f0e8c3ad33a2"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -52,10 +52,10 @@ the inverse of p, the semi-latus rectum, as the expansion parameter."
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificEnergyPN"], "[", 
        StyleBox["par", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
-      "a83b76d4-d61d-4e34-a681-444e5363d3db"],
+      "e6158cc1-cd74-4f8e-869c-96a1bc7135ab"],
      "\[LineSeparator]returns the specific energy expanded to 1 term, using \
 par (\"p\" or \"x\") as the expansion parameter."
-    }],ExpressionUUID->"bea85f76-3dcb-43f0-a4a6-810fb34d62ad"]},
+    }],ExpressionUUID->"865a4d5f-8810-41d4-82a5-b4ebe9ece579"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -64,11 +64,11 @@ par (\"p\" or \"x\") as the expansion parameter."
         ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificEnergyPN"], "[", 
        StyleBox[
         RowBox[{"n", ",", "par"}], "TI"], "]"}]], "InlineFormula",
-      ExpressionUUID->"82f63547-fbac-4735-a6c3-a17d412b11d6"],
+      ExpressionUUID->"3e020426-58b3-4fc9-a18e-cba2eaae7028"],
      "\[LineSeparator]returns the specific energy expanded to n terms, using \
 par (\"p\" or \"x\") as the expansion parameter."
-    }],ExpressionUUID->"116d09d8-5f66-462c-a1be-bd91f3dc330f"]}
-  }]], "Usage",ExpressionUUID->"bf209509-a70d-47f8-bdfd-74eed79b078f"]
+    }],ExpressionUUID->"de95e55f-7ee7-470f-8306-32821ef33b0b"]}
+  }]], "Usage",ExpressionUUID->"730ca8ca-f7d8-4fbb-bc67-bbd368bfde1a"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -114,17 +114,17 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"0c664767-bcf1-406d-9957-7fc8e23f4fbf"],
+  0,ExpressionUUID->"2e2ffec2-64a5-4166-b53a-899e55172df4"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"d1d655af-8a30-4e2a-a274-1df266b19263"],
+"Notes",ExpressionUUID->"03e0d266-4499-466e-bc4b-8a06fbc9bbdd"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "ac621749-bca8-47d6-bbb8-1e359e45fbb3"], "Metric", "Schwarzschild", 
+     "e812abc3-3314-44e1-aa6f-bc63f795ddf3"], "Metric", "Schwarzschild", 
     Cell["\<\
 Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
-\>", "TableText",ExpressionUUID->"5f966ce4-4ff5-4516-99ae-ca21b1f4b580"]}
+\>", "TableText",ExpressionUUID->"4f655bf5-2f4a-4da1-9149-5a63105a54d9"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -135,14 +135,14 @@ Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"f8c660ef-37ec-46f3-9011-c4cfd1cc8b5b"]
+     True, True}}}},ExpressionUUID->"07a73096-3329-447b-9d86-4d7933545992"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"720815ea-fb92-4f59-9449-6122dc8e4dd0"],
+Cell[" ", "FooterCell",ExpressionUUID->"6865c4f8-a4f0-4b68-9ee1-738468e83682"],
 
-Cell[BoxData[""],ExpressionUUID->"d1a8818f-4c9d-424e-a333-fc059ce649b3"]
+Cell[BoxData[""],ExpressionUUID->"5dd3733e-bb7b-4d42-b44a-fb4a15dbac8e"]
 }, Open  ]]
 },
 Saveable->False,

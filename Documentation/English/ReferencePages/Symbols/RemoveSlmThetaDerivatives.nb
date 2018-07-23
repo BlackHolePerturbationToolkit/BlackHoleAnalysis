@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"200190a4-bcc6-44bb-872f-0d4b53165546"],
+   0}},ExpressionUUID->"081086a1-0f97-4336-8b37-113002df34b2"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["RemoveSlmThetaDerivatives",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/RemoveSlmThetaDerivatives"]
-}], "LinkTrail",ExpressionUUID->"2d6df78f-ce20-490c-aa53-52ac240d6147"],
+}], "LinkTrail",ExpressionUUID->"270eb62f-1152-47ab-a67c-9be532e9548c"],
 
 Cell[CellGroupData[{
 
 Cell["RemoveSlmThetaDerivatives", \
-"ObjectName",ExpressionUUID->"5a81ab22-46a3-4741-8562-451bb92e3766"],
+"ObjectName",ExpressionUUID->"831e7a64-c8b9-4d62-8ac1-f252b35c4243"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -31,11 +31,11 @@ Cell[BoxData[GridBox[{
         ButtonData->"paclet:BlackHoleAnalysis/ref/RemoveSlmThetaDerivatives"],
         "[", 
        StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
-      "99f16ee1-1f4c-4bdb-a5fa-a0750d815a7d"],
+      "e20df3aa-a94c-4776-9717-577321c6ca0d"],
      "\[LineSeparator]uses the angular Teukolsky equation to remove all theta \
 derivatives of the angular function Slm higher than the first."
-    }],ExpressionUUID->"bc5427cb-bfb8-4c71-a25b-a805635feb0e"]}
-  }]], "Usage",ExpressionUUID->"44f57c63-5d5e-499d-afc7-af7792238392"]
+    }],ExpressionUUID->"9062db6c-3b1d-4855-97cb-78219d49f144"]}
+  }]], "Usage",ExpressionUUID->"9f2c1e5c-b7e6-4e28-8aaa-6a47230b9d4e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -81,17 +81,17 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"7ce1b918-dd45-43de-b78a-b5183f61d06e"],
+  0,ExpressionUUID->"212b1275-a0a8-47ec-bb58-7ef07e6d6668"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"4ae2f868-d135-47e3-92c6-4a2143789d90"],
+"Notes",ExpressionUUID->"c9106721-0499-4ae4-a5ab-7fef4096ad90"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "943cf2d0-08a2-4e24-9ea3-8219a6a4b651"], "SpinWeight", 
+     "3e5aabbd-8286-47b9-b063-a503c801910d"], "SpinWeight", 
     RowBox[{"-", "2"}], Cell["\<\
 Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
-\>", "TableText",ExpressionUUID->"3941b70e-8f42-4e89-8677-eb3e2b80707a"]}
+\>", "TableText",ExpressionUUID->"0029691b-3ed8-437b-9f1e-8c5f69b1363d"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -102,14 +102,14 @@ Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"42bb79dc-ac55-4e6a-a503-5eddc7303d2b"]
+     True, True}}}},ExpressionUUID->"6a452d83-e7a1-4987-bfe4-cd9295051018"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"1b6e8922-215d-459c-bc67-c2cd7779e3df"],
+Cell[" ", "FooterCell",ExpressionUUID->"edfb1c5b-3cc1-4cb6-9756-c0f40674723a"],
 
-Cell[BoxData[""],ExpressionUUID->"a2aa61c3-3d94-43b9-a690-5754d1976232"]
+Cell[BoxData[""],ExpressionUUID->"a89ca874-4f0c-418a-b335-4b454e5761d2"]
 }, Open  ]]
 },
 Saveable->False,
