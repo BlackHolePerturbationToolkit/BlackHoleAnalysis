@@ -1,0 +1,124 @@
+"Subscript[\[ScriptY], \[ScriptL], \[ScriptM]][\[Theta][], \
+\[Phi][]]*(Subscript[jr, \[ScriptL], \[ScriptM]][t[], \
+rp[t[]]]*(((-I/2)*\[ScriptCapitalE]*\[ScriptCapitalJ]*\[ScriptM]*(-2*M*\
+\[ScriptCapitalJ]^2*(-6 + Cos[2*\[Theta][]]) + \[ScriptCapitalJ]^2*(-5 + \
+Cos[2*\[Theta][]])*rp[t[]] + 10*M*rp[t[]]^2 + 4*(-1 + \
+\[ScriptCapitalE]^2)*rp[t[]]^3))/((2*M - rp[t[]])*rp[t[]]^5) + \
+(\[ScriptCapitalE]^2*\[ScriptCapitalJ]^2*\[ScriptM]^2*Derivative[1][rp][t[]])\
+/(rp[t[]]^2*(-2*M + rp[t[]])^2)) + Subscript[htr, \[ScriptL], \
+\[ScriptM]][t[], rp[t[]]]*((-4*M^3*\[ScriptCapitalJ]^2*(-2 + \
+Cos[2*\[Theta][]]) - 2*M^2*\[ScriptCapitalJ]^2*(5 + (-3 + \
+\[ScriptCapitalE]^2)*Cos[2*\[Theta][]])*rp[t[]] + M*(4*M^2 - (-4 + \
+\[ScriptCapitalE]^2)*\[ScriptCapitalJ]^2 + (-3 + \
+2*\[ScriptCapitalE]^2)*\[ScriptCapitalJ]^2*Cos[2*\[Theta][]])*rp[t[]]^2 + \
+M*(1 + \[ScriptCapitalE]^2 - 2*\[ScriptCapitalE]^4)*rp[t[]]^4 - \
+rp[t[]]^3*(2*M^2*(2 + \[ScriptCapitalE]^2) - (-1 + \
+\[ScriptCapitalE]^2)*\[ScriptCapitalJ]^2*Sin[\[Theta][]]^2))/((2*M - \
+rp[t[]])^3*rp[t[]]^3) + \
+(I*\[ScriptCapitalE]*\[ScriptCapitalJ]*\[ScriptM]*(2*M + (-1 + \
+\[ScriptCapitalE]^2)*rp[t[]])*Derivative[1][rp][t[]])/(2*M - rp[t[]])^3) + \
+Subscript[jt, \[ScriptL], \[ScriptM]][t[], \
+rp[t[]]]*((\[ScriptCapitalJ]^2*\[ScriptM]^2*(2*M + (-1 + \
+\[ScriptCapitalE]^2)*rp[t[]]))/(rp[t[]]^3*(-2*M + rp[t[]])^2) - \
+((2*I)*\[ScriptCapitalE]*\[ScriptCapitalJ]*\[ScriptM]*(4*M^2 + M*(-4 + \
+\[ScriptCapitalE]^2)*rp[t[]] - (-1 + \
+\[ScriptCapitalE]^2)*rp[t[]]^2)*Derivative[1][rp][t[]])/(rp[t[]]*(-2*M + \
+rp[t[]])^4)) + Subscript[htt, \[ScriptL], \[ScriptM]][t[], \
+rp[t[]]]*(((I/4)*\[ScriptCapitalE]*\[ScriptCapitalJ]*\[ScriptM]*(2*M*\
+\[ScriptCapitalJ]^2*Cos[\[Theta][]]^2 - \
+\[ScriptCapitalJ]^2*Cos[\[Theta][]]^2*rp[t[]] + 8*M*rp[t[]]^2 + 2*(-2 + \
+\[ScriptCapitalE]^2)*rp[t[]]^3))/((2*M - rp[t[]])^3*rp[t[]]^2) + \
+(M*\[ScriptCapitalE]^2*(-2*M*\[ScriptCapitalJ]^2*Cos[\[Theta][]]^2 + \
+\[ScriptCapitalJ]^2*Cos[\[Theta][]]^2*rp[t[]] - 8*M*rp[t[]]^2 - 4*(-1 + \
+\[ScriptCapitalE]^2)*rp[t[]]^3)*Derivative[1][rp][t[]])/(2*(2*M - \
+rp[t[]])^5)) + Subscript[\[ScriptCapitalK], \[ScriptL], \[ScriptM]][t[], \
+rp[t[]]]*((I*\[ScriptCapitalE]*\[ScriptCapitalJ]^3*\[ScriptM])/(4*M*rp[t[]]^3 \
+- 2*rp[t[]]^4) + \
+(\[ScriptCapitalE]^2*\[ScriptCapitalJ]^2*Sin[\[Theta][]]^2*Derivative[1][rp][\
+t[]])/(rp[t[]]*(-2*M + rp[t[]])^2)) + Subscript[\[ScriptCapitalG], \
+\[ScriptL], \[ScriptM]][t[], \
+rp[t[]]]*(((-I/8)*\[ScriptCapitalE]*\[ScriptCapitalJ]^3*\[ScriptM]*(4 - \
+\[ScriptL] - \[ScriptL]^2 + 4*\[ScriptM]^2 + (4 + \[ScriptL] + \
+\[ScriptL]^2)*Cos[2*\[Theta][]]))/((2*M - rp[t[]])*rp[t[]]^3) + \
+(\[ScriptCapitalE]^2*\[ScriptCapitalJ]^2*(-2*\[ScriptM]^2 + \[ScriptL]*(1 + \
+\[ScriptL])*Sin[\[Theta][]]^2)*Derivative[1][rp][t[]])/(2*rp[t[]]*(-2*M + \
+rp[t[]])^2)) + Subscript[hrr, \[ScriptL], \[ScriptM]][t[], \
+rp[t[]]]*(((I/8)*\[ScriptCapitalE]*\[ScriptCapitalJ]*\[ScriptM]*(-2*M*\
+\[ScriptCapitalJ]^2*(-3 + Cos[2*\[Theta][]]) + \[ScriptCapitalJ]^2*(-3 + \
+Cos[2*\[Theta][]])*rp[t[]] + 8*M*rp[t[]]^2 + 4*(-1 + \
+\[ScriptCapitalE]^2)*rp[t[]]^3))/((2*M - rp[t[]])*rp[t[]]^4) + \
+(\[ScriptCapitalE]^2*(2*M*rp[t[]]^2 - \
+2*\[ScriptCapitalJ]^2*rp[t[]]*Sin[\[Theta][]]^2 + M*\[ScriptCapitalJ]^2*(1 + \
+5*Sin[\[Theta][]]^2))*Derivative[1][rp][t[]])/(2*rp[t[]]^2*(-2*M + \
+rp[t[]])^2)) + (\[ScriptCapitalE]^2*(M*\[ScriptCapitalJ]^2*(-3 + \
+Cos[2*\[Theta][]]) - 4*M*rp[t[]]^2 - 2*(-1 + \[ScriptCapitalE]^2)*rp[t[]]^3 + \
+\[ScriptCapitalJ]^2*rp[t[]]*(1 + \
+Sin[\[Theta][]]^2))*Derivative[1][rp][t[]]*Derivative[0, 1][Subscript[hrr, \
+\[ScriptL], \[ScriptM]]][t[], rp[t[]]])/(4*rp[t[]]*(-2*M + rp[t[]])^2) - \
+((2*M + (-1 + \[ScriptCapitalE]^2)*rp[t[]])*(2*M*\[ScriptCapitalJ]^2 - \
+\[ScriptCapitalJ]^2*rp[t[]] + 2*M*rp[t[]]^2 + (-1 + \
+\[ScriptCapitalE]^2)*rp[t[]]^3)*Derivative[0, 1][Subscript[htr, \[ScriptL], \
+\[ScriptM]]][t[], rp[t[]]])/(rp[t[]]^2*(-2*M + rp[t[]])^2) + \
+(\[ScriptCapitalE]^2*rp[t[]]*(-2*M*\[ScriptCapitalJ]^2*Cos[\[Theta][]]^2 + \
+\[ScriptCapitalJ]^2*Cos[\[Theta][]]^2*rp[t[]] - 8*M*rp[t[]]^2 - 2*(-2 + \
+\[ScriptCapitalE]^2)*rp[t[]]^3)*Derivative[1][rp][t[]]*Derivative[0, \
+1][Subscript[htt, \[ScriptL], \[ScriptM]]][t[], rp[t[]]])/(4*(-2*M + \
+rp[t[]])^4) + \
+(I*\[ScriptCapitalE]*\[ScriptCapitalJ]*\[ScriptM]*(2*M*\[ScriptCapitalJ]^2 - \
+\[ScriptCapitalJ]^2*rp[t[]] + 2*M*rp[t[]]^2 + (-1 + \
+\[ScriptCapitalE]^2)*rp[t[]]^3)*Derivative[0, 1][Subscript[jr, \[ScriptL], \
+\[ScriptM]]][t[], rp[t[]]])/((2*M - rp[t[]])*rp[t[]]^4) + \
+(I*\[ScriptCapitalE]*\[ScriptCapitalJ]*\[ScriptM]*(2*M + (-1 + \
+\[ScriptCapitalE]^2)*rp[t[]])*Derivative[1][rp][t[]]*Derivative[0, \
+1][Subscript[jt, \[ScriptL], \[ScriptM]]][t[], rp[t[]]])/(2*M - rp[t[]])^3 + \
+(\[ScriptCapitalE]^2*\[ScriptCapitalJ]^2*(2*\[ScriptM]^2 - \[ScriptL]*(1 + \
+\[ScriptL])*Sin[\[Theta][]]^2)*Derivative[1][rp][t[]]*Derivative[0, \
+1][Subscript[\[ScriptCapitalG], \[ScriptL], \[ScriptM]]][t[], \
+rp[t[]]])/(4*(-2*M + rp[t[]])^2) - \
+(\[ScriptCapitalE]^2*\[ScriptCapitalJ]^2*Derivative[1][rp][t[]]*Derivative[0, \
+1][Subscript[\[ScriptCapitalK], \[ScriptL], \[ScriptM]]][t[], \
+rp[t[]]])/(2*(-2*M + rp[t[]])^2) - ((-2*M + (1 + \
+\[ScriptCapitalE]^2)*rp[t[]])*(\[ScriptCapitalJ]^2*(-3 + \
+Cos[2*\[Theta][]])*rp[t[]] + 8*M*rp[t[]]^2 + 4*(-1 + \
+\[ScriptCapitalE]^2)*rp[t[]]^3 + 4*M*\[ScriptCapitalJ]^2*(1 + \
+Sin[\[Theta][]]^2))*Derivative[1, 0][Subscript[hrr, \[ScriptL], \
+\[ScriptM]]][t[], rp[t[]]])/(8*rp[t[]]^2*(-2*M + rp[t[]])^2) - \
+(\[ScriptCapitalE]^4*rp[t[]]^4*Derivative[1][rp][t[]]*Derivative[1, \
+0][Subscript[htr, \[ScriptL], \[ScriptM]]][t[], rp[t[]]])/(-2*M + rp[t[]])^4 \
++ ((4*M^2*\[ScriptCapitalJ]^2*Cos[\[Theta][]]^2 - 2*M*(2 + \
+\[ScriptCapitalE]^2)*\[ScriptCapitalJ]^2*Cos[\[Theta][]]^2*rp[t[]] + (1 + \
+\[ScriptCapitalE]^2)*\[ScriptCapitalJ]^2*Cos[\[Theta][]]^2*rp[t[]]^2 - \
+4*M*\[ScriptCapitalE]^2*rp[t[]]^3 - 2*\[ScriptCapitalE]^2*(-1 + \
+\[ScriptCapitalE]^2)*rp[t[]]^4)*Derivative[1, 0][Subscript[htt, \[ScriptL], \
+\[ScriptM]]][t[], rp[t[]]])/(4*(-2*M + rp[t[]])^4) + \
+(I*\[ScriptCapitalE]*\[ScriptCapitalJ]*\[ScriptM]*(-2*M + (1 + \
+\[ScriptCapitalE]^2)*rp[t[]])*Derivative[1][rp][t[]]*Derivative[1, \
+0][Subscript[jr, \[ScriptL], \[ScriptM]]][t[], rp[t[]]])/(2*M - rp[t[]])^3 - \
+(I*\[ScriptCapitalE]^3*\[ScriptCapitalJ]*\[ScriptM]*rp[t[]]*Derivative[1, \
+0][Subscript[jt, \[ScriptL], \[ScriptM]]][t[], rp[t[]]])/(-2*M + rp[t[]])^3 + \
+(\[ScriptCapitalJ]^2*(-\[ScriptL] - \[ScriptL]^2 + 4*\[ScriptM]^2 + \
+\[ScriptL]*(1 + \[ScriptL])*Cos[2*\[Theta][]])*(-2*M + (1 + \
+\[ScriptCapitalE]^2)*rp[t[]])*Derivative[1, 0][Subscript[\[ScriptCapitalG], \
+\[ScriptL], \[ScriptM]]][t[], rp[t[]]])/(8*rp[t[]]*(-2*M + rp[t[]])^2) - \
+(\[ScriptCapitalJ]^2*(-2*M + (1 + \[ScriptCapitalE]^2)*rp[t[]])*Derivative[1, \
+0][Subscript[\[ScriptCapitalK], \[ScriptL], \[ScriptM]]][t[], \
+rp[t[]]])/(2*rp[t[]]*(-2*M + rp[t[]])^2)) + \
+((\[ScriptCapitalJ]^2*Cos[\[Theta][]]*(-2*M + rp[t[]] - \
+\[ScriptCapitalE]^2*rp[t[]])*Sin[\[Theta][]]*Subscript[jt, \[ScriptL], \
+\[ScriptM]][t[], rp[t[]]])/(rp[t[]]^3*(-2*M + rp[t[]])^2) - \
+(\[ScriptCapitalE]^2*\[ScriptCapitalJ]^2*Cos[\[Theta][]]*Sin[\[Theta][]]*Subs\
+cript[jr, \[ScriptL], \[ScriptM]][t[], \
+rp[t[]]]*Derivative[1][rp][t[]])/(rp[t[]]^2*(-2*M + rp[t[]])^2) + \
+Subscript[\[ScriptCapitalG], \[ScriptL], \[ScriptM]][t[], \
+rp[t[]]]*(((3*I)*\[ScriptCapitalE]*\[ScriptCapitalJ]^3*\[ScriptM]*Cos[\
+\[Theta][]]*Sin[\[Theta][]])/(4*M*rp[t[]]^3 - 2*rp[t[]]^4) + \
+(\[ScriptCapitalE]^2*\[ScriptCapitalJ]^2*Cos[\[Theta][]]*Sin[\[Theta][]]*Deri\
+vative[1][rp][t[]])/(rp[t[]]*(-2*M + rp[t[]])^2)) - \
+(\[ScriptCapitalE]^2*\[ScriptCapitalJ]^2*Cos[\[Theta][]]*Sin[\[Theta][]]*Deri\
+vative[1][rp][t[]]*Derivative[0, 1][Subscript[\[ScriptCapitalG], \[ScriptL], \
+\[ScriptM]]][t[], rp[t[]]])/(2*(-2*M + rp[t[]])^2) - \
+(\[ScriptCapitalJ]^2*(-2*M + (1 + \
+\[ScriptCapitalE]^2)*rp[t[]])*Sin[2*\[Theta][]]*Derivative[1, \
+0][Subscript[\[ScriptCapitalG], \[ScriptL], \[ScriptM]]][t[], \
+rp[t[]]])/(4*rp[t[]]*(-2*M + rp[t[]])^2))*Derivative[1, \
+0][Subscript[\[ScriptY], \[ScriptL], \[ScriptM]]][\[Theta][], \[Phi][]]"

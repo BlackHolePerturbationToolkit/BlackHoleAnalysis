@@ -1,0 +1,79 @@
+"{-1 -> 0, 0 -> \
+-((\[ScriptCapitalE]*(-(EllipticK[\[ScriptCapitalJ]^2/(\[ScriptCapitalJ]^2 + \
+rp[t]^2)]*rp[t]^2) + EllipticE[\[ScriptCapitalJ]^2/(\[ScriptCapitalJ]^2 + \
+rp[t]^2)]*(2*\[ScriptCapitalJ]^2 + \
+rp[t]^2))*Derivative[1][rp][t])/(Pi*\[ScriptCapitalJ]*(1 - \
+(2*M)/rp[t])*rp[t]^3*Sqrt[\[ScriptCapitalJ]^2 + rp[t]^2])), 2 -> \
+(\[ScriptCapitalE]*(EllipticK[\[ScriptCapitalJ]^2/(\[ScriptCapitalJ]^2 + \
+rp[t]^2)]*(\[ScriptCapitalE]^2*\[ScriptCapitalJ]^2*rp[t]^5*(12*\
+\[ScriptCapitalJ]^4 + \[ScriptCapitalJ]^2*rp[t]^2 - 15*rp[t]^4) + \
+rp[t]^2*(\[ScriptCapitalJ]^2 + rp[t]^2)*(94*M*\[ScriptCapitalJ]^6 + \
+96*M*\[ScriptCapitalJ]^4*rp[t]^2 - 74*\[ScriptCapitalJ]^4*rp[t]^3 - \
+121*\[ScriptCapitalJ]^2*rp[t]^5 - 48*rp[t]^7)) + \
+EllipticE[\[ScriptCapitalJ]^2/(\[ScriptCapitalJ]^2 + \
+rp[t]^2)]*(-(\[ScriptCapitalE]^2*\[ScriptCapitalJ]^2*rp[t]^5*(38*\
+\[ScriptCapitalJ]^4 + 31*\[ScriptCapitalJ]^2*rp[t]^2 - 15*rp[t]^4)) + \
+(-\[ScriptCapitalJ]^2 - rp[t]^2)*(188*M*\[ScriptCapitalJ]^8 + \
+406*M*\[ScriptCapitalJ]^6*rp[t]^2 - 64*\[ScriptCapitalJ]^6*rp[t]^3 + \
+222*M*\[ScriptCapitalJ]^4*rp[t]^4 - 163*\[ScriptCapitalJ]^4*rp[t]^5 - \
+145*\[ScriptCapitalJ]^2*rp[t]^7 - \
+48*rp[t]^9)))*Derivative[1][rp][t])/(2*Pi*\[ScriptCapitalJ]^3*(-1 + \
+2*\[ScriptL])*(3 + 2*\[ScriptL])*(1 - \
+(2*M)/rp[t])*rp[t]^6*(\[ScriptCapitalJ]^2 + rp[t]^2)^(5/2)), 4 -> \
+(3*\[ScriptCapitalE]*(EllipticK[\[ScriptCapitalJ]^2/(\[ScriptCapitalJ]^2 + \
+rp[t]^2)]*(-15*\[ScriptCapitalE]^4*\[ScriptCapitalJ]^4*rp[t]^12*(192*\
+\[ScriptCapitalJ]^8 + 584*\[ScriptCapitalJ]^6*rp[t]^2 + \
+169*\[ScriptCapitalJ]^4*rp[t]^4 - 322*\[ScriptCapitalJ]^2*rp[t]^6 - \
+35*rp[t]^8) - \
+2*\[ScriptCapitalE]^2*\[ScriptCapitalJ]^2*rp[t]^7*(\[ScriptCapitalJ]^2 + \
+rp[t]^2)*(63360*M*\[ScriptCapitalJ]^12 + \
+197992*M*\[ScriptCapitalJ]^10*rp[t]^2 + 216538*M*\[ScriptCapitalJ]^8*rp[t]^4 \
+- 4800*\[ScriptCapitalJ]^8*rp[t]^5 + 87890*M*\[ScriptCapitalJ]^6*rp[t]^6 - \
+7110*\[ScriptCapitalJ]^6*rp[t]^7 + 5264*M*\[ScriptCapitalJ]^4*rp[t]^8 + \
+2455*\[ScriptCapitalJ]^4*rp[t]^9 + 8645*\[ScriptCapitalJ]^2*rp[t]^11 + \
+4240*rp[t]^13) - rp[t]^2*(\[ScriptCapitalJ]^2 + \
+rp[t]^2)^2*(92160*M^2*\[ScriptCapitalJ]^16 + \
+815232*M^2*\[ScriptCapitalJ]^14*rp[t]^2 - \
+157440*M*\[ScriptCapitalJ]^14*rp[t]^3 + \
+1939840*M^2*\[ScriptCapitalJ]^12*rp[t]^4 - \
+422080*M*\[ScriptCapitalJ]^12*rp[t]^5 + \
+1942488*M^2*\[ScriptCapitalJ]^10*rp[t]^6 - \
+309120*M*\[ScriptCapitalJ]^10*rp[t]^7 + \
+892484*M^2*\[ScriptCapitalJ]^8*rp[t]^8 + 9580*M*\[ScriptCapitalJ]^8*rp[t]^9 + \
+195164*M^2*\[ScriptCapitalJ]^6*rp[t]^10 - 39360*\[ScriptCapitalJ]^8*rp[t]^10 \
++ 22780*M*\[ScriptCapitalJ]^6*rp[t]^11 + \
+28640*M^2*\[ScriptCapitalJ]^4*rp[t]^12 - 152745*\[ScriptCapitalJ]^6*rp[t]^12 \
+- 52640*M*\[ScriptCapitalJ]^4*rp[t]^13 - 213325*\[ScriptCapitalJ]^4*rp[t]^14 \
+- 21120*M*\[ScriptCapitalJ]^2*rp[t]^15 - 125600*\[ScriptCapitalJ]^2*rp[t]^16 \
+- 25600*rp[t]^18)) + EllipticE[\[ScriptCapitalJ]^2/(\[ScriptCapitalJ]^2 + \
+rp[t]^2)]*(15*\[ScriptCapitalE]^4*\[ScriptCapitalJ]^4*rp[t]^10*(128*\
+\[ScriptCapitalJ]^10 + 960*\[ScriptCapitalJ]^8*rp[t]^2 + \
+2266*\[ScriptCapitalJ]^6*rp[t]^4 + 1369*\[ScriptCapitalJ]^4*rp[t]^6 - \
+228*\[ScriptCapitalJ]^2*rp[t]^8 - 35*rp[t]^10) + \
+2*\[ScriptCapitalE]^2*\[ScriptCapitalJ]^2*rp[t]^5*(\[ScriptCapitalJ]^2 + \
+rp[t]^2)*(115200*M*\[ScriptCapitalJ]^14 + \
+449744*M*\[ScriptCapitalJ]^12*rp[t]^2 + 660732*M*\[ScriptCapitalJ]^10*rp[t]^4 \
+- 5760*\[ScriptCapitalJ]^10*rp[t]^5 + 442406*M*\[ScriptCapitalJ]^8*rp[t]^6 - \
+21300*\[ScriptCapitalJ]^8*rp[t]^7 + 116472*M*\[ScriptCapitalJ]^6*rp[t]^8 - \
+18475*\[ScriptCapitalJ]^6*rp[t]^9 - 1186*M*\[ScriptCapitalJ]^4*rp[t]^10 + \
+4310*\[ScriptCapitalJ]^4*rp[t]^11 + 10765*\[ScriptCapitalJ]^2*rp[t]^13 + \
+4240*rp[t]^15) + (\[ScriptCapitalJ]^2 + \
+rp[t]^2)^2*(184320*M^2*\[ScriptCapitalJ]^18 + \
+1711104*M^2*\[ScriptCapitalJ]^16*rp[t]^2 - \
+245760*M*\[ScriptCapitalJ]^16*rp[t]^3 + \
+4872896*M^2*\[ScriptCapitalJ]^14*rp[t]^4 - \
+884480*M*\[ScriptCapitalJ]^14*rp[t]^5 + \
+6311728*M^2*\[ScriptCapitalJ]^12*rp[t]^6 - \
+1090720*M*\[ScriptCapitalJ]^12*rp[t]^7 + \
+4083688*M^2*\[ScriptCapitalJ]^10*rp[t]^8 - \
+436180*M*\[ScriptCapitalJ]^10*rp[t]^9 + \
+1299396*M^2*\[ScriptCapitalJ]^8*rp[t]^10 - 5760*\[ScriptCapitalJ]^10*rp[t]^10 \
++ 73140*M*\[ScriptCapitalJ]^8*rp[t]^11 + \
+209484*M^2*\[ScriptCapitalJ]^6*rp[t]^12 - 83700*\[ScriptCapitalJ]^8*rp[t]^12 \
++ 15720*M*\[ScriptCapitalJ]^6*rp[t]^13 + \
+28640*M^2*\[ScriptCapitalJ]^4*rp[t]^14 - 236585*\[ScriptCapitalJ]^6*rp[t]^14 \
+- 63200*M*\[ScriptCapitalJ]^4*rp[t]^15 - 271325*\[ScriptCapitalJ]^4*rp[t]^16 \
+- 21120*M*\[ScriptCapitalJ]^2*rp[t]^17 - 138400*\[ScriptCapitalJ]^2*rp[t]^18 \
+- 25600*rp[t]^20)))*Derivative[1][rp][t])/(40*Pi*\[ScriptCapitalJ]^5*(-3 + \
+2*\[ScriptL])*(-1 + 2*\[ScriptL])*(3 + 2*\[ScriptL])*(5 + 2*\[ScriptL])*(1 - \
+(2*M)/rp[t])*rp[t]^13*(\[ScriptCapitalJ]^2 + rp[t]^2)^(9/2))}"

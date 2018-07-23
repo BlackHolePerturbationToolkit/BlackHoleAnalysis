@@ -1,0 +1,59 @@
+"{Subscript[\[ScriptCapitalK], -2 + \[ScriptL], \[ScriptM]][t[], rp[t[]]] -> \
+-(\[ScriptCapitalJ]^2*Sqrt[(1 + 2*(-2 + \[ScriptL]) + (-2 + \[ScriptL])^2 - \
+\[ScriptM]^2)/(3 + 8*(-2 + \[ScriptL]) + 4*(-2 + \[ScriptL])^2)]*Sqrt[(4 + \
+4*(-2 + \[ScriptL]) + (-2 + \[ScriptL])^2 - \[ScriptM]^2)/(15 + 16*(-2 + \
+\[ScriptL]) + 4*(-2 + \[ScriptL])^2)])/(2*rp[t[]]^2), \
+Subscript[\[ScriptCapitalG], -2 + \[ScriptL], \[ScriptM]][t[], rp[t[]]] -> \
+-(\[ScriptCapitalJ]^2*(-3 + \[ScriptL])*(-2 + \[ScriptL])*Sqrt[(1 + 2*(-2 + \
+\[ScriptL]) + (-2 + \[ScriptL])^2 - \[ScriptM]^2)/(3 + 8*(-2 + \[ScriptL]) + \
+4*(-2 + \[ScriptL])^2)]*Sqrt[(4 + 4*(-2 + \[ScriptL]) + (-2 + \[ScriptL])^2 - \
+\[ScriptM]^2)/(15 + 16*(-2 + \[ScriptL]) + 4*(-2 + \
+\[ScriptL])^2)])/(4*rp[t[]]^2), Subscript[ht, -1 + \[ScriptL], \
+\[ScriptM]][t[], rp[t[]]] -> (\[ScriptCapitalE]*\[ScriptCapitalJ]*(-1 + \
+\[ScriptL])*Sqrt[(1 + 2*(-1 + \[ScriptL]) + (-1 + \[ScriptL])^2 - \
+\[ScriptM]^2)/(3 + 8*(-1 + \[ScriptL]) + 4*(-1 + \
+\[ScriptL])^2)])/(rp[t[]]*(-2*M + rp[t[]])), Subscript[hr, -1 + \[ScriptL], \
+\[ScriptM]][t[], rp[t[]]] -> (\[ScriptCapitalE]*\[ScriptCapitalJ]*(-1 + \
+\[ScriptL])*Sqrt[(1 + 2*(-1 + \[ScriptL]) + (-1 + \[ScriptL])^2 - \
+\[ScriptM]^2)/(3 + 8*(-1 + \[ScriptL]) + 4*(-1 + \
+\[ScriptL])^2)]*Derivative[1][rp][t[]])/(rp[t[]]*(-2*M + rp[t[]])), \
+Subscript[h2, -1 + \[ScriptL], \[ScriptM]][t[], rp[t[]]] -> \
+((I/2)*\[ScriptCapitalJ]^2*(-2 + \[ScriptL])*\[ScriptM]*Sqrt[(1 + 2*(-1 + \
+\[ScriptL]) + (-1 + \[ScriptL])^2 - \[ScriptM]^2)/(3 + 8*(-1 + \[ScriptL]) + \
+4*(-1 + \[ScriptL])^2)])/rp[t[]]^4, Subscript[htt, \[ScriptL], \
+\[ScriptM]][t[], rp[t[]]] -> (\[ScriptCapitalE]^2*rp[t[]]^2)/(2*(-2*M + \
+rp[t[]])^2), Subscript[htr, \[ScriptL], \[ScriptM]][t[], rp[t[]]] -> \
+(\[ScriptCapitalE]^2*rp[t[]]^2*Derivative[1][rp][t[]])/(-2*M + rp[t[]])^2, \
+Subscript[hrr, \[ScriptL], \[ScriptM]][t[], rp[t[]]] -> (-1 + \
+\[ScriptCapitalE]^2 + (2*M*\[ScriptCapitalJ]^2)/rp[t[]]^3 - \
+\[ScriptCapitalJ]^2/rp[t[]]^2 + (2*M)/rp[t[]])/2, Subscript[jt, \[ScriptL], \
+\[ScriptM]][t[], rp[t[]]] -> \
+(I*\[ScriptCapitalE]*\[ScriptCapitalJ]*\[ScriptM])/(rp[t[]]*(-2*M + \
+rp[t[]])), Subscript[jr, \[ScriptL], \[ScriptM]][t[], rp[t[]]] -> \
+(I*\[ScriptCapitalE]*\[ScriptCapitalJ]*\[ScriptM]*Derivative[1][rp][t[]])/(rp\
+[t[]]*(-2*M + rp[t[]])), Subscript[\[ScriptCapitalK], \[ScriptL], \
+\[ScriptM]][t[], rp[t[]]] -> (\[ScriptCapitalJ]^2*(-1 + \[ScriptL] + \
+\[ScriptL]^2 + \[ScriptM]^2))/((-3 + 4*\[ScriptL] + \
+4*\[ScriptL]^2)*rp[t[]]^2), Subscript[\[ScriptCapitalG], \[ScriptL], \
+\[ScriptM]][t[], rp[t[]]] -> (\[ScriptCapitalJ]^2*(-2 + \[ScriptL] + \
+\[ScriptL]^2)*(\[ScriptL] + \[ScriptL]^2 - 3*\[ScriptM]^2))/(2*(-3 + \
+4*\[ScriptL] + 4*\[ScriptL]^2)*rp[t[]]^2), Subscript[ht, 1 + \[ScriptL], \
+\[ScriptM]][t[], rp[t[]]] -> -((\[ScriptCapitalE]*\[ScriptCapitalJ]*(2 + \
+\[ScriptL])*Sqrt[((1 + \[ScriptL])^2 - \[ScriptM]^2)/(-1 + 4*(1 + \
+\[ScriptL])^2)])/(rp[t[]]*(-2*M + rp[t[]]))), Subscript[hr, 1 + \[ScriptL], \
+\[ScriptM]][t[], rp[t[]]] -> -((\[ScriptCapitalE]*\[ScriptCapitalJ]*(2 + \
+\[ScriptL])*Sqrt[((1 + \[ScriptL])^2 - \[ScriptM]^2)/(-1 + 4*(1 + \
+\[ScriptL])^2)]*Derivative[1][rp][t[]])/(rp[t[]]*(-2*M + rp[t[]]))), \
+Subscript[h2, 1 + \[ScriptL], \[ScriptM]][t[], rp[t[]]] -> \
+((-I/2)*\[ScriptCapitalJ]^2*(3 + \[ScriptL])*\[ScriptM]*Sqrt[((1 + \
+\[ScriptL])^2 - \[ScriptM]^2)/(-1 + 4*(1 + \[ScriptL])^2)])/rp[t[]]^4, \
+Subscript[\[ScriptCapitalK], 2 + \[ScriptL], \[ScriptM]][t[], rp[t[]]] -> \
+-(\[ScriptCapitalJ]^2*Sqrt[((2 + \[ScriptL])^2 - \[ScriptM]^2)/(-1 + 4*(2 + \
+\[ScriptL])^2)]*Sqrt[(1 - 2*(2 + \[ScriptL]) + (2 + \[ScriptL])^2 - \
+\[ScriptM]^2)/(3 - 8*(2 + \[ScriptL]) + 4*(2 + \
+\[ScriptL])^2)])/(2*rp[t[]]^2), Subscript[\[ScriptCapitalG], 2 + \[ScriptL], \
+\[ScriptM]][t[], rp[t[]]] -> -(\[ScriptCapitalJ]^2*(3 + \[ScriptL])*(4 + \
+\[ScriptL])*Sqrt[((2 + \[ScriptL])^2 - \[ScriptM]^2)/(-1 + 4*(2 + \
+\[ScriptL])^2)]*Sqrt[(1 - 2*(2 + \[ScriptL]) + (2 + \[ScriptL])^2 - \
+\[ScriptM]^2)/(3 - 8*(2 + \[ScriptL]) + 4*(2 + \
+\[ScriptL])^2)])/(4*rp[t[]]^2)}"
