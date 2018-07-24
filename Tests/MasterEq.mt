@@ -2,7 +2,8 @@
 
 
 Test[
-	Module[{oddFE, oddFEcomb, Psisym, hrsym, psiFromMP, dthr, oddFEcomb1, t, r, M,la},
+	Module[{oddFE, oddFEcomb, Psisym, hrsym, psiFromMP, dthr, oddFEcomb1, t, r, M,la,f},
+		f = SchwarzschildF;
  		t = TSymbol[];
  		r = RSymbol[];
  		M = BlackHoleMassSymbol[];
@@ -29,7 +30,8 @@ Test[
 
 Test[
 	
-	Module[{evenFE, evenFEcomb, Psisym, hrrsym, psiFromMP, evenFEcomb1, t,r, M, la, sol, hrrSol},
+	Module[{evenFE, evenFEcomb, Psisym, hrrsym, psiFromMP, evenFEcomb1, t,r, M, la, sol, hrrSol,f},
+		f = SchwarzschildF;
  		t = TSymbol[];
  		r = RSymbol[];
  		M = BlackHoleMassSymbol[];
@@ -159,7 +161,8 @@ Test[
 ]
 
 Test[
-	Module[{oddFE, RWComb, Psisym, hrsym, psiFromMP, RWComb1, t, r, M, la, sol, hrSol},
+	Module[{oddFE, RWComb, Psisym, hrsym, psiFromMP, RWComb1, t, r, M, la, sol, hrSol,f},
+ 		f = SchwarzschildF;
  		t = TSymbol[];
  		r = RSymbol[];
  		M = BlackHoleMassSymbol[];
@@ -231,5 +234,3 @@ Test[
 	TestID->"EvenMasterFunctionToOdd"
 ]
 
-Close[stdStream]
-Close[msgStream]

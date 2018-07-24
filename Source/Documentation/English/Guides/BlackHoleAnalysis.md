@@ -133,7 +133,7 @@ Similar functions exist for htr, hrr, jt, jr, K, G, ht, hr, and h2."},
     },
     {"Title"->"Odds and ends",
        "DetailedFunctions" -> {
-           {"f", "1 - 2M/r"},
+           {"SchwarzschildF", "1 - 2M/r"},
            {"KerrMetric", "The Kerr metric in Boyer-Lindquist coordinates"},
            {"SchwarzschildMetric", "The Schwarzschild metric in Schwarzschild coordinates"},
            {"RStarOfR", "Tortoise coordinate in terms of Boyer-Lindquist r"},

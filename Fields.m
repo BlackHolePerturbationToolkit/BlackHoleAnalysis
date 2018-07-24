@@ -368,7 +368,7 @@ SpinWeightedSpheroidalHarmonicFunction[opts:OptionsPattern[]]:=SpinWeightedSpher
 
 def@
 getPsiFromMPs[syms_Association,opts:OptionsPattern[]] :=
-Module[{t, r, M, la,parOpt,varOpt,rpDot,rp,m,
+Module[{t, r, M, la,parOpt,varOpt,rpDot,rp,m,f,
         hrr, KK, ht, hr, weak,htr,htt,EE,JJ,
 		optionsRules,parity,var,gauge},
 
@@ -391,6 +391,7 @@ Module[{t, r, M, la,parOpt,varOpt,rpDot,rp,m,
 	EE=SpecificEnergySymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
 	rp=RpSymbol[syms];
+	f = SchwarzschildF;
 
 	Switch[var,
 		"ZM",
@@ -534,12 +535,13 @@ H2Amplitude[opts:OptionsPattern[]]:=H2Amplitude[DefaultSymbols[],opts]
 
 def@
 MartelPoissonAmplitude[syms_Association,label_String]:=
-Module[{t,r,M,la,hBL},
+Module[{t,r,M,la,hBL,f},
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	la=LambdaSymbol[syms];
 	hBL=HBarackSagoSymbol[syms];
+	f = SchwarzschildF;
 	
 	Switch[label,
 		"htt",1/(2r) (hBL[1][t,r]+f[r,M]hBL[6][t,r]),
@@ -561,43 +563,15 @@ reDef@
 MartelPoissonAmplitude[label_String]:=MartelPoissonAmplitude[DefaultSymbols[],label]
 
 
-(*def@
-MartelPoissonAmplitude[syms_Association,label_String]:=
-Module[{t,r,M,l,hBL},
-	t=TSymbol[syms];
-	r=RSymbol[syms];
-	M=BlackHoleMassSymbol[syms];
-	l=LSymbol[syms];
-	hBL=HBarackSagoSymbol[syms];
-	
-	Switch[label,
-		"htt",1/(2r) (hBL[1][t,r]+f[r,M]hBL[6][t,r]),
-		"htr",1/(2r) (f[r,M]^-1 hBL[2][t,r]),
-		"hrr",1/(2r f[r,M]^2) (hBL[1][t,r]-f[r,M]hBL[6][t,r]),
-		"jt",1/(2l(l+1) ) hBL[4][t,r],
-		"jr",1/(2l(l+1)f[r,M] ) hBL[5][t,r],
-		"K",1/(2r ) hBL[3][t,r],
-		
-		"G",1/r 1/((l+2)(l+1)l(l-1)) hBL[7][t,r],
-		"ht",-1/(2l(l+1) ) hBL[8][t,r],
-		"hr",-1/(2l(l+1)f[r,M] ) hBL[9][t,r],
-		"h2",-r 1/((l+2)(l+1)l(l-1)) hBL[10][t,r],
-		___,Print["Label "<>label<>" not found in list "<>StringJoin[Riffle[MetricPerturbationLables[],", "]]];Aborting[syms]
-
-	]
-]
-reDef@
-MartelPoissonAmplitude[label_String]:=MartelPoissonAmplitude[DefaultSymbols[],label]*)
-
-
 def@
 BarackSagoAmplitude[syms_Association,label_Integer,gauge_String:"RWZ"]:=
-Module[{t,r,M,la,amp},
+Module[{t,r,M,la,amp,f},
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	la=LambdaSymbol[syms];
 	amp[str_]:=AmplitudeFunction[str][syms,"Gauge"->gauge];
+	f = SchwarzschildF;
 	
 	Switch[label,
 		1,r(f[r,M]^2 amp["hrr"]+amp["htt"]),
@@ -874,7 +848,7 @@ mpInvarTests={"Weak"->BooleanQ,"Gauge"->Function[x,MemberQ[{"ModRWZ","RWZ","Lore
 
 def@
 HttInvariantAmplitude[syms_Association,opts:OptionsPattern[]]:=
-Module[{t,r,M,htt,jt,jr,G,gauge},
+Module[{t,r,M,htt,jt,jr,G,gauge,f},
 
 	TestOptions[mpInvarTests,{opts}];
 
@@ -883,7 +857,8 @@ Module[{t,r,M,htt,jt,jr,G,gauge},
 	r=RSymbol[syms];
 	t=TSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-
+	f = SchwarzschildF;
+	
 	htt=HttAmplitude[syms,FilterRules[{opts},Options@HttAmplitude]];
 	
 	If[gauge==="Invariant"||gauge==="RWZ",
@@ -903,7 +878,7 @@ HttInvariantAmplitude[opts:OptionsPattern[]]:=HttInvariantAmplitude[DefaultSymbo
 
 def@
 HtrInvariantAmplitude[syms_Association,opts:OptionsPattern[]]:=
-Module[{t,r,M,htr,jt,jr,G,gauge},
+Module[{t,r,M,htr,jt,jr,G,gauge,f},
 
 	TestOptions[mpInvarTests,{opts}];
 
@@ -912,7 +887,8 @@ Module[{t,r,M,htr,jt,jr,G,gauge},
 	r=RSymbol[syms];
 	t=TSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-
+	f = SchwarzschildF;
+	
 	htr=HtrAmplitude[syms,FilterRules[{opts},Options@HtrAmplitude]];
 	
 	If[gauge==="Invariant"||gauge==="RWZ",
@@ -932,7 +908,7 @@ HtrInvariantAmplitude[opts:OptionsPattern[]]:=HtrInvariantAmplitude[DefaultSymbo
 
 def@
 HrrInvariantAmplitude[syms_Association,opts:OptionsPattern[]]:=
-Module[{t,r,M,hrr,jr,G,gauge},
+Module[{t,r,M,hrr,jr,G,gauge,f},
 
 	TestOptions[mpInvarTests,{opts}];
 
@@ -941,7 +917,8 @@ Module[{t,r,M,hrr,jr,G,gauge},
 	r=RSymbol[syms];
 	t=TSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-
+	f = SchwarzschildF;
+	
 	hrr=HrrAmplitude[syms,FilterRules[{opts},Options@HrrAmplitude]];
 
 	If[gauge==="Invariant"||gauge==="RWZ",
@@ -959,7 +936,7 @@ HrrInvariantAmplitude[opts:OptionsPattern[]]:=HrrInvariantAmplitude[DefaultSymbo
 
 def@
 KInvariantAmplitude[syms_Association,opts:OptionsPattern[]]:=
-Module[{t,r,M,KK,jr,G,gauge,la},
+Module[{t,r,M,KK,jr,G,gauge,la,f},
 
 	TestOptions[mpInvarTests,{opts}];
 
@@ -969,7 +946,8 @@ Module[{t,r,M,KK,jr,G,gauge,la},
 	t=TSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	la= LambdaSymbol[syms];
-
+	f = SchwarzschildF;
+	
 	KK=KAmplitude[syms,FilterRules[{opts},Options@KAmplitude]];
 	
 	If[gauge==="Invariant"||gauge==="RWZ",
@@ -1040,13 +1018,14 @@ mpFromPsiTests={"Weak" -> BooleanQ, "SourceExpansion" -> sourceExpQ};
 
 def@
 getKFromPsi[syms_Association,opts:OptionsPattern[]] := 
-Module[{t,r,M,la,A,KK,KKRHS, Psi, Qtt, se,weak},
+Module[{t,r,M,la,A,KK,KKRHS, Psi, Qtt, se,weak,f},
 
 	TestOptions[mpFromPsiTests,{opts}];
 
 	se=OptionValue[SourceExpansion];
 	weak=OptionValue[Weak];
-
+	f = SchwarzschildF;
+	
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
@@ -1065,13 +1044,14 @@ Module[{t,r,M,la,A,KK,KKRHS, Psi, Qtt, se,weak},
 
 def@
 getHttFromPsi[syms_Association,opts:OptionsPattern[]] := 
-Module[{t,r,M,QSharp,htt,hrr,httRHS,se,weak},
+Module[{t,r,M,QSharp,htt,hrr,httRHS,se,weak,f},
 
 	TestOptions[mpFromPsiTests,{opts}];
 
 	se=OptionValue[SourceExpansion];
 	weak=OptionValue[Weak];
-
+	f = SchwarzschildF;
+	
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
@@ -1088,13 +1068,14 @@ Module[{t,r,M,QSharp,htt,hrr,httRHS,se,weak},
 def@
 getHtrFromPsi[syms_Association,opts:OptionsPattern[]] := 
 Module[{t,r,M,la,Qtt,Qtr,B, htr,htrRHS,
-		Psi, se,weak},
+		Psi, se,weak,f},
 
 	TestOptions[mpFromPsiTests,{opts}];
 
 	se=OptionValue[SourceExpansion];
 	weak=OptionValue[Weak];
 
+	f = SchwarzschildF;
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
@@ -1116,13 +1097,14 @@ Module[{t,r,M,la,Qtt,Qtr,B, htr,htrRHS,
 def@
 getHrrFromPsi[syms_Association,opts:OptionsPattern[]] := 
 Module[{t,r,M,la,KK,hrr,hrrRHS,
-		Psi,se,weak},
+		Psi,se,weak,f},
 
 	TestOptions[mpFromPsiTests,{opts}];
 
 	se=OptionValue[SourceExpansion];
 	weak=OptionValue[Weak];
 
+	f = SchwarzschildF;
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
@@ -1140,13 +1122,14 @@ Module[{t,r,M,la,KK,hrr,hrrRHS,
 def@
 getHtFromPsi[syms_Association,opts:OptionsPattern[]] := 
 Module[{t,r,M,Pt,la,ht,htRHS,
-		Psi,se,weak},
+		Psi,se,weak,f},
 
 	TestOptions[mpFromPsiTests,{opts}];
 
 	se=OptionValue[SourceExpansion];
 	weak=OptionValue[Weak];
-
+	
+	f = SchwarzschildF;
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
@@ -1164,13 +1147,14 @@ Module[{t,r,M,Pt,la,ht,htRHS,
 def@
 getHrFromPsi[syms_Association,opts:OptionsPattern[]] := 
 Module[{t,r,M,Pr,la,hr,hrRHS,
-		Psi, se,weak},
+		Psi, se,weak,f},
 
 	TestOptions[mpFromPsiTests,{opts}];
 
 	se=OptionValue[SourceExpansion];
 	weak=OptionValue[Weak];
 
+	f = SchwarzschildF;
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
@@ -1187,7 +1171,7 @@ Module[{t,r,M,Pr,la,hr,hrRHS,
 
 def@
 getHttMonopoleZerilli[syms_Association]:=
-Module[{t,r,th,rp,M,En,mu},
+Module[{t,r,th,rp,M,En,mu,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
@@ -1196,6 +1180,7 @@ Module[{t,r,th,rp,M,En,mu},
 	M=BlackHoleMassSymbol[syms];
 	En=SpecificEnergySymbol[syms];
 	th=HeavisideSymbol[syms];
+	f = SchwarzschildF;
 
 	(*(4Sqrt[\[Pi]] (mu En)/r -(4Sqrt[\[Pi]]mu)/En f[r,M]/(rp[t] f[rp[t],M]) (2 En^2-USquared[syms]))th[r-rp[t]]*)
 	
@@ -1205,7 +1190,7 @@ Module[{t,r,th,rp,M,En,mu},
 
 def@
 getHrrMonopoleZerilli[syms_Association]:=
-Module[{t,r,th,rp,M,En,mu},
+Module[{t,r,th,rp,M,En,mu,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
@@ -1214,6 +1199,7 @@ Module[{t,r,th,rp,M,En,mu},
 	M=BlackHoleMassSymbol[syms];
 	En=SpecificEnergySymbol[syms];
 	th=HeavisideSymbol[syms];
+	f = SchwarzschildF;
 
 	4Sqrt[\[Pi]] (mu En)/(r f[r,M]^2) th[r-rp[t]]
 
@@ -1238,7 +1224,7 @@ Module[{t,r,th,rp,JJ,mu},
 
 def@
 getHttDipoleZerilli[syms_Association]:=
-Module[{t,r,th,rp,M,En,JJ,mu,phip},
+Module[{t,r,th,rp,M,En,JJ,mu,phip,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
@@ -1249,6 +1235,7 @@ Module[{t,r,th,rp,M,En,JJ,mu,phip},
 	JJ=SpecificAngularMomentumSymbol[syms];
 	th=HeavisideSymbol[syms];
 	phip=PhiPSymbol[syms];
+	f = SchwarzschildF;
 
 	-Sqrt[((8\[Pi])/3)] (f[rp[t],M]r mu Exp[-I phip[t]])/f[r,M] ((6 rp[t](M - I En JJ rp'[t])-3 JJ^2 f[rp[t],M]+(2 En^2-3)rp[t]^2)/(En rp[t]^4)+(En rp[t])/r^3)th[r-rp[t]]
 
@@ -1276,7 +1263,7 @@ Module[{t,r,th,rp,M,En,JJ,mu,phip},
 
 def@
 getHrrDipoleZerilli[syms_Association]:=
-Module[{t,r,th,rp,M,En,mu,phip},
+Module[{t,r,th,rp,M,En,mu,phip,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
@@ -1286,6 +1273,7 @@ Module[{t,r,th,rp,M,En,mu,phip},
 	En=SpecificEnergySymbol[syms];
 	th=HeavisideSymbol[syms];
 	phip=PhiPSymbol[syms];
+	f = SchwarzschildF;
 
 	-Sqrt[24\[Pi]]mu En (rp[t]f[rp[t],M])/(r^2 f[r,M]^3) Exp[-I phip[t]]th[r-rp[t]]
 
@@ -1297,13 +1285,14 @@ pushTests={"Mode"->modeQ,"Weak" ->BooleanQ,"InitialGauge"->gaugeInitFinalQ,"Fina
 
 def@
 HttPush[syms_Association,opts:OptionsPattern[]]:=
-Module[{t,r,M,xiT,xiR},
+Module[{t,r,M,xiT,xiR,f},
 
 	TestOptions[pushTests,{opts}];
 
 	r=RSymbol[syms];
 	t=TSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
+	f = SchwarzschildF;
 
 	xiT=XiEvenTAmplitude[syms,FilterRules[{opts},Options@XiEvenTAmplitude]];
 	xiR=XiEvenRAmplitude[syms,FilterRules[{opts},Options@XiEvenRAmplitude]];
@@ -1316,13 +1305,14 @@ HttPush[opts:OptionsPattern[]]:=HttPush[DefaultSymbols[],opts]
 
 def@
 HtrPush[syms_Association,opts:OptionsPattern[]]:=
-Module[{t,r,M,xiT,xiR},
+Module[{t,r,M,xiT,xiR,f},
 
 	TestOptions[pushTests,{opts}];
 
 	r=RSymbol[syms];
 	t=TSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
+	f = SchwarzschildF;
 
 	xiT=XiEvenTAmplitude[syms,FilterRules[{opts},Options@XiEvenTAmplitude]];
 	xiR=XiEvenRAmplitude[syms,FilterRules[{opts},Options@XiEvenRAmplitude]];
@@ -1335,14 +1325,15 @@ HtrPush[opts:OptionsPattern[]]:=HtrPush[DefaultSymbols[],opts]
 
 def@
 HrrPush[syms_Association,opts:OptionsPattern[]]:=
-Module[{t,r,M,xiR},
+Module[{t,r,M,xiR,f},
 
 	TestOptions[pushTests,{opts}];
 
 	r=RSymbol[syms];
 	t=TSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-
+	f = SchwarzschildF;
+	
 	xiR=XiEvenRAmplitude[syms,FilterRules[{opts},Options@XiEvenRAmplitude]];
 
 	- 2 D[xiR,r] - (2M)/(f[r,M] r^2) xiR
@@ -1391,7 +1382,7 @@ JrPush[opts:OptionsPattern[]]:=JrPush[DefaultSymbols[],opts]
 
 def@
 KPush[syms_Association,opts:OptionsPattern[]]:=
-Module[{t,r,M,la,second,first,xiR,xiE,mode,laN},
+Module[{t,r,M,la,second,first,xiR,xiE,mode,laN,f},
 
 	TestOptions[pushTests,{opts}];
 
@@ -1400,7 +1391,8 @@ Module[{t,r,M,la,second,first,xiR,xiE,mode,laN},
 	M=BlackHoleMassSymbol[syms];
 	la=LambdaSymbol[syms];
 	mode=OptionValue[Mode];
-
+	f = SchwarzschildF;
+	
 	xiR = XiEvenRAmplitude[syms,FilterRules[{opts},Options@XiEvenRAmplitude]];
 	first = -(2 f[r,M])/r xiR;
 

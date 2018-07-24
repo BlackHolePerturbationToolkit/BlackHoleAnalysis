@@ -1,13 +1,5 @@
 (* Mathematica Test File *)
 
-(*outdir=FileNameJoin[{$UserBaseDirectory,"Applications","BlackHoleAnalysis","Tests","Output"}];
-stdStream = OpenAppend[FileNameJoin[{outdir, "stdout.txt"}], FormatType -> OutputForm];
-$Output = {stdStream};
-msgStream = OpenAppend[FileNameJoin[{outdir, "messages.txt"}], FormatType -> OutputForm];
-$Messages = {msgStream};
-
-syms=SetOutputDirectory[DefaultSymbols[],outdir];
-*)
 Test[
 	Simplify@RemoveRpDots[FourVelocity[].SchwarzschildMetric[Indices -> "Down", AtParticle -> True].FourVelocity[]],
 	-1,
@@ -128,6 +120,3 @@ Module[ {t,r,rp,DD,func},
 		  	EquivalenceFunction -> ((Simplify[#1-#2] == 0) &)
 		]
 ]
-
-Close[stdStream]
-Close[msgStream]

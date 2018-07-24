@@ -171,7 +171,7 @@ lorenzFieldEquations[syms_Association,opts:OptionsPattern[]] :=
 Module[{mpOpts,htt, htr, hrr,jt,jr, KK,G,ht,hr,h2,mode,mp,parity,homog,se,
 		eqHtt,eqHtr,eqHrr,eqJt,eqJr,eqK,eqG,eqHt,eqHr,eqH2,box,srcOpts,srcInds,
 		t,r,M,la,rp,eqList,optionsRules,newOpts,modeMod,eqFieldList,
-		Qtt,Qtr,Qrr,Qt,Qr,QFlat,QSharp,Pt,Pr,P},
+		Qtt,Qtr,Qrr,Qt,Qr,QFlat,QSharp,Pt,Pr,P,f},
 
 		optionsRules={"Parity" -> parityBothQ,
 						"Homogeneous" -> BooleanQ,
@@ -197,7 +197,8 @@ Module[{mpOpts,htt, htr, hrr,jt,jr, KK,G,ht,hr,h2,mode,mp,parity,homog,se,
 		rp = RpSymbol[syms];
 		M = BlackHoleMassSymbol[syms];
 		la= LambdaSymbol[syms];
-
+		f = SchwarzschildF;
+		
 		modeMod[x_]:=Switch[mode,
 						"Monopole",
 						If[parity==="Even",x[[{1,2,3,6}]]/.la->LambdaOfL[0],{}],
@@ -307,7 +308,7 @@ Clear[rwzFieldEquations]
 rwzFieldEquations[syms_Association,opts:OptionsPattern[]] :=
 Module[{mpOpts,htt, htr, hrr, KK,ht,hr,mode,mp,parity,homog,se,srcOpts,
 		eqQtt,eqQtr,eqQrr,eqQt,eqQr,eqQFlat,eqQSharp,eqPt,eqPr,eqP,srcInds,
-		t,r,M,la,rp,eqList,optionsRules,newOpts,modeMod,eqSourceList},
+		t,r,M,la,rp,eqList,optionsRules,newOpts,modeMod,eqSourceList,f},
 
 		optionsRules={"Parity" -> parityBothQ,
 						"Homogeneous" -> BooleanQ,
@@ -333,6 +334,7 @@ Module[{mpOpts,htt, htr, hrr, KK,ht,hr,mode,mp,parity,homog,se,srcOpts,
 		rp = RpSymbol[syms];
 		M = BlackHoleMassSymbol[syms];
 		la= LambdaSymbol[syms];
+		f = SchwarzschildF;
 
 		modeMod[x_]:=Switch[mode,
 						"Monopole",
@@ -428,7 +430,7 @@ Clear[invariantFieldEquations]
 invariantFieldEquations[syms_Association,opts:OptionsPattern[]] :=
 Module[{mpOpts,htt, htr, hrr, KK,ht,hr,parity,homog,se,srcOpts,srcInds,
 		eqQtt,eqQtr,eqQrr,eqQt,eqQr,eqQFlat,eqQSharp,eqPt,eqPr,eqP,
-		t,r,M,la,rp,eqList,optionsRules,eqSourceList,newOpts},
+		t,r,M,la,rp,eqList,optionsRules,eqSourceList,newOpts,f},
 
 		optionsRules={"Parity" -> parityBothQ,
 						"Homogeneous" -> BooleanQ,
@@ -453,7 +455,8 @@ Module[{mpOpts,htt, htr, hrr, KK,ht,hr,parity,homog,se,srcOpts,srcInds,
 		rp = RpSymbol[syms];
 		M = BlackHoleMassSymbol[syms];
 		la= LambdaSymbol[syms];
-
+		f = SchwarzschildF;
+		
 		mpOpts=FilterRules[{opts},{ "Weak","Gauge"}];
 
 		eqList=
@@ -537,7 +540,7 @@ Module[{mpOpts,htt, htr, hrr, KK,ht,hr,parity,homog,se,srcOpts,srcInds,
 def@
 MasterEquation[syms_Association,opts:OptionsPattern[]] :=
 Module[{t, r, M, potential, Psi,varOpt,parOpt,parity,var,
-        source, optionsRules, homog},
+        source, optionsRules, homog, f},
 
 	optionsRules = {"Parity" -> Function[x,MemberQ[{Default,"Even","Odd"},x]],
 					"Variable" -> Function[x,MemberQ[masterVars,x]],
@@ -557,7 +560,8 @@ Module[{t, r, M, potential, Psi,varOpt,parOpt,parity,var,
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-
+	f = SchwarzschildF;
+	
 	Psi=MasterFunction[syms,FilterRules[{opts},Options@MasterFunction]];
 
 	potential=MasterEquationPotential[syms,"Variable"->var];
@@ -571,7 +575,7 @@ MasterEquation[opts:OptionsPattern[]]:=MasterEquation[DefaultSymbols[],opts]
 
 def@
 MasterEquationPotential[syms_Association,opts:OptionsPattern[]] := 
-Module[{t, r, M, la,optionsRules,parity,var,parOpt,varOpt},
+Module[{t, r, M, la,optionsRules,parity,var,parOpt,varOpt, f},
 
 	optionsRules = {"Parity" -> Function[x,MemberQ[{Default,"Even","Odd"},x]],
 					"Variable" -> Function[x,MemberQ[masterVars,x]]};
@@ -585,7 +589,8 @@ Module[{t, r, M, la,optionsRules,parity,var,parOpt,varOpt},
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	la=LambdaSymbol[syms];
-		
+	f = SchwarzschildF;
+			
 	If[parity==="Even"&&Not[MemberQ[jtVars,var]],
 		f[r,M]/(r^2 CapitalLambda[r,M,la]^2) (2la^2 (la+1+(3M)/r)+(18M^2)/r^2 (la+M/r)),
 		f[r,M]/r^2 (2(la+1)-(6 M)/r)
@@ -635,7 +640,7 @@ RemoveMasterFunctionRDerivatives[expr_,opts:OptionsPattern[]]:=RemoveMasterFunct
 
 def@
 SourceConservation[syms_Association,opts:OptionsPattern[]] := 
-Module[{t, r, M, la,ind,rp,se,srcOpts,
+Module[{t, r, M, la,ind,rp,se,srcOpts,f,
         Qtt, Qtr, Qrr, Qt, Qr, QSharp, QFlat, QttUp, QtrUp, QrrUp, QtUp, QrUp,
         Pt, Pr, P, PtUp, PrUp, optionsRules,bianchiIDs,parity,newOpts},
 
@@ -658,7 +663,8 @@ Module[{t, r, M, la,ind,rp,se,srcOpts,
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	la=LambdaSymbol[syms];
-
+	f = SchwarzschildF;
+	
 	srcOpts= Sequence[SourceExpansion->se,Indices->ind];
 
 	Switch[parity,
@@ -737,7 +743,7 @@ GaugeConditions[opts:OptionsPattern[]]:=GaugeConditions[DefaultSymbols[],opts]
 
 def@
 lorenzGaugeConditions[syms_Association,opts:OptionsPattern[]] := 
-Module[{t, r, M, la,weak,parity,httL, htrL, hrrL, jtL, jrL, KKL, GL,
+Module[{t, r, M, la,weak,parity,httL, htrL, hrrL, jtL, jrL, KKL, GL,f,
 		htL, hrL, h2L, mpOpts,mode,modeMod, lorenzConds,cond},
 
 	TestOptions[gaugeCondTests,{opts}];
@@ -750,6 +756,7 @@ Module[{t, r, M, la,weak,parity,httL, htrL, hrrL, jtL, jrL, KKL, GL,
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	la=LambdaSymbol[syms];
+	f = SchwarzschildF;;
 	
 	mpOpts=Sequence[Gauge->"Lorenz",Weak->weak];
 	
@@ -814,7 +821,7 @@ Module[{mpLabels,mode,parity,weak,t,r},
 def@
 GaugeTransformationEquations[syms_Association,opts:OptionsPattern[]] :=
 Module[{t, r, M, la, newOpts,
-        weak,parity,homog,
+        weak,parity,homog,f,
 		xiO, xiE, xiEt, xiEr,
 		optionsRules, xiEqs, xiEqsHomog, 
 		xiEq},
@@ -839,7 +846,8 @@ Module[{t, r, M, la, newOpts,
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	la=LambdaSymbol[syms];
-
+	f = SchwarzschildF;
+	
 	xiEqsHomog=
 	If[parity==="Even",
 
@@ -877,7 +885,7 @@ GaugeTransformationEquations[opts:OptionsPattern[]]:=GaugeTransformationEquation
 def@
 GaugeTransformationSources[syms_Association,opts:OptionsPattern[]] := 
 Module[{t, r, M,se,parity,weak,
-        htt, htr, hrr, KK,
+        htt, htr, hrr, KK,f,
 		Qsharp,source,psi,
         hr, P, optionsRules, sources},
 
@@ -895,6 +903,7 @@ Module[{t, r, M,se,parity,weak,
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
+	f = SchwarzschildF;
 
 	sources=
 	If[parity==="Even",
@@ -1004,13 +1013,14 @@ MasterFunctionAsTeukolskyFunction[nDs_Integer/;nDs>=0,opts:OptionsPattern[]]:=Ma
 
 def@
 EvenMasterFunctionAsOdd[syms_Association]:=
-Module[{r,om,psiO,la,M},
+Module[{r,om,psiO,la,M,f},
 
 	M=BlackHoleMassSymbol[syms];
 	psiO=MasterFunctionSymbol[syms,Parity->"Odd"];
 	r=RSymbol[syms];
 	om=FrequencySymbol[syms];
 	la=LambdaSymbol[syms];
+	f = SchwarzschildF;
 	
 	Collect[(la (1+la)+18M^2 f[r,M]/(2r(la r + 3M)))psiO[r] + 3M f[r,M]D[psiO[r],r],{psiO[r],Derivative[_][psiO][r]},Simplify]
 ]
@@ -1020,7 +1030,7 @@ EvenMasterFunctionAsOdd[]:=EvenMasterFunctionAsOdd[DefaultSymbols[]]
 
 reDef@
 EvenMasterFunctionAsOdd[syms_Association,pm_]:=
-Module[{r,om,psiO,la,M,pmN},
+Module[{r,om,psiO,la,M,pmN,f},
 
 	If[pm=!="Plus"&&pm=!="Minus",Print["Master function must be chosen to be \"Plus\" or \"Minus\"."];Aborting[syms]];
 	pmN=If[pm==="Plus",1,-1];
@@ -1030,6 +1040,7 @@ Module[{r,om,psiO,la,M,pmN},
 	r=RSymbol[syms];
 	om=FrequencySymbol[syms];
 	la=LambdaSymbol[syms];
+	f = SchwarzschildF;
 	
 	Collect[1/(4 la (1+la)+ pmN 12 I om M) ((4 la (1+la)+72M^2 f[r,M]/(2r(la r + 3M)))psiO[r]+12M f[r,M]D[psiO[r],r]),{psiO[r],Derivative[_][psiO][r]},Simplify]
 ]

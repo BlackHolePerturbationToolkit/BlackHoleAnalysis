@@ -33,8 +33,8 @@ ROfRStar[] returns ROfRStar[r_*,M] using built-in symbols.";
 LambdaOfL::usage="LambdaOfL[l] returns (l+2)(l-1)/2
 LambdaOfL[] returns LambdaOfL[l] using built-in symbols.";
 
-f::usage="f[r,M] returns the Schwarzschild redshift 1-2M/r.
-f[] returns f[r,M] using built-in symbols.";
+SchwarzschildF::usage="SchwarzschildF[r,M] returns the Schwarzschild redshift 1-2M/r.
+SchwarzschildF[] returns SchwarzschildF[r,M] using built-in symbols.";
 CapitalLambda::usage="CapitalLambda[r,M,lambda] returns the Capital Lambda quantity lambda + 3M/r  where \
 M is the black hole mass, r the Schwarzschild radius and lambda is (l+2)(l-1)/2.
 CapitalLambda[] returns CapitalLambda[r,M,lambda] using built-in symbols.";
@@ -166,7 +166,7 @@ Module[{ff,t,r,rp,th,diag,diagR,inds,atP,optionsRules,equator,thp,thpVal},
 	atP=OptionValue["AtParticle"];
 	equator=OptionValue["Equatorial"];
 
-	ff=f[syms];
+	ff=SchwarzschildF[syms];
 	r=RSymbol[syms];
 	rp=RpSymbol[syms];
 	t=TSymbol[syms];
@@ -420,13 +420,14 @@ DRDTau[opts:OptionsPattern[]]:=DRDTau[DefaultSymbols[],opts]
 
 def@
 DTDTau[syms_Association,opts:OptionsPattern[]]:=
-Module[{rp,t,JJ,a,EE,TT,M,r,delta},
+Module[{rp,t,JJ,a,EE,TT,M,r,delta,f},
 
 	TestOptions[{metricQ},{opts}];
 
 	rp = RpSymbol[syms];
 	t = TSymbol[syms];
 	EE = SpecificEnergySymbol[syms];
+	f = SchwarzschildF;
 				
 	Which[OptionValue["Metric"]==="Schwarzschild",
 		M = BlackHoleMassSymbol[syms];
@@ -641,12 +642,13 @@ SpecificAngularMomentum[opts:OptionsPattern[]]:=SpecificAngularMomentum[DefaultS
 
 def@
 USquared[syms_Association]:=
-Module[{t,rp,M,JJ},
+Module[{t,rp,M,JJ,f},
 
 	t =TSymbol[syms];
 	rp =RpSymbol[syms];
 	M =BlackHoleMassSymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
+	f = SchwarzschildF;
 
 	f[rp[t],M](1+JJ^2/rp[t]^2)
 ];
@@ -656,7 +658,7 @@ USquared[]:=USquared[DefaultSymbols[]]
 
 def@
 RpDotDot[syms_Association,opts:OptionsPattern[]]:=
-Module[{rp,t,M,JJ,EE,a},
+Module[{rp,t,M,JJ,EE,a,f},
 
 	TestOptions[{metricQ},{opts}];
 
@@ -666,6 +668,7 @@ Module[{rp,t,M,JJ,EE,a},
 	a =BlackHoleSpinSymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
 	EE=SpecificEnergySymbol[syms];
+	f = SchwarzschildF;
 
 	Which[OptionValue["Metric"]==="Schwarzschild",
 
@@ -685,7 +688,7 @@ RpDotDot[opts:OptionsPattern[]]:=RpDotDot[DefaultSymbols[],opts]
 
 def@
 RpDotSquared[syms_Association,opts:OptionsPattern[]]:=
-Module[{rp,t,M,EE,JJ,a},
+Module[{rp,t,M,EE,JJ,a,f},
 
 	TestOptions[{metricQ},{opts}];
 
@@ -695,6 +698,7 @@ Module[{rp,t,M,EE,JJ,a},
 	EE=SpecificEnergySymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
 	a = BlackHoleSpinSymbol[syms];
+	f = SchwarzschildF;
 
 	Which[OptionValue["Metric"]==="Schwarzschild",
 		f[rp[t],M]^2 (1-USquared[syms]/EE^2),
@@ -829,10 +833,10 @@ reDef@
 ROfRStar[]:=ROfRStar[DefaultSymbols[]]*)
 
 
-def@f[r_,M_] := 1 - 2M/ r;
-reDef@f[syms_Association]:=f[RSymbol[syms],BlackHoleMassSymbol[syms]]
+def@SchwarzschildF[r_,M_] := 1 - 2M/ r;
+reDef@SchwarzschildF[syms_Association]:=SchwarzschildF[RSymbol[syms],BlackHoleMassSymbol[syms]]
 reDef@
-f[]:=f[DefaultSymbols[]]
+SchwarzschildF[]:=SchwarzschildF[DefaultSymbols[]]
 
 
 def@LambdaOfL[l_]:=(l+2)(l-1)/2;

@@ -148,7 +148,7 @@ RemoveRpDots[eq_,opts:OptionsPattern[]]:=RemoveRpDots[DefaultSymbols[],eq,opts]
 
 def@
 RemovePhiPDots[syms_Association,expr_,opts:OptionsPattern[]]:=
-Module[{phip,JJ,t,EE,M,rp,phipDot,a,optionsRules},
+Module[{phip,JJ,t,EE,M,rp,phipDot,a,optionsRules,f},
 	optionsRules = {"Metric" ->Function[x, x==="Schwarzschild" || x==="Kerr"]};
 	TestOptions[optionsRules,{opts}];
 
@@ -159,6 +159,7 @@ Module[{phip,JJ,t,EE,M,rp,phipDot,a,optionsRules},
 	JJ=SpecificAngularMomentumSymbol[syms];
 	EE=SpecificEnergySymbol[syms];
 	rp=RpSymbol[syms];
+	f = SchwarzschildF;
 
 	Which[OptionValue["Metric"]==="Schwarzschild",
 		expr/.Derivative[n_][phip][t]:>D[(JJ f[rp[t],M])/(EE rp[t]^2),{t,n-1}],
@@ -179,7 +180,7 @@ RemovePhiPDots[expr_,opts:OptionsPattern[]]:=RemovePhiPDots[DefaultSymbols[],exp
 def@
 RemoveSHDots[syms_Association,eq_]:=
 Module[{rp,t,r,
-		M,JJ,En,la,
+		M,JJ,En,la,f,
 		YBar,YphiBar,YphiphiBar,
 		XphiBar,XphiphiBar,Y,Yphi,Yphiphi,
 		Xphi,Xphiphi,SHDotRules,SHDotRules2},
@@ -201,6 +202,7 @@ Module[{rp,t,r,
 	Yphiphi=YPhiPhiSymbol[syms,Conjugate->False];
 	Xphi=XPhiSymbol[syms,Conjugate->False];
 	Xphiphi=XPhiPhiSymbol[syms,Conjugate->False];
+	f = SchwarzschildF;
 
 	SHDotRules={Derivative[n_][YBar][t]:>D[YphiBar[t] JJ/En f[rp[t],M]/rp[t]^2,{t,n-1}],
 				Derivative[n_][XphiBar][t]:>D[XphiphiBar[t] JJ/En f[rp[t],M]/rp[t]^2,{t,n-1}],
@@ -579,13 +581,14 @@ RToRStar[expr_,opts:OptionsPattern[]]:=RToRStar[DefaultSymbols[],expr,opts]
 
 def@
 RStarToR[syms_Association,expr_]:=
-Module[{expr1,t,r,M,argsToROfX,noRPrimes,noProductLog,x},
+Module[{expr1,t,r,M,argsToROfX,noRPrimes,noProductLog,x,f},
 
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	x=RStarSymbol[syms];
-
+	f = SchwarzschildF;
+	
 	noProductLog={RhoOfRStar[x,M]/(2M)->(r-2M)/(2M)};
 
 	argsToROfX={Derivative[n_][fn_][x]:>D[fn[r[x]],{x,n}],Derivative[m_,n_][fn_][t,x]:> D[fn[t,r[x]],{t,m},{x,n}],fn_[t, x]:> fn[t, r[x]],fn_[x]/;fn!=r:>fn[r[x]]};

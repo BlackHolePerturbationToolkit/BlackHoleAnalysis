@@ -60,5 +60,3 @@ Test[
 	TestID->"SasakiNakamuraToTeukolsky"
 ]
 
-Close[stdStream]
-Close[msgStream]

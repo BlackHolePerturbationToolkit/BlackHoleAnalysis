@@ -83,10 +83,6 @@ sourceTestsIndices={"Capital" -> BooleanQ, "SourceExpansion" -> sourceExpQ, "Ret
 zmMax=7;
 cpmMax=6;
 jtMax=5;
-(*zmVars="ZM"<>If[#===0,"",ToString[#]]&/@Range[0,zmMax];
-cpmVars="CPM"<>If[#===0,"",ToString[#]]&/@Range[0,cpmMax];
-jtVars="JT"<>If[#===0,"",ToString[#]]&/@Range[0,jtMax];
-*)
 zmVars=Join[{"ZM"},"ZM"<>ToString[#]&/@Range[0,zmMax]];
 cpmVars=Join[{"CPM"},"CPM"<>ToString[#]&/@Range[0,cpmMax]];
 jtVars=Join[{"JT"},"JT"<>ToString[#]&/@Range[0,jtMax]];
@@ -95,7 +91,7 @@ masterVars=Join[{Default},zmVars,cpmVars,jtVars];
 
 def@
 QttSource[syms_Association,opts:OptionsPattern[]]:=
-Module[{qttUpper,qtt,t,rp,M,En,mu,YBar,sym,cap,inds,se},
+Module[{qttUpper,qtt,t,rp,M,En,mu,YBar,sym,cap,inds,se,f},
 
 	TestOptions[sourceTestsIndices,{opts}];
 
@@ -110,7 +106,8 @@ Module[{qttUpper,qtt,t,rp,M,En,mu,YBar,sym,cap,inds,se},
 	En=SpecificEnergySymbol[syms];
 	mu=ParticleMassSymbol[syms];
 	YBar=YSymbol[syms,Conjugate->True];
-
+	f = SchwarzschildF;
+	
 	qtt[t_]:=
 		If[se==="Full",
 
@@ -135,7 +132,7 @@ QttSource[opts:OptionsPattern[]]:=QttSource[DefaultSymbols[],opts]
 
 def@
 QtrSource[syms_Association,opts:OptionsPattern[]]:=
-Module[{qtrUpper,qtr,t,rp,M,En,mu,YBar,sym,cap,inds,se},
+Module[{qtrUpper,qtr,t,rp,M,En,mu,YBar,sym,cap,inds,se,f},
        	
 	TestOptions[sourceTestsIndices,{opts}];
 
@@ -150,7 +147,8 @@ Module[{qtrUpper,qtr,t,rp,M,En,mu,YBar,sym,cap,inds,se},
 	En=SpecificEnergySymbol[syms];
 	mu=ParticleMassSymbol[syms];
 	YBar=YSymbol[syms,Conjugate->True];
-
+	f = SchwarzschildF;
+	
 	qtr[t_]:=
 		If[se==="Full",
 
@@ -177,7 +175,7 @@ QtrSource[opts:OptionsPattern[]]:=QtrSource[DefaultSymbols[],opts]
 
 def@
 QrrSource[syms_Association,opts:OptionsPattern[]]:=
-Module[{qrrUpper,qrr,t,rp,M,En,mu,YBar,USqVal,sym,cap,inds,se},
+Module[{qrrUpper,qrr,t,rp,M,En,mu,YBar,USqVal,sym,cap,inds,se,f},
        	
 	TestOptions[sourceTestsIndices,{opts}];
 
@@ -193,7 +191,8 @@ Module[{qrrUpper,qrr,t,rp,M,En,mu,YBar,USqVal,sym,cap,inds,se},
 	mu=ParticleMassSymbol[syms];
 	YBar=YSymbol[syms,Conjugate->True];
 	USqVal=USquared[syms];
-
+	f = SchwarzschildF;
+	
 	qrr[tt_]:=
 		If[se==="Full",
 
@@ -218,7 +217,7 @@ QrrSource[opts:OptionsPattern[]]:=QrrSource[DefaultSymbols[],opts]
 
 def@
 QtSource[syms_Association,opts:OptionsPattern[]]:=
-Module[{qtUpper,qt,t,rp,M,mu,YphiBar,JJ,la,sym,cap,inds,se},
+Module[{qtUpper,qt,t,rp,M,mu,YphiBar,JJ,la,sym,cap,inds,se,f},
        	
 	TestOptions[sourceTestsIndices,{opts}];
 
@@ -234,6 +233,7 @@ Module[{qtUpper,qt,t,rp,M,mu,YphiBar,JJ,la,sym,cap,inds,se},
 	mu=ParticleMassSymbol[syms];
 	la=LambdaSymbol[syms];
 	YphiBar=YPhiSymbol[syms,Conjugate->True];
+	f = SchwarzschildF;
 		
 	qt[t_]:=
 		If[se==="Full",
@@ -257,7 +257,7 @@ QtSource[opts:OptionsPattern[]]:=QtSource[DefaultSymbols[],opts]
 
 def@
 QrSource[syms_Association,opts:OptionsPattern[]]:=
-Module[{qrUpper,qr,t,rp,M,mu,YphiBar,JJ,la,sym,cap,inds,se},
+Module[{qrUpper,qr,t,rp,M,mu,YphiBar,JJ,la,sym,cap,inds,se,f},
        	
 	TestOptions[sourceTestsIndices,{opts}];
 
@@ -273,6 +273,7 @@ Module[{qrUpper,qr,t,rp,M,mu,YphiBar,JJ,la,sym,cap,inds,se},
 	mu=ParticleMassSymbol[syms];
 	la=LambdaSymbol[syms];
 	YphiBar=YPhiSymbol[syms,Conjugate->True];
+	f = SchwarzschildF;
 			
 	qr[t_]:=
 		If[se==="Full",
@@ -296,7 +297,7 @@ QrSource[opts:OptionsPattern[]]:=QrSource[DefaultSymbols[],opts]
 
 def@
 QSharpSource[syms_Association,opts:OptionsPattern[]]:=
-Module[{qSharp,t,rp,M,mu,YphiphiBar,En,JJ,la,sym,cap,se},
+Module[{qSharp,t,rp,M,mu,YphiphiBar,En,JJ,la,sym,cap,se,f},
        	
 	TestOptions[sourceTestsIndices,{opts}];
 
@@ -312,7 +313,8 @@ Module[{qSharp,t,rp,M,mu,YphiphiBar,En,JJ,la,sym,cap,se},
 	mu=ParticleMassSymbol[syms];
 	la=LambdaSymbol[syms];
 	YphiphiBar=YPhiPhiSymbol[syms,Conjugate->True];
-			
+	f = SchwarzschildF;
+	
 	qSharp[t_]:=
 		If[se==="Full",
 			
@@ -329,7 +331,7 @@ QSharpSource[opts:OptionsPattern[]]:=QSharpSource[DefaultSymbols[],opts]
 
 def@
 QFlatSource[syms_Association,opts:OptionsPattern[]]:=
-Module[{qFlat,t,rp,M,mu,YBar,En,JJ,sym,cap,se},
+Module[{qFlat,t,rp,M,mu,YBar,En,JJ,sym,cap,se,f},
        	
 	TestOptions[sourceTestsIndices,{opts}];
 
@@ -344,7 +346,8 @@ Module[{qFlat,t,rp,M,mu,YBar,En,JJ,sym,cap,se},
 	JJ=SpecificAngularMomentumSymbol[syms];
 	mu=ParticleMassSymbol[syms];
 	YBar=YSymbol[syms,Conjugate->True];
-			
+	f = SchwarzschildF;
+	
 	qFlat[t_]:=
 		If[se==="Full",
 			
@@ -361,7 +364,7 @@ QFlatSource[opts:OptionsPattern[]]:=QFlatSource[DefaultSymbols[],opts]
 
 def@
 PtSource[syms_Association,opts:OptionsPattern[]]:=
-Module[{ptUpper,pt,t,rp,M,mu,XphiBar,JJ,la,sym,cap,inds,se},
+Module[{ptUpper,pt,t,rp,M,mu,XphiBar,JJ,la,sym,cap,inds,se,f},
        	
 	TestOptions[sourceTestsIndices,{opts}];
 
@@ -377,7 +380,8 @@ Module[{ptUpper,pt,t,rp,M,mu,XphiBar,JJ,la,sym,cap,inds,se},
 	mu=ParticleMassSymbol[syms];
 	la=LambdaSymbol[syms];
 	XphiBar=XPhiSymbol[syms,Conjugate->True];
-		
+	f = SchwarzschildF;
+	
 	pt[t_]:=
 		If[se==="Full",
 
@@ -400,7 +404,7 @@ PtSource[opts:OptionsPattern[]]:=PtSource[DefaultSymbols[],opts]
 
 def@
 PrSource[syms_Association,opts:OptionsPattern[]]:=
-Module[{prUpper,pr,t,rp,M,mu,XphiBar,JJ,la,sym,cap,inds,se},
+Module[{prUpper,pr,t,rp,M,mu,XphiBar,JJ,la,sym,cap,inds,se,f},
 
 	TestOptions[sourceTestsIndices,{opts}];
 
@@ -416,7 +420,8 @@ Module[{prUpper,pr,t,rp,M,mu,XphiBar,JJ,la,sym,cap,inds,se},
 	mu=ParticleMassSymbol[syms];
 	la=LambdaSymbol[syms];
 	XphiBar=XPhiSymbol[syms,Conjugate->True];
-
+	f = SchwarzschildF;
+	
 	pr[t_]:=
 		If[se==="Full",
 
@@ -439,7 +444,7 @@ PrSource[opts:OptionsPattern[]]:=PrSource[DefaultSymbols[],opts]
 
 def@
 PSource[syms_Association,opts:OptionsPattern[]]:=
-Module[{p,t,rp,M,mu,XphiphiBar,En,JJ,la,sym,cap,se},
+Module[{p,t,rp,M,mu,XphiphiBar,En,JJ,la,sym,cap,se,f},
        	
 	TestOptions[sourceTestsIndices,{opts}];
 
@@ -455,7 +460,8 @@ Module[{p,t,rp,M,mu,XphiphiBar,En,JJ,la,sym,cap,se},
 	mu=ParticleMassSymbol[syms];
 	la=LambdaSymbol[syms];
 	XphiphiBar=XPhiPhiSymbol[syms,Conjugate->True];
-			
+	f = SchwarzschildF;
+	
 	p[t_]:=
 		If[se==="Full",
 			
@@ -514,7 +520,7 @@ MasterEquationSource[syms_Association,opts:OptionsPattern[]] :=
 Module[{t, r, rp, DD, optionsRules,gTil,var,EE,JJ,
 		fTil,la,M,se,parity,gf,parOpt,varOpt,
         Qtt, Qrr, Qr, QSharp, QFlat,Qtr,Qt,
-        Pt, Pr, P},
+        Pt, Pr, P, f},
 
 	optionsRules = {"Parity" -> Function[x,MemberQ[{Default,"Even","Odd"},x]],
 					"Variable" -> Function[x,MemberQ[masterVars,x]],
@@ -537,7 +543,8 @@ Module[{t, r, rp, DD, optionsRules,gTil,var,EE,JJ,
 	JJ=SpecificAngularMomentumSymbol[syms];
 	la=LambdaSymbol[syms];
 	DD=DiracDeltaSymbol[syms];
-		
+	f = SchwarzschildF;
+	
 	If[gf,
 
 		gTil=GSource[syms,FilterRules[{opts},Options[GSource]]];
@@ -1017,12 +1024,13 @@ FSource[opts:OptionsPattern[]]:=FSource[DefaultSymbols[],opts]
 
 def@
 getGttEven[syms_Association]:=
-Module[{t,rp,la,M},
+Module[{t,rp,la,M,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	la=LambdaSymbol[syms];
+	f = SchwarzschildF;
 	
 	-(f[rp[t],M]^2/((la+1)rp[t]CapitalLambda[rp[t],M,la]^2))(la(la+1)rp[t]^2+6 la M rp[t]+15M^2)
 ];
@@ -1043,12 +1051,13 @@ Module[{t,rp,la,M},
 
 def@
 getGrEven[syms_Association]:=
-Module[{t,rp,la,M},
+Module[{t,rp,la,M,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	la=LambdaSymbol[syms];
+	f = SchwarzschildF;
 	
 	(2 f[rp[t],M])/CapitalLambda[rp[t],M,la]
 ];
@@ -1056,11 +1065,12 @@ Module[{t,rp,la,M},
 
 def@
 getGSharpEven[syms_Association]:=
-Module[{t,rp,M},
+Module[{t,rp,M,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
+	f = SchwarzschildF;
 	
 	-(f[rp[t],M]/rp[t])
 ];
@@ -1068,12 +1078,13 @@ Module[{t,rp,M},
 
 def@
 getGFlatEven[syms_Association]:=
-Module[{t,rp,la,M},
+Module[{t,rp,la,M,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	la=LambdaSymbol[syms];
+	f = SchwarzschildF;
 	
 	(rp[t] f[rp[t],M]^2)/((la+1)CapitalLambda[rp[t],M,la])
 ];
@@ -1081,12 +1092,13 @@ Module[{t,rp,la,M},
 
 def@
 getFttEven[syms_Association]:=
-Module[{t,rp,la,M},
+Module[{t,rp,la,M,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	la=LambdaSymbol[syms];
+	f = SchwarzschildF;
 	
 	(rp[t]^2 f[rp[t],M]^3)/((la+1)CapitalLambda[rp[t],M,la])
 ];
@@ -1094,12 +1106,13 @@ Module[{t,rp,la,M},
 
 def@
 getFrrEven[syms_Association]:=
-Module[{t,rp,la,M},
+Module[{t,rp,la,M,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	la=LambdaSymbol[syms];
+	f = SchwarzschildF;
 	
 	-((rp[t]^2 f[rp[t],M])/((la+1)CapitalLambda[rp[t],M,la]))
 ];
@@ -1107,12 +1120,13 @@ Module[{t,rp,la,M},
 
 def@
 getGtOdd[syms_Association]:=
-Module[{t,rp,la,M},
+Module[{t,rp,la,M,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	la=LambdaSymbol[syms];
+	f = SchwarzschildF;
 	
 	-(f[rp[t],M]/la)
 ];
@@ -1144,12 +1158,13 @@ Module[{t,rp,la},
 
 def@
 getFtOdd[syms_Association]:=
-Module[{t,rp,la,M},
+Module[{t,rp,la,M,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	la=LambdaSymbol[syms];
+	f = SchwarzschildF;
 	
 	(rp[t]f[rp[t],M]^2)/la
 ]
@@ -1169,12 +1184,13 @@ Module[{t,rp,la},
 
 def@
 getGttEvenRW[syms_Association]:=
-Module[{t,rp,la,M},
+Module[{t,rp,la,M,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	la=LambdaSymbol[syms];
+	f = SchwarzschildF;
 	
 	-(la+1)rp[t]f[rp[t],M]^2
 ];
@@ -1194,12 +1210,13 @@ Module[{t,rp,la},
 
 def@
 getGrEvenRW[syms_Association]:=
-Module[{t,rp,la,M},
+Module[{t,rp,la,M,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	la=LambdaSymbol[syms];
+	f = SchwarzschildF;
 	
 	(2 f[rp[t],M])/rp[t] (-3M+(1+la)rp[t])
 ];
@@ -1207,12 +1224,13 @@ Module[{t,rp,la,M},
 
 def@
 getGSharpEvenRW[syms_Association]:=
-Module[{t,rp,la,M},
+Module[{t,rp,la,M,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	la=LambdaSymbol[syms];
+	f = SchwarzschildF;
 	
 	(-(f[rp[t],M]/rp[t]^2)(3M +la(la+1)rp[t]))
 ];
@@ -1220,11 +1238,12 @@ Module[{t,rp,la,M},
 
 def@
 getGFlatEvenRW[syms_Association]:=
-Module[{t,rp,M},
+Module[{t,rp,M,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
+	f = SchwarzschildF;
 	
 	rp[t]f[rp[t],M]^2
 ];
@@ -1232,11 +1251,12 @@ Module[{t,rp,M},
 
 def@
 getFttEvenRW[syms_Association]:=
-Module[{t,rp,M},
+Module[{t,rp,M,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
+	f = SchwarzschildF;
 	
 	rp[t]^2 f[rp[t],M]^3
 ];
@@ -1244,11 +1264,12 @@ Module[{t,rp,M},
 
 def@
 getFrrEvenRW[syms_Association]:=
-Module[{t,rp,M},
+Module[{t,rp,M,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
+	f = SchwarzschildF;
 	
 	-rp[t]^2f[rp[t],M]
 ];
@@ -1256,11 +1277,12 @@ Module[{t,rp,M},
 
 def@
 getFSharpEvenRW[syms_Association]:=
-Module[{t,rp,M},
+Module[{t,rp,M,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
+	f = SchwarzschildF;
 	
 	(3M)/rp[t] f[rp[t],M]^2
 ];
@@ -1268,12 +1290,13 @@ Module[{t,rp,M},
 
 def@
 getGrRW[syms_Association]:=
-Module[{t,rp,M},
+Module[{t,rp,M,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-
+	f = SchwarzschildF;
+	
 	-(f[rp[t],M]^2/rp[t])
 ]
 
@@ -1281,11 +1304,12 @@ Module[{t,rp,M},
 (* This is the coefficient of p[t] in the GSource for the RW source term *)
 def@
 getGRW[syms_Association]:=
-Module[{t,rp,M},
+Module[{t,rp,M,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
+	f = SchwarzschildF;
 	
 	-(f[rp[t],M]/rp[t]^2)
 ]
@@ -1294,11 +1318,12 @@ Module[{t,rp,M},
 (* This is the coefficient of p[t] in the FSource for the RW source term *)
 def@
 getFRW[syms_Association]:=
-Module[{t,rp,M},
+Module[{t,rp,M,f},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
+	f = SchwarzschildF;
 	
 	f[rp[t],M]^2/rp[t]
 ]
@@ -1834,7 +1859,8 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	YPhiPhiBar=YPhiPhiSymbol[syms,Conjugate->True][t];
 	CapLa=CapitalLambda[rp[t],M,la];
 	USq=USquared[];
-	fp=f[rp[t],M];
+
+	fp=SchwarzschildF[rp[t],M];
 
 	(8*fp^5*J*mu*Pi*YPhiBar*(3672*J^8*M^5 + 36*J^8*(-119 + 76*la)*M^4*rp[t] + 4*J^6*M^3*(J^2*(402 - 805*la + 132*la^2) + 3564*M^2)*rp[t]^2 + 
     2*J^6*M^2*(J^2*(-96 + 609*la - 314*la^2 + 2*la^3) + 48*(-172 + 21*En^2 + 111*la)*M^2)*rp[t]^3 + 
@@ -1911,7 +1937,8 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	YPhiPhiBar=YPhiPhiSymbol[syms,Conjugate->True][t];
 	CapLa=CapitalLambda[rp[t],M,la];
 	USq=USquared[];
-	fp=f[rp[t],M];
+	
+	fp=SchwarzschildF[rp[t],M];
 
 	(-8*fp^5*J*mu*Pi*YPhiBar*(72*J^6*M^3 + 2*J^6*(-31 + 15*la)*M^2*rp[t] + J^4*M*(J^2*(13 - 27*la) + 216*M^2)*rp[t]^2 + 6*J^4*(J^2*la + (-31 + 13*En^2 + 15*la)*M^2)*rp[t]^3 + 
     3*J^2*M*(J^2*(13 + 10*En^2*(-1 + la) - 27*la) + 72*M^2)*rp[t]^4 + 6*J^2*((3 - 2*En^2)*J^2*la + (-31 + 32*En^2 + 15*la)*M^2)*rp[t]^5 + 
@@ -1952,7 +1979,8 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	YPhiPhiBar=YPhiPhiSymbol[syms,Conjugate->True][t];
 	CapLa=CapitalLambda[rp[t],M,la];
 	USq=USquared[];
-	fp=f[rp[t],M];
+	
+	fp=SchwarzschildF[rp[t],M];
 
 	 (-8*fp^6*mu*Pi*YBar*(12546*J^10*M^5 + 6*J^10*(-2514 + 1471*la)*M^4*rp[t] + 2*J^8*M^3*(J^2*(2922 - 5312*la + 807*la^2) + 25785*M^2)*rp[t]^2 + 
     J^8*M^2*(J^2*(-720 + 4119*la - 1935*la^2 + 20*la^3) + 6*(-10492 + 1119*En^2 + 6060*la)*M^2)*rp[t]^3 + 
@@ -2082,7 +2110,8 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	YPhiPhiBar=YPhiPhiSymbol[syms,Conjugate->True][t];
 	CapLa=CapitalLambda[rp[t],M,la];
 	USq=USquared[];
-	fp=f[rp[t],M];
+	
+	fp=SchwarzschildF[rp[t],M];
 
 	(8*fp^6*mu*Pi*YBar*(207*J^8*M^3 + 4*J^8*(-47 + 18*la)*M^2*rp[t] + 6*J^6*M*(J^2*(7 - 11*la) + 90*M^2)*rp[t]^2 + J^6*(15*J^2*la + 2*(-259 + 108*En^2 + 90*la)*M^2)*rp[t]^3 + 
     J^4*M*(J^2*(123 - 174*la + En^2*(-90 + 76*la)) + 270*M^2)*rp[t]^4 + 2*J^4*((21 - 16*En^2)*J^2*la + 3*(-53 + 96*En^2 + 12*la)*M^2)*rp[t]^5 + 
@@ -2141,7 +2170,8 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	YPhiPhiBar=YPhiPhiSymbol[syms,Conjugate->True][t];
 	CapLa=CapitalLambda[rp[t],M,la];
 	USq=USquared[];
-	fp=f[rp[t],M];
+	
+	fp=SchwarzschildF[rp[t],M];
 	
 	(8*fp^9*J*mu*Pi*YPhiBar*(1058400*J^16*M^7 + 144*J^16*(-13848 + 5303*la)*M^6*rp[t] + 12*J^14*M^5*(J^2*(122061 - 119891*la + 12164*la^2) + 698544*M^2)*rp[t]^2 + 
     2*J^14*M^4*(J^2*(-260751 + 528293*la - 136766*la^2 + 1354*la^3) + 36*(-218699 + 19695*En^2 + 84429*la)*M^2)*rp[t]^3 + 
@@ -2469,7 +2499,8 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	YPhiPhiBar=YPhiPhiSymbol[syms,Conjugate->True][t];
 	CapLa=CapitalLambda[rp[t],M,la];
 	USq=USquared[];
-	fp=f[rp[t],M];
+	
+	fp=SchwarzschildF[rp[t],M];
 
 	(-8*fp^9*J*mu*Pi*YPhiBar*(14112*J^14*M^5 + 6*J^14*(-3671 + 945*la)*M^4*rp[t] + J^12*M^3*(J^2*(12521 - 8855*la + 160*la^2) + 98784*M^2)*rp[t]^2 + 
     2*J^12*M^2*(J^2*(-1523 + 2515*la - 110*la^2) + 3*(-25641 + 6033*En^2 + 6671*la)*M^2)*rp[t]^3 + 
@@ -9276,7 +9307,8 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	YPhiPhiBar=YPhiPhiSymbol[syms,Conjugate->True][t];
 	CapLa=CapitalLambda[rp[t],M,la];
 	USq=USquared[];
-	fp=f[rp[t],M];
+	
+	fp=SchwarzschildF[rp[t],M];
 
 	(8*fp^2*J*mu*Pi*YPhiBar*(-156*J^2*M^3 + 2*J^2*(71 + 8*la)*M^2*rp[t] - 2*M*(J^2*(18 + 5*la - la^2) + 66*M^2)*rp[t]^2 + (J^2*(2 + la - la^2) + (114 - 60*En^2 + 12*la)*M^2)*rp[t]^3 + 
     2*(-13 - 3*la + la^2 + 3*En^2*(4 + la))*M*rp[t]^4 - (1 + la)*(-1 + 2*En^2 + la)*rp[t]^5))/(En^2*(1 + la)*rp[t]^8) + 
@@ -9308,7 +9340,8 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	YPhiPhiBar=YPhiPhiSymbol[syms,Conjugate->True][t];
 	CapLa=CapitalLambda[rp[t],M,la];
 	USq=USquared[];
-	fp=f[rp[t],M];
+	
+	fp=SchwarzschildF[rp[t],M];
 
 	(8*fp^3*J*mu*Pi*YPhiBar*(12*J^2*M^2 - 2*J^2*(4 + la)*M*rp[t] + (J^2*(1 + la) + 12*M^2)*rp[t]^2 + 2*(-4 + 3*En^2 - la)*M*rp[t]^3 + (1 + la)*rp[t]^4))/(En^2*(1 + la)*rp[t]^6) + 
  (8*fp*mu*Pi*USq*YBar*(-3*M + (1 + la)*rp[t])*Derivative[1][rp][t])/(En*rp[t]^2) + 
@@ -9336,7 +9369,8 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	YPhiPhiBar=YPhiPhiSymbol[syms,Conjugate->True][t];
 	CapLa=CapitalLambda[rp[t],M,la];
 	USq=USquared[];
-	fp=f[rp[t],M];
+	
+	fp=SchwarzschildF[rp[t],M];
 
 (8*fp^4*mu*Pi*YBar*(162*J^6*M^3 + 2*J^6*(-71 + 7*la)*M^2*rp[t] + 6*J^4*M*(-(J^2*(-5 + 2*la + la^2)) + 51*M^2)*rp[t]^2 + J^4*(3*J^2*la*(1 + la) + (-290 + 54*En^2 + 40*la)*M^2)*rp[t]^3 + 
     J^2*M*(J^2*(67 + 6*En^2*(-3 + la) - 33*la - 16*la^2) + 78*M^2)*rp[t]^4 + 2*J^2*(-((-4 + En^2)*J^2*la*(1 + la)) + (-53 + 36*En^2 + 19*la)*M^2)*rp[t]^5 - 
@@ -9381,7 +9415,8 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	YPhiPhiBar=YPhiPhiSymbol[syms,Conjugate->True][t];
 	CapLa=CapitalLambda[rp[t],M,la];
 	USq=USquared[];
-	fp=f[rp[t],M];
+	
+	fp=SchwarzschildF[rp[t],M];
 
 	(-8*fp^4*M*mu*Pi*YBar*(3*J^4*M + J^4*(-2 + la)*rp[t] - 12*J^2*M*rp[t]^2 + J^2*(5 + 6*En^2 + 2*la)*rp[t]^3 - 15*M*rp[t]^4 + (7 - 6*En^2 + la)*rp[t]^5))/(En*USq*rp[t]^8) + 
  (16*fp^4*J*mu*Pi*YPhiBar*(-39*J^4*M^2 + 15*J^4*M*rp[t] + (J^4*la*(1 + la) - 84*J^2*M^2)*rp[t]^2 + 3*(11 - 2*En^2)*J^2*M*rp[t]^3 + (2*J^2*la*(1 + la) - 45*M^2)*rp[t]^4 - 18*(-1 + En^2)*M*rp[t]^5 + 

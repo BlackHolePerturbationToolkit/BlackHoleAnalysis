@@ -1,6 +1,6 @@
-(* Generated on Mon 23 Jul 2018 13:42:47 *)
+(* Generated on Tue 24 Jul 2018 19:11:49 *)
 
-outdir=FileNameJoin[{$UserBaseDirectory,"Applications","SchwAnalysis","Tests","Output"}];
+outdir=FileNameJoin[{$UserBaseDirectory,"Applications","BlackHoleAnalysis","Tests","Output"}];
 stdStream = OpenAppend[FileNameJoin[{outdir, "stdout.txt"}], FormatType -> OutputForm];
 $Output = {stdStream};
 msgStream = OpenAppend[FileNameJoin[{outdir, "messages.txt"}], FormatType -> OutputForm];

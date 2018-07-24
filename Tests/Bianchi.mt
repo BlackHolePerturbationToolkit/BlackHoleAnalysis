@@ -27,6 +27,3 @@ Test[
  	
  	EquivalenceFunction -> (If[MatchQ[Head[#1],List],Simplify[#1-#2]==Table[0,{Length@#1}],Simplify[#1-#2]== 0]&)
 ]
-
-Close[stdStream]
-Close[msgStream]
