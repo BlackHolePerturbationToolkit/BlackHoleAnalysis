@@ -156,7 +156,7 @@ Module[{optionsRules,parity,t,labels,
 	M=BlackHoleMassSymbol[syms];
 	En=SpecificEnergySymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	YBar=YSymbol[syms,Conjugate->True];
 	YphiBar=YPhiSymbol[syms,Conjugate->True];
 	YphiphiBar=YPhiPhiSymbol[syms,Conjugate->True];
@@ -348,7 +348,7 @@ Module[{gauge,t,rp,la,M,En,JJ,mu,YBar,YphiBar,YphiphiBar,XphiBar,XphiphiBar},
 	M=BlackHoleMassSymbol[syms];
 	En=SpecificEnergySymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	YBar=YSymbol[syms,Conjugate->True];
 	YphiBar=YPhiSymbol[syms,Conjugate->True];
 	YphiphiBar=YPhiPhiSymbol[syms,Conjugate->True];
@@ -481,7 +481,7 @@ Module[{gauge,la,phip,t,r,yBarSym,mp},
 	t=TSymbol[syms];
 	phip=PhiPSymbol[syms];
 	yBarSym=YSymbol[syms,Conjugate->True];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 
 	Switch[gauge,
 		"Lorenz"|"ModRWZ",
@@ -508,7 +508,7 @@ Module[{gauge,la,phip,t,r,yBarSym,yPhiBarSym,xPhiBarSym,yBar11,yPhiBar11,xPhiBar
 	yBarSym=YSymbol[syms,Conjugate->True];
 	yPhiBarSym=YPhiSymbol[syms,Conjugate->True];
 	xPhiBarSym=XPhiSymbol[syms,Conjugate->True];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 
 	yBar11=Conjugate@YHarmonic[1,1,\[Pi]/2,phip[t]];
 	yPhiBar11=Conjugate@YPhi[1,1,\[Pi]/2,phip[t]];
@@ -636,7 +636,7 @@ Module[{gI,gF,t,rp,la,M,En,JJ,mu,YBar,YphiBar,YphiphiBar,XphiBar,XphiphiBar,disc
 	M=BlackHoleMassSymbol[syms];
 	En=SpecificEnergySymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	YBar=YSymbol[syms,Conjugate->True];
 	YphiBar=YPhiSymbol[syms,Conjugate->True];
 	YphiphiBar=YPhiPhiSymbol[syms,Conjugate->True];

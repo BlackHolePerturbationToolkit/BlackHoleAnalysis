@@ -191,7 +191,7 @@ Module[{rp,t,r,
 	M=BlackHoleMassSymbol[syms];
 	En=SpecificEnergySymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	YBar=YSymbol[syms,Conjugate->True];
 	YphiBar=YPhiSymbol[syms,Conjugate->True];
 	YphiphiBar=YPhiPhiSymbol[syms,Conjugate->True];

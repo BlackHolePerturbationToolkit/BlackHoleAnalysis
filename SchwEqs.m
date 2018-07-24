@@ -196,7 +196,7 @@ Module[{mpOpts,htt, htr, hrr,jt,jr, KK,G,ht,hr,h2,mode,mp,parity,homog,se,
 		r = RSymbol[syms];
 		rp = RpSymbol[syms];
 		M = BlackHoleMassSymbol[syms];
-		la= LambdaSymbol[syms];
+		la= LambdaOfL[syms];
 		f = SchwarzschildF;
 		
 		modeMod[x_]:=Switch[mode,
@@ -333,7 +333,7 @@ Module[{mpOpts,htt, htr, hrr, KK,ht,hr,mode,mp,parity,homog,se,srcOpts,
 		r = RSymbol[syms];
 		rp = RpSymbol[syms];
 		M = BlackHoleMassSymbol[syms];
-		la= LambdaSymbol[syms];
+		la= LambdaOfL[syms];
 		f = SchwarzschildF;
 
 		modeMod[x_]:=Switch[mode,
@@ -454,7 +454,7 @@ Module[{mpOpts,htt, htr, hrr, KK,ht,hr,parity,homog,se,srcOpts,srcInds,
 		r = RSymbol[syms];
 		rp = RpSymbol[syms];
 		M = BlackHoleMassSymbol[syms];
-		la= LambdaSymbol[syms];
+		la= LambdaOfL[syms];
 		f = SchwarzschildF;
 		
 		mpOpts=FilterRules[{opts},{ "Weak","Gauge"}];
@@ -588,7 +588,7 @@ Module[{t, r, M, la,optionsRules,parity,var,parOpt,varOpt, f},
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	f = SchwarzschildF;
 			
 	If[parity==="Even"&&Not[MemberQ[jtVars,var]],
@@ -662,7 +662,7 @@ Module[{t, r, M, la,ind,rp,se,srcOpts,f,
 	rp=RpSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	f = SchwarzschildF;
 	
 	srcOpts= Sequence[SourceExpansion->se,Indices->ind];
@@ -755,7 +755,7 @@ Module[{t, r, M, la,weak,parity,httL, htrL, hrrL, jtL, jrL, KKL, GL,f,
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	f = SchwarzschildF;;
 	
 	mpOpts=Sequence[Gauge->"Lorenz",Weak->weak];
@@ -845,7 +845,7 @@ Module[{t, r, M, la, newOpts,
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	f = SchwarzschildF;
 	
 	xiEqsHomog=
@@ -943,7 +943,7 @@ Module[{a,la,laS},
 
 	a=BlackHoleSpinSymbol[syms];
 	laS=LambdaSpinSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	
 	expr/.{a->0,laS->2(la)}
 ]
@@ -977,7 +977,7 @@ Module[{r,la,om,RTeuk,M,parity,optionsRules,del},
 	TestOptions[optionsRules,{opts}];
 	parity = OptionValue[Parity];
 
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	M=BlackHoleMassSymbol[syms];
 	RTeuk=RadialTeukolskyFunctionSymbol[syms];
 	r=RSymbol[syms];
@@ -1019,7 +1019,7 @@ Module[{r,om,psiO,la,M,f},
 	psiO=MasterFunctionSymbol[syms,Parity->"Odd"];
 	r=RSymbol[syms];
 	om=FrequencySymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	f = SchwarzschildF;
 	
 	Collect[(la (1+la)+18M^2 f[r,M]/(2r(la r + 3M)))psiO[r] + 3M f[r,M]D[psiO[r],r],{psiO[r],Derivative[_][psiO][r]},Simplify]
@@ -1039,7 +1039,7 @@ Module[{r,om,psiO,la,M,pmN,f},
 	psiO=MasterFunctionSymbol[syms,Parity->"Odd"];
 	r=RSymbol[syms];
 	om=FrequencySymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	f = SchwarzschildF;
 	
 	Collect[1/(4 la (1+la)+ pmN 12 I om M) ((4 la (1+la)+72M^2 f[r,M]/(2r(la r + 3M)))psiO[r]+12M f[r,M]D[psiO[r],r]),{psiO[r],Derivative[_][psiO][r]},Simplify]

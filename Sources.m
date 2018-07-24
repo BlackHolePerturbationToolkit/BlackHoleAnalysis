@@ -231,7 +231,7 @@ Module[{qtUpper,qt,t,rp,M,mu,YphiBar,JJ,la,sym,cap,inds,se,f},
 	M=BlackHoleMassSymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
 	mu=ParticleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	YphiBar=YPhiSymbol[syms,Conjugate->True];
 	f = SchwarzschildF;
 		
@@ -271,7 +271,7 @@ Module[{qrUpper,qr,t,rp,M,mu,YphiBar,JJ,la,sym,cap,inds,se,f},
 	M=BlackHoleMassSymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
 	mu=ParticleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	YphiBar=YPhiSymbol[syms,Conjugate->True];
 	f = SchwarzschildF;
 			
@@ -311,7 +311,7 @@ Module[{qSharp,t,rp,M,mu,YphiphiBar,En,JJ,la,sym,cap,se,f},
 	En=SpecificEnergySymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
 	mu=ParticleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	YphiphiBar=YPhiPhiSymbol[syms,Conjugate->True];
 	f = SchwarzschildF;
 	
@@ -378,7 +378,7 @@ Module[{ptUpper,pt,t,rp,M,mu,XphiBar,JJ,la,sym,cap,inds,se,f},
 	M=BlackHoleMassSymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
 	mu=ParticleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	XphiBar=XPhiSymbol[syms,Conjugate->True];
 	f = SchwarzschildF;
 	
@@ -418,7 +418,7 @@ Module[{prUpper,pr,t,rp,M,mu,XphiBar,JJ,la,sym,cap,inds,se,f},
 	M=BlackHoleMassSymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
 	mu=ParticleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	XphiBar=XPhiSymbol[syms,Conjugate->True];
 	f = SchwarzschildF;
 	
@@ -458,7 +458,7 @@ Module[{p,t,rp,M,mu,XphiphiBar,En,JJ,la,sym,cap,se,f},
 	En=SpecificEnergySymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
 	mu=ParticleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	XphiphiBar=XPhiPhiSymbol[syms,Conjugate->True];
 	f = SchwarzschildF;
 	
@@ -541,7 +541,7 @@ Module[{t, r, rp, DD, optionsRules,gTil,var,EE,JJ,
 	M=BlackHoleMassSymbol[syms];
 	EE=SpecificEnergySymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	DD=DiracDeltaSymbol[syms];
 	f = SchwarzschildF;
 	
@@ -1029,7 +1029,7 @@ Module[{t,rp,la,M,f},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	f = SchwarzschildF;
 	
 	-(f[rp[t],M]^2/((la+1)rp[t]CapitalLambda[rp[t],M,la]^2))(la(la+1)rp[t]^2+6 la M rp[t]+15M^2)
@@ -1043,7 +1043,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	
 	1/((la+1)rp[t]CapitalLambda[rp[t],M,la]^2) ((la+1)(la rp[t]+6 M)rp[t]+3M^2)
 ];
@@ -1056,7 +1056,7 @@ Module[{t,rp,la,M,f},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	f = SchwarzschildF;
 	
 	(2 f[rp[t],M])/CapitalLambda[rp[t],M,la]
@@ -1083,7 +1083,7 @@ Module[{t,rp,la,M,f},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	f = SchwarzschildF;
 	
 	(rp[t] f[rp[t],M]^2)/((la+1)CapitalLambda[rp[t],M,la])
@@ -1097,7 +1097,7 @@ Module[{t,rp,la,M,f},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	f = SchwarzschildF;
 	
 	(rp[t]^2 f[rp[t],M]^3)/((la+1)CapitalLambda[rp[t],M,la])
@@ -1111,7 +1111,7 @@ Module[{t,rp,la,M,f},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	f = SchwarzschildF;
 	
 	-((rp[t]^2 f[rp[t],M])/((la+1)CapitalLambda[rp[t],M,la]))
@@ -1125,7 +1125,7 @@ Module[{t,rp,la,M,f},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	f = SchwarzschildF;
 	
 	-(f[rp[t],M]/la)
@@ -1138,7 +1138,7 @@ Module[{t,rp,la},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 
 	rp'[t]/la
 ];
@@ -1150,7 +1150,7 @@ Module[{t,rp,la},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	
 	rp[t]/la
 ];
@@ -1163,7 +1163,7 @@ Module[{t,rp,la,M,f},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	f = SchwarzschildF;
 	
 	(rp[t]f[rp[t],M]^2)/la
@@ -1176,7 +1176,7 @@ Module[{t,rp,la},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	
 	-((rp[t]rp'[t])/la)
 ]
@@ -1189,7 +1189,7 @@ Module[{t,rp,la,M,f},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	f = SchwarzschildF;
 	
 	-(la+1)rp[t]f[rp[t],M]^2
@@ -1202,7 +1202,7 @@ Module[{t,rp,la},
 
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	
 	(la+1)rp[t]
 ];
@@ -1215,7 +1215,7 @@ Module[{t,rp,la,M,f},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	f = SchwarzschildF;
 	
 	(2 f[rp[t],M])/rp[t] (-3M+(1+la)rp[t])
@@ -1229,7 +1229,7 @@ Module[{t,rp,la,M,f},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	f = SchwarzschildF;
 	
 	(-(f[rp[t],M]/rp[t]^2)(3M +la(la+1)rp[t]))
@@ -1362,7 +1362,7 @@ Module[{t,rp,M,EE,J,la},
 	M=BlackHoleMassSymbol[syms];
 	EE=SpecificEnergySymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 
 	((16*J^6*M^3 - 26*J^6*M^2*rp[t] + (13*J^6*M + 64*J^4*M^3)*rp[t]^2 - 
    2*J^4*(J^2 + (47 + 2*EE^2)*M^2)*rp[t]^3 + J^2*M*(J^2*(43 - 4*EE^2*(1 + la)) + 96*M^2)*
@@ -1452,7 +1452,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	
 	((2 M-rp[t]) (2 (3+la) M+la rp[t]) rp'[t])/(3 M+la rp[t])^2
 ];
@@ -1465,7 +1465,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	
 	-((2 la (-2 M+rp[t])^2)/(3 M+la rp[t])^2)
 ];
@@ -1478,7 +1478,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	
 	(rp[t] (6 M+la rp[t]) rp'[t])/(3 M+la rp[t])^2
 ];
@@ -1491,7 +1491,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	
 	-((M (-2 M+rp[t])^2 (12 M+(-3+2 la) rp[t]))/(rp[t]^3 (3 M+la rp[t])^2))
 ];
@@ -1504,7 +1504,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	
 	((3+2 la) M rp'[t])/(3 M+la rp[t])^2
 ];
@@ -1529,7 +1529,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	
 	-((-2 M+rp[t])^2/(3 M+la rp[t]))
 ];
@@ -1542,7 +1542,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	
 	rp[t]^2/(3 M+la rp[t])
 ];
@@ -1555,7 +1555,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	
 	(-2 M+rp[t])/(3 M+la rp[t])
 ];
@@ -1581,7 +1581,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	
 	((-2 M+rp[t])^2 rp'[t])/(3 M+la rp[t])
 ];
@@ -1594,7 +1594,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	
 	-((rp[t]^2 rp'[t])/(3 M+la rp[t]))
 ];
@@ -1607,7 +1607,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	
 	-((2 M-rp[t])^3/(rp[t]^2 (3 M+la rp[t])))
 ];
@@ -1620,7 +1620,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	
 	((2 M-rp[t]) rp'[t])/(3 M+la rp[t])
 ];
@@ -1645,7 +1645,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 
 	((-2 M+rp[t])^2 (6 M^3+la M rp[t]^2))/(rp[t]^4 (3 M+la rp[t])^2)
 ];
@@ -1658,7 +1658,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 
 	(6 M^3+6 (-1+2 la) M^2 rp[t]+la (-7+4 la) M rp[t]^2-2 la^2 rp[t]^3)/(rp[t]^2 (3 M+la rp[t])^2)
 ];
@@ -1671,7 +1671,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 
 	((810 M^5+6 (-75+137 la) M^4 rp[t]+(45-471 la+272 la^2) M^3 rp[t]^2+3 la (15-57 la+8 la^2) M^2 rp[t]^3-4 la^2 (-5+4 la) M rp[t]^4+2 la^3 rp[t]^5) rp'[t])/(rp[t]^4 (3 M+la rp[t])^3)
 ];
@@ -1684,7 +1684,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 
 	(-918 M^5+6 (102-163 la) M^4 rp[t]-3 (33-239 la+108 la^2) M^3 rp[t]^2+la (-129+265 la-28 la^2) M^2 rp[t]^3+2 la^2 (-27+13 la) M rp[t]^4-6 la^3 rp[t]^5)/(rp[t]^4 (3 M+la rp[t])^3)
 ];
@@ -1697,7 +1697,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 
 	-(((2 M-rp[t]) (33 M^3+3 (-3+7 la) M^2 rp[t]+2 (-4+la) la M rp[t]^2-la^2 rp[t]^3))/(rp[t]^3 (3 M+la rp[t])^2))
 ];
@@ -1710,7 +1710,7 @@ Module[{t,rp,la,M,EE,JJ},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	EE=SpecificEnergySymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
 	
@@ -1725,9 +1725,9 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 
--(((2 M-rp[t]) (45 M^3+(-15+31 la) M^2 rp[t]+la (-13+4 la) M rp[t]^2-2 la^2 rp[t]^3))/(rp[t]^3 (3 M+la rp[t])^2))
+	-(((2 M-rp[t]) (45 M^3+(-15+31 la) M^2 rp[t]+la (-13+4 la) M rp[t]^2-2 la^2 rp[t]^3))/(rp[t]^3 (3 M+la rp[t])^2))
 
 	];
 
@@ -1767,7 +1767,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 
 	(M (2 M-rp[t])^3)/(rp[t]^3 (3 M+la rp[t]))
 ];
@@ -1780,7 +1780,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 
 	(M (-2 M+rp[t]))/(rp[t] (3 M+la rp[t]))
 ];
@@ -1793,7 +1793,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 
 	((2 M-rp[t]) (45 M^3+(-15+31 la) M^2 rp[t]+la (-13+4 la) M rp[t]^2-2 la^2 rp[t]^3) rp'[t])/(rp[t]^3 (3 M+la rp[t])^2)
 ];
@@ -1806,7 +1806,7 @@ Module[{t,rp,la,M},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 
 	-((M (2 M-rp[t]) (9 M^2+(3+7 la) M rp[t]-la rp[t]^2))/(rp[t]^3 (3 M+la rp[t])^2))
 ];
@@ -1819,7 +1819,7 @@ Module[{t,rp,la,M,EE,JJ},
 	t=TSymbol[syms];
 	rp=RpSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	EE=SpecificEnergySymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
 	
@@ -1848,7 +1848,7 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -1926,7 +1926,7 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -1968,7 +1968,7 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -2099,7 +2099,7 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -2159,7 +2159,7 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -2488,7 +2488,7 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -2632,7 +2632,7 @@ Module[{mu,M,J,la,YBar,YPhiBar,YPhiPhiBar,En,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -4044,7 +4044,7 @@ Module[{mu,M,J,la,YBar,YPhiBar,YPhiPhiBar,En,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -4641,7 +4641,7 @@ Module[{mu,M,J,la,YBar,YPhiBar,YPhiPhiBar,En,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -7849,7 +7849,7 @@ Module[{mu,M,J,la,YBar,YPhiBar,YPhiPhiBar,En,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -9296,7 +9296,7 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -9329,7 +9329,7 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -9358,7 +9358,7 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -9404,7 +9404,7 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -9438,7 +9438,7 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -9715,7 +9715,7 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -9855,7 +9855,7 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -10345,7 +10345,7 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -10606,7 +10606,7 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -11868,7 +11868,7 @@ Module[{mu,M,CapLa,J,la,YBar,YPhiBar,YPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -12605,7 +12605,7 @@ Module[{mu,M,CapLa,J,la,XPhiBar,XPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -12663,7 +12663,7 @@ Module[{mu,M,CapLa,J,la,XPhiBar,XPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -12701,7 +12701,7 @@ Module[{mu,M,CapLa,J,la,XPhiBar,XPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -12868,7 +12868,7 @@ Module[{mu,M,CapLa,J,la,XPhiBar,XPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -12959,7 +12959,7 @@ Module[{mu,M,CapLa,J,la,XPhiBar,XPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -13257,7 +13257,7 @@ Module[{mu,M,CapLa,J,la,XPhiBar,XPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -13417,7 +13417,7 @@ Module[{mu,M,CapLa,J,la,XPhiBar,XPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];
@@ -14187,7 +14187,7 @@ Module[{mu,M,CapLa,J,la,XPhiBar,XPhiPhiBar,En,USq,fp,m,rp,t},
 	mu = ParticleMassSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
 	m=MSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	t=TSymbol[syms];
 	rp = RpSymbol[syms];
 	J=SpecificAngularMomentumSymbol[syms];

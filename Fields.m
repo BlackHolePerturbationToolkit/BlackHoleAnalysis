@@ -387,7 +387,7 @@ Module[{t, r, M, la,parOpt,varOpt,rpDot,rp,m,f,
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	EE=SpecificEnergySymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
 	rp=RpSymbol[syms];
@@ -539,7 +539,7 @@ Module[{t,r,M,la,hBL,f},
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	hBL=HBarackSagoSymbol[syms];
 	f = SchwarzschildF;
 	
@@ -569,7 +569,7 @@ Module[{t,r,M,la,amp,f},
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	amp[str_]:=AmplitudeFunction[str][syms,"Gauge"->gauge];
 	f = SchwarzschildF;
 	
@@ -945,7 +945,7 @@ Module[{t,r,M,KK,jr,G,gauge,la,f},
 	r=RSymbol[syms];
 	t=TSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la= LambdaSymbol[syms];
+	la= LambdaOfL[syms];
 	f = SchwarzschildF;
 	
 	KK=KAmplitude[syms,FilterRules[{opts},Options@KAmplitude]];
@@ -1029,7 +1029,7 @@ Module[{t,r,M,la,A,KK,KKRHS, Psi, Qtt, se,weak,f},
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	KK=KSymbol[syms];
 
 	A=1/(r CapitalLambda[r,M,la]) (la(la+1)+(3M)/r (la+(2M)/r));
@@ -1079,7 +1079,7 @@ Module[{t,r,M,la,Qtt,Qtr,B, htr,htrRHS,
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	htr=HtrSymbol[syms];
 
 	B=1/(r f[r,M]CapitalLambda[r,M,la]) (la(1-(3M)/r)-(3M^2)/r^2);
@@ -1108,7 +1108,7 @@ Module[{t,r,M,la,KK,hrr,hrrRHS,
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	hrr=HrrSymbol[syms];
 
 	Psi[tt_,rr_]:=MasterFunction[syms,Parity->"Even",Weak->weak]/.{t->tt,r->rr};
@@ -1133,7 +1133,7 @@ Module[{t,r,M,Pt,la,ht,htRHS,
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	ht=HtSymbol[syms];
 
 	Psi[tt_,rr_]:=MasterFunction[syms,Parity->"Odd",Weak->weak]/.{t->tt,r->rr};
@@ -1158,7 +1158,7 @@ Module[{t,r,M,Pr,la,hr,hrRHS,
 	t=TSymbol[syms];
 	r=RSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	hr=HrSymbol[syms];
 
 	Psi[tt_,rr_]:=MasterFunction[syms,Parity->"Odd",Weak->weak]/.{t->tt,r->rr};
@@ -1389,7 +1389,7 @@ Module[{t,r,M,la,second,first,xiR,xiE,mode,laN,f},
 	r=RSymbol[syms];
 	t=TSymbol[syms];
 	M=BlackHoleMassSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	mode=OptionValue[Mode];
 	f = SchwarzschildF;
 	
@@ -1579,7 +1579,7 @@ Module[{t,r,th,rp,la,M,En,JJ,mu,YBar,YphiBar,YphiphiBar},
 	M=BlackHoleMassSymbol[syms];
 	En=SpecificEnergySymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	th=HeavisideSymbol[syms];
 	YBar=YSymbol[syms,Conjugate->True];
 	YphiBar=YPhiSymbol[syms,Conjugate->True];
@@ -1601,7 +1601,7 @@ Module[{t,r,th,rp,la,M,En,JJ,mu,YBar,YphiBar,YphiphiBar},
 	M=BlackHoleMassSymbol[syms];
 	En=SpecificEnergySymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	th=HeavisideSymbol[syms];
 	YBar=YSymbol[syms,Conjugate->True];
 	YphiBar=YPhiSymbol[syms,Conjugate->True];
@@ -1624,7 +1624,7 @@ Module[{t,r,th,rp,la,M,mu,En,JJ,YBar,YphiBar,YphiphiBar},
 	mu=ParticleMassSymbol[syms];
 	En=SpecificEnergySymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	th=HeavisideSymbol[syms];
 	YBar=YSymbol[syms,Conjugate->True];
 	YphiBar=YPhiSymbol[syms,Conjugate->True];
@@ -1646,7 +1646,7 @@ Module[{t,r,th,rp,la,M,En,JJ,mu,XphiBar,XphiphiBar},
 	M=BlackHoleMassSymbol[syms];
 	En=SpecificEnergySymbol[syms];
 	JJ=SpecificAngularMomentumSymbol[syms];
-	la=LambdaSymbol[syms];
+	la=LambdaOfL[syms];
 	th=HeavisideSymbol[syms];
 	XphiBar=XPhiSymbol[syms,Conjugate->True];
 	XphiphiBar=XPhiPhiSymbol[syms,Conjugate->True];
