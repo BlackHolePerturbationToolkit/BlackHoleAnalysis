@@ -827,12 +827,6 @@ reDef@
 ROfRStar[]:=ROfRStar[DefaultSymbols[]]
 
 
-(*def@ROfRStar[x_,mass_]:=ROfRho[RhoOfRStar[x,mass],mass];
-reDef@ROfRStar[syms_Association]:=ROfRStar[RStarSymbol[syms],BlackHoleMassSymbol[syms]]
-reDef@
-ROfRStar[]:=ROfRStar[DefaultSymbols[]]*)
-
-
 def@SchwarzschildF[r_,M_] := 1 - 2M/ r;
 reDef@SchwarzschildF[syms_Association]:=SchwarzschildF[RSymbol[syms],BlackHoleMassSymbol[syms]]
 reDef@
