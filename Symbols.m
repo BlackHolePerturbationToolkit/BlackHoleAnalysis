@@ -235,10 +235,6 @@ DocumentationBuilder`OptionDescriptions["XPhiPhiSymbol"]=DocumentationBuilder`Op
 zmMax=7;
 cpmMax=6;
 jtMax=5;
-(*zmVars="ZM"<>If[#===0,"",ToString[#]]&/@Range[0,zmMax];
-cpmVars="CPM"<>If[#===0,"",ToString[#]]&/@Range[0,cpmMax];
-jtVars="JT"<>If[#===0,"",ToString[#]]&/@Range[0,jtMax];
-*)
 zmVars=Join[{"ZM"},"ZM"<>ToString[#]&/@Range[0,zmMax]];
 cpmVars=Join[{"CPM"},"CPM"<>ToString[#]&/@Range[0,cpmMax]];
 jtVars=Join[{"JT"},"JT"<>ToString[#]&/@Range[0,jtMax]];
@@ -540,22 +536,7 @@ Module[{optionsRules,tag,variable,parity,tagList,par,var,psi,symbol},
 	
 	symbol = Symbol[ToString[psi]<>ToString[var]];
 	Format[symbol] = ToString[Superscript[psi,var],StandardForm];
-	
-(*	tag=
-	Switch[parity,
-		"Even",
-		tagList=Flatten[{#,#<>"Tag"}&/@evenVars]/."ZM"->Alternatives[Default,"ZM","ZM0"];
-		Switch[var,Evaluate[Sequence@@tagList],_,Print["Variable ", var, " is not Even parity."];Abort[]],
-		"Odd",
-		tagList=Flatten[{#,#<>"Tag"}&/@oddVars]/."CPM"->Alternatives[Default,"CPM","CPM0"];
-		Switch[var,Evaluate[Sequence@@tagList],_,Print["Variable ", var, " is not Odd parity."];Abort[]],
-		Default,
-		tagList=Flatten[{#,#<>"Tag"}&/@Join[evenVars,oddVars]]/."ZM"->Alternatives[Default,"ZM","ZM0"];
-		Switch[var,Evaluate[Sequence@@tagList]]
-	];
-
-	GetSymbol[syms,"MasterFunction"["Tags"->{"Up"->{tag}}]]*)
-	
+		
 	symbol
 ]
 reDef@
@@ -1294,12 +1275,6 @@ ECoefficientSymbol[]:=ECoefficientSymbol[DefaultSymbols[]];
 
 
 def@
-CSymbol[syms_Association]:=GetSymbol[syms,"C"]
-reDef@
-CSymbol[]:=CSymbol[DefaultSymbols[]];
-
-
-def@
 XSymbol[syms_Association]:=GetSymbol[syms,"x"]
 reDef@
 XSymbol[]:=XSymbol[DefaultSymbols[]];
@@ -1379,13 +1354,9 @@ If[MemberQ[masterVars,var],
 
 def@
 DefaultSymbols[]:=
-Module[{symbols,symbolsGlobal,strings,symbolsStrs,outDir,ds,outDirStr,syms,jtSyms,zmSyms,cpmSyms},
+Module[{symbols,symbolsGlobal,strings,symbolsStrs,syms},
 
-	jtSyms = "JT"<>If[#===0,"",ToString[#]]<>"Tag"->"JT"<>If[#===0,"",ToString[#]]&/@Range[0,jtMax];
-	zmSyms = "ZM"<>If[#===0,"",ToString[#]]<>"Tag"->"ZM"<>If[#===0,"",ToString[#]]&/@Range[0,zmMax];
-	cpmSyms = "CPM"<>If[#===0,"",ToString[#]]<>"Tag"->"CPM"<>If[#===0,"",ToString[#]]&/@Range[0,cpmMax];
-
-	symbols={"Apoapsis"->"rMax","BlackHoleMass"->"M","BlackHoleSpin"->"a","C"->"\[ScriptCapitalC]","CapitalOmega"->"\[CapitalOmega]","chi"->"\[Chi]",
+	symbols={"Apoapsis"->"rMax","BlackHoleMass"->"M","BlackHoleSpin"->"a","CapitalOmega"->"\[CapitalOmega]","chi"->"\[Chi]",
 				"DeltaPhi"->"\[CapitalDelta]\[Phi]","DiracDelta"->"\[Delta]", "EvenTag"->"e", "OddTag"->"o","SpinWeight"->"s","Flat"->"\[Flat]","Frequency"->"\[Omega]","G"->"\[ScriptCapitalG]",
 				"GCoefficient"->"G","GUTag"->"GU","hBarackSago"->"hBS","Heaviside"->"\[Theta]","hEven"->"h","hOdd"->"h","ImpactParameter"->"b",
 				"InvariantTag"->"GI","j"->"j","K"->"\[ScriptCapitalK]","l"->"l","lambda"->"\[Lambda]","LambdaSpin"->"\[Lambda]s","LorenzTag"->"L",
@@ -1398,16 +1369,12 @@ Module[{symbols,symbolsGlobal,strings,symbolsStrs,outDir,ds,outDirStr,syms,jtSym
 				"TeukolskyGravity"->"\[Psi]","TeukolskyEM"->"\[Phi]","TeukolskyScalar"->"\[CapitalPhi]","TeukolskyNeutrino"->"\[Chi]","theta"->"\[Theta]","thetap"->"\[Theta]p",
 				"x"->"x","X"->"X","xi"->"\[Xi]","xPN"->"xPN","Y"->"Y"};
 				
-	strings=Join[{"ECoefficient"->"E","FCoefficient"->"F","Bar"->"_","MinusTag"->"-","PlusTag"->"+","2Tag"->"2"},zmSyms,cpmSyms,jtSyms];
+	strings={"ECoefficient"->"E","FCoefficient"->"F","Bar"->"_","MinusTag"->"-","PlusTag"->"+","2Tag"->"2"};
 
 	symbolsStrs=symbols/.(str_String->symStr_String):>str->"Global`"<>symStr;
 	symbolsGlobal=symbolsStrs/.(str_String->symStr_String):>str->Symbol[symStr];
-	(*Protect[Evaluate[symbolsGlobal[[All,2]]]];*)
-	ds=DateString[{"Date=","Year","_","Month","_","Day","_Time=","Hour24","_","Minute"}];
-	outDir=FileNameJoin[Join[{If[Quiet[NotebookDirectory[],{NotebookDirectory::nosv,FrontEndObject::notavail}]===$Failed,$UserDocumentsDirectory,NotebookDirectory[]]},{ds}]];
-	outDirStr={"OutputDirectory"->outDir};	
-
-	syms=Association[Join[symbolsGlobal,strings,outDirStr]];
+	
+	syms=Association[Join[symbolsGlobal,strings]];
 	DefineFormats[syms];
 	syms
 ]
