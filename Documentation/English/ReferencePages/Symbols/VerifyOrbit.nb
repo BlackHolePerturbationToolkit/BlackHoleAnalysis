@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"c34bd16c-f298-4883-98a0-ec1832f60be5"],
+   0}},ExpressionUUID->"d135d677-8a6b-4e5b-8e0f-54f5987bfec4"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -16,12 +16,12 @@ Cell[TextData[{
  ButtonBox["VerifyOrbit",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/VerifyOrbit"]
-}], "LinkTrail",ExpressionUUID->"1b81b066-c73f-4861-bb5b-ab89956ef18b"],
+}], "LinkTrail",ExpressionUUID->"0187ef4d-d629-4835-bc95-a769ee95734c"],
 
 Cell[CellGroupData[{
 
 Cell["VerifyOrbit", \
-"ObjectName",ExpressionUUID->"ad3ddb9e-4f04-4a1a-a7f9-15ba09c3b45c"],
+"ObjectName",ExpressionUUID->"2c96ec09-d6b0-42c4-838d-a01f56d7198c"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -34,13 +34,13 @@ Cell[BoxData[GridBox[{
         RowBox[{"syms", ",", 
          RowBox[{"{", 
           RowBox[{"p", ",", "e", ",", "M"}], "}"}]}], "TI"], "]"}]], 
-      "InlineFormula",ExpressionUUID->"63159d99-7156-4e67-b5f3-4002f11bf032"],
+      "InlineFormula",ExpressionUUID->"4bb8837f-2221-4398-b9d1-77e2b802eb27"],
      
      "\[LineSeparator]aborts with an error message if an orbit parametrized \
 by semilatus rectum p, eccentricity e, and mass M"
-    }],ExpressionUUID->"d5c2ea58-53e8-424a-9943-0a593c6ef381"]},
+    }],ExpressionUUID->"6e61bce5-8573-427c-9e90-7435291b4aed"]},
    {"", Cell[
-    "is invalid.",ExpressionUUID->"5562d233-4cf3-4efb-b8c1-b96c5af02d06"]},
+    "is invalid.",ExpressionUUID->"2cea6cad-6c31-4cf7-b0ae-c573878c9e66"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -51,20 +51,20 @@ by semilatus rectum p, eccentricity e, and mass M"
         RowBox[{"syms", ",", 
          RowBox[{"{", 
           RowBox[{"r", ",", "M"}], "}"}]}], "TI"], "]"}]], "InlineFormula",
-      ExpressionUUID->"f303e4d9-278e-4df1-be70-47c2c4c3e022"],
+      ExpressionUUID->"e38743aa-68c3-456a-abd0-7d1737ca6001"],
      "\[LineSeparator]aborts with an error message if a circular orbit \
 parametrized by radius r and mass M"
-    }],ExpressionUUID->"9be44c02-ff2f-495d-aa98-6d502fb31a81"]},
+    }],ExpressionUUID->"fde0f7ee-9491-4aa4-86dc-283f94a3ed25"]},
    {"", Cell[
-    "is invalid.",ExpressionUUID->"296083c2-e8e0-4f6a-b8d7-964232c5b2f2"]}
-  }]], "Usage",ExpressionUUID->"5577dedb-10b9-4cfa-a956-3fd57f43dcc8"]
+    "is invalid.",ExpressionUUID->"89586d47-40a8-4606-abc8-cea752ff2fab"]}
+  }]], "Usage",ExpressionUUID->"3f28a4ec-d137-4003-9777-2363f323b3e5"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"503e446b-227b-4c5e-9b59-6d400d4fca21"],
+Cell[" ", "FooterCell",ExpressionUUID->"90bad4d6-5028-4b42-be16-aa7f6357412f"],
 
-Cell[BoxData[""],ExpressionUUID->"91570b23-6473-4ca1-9349-dfc6bc42a988"]
+Cell[BoxData[""],ExpressionUUID->"b11c52df-a32a-4af2-b040-d30aed04a526"]
 }, Open  ]]
 },
 Saveable->False,

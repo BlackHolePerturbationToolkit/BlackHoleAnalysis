@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"afa0838e-3988-4e8b-85f1-6fb8389215e8"],
+   0}},ExpressionUUID->"5186c054-befe-4748-ac84-053deecaf030"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["BarackSagoAmplitude",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/BarackSagoAmplitude"]
-}], "LinkTrail",ExpressionUUID->"d0dbc923-43a2-41d0-9209-ea85d7d20176"],
+}], "LinkTrail",ExpressionUUID->"1c719d7b-342a-4e87-b9fa-61337114a031"],
 
 Cell[CellGroupData[{
 
 Cell["BarackSagoAmplitude", \
-"ObjectName",ExpressionUUID->"a0b15566-3518-4d7f-b18d-58bbe87b41e6"],
+"ObjectName",ExpressionUUID->"487fa9f9-604a-4025-8372-b0ac14557b31"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -32,12 +32,12 @@ Cell[BoxData[GridBox[{
        
        StyleBox[
         RowBox[{"label", ",", "gauge"}], "TI"], "]"}]], "InlineFormula",
-      ExpressionUUID->"0fd652f4-4891-4248-b13b-f991ddc965b3"],
+      ExpressionUUID->"99f5969c-1175-4301-af64-b8552355f7ac"],
      "\[LineSeparator]returns the Barack and Sago metric perturbation \
 corresponding to label (an integer 1-10) written in terms of the Martel and \
 Poisson amplitudes. The specified gauge can be \"RWZ\", \"ModRWZ\", \
 \"Lorenz\", \"Undefined\", or Null."
-    }],ExpressionUUID->"b70660cc-661b-48ad-b642-8a1f2f657433"]},
+    }],ExpressionUUID->"0e1c8b62-f372-4211-a3f2-36a6aefcf0e5"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -46,17 +46,17 @@ Poisson amplitudes. The specified gauge can be \"RWZ\", \"ModRWZ\", \
         ButtonData->"paclet:BlackHoleAnalysis/ref/BarackSagoAmplitude"], "[", 
        
        StyleBox["label", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
-      "b39e9db9-9ce2-40d4-8d47-b9e97247e0db"],
+      "3688c706-063c-49e5-9b03-84ba09ed1e95"],
      "\[LineSeparator]is equivalent to BarackSagoAmplitude[label, \"RWZ\"]"
-    }],ExpressionUUID->"7712f396-4bf0-4b12-a749-b8a6941a84dd"]}
-  }]], "Usage",ExpressionUUID->"39d2466d-da32-403f-ab86-5fded48b1074"]
+    }],ExpressionUUID->"25fe1793-6cba-488f-ba58-caf2741f4df7"]}
+  }]], "Usage",ExpressionUUID->"7a1db1b6-3c6e-49a7-9b19-18026ff06f3a"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"19148b5f-aa10-4f82-8325-50c748f27f38"],
+Cell[" ", "FooterCell",ExpressionUUID->"a926cc87-92fe-47b5-95d4-527a066eebfa"],
 
-Cell[BoxData[""],ExpressionUUID->"c3897551-5c1f-4eec-b158-548165c91516"]
+Cell[BoxData[""],ExpressionUUID->"4142b65a-7fbe-4074-9ae8-e38250545260"]
 }, Open  ]]
 },
 Saveable->False,

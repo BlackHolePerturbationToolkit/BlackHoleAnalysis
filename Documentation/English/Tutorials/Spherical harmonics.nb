@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "TutorialColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"756adfa0-02c3-4d79-9bb4-64c15461168d"],
+   0}},ExpressionUUID->"2237ed25-c79b-4b63-9ece-73af5dd21255"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -11,11 +11,11 @@ Cell[TextData[{
  ButtonBox["Spherical harmonics",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/tutorial/Spherical harmonics"]
-}], "LinkTrail",ExpressionUUID->"2b765749-c18a-4361-8470-00792996afb4"],
+}], "LinkTrail",ExpressionUUID->"595b4075-0ead-4f0b-a673-b590a114f57e"],
 
 Cell[BoxData[GridBox[{
    {Cell["SPHERICAL HARMONICS TUTORIAL", "PacletNameCell",ExpressionUUID->
-     "9018569a-c97a-4142-90fd-b71ea8db78b0"], Cell[TextData[{
+     "adfa8769-55bf-488a-9381-d28c0285d684"], Cell[TextData[{
      Cell[BoxData[
       ActionMenuBox[
        FrameBox["\<\"Related Tutorials \[RightGuillemet]\"\>",
@@ -38,7 +38,7 @@ variables"],
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "6fe8b8a8-c919-4aaa-ae48-40f1695edc27"],
+      "2b06b3bb-b029-4eba-868e-4b979269ae4a"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -57,14 +57,14 @@ variables"],
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "3ba89af8-d6e2-4b23-bda8-9f7a9f3a9444"]
-    }], "AnchorBar",ExpressionUUID->"c5200128-4377-4617-9367-f7e083d0c9fb"]}
-  }]], "AnchorBarGrid",ExpressionUUID->"63b7c2cb-def3-4d64-b9ff-46d566b1ad86"],
+      "0a7e88c8-86a8-4f8e-938e-22a13ad22c8f"]
+    }], "AnchorBar",ExpressionUUID->"40a841de-a2b1-431c-9e2c-d83d17053264"]}
+  }]], "AnchorBarGrid",ExpressionUUID->"5c61a0fa-f80d-453c-ad12-78815c087db7"],
 
 Cell[CellGroupData[{
 
 Cell["BlackHoleAnalysis - Spherical harmonics", \
-"Title",ExpressionUUID->"77348239-32cd-4d45-af45-1b4097bb2d04"],
+"Title",ExpressionUUID->"eafd453a-e5ad-405b-922b-10878212a903"],
 
 Cell[TextData[{
  "BlackHoleAnalysis provides expressions for spherical harmonics. The \
@@ -75,38 +75,38 @@ conventions are based on the Martel & Poisson formalism  (",
     URL["https://arxiv.org/abs/gr-qc/0502028"], None},
   ButtonNote->"https://arxiv.org/abs/gr-qc/0502028"],
  ")."
-}], "Text",ExpressionUUID->"0c16d0c9-b7de-4a58-be1d-e0d30c73cb95"],
+}], "Text",ExpressionUUID->"96e0944e-e7ee-48b6-a0c8-5941f1f0450e"],
 
 Cell[BoxData[
  RowBox[{"<<", "BlackHoleAnalysis`"}]], "Input",
- CellLabel->"In[1]:=",ExpressionUUID->"0d1c951d-3e99-4e98-93bd-ff5e78b7b284"],
+ CellLabel->"In[1]:=",ExpressionUUID->"d981458b-4ce1-4785-94d4-61ec24a370f8"],
 
 Cell[CellGroupData[{
 
 Cell["Introduction", \
-"Section",ExpressionUUID->"8fc09c59-c768-4572-a630-94e91cf6206d"],
+"Section",ExpressionUUID->"4962fac2-38d2-4c7c-82e7-14fe2246d3e1"],
 
 Cell["\<\
 Scalar, vector and tensor spherical harmonics provide the appropriate basis \
 for decomposing the metric perturbation on a spherically symmetric background.\
-\>", "Item",ExpressionUUID->"d7fb8002-1afe-496f-a794-3655fc26cdc3"],
+\>", "Item",ExpressionUUID->"b028b591-e942-4a24-aa06-ae6670a50ae7"],
 
 Cell["\<\
 Starting with the scalar harmonic, BlackHoleAnalysis provides YHarmonic.\
-\>", "Item",ExpressionUUID->"25131a60-5bb1-40ef-af2f-af06bf528693"],
+\>", "Item",ExpressionUUID->"e3d64bb1-f278-46c4-bd18-63318df7a496"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 It gives the standard spherical harmonic in a slightly nicer form than \
 Mathematica\[CloseCurlyQuote]s SphericalHarmonicY.\
-\>", "Item",ExpressionUUID->"a5d04473-f166-4b63-bdeb-c773f020de94"],
+\>", "Item",ExpressionUUID->"bf37c455-3662-44b2-9ab2-bca59e440bc2"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "YHarmonic"}]], "Input",
- CellLabel->"In[2]:=",ExpressionUUID->"bf5d1667-8b29-4bc3-8a22-e1c099539b6c"],
+ CellLabel->"In[2]:=",ExpressionUUID->"43bda481-8e76-4ce5-b48a-8f8edbab3abc"],
 
 Cell[BoxData[
  RowBox[{"\<\"YHarmonic[{l,m},{theta,phi}] returns the scalar spherical \
@@ -120,8 +120,8 @@ spin-weighted spherical harmonic _s Y_lm[theta,phi].\"\>",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/YHarmonic"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info23741357193-9892469",ExpressionUUID->"87ef9c6b-f9ca-4867-a231-\
-4744f85c4167"]
+  "Info23741463204-7756260",ExpressionUUID->"dc0f3198-f418-4075-8ce8-\
+11ace1f8d7ee"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -133,7 +133,7 @@ Cell[BoxData[
     RowBox[{"l", ",", "m"}], "}"}], ",", 
    RowBox[{"{", 
     RowBox[{"\[Theta]", ",", "\[Phi]"}], "}"}]}], "]"}]], "Input",
- CellLabel->"In[3]:=",ExpressionUUID->"97e1a5a4-66e4-4391-bc78-fca61d138cb5"],
+ CellLabel->"In[3]:=",ExpressionUUID->"9c8e17e9-90c4-4a9f-b3be-a99b3c4a1853"],
 
 Cell[BoxData[
  FractionBox[
@@ -157,7 +157,7 @@ Cell[BoxData[
      RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "]"}]}], 
   RowBox[{"2", " ", 
    SqrtBox["\[Pi]"]}]]], "Output",
- CellLabel->"Out[3]=",ExpressionUUID->"dfe7e7af-ebf5-4a3c-8a32-b3e20b9404e4"]
+ CellLabel->"Out[3]=",ExpressionUUID->"e46ed4d8-f8fd-4673-84f1-fe084aee166a"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -165,32 +165,32 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell["Vector harmonics", \
-"Section",ExpressionUUID->"44dbde1d-7b1b-4cec-ab7e-c0c44ef6ba83"],
+"Section",ExpressionUUID->"0b47b17b-25cc-4dc3-bdf3-87b1c6d66520"],
 
 Cell["\<\
 The vector harmonics come from differentiating the scalar harmonic.\
-\>", "Item",ExpressionUUID->"3038095f-baa8-4da8-baea-6a1366098c9c"],
+\>", "Item",ExpressionUUID->"9621e7a1-1602-4e9c-b8b1-1a3cfa12ced3"],
 
 Cell[TextData[{
  "There is an even-parity harmonic, ",
  Cell[BoxData[
   FormBox[
    SubscriptBox["Y", "A"], TraditionalForm]],ExpressionUUID->
-  "acb241e7-a66c-4836-b53b-0bb1452ce80a"],
+  "66157ecd-18b9-4ada-a3c5-9333334bcb0d"],
  " and an odd-parity harmonic ",
  Cell[BoxData[
   FormBox[
    SubscriptBox["X", "A"], TraditionalForm]],ExpressionUUID->
-  "1b72f1dd-1587-4791-8cba-0e14dffcbb10"],
+  "56c4f258-0e9b-45bf-9f00-7a6c984cbad4"],
  ", where A \[Element] {\[Theta],\[Phi]}"
-}], "Item",ExpressionUUID->"78d730cf-e008-4ac5-b641-a1bd5ccff32a"],
+}], "Item",ExpressionUUID->"310e2765-f576-426b-b8e1-4e8a719b05f6"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 The following four functions provide the different components of the vector \
 harmonics\
-\>", "Item",ExpressionUUID->"a5279055-d120-45b0-9c5d-92753847b700"],
+\>", "Item",ExpressionUUID->"2a5cddd6-d77d-4620-86f2-860bc13a395a"],
 
 Cell[CellGroupData[{
 
@@ -199,7 +199,7 @@ Cell[BoxData[{
  RowBox[{"?", "YPhi"}], "\[IndentingNewLine]", 
  RowBox[{"?", "XTheta"}], "\[IndentingNewLine]", 
  RowBox[{"?", "XPhi"}]}], "Input",
- CellLabel->"In[4]:=",ExpressionUUID->"117f1ac6-46f5-448b-b71b-67ad25c1bc41"],
+ CellLabel->"In[4]:=",ExpressionUUID->"7f47fd10-d3fc-469a-befa-41bb03bf65e1"],
 
 Cell[CellGroupData[{
 
@@ -213,8 +213,8 @@ component Y_lm_Theta[theta,phi].\"\>", "\[NonBreakingSpace]",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/YTheta"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info43741357193-9892469",ExpressionUUID->"d8c2e4ff-a7a9-406d-b953-\
-731c0ad55afb"],
+  "Info43741463204-7756260",ExpressionUUID->"91c22636-8542-46fd-9d3d-\
+f6511c543695"],
 
 Cell[BoxData[
  RowBox[{"\<\"YPhi[{l,m},{theta,phi}] returns the vector spherical harmonic \
@@ -226,8 +226,8 @@ component Y_lm_Phi[theta,phi].\"\>", "\[NonBreakingSpace]",
    ButtonData->"paclet:BlackHoleAnalysis/ref/YPhi"]}]], "Print", "PrintUsage",
  
  CellTags->
-  "Info53741357193-9892469",ExpressionUUID->"3552f235-14e1-4d41-a447-\
-e8745f0e1014"],
+  "Info53741463204-7756260",ExpressionUUID->"f992393b-8e9a-4852-8805-\
+dfe69681c4f8"],
 
 Cell[BoxData[
  RowBox[{"\<\"XTheta[{l,m},{theta,phi}] returns the vector spherical harmonic \
@@ -239,8 +239,8 @@ component X_lm_Theta[theta,phi].\"\>", "\[NonBreakingSpace]",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/XTheta"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info63741357193-9892469",ExpressionUUID->"c72b494b-a63b-4b61-adeb-\
-9fb6d6ca285e"],
+  "Info63741463205-7756260",ExpressionUUID->"b801e19e-847b-4909-b209-\
+0d2b29a8d643"],
 
 Cell[BoxData[
  RowBox[{"\<\"XPhi[{l,m},{theta,phi}] returns the vector spherical harmonic \
@@ -252,8 +252,8 @@ component Y_lm_Phi[theta,phi].\"\>", "\[NonBreakingSpace]",
    ButtonData->"paclet:BlackHoleAnalysis/ref/XPhi"]}]], "Print", "PrintUsage",
  
  CellTags->
-  "Info73741357193-9892469",ExpressionUUID->"053f137d-984a-4408-b5c6-\
-62784d33e772"]
+  "Info73741463205-7756260",ExpressionUUID->"b96ece88-1e60-4e4f-bb0f-\
+7f1b7ef799e6"]
 }, Open  ]]
 }, Open  ]],
 
@@ -266,7 +266,7 @@ Cell[BoxData[
     RowBox[{"l", ",", "m"}], "}"}], ",", 
    RowBox[{"{", 
     RowBox[{"\[Theta]", ",", "\[Phi]"}], "}"}]}], "]"}]], "Input",
- CellLabel->"In[8]:=",ExpressionUUID->"dc95546f-61f4-4802-8335-57ba5ebd6fdd"],
+ CellLabel->"In[8]:=",ExpressionUUID->"bdba7abf-cc4d-43a7-8600-1477da21e658"],
 
 Cell[BoxData[
  RowBox[{
@@ -320,7 +320,7 @@ Cell[BoxData[
         RowBox[{"1", "+", "l"}], ",", "m", ",", 
         RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "]"}]}]}], ")"}], " ", 
    RowBox[{"Sin", "[", "\[Theta]", "]"}]}]}]], "Output",
- CellLabel->"Out[8]=",ExpressionUUID->"4918b623-fac3-4e54-9fbe-db2e11e81ef9"]
+ CellLabel->"Out[8]=",ExpressionUUID->"e83964e6-26ff-4579-aca2-97f561f6aba7"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -328,37 +328,37 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell["Tensor harmonics", \
-"Section",ExpressionUUID->"89743b1a-1566-4812-ba45-8382b5862690"],
+"Section",ExpressionUUID->"26ad4802-ba78-4367-8f06-4b27f5c33d35"],
 
 Cell[TextData[{
  "The even-parity tensor harmonics are ",
  Cell[BoxData[
   FormBox[
    SubscriptBox["Y", "AB"], TraditionalForm]],ExpressionUUID->
-  "74515e63-5d1d-4b4e-9c47-bee59781339b"],
+  "afaa94a9-dbb6-4bd0-814f-e2f6322ff8c6"],
  " and Y ",
  Cell[BoxData[
   FormBox[
    SubscriptBox["\[CapitalOmega]", "AB"], TraditionalForm]],ExpressionUUID->
-  "cdb7a6cd-9435-421b-a97e-b6ff60ab5e8b"],
+  "fad9f876-0315-46ff-97f5-a043d50a904a"],
  ", where A,B \[Element] {\[Theta],\[Phi]}"
-}], "Item",ExpressionUUID->"c8e398be-58e2-41f5-bc14-adbe2952e487"],
+}], "Item",ExpressionUUID->"d491b7fb-ef1c-482e-b964-a17b02234a48"],
 
 Cell[TextData[{
  "The odd-parity tensor harmonics are ",
  Cell[BoxData[
   FormBox[
    SubscriptBox["X", "AB"], TraditionalForm]],ExpressionUUID->
-  "681c5def-c637-4ff9-8a98-6c087c879a4f"],
+  "d95e7db6-f4dd-4bb8-8f24-707151c44f65"],
  ", where A,B \[Element] {\[Theta],\[Phi]}"
-}], "Item",ExpressionUUID->"19db56e4-94a8-44a9-9e15-4d4ca96f14a8"],
+}], "Item",ExpressionUUID->"bb226d10-41fa-459b-9a2f-cba4294694fb"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 The following six functions provide the different components of the tensor \
 harmonics\
-\>", "Item",ExpressionUUID->"bc21cbf8-8789-42c6-9ee4-686187b1476a"],
+\>", "Item",ExpressionUUID->"5068ac15-5dd4-46f8-9c5a-09bf41db60e0"],
 
 Cell[CellGroupData[{
 
@@ -369,7 +369,7 @@ Cell[BoxData[{
  RowBox[{"?", "XThetaTheta"}], "\[IndentingNewLine]", 
  RowBox[{"?", "XThetaPhi"}], "\[IndentingNewLine]", 
  RowBox[{"?", "XPhiPhi"}]}], "Input",
- CellLabel->"In[9]:=",ExpressionUUID->"07c69cfa-45e2-45cd-8c3e-63b578201abb"],
+ CellLabel->"In[9]:=",ExpressionUUID->"2a701045-adad-4132-8a8b-026a9f5d3aba"],
 
 Cell[CellGroupData[{
 
@@ -383,8 +383,8 @@ harmonic component Y_lm_ThetaTheta[theta,phi].\"\>", "\[NonBreakingSpace]",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/YThetaTheta"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info93741357193-9892469",ExpressionUUID->"c571a7ed-87b6-4588-9c92-\
-5149f0481bc1"],
+  "Info93741463205-7756260",ExpressionUUID->"59997c1e-a93a-438b-b591-\
+67df2181a2e9"],
 
 Cell[BoxData[
  RowBox[{"\<\"YThetaPhi[{l,m},{theta,phi}] returns the tensor spherical \
@@ -396,8 +396,8 @@ harmonic component Y_lm_ThetaPhi[theta,phi].\"\>", "\[NonBreakingSpace]",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/YThetaPhi"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info103741357193-9892469",ExpressionUUID->"03a24ff0-086e-4ee4-9968-\
-58283f289ffb"],
+  "Info103741463205-7756260",ExpressionUUID->"49f6a6d4-11ba-4e56-b38f-\
+bb00c693e34f"],
 
 Cell[BoxData[
  RowBox[{"\<\"YPhiPhi[{l,m},{theta,phi}] returns the tensor spherical \
@@ -409,8 +409,8 @@ harmonic component Y_lm_PhiPhi[theta,phi].\"\>", "\[NonBreakingSpace]",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/YPhiPhi"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info113741357193-9892469",ExpressionUUID->"0ebece6a-d6c3-40c3-a537-\
-fe250fdd35fe"],
+  "Info113741463205-7756260",ExpressionUUID->"cc0e5b0d-47e3-4620-b566-\
+6a0a7938bd61"],
 
 Cell[BoxData[
  RowBox[{"\<\"XThetaTheta[{l,m},{theta,phi}] returns the tensor spherical \
@@ -422,8 +422,8 @@ harmonic component X_lm_ThetaTheta[theta,phi].\"\>", "\[NonBreakingSpace]",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/XThetaTheta"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info123741357193-9892469",ExpressionUUID->"bc5fb87f-23ea-47c3-90bd-\
-0c1e92d4daca"],
+  "Info123741463205-7756260",ExpressionUUID->"9ce32803-d71e-49c9-9f4e-\
+1966d838d2d0"],
 
 Cell[BoxData[
  RowBox[{"\<\"XThetaPhi[{l,m},{theta,phi}] returns the tensor spherical \
@@ -435,8 +435,8 @@ harmonic component X_lm_ThetaPhi[theta,phi].\"\>", "\[NonBreakingSpace]",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/XThetaPhi"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info133741357193-9892469",ExpressionUUID->"26b62b80-5b24-42ce-89cd-\
-84d95b156d1b"],
+  "Info133741463205-7756260",ExpressionUUID->"8d12d381-7238-4132-aabc-\
+e85008207539"],
 
 Cell[BoxData[
  RowBox[{"\<\"XPhiPhi[{l,m},{theta,phi}] returns the tensor spherical \
@@ -448,8 +448,8 @@ harmonic component X_lm_PhiPhi[theta,phi].\"\>", "\[NonBreakingSpace]",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/XPhiPhi"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info143741357193-9892469",ExpressionUUID->"a314cb9a-862f-491f-b147-\
-3fa0a50e2a6c"]
+  "Info143741463205-7756260",ExpressionUUID->"00bf6c5c-a18c-4975-9be4-\
+84cd5e2235be"]
 }, Open  ]]
 }, Open  ]],
 
@@ -462,7 +462,7 @@ Cell[BoxData[
     RowBox[{"l", ",", "m"}], "}"}], ",", 
    RowBox[{"{", 
     RowBox[{"\[Theta]", ",", "\[Phi]"}], "}"}]}], "]"}]], "Input",
- CellLabel->"In[15]:=",ExpressionUUID->"2e5eb5cd-b066-4bce-9735-a1e51a85fb01"],
+ CellLabel->"In[15]:=",ExpressionUUID->"2d655ad8-b746-47f1-8393-dc2e9de8d938"],
 
 Cell[BoxData[
  RowBox[{
@@ -541,7 +541,7 @@ Cell[BoxData[
          RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "]"}]}]}], ")"}], " ", 
     RowBox[{"Sin", "[", "\[Theta]", "]"}]}]}]}]], "Output",
  CellLabel->
-  "Out[15]=",ExpressionUUID->"9c213839-6995-4804-bcfe-a53fff238ff6"]
+  "Out[15]=",ExpressionUUID->"15561f5d-0303-4aa0-b408-4e608c8489a0"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -549,13 +549,13 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell["Spin-weighted spherical harmonics", \
-"Section",ExpressionUUID->"8c89cee7-2316-4490-bdb0-45dcfe4bb0ae"],
+"Section",ExpressionUUID->"6f3f846f-e391-474c-bbdf-a1bb19207820"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 The spin-weighted spherical harmonic is provided through YHarmonic\
-\>", "Item",ExpressionUUID->"81a9be79-8d7d-4da7-8eda-9452c3a673cb"],
+\>", "Item",ExpressionUUID->"16822bcd-0180-4ecb-be22-e1e6fd0883ab"],
 
 Cell[CellGroupData[{
 
@@ -567,7 +567,7 @@ Cell[BoxData[
    RowBox[{"{", 
     RowBox[{"\[Theta]", ",", "\[Phi]"}], "}"}], ",", 
    RowBox[{"-", "2"}]}], "]"}]], "Input",
- CellLabel->"In[16]:=",ExpressionUUID->"321b620a-f5ac-4707-ad1a-a9c8fdc3934e"],
+ CellLabel->"In[16]:=",ExpressionUUID->"01ba26f5-7a35-4f10-bc29-4d8add36eee6"],
 
 Cell[BoxData[
  RowBox[{
@@ -580,7 +580,7 @@ Cell[BoxData[
    RowBox[{"Cos", "[", 
     FractionBox["\[Theta]", "2"], "]"}], "4"]}]], "Output",
  CellLabel->
-  "Out[16]=",ExpressionUUID->"fffb6982-1bbf-4508-ad49-a0725057791f"]
+  "Out[16]=",ExpressionUUID->"35a1ebc0-c9a3-43a9-b0d6-f36d188a54e3"]
 }, Open  ]]
 }, Open  ]],
 
@@ -590,7 +590,7 @@ Cell[TextData[{
   FontSlant->"Italic"],
  "The Black Hole Perturbation Toolkit does provide another package for \
 these."
-}], "Item",ExpressionUUID->"34bbd962-49ff-4ea1-93cf-0d7824e91460"]
+}], "Item",ExpressionUUID->"df2f44bd-f1bf-4f8d-819b-76ef5b7843e0"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -632,43 +632,43 @@ Cell["", "RelatedTutorialsSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
    None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"558a1eaa-d9af-4300-94d6-4e136074c744"],
+  0,ExpressionUUID->"e5e51ca3-df45-4a65-ad9f-d5f123929300"],
 
 Cell[TextData[ButtonBox["Field equations on Schwarzschild",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Field equations on Schwarzschild"]], \
-"RelatedTutorials",ExpressionUUID->"0ac50cd3-0823-4f35-90a5-248f52c0470f"],
+"RelatedTutorials",ExpressionUUID->"4d09a56e-f5ae-4584-a069-a3d419fee834"],
 
 Cell[TextData[ButtonBox["Time domain amplitudes",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Time domain amplitudes"]], \
-"RelatedTutorials",ExpressionUUID->"c4104fd1-eeb1-48de-9b35-f89c09772e99"],
+"RelatedTutorials",ExpressionUUID->"a2fb108c-287e-44cd-92bf-7e62cc2c494c"],
 
 Cell[TextData[ButtonBox["Using labels to act on groups of variables",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Using labels to act on groups of \
 variables"]], \
-"RelatedTutorials",ExpressionUUID->"e24ed321-3e7e-43a1-814b-eaf8f9782c06"],
+"RelatedTutorials",ExpressionUUID->"3e418042-b8fd-40df-be32-18e4e08e05ba"],
 
 Cell[TextData[ButtonBox["Source terms",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Source terms"]], \
-"RelatedTutorials",ExpressionUUID->"d36d4f3b-612e-4e74-8156-8059213ea72e"],
+"RelatedTutorials",ExpressionUUID->"177ecb79-faa5-482f-a673-3cc3fe91ac8f"],
 
 Cell[TextData[ButtonBox["Examples",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Examples"]], \
-"RelatedTutorials",ExpressionUUID->"8a2ddd51-bf50-4199-b336-2cba62d0fa2c"]
+"RelatedTutorials",ExpressionUUID->"76eb43dd-e88a-4288-9af9-47c055b38771"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[" ", \
-"FooterCell",ExpressionUUID->"f2ba2a26-ad5f-4086-a682-caa4d71b3fab"]
+"FooterCell",ExpressionUUID->"bfe11716-57ba-454a-bc37-6036e7fd3174"]
 },
 Saveable->False,
 ScreenStyleEnvironment->"Working",

@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"0c0fee4d-1571-4c16-8e71-48263b246145"],
+   0}},ExpressionUUID->"8ec552c9-3315-4f6e-a030-6e35eef3d8ed"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["MasterEquation",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/MasterEquation"]
-}], "LinkTrail",ExpressionUUID->"10e5d64f-e2f0-45a4-9cb2-40bdf87fcbf2"],
+}], "LinkTrail",ExpressionUUID->"0bf118bb-dfa4-433a-afa4-f6a4751cbea6"],
 
 Cell[CellGroupData[{
 
 Cell["MasterEquation", \
-"ObjectName",ExpressionUUID->"b16881d2-8428-489f-8ac5-636bad2b0d60"],
+"ObjectName",ExpressionUUID->"93d0798d-335e-4e62-a701-83d9bb9f51d4"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -30,11 +30,11 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/MasterEquation"], "[", 
        "]"}]], "InlineFormula",ExpressionUUID->
-      "0c610ecf-34bb-4e54-95f4-087894dfc342"],
+      "57d44792-09a8-4369-abe6-a6194fae1607"],
      "\[LineSeparator]returns the master equation for a particle orbiting a \
 Schwarzschild black hole."
-    }],ExpressionUUID->"c752eb68-fa5f-46af-86cc-c5fe9ea19508"]}
-  }]], "Usage",ExpressionUUID->"09a6b613-f7ce-4b7e-8242-c532116c00b7"]
+    }],ExpressionUUID->"c0aa4e1c-7f4a-4a07-8333-fc8217650704"]}
+  }]], "Usage",ExpressionUUID->"9cd762ac-f5c6-4ad8-94db-91e2927e9ba8"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -80,55 +80,55 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"fdb08e34-bc25-4fb9-abe8-34a36b8d4d0d"],
+  0,ExpressionUUID->"1f0902c5-e922-4171-87b7-b831c2ddedf4"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"de908be0-b743-4755-9ce3-3e616aba29f9"],
+"Notes",ExpressionUUID->"cb6c9123-a4e3-4e40-af0f-46597b336a93"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "979d6aef-623f-4b3e-9ce2-327b62a119ce"], "Gauge", "RWZ", Cell["\<\
+     "d9ccb9e4-1db5-44f4-a121-5f6ea96664e2"], "Gauge", "RWZ", Cell["\<\
 Gauge of metric perturbation amplitudes (if master function is expanded with \
 MPs->True), (\"RWZ\", \"Lorenz\",  or \"Undefined\")\
-\>", "TableText",ExpressionUUID->"55917b35-dcf8-4553-a363-762de65e7813"]},
+\>", "TableText",ExpressionUUID->"1272cd7e-8cc0-49d2-9a35-4d03dec51641"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "9d39347f-8ac7-4289-beac-0c43d79158ba"], "GFForm", "True", Cell["\<\
+     "b8216e94-daef-43d1-af7e-d3e113eba07b"], "GFForm", "True", Cell["\<\
 Boolean stating whether source term should be written in terms of G and F \
 coefficents of the Dirac delta distribution and its first derivative\
-\>", "TableText",ExpressionUUID->"f19bab65-ebbc-4bf8-a986-938dd8d27f35"]},
+\>", "TableText",ExpressionUUID->"af84dc1f-2068-4fc9-99ba-fb66e406c629"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "e3fb50ec-70ee-43c1-a1f5-e0625b7c6122"], "Homogeneous", "False", Cell[
+     "5ecb6e9f-a090-4c29-b30c-f8b9b58683b3"], "Homogeneous", "False", Cell[
     "Boolean stating whether to include source terms", "TableText",
-     ExpressionUUID->"1e21dd3d-723f-4f31-8b5b-e5e0c1885559"]},
+     ExpressionUUID->"1646fa62-d4ff-436c-9225-27e966340d93"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "b43d9343-92e0-4751-8292-81aa3465ff25"], "MPs", "False", Cell["\<\
+     "b565200a-87cb-469e-87e8-7b782cd32f70"], "MPs", "False", Cell["\<\
 Boolean stating whether to expand the master function in terms of metric \
 perturbation amplitudes\
-\>", "TableText",ExpressionUUID->"647f55f1-165d-4c59-a630-29fe681579b1"]},
+\>", "TableText",ExpressionUUID->"309bfd73-37dc-4460-8e0f-bb3588442941"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "435b3172-9871-4731-afb5-a110d92c8ad3"], "Parity", "Default", Cell["\<\
+     "083c7303-6521-4976-a18c-b46376dd2bd5"], "Parity", "Default", Cell["\<\
 Parity of the master function (Default, \"Even\", or \"Odd\"). Choosing \
 Default allows \"Parity\" to be set by the \"Variable\" Option. When both \
 Options are Default, the \"Parity\" is \"Even\".\
-\>", "TableText",ExpressionUUID->"03a45753-a661-4c07-9645-a83dc44b3125"]},
+\>", "TableText",ExpressionUUID->"ef4974f3-2467-4f8c-a9be-18230a31267c"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "f91cb411-fc00-41f3-9edc-d60d39758a45"], "SourceExpansion", "Partial", 
+     "c561aea0-152f-4864-83cd-b712e0c40f7b"], "SourceExpansion", "Partial", 
     Cell["\<\
 States to what extent source terms should be expanded, (\"Full\", \
 \"Partial\", or \"None\")\
-\>", "TableText",ExpressionUUID->"90954aba-fbea-4912-a58d-19edbff01570"]},
+\>", "TableText",ExpressionUUID->"2b395247-9953-4cf9-8215-9db9883351e8"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "4cd48975-5a5f-4734-898d-2b260b5e9402"], "Variable", "Default", 
+     "8241c1f2-c5cf-4dcc-b6b1-1212f54ce33d"], "Variable", "Default", 
     Cell["\<\
 The specific master function variable to use (Default, \"ZM\", \"ZM1\", ... \
 \"ZM7\" and \"CPM\", \"CPM1\", ... \"CPM6\"). Choosing Default is equivalent \
 to \"ZM\" when \"Parity\"->\"Even\" and \"CPM\" when \"Parity\"->\"Odd\". \
 When both Options are Default, the \"Parity\" is \"Even\".\
-\>", "TableText",ExpressionUUID->"66332d03-dc63-403e-a349-5df129692e13"]},
+\>", "TableText",ExpressionUUID->"cbaf3018-d540-4125-9b6a-5540239c3b5b"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "c3391627-ac7b-41a4-809a-b013415bda19"], "Weak", "False", Cell["\<\
+     "5b91cdc2-4594-4854-bc0f-65bada83f4cf"], "Weak", "False", Cell["\<\
 Boolean stating whether the amplitudes should be given in a weak form\
-\>", "TableText",ExpressionUUID->"c331eb71-c82c-4b72-ba4b-6be469bb3b93"]}
+\>", "TableText",ExpressionUUID->"7335069b-2341-43b7-9be2-c95beff77e96"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -141,14 +141,14 @@ Boolean stating whether the amplitudes should be given in a weak form\
  GridBoxDividers->{
   "Rows" -> {{
      True, True, True, True, True, True, True, True, 
-      True}}}},ExpressionUUID->"590bccd7-1196-4630-8122-7bdd4e5fdd60"]
+      True}}}},ExpressionUUID->"2ff1b604-d535-44f8-8ace-bd3198cca28c"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"76c8b6bb-06a8-40eb-87d5-5f2907b9812d"],
+Cell[" ", "FooterCell",ExpressionUUID->"0fa5445b-9215-4614-83bb-2fdf4061b5fc"],
 
-Cell[BoxData[""],ExpressionUUID->"198dfdac-0f40-4bb6-b115-a4e5fc9de6aa"]
+Cell[BoxData[""],ExpressionUUID->"d6134813-742d-4c98-92f2-91d593b9fa81"]
 }, Open  ]]
 },
 Saveable->False,

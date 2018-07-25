@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"675ccfd7-cc94-417a-a612-1e3307496b0e"],
+   0}},ExpressionUUID->"771abf63-8566-46d1-97f2-a2076d415cba"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -16,12 +16,12 @@ Cell[TextData[{
  ButtonBox["MasterFunctionDiscontinuities",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/MasterFunctionDiscontinuities"]
-}], "LinkTrail",ExpressionUUID->"bd067403-4024-4544-8234-4b0800bff724"],
+}], "LinkTrail",ExpressionUUID->"cb7d149c-ff52-4bc8-8d86-5f5c8a894d4a"],
 
 Cell[CellGroupData[{
 
 Cell["MasterFunctionDiscontinuities", \
-"ObjectName",ExpressionUUID->"cd0573de-2bd0-40c1-9490-90445f5380d5"],
+"ObjectName",ExpressionUUID->"9863687c-a6c7-4590-8e06-6c6197d2e43f"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -32,10 +32,10 @@ Cell[BoxData[GridBox[{
         ButtonData->
          "paclet:BlackHoleAnalysis/ref/MasterFunctionDiscontinuities"], "[", 
        "]"}]], "InlineFormula",ExpressionUUID->
-      "fd35c990-a2d2-422a-a41c-448f084776c2"],
+      "bacce786-e6d6-483c-8b05-db1681f642f8"],
      "\[LineSeparator]returns an Association with discontinuities in the \
 master function and its first three r derivatives."
-    }],ExpressionUUID->"733d9c8f-a6cc-4a66-8b7c-9b9e6964f5de"]},
+    }],ExpressionUUID->"b689f307-64af-4d59-ae94-4d2c42465398"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -46,11 +46,11 @@ master function and its first three r derivatives."
        StyleBox[
         RowBox[{"{", 
          RowBox[{"m", ",", "n"}], "}"}], "TI"], "]"}]], "InlineFormula",
-      ExpressionUUID->"f81fed8b-cfd3-4190-b63f-541c2788e94e"],
+      ExpressionUUID->"396c6b07-e888-4981-81f3-066b620254fe"],
      "\[LineSeparator]returns an Association with discontinuities in the m-th \
 time derivative and n-th r derivative of the master function."
-    }],ExpressionUUID->"c0b1d572-bb99-4579-aaa7-276811cd1e66"]}
-  }]], "Usage",ExpressionUUID->"87cfac8a-300a-4207-b628-93fb542a1d7a"]
+    }],ExpressionUUID->"9d74478c-b75e-458a-9237-74bc83245bd8"]}
+  }]], "Usage",ExpressionUUID->"a54c66e5-6d4b-4863-8d38-bb9b091ca25c"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -96,22 +96,22 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"b76dc3fd-d114-491d-9e2c-2ac8c4a01636"],
+  0,ExpressionUUID->"722e0adb-cb66-4bf6-9510-5883670dd898"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"b104a459-8fab-4c3e-8bf9-ec4165674761"],
+"Notes",ExpressionUUID->"ceb62cc2-0741-4ef1-8b74-0591e262ad68"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "910659eb-1ac5-41f2-905f-01a02270e92a"], "Labels", "True", Cell["\<\
+     "7d195a14-855b-4a6d-9ffd-3136d681ff89"], "Labels", "True", Cell["\<\
 Boolean specifying whether the Keys of the Association should be formatted \
 labels or the order of discontinuity (-1 for jump, -2 for \[Delta], -3 for \
 \[Delta]', etc.)\
-\>", "TableText",ExpressionUUID->"074ddb20-d019-4dcc-90ba-0a27b8943e6d"]},
+\>", "TableText",ExpressionUUID->"a1bac87f-f32b-4940-b9fe-41455c1f05d8"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "e8cce358-e696-43bd-b4bf-77eee8aea662"], "Parity", "Even", Cell["\<\
+     "61228006-29e1-4014-9c06-c838db7459c5"], "Parity", "Even", Cell["\<\
 The discontinuities in the ZM (\"Even\") or CPM (\"Odd\") master function\
-\>", "TableText",ExpressionUUID->"019c19e9-0a58-41fa-87b7-7071b9876d4c"]}
+\>", "TableText",ExpressionUUID->"74ec0478-3b36-4d96-ad15-7390f106f5f6"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -123,14 +123,14 @@ The discontinuities in the ZM (\"Even\") or CPM (\"Odd\") master function\
  GridBoxDividers->{
   "Rows" -> {{
      True, True, 
-      True}}}},ExpressionUUID->"5c8da1e9-1795-4c76-80f2-48117e9e3853"]
+      True}}}},ExpressionUUID->"d571d19d-7618-405d-ab37-e1015c0b4b62"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"016d0085-8d3a-4246-8877-2c5012bd9ac9"],
+Cell[" ", "FooterCell",ExpressionUUID->"b71c41b3-3232-4b70-b029-786f3adc1e6d"],
 
-Cell[BoxData[""],ExpressionUUID->"6344ab02-8dce-411d-9487-6cc41684ca2d"]
+Cell[BoxData[""],ExpressionUUID->"f394e1e4-9d15-4f3a-aef0-74eaf03ee4d0"]
 }, Open  ]]
 },
 Saveable->False,

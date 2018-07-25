@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "TutorialColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"f90b2e66-0ea3-423d-a06d-bb220d2254d3"],
+   0}},ExpressionUUID->"60935dfa-9f83-40c6-855b-1a258412ef57"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -11,11 +11,11 @@ Cell[TextData[{
  ButtonBox["Post-Newtonian expressions",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/tutorial/Post-Newtonian expressions"]
-}], "LinkTrail",ExpressionUUID->"0769628d-88b5-4e73-8ae8-8ac3ea147792"],
+}], "LinkTrail",ExpressionUUID->"9af263d1-3095-40eb-8317-82ff4454d4fc"],
 
 Cell[BoxData[GridBox[{
    {Cell["POST-NEWTONIAN EXPRESSIONS TUTORIAL", "PacletNameCell",
-     ExpressionUUID->"bf5bde16-43ae-44ad-870f-69a1334164cc"], Cell[TextData[{
+     ExpressionUUID->"a3d42184-8a3d-4e4c-adc3-1f6d85f7465f"], Cell[TextData[{
      Cell[BoxData[
       ActionMenuBox[
        FrameBox["\<\"Related Tutorials \[RightGuillemet]\"\>",
@@ -33,7 +33,7 @@ Cell[BoxData[GridBox[{
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "34725e49-2103-4383-8760-23540f8687a9"],
+      "639e1817-138f-430a-9adc-91c43eaa15d3"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -52,16 +52,16 @@ Cell[BoxData[GridBox[{
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "2b4ea3d5-dfe7-4640-95ee-d8910f975cef"]
-    }], "AnchorBar",ExpressionUUID->"808aab7d-ca44-4ef0-99cd-524db7637f2a"]}
-  }]], "AnchorBarGrid",ExpressionUUID->"39d6196d-f0c5-4629-97e2-41a075a91a4c"],
+      "2d32863f-2fc5-4789-ba55-5a4dcf8ced6b"]
+    }], "AnchorBar",ExpressionUUID->"bedc8ab3-ee65-4cb7-8095-1a66fd0e0f2d"]}
+  }]], "AnchorBarGrid",ExpressionUUID->"eba66103-f05a-4408-9b0a-1d462ac5ab3e"],
 
 Cell[CellGroupData[{
 
 Cell["BlackHoleAnalysis - Post-Newtonian expressions", "Title",
  CellChangeTimes->{{3.741280861195511*^9, 
-  3.741280866490025*^9}},ExpressionUUID->"7686149c-197a-4f05-8fc6-\
-d499604444c2"],
+  3.741280866490025*^9}},ExpressionUUID->"e7794e86-5ea6-4d6c-8f73-\
+e749e17fe2d9"],
 
 Cell["\<\
 BlackHoleAnalysis provides post-Newtonian expressions for several eccentric \
@@ -69,26 +69,26 @@ orbital parameters both on Schwarzschild and equatorial Kerr.\
 \>", "Text",
  CellChangeTimes->{{3.741280871250886*^9, 3.741280883270241*^9}, {
   3.741280972535709*^9, 
-  3.741281006887936*^9}},ExpressionUUID->"01b30c00-9284-4cae-b335-\
-f08e518e4e78"],
+  3.741281006887936*^9}},ExpressionUUID->"9ec67bb9-e66e-468b-acb1-\
+e35a458d961f"],
 
 Cell[BoxData[
  RowBox[{"<<", "BlackHoleAnalysis`"}]], "Input",
- CellLabel->"In[1]:=",ExpressionUUID->"f63ea943-8f44-4e4d-8ac1-162cd59210b4"],
+ CellLabel->"In[1]:=",ExpressionUUID->"a6b24403-253f-493b-9a89-a4f54207a471"],
 
 Cell[CellGroupData[{
 
 Cell["Schwarzschild", "Section",
  CellChangeTimes->{{3.741281881356564*^9, 
-  3.7412818832138968`*^9}},ExpressionUUID->"6d1740c2-9ed9-4b5e-b672-\
-309e661d4dbe"],
+  3.7412818832138968`*^9}},ExpressionUUID->"b63fb177-8663-40dc-91bd-\
+4945e84c6a6d"],
 
 Cell[CellGroupData[{
 
 Cell["The PN parameter", "Subsection",
  CellChangeTimes->{{3.741281020069077*^9, 
-  3.7412810234261723`*^9}},ExpressionUUID->"4fc7edac-17d6-4046-8e62-\
-8a5390cf62ac"],
+  3.7412810234261723`*^9}},ExpressionUUID->"b6993201-6564-475c-a25f-\
+3305baa99dc9"],
 
 Cell[TextData[{
  "PN series are often parametrized with the parameter ",
@@ -98,7 +98,7 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    SubscriptBox["\[CapitalOmega]", "\[Phi]"], TraditionalForm]],
-  ExpressionUUID->"ad213ee4-b75b-45a1-82c3-0a59daceaec5"],
+  ExpressionUUID->"839746b4-0e49-4088-a197-d52f51f4f052"],
  ", i.e. ",
  Cell[BoxData[
   RowBox[{"x", "\[Congruent]", 
@@ -111,13 +111,13 @@ Cell[TextData[{
     RowBox[{"2", "/", "3"}]]}]],
   CellChangeTimes->{{3.741281025271906*^9, 3.741281067395288*^9}, {
    3.741281266708061*^9, 3.74128130599083*^9}},ExpressionUUID->
-  "aed0c5e2-2c4a-4d74-94b6-cd55379dfef4"],
+  "0a7499ee-ed0f-4669-8a07-e9e068afa8e0"],
  "."
 }], "Item",
  CellChangeTimes->{{3.741281025271906*^9, 3.741281067395288*^9}, {
   3.741281266708061*^9, 3.7412813087094517`*^9}, {3.7412822657470713`*^9, 
-  3.7412822902998047`*^9}},ExpressionUUID->"c33152bc-a9fd-4663-a321-\
-625204e76f93"],
+  3.7412822902998047`*^9}},ExpressionUUID->"35239a9c-fc70-4b67-ba17-\
+cb6ed98dc31f"],
 
 Cell[TextData[{
  "Note that ",
@@ -127,8 +127,8 @@ Cell[TextData[{
 }], "Item",
  CellChangeTimes->{{3.741281025271906*^9, 3.741281067395288*^9}, {
   3.741281266708061*^9, 3.7412813087094517`*^9}, {3.7412822657470713`*^9, 
-  3.741282315947095*^9}},ExpressionUUID->"ef14bf70-621a-4957-9fb1-\
-e444ce363035"],
+  3.741282315947095*^9}},ExpressionUUID->"4bac408a-be77-4308-86ad-\
+fc961558f4a7"],
 
 Cell[CellGroupData[{
 
@@ -136,8 +136,8 @@ Cell["\<\
 Alternatively, we can expand in the inverse of the semi-latus rectum.\
 \>", "Item",
  CellChangeTimes->{{3.741281332342638*^9, 
-  3.741281354357525*^9}},ExpressionUUID->"3e210f37-7606-4aaa-9963-\
-acaea9a6c906"],
+  3.741281354357525*^9}},ExpressionUUID->"68aea964-bdb8-4c1c-899b-\
+867518ab5467"],
 
 Cell[CellGroupData[{
 
@@ -145,7 +145,7 @@ Cell[BoxData[{
  RowBox[{"?", "XPN"}], "\[IndentingNewLine]", 
  RowBox[{"?", "SemiLatusRectumPN"}]}], "Input",
  CellChangeTimes->{{3.741281380901874*^9, 3.7412813849943533`*^9}},
- CellLabel->"In[2]:=",ExpressionUUID->"a540daf9-69cd-45b0-99a7-eed443d77fad"],
+ CellLabel->"In[2]:=",ExpressionUUID->"bd48df83-69a3-4358-8497-246c45d1ce3e"],
 
 Cell[CellGroupData[{
 
@@ -163,8 +163,8 @@ the inverse of the semi-latus rectum as the expansion parameter.\"\>",
    BaseStyle->"Link",
    ButtonData->"paclet:BlackHoleAnalysis/ref/XPN"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info23741357172-9892469",ExpressionUUID->"b34f57b7-5e79-4d79-9f46-\
-5f8ddccf9ef0"],
+  "Info23741463186-7756260",ExpressionUUID->"90f8b0bf-ffde-4308-a510-\
+c8939cf58ab8"],
 
 Cell[BoxData[
  RowBox[{"\<\"SemiLatusRectumPN[] returns the semi-latus rectum of a particle \
@@ -182,8 +182,8 @@ using the the post-Newtonian parameter x as the expansion parameter.\"\>",
     "paclet:BlackHoleAnalysis/ref/SemiLatusRectumPN"]}]], "Print", \
 "PrintUsage",
  CellTags->
-  "Info33741357172-9892469",ExpressionUUID->"249b6164-5b24-4660-8ba0-\
-0b1fb49769cf"]
+  "Info33741463186-7756260",ExpressionUUID->"bfa98fa2-0f7a-4a6e-b769-\
+17c27004f419"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -192,15 +192,15 @@ Cell[CellGroupData[{
 
 Cell["The two are related by", "Item",
  CellChangeTimes->{{3.741281332342638*^9, 
-  3.741281358570219*^9}},ExpressionUUID->"95742aa8-84cc-4eba-a3f8-\
-c3ed0912064e"],
+  3.741281358570219*^9}},ExpressionUUID->"23bf61ad-8d99-459c-91b7-\
+0238b79bf97d"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"XPN", "[", "]"}]], "Input",
  CellChangeTimes->{{3.741281071126397*^9, 3.741281072829323*^9}},
- CellLabel->"In[4]:=",ExpressionUUID->"c010dc51-381f-491b-a7b7-4c23dc3e46b8"],
+ CellLabel->"In[4]:=",ExpressionUUID->"6cb066e3-05c6-414e-b938-a7419536f864"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -219,7 +219,7 @@ Cell[BoxData[
   SeriesData[$CellContext`p, 
    DirectedInfinity[1], {1 - $CellContext`e^2}, 2, 3, 2],
   Editable->False]], "Output",
- CellLabel->"Out[4]=",ExpressionUUID->"91b0eff5-82b1-4510-9c0d-343354f8554f"]
+ CellLabel->"Out[4]=",ExpressionUUID->"b115f032-8d17-406c-b7b9-0eb5366abfd3"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -227,7 +227,7 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"SemiLatusRectumPN", "[", "]"}]], "Input",
  CellChangeTimes->{{3.741281361541754*^9, 3.741281363333054*^9}},
- CellLabel->"In[5]:=",ExpressionUUID->"0910f172-b2a7-4e9d-81ba-316b9f40aa1f"],
+ CellLabel->"In[5]:=",ExpressionUUID->"7903623b-04e8-489a-8b8e-b3fe5608810f"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -246,7 +246,7 @@ Cell[BoxData[
     Editable->False]}],
   SeriesData[$CellContext`xPN, 0, {1 - $CellContext`e^2}, -1, 0, 1],
   Editable->False]], "Output",
- CellLabel->"Out[5]=",ExpressionUUID->"ee1791a7-c994-4de7-b7ef-8b22fa6041cf"]
+ CellLabel->"Out[5]=",ExpressionUUID->"6b7561c3-acf3-45ae-b038-da21fa942dda"]
 }, Open  ]]
 }, Open  ]],
 
@@ -255,22 +255,22 @@ Of course, those equalities are not exact. They are only correct to the order \
 of the expansion.\
 \>", "Item",
  CellChangeTimes->{{3.74128139848105*^9, 
-  3.741281487880835*^9}},ExpressionUUID->"d70f05be-b84e-4be2-8305-\
-bcc1eac8eb54"],
+  3.741281487880835*^9}},ExpressionUUID->"63146cee-b631-4a33-a8bf-\
+56d521ff131c"],
 
 Cell[CellGroupData[{
 
 Cell["We can increase the order of the expansion with a parameter", "Item",
  CellChangeTimes->{{3.74128139848105*^9, 
-  3.741281426905533*^9}},ExpressionUUID->"fd8de660-b1b7-4ecc-b19b-\
-9d44932f01c6"],
+  3.741281426905533*^9}},ExpressionUUID->"85cab0eb-e8cd-47f5-ac1a-\
+2c2303fc444b"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"XPN", "[", "3", "]"}]], "Input",
  CellChangeTimes->{{3.741281428567586*^9, 3.741281432696594*^9}},
- CellLabel->"In[6]:=",ExpressionUUID->"ebf95878-9e91-4b23-913d-f351637a58ef"],
+ CellLabel->"In[6]:=",ExpressionUUID->"bfab6530-e84f-4321-93d5-038d3e010131"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -331,7 +331,7 @@ Cell[BoxData[
      10 (-1 + (1 - $CellContext`e^2)^Rational[1, 2]) + $CellContext`e^2 (-3 + 
        10 (1 - $CellContext`e^2)^Rational[1, 2]))}, 2, 7, 2],
   Editable->False]], "Output",
- CellLabel->"Out[6]=",ExpressionUUID->"08e375d0-f7ef-4938-8838-0c7b38d3a9fd"]
+ CellLabel->"Out[6]=",ExpressionUUID->"b300695e-8a83-4341-aab9-e6b29fa0fe3f"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -340,7 +340,7 @@ Cell[BoxData[
  RowBox[{"SemiLatusRectumPN", "[", "3", "]"}]], "Input",
  CellChangeTimes->{{3.741281434767952*^9, 3.74128144075879*^9}, {
   3.741281496553871*^9, 3.741281505554933*^9}},
- CellLabel->"In[7]:=",ExpressionUUID->"1174b8bc-9a1a-4b5b-9947-92d02bc94393"],
+ CellLabel->"In[7]:=",ExpressionUUID->"a8b0fda8-ba8f-4245-abe5-31b602cc6210"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -402,7 +402,7 @@ Cell[BoxData[
      2 $CellContext`e^4 (-5 + (1 - $CellContext`e^2)^Rational[1, 2]) + 
      10 (-1 + (1 - $CellContext`e^2)^Rational[1, 2]))}, -1, 2, 1],
   Editable->False]], "Output",
- CellLabel->"Out[7]=",ExpressionUUID->"1a8a59b8-71cc-4bd8-8965-3e55f3bc6ceb"]
+ CellLabel->"Out[7]=",ExpressionUUID->"301a787f-a8c5-4352-a5ff-42437bcf7b7f"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -411,8 +411,8 @@ Cell[CellGroupData[{
 
 Cell["The angular frequencies", "Subsection",
  CellChangeTimes->{{3.7412815146201468`*^9, 
-  3.741281519252734*^9}},ExpressionUUID->"f7f92c93-6ade-454f-936b-\
-c4fbff910df3"],
+  3.741281519252734*^9}},ExpressionUUID->"61407d95-5181-4f1c-9437-\
+bdf409106788"],
 
 Cell[CellGroupData[{
 
@@ -421,17 +421,17 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    SubscriptBox["\[CapitalOmega]", "r"], TraditionalForm]],ExpressionUUID->
-  "e8eb5456-0686-4cd4-86fd-459428a433d4"],
+  "30f26c08-584c-4398-9a9e-0718f35936aa"],
  " and ",
  Cell[BoxData[
   FormBox[
    SubscriptBox["\[CapitalOmega]", "\[Phi]"], TraditionalForm]],
-  ExpressionUUID->"6962ef06-dd89-4279-a3b7-5f73719adbed"],
+  ExpressionUUID->"d875c17b-0c0b-49e7-868b-298596d20a9c"],
  "."
 }], "Item",
  CellChangeTimes->{{3.7412815220583878`*^9, 
-  3.741281565035434*^9}},ExpressionUUID->"cf2de593-dd2c-4e3d-a7f6-\
-8d3b689d76e5"],
+  3.741281565035434*^9}},ExpressionUUID->"5661e70a-220e-4a54-818b-\
+486249542ac8"],
 
 Cell[CellGroupData[{
 
@@ -439,7 +439,7 @@ Cell[BoxData[{
  RowBox[{"?", "OmegaPhiPN"}], "\[IndentingNewLine]", 
  RowBox[{"?", "OmegaRPN"}]}], "Input",
  CellChangeTimes->{{3.7412816418020563`*^9, 3.741281646877406*^9}},
- CellLabel->"In[8]:=",ExpressionUUID->"454798ac-44c5-4ac4-ab42-e6bf963a60fe"],
+ CellLabel->"In[8]:=",ExpressionUUID->"8ecfde5d-2857-4fa0-a907-cbfab4d489ee"],
 
 Cell[CellGroupData[{
 
@@ -459,8 +459,8 @@ using par (\\\"p\\\" or \\\"x\\\") as the expansion parameter.\"\>",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/OmegaPhiPN"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info83741357172-9892469",ExpressionUUID->"42fa69d2-1d4a-41bc-bfcf-\
-fea6e021555b"],
+  "Info83741463187-7756260",ExpressionUUID->"6fdb25b5-080a-42e6-82d4-\
+bef6e79b3f8d"],
 
 Cell[BoxData[
  RowBox[{"\<\"OmegaRPN[] returns the radial frequency of a particle in an \
@@ -478,8 +478,8 @@ returns the radial frequency expanded to n terms, using par (\\\"p\\\" or \
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/OmegaRPN"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info93741357172-9892469",ExpressionUUID->"afc48b1f-d222-482b-abea-\
-6e9d6fcde0f7"]
+  "Info93741463187-7756260",ExpressionUUID->"998fdcf3-3141-4d95-906f-\
+677a87a3fedc"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -490,19 +490,19 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    SubscriptBox["\[CapitalOmega]", "r"], TraditionalForm]],ExpressionUUID->
-  "b88e7d85-3acc-4347-93fa-e0dc935e0a04"],
+  "f480b2df-975e-43e6-a357-c8d93b6418ab"],
  " agrees with ",
  Cell[BoxData[
   FormBox[
    SubscriptBox["\[CapitalOmega]", "\[Phi]"], TraditionalForm]],
-  ExpressionUUID->"70d31293-ef48-44c3-afe7-b89593158bdf"],
+  ExpressionUUID->"488d1760-bd48-4af1-97f6-07e2b732ba55"],
  " at lowest order"
 }], "Item",
  CellChangeTimes->{{3.7412815739054413`*^9, 3.741281599351852*^9}, 
    3.741281636834113*^9, {3.741281672264573*^9, 3.741281697893366*^9}, {
    3.741282702236382*^9, 
-   3.741282702582366*^9}},ExpressionUUID->"6ba86231-792b-4663-8d31-\
-4d30adf71ede"],
+   3.741282702582366*^9}},ExpressionUUID->"5e329517-267c-48e4-b964-\
+0807cf920163"],
 
 Cell[CellGroupData[{
 
@@ -510,7 +510,7 @@ Cell[BoxData[{
  RowBox[{"OmegaPhiPN", "[", "]"}], "\[IndentingNewLine]", 
  RowBox[{"OmegaRPN", "[", "]"}]}], "Input",
  CellChangeTimes->{{3.741282688356661*^9, 3.7412826917883253`*^9}},
- CellLabel->"In[10]:=",ExpressionUUID->"7076a4d8-72e8-4420-850e-99d66033f91f"],
+ CellLabel->"In[10]:=",ExpressionUUID->"487487ec-ecf6-4dce-8231-6960b6e0599c"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -537,7 +537,7 @@ Cell[BoxData[
    DirectedInfinity[
    1], {(1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M}, 3, 4, 2],
   Editable->False]], "Output",
- CellLabel->"Out[10]=",ExpressionUUID->"674b94d2-a08f-4e34-a3a4-c1b5124b0538"],
+ CellLabel->"Out[10]=",ExpressionUUID->"cfb12d1a-b115-4992-becf-77d4ad1146e0"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -565,7 +565,7 @@ Cell[BoxData[
    1], {(1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M}, 3, 4, 2],
   Editable->False]], "Output",
  CellLabel->
-  "Out[11]=",ExpressionUUID->"156767c5-1eb6-4c6a-afa5-dbb396bc6b94"]
+  "Out[11]=",ExpressionUUID->"f706a4fd-7b7d-4317-9627-17cdc9bd3162"]
 }, Open  ]]
 }, Open  ]],
 
@@ -578,8 +578,8 @@ Cell[TextData[{
 }], "Item",
  CellChangeTimes->{{3.7412817406174917`*^9, 3.741281749209524*^9}, {
   3.7412826749312897`*^9, 
-  3.741282681627646*^9}},ExpressionUUID->"b414fbae-7691-4be0-819b-\
-8e1d8368d731"],
+  3.741282681627646*^9}},ExpressionUUID->"1e17c39c-4fe0-49de-a308-\
+8bf43a67ec6b"],
 
 Cell[CellGroupData[{
 
@@ -592,7 +592,7 @@ Cell[BoxData[{
  CellChangeTimes->{{3.7412817130753603`*^9, 3.7412817137241707`*^9}, {
   3.7412817553167067`*^9, 3.741281770753401*^9}, {3.741282667893631*^9, 
   3.741282670335881*^9}},
- CellLabel->"In[12]:=",ExpressionUUID->"8324bb2e-174e-4d5c-bc93-bf86b122de2d"],
+ CellLabel->"In[12]:=",ExpressionUUID->"03ff4180-3fb7-4db1-947e-fa89579aa70b"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -633,7 +633,7 @@ Cell[BoxData[
     3 $CellContext`e^2 (1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M}, 
    3, 6, 2],
   Editable->False]], "Output",
- CellLabel->"Out[12]=",ExpressionUUID->"d59a2a77-af25-4e8a-bdef-31e1ffc81b57"],
+ CellLabel->"Out[12]=",ExpressionUUID->"00cef473-d325-450d-8906-da25fc59bd6e"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -673,7 +673,7 @@ Cell[BoxData[
     0, (-3) (1 - $CellContext`e^2)^Rational[5, 2]/$CellContext`M}, 3, 6, 2],
   Editable->False]], "Output",
  CellLabel->
-  "Out[13]=",ExpressionUUID->"0902dae8-bdea-49e0-935d-bbaa63c98cac"]
+  "Out[13]=",ExpressionUUID->"d00a93df-2d56-43e2-819a-ecb9c06a9206"]
 }, Open  ]]
 }, Open  ]],
 
@@ -683,17 +683,17 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    SubscriptBox["\[CapitalOmega]", "\[Phi]"], TraditionalForm]],
-  ExpressionUUID->"931b33ee-2fe7-40ce-943a-46fa95783b32"],
+  ExpressionUUID->"1f53c316-8a17-40b6-8c37-efbe3d44c866"],
  " is (by definition) exact to all orders in ",
  Cell[BoxData[
   FormBox["x", TraditionalForm]],ExpressionUUID->
-  "32ba26fd-8836-4b13-9e99-fa4aa5507c31"],
+  "ba4ad868-e99c-4870-866f-266366ac8765"],
  "."
 }], "Item",
  CellChangeTimes->{{3.7412815739054413`*^9, 3.741281599351852*^9}, 
    3.741281636834113*^9, {3.741281670219302*^9, 
-   3.7412816702197037`*^9}},ExpressionUUID->"928a856d-cfa0-4297-a088-\
-697caa73d673"],
+   3.7412816702197037`*^9}},ExpressionUUID->"f4fc17ed-ee12-4973-8645-\
+5dd89bd45716"],
 
 Cell[CellGroupData[{
 
@@ -702,7 +702,7 @@ Cell[BoxData[
   RowBox[{"All", ",", "\"\<x\>\""}], "]"}]], "Input",
  CellChangeTimes->{{3.7412817253668213`*^9, 3.741281725673348*^9}, {
   3.74128250185185*^9, 3.741282502665469*^9}},
- CellLabel->"In[14]:=",ExpressionUUID->"6c4bddea-1789-4b71-aa42-6d877e5e6ee5"],
+ CellLabel->"In[14]:=",ExpressionUUID->"640b7160-a8af-4c66-84c2-857824557721"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -722,7 +722,7 @@ Cell[BoxData[
   SeriesData[$CellContext`xPN, 0, {$CellContext`M^(-1)}, 3, 43, 2],
   Editable->False]], "Output",
  CellLabel->
-  "Out[14]=",ExpressionUUID->"2a7aa5a7-cc46-4eb1-88a8-9f17fc21214f"]
+  "Out[14]=",ExpressionUUID->"c3b26bc7-dcaa-48fc-a43c-2c2983b2bc8f"]
 }, Open  ]]
 }, Open  ]],
 
@@ -733,19 +733,19 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    SubscriptBox["\[CapitalOmega]", "r"], TraditionalForm]],ExpressionUUID->
-  "2cd2a8b6-68c4-4476-a391-b0d68c4ff986"],
+  "c9ed9af6-8bde-4bb6-a04a-271d10b21a8d"],
  " agrees with ",
  Cell[BoxData[
   FormBox[
    SubscriptBox["\[CapitalOmega]", "\[Phi]"], TraditionalForm]],
-  ExpressionUUID->"4ca1de18-04fd-44f4-98f6-8961774ed2ea"],
+  ExpressionUUID->"3d2807a4-dd73-412a-bba0-db5a49ae4482"],
  ", but only to lowest order"
 }], "Item",
  CellChangeTimes->{{3.7412815739054413`*^9, 3.741281599351852*^9}, 
    3.741281636834113*^9, {3.741281672264573*^9, 3.741281697893366*^9}, {
    3.741282709314526*^9, 
-   3.741282710429049*^9}},ExpressionUUID->"f6b61ac4-d16a-4b4a-a69b-\
-7a9f6a290bf0"],
+   3.741282710429049*^9}},ExpressionUUID->"dbaebc8b-83d3-427b-b8b5-\
+70ac2b08ae0b"],
 
 Cell[CellGroupData[{
 
@@ -755,7 +755,7 @@ Cell[BoxData[{
  CellChangeTimes->{{3.7412816023347683`*^9, 3.741281633895993*^9}, {
   3.7412817027063303`*^9, 3.741281704843713*^9}, {3.741282508363682*^9, 
   3.7412825115743723`*^9}},
- CellLabel->"In[15]:=",ExpressionUUID->"9cea9ef1-8c9c-4f8f-ac7e-3c7996b2dd1c"],
+ CellLabel->"In[15]:=",ExpressionUUID->"875f4d4a-db7c-44f3-a1f1-ec70b2517ebc"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -773,7 +773,7 @@ Cell[BoxData[
     Editable->False]}],
   SeriesData[$CellContext`xPN, 0, {$CellContext`M^(-1)}, 3, 4, 2],
   Editable->False]], "Output",
- CellLabel->"Out[15]=",ExpressionUUID->"783448c2-8109-4fb7-9f3d-9705791e8aa6"],
+ CellLabel->"Out[15]=",ExpressionUUID->"7fae6aa9-55d2-4948-b2a7-bc1b589cb797"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -792,7 +792,7 @@ Cell[BoxData[
   SeriesData[$CellContext`xPN, 0, {$CellContext`M^(-1)}, 3, 4, 2],
   Editable->False]], "Output",
  CellLabel->
-  "Out[16]=",ExpressionUUID->"97abb11d-1efa-4615-92cb-9246f17826a6"]
+  "Out[16]=",ExpressionUUID->"cb348b1a-b040-4f63-b2ac-1b3836e12341"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -804,7 +804,7 @@ Cell[BoxData[{
   RowBox[{"2", ",", "\"\<x\>\""}], "]"}]}], "Input",
  CellChangeTimes->{{3.7412817130753603`*^9, 3.7412817137241707`*^9}, {
   3.741282515642169*^9, 3.741282519803013*^9}},
- CellLabel->"In[17]:=",ExpressionUUID->"2996a9b6-7c28-4af1-95ca-b70edc2cf835"],
+ CellLabel->"In[17]:=",ExpressionUUID->"8b4f147e-911b-4d54-9c25-96b9d13a7fe0"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -822,7 +822,7 @@ Cell[BoxData[
     Editable->False]}],
   SeriesData[$CellContext`xPN, 0, {$CellContext`M^(-1)}, 3, 6, 2],
   Editable->False]], "Output",
- CellLabel->"Out[17]=",ExpressionUUID->"0ed555cf-25e4-4507-9c2b-519cf40e2fc1"],
+ CellLabel->"Out[17]=",ExpressionUUID->"1e2075fe-faee-4a27-89a2-5ebdbacd94ef"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -853,7 +853,7 @@ Cell[BoxData[
     3, 6, 2],
   Editable->False]], "Output",
  CellLabel->
-  "Out[18]=",ExpressionUUID->"ae84cd05-049f-47fa-9062-f779beece782"]
+  "Out[18]=",ExpressionUUID->"950dcad2-9a42-4822-ba03-e7bd1749b8b6"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -862,8 +862,8 @@ Cell[CellGroupData[{
 
 Cell["Specific energy and angular momentum", "Subsection",
  CellChangeTimes->{{3.7412817896978483`*^9, 
-  3.741281795091733*^9}},ExpressionUUID->"046a26d9-b100-406a-b6c5-\
-3d61623cc223"],
+  3.741281795091733*^9}},ExpressionUUID->"66a103a7-445d-484f-a87f-\
+07fe9f71ba0f"],
 
 Cell[CellGroupData[{
 
@@ -871,7 +871,7 @@ Cell[BoxData[{
  RowBox[{"?", "SpecificEnergyPN"}], "\[IndentingNewLine]", 
  RowBox[{"?", "SpecificAngularMomentumPN"}]}], "Input",
  CellChangeTimes->{{3.741281798107999*^9, 3.741281810303184*^9}},
- CellLabel->"In[19]:=",ExpressionUUID->"84c633e5-ba2a-4f42-9036-d947cd43c515"],
+ CellLabel->"In[19]:=",ExpressionUUID->"26687fdf-4b11-4e89-b93d-da202681e281"],
 
 Cell[CellGroupData[{
 
@@ -892,8 +892,8 @@ n terms, using par (\\\"p\\\" or \\\"x\\\") as the expansion parameter.\"\>",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/SpecificEnergyPN"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info193741357173-9892469",ExpressionUUID->"0c2b5af2-59e6-49ad-8562-\
-da5657b89993"],
+  "Info193741463187-7756260",ExpressionUUID->"b1430899-c146-4d57-b823-\
+e19328dd0de3"],
 
 Cell[BoxData[
  RowBox[{"\<\"SpecificAngularMomentumPN[] returns the specific angular \
@@ -914,8 +914,8 @@ expansion parameter.\"\>", "\[NonBreakingSpace]",
     "paclet:BlackHoleAnalysis/ref/SpecificAngularMomentumPN"]}]], "Print", \
 "PrintUsage",
  CellTags->
-  "Info203741357173-9892469",ExpressionUUID->"1a14fb78-aeae-4f3f-b78e-\
-f44d30ebc652"]
+  "Info203741463187-7756260",ExpressionUUID->"f5096404-b8f6-486e-a78b-\
+025b76736b6b"]
 }, Open  ]]
 }, Open  ]],
 
@@ -925,7 +925,7 @@ Cell[BoxData[{
  RowBox[{"SpecificEnergyPN", "[", "3", "]"}], "\[IndentingNewLine]", 
  RowBox[{"SpecificAngularMomentumPN", "[", "3", "]"}]}], "Input",
  CellChangeTimes->{{3.741281815433402*^9, 3.7412818295803823`*^9}},
- CellLabel->"In[21]:=",ExpressionUUID->"bff1f137-45f5-43fa-a00d-5a203d118d15"],
+ CellLabel->"In[21]:=",ExpressionUUID->"61dab99c-ae8b-4ac6-8579-6613c97d3ec9"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -956,7 +956,7 @@ Cell[BoxData[
    1, Rational[1, 2] (-1 + $CellContext`e^2), 
     Rational[3, 8] (-1 + $CellContext`e^2)^2}, 0, 3, 1],
   Editable->False]], "Output",
- CellLabel->"Out[21]=",ExpressionUUID->"a67d0fbb-cb43-446c-8a23-fa1bbc1bb898"],
+ CellLabel->"Out[21]=",ExpressionUUID->"3694e55d-1240-494c-8798-5229a6def6a7"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1001,7 +1001,7 @@ Cell[BoxData[
      Rational[1, 2]}, -1, 4, 2],
   Editable->False]], "Output",
  CellLabel->
-  "Out[22]=",ExpressionUUID->"ab1c4cfb-65e2-45ad-8a95-502221d6e34d"]
+  "Out[22]=",ExpressionUUID->"5a200602-8921-43fb-93ba-254a57b9e468"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1013,7 +1013,7 @@ Cell[BoxData[{
   RowBox[{"3", ",", "\"\<x\>\""}], "]"}]}], "Input",
  CellChangeTimes->{{3.741281815433402*^9, 3.741281843486555*^9}, {
   3.741282722782988*^9, 3.741282724450033*^9}},
- CellLabel->"In[23]:=",ExpressionUUID->"c34501ea-4179-42e9-a195-11db0c720a1d"],
+ CellLabel->"In[23]:=",ExpressionUUID->"31234b58-1af5-45fd-a675-b9675fa75d95"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1042,7 +1042,7 @@ Cell[BoxData[
     Rational[-1, 2], (8 - 8 $CellContext`e^2)^(-1) (3 + 5 $CellContext`e^2)}, 
    0, 3, 1],
   Editable->False]], "Output",
- CellLabel->"Out[23]=",ExpressionUUID->"642383d0-af1f-4e46-bf64-711213ec0b82"],
+ CellLabel->"Out[23]=",ExpressionUUID->"3868f115-31cb-428a-ac65-eef0e412d71a"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1105,7 +1105,7 @@ Cell[BoxData[
        Rational[1, 2]) $CellContext`M}, -1, 4, 2],
   Editable->False]], "Output",
  CellLabel->
-  "Out[24]=",ExpressionUUID->"9708ea1e-d37c-40de-8f97-3c26cb176e04"]
+  "Out[24]=",ExpressionUUID->"291202fc-67b3-4012-983e-827ff0ab467b"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1113,8 +1113,8 @@ Cell[CellGroupData[{
 
 Cell["Radial period and azimuthal advance", "Subsection",
  CellChangeTimes->{{3.7412819855880737`*^9, 
-  3.741281994862278*^9}},ExpressionUUID->"8acec03a-3b2a-4d1a-a7e2-\
-980c637c4486"],
+  3.741281994862278*^9}},ExpressionUUID->"723bef40-2ee8-4681-aaaa-\
+924472846102"],
 
 Cell[CellGroupData[{
 
@@ -1122,7 +1122,7 @@ Cell[BoxData[{
  RowBox[{"?", "RadialPeriodPN"}], "\[IndentingNewLine]", 
  RowBox[{"?", "AzimuthalAdvancePN"}]}], "Input",
  CellChangeTimes->{{3.74128199590493*^9, 3.741282001235097*^9}},
- CellLabel->"In[25]:=",ExpressionUUID->"e7eed59c-ba61-440c-8346-b4bbdee9d0a2"],
+ CellLabel->"In[25]:=",ExpressionUUID->"8af4a63a-147c-40b4-b759-86f856e6db04"],
 
 Cell[CellGroupData[{
 
@@ -1143,8 +1143,8 @@ terms, using par (\\\"p\\\" or \\\"x\\\") as the expansion parameter.\"\>",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/RadialPeriodPN"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info253741357173-9892469",ExpressionUUID->"e7d929b4-da3e-4aef-84d3-\
-088e5df6f309"],
+  "Info253741463187-7756260",ExpressionUUID->"1237d435-d3d4-47ca-b27f-\
+e7fb072e3714"],
 
 Cell[BoxData[
  RowBox[{"\<\"AzimuthalAdvancePN[] returns the total azimuthal advance during \
@@ -1164,8 +1164,8 @@ as the expansion parameter.\"\>", "\[NonBreakingSpace]",
     "paclet:BlackHoleAnalysis/ref/AzimuthalAdvancePN"]}]], "Print", \
 "PrintUsage",
  CellTags->
-  "Info263741357173-9892469",ExpressionUUID->"d59bc2fd-6b80-487e-8d65-\
-9111633e828d"]
+  "Info263741463187-7756260",ExpressionUUID->"6c3ddc79-ccfb-46b5-9b11-\
+965fe033f450"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1175,7 +1175,7 @@ Cell[BoxData[{
  RowBox[{"RadialPeriodPN", "[", "3", "]"}], "\[IndentingNewLine]", 
  RowBox[{"AzimuthalAdvancePN", "[", "3", "]"}]}], "Input",
  CellChangeTimes->{{3.741282035409829*^9, 3.741282045134182*^9}},
- CellLabel->"In[27]:=",ExpressionUUID->"be9de796-ab2f-4c9a-af96-1d87c8ddbda5"],
+ CellLabel->"In[27]:=",ExpressionUUID->"f40018ae-1dda-4e21-87b8-b74894bf69fb"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1218,7 +1218,7 @@ Cell[BoxData[
     3 (5 + 4 (1 - $CellContext`e^2)^Rational[-1, 2]) $CellContext`M Pi}, -3, 
    2, 2],
   Editable->False]], "Output",
- CellLabel->"Out[27]=",ExpressionUUID->"762ba135-e1e8-4e0a-9351-154bbd0ecc20"],
+ CellLabel->"Out[27]=",ExpressionUUID->"d62002d9-de50-486e-a7da-2bbdf037ab44"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1245,7 +1245,7 @@ Cell[BoxData[
    2 Pi, 6 Pi, Rational[3, 2] (18 + $CellContext`e^2) Pi}, 0, 3, 1],
   Editable->False]], "Output",
  CellLabel->
-  "Out[28]=",ExpressionUUID->"dc6e0ae1-534e-463d-ace8-09668a5e28ce"]
+  "Out[28]=",ExpressionUUID->"55fe0eea-fb81-4f15-9c7f-fe7a55baa02d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1258,7 +1258,7 @@ Cell[BoxData[{
  CellChangeTimes->{{3.741282035409829*^9, 3.741282045134182*^9}, {
   3.741282356257189*^9, 3.741282359933617*^9}, {3.7412827317277117`*^9, 
   3.74128273315241*^9}},
- CellLabel->"In[29]:=",ExpressionUUID->"029207d5-c698-4264-9380-36760e736387"],
+ CellLabel->"In[29]:=",ExpressionUUID->"d5da92f0-6548-4cd0-9cdb-1f84f8a91deb"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1309,7 +1309,7 @@ Cell[BoxData[
     Pi, 0, Rational[-3, 2] (-1 + $CellContext`e^2)^(-2) (-18 + 
      7 $CellContext`e^2) $CellContext`M Pi}, -3, 2, 2],
   Editable->False]], "Output",
- CellLabel->"Out[29]=",ExpressionUUID->"0b2ac319-5d9a-4cc3-8409-0e7e0106a7a6"],
+ CellLabel->"Out[29]=",ExpressionUUID->"8a0035e9-cd81-4658-8895-2fff03de3a28"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1353,7 +1353,7 @@ Cell[BoxData[
     Pi}, 0, 3, 1],
   Editable->False]], "Output",
  CellLabel->
-  "Out[30]=",ExpressionUUID->"9eb105f6-59d8-4f79-87d2-c9a983449d50"]
+  "Out[30]=",ExpressionUUID->"b75db6d7-7139-4bc1-8bd8-4430ec466b62"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -1362,14 +1362,14 @@ Cell[CellGroupData[{
 
 Cell["Kerr equatorial orbits", "Section",
  CellChangeTimes->{{3.741281881356564*^9, 
-  3.741281892870081*^9}},ExpressionUUID->"2e67e504-b263-46dd-8664-\
-8150b57c2e1a"],
+  3.741281892870081*^9}},ExpressionUUID->"9a13bf58-31ba-41dc-8f83-\
+adf7e52a07e2"],
 
 Cell["The same expansions are available on Kerr.", "Item",
  CellChangeTimes->{{3.741281896738414*^9, 3.741281904571431*^9}, {
   3.741282325989314*^9, 
-  3.74128232599233*^9}},ExpressionUUID->"4cdd1fbb-5382-4d1d-9207-\
-9b2c3834f1d7"],
+  3.74128232599233*^9}},ExpressionUUID->"fe0ca669-e067-4a9e-b0e7-\
+9fed432310dd"],
 
 Cell[TextData[{
  "Note that ",
@@ -1378,15 +1378,15 @@ Cell[TextData[{
  " is not available for Kerr black holes in BlackHoleAnalysis."
 }], "Item",
  CellChangeTimes->{{3.741281896738414*^9, 3.741281904571431*^9}, 
-   3.741282326183366*^9},ExpressionUUID->"4b754067-9a55-4351-83a2-\
-e9f0db876122"],
+   3.741282326183366*^9},ExpressionUUID->"ff6057c7-781b-4110-8f64-\
+e8aab2e05a9f"],
 
 Cell[CellGroupData[{
 
 Cell["The angular frequencies", "Subsection",
  CellChangeTimes->{{3.7412815146201468`*^9, 
-  3.741281519252734*^9}},ExpressionUUID->"1781e53a-c468-4dbf-9db3-\
-b1dcc6499b15"],
+  3.741281519252734*^9}},ExpressionUUID->"1b07ee0a-102a-4bbd-bd57-\
+cfe1456ca8fe"],
 
 Cell[CellGroupData[{
 
@@ -1395,7 +1395,7 @@ Cell[BoxData[
   RowBox[{"Metric", "\[Rule]", "\"\<Kerr\>\""}], "]"}]], "Input",
  CellChangeTimes->{{3.7412817253668213`*^9, 3.741281725673348*^9}, {
   3.741281927149643*^9, 3.741281956612068*^9}},
- CellLabel->"In[31]:=",ExpressionUUID->"98ee2188-0c98-4dbc-8ab8-2153ccc08066"],
+ CellLabel->"In[31]:=",ExpressionUUID->"b3eaa1f8-729e-4dee-ac0c-39a9a5e2417b"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1423,7 +1423,7 @@ Cell[BoxData[
    1], {(1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M}, 3, 4, 2],
   Editable->False]], "Output",
  CellLabel->
-  "Out[31]=",ExpressionUUID->"c1b73d74-ad08-48bc-9b8a-f8e3899b2d62"]
+  "Out[31]=",ExpressionUUID->"7851e095-41ea-45df-b103-5b944891b3b5"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1433,19 +1433,19 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    SubscriptBox["\[CapitalOmega]", "r"], TraditionalForm]],ExpressionUUID->
-  "2bc56532-21fa-48e6-a887-8aec3b53ea2e"],
+  "880dc9fe-df4c-45c6-951c-817817736882"],
  " agrees with ",
  Cell[BoxData[
   FormBox[
    SubscriptBox["\[CapitalOmega]", "\[Phi]"], TraditionalForm]],
-  ExpressionUUID->"7941ff12-41c4-4fd5-ba3c-60008dc32466"],
+  ExpressionUUID->"bd702515-7856-49a2-8cd7-537fd9f90648"],
  ", but only to lowest order"
 }], "Item",
  CellChangeTimes->{{3.7412815739054413`*^9, 3.741281599351852*^9}, 
    3.741281636834113*^9, {3.741281672264573*^9, 3.741281697893366*^9}, {
    3.741282750084517*^9, 
-   3.741282751272893*^9}},ExpressionUUID->"97b0579f-1569-4f4a-9826-\
-46bdf08e7ab5"],
+   3.741282751272893*^9}},ExpressionUUID->"d1b1d8da-012e-45a9-b716-\
+ac00ecbd8d66"],
 
 Cell[CellGroupData[{
 
@@ -1457,7 +1457,7 @@ Cell[BoxData[{
  CellChangeTimes->{{3.7412816023347683`*^9, 3.741281633895993*^9}, {
   3.7412817027063303`*^9, 3.741281704843713*^9}, {3.741282743828988*^9, 
   3.7412827446601887`*^9}},
- CellLabel->"In[32]:=",ExpressionUUID->"ba54f13a-be34-4211-8e4b-adb7ee52e74d"],
+ CellLabel->"In[32]:=",ExpressionUUID->"b10cb9d2-2e4a-4faf-8435-6e6fab1c93ee"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1484,7 +1484,7 @@ Cell[BoxData[
    DirectedInfinity[
    1], {(1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M}, 3, 4, 2],
   Editable->False]], "Output",
- CellLabel->"Out[32]=",ExpressionUUID->"bc302565-a643-4175-80ff-0f83fcbb77b7"],
+ CellLabel->"Out[32]=",ExpressionUUID->"52c07ec6-89f9-43d7-bf85-0663cd96e9ed"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1512,7 +1512,7 @@ Cell[BoxData[
    1], {(1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M}, 3, 4, 2],
   Editable->False]], "Output",
  CellLabel->
-  "Out[33]=",ExpressionUUID->"9f48feba-8440-4402-a3fd-9d664db175e5"]
+  "Out[33]=",ExpressionUUID->"d1413cc5-d768-41e0-823f-5a8c668cf01f"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1527,7 +1527,7 @@ Cell[BoxData[{
    RowBox[{"Metric", "\[Rule]", "\"\<Kerr\>\""}]}], "]"}]}], "Input",
  CellChangeTimes->{{3.7412817130753603`*^9, 3.7412817137241707`*^9}, {
   3.741282756587261*^9, 3.741282791976901*^9}},
- CellLabel->"In[34]:=",ExpressionUUID->"be69a1fe-0743-46c4-81ff-5e86e325c9fd"],
+ CellLabel->"In[34]:=",ExpressionUUID->"a0058372-a721-4763-b7a0-f6c9e770dc62"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1568,7 +1568,7 @@ Cell[BoxData[
     3 $CellContext`e^2 (1 - $CellContext`e^2)^Rational[3, 2]/$CellContext`M}, 
    3, 6, 2],
   Editable->False]], "Output",
- CellLabel->"Out[34]=",ExpressionUUID->"13479827-b25c-4c07-a1cb-b502827130f7"],
+ CellLabel->"Out[34]=",ExpressionUUID->"df046f20-51e4-4e1b-b554-e323f714fa40"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1608,7 +1608,7 @@ Cell[BoxData[
     0, (-3) (1 - $CellContext`e^2)^Rational[5, 2]/$CellContext`M}, 3, 6, 2],
   Editable->False]], "Output",
  CellLabel->
-  "Out[35]=",ExpressionUUID->"ff13ec03-32d0-4a87-b5f5-c86e49accb8b"]
+  "Out[35]=",ExpressionUUID->"6c16f45b-69e2-44a3-8bff-adcb7f4df5d3"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1616,8 +1616,8 @@ Cell[CellGroupData[{
 
 Cell["Spin effects don\[CloseCurlyQuote]t come in until the 3rd term.", "Item",
  CellChangeTimes->{{3.741282796809568*^9, 
-  3.741282825335935*^9}},ExpressionUUID->"5eee2a03-d45d-49c7-9cac-\
-1d279921c821"],
+  3.741282825335935*^9}},ExpressionUUID->"836dd8c8-21f9-4d80-abba-\
+e85d156b50d7"],
 
 Cell[CellGroupData[{
 
@@ -1631,7 +1631,7 @@ Cell[BoxData[{
    RowBox[{"Metric", "\[Rule]", "\"\<Kerr\>\""}]}], "]"}]}], "Input",
  CellChangeTimes->{{3.7412817130753603`*^9, 3.7412817137241707`*^9}, {
   3.741282756587261*^9, 3.741282819182541*^9}},
- CellLabel->"In[36]:=",ExpressionUUID->"443b0b03-fd74-4772-a36f-2f6a58409887"],
+ CellLabel->"In[36]:=",ExpressionUUID->"817f56f7-099f-42ee-9d34-56a68ad36b7f"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1733,7 +1733,7 @@ Cell[BoxData[
          10 (1 - $CellContext`e^2)^Rational[1, 2])) $CellContext`M^2)}, 3, 8, 
    2],
   Editable->False]], "Output",
- CellLabel->"Out[36]=",ExpressionUUID->"ab0c8922-7ed3-4c30-a1cd-74a70596e78f"],
+ CellLabel->"Out[36]=",ExpressionUUID->"fce97e52-103c-477b-8275-77b787ea57b8"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1818,7 +1818,7 @@ Cell[BoxData[
        5 (1 - $CellContext`e^2)^Rational[1, 2]) $CellContext`M^2)}, 3, 8, 2],
   Editable->False]], "Output",
  CellLabel->
-  "Out[37]=",ExpressionUUID->"9d654825-35dc-4441-a83d-22e24b04bef6"]
+  "Out[37]=",ExpressionUUID->"a1bc5ba2-d26a-479e-8fda-309e5a5f111d"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -1827,8 +1827,8 @@ Cell[CellGroupData[{
 
 Cell["Specific energy and angular momentum", "Subsection",
  CellChangeTimes->{{3.7412817896978483`*^9, 
-  3.741281795091733*^9}},ExpressionUUID->"e1cb0d1f-ae72-4b14-b4ce-\
-f6dba45fb337"],
+  3.741281795091733*^9}},ExpressionUUID->"1f1d6f80-15a9-4f24-bb3c-\
+6b83b31a6d89"],
 
 Cell[CellGroupData[{
 
@@ -1842,7 +1842,7 @@ Cell[BoxData[{
    RowBox[{"Metric", "\[Rule]", "\"\<Kerr\>\""}]}], "]"}]}], "Input",
  CellChangeTimes->{{3.741281815433402*^9, 3.7412818295803823`*^9}, {
   3.741282839825245*^9, 3.741282871236869*^9}},
- CellLabel->"In[38]:=",ExpressionUUID->"7541b684-5429-4eda-8816-332a743831e4"],
+ CellLabel->"In[38]:=",ExpressionUUID->"985e30f0-e22e-47a3-8d7b-df28835ab931"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1874,7 +1874,7 @@ Cell[BoxData[
    1, 0, Rational[1, 2] (-1 + $CellContext`e^2), 0, 
     Rational[3, 8] (-1 + $CellContext`e^2)^2}, 0, 5, 2],
   Editable->False]], "Output",
- CellLabel->"Out[38]=",ExpressionUUID->"be91473b-cd89-4753-935c-4ab3df85069d"],
+ CellLabel->"Out[38]=",ExpressionUUID->"34ba8fd2-ba57-4076-b768-fa5a55a01440"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1930,7 +1930,7 @@ Cell[BoxData[
      3 (3 + $CellContext`e^2)^2 $CellContext`M^2)}, -1, 4, 2],
   Editable->False]], "Output",
  CellLabel->
-  "Out[39]=",ExpressionUUID->"20c37c86-6f5a-4ff0-aadd-49bd78f9bb06"]
+  "Out[39]=",ExpressionUUID->"25bdd6ed-a387-47d5-a6f5-52fe4956216d"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1938,8 +1938,8 @@ Cell[CellGroupData[{
 
 Cell["Radial period and azimuthal advance", "Subsection",
  CellChangeTimes->{{3.7412819855880737`*^9, 
-  3.741281994862278*^9}},ExpressionUUID->"3b7458ce-52ee-46a1-a746-\
-28ae9cc2fcde"],
+  3.741281994862278*^9}},ExpressionUUID->"8ec3fd7c-7fde-4cec-905c-\
+70e4641f0507"],
 
 Cell[CellGroupData[{
 
@@ -1953,7 +1953,7 @@ Cell[BoxData[{
    RowBox[{"Metric", "\[Rule]", "\"\<Kerr\>\""}]}], "]"}]}], "Input",
  CellChangeTimes->{{3.741282035409829*^9, 3.741282045134182*^9}, {
   3.741282875771925*^9, 3.741282877641816*^9}},
- CellLabel->"In[40]:=",ExpressionUUID->"c8ec291c-5e1b-4779-8dab-17ba371b43ea"],
+ CellLabel->"In[40]:=",ExpressionUUID->"9ed5f95a-f1a6-43ff-a657-b2955a19a7ef"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -2016,7 +2016,7 @@ Cell[BoxData[
        5 (1 - $CellContext`e^2)^Rational[1, 2]) $CellContext`M^2) Pi}, -3, 2, 
    2],
   Editable->False]], "Output",
- CellLabel->"Out[40]=",ExpressionUUID->"f846d1d6-0209-4de8-bc09-94b1e3a8b33f"],
+ CellLabel->"Out[40]=",ExpressionUUID->"1e649ff5-94c4-4a21-9d78-a9ddbaf928cf"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -2058,7 +2058,7 @@ Cell[BoxData[
      2 $CellContext`a^2 $CellContext`M^(-2)) Pi}, 0, 5, 2],
   Editable->False]], "Output",
  CellLabel->
-  "Out[41]=",ExpressionUUID->"a5383e64-a045-48a6-a159-413e8f71c6d7"]
+  "Out[41]=",ExpressionUUID->"98035dd2-9ae4-49ba-81c9-86b598829e10"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -2102,36 +2102,36 @@ Cell["", "RelatedTutorialsSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
    None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"1026451a-85e9-4771-b682-fb457d460818"],
+  0,ExpressionUUID->"83f557b2-0a59-4dd6-91ff-62c6b2062d1f"],
 
 Cell[TextData[ButtonBox["Field equations on Schwarzschild",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Field equations on Schwarzschild"]], \
-"RelatedTutorials",ExpressionUUID->"4b87f74e-4e2e-466f-b6b3-6acff3a75cc2"],
+"RelatedTutorials",ExpressionUUID->"a6178dae-b6d0-4488-b449-a7a7710db9d0"],
 
 Cell[TextData[ButtonBox["Source terms",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Source terms"]], \
-"RelatedTutorials",ExpressionUUID->"c126f3f1-6b75-46ac-be2a-03011c8142ae"],
+"RelatedTutorials",ExpressionUUID->"99276f7b-d12e-40cc-81a0-4cd75fd38343"],
 
 Cell[TextData[ButtonBox["Equations of motion",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Equations of motion"]], \
-"RelatedTutorials",ExpressionUUID->"b816c0f7-2e4e-4b8c-aa9a-8c3fda6024b8"],
+"RelatedTutorials",ExpressionUUID->"b114e5b0-09bb-4cb3-b7db-e545f72d07d3"],
 
 Cell[TextData[ButtonBox["Examples",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Examples"]], \
-"RelatedTutorials",ExpressionUUID->"550feb1f-2e6d-4d46-85c0-26d45e3ca592"]
+"RelatedTutorials",ExpressionUUID->"8c694e1c-f22a-4f42-a6c0-0790c9ab4493"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[" ", \
-"FooterCell",ExpressionUUID->"55817b4d-b020-49e4-8828-7e8e104914a7"]
+"FooterCell",ExpressionUUID->"8bc5aa29-2a5a-416b-ba68-10810b1d0a85"]
 },
 Saveable->False,
 ScreenStyleEnvironment->"Working",

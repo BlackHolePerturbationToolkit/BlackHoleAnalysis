@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"1aa34f57-1e1c-4cdd-ab1b-88ffc989fdea"],
+   0}},ExpressionUUID->"55fc62bb-ad56-492a-815e-b2f92f471241"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["MasterFunction",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/MasterFunction"]
-}], "LinkTrail",ExpressionUUID->"5cc7e620-049f-4857-936b-2b8554393999"],
+}], "LinkTrail",ExpressionUUID->"61299fd9-a86e-4727-a118-0a39bf8cf096"],
 
 Cell[CellGroupData[{
 
 Cell["MasterFunction", \
-"ObjectName",ExpressionUUID->"16c8b960-37d1-4b45-8273-b6d150976795"],
+"ObjectName",ExpressionUUID->"5fd3af08-dd66-4427-96c5-178dcb9f174e"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -30,11 +30,11 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/MasterFunction"], "[", 
        "]"}]], "InlineFormula",ExpressionUUID->
-      "36645fdd-1d29-473c-ba6f-610400fbf3bc"],
+      "274a5b59-5511-48a4-b62a-3e74c84e7550"],
      "\[LineSeparator]returns the gauge-invariant master function in symbolic \
 form."
-    }],ExpressionUUID->"e8d83627-7c13-468d-a342-366d3c3820a7"]}
-  }]], "Usage",ExpressionUUID->"0192dfbf-102f-4163-ae9d-3bbda88d754e"]
+    }],ExpressionUUID->"25dd9835-139a-4bbd-bfa5-92333af64634"]}
+  }]], "Usage",ExpressionUUID->"a0c319b4-ac46-4606-8d9f-b4626baae964"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -80,46 +80,46 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"4738f40b-e3e8-4e19-9de0-8f422a278bc0"],
+  0,ExpressionUUID->"c262f694-0844-40af-a796-ae58846eebe4"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"a476e3d0-cc7a-4d92-8add-ca1d2c3a6df5"],
+"Notes",ExpressionUUID->"20beac66-7f15-41f6-8f1c-f3714b67016b"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "7c4654c7-4c37-447a-8dd4-ba79ca4c3069"], "Gauge", "RWZ", Cell["\<\
+     "925cd1a1-a09e-4cee-92d7-6fa39ff4aba0"], "Gauge", "RWZ", Cell["\<\
 Gauge of the metric perturvation amplitudes (\"RWZ\", \"Lorenz\",  \
 \"Undefined\", or Null)\
-\>", "TableText",ExpressionUUID->"60fb2a73-9166-4650-b77e-f48eb57ad79d"]},
+\>", "TableText",ExpressionUUID->"46ce9318-434f-4807-8cba-50435bf74a5f"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "3a808e60-a2d2-4b4d-af0f-d7c4aeda927f"], "MPs", "False", Cell["\<\
+     "0377f1ea-e216-428a-a3d2-d6acf59efcee"], "MPs", "False", Cell["\<\
 Boolean stating whether metric perturbation amplitudes should be substituted \
 for the master function\
-\>", "TableText",ExpressionUUID->"497844b3-7473-4cfe-8dd3-8c7bed32fbcc"]},
+\>", "TableText",ExpressionUUID->"16b9d5e1-d209-4b0e-98e4-308d67788194"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "25ae3b27-db89-4e82-8de6-0630f8a56c75"], "Parity", "Default", Cell["\<\
+     "13253f87-ef6a-409e-a33e-993c0faabcf2"], "Parity", "Default", Cell["\<\
 Parity of the master function (Default, \"Even\", or \"Odd\"). Choosing \
 Default allows \"Parity\" to be set by the \"Variable\" Option. When both \
 Options are Default, the \"Parity\" is \"Even\".\
-\>", "TableText",ExpressionUUID->"4a379e37-6b80-4e5d-9734-4d5d728a345f"]},
+\>", "TableText",ExpressionUUID->"2a24dd90-6b68-43e5-bb04-5b53a066919a"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "82cef0a3-bdf8-47b5-a5ff-33c4ae33f7a5"], "ReturnSymbol", "False", 
+     "1b8d6c59-75aa-4d72-9345-5dca49942a57"], "ReturnSymbol", "False", 
     Cell["\<\
 Boolean stating whether to only return the symbol of the field (with no \
 arguments)\
-\>", "TableText",ExpressionUUID->"4821df8b-2c1c-411d-8930-8260bf92c5a1"]},
+\>", "TableText",ExpressionUUID->"eb236d20-06a9-4f73-9999-a748597c063c"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "324d599e-5974-41f8-8835-231a0c64ce2a"], "Variable", "Default", 
+     "dd70ab6f-6e1d-4b26-9638-d98981214f22"], "Variable", "Default", 
     Cell["\<\
 The specific master function variable to use (Default, \"ZM\", \"ZM1\", ... \
 \"ZM7\" and \"CPM\", \"CPM1\", ... \"CPM6\"). Choosing Default is equivalent \
 to \"ZM\" when \"Parity\"->\"Even\" and \"CPM\" when \"Parity\"->\"Odd\". \
 When both Options are Default, the \"Parity\" is \"Even\".\
-\>", "TableText",ExpressionUUID->"505fc816-2615-4efc-b1dc-1b2683e9b3d9"]},
+\>", "TableText",ExpressionUUID->"c79770eb-ebdf-4746-96a8-352fa66b1264"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "d5a1e812-ba9f-4dc7-a6a8-8f0340b97ac3"], "Weak", "False", Cell["\<\
+     "bdd5ae7f-ae1f-4010-88c2-5e2cfae2d29b"], "Weak", "False", Cell["\<\
 Boolean stating whether the master function should be given in a weak form\
-\>", "TableText",ExpressionUUID->"4bbc4d59-0eb5-4dfa-a7c2-453fb3b4179b"]}
+\>", "TableText",ExpressionUUID->"bb735bd5-4d80-4747-a8af-30b8fc73f2ee"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -131,14 +131,14 @@ Boolean stating whether the master function should be given in a weak form\
  GridBoxDividers->{
   "Rows" -> {{
      True, True, True, True, True, True, 
-      True}}}},ExpressionUUID->"b5d93e27-6bbb-487e-8903-66adf65a5cbd"]
+      True}}}},ExpressionUUID->"79108ce4-62ff-4c3d-bdd7-66a2d5419c84"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"d3f3f5b8-272a-4bea-ba05-cc028d50acb2"],
+Cell[" ", "FooterCell",ExpressionUUID->"1703c568-8cf6-4122-9eab-fd4fc8abfabe"],
 
-Cell[BoxData[""],ExpressionUUID->"53313b06-74cb-42a4-8dd9-0911cae7e936"]
+Cell[BoxData[""],ExpressionUUID->"47e4d65c-a046-4535-8c59-94b7805f719c"]
 }, Open  ]]
 },
 Saveable->False,

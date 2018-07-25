@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"ebaa8a32-0044-4410-af79-bf655dd2ef87"],
+   0}},ExpressionUUID->"721ce57a-e108-4611-ad1d-36874e4c9207"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["SphericalHarmonicLabels",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/SphericalHarmonicLabels"]
-}], "LinkTrail",ExpressionUUID->"8b78304c-f878-4696-bca6-d903ecac9c15"],
+}], "LinkTrail",ExpressionUUID->"b4355064-1dae-47ab-9cc1-d9f3620f8b1c"],
 
 Cell[CellGroupData[{
 
 Cell["SphericalHarmonicLabels", \
-"ObjectName",ExpressionUUID->"39a83414-2a9a-4e08-ac66-958036b3742b"],
+"ObjectName",ExpressionUUID->"dda43962-4e5c-4c0b-8db7-bc92d81cc87e"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -30,11 +30,11 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/SphericalHarmonicLabels"], 
        "[", "]"}]], "InlineFormula",ExpressionUUID->
-      "4c0a8bb4-8ae9-4d7f-b721-54e12a158c59"],
+      "a4fbdbbf-daab-468a-ae17-9a16cebd76ea"],
      "\[LineSeparator]returns a list of strings that label the scalar, \
 vector, and tensor spherical harmonics."
-    }],ExpressionUUID->"8bdfed2d-9b6c-4065-afe8-4b4c3354fedd"]}
-  }]], "Usage",ExpressionUUID->"f59e1e37-5b78-46ac-b395-1e16b1fc34ee"]
+    }],ExpressionUUID->"59f63e23-cf5a-412f-b02e-df40c619cd84"]}
+  }]], "Usage",ExpressionUUID->"85a90b49-af8b-4b1f-b648-a66aa8ddd0db"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -80,16 +80,16 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"0a1f53b0-22bf-4e45-b19d-17819ee5fda6"],
+  0,ExpressionUUID->"b3f522c4-5c84-4a1f-8441-2a1956514829"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"9202015c-9d94-4bb8-8377-a48701d0bc9c"],
+"Notes",ExpressionUUID->"1157804e-b90a-410f-b435-24b3523e94be"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "85aa4f4e-fbbf-409e-934a-90b14a388866"], "Parity", "Both", Cell["\<\
+     "7982d48b-506f-4dc7-b36b-86ccea9ed801"], "Parity", "Both", Cell["\<\
 Specifies which parities to include, (\"Even\", \"Odd\", or \"Both\")\
-\>", "TableText",ExpressionUUID->"9b894851-9a4d-4c01-9ae0-01b3eb848e58"]}
+\>", "TableText",ExpressionUUID->"4ab17821-3641-465f-bb91-4fc6a6355583"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -100,14 +100,14 @@ Specifies which parities to include, (\"Even\", \"Odd\", or \"Both\")\
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"8dee443b-5c4d-4707-97f3-1efcd1597a33"]
+     True, True}}}},ExpressionUUID->"385eb0a0-89eb-4ba3-a514-8666ecb2a52e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"85d73920-f646-483d-a410-f9389b3e7e32"],
+Cell[" ", "FooterCell",ExpressionUUID->"5c7eda8b-ce7a-4625-84d6-5f6f991b7ff9"],
 
-Cell[BoxData[""],ExpressionUUID->"cab037e5-9839-43d1-b1f9-de40f3daf900"]
+Cell[BoxData[""],ExpressionUUID->"100f818a-6c56-4dc8-9a5b-6dc4eb80ab35"]
 }, Open  ]]
 },
 Saveable->False,

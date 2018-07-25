@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "TutorialColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"4226aa01-d876-4c3b-84c4-0400596984b6"],
+   0}},ExpressionUUID->"d53bcc53-ad01-4285-b251-1207aa636c37"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -11,11 +11,11 @@ Cell[TextData[{
  ButtonBox["Low order modes",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/tutorial/Low order modes"]
-}], "LinkTrail",ExpressionUUID->"f8b54846-9017-4ea6-a66c-75aa21d22777"],
+}], "LinkTrail",ExpressionUUID->"01c21130-6630-45fc-b85f-782282011e91"],
 
 Cell[BoxData[GridBox[{
    {Cell["LOW ORDER MODES TUTORIAL", "PacletNameCell",ExpressionUUID->
-     "921622bc-2137-4004-b1cd-aa542150f7b4"], Cell[TextData[{
+     "8bfece33-78c7-4d18-9d45-315e8e6c1416"], Cell[TextData[{
      Cell[BoxData[
       ActionMenuBox[
        FrameBox["\<\"Related Tutorials \[RightGuillemet]\"\>",
@@ -36,7 +36,7 @@ variables"], "Examples":>Documentation`HelpLookup[
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "cd5591f8-fd20-411c-b0c1-46cc0c59086f"],
+      "b08ba605-972a-4b29-8e3b-106976afc330"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -55,28 +55,28 @@ variables"], "Examples":>Documentation`HelpLookup[
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "948e5e42-2cc8-4815-82ed-c0656a93dc09"]
-    }], "AnchorBar",ExpressionUUID->"a132cd35-d8b0-4a69-a22c-abd1b7ee532e"]}
-  }]], "AnchorBarGrid",ExpressionUUID->"219e2d64-59f5-47b7-9f92-8de4ba8a63dc"],
+      "11174054-0d48-4fd9-9b71-a86c3cb41737"]
+    }], "AnchorBar",ExpressionUUID->"b3dc5fd5-2868-4588-9b91-f68f608f1cf2"]}
+  }]], "AnchorBarGrid",ExpressionUUID->"75fc3022-4234-4731-8436-31abedb612e6"],
 
 Cell[CellGroupData[{
 
 Cell["BlackHoleAnalysis - Low order modes", "Title",
  CellChangeTimes->{{3.741350517197773*^9, 3.7413505173623123`*^9}, 
    3.741351905082037*^9, {3.7413525195323143`*^9, 
-   3.74135251982686*^9}},ExpressionUUID->"75df1d5f-7d3e-44e0-ac51-\
-772e12459d42"],
+   3.74135251982686*^9}},ExpressionUUID->"48f3c45a-aa90-412f-b858-\
+0c901c029259"],
 
 Cell[BoxData[
  RowBox[{"<<", "BlackHoleAnalysis`"}]], "Input",
- CellLabel->"In[1]:=",ExpressionUUID->"0daf6f02-be21-41b3-b551-048262b13bad"],
+ CellLabel->"In[1]:=",ExpressionUUID->"629107f7-31cf-49dd-bb85-337cf18b6de0"],
 
 Cell[CellGroupData[{
 
 Cell["Introduction", "Section",
  CellChangeTimes->{{3.741350590015109*^9, 
-  3.741350591613468*^9}},ExpressionUUID->"52a61b73-908d-4eb6-ad7e-\
-84224bfad266"],
+  3.741350591613468*^9}},ExpressionUUID->"da618115-093e-4d62-9f03-\
+f093980c470c"],
 
 Cell[TextData[{
  "Zerilli\[CloseCurlyQuote]s Schwarzschild perturbation low order mode (",
@@ -86,8 +86,8 @@ Cell[TextData[{
 }], "Item",
  CellChangeTimes->{{3.7413505973261223`*^9, 3.741350615633061*^9}, {
   3.7413525217940893`*^9, 
-  3.741352551079706*^9}},ExpressionUUID->"01a88477-e0c2-4799-a10e-\
-d9bb663abcdf"],
+  3.741352551079706*^9}},ExpressionUUID->"92c6bcb0-6e0f-49be-8e6c-\
+8822f57350de"],
 
 Cell[TextData[{
  "Actually the monopole is slightly adjusted (see Hopper, Kavanagh & \
@@ -101,22 +101,22 @@ Ottewill, ",
 }], "Item",
  CellChangeTimes->{{3.7413505973261223`*^9, 3.741350673019321*^9}, {
   3.741350813287101*^9, 3.7413508197370787`*^9}, {3.741351878393979*^9, 
-  3.741351878395216*^9}},ExpressionUUID->"b8802d41-849c-4076-a902-\
-861b0ba954f8"],
+  3.741351878395216*^9}},ExpressionUUID->"86ed48d3-64d5-4608-b04d-\
+28418cc78380"],
 
 Cell["Here we show that they satisfy the field equations.", "Item",
  CellChangeTimes->{{3.7413505973261223`*^9, 3.741350673019321*^9}, {
   3.741350813287101*^9, 3.7413508197370787`*^9}, {3.741351878976598*^9, 
-  3.741351888907123*^9}},ExpressionUUID->"49dcd88f-086f-423b-816b-\
-c21bcc6762ac"]
+  3.741351888907123*^9}},ExpressionUUID->"8fdc082f-fe25-46a9-8f81-\
+6aa93027f648"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Monopole", "Section",
  CellChangeTimes->{{3.741350576467615*^9, 
-  3.741350577678471*^9}},ExpressionUUID->"679af6dd-48cc-48d9-a6bb-\
-5b7956633ea4"],
+  3.741350577678471*^9}},ExpressionUUID->"29c4046d-562b-4230-855f-\
+d60d6aaad91c"],
 
 Cell[CellGroupData[{
 
@@ -124,8 +124,8 @@ Cell["\<\
 We can restrict the field equations to only monopole equations.\
 \>", "Item",
  CellChangeTimes->{{3.741350533370695*^9, 
-  3.741350573506732*^9}},ExpressionUUID->"3c58c068-2fcc-4d46-9624-\
-e758eef054d3"],
+  3.741350573506732*^9}},ExpressionUUID->"000019b1-bc01-432f-8b6f-\
+f09d48df683a"],
 
 Cell[CellGroupData[{
 
@@ -145,7 +145,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.741350553505015*^9, 3.7413505823069353`*^9}, {
   3.741350680281077*^9, 3.74135069369775*^9}, {3.741350841038028*^9, 
   3.741350872790985*^9}},
- CellLabel->"In[2]:=",ExpressionUUID->"2a7cc7ca-9048-4d9e-bbe4-488b5425f3cc"],
+ CellLabel->"In[2]:=",ExpressionUUID->"13d0813c-f00c-471c-9d54-926ce9c6dd5b"],
 
 Cell[BoxData[
  TagBox[
@@ -498,7 +498,7 @@ SuperscriptBox]]\\)\"\>",
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "Out[2]//TableForm=",ExpressionUUID->"fd27684a-fb2d-4eff-a514-f6fe32105836"]\
+  "Out[2]//TableForm=",ExpressionUUID->"866bd5be-d386-4baf-935b-d4fe578099be"]\
 
 }, Open  ]]
 }, Open  ]],
@@ -507,15 +507,15 @@ Cell["\<\
 The solutions are built in through the functions HttAmplitude, etc.\
 \>", "Item",
  CellChangeTimes->{{3.741350712712822*^9, 
-  3.7413507316754913`*^9}},ExpressionUUID->"cb8af89a-6f9a-4079-b8ad-\
-1b6c0f491ba0"],
+  3.7413507316754913`*^9}},ExpressionUUID->"d23e6639-c48e-416f-8d51-\
+9e3e9b749f68"],
 
 Cell[CellGroupData[{
 
 Cell["The non-vanishing amplitudes are found by:", "Item",
  CellChangeTimes->{{3.741350712712822*^9, 
-  3.741350743153784*^9}},ExpressionUUID->"39f7a498-b667-41bf-b895-\
-5f92fdf6d0a3"],
+  3.741350743153784*^9}},ExpressionUUID->"2ec44896-b554-439c-b831-\
+2c4a4bfa1b26"],
 
 Cell[CellGroupData[{
 
@@ -526,12 +526,12 @@ Cell[BoxData[
     RowBox[{"Gauge", "\[Rule]", "\"\<RWZ\>\""}], ",", 
     RowBox[{"Mode", "\[Rule]", "\"\<Monopole\>\""}]}], "]"}]}]], "Input",
  CellChangeTimes->{{3.7413507459271393`*^9, 3.741350763839636*^9}},
- CellLabel->"In[3]:=",ExpressionUUID->"76aec478-4d3b-4f13-8802-b7fc5b169679"],
+ CellLabel->"In[3]:=",ExpressionUUID->"6b6bef0f-bd9a-45db-919c-b010fc430c95"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{"\<\"htt\"\>", ",", "\<\"hrr\"\>"}], "}"}]], "Output",
- CellLabel->"Out[3]=",ExpressionUUID->"260a39c9-7b66-4d27-b212-f234eaa91207"]
+ CellLabel->"Out[3]=",ExpressionUUID->"1a9c2441-deda-42bf-b02d-32bed41295b3"]
 }, Open  ]]
 }, Open  ]],
 
@@ -539,8 +539,8 @@ Cell[CellGroupData[{
 
 Cell["We need to plug in for the fields and their derivatives.", "Item",
  CellChangeTimes->{{3.741350891191166*^9, 
-  3.741350901891638*^9}},ExpressionUUID->"ecde94d4-6efd-4ac6-a223-\
-86a7b1f7eef5"],
+  3.741350901891638*^9}},ExpressionUUID->"a966cbf2-6aed-4f42-9019-\
+68cedc9c2e64"],
 
 Cell[CellGroupData[{
 
@@ -558,7 +558,7 @@ Cell[BoxData[
        RowBox[{"ExpandZerilli", "\[Rule]", "True"}]}], "]"}]}], "&"}], "/@", 
    "monoLabels"}]}]], "Input",
  CellChangeTimes->{{3.7413513123902483`*^9, 3.741351345689183*^9}},
- CellLabel->"In[4]:=",ExpressionUUID->"49c6add7-2773-4ae2-8137-09e644a449fe"],
+ CellLabel->"In[4]:=",ExpressionUUID->"7d0a97b7-5c60-4f64-93bd-6fdf4d2a0eb9"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -643,7 +643,7 @@ Cell[BoxData[
          FractionBox[
           RowBox[{"2", " ", "M"}], "r"]}], ")"}], "2"], " ", "r"}]]}]}], 
   "}"}]], "Output",
- CellLabel->"Out[4]=",ExpressionUUID->"467108f1-f4c1-44a2-8b62-6cefd24199f8"]
+ CellLabel->"Out[4]=",ExpressionUUID->"41cec391-4308-4f8c-a075-d21e07178995"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -675,7 +675,7 @@ Cell[BoxData[
    "monoLabels"}]}]], "Input",
  CellChangeTimes->{{3.741351205670018*^9, 3.741351220430511*^9}, {
   3.7413512902987757`*^9, 3.741351294057151*^9}},
- CellLabel->"In[5]:=",ExpressionUUID->"e76e72b1-c0f9-4738-aae0-5778a1114267"],
+ CellLabel->"In[5]:=",ExpressionUUID->"db036e10-3319-4fd6-8abc-933638ba1ccd"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -735,7 +735,7 @@ SuperscriptBox]]\\)\"\>",
        RowBox[{"Mode", "\[Rule]", "\<\"Monopole\"\>"}], ",", 
        RowBox[{"ExpandZerilli", "\[Rule]", "True"}]}], "]"}]}]}]}], 
   "}"}]], "Output",
- CellLabel->"Out[5]=",ExpressionUUID->"5b1d686f-3c15-4897-935e-423fb1d23cc0"]
+ CellLabel->"Out[5]=",ExpressionUUID->"deaa3a46-e771-4d9e-b4d1-f84c8743a565"]
 }, Open  ]]
 }, Open  ]],
 
@@ -743,8 +743,8 @@ Cell[CellGroupData[{
 
 Cell["Now, plug into the field equations.", "Item",
  CellChangeTimes->{{3.741351467529188*^9, 
-  3.741351473532196*^9}},ExpressionUUID->"ddde416c-5633-4c2f-b73f-\
-d64bdf459f15"],
+  3.741351473532196*^9}},ExpressionUUID->"0f8fe1f3-80af-4cc9-85fc-\
+c74c27e66d04"],
 
 Cell[CellGroupData[{
 
@@ -767,7 +767,7 @@ Cell[BoxData[
      "Simplify"}], "]"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.741351450590522*^9, 3.741351511933764*^9}, 
    3.741351554883707*^9},
- CellLabel->"In[6]:=",ExpressionUUID->"dfd92ae9-5366-4c76-ab8b-ff39304e6efd"],
+ CellLabel->"In[6]:=",ExpressionUUID->"9029bab9-c20e-41b2-93db-3fdd524de386"],
 
 Cell[BoxData[
  TagBox[
@@ -1142,7 +1142,7 @@ Cell[BoxData[
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "Out[6]//TableForm=",ExpressionUUID->"ef56a74b-fb90-4903-87d2-3b45bad21993"]\
+  "Out[6]//TableForm=",ExpressionUUID->"cb0001ba-e35c-4a3a-8963-5b9302e129cb"]\
 
 }, Open  ]]
 }, Open  ]],
@@ -1154,8 +1154,8 @@ This has not vanished because the derivatives of the step functions need to \
 be made into delta functions.\
 \>", "Item",
  CellChangeTimes->{{3.741351519062669*^9, 
-  3.741351543511219*^9}},ExpressionUUID->"aec80ba8-0f83-42dc-976d-\
-dbd2248506d6"],
+  3.741351543511219*^9}},ExpressionUUID->"70b12c69-b44c-4d21-bea4-\
+308f9460ede6"],
 
 Cell[CellGroupData[{
 
@@ -1165,7 +1165,7 @@ Cell[BoxData[
    RowBox[{"EvaluateDiscontinuities", "[", "monoFEsPlugIn1", "]"}]}], 
   "]"}]], "Input",
  CellChangeTimes->{{3.741351558444914*^9, 3.741351568168573*^9}},
- CellLabel->"In[7]:=",ExpressionUUID->"e41a9e50-5aa6-46e3-963f-dabcd096529f"],
+ CellLabel->"In[7]:=",ExpressionUUID->"feedb93b-6966-44c5-883a-eb617b0af992"],
 
 Cell[BoxData[
  TagBox[
@@ -1373,7 +1373,7 @@ Cell[BoxData[
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "Out[7]//TableForm=",ExpressionUUID->"3a43e6cb-82f7-49bf-b9da-8503770fb202"]\
+  "Out[7]//TableForm=",ExpressionUUID->"3f2d6690-6b2a-4262-b8fe-984877f2e6e7"]\
 
 }, Open  ]]
 }, Open  ]],
@@ -1385,12 +1385,12 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    SubscriptBox["r", "p"], TraditionalForm]],ExpressionUUID->
-  "285c820b-4475-41b1-930a-87dd281a62f6"],
+  "233e0c4a-590b-4ab0-90ea-be7d172729fc"],
  " that can be eliminated."
 }], "Item",
  CellChangeTimes->{{3.741351581930148*^9, 
-  3.741351596612547*^9}},ExpressionUUID->"14696c00-6aa7-4791-8687-\
-b134dbf8150b"],
+  3.741351596612547*^9}},ExpressionUUID->"e5ea142d-500b-4331-a5a0-\
+ffae792961e9"],
 
 Cell[CellGroupData[{
 
@@ -1399,12 +1399,12 @@ Cell[BoxData[
   RowBox[{"RemoveRpDots", "[", "monoFEsPlugIn2", "]"}], "//", 
   "Simplify"}]], "Input",
  CellChangeTimes->{{3.741351602487336*^9, 3.741351608887171*^9}},
- CellLabel->"In[8]:=",ExpressionUUID->"a3e9acd7-8d09-4eba-b3fa-cab609ae4a9d"],
+ CellLabel->"In[8]:=",ExpressionUUID->"9a950bbd-c979-41f6-a560-3db17e701c85"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{"0", ",", "0", ",", "0", ",", "0"}], "}"}]], "Output",
- CellLabel->"Out[8]=",ExpressionUUID->"112890f4-7018-4724-abe4-0f99f8237bf8"]
+ CellLabel->"Out[8]=",ExpressionUUID->"0e612dea-5a6c-4344-a144-a26316522948"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -1414,15 +1414,15 @@ Cell[CellGroupData[{
 Cell["Dipole", "Section",
  CellChangeTimes->{{3.741350576467615*^9, 3.741350577678471*^9}, {
   3.741351636327845*^9, 
-  3.7413516373306723`*^9}},ExpressionUUID->"8c4f0e5c-1188-4abb-870a-\
-3162c201e59a"],
+  3.7413516373306723`*^9}},ExpressionUUID->"8fc1bb02-988c-4ede-baa0-\
+ed1561fcdfae"],
 
 Cell[CellGroupData[{
 
 Cell["Even-parity", "Subsection",
  CellChangeTimes->{{3.741351657984305*^9, 
-  3.741351660271216*^9}},ExpressionUUID->"ab196370-5c24-4ab0-95a2-\
-517876c514a9"],
+  3.741351660271216*^9}},ExpressionUUID->"b4ae38b4-b31c-4240-a294-\
+74b159f6418a"],
 
 Cell[CellGroupData[{
 
@@ -1431,8 +1431,8 @@ We can restrict the field equations to only even-parity dipole equations.\
 \>", "Item",
  CellChangeTimes->{{3.741350533370695*^9, 3.741350573506732*^9}, {
   3.7413516412234297`*^9, 3.7413516429735937`*^9}, {3.7413517997560053`*^9, 
-  3.741351802817658*^9}},ExpressionUUID->"4274c4a8-b1b3-4ab9-b510-\
-5507cd7a21da"],
+  3.741351802817658*^9}},ExpressionUUID->"dee8911d-bff0-4d0a-80ae-\
+6c1dd6f6baf3"],
 
 Cell[CellGroupData[{
 
@@ -1453,7 +1453,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.741350553505015*^9, 3.7413505823069353`*^9}, {
   3.741350680281077*^9, 3.74135069369775*^9}, {3.741350841038028*^9, 
   3.741350872790985*^9}, {3.741351645668092*^9, 3.741351688276589*^9}},
- CellLabel->"In[9]:=",ExpressionUUID->"1e1df9f0-59eb-4f10-a719-f996d8bedee8"],
+ CellLabel->"In[9]:=",ExpressionUUID->"55e65386-4ec7-47d1-92a4-aea896c1c8a9"],
 
 Cell[BoxData[
  TagBox[
@@ -2060,7 +2060,7 @@ SuperscriptBox]]\\)\"\>",
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "Out[9]//TableForm=",ExpressionUUID->"4f6d72c2-014c-4f32-a0ed-f7dc6b4faa1e"]\
+  "Out[9]//TableForm=",ExpressionUUID->"2ba8b213-392f-4028-8bd1-4fbcb3b20986"]\
 
 }, Open  ]]
 }, Open  ]],
@@ -2069,8 +2069,8 @@ Cell[CellGroupData[{
 
 Cell["The non-vanishing amplitudes are found by:", "Item",
  CellChangeTimes->{{3.741350712712822*^9, 
-  3.741350743153784*^9}},ExpressionUUID->"fe1c5feb-ab7d-4f9a-abdb-\
-b44643e24ddc"],
+  3.741350743153784*^9}},ExpressionUUID->"310e33ae-6bc5-4422-874c-\
+8b5726372932"],
 
 Cell[CellGroupData[{
 
@@ -2083,14 +2083,14 @@ Cell[BoxData[
     RowBox[{"Parity", "->", "\"\<Even\>\""}]}], "]"}]}]], "Input",
  CellChangeTimes->{{3.7413507459271393`*^9, 3.741350763839636*^9}, {
   3.741351695433153*^9, 3.741351717917509*^9}},
- CellLabel->"In[10]:=",ExpressionUUID->"47c0359f-eab1-4bb9-8c78-47b46dedef0c"],
+ CellLabel->"In[10]:=",ExpressionUUID->"4fc303f3-e222-461f-b1c9-b3e3f009e7bf"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{"\<\"htt\"\>", ",", "\<\"htr\"\>", ",", "\<\"hrr\"\>"}], 
   "}"}]], "Output",
  CellLabel->
-  "Out[10]=",ExpressionUUID->"a662d389-c852-46ff-9861-5e4a23704306"]
+  "Out[10]=",ExpressionUUID->"75fda575-bd2a-4592-a87e-4b53d233d365"]
 }, Open  ]]
 }, Open  ]],
 
@@ -2098,8 +2098,8 @@ Cell[CellGroupData[{
 
 Cell["We need to plug in for the fields and their derivatives.", "Item",
  CellChangeTimes->{{3.741350891191166*^9, 
-  3.741350901891638*^9}},ExpressionUUID->"47b7d11b-7694-4d5f-9094-\
-5819b1105c81"],
+  3.741350901891638*^9}},ExpressionUUID->"5df1b08c-e696-484c-8842-\
+a9b94f78fec1"],
 
 Cell[CellGroupData[{
 
@@ -2118,7 +2118,7 @@ Cell[BoxData[
    "diEvenLabels"}]}]], "Input",
  CellChangeTimes->{{3.7413513123902483`*^9, 3.741351345689183*^9}, {
   3.741351711629781*^9, 3.74135172463699*^9}},
- CellLabel->"In[11]:=",ExpressionUUID->"1b38d4b5-4163-46fa-b29e-5a6285c6bb2d"],
+ CellLabel->"In[11]:=",ExpressionUUID->"95b0c6a3-5d91-4084-9d92-41641e50d859"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -2301,7 +2301,7 @@ Cell[BoxData[
            RowBox[{"2", " ", "M"}], "r"]}], ")"}], "3"], " ", 
        SuperscriptBox["r", "2"]}]]}]}]}], "}"}]], "Output",
  CellLabel->
-  "Out[11]=",ExpressionUUID->"89adc430-860a-47e1-bdfb-856ee7a3c58f"]
+  "Out[11]=",ExpressionUUID->"685931a5-0a69-4973-8b77-d2181e9e9319"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2334,7 +2334,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.741351205670018*^9, 3.741351220430511*^9}, {
   3.7413512902987757`*^9, 3.741351294057151*^9}, {3.741351732283154*^9, 
   3.741351736861166*^9}},
- CellLabel->"In[12]:=",ExpressionUUID->"a90032ec-b22f-4a72-a0fd-ba055e577350"],
+ CellLabel->"In[12]:=",ExpressionUUID->"6d79f9f2-3086-4c03-ad03-efbdc0bdd4a6"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -2422,7 +2422,7 @@ SuperscriptBox]]\\)\"\>",
        RowBox[{"ExpandZerilli", "\[Rule]", "True"}]}], "]"}]}]}]}], 
   "}"}]], "Output",
  CellLabel->
-  "Out[12]=",ExpressionUUID->"b4b8e7de-6e93-4b36-9974-eecc053d54f0"]
+  "Out[12]=",ExpressionUUID->"b55eb266-742b-4e02-a8dd-be63879e19c2"]
 }, Open  ]]
 }, Open  ]],
 
@@ -2430,8 +2430,8 @@ Cell[CellGroupData[{
 
 Cell["Now, plug into the field equations.", "Item",
  CellChangeTimes->{{3.741351467529188*^9, 
-  3.741351473532196*^9}},ExpressionUUID->"6e6cd191-00e4-4013-a580-\
-e8350ad8c3bc"],
+  3.741351473532196*^9}},ExpressionUUID->"a2fb045b-bfde-452b-a865-\
+9ec8245cf394"],
 
 Cell[CellGroupData[{
 
@@ -2454,7 +2454,7 @@ Cell[BoxData[
      "Simplify"}], "]"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.741351450590522*^9, 3.741351511933764*^9}, 
    3.741351554883707*^9, {3.7413517409265623`*^9, 3.741351745036714*^9}},
- CellLabel->"In[13]:=",ExpressionUUID->"c847a8b6-62be-4c0e-8c1b-5c1810a66482"],
+ CellLabel->"In[13]:=",ExpressionUUID->"9ade7038-3d23-4ca6-b620-e0301495418b"],
 
 Cell[BoxData[
  TagBox[
@@ -4082,7 +4082,7 @@ Cell[BoxData[
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "Out[13]//TableForm=",ExpressionUUID->"186d8168-5213-4d49-80ab-7471522ebab2"]
+  "Out[13]//TableForm=",ExpressionUUID->"ef7b1df3-eed9-46b0-a19a-c57c601c7fb5"]
 }, Open  ]]
 }, Open  ]],
 
@@ -4093,8 +4093,8 @@ This has not vanished because the derivatives of the step functions need to \
 be made into delta functions.\
 \>", "Item",
  CellChangeTimes->{{3.741351519062669*^9, 
-  3.741351543511219*^9}},ExpressionUUID->"76ff758f-9dc2-452a-bba9-\
-ffd56d589467"],
+  3.741351543511219*^9}},ExpressionUUID->"11e9337c-6f1d-491b-851a-\
+1f0d1840eb7a"],
 
 Cell[CellGroupData[{
 
@@ -4105,7 +4105,7 @@ Cell[BoxData[
   "]"}]], "Input",
  CellChangeTimes->{{3.741351558444914*^9, 3.741351568168573*^9}, {
   3.741351756362389*^9, 3.741351756899644*^9}},
- CellLabel->"In[14]:=",ExpressionUUID->"6b67f37a-6579-4d58-83fd-37b2159a9905"],
+ CellLabel->"In[14]:=",ExpressionUUID->"7daf9902-7cd9-406b-b9a2-393fee9fca7f"],
 
 Cell[BoxData[
  TagBox[
@@ -5132,7 +5132,7 @@ Cell[BoxData[
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "Out[14]//TableForm=",ExpressionUUID->"e0560cd2-e5eb-4f13-bcfa-2baf0fc6793c"]
+  "Out[14]//TableForm=",ExpressionUUID->"571082f6-41fc-404b-8815-aa3e89017d67"]
 }, Open  ]]
 }, Open  ]],
 
@@ -5143,18 +5143,18 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    SubscriptBox["r", "p"], TraditionalForm]],ExpressionUUID->
-  "0be76c29-c781-4a26-87c5-5e86d27b5588"],
+  "e41a8ae4-405e-44a0-be3d-f2cf3440a3a5"],
  "and ",
  Cell[BoxData[
   FormBox[
    SubscriptBox["\[Phi]", "p"], TraditionalForm]],ExpressionUUID->
-  "535b6d76-6a0e-4108-a9d7-dc2ab1d78751"],
+  "eee2dbf2-b75d-4212-aad8-9a7562649571"],
  " that can be eliminated."
 }], "Item",
  CellChangeTimes->{{3.741351581930148*^9, 3.741351596612547*^9}, {
   3.741351766985939*^9, 
-  3.7413517709174633`*^9}},ExpressionUUID->"7c9692b7-3159-4fab-a10c-\
-83294de93d1b"],
+  3.7413517709174633`*^9}},ExpressionUUID->"1c329641-8729-49ae-a72d-\
+410fee18596d"],
 
 Cell[CellGroupData[{
 
@@ -5165,14 +5165,14 @@ Cell[BoxData[
   "Simplify"}]], "Input",
  CellChangeTimes->{{3.741351602487336*^9, 3.741351608887171*^9}, {
   3.741351775235417*^9, 3.741351783146276*^9}},
- CellLabel->"In[15]:=",ExpressionUUID->"6ad1bc57-4984-45c1-809e-f15c35311f5b"],
+ CellLabel->"In[15]:=",ExpressionUUID->"46b9d12a-cff8-4489-9c13-1162cbf28ef7"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{"0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0"}], 
   "}"}]], "Output",
  CellLabel->
-  "Out[15]=",ExpressionUUID->"e1b74e8f-ba46-49bf-bec5-e06b5731757e"]
+  "Out[15]=",ExpressionUUID->"13464e48-92d7-4070-9515-67c70c1d39d2"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -5182,7 +5182,7 @@ Cell[CellGroupData[{
 Cell["Odd-parity", "Subsection",
  CellChangeTimes->{{3.741351657984305*^9, 3.741351660271216*^9}, {
   3.7413518089070787`*^9, 
-  3.7413518092466*^9}},ExpressionUUID->"7ac529c5-ed68-4298-ac8c-ac37df7766b9"],
+  3.7413518092466*^9}},ExpressionUUID->"189e855e-72c9-47a5-bfd4-7187e98f13ed"],
 
 Cell[CellGroupData[{
 
@@ -5191,8 +5191,8 @@ We can restrict the field equations to only odd-parity dipole equations.\
 \>", "Item",
  CellChangeTimes->{{3.741350533370695*^9, 3.741350573506732*^9}, {
   3.7413516412234297`*^9, 3.7413516429735937`*^9}, {3.7413517997560053`*^9, 
-  3.741351813505954*^9}},ExpressionUUID->"ee201e4d-c226-4fa6-a6c2-\
-6e41fdf3aa5a"],
+  3.741351813505954*^9}},ExpressionUUID->"58f1d3d6-d70e-4cdb-b92f-\
+b8fbbb74df45"],
 
 Cell[CellGroupData[{
 
@@ -5214,7 +5214,7 @@ Cell[BoxData[
   3.741350680281077*^9, 3.74135069369775*^9}, {3.741350841038028*^9, 
   3.741350872790985*^9}, {3.741351645668092*^9, 3.741351688276589*^9}, {
   3.741351815300807*^9, 3.741351820662798*^9}},
- CellLabel->"In[16]:=",ExpressionUUID->"29e2475b-3a8e-41f8-8d74-34be9ecddc7a"],
+ CellLabel->"In[16]:=",ExpressionUUID->"2a54c5a8-ced1-4809-a487-aacccd373ad4"],
 
 Cell[BoxData[
  TagBox[
@@ -5335,7 +5335,7 @@ SuperscriptBox]]\\)\"\>",
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "Out[16]//TableForm=",ExpressionUUID->"1aa7c776-d3f5-4c7c-a001-994a48cc3762"]
+  "Out[16]//TableForm=",ExpressionUUID->"5afab61d-a3aa-4eb9-a3da-776e8353f9ed"]
 }, Open  ]]
 }, Open  ]],
 
@@ -5343,8 +5343,8 @@ Cell[CellGroupData[{
 
 Cell["The non-vanishing amplitudes are found by:", "Item",
  CellChangeTimes->{{3.741350712712822*^9, 
-  3.741350743153784*^9}},ExpressionUUID->"667297f8-4199-408f-ae5b-\
-c0f6f21396d7"],
+  3.741350743153784*^9}},ExpressionUUID->"ce475dae-026c-43ba-b2f7-\
+4a01a464ada7"],
 
 Cell[CellGroupData[{
 
@@ -5358,12 +5358,12 @@ Cell[BoxData[
  CellChangeTimes->{{3.7413507459271393`*^9, 3.741350763839636*^9}, {
   3.741351695433153*^9, 3.741351717917509*^9}, {3.741351823617106*^9, 
   3.741351825182493*^9}},
- CellLabel->"In[17]:=",ExpressionUUID->"0b6eded4-2601-4fb0-8e19-e847657b75ce"],
+ CellLabel->"In[17]:=",ExpressionUUID->"cd55270d-fcd5-4de2-90a8-31c7b81d6908"],
 
 Cell[BoxData[
  RowBox[{"{", "\<\"ht\"\>", "}"}]], "Output",
  CellLabel->
-  "Out[17]=",ExpressionUUID->"8fafacac-bb50-4e84-b757-b07350e687ce"]
+  "Out[17]=",ExpressionUUID->"41f728c9-3217-47dc-ab2f-e28e2107b154"]
 }, Open  ]]
 }, Open  ]],
 
@@ -5371,8 +5371,8 @@ Cell[CellGroupData[{
 
 Cell["We need to plug in for the fields and their derivatives.", "Item",
  CellChangeTimes->{{3.741350891191166*^9, 
-  3.741350901891638*^9}},ExpressionUUID->"b5c0f913-9091-4b5b-b498-\
-b145954c011e"],
+  3.741350901891638*^9}},ExpressionUUID->"9a776edf-3506-4262-b2d8-\
+73b69d09f171"],
 
 Cell[CellGroupData[{
 
@@ -5392,7 +5392,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.7413513123902483`*^9, 3.741351345689183*^9}, {
   3.741351711629781*^9, 3.74135172463699*^9}, {3.741351827556374*^9, 
   3.74135182831813*^9}},
- CellLabel->"In[18]:=",ExpressionUUID->"f30e7db8-56d5-400c-9b59-9d2cddd950f6"],
+ CellLabel->"In[18]:=",ExpressionUUID->"c57b12cb-021e-4d13-b49b-8dc69ebeb5c0"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -5429,7 +5429,7 @@ SuperscriptBox]]\\)\"\>", "[",
         RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
 \"]\\)\"\>", "[", "t", "]"}], "3"]]}], ")"}]}]}], "}"}]], "Output",
  CellLabel->
-  "Out[18]=",ExpressionUUID->"f12b495e-32b1-400f-99de-0eb2b6314302"]
+  "Out[18]=",ExpressionUUID->"00b1a328-40fd-48d7-9035-d1fd08c4f9e8"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -5462,7 +5462,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.741351205670018*^9, 3.741351220430511*^9}, {
   3.7413512902987757`*^9, 3.741351294057151*^9}, {3.741351732283154*^9, 
   3.741351736861166*^9}, {3.7413518369111156`*^9, 3.741351837791397*^9}},
- CellLabel->"In[19]:=",ExpressionUUID->"0ce95250-c838-4775-9ee7-6a5445335e20"],
+ CellLabel->"In[19]:=",ExpressionUUID->"524e0273-0d04-41d4-bf98-6cf7915b1d7c"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -5495,7 +5495,7 @@ SuperscriptBox]]\\)\"\>",
       RowBox[{"ExpandZerilli", "\[Rule]", "True"}]}], "]"}]}]}], 
   "}"}]], "Output",
  CellLabel->
-  "Out[19]=",ExpressionUUID->"f6beca87-759a-4e95-8123-7dbf4fad4cbb"]
+  "Out[19]=",ExpressionUUID->"e7bcf57d-766f-4f61-bcf5-61ce16ea15e6"]
 }, Open  ]]
 }, Open  ]],
 
@@ -5503,8 +5503,8 @@ Cell[CellGroupData[{
 
 Cell["Now, plug into the field equations.", "Item",
  CellChangeTimes->{{3.741351467529188*^9, 
-  3.741351473532196*^9}},ExpressionUUID->"ec9cfd9b-d4bb-4711-96a1-\
-3f7a324b7591"],
+  3.741351473532196*^9}},ExpressionUUID->"32dc694b-3673-43d4-a3e6-\
+506be21c57f5"],
 
 Cell[CellGroupData[{
 
@@ -5528,7 +5528,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.741351450590522*^9, 3.741351511933764*^9}, 
    3.741351554883707*^9, {3.7413517409265623`*^9, 3.741351745036714*^9}, {
    3.741351839950346*^9, 3.741351841872046*^9}},
- CellLabel->"In[20]:=",ExpressionUUID->"1371339a-5ef0-4c01-97e3-b1863383e1dc"],
+ CellLabel->"In[20]:=",ExpressionUUID->"90fd0418-def1-4189-b36e-560162b282fc"],
 
 Cell[BoxData[
  TagBox[
@@ -5720,7 +5720,7 @@ Cell[BoxData[
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "Out[20]//TableForm=",ExpressionUUID->"e339df1b-8608-48d1-9aa1-6f4b52545931"]
+  "Out[20]//TableForm=",ExpressionUUID->"15fdc83b-669a-43f9-a22e-9ed471503bf0"]
 }, Open  ]]
 }, Open  ]],
 
@@ -5731,8 +5731,8 @@ This has not vanished because the derivatives of the step functions need to \
 be made into delta functions.\
 \>", "Item",
  CellChangeTimes->{{3.741351519062669*^9, 
-  3.741351543511219*^9}},ExpressionUUID->"e4aa42ce-3362-418f-9b48-\
-e19408f2fbd3"],
+  3.741351543511219*^9}},ExpressionUUID->"0f18d50c-ef89-4f53-86bf-\
+aec7861883d3"],
 
 Cell[CellGroupData[{
 
@@ -5744,7 +5744,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.741351558444914*^9, 3.741351568168573*^9}, {
   3.741351756362389*^9, 3.741351756899644*^9}, {3.74135184557463*^9, 
   3.741351846504724*^9}},
- CellLabel->"In[21]:=",ExpressionUUID->"ad7bb06e-43f3-4de8-a2b2-829d50df75eb"],
+ CellLabel->"In[21]:=",ExpressionUUID->"c4f0b01a-c35b-4dcf-adc4-882d1d321964"],
 
 Cell[BoxData[
  TagBox[
@@ -5766,7 +5766,7 @@ Cell[BoxData[
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output",
  CellLabel->
-  "Out[21]//TableForm=",ExpressionUUID->"dd0ddff2-be79-42ff-8728-dd65f0d550c8"]
+  "Out[21]//TableForm=",ExpressionUUID->"9066516f-7dfb-4513-8ee8-1e56eeaf056e"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -5811,37 +5811,37 @@ Cell["", "RelatedTutorialsSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
    None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"01fcf27e-17cb-4085-b6af-de1812868c87"],
+  0,ExpressionUUID->"771f4b79-9141-472b-8dfd-41fe9a0f306e"],
 
 Cell[TextData[ButtonBox["Time domain amplitudes",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Time domain amplitudes"]], \
-"RelatedTutorials",ExpressionUUID->"8c0d42d8-66e5-447e-9767-f0dd571cd2cd"],
+"RelatedTutorials",ExpressionUUID->"8d677c74-8072-42b9-9b90-1b0e104688cc"],
 
 Cell[TextData[ButtonBox["Field equations on Schwarzschild",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Field equations on Schwarzschild"]], \
-"RelatedTutorials",ExpressionUUID->"b8021665-cac4-48b9-81cf-ffea446be1a2"],
+"RelatedTutorials",ExpressionUUID->"8a908de9-2e15-4eb9-bbf3-96669db957b7"],
 
 Cell[TextData[ButtonBox["Using labels to act on groups of variables",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Using labels to act on groups of \
 variables"]], \
-"RelatedTutorials",ExpressionUUID->"fa499687-3631-4c09-a925-2dbfe7e8493a"],
+"RelatedTutorials",ExpressionUUID->"24796762-5415-4007-ad7e-9e46b400c9d3"],
 
 Cell[TextData[ButtonBox["Examples",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Examples"]], \
-"RelatedTutorials",ExpressionUUID->"806884ee-c2c0-4a1a-a54a-a042f960c380"]
+"RelatedTutorials",ExpressionUUID->"802ddf19-49c3-4d26-93bf-48cecb7b0433"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[" ", \
-"FooterCell",ExpressionUUID->"fbf9ffae-13c0-4ed3-bcd1-108393037741"]
+"FooterCell",ExpressionUUID->"0809c723-98fd-47b2-95fa-2ce3e5653a7f"]
 },
 Saveable->False,
 ScreenStyleEnvironment->"Working",

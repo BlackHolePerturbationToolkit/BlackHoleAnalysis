@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"0a7a20d0-dbda-49e6-a7ba-4edd02f6ed64"],
+   0}},ExpressionUUID->"bbbfdaaa-8300-4f91-8254-3e8c08b39e24"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["MasterFunctionAsTeukolskyFunction",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/MasterFunctionAsTeukolskyFunction"]
-}], "LinkTrail",ExpressionUUID->"8de6cf6d-c011-46c0-9d66-f8ef7045916c"],
+}], "LinkTrail",ExpressionUUID->"ff175e62-ce21-4320-bf87-3d5486d47f8c"],
 
 Cell[CellGroupData[{
 
 Cell["MasterFunctionAsTeukolskyFunction", \
-"ObjectName",ExpressionUUID->"92e019a0-ff80-4eae-8452-1ad1a013e2d9"],
+"ObjectName",ExpressionUUID->"9f21d29a-62ed-44c3-b1de-3efa15598fe4"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -31,10 +31,10 @@ Cell[BoxData[GridBox[{
         ButtonData->
          "paclet:BlackHoleAnalysis/ref/MasterFunctionAsTeukolskyFunction"], 
        "[", "]"}]], "InlineFormula",ExpressionUUID->
-      "18f47ffe-dab1-422d-a2c1-f4180df0a33f"],
+      "57115a30-d267-4b42-9b2b-1fb4e6601e23"],
      "\[LineSeparator]returns the frequency domain master function written in \
 terms of the Teukolsky function and its first r derivative."
-    }],ExpressionUUID->"17379ff2-9df5-4871-8482-eb148c09c322"]},
+    }],ExpressionUUID->"f6aae592-53b5-4c0e-8b61-e6d5fe2e069b"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -44,12 +44,12 @@ terms of the Teukolsky function and its first r derivative."
          "paclet:BlackHoleAnalysis/ref/MasterFunctionAsTeukolskyFunction"], 
        "[", 
        StyleBox["n", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
-      "0950274c-1c55-4b93-bafe-76f1663b8cd2"],
+      "2cb91dae-920f-45bd-a230-e86bb235fc42"],
      "\[LineSeparator]returns the nth r derivative frequency domain master \
 function written in terms of the Teukolsky function and its first r \
 derivative."
-    }],ExpressionUUID->"299e960e-3316-4b54-a2a5-67081c19e766"]}
-  }]], "Usage",ExpressionUUID->"7a8f7ca4-5e0d-4b0b-a35a-a93bc0716440"]
+    }],ExpressionUUID->"d33986e4-5ab9-4586-bc18-034f53c73ab3"]}
+  }]], "Usage",ExpressionUUID->"f793050c-a9f8-479f-9263-ca90f8954278"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -95,16 +95,16 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"52e0e14d-b381-4665-92a8-8dfb6625f467"],
+  0,ExpressionUUID->"67387592-9aca-40ca-bab4-3725999b0d8e"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"743397b9-e525-4fff-bf1f-57bf0934a26c"],
+"Notes",ExpressionUUID->"d4de30f7-0db7-4c3a-86ac-ffd6cc7cae83"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "efe9f558-d295-4ca3-b756-56ca49ec7eba"], "Parity", "Even", Cell["\<\
+     "3e1bab57-c180-42c8-8640-4e9de28ea4c8"], "Parity", "Even", Cell["\<\
 Specifies the parity of the master function, (\"Even\" or \"Odd\"\
-\>", "TableText",ExpressionUUID->"b6d493d1-3885-4513-a6f6-823b50947a40"]}
+\>", "TableText",ExpressionUUID->"986b0640-fc90-41a9-aa10-f3c2fd0bf3fa"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -115,14 +115,14 @@ Specifies the parity of the master function, (\"Even\" or \"Odd\"\
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"9a5b6d9e-b33c-4fed-adca-668949476b58"]
+     True, True}}}},ExpressionUUID->"32a669e9-864c-40e9-8ad5-4915d67cac3a"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"2904049e-aceb-4a7a-bdc0-4478a4c2b0f2"],
+Cell[" ", "FooterCell",ExpressionUUID->"8a182e9b-c1ce-42ab-b50a-ea970dad994e"],
 
-Cell[BoxData[""],ExpressionUUID->"abc0f575-b13e-458b-abf2-adcae42fbc54"]
+Cell[BoxData[""],ExpressionUUID->"0f0ab0a2-ea1c-4c20-9510-2a4daae8ab0f"]
 }, Open  ]]
 },
 Saveable->False,

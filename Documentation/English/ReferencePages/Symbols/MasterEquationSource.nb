@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"aba595b1-8ee5-4a8b-ad6a-5ec29d94599c"],
+   0}},ExpressionUUID->"1f044fa5-0a05-4697-a8f7-6209d0418446"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["MasterEquationSource",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/MasterEquationSource"]
-}], "LinkTrail",ExpressionUUID->"49ef59b6-8070-4deb-a798-613fdc36cdcd"],
+}], "LinkTrail",ExpressionUUID->"60d7dd27-17f5-4161-8aa5-7688965dc132"],
 
 Cell[CellGroupData[{
 
 Cell["MasterEquationSource", \
-"ObjectName",ExpressionUUID->"ac835d3c-8f9c-432c-b607-96a21a9859dc"],
+"ObjectName",ExpressionUUID->"ab1b96e8-fb4f-4fc1-8b38-1ec81f4d43eb"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -30,11 +30,11 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/MasterEquationSource"], "[",
         "]"}]], "InlineFormula",ExpressionUUID->
-      "4e869d5c-8521-4256-af9f-18e2786c471d"],
+      "5c5446a8-d551-4b20-bdea-d6f888b22a1f"],
      "\[LineSeparator]returns the source term of the master equation in \
 symbolic form."
-    }],ExpressionUUID->"a28ce896-0ee9-43de-ad40-0273175ad29d"]}
-  }]], "Usage",ExpressionUUID->"afcf1215-12e9-4695-8d32-71d2f35dc8ea"]
+    }],ExpressionUUID->"4f6d1624-9e30-4bfe-b325-e8331cf60379"]}
+  }]], "Usage",ExpressionUUID->"236a9fdf-9fd2-4bb6-b78b-7a13d18848c4"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -80,37 +80,37 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"3d817d2d-ecd6-4c8b-a6b8-ff43d44cbe38"],
+  0,ExpressionUUID->"3c3cc497-35e4-47b8-969f-bd44b2b9c409"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"a717071f-93bb-4167-9c27-5d6958b1a260"],
+"Notes",ExpressionUUID->"4e2bbf71-21fa-44e6-b635-159da70df3f7"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "042101d4-cf2c-408f-8c87-2b685f785ef8"], "GFForm", "True", Cell["\<\
+     "e0ff47f7-5536-4edd-8bcf-b819403f3cce"], "GFForm", "True", Cell["\<\
 Boolean stating whether source term should be written in terms of G and F \
 coefficents of the Dirac delta distribution and its first derivative\
-\>", "TableText",ExpressionUUID->"334b32ea-23ca-47ca-9800-bde8ce9efef7"]},
+\>", "TableText",ExpressionUUID->"c0024ded-36bc-447c-ae42-a1ce4a333ae6"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "3ae60c1f-2805-40e4-8da9-5cd9e0e28724"], "Parity", "Default", Cell["\<\
+     "5d072bd0-279c-4a4b-9c1c-8e74f72150ec"], "Parity", "Default", Cell["\<\
 Parity of the master function (Default, \"Even\", or \"Odd\"). Choosing \
 Default allows \"Parity\" to be set by the \"Variable\" Option. When both \
 Options are Default, the \"Parity\" is \"Even\".\
-\>", "TableText",ExpressionUUID->"dab85d6b-f6ad-43ca-88d5-87f19f738c94"]},
+\>", "TableText",ExpressionUUID->"85ee2581-740c-4bb7-9bc9-bb8d4de718c1"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "95e38058-470e-4c44-85e7-5415d0b5f21c"], "SourceExpansion", "Partial", 
+     "da683dcc-ec0b-43da-931b-abee9dc4ecc9"], "SourceExpansion", "Partial", 
     Cell["\<\
 States to what extent source terms should be expanded, (\"Full\", \
 \"Partial\", or \"None\")\
-\>", "TableText",ExpressionUUID->"bc251253-22a4-40b8-914c-2deaa262a012"]},
+\>", "TableText",ExpressionUUID->"7377defd-4457-44cf-8a29-d4b3caddf652"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "372439c6-16fc-46b8-813f-031d23e6b813"], "Variable", "Default", 
+     "4b68d93e-802c-481e-919b-9e5f2d845d62"], "Variable", "Default", 
     Cell["\<\
 The specific master function variable to use (Default, \"ZM\", \"ZM1\", ... \
 \"ZM7\" and \"CPM\", \"CPM1\", ... \"CPM6\"). Choosing Default is equivalent \
 to \"ZM\" when \"Parity\"->\"Even\" and \"CPM\" when \"Parity\"->\"Odd\". \
 When both Options are Default, the \"Parity\" is \"Even\".\
-\>", "TableText",ExpressionUUID->"79d2ca9a-b6ee-4c5d-a9b5-1735512ce0d1"]}
+\>", "TableText",ExpressionUUID->"acc26d76-e8fd-421d-b513-7a98973cfe1f"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -122,14 +122,14 @@ When both Options are Default, the \"Parity\" is \"Even\".\
  GridBoxDividers->{
   "Rows" -> {{
      True, True, True, True, 
-      True}}}},ExpressionUUID->"86f4a642-035f-47fb-81e9-87bd10c6b5d1"]
+      True}}}},ExpressionUUID->"f7ca4cbb-be1d-45fd-be19-7f2f08917927"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"939891eb-944b-42dd-8b42-473912d397f6"],
+Cell[" ", "FooterCell",ExpressionUUID->"3a40ef00-0b87-48fe-87a8-dc914d1f1124"],
 
-Cell[BoxData[""],ExpressionUUID->"db393fcd-c5f1-4436-8d22-d4794126dede"]
+Cell[BoxData[""],ExpressionUUID->"ca28d671-114b-48d6-ad1a-a152f3386129"]
 }, Open  ]]
 },
 Saveable->False,

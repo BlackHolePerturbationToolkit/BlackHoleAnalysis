@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"63fe8775-9798-4c7c-9b44-316fe8023893"],
+   0}},ExpressionUUID->"6fb79a92-579c-475d-891e-832267f594e7"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -16,12 +16,12 @@ Cell[TextData[{
  ButtonBox["ROfRStar",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/ROfRStar"]
-}], "LinkTrail",ExpressionUUID->"031d6549-2227-4c64-b1ea-bc71d6258f2e"],
+}], "LinkTrail",ExpressionUUID->"868c8cf1-1034-4ca5-ba35-a57e7b3e8dd0"],
 
 Cell[CellGroupData[{
 
 Cell["ROfRStar", \
-"ObjectName",ExpressionUUID->"79d4ca58-ef67-445e-a36d-30d83738f28d"],
+"ObjectName",ExpressionUUID->"f7cf0bf6-e472-4601-a24e-fd6e714bf146"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -33,21 +33,21 @@ Cell[BoxData[GridBox[{
        StyleBox[
         RowBox[{
          RowBox[{"r_", "*"}], ",", "M"}], "TI"], "]"}]], "InlineFormula",
-      ExpressionUUID->"fb9ec13b-706f-4310-b958-3197d9e12eea"],
+      ExpressionUUID->"cd256c0b-7c65-49d4-b7ac-79e1001aeecf"],
      "\[LineSeparator]returns Schwarzschild r in terms of the usual tortoise \
 coordinate and black hole mass M, normalized such that r=r_*=4M."
-    }],ExpressionUUID->"dfec2365-1b54-4ce4-a0f1-b012caeb518c"]},
+    }],ExpressionUUID->"cc6d7ac8-add6-4132-9a1b-6a4c444cf9a9"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
        ButtonBox["ROfRStar",
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/ROfRStar"], "[", "]"}]], 
-      "InlineFormula",ExpressionUUID->"04529efb-0627-4471-a89b-9ff673a857d0"],
+      "InlineFormula",ExpressionUUID->"9890570e-6a27-4f6c-b42d-280ab825ec88"],
      
      "\[LineSeparator]returns ROfRStar[r_*,M] using built-in symbols."
-    }],ExpressionUUID->"4e4e3548-9901-4c89-b3d0-8bfc3de8a139"]}
-  }]], "Usage",ExpressionUUID->"70957708-515b-4fb8-83ad-44dbff3fb485"]
+    }],ExpressionUUID->"639b7998-00e6-4dfc-aaa3-d26dd199635b"]}
+  }]], "Usage",ExpressionUUID->"c57fa342-c80b-415c-b5ae-85ec75358175"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -93,21 +93,21 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"169b2a0a-5781-4eb1-b026-e774b21d335b"],
+  0,ExpressionUUID->"9f3f3b2e-28e4-4ece-904c-ca023db17549"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"89e3325b-a2fc-4ce2-9aa0-06018efddc27"],
+"Notes",ExpressionUUID->"2003e162-0e06-4cf5-a34a-f328ab13bf10"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "58ddad43-bfb5-4de5-b883-3a8e9f3243c3"], "IntegrationConstant", 
+     "b0f89097-8bc3-4a13-90ed-1249a3135ea0"], "IntegrationConstant", 
     RowBox[{"{", 
      RowBox[{
       RowBox[{"4", " ", "M"}], ",", " ", 
       RowBox[{"4", " ", "M"}]}], "}"}], Cell["\<\
 Constant chosen when defining Schwarzschild tortoise coordinate. Either given \
 explicitly, or as a list {r,r_*} specifying where r=r_*.\
-\>", "TableText",ExpressionUUID->"8f8b780c-4a4d-4d62-91a1-9110f012a956"]}
+\>", "TableText",ExpressionUUID->"500284c7-bc2c-443b-be7d-88f44fc79237"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -118,14 +118,14 @@ explicitly, or as a list {r,r_*} specifying where r=r_*.\
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"dabc4b71-23fa-4cda-b4f1-abd8ac306120"]
+     True, True}}}},ExpressionUUID->"03f96fd5-530b-4991-a077-c9ccac02d437"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"1ee6ec1a-3175-4a67-87d1-7d6ee2504759"],
+Cell[" ", "FooterCell",ExpressionUUID->"0e68b6fb-0eed-44a0-9527-4344d69f7b31"],
 
-Cell[BoxData[""],ExpressionUUID->"730e8f38-47cd-4ada-9fd5-bc670af3e8a3"]
+Cell[BoxData[""],ExpressionUUID->"09b61c7a-84ef-4109-91e7-fd2c0e7e666f"]
 }, Open  ]]
 },
 Saveable->False,

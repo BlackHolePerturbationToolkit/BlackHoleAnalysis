@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"59950dda-f870-49d7-af8e-d711b71e2296"],
+   0}},ExpressionUUID->"9c4b3040-09c2-4ee7-b0bd-797fbc506276"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -16,12 +16,12 @@ Cell[TextData[{
  ButtonBox["RStarOfR",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/RStarOfR"]
-}], "LinkTrail",ExpressionUUID->"0501ede4-0e9a-46a7-8e75-fbd29208583e"],
+}], "LinkTrail",ExpressionUUID->"dadbfc81-ec3e-4a81-a87a-c4f7b713d2d0"],
 
 Cell[CellGroupData[{
 
 Cell["RStarOfR", \
-"ObjectName",ExpressionUUID->"16b2f828-49e4-43a0-a605-24e3d34b8f00"],
+"ObjectName",ExpressionUUID->"a0066c8d-10db-44f1-b64e-4b50cf537932"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -32,10 +32,10 @@ Cell[BoxData[GridBox[{
         ButtonData->"paclet:BlackHoleAnalysis/ref/RStarOfR"], "[", 
        StyleBox[
         RowBox[{"r", ",", "M"}], "TI"], "]"}]], "InlineFormula",
-      ExpressionUUID->"92957bc8-2e90-4fb3-ae88-55607bb0f59e"],
+      ExpressionUUID->"a84b810d-4d3c-43eb-9983-b9ce1848fd70"],
      "\[LineSeparator]returns the usual tortoise coordinate in terms of \
 Schwarzschild r and black hole mass M, normalized such that r=r_*=4M."
-    }],ExpressionUUID->"a5c1488d-da1a-4fc6-9830-3979cb051d78"]},
+    }],ExpressionUUID->"90b52bf8-affb-4ae2-aa52-206582562314"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -44,21 +44,21 @@ Schwarzschild r and black hole mass M, normalized such that r=r_*=4M."
         ButtonData->"paclet:BlackHoleAnalysis/ref/RStarOfR"], "[", 
        StyleBox[
         RowBox[{"r", ",", "M", ",", "a"}], "TI"], "]"}]], "InlineFormula",
-      ExpressionUUID->"4eb558ac-5ff7-43c9-ae99-deb691c4150b"],
+      ExpressionUUID->"42c6ec3e-17e2-4fc6-8573-3109338c32ea"],
      "\[LineSeparator]returns the Kerr metric tortoise coordinate in terms of \
 Boyer-Lindquist r, mass M, and spin parameter a."
-    }],ExpressionUUID->"9e231add-9850-451d-b9a9-535f3106416a"]},
+    }],ExpressionUUID->"f22d3b64-89b7-4ce2-a141-e9d451e5ded0"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
        ButtonBox["RStarOfR",
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/RStarOfR"], "[", "]"}]], 
-      "InlineFormula",ExpressionUUID->"5f254680-139b-4045-8495-b6e741e0eafa"],
+      "InlineFormula",ExpressionUUID->"cd1214ce-2015-4f03-ba1c-2448fe08c58c"],
      
      "\[LineSeparator]returns RStarOfR[r,M] using built-in symbols."
-    }],ExpressionUUID->"77501a0c-a25f-4012-9e7a-bf7439d6a77c"]}
-  }]], "Usage",ExpressionUUID->"8897e429-b74a-4477-b4ff-d57bf4fb7a9c"]
+    }],ExpressionUUID->"2537030f-10ba-460c-8f5a-d25ae84393bd"]}
+  }]], "Usage",ExpressionUUID->"610af226-d086-4281-9689-1e4b6bd6b7de"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -104,26 +104,26 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"fa19cc29-e6d8-4bc2-8664-39da59d9015e"],
+  0,ExpressionUUID->"9bd10622-01fe-4934-b4e0-5f7d69e853f2"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"b16522ad-0b7e-4adc-a0c6-e8ecc34003c7"],
+"Notes",ExpressionUUID->"d6827add-6a65-48fd-8152-c18a49dfb966"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "ba1493ea-4358-49a6-a905-20713d34956a"], "IntegrationConstant", 
+     "4074446b-4045-4747-8b23-da9abed63184"], "IntegrationConstant", 
     RowBox[{"{", 
      RowBox[{
       RowBox[{"4", " ", "M"}], ",", " ", 
       RowBox[{"4", " ", "M"}]}], "}"}], Cell["\<\
 Constant chosen when defining Schwarzschild tortoise coordinate. Either given \
 explicitly, or as a list {r,r_*} specifying where r=r_*.\
-\>", "TableText",ExpressionUUID->"c16f55b5-6dbc-43e2-999a-8816cbedd892"]},
+\>", "TableText",ExpressionUUID->"d2532e0c-9067-4350-98aa-1c728b8b25ec"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "b15b083a-7825-41a7-9136-b2d041dea06f"], "Metric", "Schwarzschild", 
+     "37b3f553-ef4a-46c4-921e-7af46f1b0566"], "Metric", "Schwarzschild", 
     Cell["\<\
 Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
-\>", "TableText",ExpressionUUID->"cad5a8bf-3a19-4498-862f-ceb01695830c"]}
+\>", "TableText",ExpressionUUID->"9335c4a8-fbc6-46b7-8b42-59df12dc1d7d"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -135,14 +135,14 @@ Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
  GridBoxDividers->{
   "Rows" -> {{
      True, True, 
-      True}}}},ExpressionUUID->"2dfd1da2-fe9c-4f10-b2fa-0076e15af3bd"]
+      True}}}},ExpressionUUID->"dba520f0-5325-479f-8aa2-7d23b49ebc55"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"bb67eb84-b949-4198-a895-032d0ff97ac3"],
+Cell[" ", "FooterCell",ExpressionUUID->"e67bac6f-25b0-4dce-9fcb-9b7c87f9af77"],
 
-Cell[BoxData[""],ExpressionUUID->"3bc08b5e-602c-4e23-8b77-f6e00d6b994c"]
+Cell[BoxData[""],ExpressionUUID->"ebd5af38-e115-4cd9-b180-1a031a35d21d"]
 }, Open  ]]
 },
 Saveable->False,

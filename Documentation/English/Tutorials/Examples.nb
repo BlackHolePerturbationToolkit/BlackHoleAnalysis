@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "TutorialColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"166ddc12-3576-482f-a159-a9c0130e5db0"],
+   0}},ExpressionUUID->"97323000-c55e-4425-8039-b186f767c00f"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -12,11 +12,11 @@ Cell[TextData[{
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->
    "paclet:BlackHoleAnalysis/tutorial/Examples using BlackHoleAnalysis"]
-}], "LinkTrail",ExpressionUUID->"20d16f8d-d1e2-4703-bd00-f724e8d972d4"],
+}], "LinkTrail",ExpressionUUID->"17544da3-99c8-4893-95b3-9235f473c61c"],
 
 Cell[BoxData[GridBox[{
    {Cell["EXAMPLES TUTORIAL", "PacletNameCell",ExpressionUUID->
-     "4e14e1ff-5e09-4e14-96b1-6af5080cba10"], Cell[TextData[{
+     "eb1c8dec-9f14-4357-ad46-9209c51eed17"], Cell[TextData[{
      Cell[BoxData[
       ActionMenuBox[
        FrameBox["\<\"Related Tutorials \[RightGuillemet]\"\>",
@@ -37,7 +37,7 @@ Cell[BoxData[GridBox[{
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "9837634d-b8c8-479b-a2a1-cf39af436bb1"],
+      "fbb2acf4-9a2e-42f7-b01a-8cd49c94894a"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -56,20 +56,20 @@ Cell[BoxData[GridBox[{
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "cf1166db-61e0-4876-a19e-a9af6ea022a1"]
-    }], "AnchorBar",ExpressionUUID->"df62d15e-74a5-4857-a36a-e6c58ba833a8"]}
-  }]], "AnchorBarGrid",ExpressionUUID->"fc54e329-d706-4c7f-9295-fdbf04db8748"],
+      "afbf263e-930f-46f4-9374-88c6599f3df8"]
+    }], "AnchorBar",ExpressionUUID->"f57eaf16-f6cf-4865-8a65-f70f3ef3f0f6"]}
+  }]], "AnchorBarGrid",ExpressionUUID->"8e54d5e2-8eae-4bfa-a5dd-02c3b090a30b"],
 
 Cell[CellGroupData[{
 
 Cell["BlackHoleAnalysis - Examples", "Title",
  CellChangeTimes->{{3.741350517197773*^9, 
-  3.7413505173623123`*^9}},ExpressionUUID->"ab5e1dea-1544-4bc5-a83d-\
-7f8f9b8bde00"],
+  3.7413505173623123`*^9}},ExpressionUUID->"a4c0d3c6-94b1-40f1-a52f-\
+c57a5e37bdf2"],
 
 Cell[BoxData[
  RowBox[{"<<", "BlackHoleAnalysis`"}]], "Input",
- CellLabel->"In[1]:=",ExpressionUUID->"9f34638c-4121-4d7e-b7ad-852685d04236"],
+ CellLabel->"In[1]:=",ExpressionUUID->"b0543e68-5e49-491e-83aa-b0d7691b5196"],
 
 Cell[CellGroupData[{
 
@@ -78,15 +78,15 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    SuperscriptBox["\[CapitalPsi]", "CPM"], TraditionalForm]],ExpressionUUID->
-  "75ffddb0-88dc-4274-9637-a313332c4848"]
-}], "Section",ExpressionUUID->"fc635e01-98e5-4275-b0cb-740d3de61b60"],
+  "1612d10f-78cb-4844-aca2-fbc08d5ae472"]
+}], "Section",ExpressionUUID->"27e78a5c-2034-483f-a863-8754b7992cdd"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 Let\[CloseCurlyQuote]s plug the weak form of the CPM variable into its \
 equation and see if the source terms vanish.\
-\>", "Item",ExpressionUUID->"46e2b1c5-5a7e-4ec4-9042-2bf785ace28b"],
+\>", "Item",ExpressionUUID->"186a5dc8-ceb7-4cd8-a2b3-e316936f9b62"],
 
 Cell[CellGroupData[{
 
@@ -97,7 +97,7 @@ Cell[BoxData[
     RowBox[{"Variable", "\[Rule]", "\"\<CPM1\>\""}], ",", 
     RowBox[{"SourceExpansion", "\[Rule]", "\"\<Full\>\""}]}], 
    "]"}]}]], "Input",
- CellLabel->"In[2]:=",ExpressionUUID->"94d27a61-4df1-4f4b-9d53-57299514be5f"],
+ CellLabel->"In[2]:=",ExpressionUUID->"f2b7c31e-a7e6-4c6c-ab7a-8e1e7ad8aabc"],
 
 Cell[BoxData[
  RowBox[{
@@ -105,17 +105,23 @@ Cell[BoxData[
    FractionBox[
     RowBox[{
      RowBox[{"(", 
+      RowBox[{
+       RowBox[{"2", " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", 
+          RowBox[{
+           FractionBox["1", "2"], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+           RowBox[{"(", 
+            RowBox[{"2", "+", "l"}], ")"}]}]}], ")"}]}], "-", 
+       FractionBox[
+        RowBox[{"6", " ", "M"}], "r"]}], ")"}], " ", 
+     RowBox[{"(", 
       RowBox[{"1", "-", 
        FractionBox[
         RowBox[{"2", " ", "M"}], "r"]}], ")"}], " ", 
-     RowBox[{"(", 
-      RowBox[{
-       RowBox[{"-", 
-        FractionBox[
-         RowBox[{"6", " ", "M"}], "r"]}], "+", 
-       RowBox[{"2", " ", 
-        RowBox[{"(", 
-         RowBox[{"1", "+", "\[Lambda]"}], ")"}]}]}], ")"}], " ", 
      RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"X\\\", \\\"\\\\\\\"CPM1\\\\\\\
 \"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
       
@@ -167,7 +173,7 @@ SuperscriptBox]]\\)\"\>",
     MultilineFunction->None], "[", 
    RowBox[{"t", ",", "r"}], "]"}], "-", 
   FractionBox[
-   RowBox[{"8", " ", "\[Pi]", " ", 
+   RowBox[{"16", " ", "\[Pi]", " ", 
     SuperscriptBox["\[ScriptCapitalL]", "2"], " ", "\[Mu]", " ", 
     SuperscriptBox[
      RowBox[{"(", 
@@ -186,9 +192,22 @@ SuperscriptBox]]\\)\"\>",
 OverscriptBox[\\\\\\\"X\\\\\\\", \
 \\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\[Phi]\
 \\\"], DisplayForm]\\)\"\>", "[", "t", "]"}]}], 
-   RowBox[{"\[ScriptCapitalE]", " ", "\[Lambda]", " ", 
+   RowBox[{
     RowBox[{"(", 
-     RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
+     RowBox[{
+      RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+    RowBox[{"(", 
+     RowBox[{"2", "+", "l"}], ")"}], " ", 
+    RowBox[{"(", 
+     RowBox[{"1", "+", 
+      RowBox[{
+       FractionBox["1", "2"], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{"2", "+", "l"}], ")"}]}]}], ")"}], " ", "\[ScriptCapitalE]", 
+    " ", 
     SuperscriptBox[
      RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\"]\
 \\)\"\>", "[", "t", "]"}], "3"]}]], "-", 
@@ -219,12 +238,19 @@ OverscriptBox[\\\\\\\"X\\\\\\\", \
 DisplayForm]\\)\"\>", "[", "t", "]"}]}], 
        RowBox[{
         RowBox[{"(", 
-         RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
+         RowBox[{"1", "+", 
+          RowBox[{
+           FractionBox["1", "2"], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+           RowBox[{"(", 
+            RowBox[{"2", "+", "l"}], ")"}]}]}], ")"}], " ", 
         SuperscriptBox[
          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "3"]}]]}], "-", 
      FractionBox[
-      RowBox[{"4", " ", "\[Pi]", " ", 
+      RowBox[{"8", " ", "\[Pi]", " ", 
        SuperscriptBox["\[ScriptCapitalL]", "2"], " ", "\[Mu]", " ", 
        SuperscriptBox[
         RowBox[{"(", 
@@ -238,13 +264,26 @@ DisplayForm]\\)\"\>", "[", "t", "]"}]}],
 OverscriptBox[\\\\\\\"X\\\\\\\", \
 \\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\[Phi]\
 \\\"], DisplayForm]\\)\"\>", "[", "t", "]"}]}], 
-      RowBox[{"\[ScriptCapitalE]", " ", "\[Lambda]", " ", 
+      RowBox[{
        RowBox[{"(", 
-        RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
+        RowBox[{
+         RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{"2", "+", "l"}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{"1", "+", 
+         RowBox[{
+          FractionBox["1", "2"], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+          RowBox[{"(", 
+           RowBox[{"2", "+", "l"}], ")"}]}]}], ")"}], " ", 
+       "\[ScriptCapitalE]", " ", 
        SuperscriptBox[
         RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
 \"]\\)\"\>", "[", "t", "]"}], "4"]}]]}], ")"}]}]}]], "Output",
- CellLabel->"Out[2]=",ExpressionUUID->"9ce71e2b-5592-4e69-80b5-3d80fe411338"]
+ CellLabel->"Out[2]=",ExpressionUUID->"adece8fd-cabd-42df-a763-0b91c7881a53"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -261,12 +300,12 @@ Cell[BoxData[{
    RowBox[{
     RowBox[{"Weak", "\[Rule]", "True"}], ",", 
     RowBox[{"Parity", "\[Rule]", "\"\<Odd\>\""}]}], "]"}]}]}], "Input",
- CellLabel->"In[3]:=",ExpressionUUID->"e6cc04a1-84bf-4ca0-9a64-eab15477c54a"],
+ CellLabel->"In[3]:=",ExpressionUUID->"62598701-65be-4ed6-a5b5-84c979229106"],
 
 Cell[BoxData["\<\"\\!\\(\\*TemplateBox[List[\\\"X\\\", \
 \\\"\\\\\\\"CPM\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
 SuperscriptBox]]\\)\"\>"], "Output",
- CellLabel->"Out[3]=",ExpressionUUID->"2ad846be-611a-4182-afd4-a1538e31a015"],
+ CellLabel->"Out[3]=",ExpressionUUID->"087e1e8a-c8c7-4db9-8203-dd4475e19d3a"],
 
 Cell[BoxData[
  RowBox[{
@@ -315,7 +354,7 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\"\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"+\\\\\\\"\\\"], \
 \\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
     RowBox[{"t", ",", "r"}], "]"}]}]}]], "Output",
- CellLabel->"Out[4]=",ExpressionUUID->"02dc33ec-16db-47de-9036-34676ae7024c"]
+ CellLabel->"Out[4]=",ExpressionUUID->"86d0bbb9-ad70-43cf-9670-01e323334fcd"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -327,7 +366,7 @@ Cell[BoxData[
     RowBox[{"Parity", "\[Rule]", "\"\<Odd\>\""}], ",", 
     RowBox[{"SourceExpansion", "\[Rule]", "\"\<Full\>\""}]}], 
    "]"}]}]], "Input",
- CellLabel->"In[5]:=",ExpressionUUID->"f95a6499-1c27-4d49-b7f7-e410a90fc307"],
+ CellLabel->"In[5]:=",ExpressionUUID->"c5c95d09-0a97-4f82-b48e-b47a45f3a3df"],
 
 Cell[BoxData[
  RowBox[{
@@ -335,17 +374,23 @@ Cell[BoxData[
    FractionBox[
     RowBox[{
      RowBox[{"(", 
+      RowBox[{
+       RowBox[{"2", " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", 
+          RowBox[{
+           FractionBox["1", "2"], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+           RowBox[{"(", 
+            RowBox[{"2", "+", "l"}], ")"}]}]}], ")"}]}], "-", 
+       FractionBox[
+        RowBox[{"6", " ", "M"}], "r"]}], ")"}], " ", 
+     RowBox[{"(", 
       RowBox[{"1", "-", 
        FractionBox[
         RowBox[{"2", " ", "M"}], "r"]}], ")"}], " ", 
-     RowBox[{"(", 
-      RowBox[{
-       RowBox[{"-", 
-        FractionBox[
-         RowBox[{"6", " ", "M"}], "r"]}], "+", 
-       RowBox[{"2", " ", 
-        RowBox[{"(", 
-         RowBox[{"1", "+", "\[Lambda]"}], ")"}]}]}], ")"}], " ", 
      RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"X\\\", \
 \\\"\\\\\\\"CPM\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
 SuperscriptBox]]\\)\"\>", "[", 
@@ -405,8 +450,7 @@ SuperscriptBox]]\\)\"\>",
    RowBox[{"(", 
     RowBox[{
      FractionBox[
-      RowBox[{
-      "8", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
+      RowBox[{"16", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
        SuperscriptBox[
         RowBox[{"(", 
          RowBox[{"1", "-", 
@@ -419,14 +463,25 @@ SuperscriptBox]]\\)\"\>",
 OverscriptBox[\\\\\\\"X\\\\\\\", \
 \\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
 DisplayForm]\\)\"\>", "[", "t", "]"}]}], 
-      RowBox[{"\[Lambda]", " ", 
+      RowBox[{
        RowBox[{"(", 
-        RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
+        RowBox[{
+         RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{"2", "+", "l"}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{"1", "+", 
+         RowBox[{
+          FractionBox["1", "2"], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+          RowBox[{"(", 
+           RowBox[{"2", "+", "l"}], ")"}]}]}], ")"}], " ", 
        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}]], "-", 
      FractionBox[
-      RowBox[{
-      "8", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
+      RowBox[{"16", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
        SuperscriptBox[
         RowBox[{
          SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\
@@ -436,9 +491,21 @@ DisplayForm]\\)\"\>", "[", "t", "]"}]}],
 OverscriptBox[\\\\\\\"X\\\\\\\", \
 \\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
 DisplayForm]\\)\"\>", "[", "t", "]"}]}], 
-      RowBox[{"\[Lambda]", " ", 
+      RowBox[{
        RowBox[{"(", 
-        RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
+        RowBox[{
+         RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{"2", "+", "l"}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{"1", "+", 
+         RowBox[{
+          FractionBox["1", "2"], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+          RowBox[{"(", 
+           RowBox[{"2", "+", "l"}], ")"}]}]}], ")"}], " ", 
        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}]]}], ")"}]}], "-", 
   RowBox[{
@@ -450,7 +517,8 @@ DisplayForm]\\)\"\>", "[", "t", "]"}]}],
     RowBox[{
      RowBox[{"-", 
       FractionBox[
-       RowBox[{"8", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
+       RowBox[{
+       "16", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
         RowBox[{"(", 
          RowBox[{"1", "-", 
           FractionBox[
@@ -462,15 +530,26 @@ DisplayForm]\\)\"\>", "[", "t", "]"}]}],
 OverscriptBox[\\\\\\\"X\\\\\\\", \
 \\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
 DisplayForm]\\)\"\>", "[", "t", "]"}]}], 
-       RowBox[{"\[Lambda]", " ", 
+       RowBox[{
         RowBox[{"(", 
-         RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
+         RowBox[{
+          RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{"2", "+", "l"}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", 
+          RowBox[{
+           FractionBox["1", "2"], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+           RowBox[{"(", 
+            RowBox[{"2", "+", "l"}], ")"}]}]}], ")"}], " ", 
         SuperscriptBox[
          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"]}]]}], "+", 
      FractionBox[
-      RowBox[{
-      "8", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
+      RowBox[{"16", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
        SuperscriptBox[
         RowBox[{
          SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\
@@ -480,14 +559,26 @@ DisplayForm]\\)\"\>", "[", "t", "]"}]}],
 OverscriptBox[\\\\\\\"X\\\\\\\", \
 \\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
 DisplayForm]\\)\"\>", "[", "t", "]"}]}], 
-      RowBox[{"\[Lambda]", " ", 
+      RowBox[{
        RowBox[{"(", 
-        RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
+        RowBox[{
+         RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{"2", "+", "l"}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{"1", "+", 
+         RowBox[{
+          FractionBox["1", "2"], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+          RowBox[{"(", 
+           RowBox[{"2", "+", "l"}], ")"}]}]}], ")"}], " ", 
        SuperscriptBox[
         RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
 \"]\\)\"\>", "[", "t", "]"}], "2"]}]], "+", 
      FractionBox[
-      RowBox[{
+      RowBox[{"2", " ", 
        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], " ", 
        RowBox[{"(", 
@@ -508,7 +599,14 @@ DisplayForm]\\)\"\>", "[", "t", "]"}]}],
              MultilineFunction->None], "[", "t", "]"}]}], 
           RowBox[{
            RowBox[{"(", 
-            RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
+            RowBox[{"1", "+", 
+             RowBox[{
+              FractionBox["1", "2"], " ", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+              RowBox[{"(", 
+               RowBox[{"2", "+", "l"}], ")"}]}]}], ")"}], " ", 
            SuperscriptBox[
             
             RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\
@@ -529,7 +627,14 @@ OverscriptBox[\\\\\\\"X\\\\\\\", \
 DisplayForm]\\)\"\>", "[", "t", "]"}]}], 
           RowBox[{
            RowBox[{"(", 
-            RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
+            RowBox[{"1", "+", 
+             RowBox[{
+              FractionBox["1", "2"], " ", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+              RowBox[{"(", 
+               RowBox[{"2", "+", "l"}], ")"}]}]}], ")"}], " ", 
            SuperscriptBox[
             
             RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\
@@ -549,20 +654,32 @@ OverscriptBox[\\\\\\\"X\\\\\\\", \
 DisplayForm]\\)\"\>", "[", "t", "]"}]}], 
           RowBox[{
            RowBox[{"(", 
-            RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
+            RowBox[{"1", "+", 
+             RowBox[{
+              FractionBox["1", "2"], " ", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+              RowBox[{"(", 
+               RowBox[{"2", "+", "l"}], ")"}]}]}], ")"}], " ", 
            SuperscriptBox[
             
             RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\
-\"\\\"]\\)\"\>", "[", "t", "]"}], "2"]}]]}], ")"}]}], "\[Lambda]"]}], 
-    ")"}]}]}]], "Output",
- CellLabel->"Out[5]=",ExpressionUUID->"ede74c30-cd41-4bfc-b777-5e412679b62a"]
+\"\\\"]\\)\"\>", "[", "t", "]"}], "2"]}]]}], ")"}]}], 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{"2", "+", "l"}], ")"}]}]]}], ")"}]}]}]], "Output",
+ CellLabel->"Out[5]=",ExpressionUUID->"f59d9719-a157-4daa-a454-2b26fcdf7bf1"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["At first glance, things are not promising.", \
-"Item",ExpressionUUID->"f0af7bd9-2c92-4934-9510-59869996f03a"],
+"Item",ExpressionUUID->"b361fdd9-59ba-4d51-9dad-bee705c9c59f"],
 
 Cell[CellGroupData[{
 
@@ -600,7 +717,7 @@ Cell[BoxData[
       RowBox[{"_", "[", 
        RowBox[{"t", ",", "r"}], "]"}]}], "}"}], ",", "Simplify"}], 
    "]"}]}]], "Input",
- CellLabel->"In[6]:=",ExpressionUUID->"c09ef98f-988f-41e6-8c69-fe237342ea58"],
+ CellLabel->"In[6]:=",ExpressionUUID->"5d2a738a-77b3-4112-af2c-5db16cadcad8"],
 
 Cell[BoxData[
  RowBox[{
@@ -881,16 +998,16 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
     RowBox[{
      RowBox[{"-", 
       FractionBox[
-       RowBox[{"2", " ", 
+       RowBox[{
         RowBox[{"(", 
          RowBox[{
           RowBox[{"2", " ", "M"}], "-", "r"}], ")"}], " ", 
         RowBox[{"(", 
          RowBox[{
-          RowBox[{"3", " ", "M"}], "-", 
-          RowBox[{"r", " ", 
+          RowBox[{"6", " ", "M"}], "-", 
+          RowBox[{"l", " ", 
            RowBox[{"(", 
-            RowBox[{"1", "+", "\[Lambda]"}], ")"}]}]}], ")"}], " ", 
+            RowBox[{"1", "+", "l"}], ")"}], " ", "r"}]}], ")"}], " ", 
         RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\
 \\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -1000,16 +1117,16 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
     RowBox[{
      RowBox[{"-", 
       FractionBox[
-       RowBox[{"2", " ", 
+       RowBox[{
         RowBox[{"(", 
          RowBox[{
           RowBox[{"2", " ", "M"}], "-", "r"}], ")"}], " ", 
         RowBox[{"(", 
          RowBox[{
-          RowBox[{"3", " ", "M"}], "-", 
-          RowBox[{"r", " ", 
+          RowBox[{"6", " ", "M"}], "-", 
+          RowBox[{"l", " ", 
            RowBox[{"(", 
-            RowBox[{"1", "+", "\[Lambda]"}], ")"}]}]}], ")"}], " ", 
+            RowBox[{"1", "+", "l"}], ")"}], " ", "r"}]}], ")"}], " ", 
         RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\
 \\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -1109,16 +1226,17 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
          RowBox[{"2", ",", "0"}], ")"}],
         Derivative],
        MultilineFunction->None], "[", 
-      RowBox[{"t", ",", "r"}], "]"}]}], ")"}]}], "-", 
+      RowBox[{"t", ",", "r"}], "]"}]}], ")"}]}], "+", 
   FractionBox[
-   RowBox[{"8", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
+   RowBox[{"32", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
     RowBox[{"(", 
      RowBox[{
-      RowBox[{"4", " ", 
-       SuperscriptBox["M", "2"]}], "-", 
+      RowBox[{
+       RowBox[{"-", "4"}], " ", 
+       SuperscriptBox["M", "2"]}], "+", 
       RowBox[{"4", " ", "M", " ", 
        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], "-", 
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], "+", 
       RowBox[{
        SuperscriptBox[
         RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
@@ -1143,84 +1261,96 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 OverscriptBox[\\\\\\\"X\\\\\\\", \
 \\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
 DisplayForm]\\)\"\>", "[", "t", "]"}]}], 
-   RowBox[{"\[Lambda]", " ", 
+   RowBox[{
     RowBox[{"(", 
-     RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
+     RowBox[{
+      RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", "l", " ", 
+    RowBox[{"(", 
+     RowBox[{"1", "+", "l"}], ")"}], " ", 
+    RowBox[{"(", 
+     RowBox[{"2", "+", "l"}], ")"}], " ", 
     SuperscriptBox[
      RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\"]\
 \\)\"\>", "[", "t", "]"}], "3"]}]], "-", 
   RowBox[{
-   FractionBox["1", 
-    RowBox[{"\[Lambda]", " ", 
-     RowBox[{"(", 
-      RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
-     SuperscriptBox[
-      RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "3"]}]], 
-   RowBox[{"8", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
-    RowBox[{"\[Delta]", "[", 
-     RowBox[{"r", "-", 
-      RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+   RowBox[{"(", 
+    RowBox[{"32", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
+     RowBox[{"\[Delta]", "[", 
+      RowBox[{"r", "-", 
+       RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], "]"}], " ", 
-    RowBox[{"(", 
-     RowBox[{
-      RowBox[{"2", " ", "M", " ", 
-       RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"2", " ", "M", " ", 
+        RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
 OverscriptBox[\\\\\\\"X\\\\\\\", \
 \\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
 DisplayForm]\\)\"\>", "[", "t", "]"}]}], "-", 
-      RowBox[{
-       RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], " ", 
-       RowBox[{"(", 
-        RowBox[{"1", "+", 
-         SuperscriptBox[
-          RowBox[{
-           
-           SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\
-\\\\\\\"\\\"]\\)\"\>", "\[Prime]",
-            MultilineFunction->None], "[", "t", "]"}], "2"]}], ")"}], " ", 
-       RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
+       RowBox[{
+        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
+\"]\\)\"\>", "[", "t", "]"}], " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", 
+          SuperscriptBox[
+           RowBox[{
+            
+            SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "\[Prime]",
+             MultilineFunction->None], "[", "t", "]"}], "2"]}], ")"}], " ", 
+        RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
 OverscriptBox[\\\\\\\"X\\\\\\\", \
 \\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
 DisplayForm]\\)\"\>", "[", "t", "]"}]}], "+", 
-      RowBox[{
-       SuperscriptBox[
-        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
-\"]\\)\"\>", "[", "t", "]"}], "2"], " ", 
-       RowBox[{"(", 
-        RowBox[{
+       RowBox[{
+        SuperscriptBox[
+         RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"], " ", 
+        RowBox[{"(", 
          RowBox[{
           RowBox[{
-           
-           SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\
-\\\\\\\"\\\"]\\)\"\>", "\[Prime]",
-            MultilineFunction->None], "[", "t", "]"}], " ", 
+           RowBox[{
+            
+            SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "\[Prime]",
+             MultilineFunction->None], "[", "t", "]"}], " ", 
+           RowBox[{
+            
+            SuperscriptBox["\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\
+\\*OverscriptBox[\\\\\\\"X\\\\\\\", \\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\
+\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], DisplayForm]\\)\"\>", "\[Prime]",
+             MultilineFunction->None], "[", "t", "]"}]}], "+", 
           RowBox[{
+           RowBox[{
+            
+            SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "\[Prime]\[Prime]",
+             MultilineFunction->None], "[", "t", "]"}], " ", 
            
-           SuperscriptBox["\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\\
-*OverscriptBox[\\\\\\\"X\\\\\\\", \\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\
-\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], DisplayForm]\\)\"\>", "\[Prime]",
-            MultilineFunction->None], "[", "t", "]"}]}], "+", 
-         RowBox[{
-          RowBox[{
-           
-           SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\
-\\\\\\\"\\\"]\\)\"\>", "\[Prime]\[Prime]",
-            MultilineFunction->None], "[", "t", "]"}], " ", 
-          
-          RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
+           RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
 OverscriptBox[\\\\\\\"X\\\\\\\", \
 \\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
-DisplayForm]\\)\"\>", "[", "t", "]"}]}]}], ")"}]}]}], ")"}]}]}]}]], "Output",
- CellLabel->"Out[6]=",ExpressionUUID->"84498599-4504-45d8-85a5-2f22a8623d21"]
+DisplayForm]\\)\"\>", "[", "t", "]"}]}]}], ")"}]}]}], ")"}]}], ")"}], "/", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", "l", " ", 
+     RowBox[{"(", 
+      RowBox[{"1", "+", "l"}], ")"}], " ", 
+     RowBox[{"(", 
+      RowBox[{"2", "+", "l"}], ")"}], " ", 
+     SuperscriptBox[
+      RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "3"]}], 
+    ")"}]}]}]], "Output",
+ CellLabel->"Out[6]=",ExpressionUUID->"04828bd7-500b-4359-a7cb-68163e53a9df"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Now, remove some discontinuities.", \
-"Item",ExpressionUUID->"d3167b60-7496-4751-a49a-804a80b100d1"],
+"Item",ExpressionUUID->"f3347e4d-fe4b-4e64-9289-53ec43eb0592"],
 
 Cell[CellGroupData[{
 
@@ -1241,7 +1371,7 @@ Cell[BoxData[
       RowBox[{"_", "[", 
        RowBox[{"t", ",", "r"}], "]"}]}], "}"}], ",", "Simplify"}], 
    "]"}]}]], "Input",
- CellLabel->"In[7]:=",ExpressionUUID->"c14636aa-6e3c-47f6-b99a-35e8c1ed92fe"],
+ CellLabel->"In[7]:=",ExpressionUUID->"ff82473f-98c8-4bdf-9616-bf7656ed2c8a"],
 
 Cell[BoxData[
  RowBox[{
@@ -1253,36 +1383,36 @@ Cell[BoxData[
 \\)\"\>", "[", "t", "]"}]}], "]"}], " ", 
    RowBox[{"(", 
     RowBox[{
-     RowBox[{"-", 
-      FractionBox[
-       RowBox[{"2", " ", 
-        RowBox[{"(", 
+     FractionBox[
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
          RowBox[{
-          RowBox[{"2", " ", "M"}], "-", "r"}], ")"}], " ", 
-        RowBox[{"(", 
-         RowBox[{
-          RowBox[{"3", " ", "M"}], "-", 
-          RowBox[{"r", " ", 
-           RowBox[{"(", 
-            RowBox[{"1", "+", "\[Lambda]"}], ")"}]}]}], ")"}], " ", 
-        RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\
-\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",\
- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\
+          RowBox[{"-", "2"}], " ", "M"}], "+", "r"}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"6", " ", "M"}], "-", 
+         RowBox[{"l", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", "l"}], ")"}], " ", "r"}]}], ")"}], " ", 
+       RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\
+\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\
-], \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\
-Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"],\
+ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"Superscript\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
 Rule[SyntaxForm, \
 SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\"\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"-\\\\\\\"\\\"], \
 \\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
-         RowBox[{"t", ",", "r"}], "]"}]}], 
-       SuperscriptBox["r", "4"]]}], "+", 
+        RowBox[{"t", ",", "r"}], "]"}]}], 
+      SuperscriptBox["r", "4"]], "+", 
      FractionBox[
       RowBox[{"2", " ", "M", " ", 
        RowBox[{"(", 
@@ -1372,36 +1502,36 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\)\"\>", "[", "t", "]"}]}], "]"}], " ", 
    RowBox[{"(", 
     RowBox[{
-     RowBox[{"-", 
-      FractionBox[
-       RowBox[{"2", " ", 
-        RowBox[{"(", 
+     FractionBox[
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
          RowBox[{
-          RowBox[{"2", " ", "M"}], "-", "r"}], ")"}], " ", 
-        RowBox[{"(", 
-         RowBox[{
-          RowBox[{"3", " ", "M"}], "-", 
-          RowBox[{"r", " ", 
-           RowBox[{"(", 
-            RowBox[{"1", "+", "\[Lambda]"}], ")"}]}]}], ")"}], " ", 
-        RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\
-\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",\
- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\
+          RowBox[{"-", "2"}], " ", "M"}], "+", "r"}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"6", " ", "M"}], "-", 
+         RowBox[{"l", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", "l"}], ")"}], " ", "r"}]}], ")"}], " ", 
+       RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\
+\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\
-], \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\
-Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"],\
+ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"Superscript\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
 Rule[SyntaxForm, \
 SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\"\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"+\\\\\\\"\\\"], \
 \\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
-         RowBox[{"t", ",", "r"}], "]"}]}], 
-       SuperscriptBox["r", "4"]]}], "+", 
+        RowBox[{"t", ",", "r"}], "]"}]}], 
+      SuperscriptBox["r", "4"]], "+", 
      FractionBox[
       RowBox[{"2", " ", "M", " ", 
        RowBox[{"(", 
@@ -1485,48 +1615,130 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
        MultilineFunction->None], "[", 
       RowBox[{"t", ",", "r"}], "]"}]}], ")"}]}], "+", 
   RowBox[{
-   FractionBox["1", 
-    RowBox[{"\[Lambda]", " ", 
+   RowBox[{"(", 
+    RowBox[{
      RowBox[{"(", 
-      RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
+      RowBox[{
+       RowBox[{"4", " ", 
+        SuperscriptBox["M", "2"]}], "-", 
+       RowBox[{"4", " ", "M", " ", 
+        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
+\"]\\)\"\>", "[", "t", "]"}]}], "-", 
+       RowBox[{
+        SuperscriptBox[
+         RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "1"}], "+", 
+          SuperscriptBox[
+           RowBox[{
+            
+            SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "\[Prime]",
+             MultilineFunction->None], "[", "t", "]"}], "2"]}], ")"}]}]}], 
+      ")"}], " ", 
+     RowBox[{
+      SuperscriptBox["\[Delta]", "\[Prime]",
+       MultilineFunction->None], "[", 
+      RowBox[{"r", "-", 
+       RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], "]"}], " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"l", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "2"}], "-", "l", "+", 
+          RowBox[{"2", " ", 
+           SuperscriptBox["l", "2"]}], "+", 
+          SuperscriptBox["l", "3"]}], ")"}], " ", 
+        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
+\"]\\)\"\>", "[", "t", "]"}], " ", 
+        RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\\
+!\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[\
+List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
+\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
+         "t", "]"}]}], "-", 
+       RowBox[{
+       "32", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
+        RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
+OverscriptBox[\\\\\\\"X\\\\\\\", \
+\\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
+DisplayForm]\\)\"\>", "[", "t", "]"}]}]}], ")"}]}], ")"}], "/", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", "l", " ", 
+     RowBox[{"(", 
+      RowBox[{"1", "+", "l"}], ")"}], " ", 
+     RowBox[{"(", 
+      RowBox[{"2", "+", "l"}], ")"}], " ", 
      SuperscriptBox[
       RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "3"]}]], 
-   RowBox[{
-    RowBox[{"(", 
-     RowBox[{
-      RowBox[{"4", " ", 
-       SuperscriptBox["M", "2"]}], "-", 
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "3"]}], ")"}]}], "+", 
+  RowBox[{
+   RowBox[{"\[Delta]", "[", 
+    RowBox[{"r", "-", 
+     RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\"]\
+\\)\"\>", "[", "t", "]"}]}], "]"}], " ", 
+   RowBox[{"(", 
+    RowBox[{
+     FractionBox[
       RowBox[{"4", " ", "M", " ", 
-       RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], "-", 
-      RowBox[{
-       SuperscriptBox[
-        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
-\"]\\)\"\>", "[", "t", "]"}], "2"], " ", 
        RowBox[{"(", 
         RowBox[{
-         RowBox[{"-", "1"}], "+", 
-         SuperscriptBox[
-          RowBox[{
-           
-           SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\
-\\\\\\\"\\\"]\\)\"\>", "\[Prime]",
-            MultilineFunction->None], "[", "t", "]"}], "2"]}], ")"}]}]}], 
-     ")"}], " ", 
-    RowBox[{
-     SuperscriptBox["\[Delta]", "\[Prime]",
-      MultilineFunction->None], "[", 
-     RowBox[{"r", "-", 
-      RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], "]"}], " ", 
-    RowBox[{"(", 
-     RowBox[{
-      RowBox[{"\[Lambda]", " ", 
-       RowBox[{"(", 
-        RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
-       RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], " ", 
+         RowBox[{"2", " ", "M"}], "-", 
+         RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], " ", 
        RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\
 \\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\
@@ -1578,514 +1790,345 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
 \\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
-        "t", "]"}]}], "-", 
-      RowBox[{
-      "8", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
-       RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
-OverscriptBox[\\\\\\\"X\\\\\\\", \
-\\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
-DisplayForm]\\)\"\>", "[", "t", "]"}]}]}], ")"}]}]}], "+", 
-  RowBox[{
-   FractionBox["1", 
-    RowBox[{"\[Lambda]", " ", 
-     RowBox[{"(", 
-      RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
-     SuperscriptBox[
-      RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "3"]}]], 
-   RowBox[{
-    RowBox[{"\[Delta]", "[", 
-     RowBox[{"r", "-", 
-      RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], "]"}], " ", 
-    RowBox[{"(", 
-     RowBox[{
-      RowBox[{"\[Lambda]", " ", 
-       RowBox[{"(", 
-        RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
-       SuperscriptBox[
-        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
-\"]\\)\"\>", "[", "t", "]"}], "3"], " ", 
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{
-          RowBox[{
-           
-           SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\
-\\\\\\\"\\\"]\\)\"\>", "\[Prime]\[Prime]",
-            MultilineFunction->None], "[", "t", "]"}], " ", 
-          
-          RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\
-\\!\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[\
-List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
-\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
-           "t", "]"}]}], "+", 
-         RowBox[{
-          RowBox[{"(", 
-           RowBox[{"1", "+", 
-            SuperscriptBox[
-             RowBox[{
-              
-              SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\
-\"p\\\\\\\"\\\"]\\)\"\>", "\[Prime]",
-               MultilineFunction->None], "[", "t", "]"}], "2"]}], ")"}], " ", 
-          
-          
-          RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*SubscriptBox[\\(\
-\[PartialD]\\), \
-\\(r\\)]\\)\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\\\\*RowBox[{\\\
-\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*RowBox[{\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"X\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\", \
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
-\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
-           "t", "]"}]}], "+", 
-         RowBox[{"2", " ", 
-          RowBox[{
-           
-           SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\
-\\\\\\\"\\\"]\\)\"\>", "\[Prime]",
-            MultilineFunction->None], "[", "t", "]"}], " ", 
-          
-          RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*SubscriptBox[\\(\
-\[PartialD]\\), \
-\\(t\\)]\\)\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\\\\*RowBox[{\\\
-\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*RowBox[{\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"X\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\", \
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
-\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
-           "t", "]"}]}]}], ")"}]}], "+", 
-      RowBox[{"4", " ", "M", " ", 
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{"M", " ", "\[Lambda]", " ", 
-          RowBox[{"(", 
-           RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
-          
-          RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\
-\\!\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[\
-List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
-\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
-           "t", "]"}]}], "-", 
-         RowBox[{
-         "4", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
-          
-          RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
-OverscriptBox[\\\\\\\"X\\\\\\\", \
-\\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
-DisplayForm]\\)\"\>", "[", "t", "]"}]}]}], ")"}]}], "+", 
-      RowBox[{
+        "t", "]"}]}], 
+      SuperscriptBox[
        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "3"]], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        FractionBox[
+         RowBox[{"2", " ", "M", " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"-", "2"}], " ", "M"}], "+", 
+            
+            RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\
+\"\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}]}], 
+         SuperscriptBox[
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\
+\\\"]\\)\"\>", "[", "t", "]"}], "3"]], "+", 
+        RowBox[{
+         SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\
+\\\\\"\\\"]\\)\"\>", "\[Prime]\[Prime]",
+          MultilineFunction->None], "[", "t", "]"}]}], ")"}], " ", 
+      RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\
+\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[List[\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
+\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
+       "t", "]"}]}], "+", 
+     RowBox[{"2", " ", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"1", "-", 
+         FractionBox[
+          RowBox[{"2", " ", "M"}], 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\
+\\\"]\\)\"\>", "[", "t", "]"}]]}], ")"}], "2"], " ", 
+      RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*SubscriptBox[\\(\[PartialD]\\)\
+, \\(r\\)]\\)\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\\\\*RowBox[{\
+\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*RowBox[{\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"X\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
+\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
+       "t", "]"}]}], "-", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{"1", "-", 
+           FractionBox[
+            RowBox[{"2", " ", "M"}], 
+            
+            RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\
+\"\\\"]\\)\"\>", "[", "t", "]"}]]}], ")"}], "2"], "-", 
+        SuperscriptBox[
+         RowBox[{
+          
+          SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "\[Prime]",
+           MultilineFunction->None], "[", "t", "]"}], "2"]}], ")"}], " ", 
+      RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*SubscriptBox[\\(\[PartialD]\\)\
+, \\(r\\)]\\)\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\\\\*RowBox[{\
+\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*RowBox[{\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"X\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
+\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
+       "t", "]"}]}], "+", 
+     RowBox[{"2", " ", 
+      RowBox[{
+       SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\
+\\\"\\\"]\\)\"\>", "\[Prime]",
+        MultilineFunction->None], "[", "t", "]"}], " ", 
+      RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*SubscriptBox[\\(\[PartialD]\\)\
+, \\(t\\)]\\)\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\\\\*RowBox[{\
+\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*RowBox[{\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"X\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
+\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
+       "t", "]"}]}], "-", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+       "32", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"2", " ", "M", " ", 
+           
+           RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
+OverscriptBox[\\\\\\\"X\\\\\\\", \
+\\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
+DisplayForm]\\)\"\>", "[", "t", "]"}]}], "-", 
+          RowBox[{
+           
+           RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], " ", 
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{
-          RowBox[{"-", "2"}], " ", "M", " ", "\[Lambda]", " ", 
-          RowBox[{"(", 
-           RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
-          
-          RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\
-\\!\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[\
-List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
-\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
-           "t", "]"}]}], "+", 
-         RowBox[{"4", " ", 
-          SuperscriptBox["M", "2"], " ", "\[Lambda]", " ", 
-          RowBox[{"(", 
-           RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
-          
-          RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*SubscriptBox[\\(\
-\[PartialD]\\), \
-\\(r\\)]\\)\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\\\\*RowBox[{\\\
-\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*RowBox[{\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"X\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\", \
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
-\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
-           "t", "]"}]}], "+", 
-         RowBox[{
-         "8", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
-          RowBox[{"(", 
-           RowBox[{"1", "+", 
-            SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"1", "+", 
+             SuperscriptBox[
+              RowBox[{
+               
+               SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "\[Prime]",
+                MultilineFunction->None], "[", "t", "]"}], "2"]}], ")"}], " ", 
+           
+           RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
+OverscriptBox[\\\\\\\"X\\\\\\\", \
+\\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
+DisplayForm]\\)\"\>", "[", "t", "]"}]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            
+            RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\
+\"\\\"]\\)\"\>", "[", "t", "]"}], "2"], " ", 
+           RowBox[{"(", 
+            RowBox[{
              RowBox[{
+              RowBox[{
+               
+               SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "\[Prime]",
+                MultilineFunction->None], "[", "t", "]"}], " ", 
+              RowBox[{
+               
+               SuperscriptBox["\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\
+\\\\*OverscriptBox[\\\\\\\"X\\\\\\\", \\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\
+\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], DisplayForm]\\)\"\>", "\[Prime]",
+                MultilineFunction->None], "[", "t", "]"}]}], "+", 
+             RowBox[{
+              RowBox[{
+               
+               SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "\[Prime]\[Prime]",
+                MultilineFunction->None], "[", "t", "]"}], " ", 
               
-              SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\
-\"p\\\\\\\"\\\"]\\)\"\>", "\[Prime]",
-               MultilineFunction->None], "[", "t", "]"}], "2"]}], ")"}], " ", 
-          
-          
-          RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
+              RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
 OverscriptBox[\\\\\\\"X\\\\\\\", \
 \\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
-DisplayForm]\\)\"\>", "[", "t", "]"}]}]}], ")"}]}], "-", 
-      RowBox[{"4", " ", 
-       SuperscriptBox[
-        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
-\"]\\)\"\>", "[", "t", "]"}], "2"], " ", 
-       RowBox[{"(", 
-        RowBox[{
+DisplayForm]\\)\"\>", "[", "t", "]"}]}]}], ")"}]}]}], ")"}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"(", 
          RowBox[{
-         "2", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
-          RowBox[{
-           
-           SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\
-\\\\\\\"\\\"]\\)\"\>", "\[Prime]",
-            MultilineFunction->None], "[", "t", "]"}], " ", 
-          RowBox[{
-           
-           SuperscriptBox["\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\\
-*OverscriptBox[\\\\\\\"X\\\\\\\", \\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\
-\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], DisplayForm]\\)\"\>", "\[Prime]",
-            MultilineFunction->None], "[", "t", "]"}]}], "+", 
-         RowBox[{"M", " ", "\[Lambda]", " ", 
-          RowBox[{"(", 
-           RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
-          
-          RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*SubscriptBox[\\(\
-\[PartialD]\\), \
-\\(r\\)]\\)\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\\\\*RowBox[{\\\
-\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*RowBox[{\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"X\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\", \
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
-\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
-           "t", "]"}]}], "+", 
-         RowBox[{
-         "2", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
-          RowBox[{
-           
-           SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\
-\\\\\\\"\\\"]\\)\"\>", "\[Prime]\[Prime]",
-            MultilineFunction->None], "[", "t", "]"}], " ", 
-          
-          RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
-OverscriptBox[\\\\\\\"X\\\\\\\", \
-\\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
-DisplayForm]\\)\"\>", "[", "t", "]"}]}]}], ")"}]}]}], ")"}]}]}]}]], "Output",
- CellLabel->"Out[7]=",ExpressionUUID->"2b3bb5d7-9b19-460d-94d1-ca6a4b5834d2"]
+          RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", "l", " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", "l"}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{"2", "+", "l"}], ")"}], " ", 
+        SuperscriptBox[
+         RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "3"]}], ")"}]}]}], 
+    ")"}]}]}]], "Output",
+ CellLabel->"Out[7]=",ExpressionUUID->"499fee59-e2de-445f-94ff-7c3591f6f877"]
 }, Open  ]]
 }, Open  ]],
 
@@ -2097,21 +2140,21 @@ Cell[TextData[{
   FormBox[
    SubscriptBox[
     OverscriptBox["r", ".."], "p"], TraditionalForm]],ExpressionUUID->
-  "2352a53d-e50d-40dd-9916-777658cc3471"],
+  "418d09b4-445c-4060-b93b-d47c652bc173"],
  " and ",
  Cell[BoxData[
   FormBox[
    SubsuperscriptBox[
     OverscriptBox["r", "."], "p", "2"], TraditionalForm]],ExpressionUUID->
-  "098185d6-763e-49e5-b1ae-95d700c140f8"],
+  "b6e89f8a-a7a1-4687-9bce-1eb843caa847"],
  " can each be reduced. So can the time derivatives of spherical harmonics."
-}], "Item",ExpressionUUID->"22d8519b-f9d3-47c5-b6aa-a6260109e23a"],
+}], "Item",ExpressionUUID->"55825fa0-4fe0-4cc1-889d-5e2795bc95bc"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "RemoveRpDots"}]], "Input",
- CellLabel->"In[8]:=",ExpressionUUID->"5aa2ae9d-f769-4984-8e86-da27d11234b9"],
+ CellLabel->"In[8]:=",ExpressionUUID->"3965951b-f93b-4f51-a97d-fc974666f0f3"],
 
 Cell[BoxData[
  RowBox[{"\<\"RemoveRpDots[expr] calls RemoveRpDotDot[expr] followed by \
@@ -2123,15 +2166,15 @@ RemoveRpDotSquared[expr].\"\>", "\[NonBreakingSpace]",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/RemoveRpDots"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info83741357152-9892469",ExpressionUUID->"4ce30d88-af07-4b3c-b511-\
-ffde797c0849"]
+  "Info83741463169-7756260",ExpressionUUID->"046104b7-c631-47a4-bb63-\
+8b88e395a3b0"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "RemoveSHDots"}]], "Input",
- CellLabel->"In[9]:=",ExpressionUUID->"56fd9ff9-8947-4f03-b15d-025c067026f0"],
+ CellLabel->"In[9]:=",ExpressionUUID->"d031f144-bb7e-4f47-8e4b-c05feead1a5d"],
 
 Cell[BoxData[
  RowBox[{"\<\"RemoveSHDots[expr] replaces coordinate time derivatives of \
@@ -2144,8 +2187,8 @@ tensor harmonics.\"\>", "\[NonBreakingSpace]",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/RemoveSHDots"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info93741357152-9892469",ExpressionUUID->"61fdae98-f5dc-420f-b41b-\
-a49dc3cb78a8"]
+  "Info93741463169-7756260",ExpressionUUID->"e8de90a8-0ce5-4128-b7b4-\
+f0cabb333e13"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2171,7 +2214,7 @@ Cell[BoxData[
        RowBox[{
         RowBox[{"jump", "[", "__", "]"}], "[", "__", "]"}], "[", "t", "]"}]}],
       "}"}], ",", "Simplify"}], "]"}]}]], "Input",
- CellLabel->"In[10]:=",ExpressionUUID->"5debd142-7979-4a96-96f4-550d6b677d87"],
+ CellLabel->"In[10]:=",ExpressionUUID->"3e7793ad-d87e-4d57-8261-384a247a0c2d"],
 
 Cell[BoxData[
  RowBox[{
@@ -2183,36 +2226,36 @@ Cell[BoxData[
 \\)\"\>", "[", "t", "]"}]}], "]"}], " ", 
    RowBox[{"(", 
     RowBox[{
-     RowBox[{"-", 
-      FractionBox[
-       RowBox[{"2", " ", 
-        RowBox[{"(", 
+     FractionBox[
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
          RowBox[{
-          RowBox[{"2", " ", "M"}], "-", "r"}], ")"}], " ", 
-        RowBox[{"(", 
-         RowBox[{
-          RowBox[{"3", " ", "M"}], "-", 
-          RowBox[{"r", " ", 
-           RowBox[{"(", 
-            RowBox[{"1", "+", "\[Lambda]"}], ")"}]}]}], ")"}], " ", 
-        RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\
-\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",\
- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\
+          RowBox[{"-", "2"}], " ", "M"}], "+", "r"}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"6", " ", "M"}], "-", 
+         RowBox[{"l", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", "l"}], ")"}], " ", "r"}]}], ")"}], " ", 
+       RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\
+\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\
-], \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\
-Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"],\
+ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"Superscript\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
 Rule[SyntaxForm, \
 SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\"\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"-\\\\\\\"\\\"], \
 \\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
-         RowBox[{"t", ",", "r"}], "]"}]}], 
-       SuperscriptBox["r", "4"]]}], "+", 
+        RowBox[{"t", ",", "r"}], "]"}]}], 
+      SuperscriptBox["r", "4"]], "+", 
      FractionBox[
       RowBox[{"2", " ", "M", " ", 
        RowBox[{"(", 
@@ -2302,36 +2345,36 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\)\"\>", "[", "t", "]"}]}], "]"}], " ", 
    RowBox[{"(", 
     RowBox[{
-     RowBox[{"-", 
-      FractionBox[
-       RowBox[{"2", " ", 
-        RowBox[{"(", 
+     FractionBox[
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
          RowBox[{
-          RowBox[{"2", " ", "M"}], "-", "r"}], ")"}], " ", 
-        RowBox[{"(", 
-         RowBox[{
-          RowBox[{"3", " ", "M"}], "-", 
-          RowBox[{"r", " ", 
-           RowBox[{"(", 
-            RowBox[{"1", "+", "\[Lambda]"}], ")"}]}]}], ")"}], " ", 
-        RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\
-\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",\
- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\
+          RowBox[{"-", "2"}], " ", "M"}], "+", "r"}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"6", " ", "M"}], "-", 
+         RowBox[{"l", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", "l"}], ")"}], " ", "r"}]}], ")"}], " ", 
+       RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\
+\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\
-], \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\
-Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"],\
+ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"Superscript\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
 Rule[SyntaxForm, \
 SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\"\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"+\\\\\\\"\\\"], \
 \\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
-         RowBox[{"t", ",", "r"}], "]"}]}], 
-       SuperscriptBox["r", "4"]]}], "+", 
+        RowBox[{"t", ",", "r"}], "]"}]}], 
+      SuperscriptBox["r", "4"]], "+", 
      FractionBox[
       RowBox[{"2", " ", "M", " ", 
        RowBox[{"(", 
@@ -2414,657 +2457,49 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
         Derivative],
        MultilineFunction->None], "[", 
       RowBox[{"t", ",", "r"}], "]"}]}], ")"}]}], "-", 
-  FractionBox[
-   RowBox[{
-    SuperscriptBox[
-     RowBox[{"(", 
-      RowBox[{
-       RowBox[{"2", " ", "M"}], "-", 
-       RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], "3"], " ", 
-    RowBox[{"(", 
-     RowBox[{
-      SuperscriptBox["\[ScriptCapitalL]", "2"], "+", 
-      SuperscriptBox[
-       RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"]}], ")"}], " ", 
-    RowBox[{
-     SuperscriptBox["\[Delta]", "\[Prime]",
-      MultilineFunction->None], "[", 
-     RowBox[{"r", "-", 
-      RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], "]"}], " ", 
-    RowBox[{"(", 
-     RowBox[{
-      RowBox[{"\[Lambda]", " ", 
-       RowBox[{"(", 
-        RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
-       RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], " ", 
-       RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\
-\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[List[\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
-\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
-        "t", "]"}]}], "-", 
-      RowBox[{
-      "8", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
-       RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
-OverscriptBox[\\\\\\\"X\\\\\\\", \
-\\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
-DisplayForm]\\)\"\>", "[", "t", "]"}]}]}], ")"}]}], 
-   RowBox[{
-    SuperscriptBox["\[ScriptCapitalE]", "2"], " ", "\[Lambda]", " ", 
-    RowBox[{"(", 
-     RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
-    SuperscriptBox[
-     RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\"]\
-\\)\"\>", "[", "t", "]"}], "6"]}]], "+", 
   RowBox[{
-   FractionBox["1", 
+   RowBox[{"(", 
     RowBox[{
-     SuperscriptBox["\[ScriptCapitalE]", "2"], " ", "\[Lambda]", " ", 
-     RowBox[{"(", 
-      RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
      SuperscriptBox[
-      RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "7"]}]], 
-   RowBox[{
-    RowBox[{"\[Delta]", "[", 
-     RowBox[{"r", "-", 
-      RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], "]"}], " ", 
-    RowBox[{"(", 
-     RowBox[{
-      RowBox[{
-       RowBox[{"-", "2"}], " ", "M", " ", 
-       SuperscriptBox["\[ScriptCapitalE]", "2"], " ", "\[Lambda]", " ", 
-       RowBox[{"(", 
-        RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
-       SuperscriptBox[
-        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
-\"]\\)\"\>", "[", "t", "]"}], "5"], " ", 
-       RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\
-\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[List[\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
-\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
-        "t", "]"}]}], "-", 
-      RowBox[{"\[Lambda]", " ", 
-       RowBox[{"(", 
-        RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{"2", " ", "M"}], "-", 
-         RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], " ", 
-       RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], " ", 
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{"2", " ", "M", " ", 
-          SuperscriptBox["\[ScriptCapitalE]", "2"], " ", 
-          SuperscriptBox[
-           
-           RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "3"]}], "+", 
-         RowBox[{
-          RowBox[{"(", 
-           RowBox[{
-            RowBox[{"2", " ", "M"}], "-", 
-            
-            RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\
-\"\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], " ", 
-          RowBox[{"(", 
-           RowBox[{
-            RowBox[{"5", " ", "M", " ", 
-             SuperscriptBox["\[ScriptCapitalL]", "2"]}], "-", 
-            RowBox[{
-             SuperscriptBox["\[ScriptCapitalL]", "2"], " ", 
-             
-             RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], "+", 
-            RowBox[{"3", " ", "M", " ", 
-             SuperscriptBox[
-              
-              RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\
-\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"]}]}], ")"}]}]}], ")"}], " ", 
-       RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\
-\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[List[\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
-\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
-        "t", "]"}]}], "+", 
-      RowBox[{"4", " ", 
-       SuperscriptBox["M", "2"], " ", 
-       SuperscriptBox["\[ScriptCapitalE]", "2"], " ", "\[Lambda]", " ", 
-       RowBox[{"(", 
-        RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
-       SuperscriptBox[
-        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
-\"]\\)\"\>", "[", "t", "]"}], "5"], " ", 
-       RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*SubscriptBox[\\(\[PartialD]\\\
-), \\(r\\)]\\)\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\\\\*RowBox[{\
-\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*RowBox[{\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"X\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\", \
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
-\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
-        "t", "]"}]}], "-", 
-      RowBox[{"4", " ", "M", " ", 
-       SuperscriptBox["\[ScriptCapitalE]", "2"], " ", "\[Lambda]", " ", 
-       RowBox[{"(", 
-        RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
-       SuperscriptBox[
-        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
-\"]\\)\"\>", "[", "t", "]"}], "6"], " ", 
-       RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*SubscriptBox[\\(\[PartialD]\\\
-), \\(r\\)]\\)\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\\\\*RowBox[{\
-\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*RowBox[{\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"X\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\", \
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
-\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
-        "t", "]"}]}], "+", 
-      RowBox[{"\[Lambda]", " ", 
-       RowBox[{"(", 
-        RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
-       SuperscriptBox[
-        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
-\"]\\)\"\>", "[", "t", "]"}], "2"], " ", 
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{
-          SuperscriptBox["\[ScriptCapitalE]", "2"], " ", 
-          SuperscriptBox[
-           
-           RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "5"]}], "+", 
-         RowBox[{
-          SuperscriptBox[
-           RowBox[{"(", 
-            RowBox[{
-             RowBox[{
-              RowBox[{"-", "2"}], " ", "M"}], "+", 
-             
-             RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], "2"], " ", 
-          RowBox[{"(", 
-           RowBox[{
-            RowBox[{
-             SuperscriptBox["\[ScriptCapitalE]", "2"], " ", 
-             SuperscriptBox[
-              
-              RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\
-\\\"\\\"]\\)\"\>", "[", "t", "]"}], "3"]}], "+", 
-            RowBox[{
-             RowBox[{"(", 
-              RowBox[{
-               RowBox[{"2", " ", "M"}], "-", 
-               
-               RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], " ", 
-             RowBox[{"(", 
-              RowBox[{
-               SuperscriptBox["\[ScriptCapitalL]", "2"], "+", 
-               SuperscriptBox[
-                
-                RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\
-\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"]}], ")"}]}]}], ")"}]}]}], ")"}], 
-       " ", 
-       RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*SubscriptBox[\\(\[PartialD]\\\
-), \\(r\\)]\\)\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\\\\*RowBox[{\
-\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*RowBox[{\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"X\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\", \
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
-\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
-        "t", "]"}]}], "+", 
-      RowBox[{"2", " ", 
-       SuperscriptBox["\[ScriptCapitalE]", "2"], " ", "\[Lambda]", " ", 
-       RowBox[{"(", 
-        RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
-       SuperscriptBox[
-        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
-\"]\\)\"\>", "[", "t", "]"}], "7"], " ", 
+      RowBox[{"(", 
        RowBox[{
-        SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "\[Prime]",
-         MultilineFunction->None], "[", "t", "]"}], " ", 
-       RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*SubscriptBox[\\(\[PartialD]\\\
-), \\(t\\)]\\)\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\\\\*RowBox[{\
-\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*RowBox[{\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"X\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\", \
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
-\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
-        "t", "]"}]}], "+", 
+        RowBox[{"2", " ", "M"}], "-", 
+        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
+\"]\\)\"\>", "[", "t", "]"}]}], ")"}], "3"], " ", 
+     RowBox[{"(", 
       RowBox[{
-      "8", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{"2", " ", "M"}], "-", 
-         RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], " ", 
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{"2", " ", "M", " ", 
-          SuperscriptBox["\[ScriptCapitalE]", "2"], " ", 
-          SuperscriptBox[
-           
-           RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "3"]}], "+", 
-         RowBox[{
-          RowBox[{"(", 
-           RowBox[{
-            RowBox[{"2", " ", "M"}], "-", 
-            
-            RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\
-\"\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], " ", 
-          RowBox[{"(", 
-           RowBox[{
-            RowBox[{"5", " ", "M", " ", 
-             SuperscriptBox["\[ScriptCapitalL]", "2"]}], "-", 
-            RowBox[{
-             SuperscriptBox["\[ScriptCapitalL]", "2"], " ", 
-             
-             RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], "+", 
-            RowBox[{"3", " ", "M", " ", 
-             SuperscriptBox[
-              
-              RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\
-\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"]}]}], ")"}]}]}], ")"}], " ", 
-       RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
-OverscriptBox[\\\\\\\"X\\\\\\\", \
-\\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
-DisplayForm]\\)\"\>", "[", "t", "]"}]}], "+", 
-      RowBox[{
-      "8", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{
-          SuperscriptBox["\[ScriptCapitalE]", "2"], " ", 
-          SuperscriptBox[
-           
-           RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "5"]}], "+", 
-         RowBox[{
-          SuperscriptBox[
-           RowBox[{"(", 
-            RowBox[{
-             RowBox[{
-              RowBox[{"-", "2"}], " ", "M"}], "+", 
-             
-             RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], "2"], " ", 
-          RowBox[{"(", 
-           RowBox[{
-            RowBox[{
-             SuperscriptBox["\[ScriptCapitalE]", "2"], " ", 
-             SuperscriptBox[
-              
-              RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\
-\\\"\\\"]\\)\"\>", "[", "t", "]"}], "3"]}], "+", 
-            RowBox[{
-             RowBox[{"(", 
-              RowBox[{
-               RowBox[{"2", " ", "M"}], "-", 
-               
-               RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], " ", 
-             RowBox[{"(", 
-              RowBox[{
-               SuperscriptBox["\[ScriptCapitalL]", "2"], "+", 
-               SuperscriptBox[
-                
-                RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\
-\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"]}], ")"}]}]}], ")"}]}]}], ")"}], 
-       " ", 
-       RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
-OverscriptBox[\\\\\\\"X\\\\\\\", \
-\\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
-DisplayForm]\\)\"\>", "[", "t", "]"}]}], "+", 
-      RowBox[{"4", " ", "M", " ", 
-       SuperscriptBox["\[ScriptCapitalE]", "2"], " ", 
+       SuperscriptBox["\[ScriptCapitalL]", "2"], "+", 
        SuperscriptBox[
         RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
-\"]\\)\"\>", "[", "t", "]"}], "4"], " ", 
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{"M", " ", "\[Lambda]", " ", 
-          RowBox[{"(", 
-           RowBox[{"1", "+", "\[Lambda]"}], ")"}], " ", 
-          
-          RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\
-\\!\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\
+\"]\\)\"\>", "[", "t", "]"}], "2"]}], ")"}], " ", 
+     RowBox[{
+      SuperscriptBox["\[Delta]", "\[Prime]",
+       MultilineFunction->None], "[", 
+      RowBox[{"r", "-", 
+       RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], "]"}], " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"l", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "2"}], "-", "l", "+", 
+          RowBox[{"2", " ", 
+           SuperscriptBox["l", "2"]}], "+", 
+          SuperscriptBox["l", "3"]}], ")"}], " ", 
+        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
+\"]\\)\"\>", "[", "t", "]"}], " ", 
+        RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\\
+!\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[\
+\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[\
 List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -3105,34 +2540,556 @@ List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
 \\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
-           "t", "]"}]}], "-", 
-         RowBox[{
-         "4", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
-          
-          RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
+         "t", "]"}]}], "-", 
+       RowBox[{
+       "32", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
+        RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
 OverscriptBox[\\\\\\\"X\\\\\\\", \
 \\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
-DisplayForm]\\)\"\>", "[", "t", "]"}]}]}], ")"}]}], "+", 
-      RowBox[{"8", " ", "\[Pi]", " ", "\[ScriptCapitalE]", " ", 
-       SuperscriptBox["\[ScriptCapitalL]", "2"], " ", "\[Mu]", " ", 
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{"2", " ", "M"}], "-", 
-         RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], " ", 
-       SuperscriptBox[
-        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
-\"]\\)\"\>", "[", "t", "]"}], "3"], " ", 
+DisplayForm]\\)\"\>", "[", "t", "]"}]}]}], ")"}]}], ")"}], "/", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", "l", " ", 
+     RowBox[{"(", 
+      RowBox[{"1", "+", "l"}], ")"}], " ", 
+     RowBox[{"(", 
+      RowBox[{"2", "+", "l"}], ")"}], " ", 
+     SuperscriptBox["\[ScriptCapitalE]", "2"], " ", 
+     SuperscriptBox[
+      RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "6"]}], ")"}]}], "-", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"\[Delta]", "[", 
+      RowBox[{"r", "-", 
+       RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], "]"}], " ", 
+     RowBox[{"(", 
+      RowBox[{
        RowBox[{
-        SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
-\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "\[Prime]",
-         MultilineFunction->None], "[", "t", "]"}], " ", 
-       RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
+        RowBox[{"-", "4"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", "l", " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", "l"}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{"2", "+", "l"}], ")"}], " ", "M", " ", 
+        SuperscriptBox["\[ScriptCapitalE]", "2"], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"2", " ", "M"}], "-", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\
+\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], " ", 
+        SuperscriptBox[
+         RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "4"], " ", 
+        RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\\
+!\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[\
+List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
+\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
+         "t", "]"}]}], "-", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"1", "-", "l"}], ")"}], " ", "l", " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", "l"}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{"2", "+", "l"}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"2", " ", "M"}], "-", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\
+\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], " ", 
+        RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\
+\"]\\)\"\>", "[", "t", "]"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"4", " ", "M", " ", 
+           SuperscriptBox["\[ScriptCapitalE]", "2"], " ", 
+           SuperscriptBox[
+            
+            RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\
+\"\\\"]\\)\"\>", "[", "t", "]"}], "3"]}], "+", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"2", " ", "M"}], "-", 
+             
+             RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"5", " ", "M", " ", 
+              SuperscriptBox["\[ScriptCapitalL]", "2"]}], "-", 
+             RowBox[{
+              SuperscriptBox["\[ScriptCapitalL]", "2"], " ", 
+              
+              RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\
+\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], "+", 
+             RowBox[{"3", " ", "M", " ", 
+              SuperscriptBox[
+               
+               RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"]}]}], ")"}]}]}], 
+         ")"}], " ", 
+        RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\\
+!\\\\\\\\(\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[\
+List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
+\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
+         "t", "]"}]}], "-", 
+       RowBox[{"2", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", "l", " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", "l"}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{"2", "+", "l"}], ")"}], " ", 
+        SuperscriptBox["\[ScriptCapitalE]", "2"], " ", 
+        SuperscriptBox[
+         RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "5"], " ", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"-", "2"}], " ", "M"}], "+", 
+           
+           RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], "2"], " ", 
+        RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*SubscriptBox[\\(\[PartialD]\
+\\), \\(r\\)]\\)\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\\\\*\
+RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*\
+RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
+\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
+         "t", "]"}]}], "-", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", "l", " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", "l"}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{"2", "+", "l"}], ")"}], " ", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"2", " ", "M"}], "-", 
+           
+           RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], "3"], " ", 
+        SuperscriptBox[
+         RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          SuperscriptBox["\[ScriptCapitalL]", "2"], "+", 
+          SuperscriptBox[
+           
+           RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"]}], ")"}], " ", 
+        RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*SubscriptBox[\\(\[PartialD]\
+\\), \\(r\\)]\\)\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\\\\*\
+RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*\
+RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
+\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
+         "t", "]"}]}], "-", 
+       RowBox[{"2", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", "l", " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", "l"}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{"2", "+", "l"}], ")"}], " ", 
+        SuperscriptBox["\[ScriptCapitalE]", "2"], " ", 
+        SuperscriptBox[
+         RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "7"], " ", 
+        RowBox[{
+         SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\
+\\\\\"\\\"]\\)\"\>", "\[Prime]",
+          MultilineFunction->None], "[", "t", "]"}], " ", 
+        RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*SubscriptBox[\\(\[PartialD]\
+\\), \\(t\\)]\\)\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\\\\*\
+RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*\
+RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\"Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", Rule[SyntaxForm, SuperscriptBox]]\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\
+\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
+         "t", "]"}]}], "+", 
+       RowBox[{"64", " ", "M", " ", "\[Pi]", " ", 
+        SuperscriptBox["\[ScriptCapitalE]", "2"], " ", "\[ScriptCapitalL]", 
+        " ", "\[Mu]", " ", 
+        SuperscriptBox[
+         RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "4"], " ", 
+        RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
+OverscriptBox[\\\\\\\"X\\\\\\\", \
+\\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
+DisplayForm]\\)\"\>", "[", "t", "]"}]}], "-", 
+       RowBox[{
+       "32", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"2", " ", "M"}], "-", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\
+\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"2", " ", "M", " ", 
+           SuperscriptBox["\[ScriptCapitalE]", "2"], " ", 
+           SuperscriptBox[
+            
+            RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\
+\"\\\"]\\)\"\>", "[", "t", "]"}], "3"]}], "+", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"2", " ", "M"}], "-", 
+             
+             RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"5", " ", "M", " ", 
+              SuperscriptBox["\[ScriptCapitalL]", "2"]}], "-", 
+             RowBox[{
+              SuperscriptBox["\[ScriptCapitalL]", "2"], " ", 
+              
+              RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\
+\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], "+", 
+             RowBox[{"3", " ", "M", " ", 
+              SuperscriptBox[
+               
+               RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"]}]}], ")"}]}]}], 
+         ")"}], " ", 
+        RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
+OverscriptBox[\\\\\\\"X\\\\\\\", \
+\\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
+DisplayForm]\\)\"\>", "[", "t", "]"}]}], "-", 
+       RowBox[{
+       "32", " ", "\[Pi]", " ", "\[ScriptCapitalL]", " ", "\[Mu]", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox["\[ScriptCapitalE]", "2"], " ", 
+           SuperscriptBox[
+            
+            RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\
+\"\\\"]\\)\"\>", "[", "t", "]"}], "5"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"-", "2"}], " ", "M"}], "+", 
+              
+              RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\
+\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], "2"], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{
+              SuperscriptBox["\[ScriptCapitalE]", "2"], " ", 
+              SuperscriptBox[
+               
+               RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "3"]}], "+", 
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"2", " ", "M"}], "-", 
+                
+                RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\
+\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], " ", 
+              RowBox[{"(", 
+               RowBox[{
+                SuperscriptBox["\[ScriptCapitalL]", "2"], "+", 
+                SuperscriptBox[
+                 
+                 RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"]}], ")"}]}]}], 
+            ")"}]}]}], ")"}], " ", 
+        RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
+OverscriptBox[\\\\\\\"X\\\\\\\", \
+\\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\\\"], \
+DisplayForm]\\)\"\>", "[", "t", "]"}]}], "-", 
+       RowBox[{"32", " ", "\[Pi]", " ", "\[ScriptCapitalE]", " ", 
+        SuperscriptBox["\[ScriptCapitalL]", "2"], " ", "\[Mu]", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"2", " ", "M"}], "-", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\
+\\\"]\\)\"\>", "[", "t", "]"}]}], ")"}], " ", 
+        SuperscriptBox[
+         RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "3"], " ", 
+        RowBox[{
+         SuperscriptBox["\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\
+\\\\\"\\\"]\\)\"\>", "\[Prime]",
+          MultilineFunction->None], "[", "t", "]"}], " ", 
+        RowBox[{"\<\"\\!\\(\\*TagBox[SubscriptBox[\\\"\\\\!\\\\(\\\\*\
 OverscriptBox[\\\\\\\"X\\\\\\\", \
 \\\\\\\"\\\\\\\\\\\\\\\"_\\\\\\\\\\\\\\\"\\\\\\\"]\\\\)\\\", \\\"\[Phi]\[Phi]\
-\\\"], DisplayForm]\\)\"\>", "[", "t", "]"}]}]}], ")"}]}]}]}]], "Output",
+\\\"], DisplayForm]\\)\"\>", "[", "t", "]"}]}]}], ")"}]}], ")"}], "/", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", "l", " ", 
+     RowBox[{"(", 
+      RowBox[{"1", "+", "l"}], ")"}], " ", 
+     RowBox[{"(", 
+      RowBox[{"2", "+", "l"}], ")"}], " ", 
+     SuperscriptBox["\[ScriptCapitalE]", "2"], " ", 
+     SuperscriptBox[
+      RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
+\\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "7"]}], 
+    ")"}]}]}]], "Output",
  CellLabel->
-  "Out[10]=",ExpressionUUID->"60cb673d-760b-4640-8473-103e27d1d278"]
+  "Out[10]=",ExpressionUUID->"e05e2c13-380c-4f99-8ddf-3f157cba1ad7"]
 }, Open  ]]
 }, Open  ]],
 
@@ -3141,7 +3098,7 @@ Cell[CellGroupData[{
 Cell["\<\
 Finally, we plug in for the jumps in the master function and its derivatives.\
 \
-\>", "Item",ExpressionUUID->"0c904301-759f-46bc-8014-294c8c29eec9"],
+\>", "Item",ExpressionUUID->"0f01eb02-409c-4c1d-9c85-29d6e902d479"],
 
 Cell[BoxData[{
  RowBox[{
@@ -3164,7 +3121,7 @@ Cell[BoxData[{
      RowBox[{"{", 
       RowBox[{"0", ",", "1"}], "}"}], ",", 
      RowBox[{"Parity", "\[Rule]", "\"\<Odd\>\""}]}], "]"}]}], ";"}]}], "Input",
- CellLabel->"In[11]:=",ExpressionUUID->"f862518c-dec7-4e3f-835d-b05f081d77f7"],
+ CellLabel->"In[11]:=",ExpressionUUID->"1829892d-e515-410e-80da-dc34444919bc"],
 
 Cell[CellGroupData[{
 
@@ -3209,7 +3166,7 @@ Cell[BoxData[
       RowBox[{
        RowBox[{"jump", "[", "__", "]"}], "[", "__", "]"}], "[", "t", "]"}]}], 
     "}"}], ",", "Simplify"}], "]"}]], "Input",
- CellLabel->"In[14]:=",ExpressionUUID->"76accb7c-744b-4ff6-a2bf-917219543366"],
+ CellLabel->"In[14]:=",ExpressionUUID->"29510666-c275-41f8-a837-b646230374fc"],
 
 Cell[BoxData[
  RowBox[{
@@ -3221,36 +3178,36 @@ Cell[BoxData[
 \\)\"\>", "[", "t", "]"}]}], "]"}], " ", 
    RowBox[{"(", 
     RowBox[{
-     RowBox[{"-", 
-      FractionBox[
-       RowBox[{"2", " ", 
-        RowBox[{"(", 
+     FractionBox[
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
          RowBox[{
-          RowBox[{"2", " ", "M"}], "-", "r"}], ")"}], " ", 
-        RowBox[{"(", 
-         RowBox[{
-          RowBox[{"3", " ", "M"}], "-", 
-          RowBox[{"r", " ", 
-           RowBox[{"(", 
-            RowBox[{"1", "+", "\[Lambda]"}], ")"}]}]}], ")"}], " ", 
-        RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\
-\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",\
- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\
+          RowBox[{"-", "2"}], " ", "M"}], "+", "r"}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"6", " ", "M"}], "-", 
+         RowBox[{"l", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", "l"}], ")"}], " ", "r"}]}], ")"}], " ", 
+       RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\
+\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\
-], \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\
-Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"],\
+ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"Superscript\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
 Rule[SyntaxForm, \
 SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\"\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"-\\\\\\\"\\\"], \
 \\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
-         RowBox[{"t", ",", "r"}], "]"}]}], 
-       SuperscriptBox["r", "4"]]}], "+", 
+        RowBox[{"t", ",", "r"}], "]"}]}], 
+      SuperscriptBox["r", "4"]], "+", 
      FractionBox[
       RowBox[{"2", " ", "M", " ", 
        RowBox[{"(", 
@@ -3340,36 +3297,36 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\)\"\>", "[", "t", "]"}]}], "]"}], " ", 
    RowBox[{"(", 
     RowBox[{
-     RowBox[{"-", 
-      FractionBox[
-       RowBox[{"2", " ", 
-        RowBox[{"(", 
+     FractionBox[
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
          RowBox[{
-          RowBox[{"2", " ", "M"}], "-", "r"}], ")"}], " ", 
-        RowBox[{"(", 
-         RowBox[{
-          RowBox[{"3", " ", "M"}], "-", 
-          RowBox[{"r", " ", 
-           RowBox[{"(", 
-            RowBox[{"1", "+", "\[Lambda]"}], ")"}]}]}], ")"}], " ", 
-        RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\
-\\\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",\
- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\
+          RowBox[{"-", "2"}], " ", "M"}], "+", "r"}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"6", " ", "M"}], "-", 
+         RowBox[{"l", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", "l"}], ")"}], " ", "r"}]}], ")"}], " ", 
+       RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\
+\\\\\\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\"X\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"CPM\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\
-], \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\
-Superscript\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
+\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"],\
+ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"Superscript\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", \
 Rule[SyntaxForm, \
 SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\"\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"+\\\\\\\"\\\"], \
 \\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
-         RowBox[{"t", ",", "r"}], "]"}]}], 
-       SuperscriptBox["r", "4"]]}], "+", 
+        RowBox[{"t", ",", "r"}], "]"}]}], 
+      SuperscriptBox["r", "4"]], "+", 
      FractionBox[
       RowBox[{"2", " ", "M", " ", 
        RowBox[{"(", 
@@ -3453,12 +3410,12 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
        MultilineFunction->None], "[", 
       RowBox[{"t", ",", "r"}], "]"}]}], ")"}]}]}]], "Output",
  CellLabel->
-  "Out[14]=",ExpressionUUID->"56e41075-53c8-44d5-b421-60ee4b80d0d7"]
+  "Out[14]=",ExpressionUUID->"ca13225e-2134-4d1d-bdfc-c032864af7b8"]
 }, Open  ]]
 }, Open  ]],
 
 Cell["We are left with only the homogeneous solutions.", \
-"Item",ExpressionUUID->"c83b587d-127d-4377-b216-1a15d21325b7"]
+"Item",ExpressionUUID->"173836c1-1d60-4cf7-94e9-8a693f4e2db0"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3500,42 +3457,42 @@ Cell["", "RelatedTutorialsSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
    None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"9e1d450c-340e-4424-be39-460d4c6797a4"],
+  0,ExpressionUUID->"84356cc8-6e78-43a6-8b2d-76dd635f780c"],
 
 Cell[TextData[ButtonBox["Source terms",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Source terms"]], \
-"RelatedTutorials",ExpressionUUID->"3234ddfa-4cfd-4b55-9577-28303b66210b"],
+"RelatedTutorials",ExpressionUUID->"8e70229f-b403-4b36-ac86-8e3fa5deeb6a"],
 
 Cell[TextData[ButtonBox["Time domain amplitudes",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Time domain amplitudes"]], \
-"RelatedTutorials",ExpressionUUID->"2578b051-f8b1-4a48-8761-b06d73ad794c"],
+"RelatedTutorials",ExpressionUUID->"76b92f0c-8d00-4af5-893b-b3f1b76c51bd"],
 
 Cell[TextData[ButtonBox["Discontinuities",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Discontinuities"]], \
-"RelatedTutorials",ExpressionUUID->"d697cc83-752f-4322-a6a3-60127acac208"],
+"RelatedTutorials",ExpressionUUID->"90b633a4-f589-426d-a60d-521cafb9dd7a"],
 
 Cell[TextData[ButtonBox["Weak functions",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Weak functions"]], \
-"RelatedTutorials",ExpressionUUID->"0fd53c3a-9ca4-404b-8b3b-7c0a6195a704"],
+"RelatedTutorials",ExpressionUUID->"282951d6-ee2f-434d-9000-28c21dd7a4e1"],
 
 Cell[TextData[ButtonBox["Field equations on Schwarzschild",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Field equations on Schwarzschild"]], \
-"RelatedTutorials",ExpressionUUID->"c90cdbee-fb42-4711-a660-a4055bd7de47"]
+"RelatedTutorials",ExpressionUUID->"a20720a1-9a67-4454-9a13-f8bcf057ca32"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[" ", \
-"FooterCell",ExpressionUUID->"b43d5270-f377-43f9-9f97-f7d8fbf2f215"]
+"FooterCell",ExpressionUUID->"c39b7bea-888b-40d8-87b7-2ca5bab13964"]
 },
 Saveable->False,
 ScreenStyleEnvironment->"Working",

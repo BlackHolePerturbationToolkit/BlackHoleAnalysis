@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"46af76ed-0678-4bca-8bab-1a83ab9402ae"],
+   0}},ExpressionUUID->"c86b844b-a9e5-4276-aedf-78df89297057"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,11 +15,11 @@ Cell[TextData[{
  ButtonBox["QttSource",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/QttSource"]
-}], "LinkTrail",ExpressionUUID->"c03d1339-a9e1-4d4c-a69c-0aa317148569"],
+}], "LinkTrail",ExpressionUUID->"def3433b-9dc4-4c68-a366-afa45101c1d8"],
 
 Cell[BoxData[GridBox[{
    {Cell["BLACKHOLEANALYSIS`SOURCES PACLET SYMBOL", "PacletNameCell",
-     ExpressionUUID->"7579826f-66a0-474e-8c75-9d1dca8ae5ea"], Cell[TextData[{
+     ExpressionUUID->"d2570031-1466-4d4b-8733-de66522f3590"], Cell[TextData[{
      Cell[BoxData[
       ActionMenuBox[
        FrameBox["\<\"Tutorials \[RightGuillemet]\"\>",
@@ -37,7 +37,7 @@ variables"]},
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "37e88d3e-e90e-41f8-9d0b-744a25c30ed2"],
+      "36d7c010-ce7b-4cc4-a544-81992b14b837"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -63,16 +63,16 @@ variables"]},
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "43b46672-e218-4871-9699-8e6c90c11fe4"],
+      "11cb3c3c-6959-4812-ace8-d124e4177bfb"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]"
-    }], "AnchorBar",ExpressionUUID->"b01cf673-865b-412d-a2a8-ef845b9b9be3"]}
-  }]], "AnchorBarGrid",ExpressionUUID->"a2c2ad9f-7976-42dd-ab9f-9e8ccc5b541d"],
+    }], "AnchorBar",ExpressionUUID->"41691c0c-e061-432e-982d-e8207ea73e99"]}
+  }]], "AnchorBarGrid",ExpressionUUID->"825743d0-2625-4f9c-b935-5abcbfaf1a2b"],
 
 Cell[CellGroupData[{
 
 Cell["QttSource", \
-"ObjectName",ExpressionUUID->"f6a4cad1-4297-4d35-817d-14de94691c0e"],
+"ObjectName",ExpressionUUID->"56eafecf-02cf-4c92-9ad4-7f18200a41c0"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -81,12 +81,12 @@ Cell[BoxData[GridBox[{
        ButtonBox["QttSource",
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/QttSource"], "[", "]"}]], 
-      "InlineFormula",ExpressionUUID->"f294d6b4-7cad-43a7-a2b7-cc6e35bad95a"],
+      "InlineFormula",ExpressionUUID->"62cac768-410e-4ac0-b437-a30efcb85bfd"],
      
      "\[LineSeparator]returns the metric perturbation amplitude source term \
 Qtt in symbolic form."
-    }],ExpressionUUID->"a462bef9-69f6-4856-85a9-e97f425a710e"]}
-  }]], "Usage",ExpressionUUID->"502e29ab-c433-4241-9b85-8a3433d1b239"]
+    }],ExpressionUUID->"478f967f-6b65-4457-a146-bc6246000a22"]}
+  }]], "Usage",ExpressionUUID->"af39f80c-b24c-4312-9d29-816009460e39"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -132,33 +132,33 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"e033fa80-8a27-47ef-a90c-30842abee7c2"],
+  0,ExpressionUUID->"301534f8-9e29-4c79-bf1d-3bb347739642"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"48640b58-3612-4944-a390-a6c8ea60dd35"],
+"Notes",ExpressionUUID->"411b1f54-aa50-43ae-9b5c-cb29e01c76d5"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "3ae5ff9b-42ae-4bf2-8d36-89e35f281739"], "Capital", "True", Cell["\<\
+     "66447ea9-4e04-43fa-8a06-7fdcbd621d52"], "Capital", "True", Cell["\<\
 Sepcifies whether to return the uppercase symbol (which includes the Dirac \
 delta) or the lowercase symbol (which does not)\
-\>", "TableText",ExpressionUUID->"4865aa80-c8f1-4e01-9194-3306ffd133db"]},
+\>", "TableText",ExpressionUUID->"78e2f9be-3e47-4702-b1a9-a24a7524b670"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "bf39a1d9-8c57-4d11-9195-4453db02ce9d"], "Indices", "Down", Cell[
+     "2ebbc25c-36f4-4e58-b73c-11380d480c0e"], "Indices", "Down", Cell[
     "Position of the indices, (\"Up\" or \"Down\")", "TableText",
-     ExpressionUUID->"4d3177ec-ff45-4c72-87d3-02724eba82d7"]},
+     ExpressionUUID->"f6bd7c76-f23a-44e1-ba58-23a86d07d2a4"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "c9313945-1e2f-479c-8170-afc8909dc5fe"], "ReturnSymbol", "False", 
+     "62631565-6f42-422a-9015-d1061156e402"], "ReturnSymbol", "False", 
     Cell["\<\
 Boolean stating whether to only return the symbol of the source term (with no \
 arguments)\
-\>", "TableText",ExpressionUUID->"e189808c-b1fd-4ec1-a3d8-60e59bb23fe8"]},
+\>", "TableText",ExpressionUUID->"2af84899-5117-4ce0-a3ca-ecbbf7e5aaa0"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "690f6268-ec50-4ee8-9763-e01cd688f333"], "SourceExpansion", "Full", 
+     "4d415fbc-1af0-4381-b1b7-fd41c5d0fb6a"], "SourceExpansion", "Full", 
     Cell["\<\
 States to what extent source terms should be expanded, (\"Full\", \
 \"Partial\", or \"None\")\
-\>", "TableText",ExpressionUUID->"6eec09b1-6f6d-41d0-be72-f5a6bde322b2"]}
+\>", "TableText",ExpressionUUID->"bbcfddb6-4ef3-40f1-b14d-16ac72ed40f1"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -170,7 +170,7 @@ States to what extent source terms should be expanded, (\"Full\", \
  GridBoxDividers->{
   "Rows" -> {{
      True, True, True, True, 
-      True}}}},ExpressionUUID->"0076e733-f9eb-4b46-ab78-26bc5dbe7796"]
+      True}}}},ExpressionUUID->"c526494f-17a0-4741-9b59-1937d345b76b"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -212,8 +212,8 @@ Cell["", "PrimaryExamplesSection",
    None, None}},
  CellFrameLabelMargins->0,
  CellTags->
-  "PrimaryExamplesSection",ExpressionUUID->"c0851721-184e-4170-b0d2-\
-64550da81382"],
+  "PrimaryExamplesSection",ExpressionUUID->"41d3bd2f-b07d-41f2-8603-\
+cc67661e6813"],
 
 Cell[CellGroupData[{
 
@@ -221,13 +221,13 @@ Cell[TextData[{
  "Basic Examples",
  "\[NonBreakingSpace]\[NonBreakingSpace]",
  Cell["(1)", "ExampleCount",ExpressionUUID->
-  "2fbbb72a-e7d0-4a9a-8a34-f7675f067925"]
-}], "ExampleSection",ExpressionUUID->"ac638c1f-b17f-4743-bcf1-06077dc56805"],
+  "4a4d1343-1ca2-497e-b40d-12bf8acc4c15"]
+}], "ExampleSection",ExpressionUUID->"3f73f473-dd8f-4c71-83b1-0ae31154fce9"],
 
 Cell[CellGroupData[{
 
 Cell["QttSource[]", "Input",
- CellLabel->"In[1]:=",ExpressionUUID->"f3700c65-9386-4b11-be93-8fc6ba2b9e86"],
+ CellLabel->"In[1]:=",ExpressionUUID->"141a8574-87fe-4a6d-a4f1-0ab1cba673d9"],
 
 Cell[BoxData[
  FractionBox[
@@ -247,7 +247,7 @@ Cell[BoxData[
   SuperscriptBox[
    RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}], "2"]]], "Output",
- CellLabel->"Out[1]:= ",ExpressionUUID->"c95f0b4e-d64b-453d-a480-b1feebe5d7bc"]
+ CellLabel->"Out[1]:= ",ExpressionUUID->"9f7fd0b4-0837-4d33-b6eb-6f9521a1ffcf"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -289,7 +289,7 @@ Cell["", "SeeAlsoSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
    None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"241a177c-4102-41a1-8a57-4de788780f55"],
+  0,ExpressionUUID->"4aa8a014-e77b-4627-a709-366e2e49b4f8"],
 
 Cell[TextData[{
  Cell[BoxData[
@@ -299,7 +299,7 @@ Cell[TextData[{
     ButtonData->
      "paclet:BlackHoleAnalysis/ref/MetricPerturbationSourceFunction"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "f89e2670-e207-40c8-baee-17a0face3697"],
+  "1300187d-08a3-4c86-b5df-03bdc758a62f"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -310,7 +310,7 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/QtrSource"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "d3a321c9-f5f3-4bb3-a34e-f7ebd17baa90"],
+  "9dd30233-b94d-423d-9291-c49eed86fe3e"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -321,7 +321,7 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/QrrSource"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "20bed6ca-e511-4119-ba63-fcaadc753fcb"],
+  "e00f0fc1-96cb-4434-96e2-d86d8134b721"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -332,7 +332,7 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/QtSource"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "fffaed90-76d5-485d-ba43-4a9af73b0c6e"],
+  "233a91ac-3934-47ee-b05c-02224235edef"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -343,7 +343,7 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/QrSource"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "3c56eb05-1f6d-4fbc-9482-b018d2c10115"],
+  "ea5c761d-fae2-433d-b419-bab7404b14b3"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -354,7 +354,7 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/QSharpSource"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "b8ab3b1b-a850-4355-897e-5a73c2d46f18"],
+  "c120ddce-2cc1-4639-b231-8a496d56c4b6"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -365,7 +365,7 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/QFlatSource"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "3a0d4ca2-becc-4cf6-9268-0ae67794ecfa"],
+  "db5c10bb-7435-4ac5-b4c2-66d621bf5c7a"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -376,7 +376,7 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/PtSource"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "782de1ac-7294-472a-9634-7f279da8de06"],
+  "71d93310-4652-468b-911a-6fc70c288d3a"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -387,7 +387,7 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/PrSource"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "5dbd1896-ce71-445a-b8df-4a4cacebdae4"],
+  "a7b9d097-8709-402a-8df1-b9a15e324cf2"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -398,8 +398,8 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/PSource"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "8d4ac92b-48c5-4a88-8842-df8ccbd2b1ea"]
-}], "SeeAlso",ExpressionUUID->"50532d0f-2157-404d-b10c-4123c249ff3e"]
+  "7c0d67d4-8a77-4cc9-bec5-85034845d432"]
+}], "SeeAlso",ExpressionUUID->"1dde75dc-17cc-4ca4-96ea-f14afef4b644"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -441,33 +441,33 @@ Cell["", "TutorialsSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
    None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"91d3b89d-f06e-4bad-a9ed-7f40b81721d1"],
+  0,ExpressionUUID->"b50cc2c0-f015-4ae3-91b2-cf73c619fa92"],
 
 Cell[TextData[ButtonBox["Source terms",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Source terms"]], \
-"Tutorials",ExpressionUUID->"4e4422ad-4839-46ea-a1e0-188f4cc00064"],
+"Tutorials",ExpressionUUID->"6f85f9e1-b612-4a60-895e-506cc210ed67"],
 
 Cell[TextData[ButtonBox["Equations of motion",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Equations of motion"]], \
-"Tutorials",ExpressionUUID->"cfb1cec2-a5ff-4b5d-a22c-a09a38516112"],
+"Tutorials",ExpressionUUID->"56371df8-64e5-46ef-93a2-ae4cf2666020"],
 
 Cell[TextData[ButtonBox["Using labels to act on groups of variables",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Using labels to act on groups of \
 variables"]], \
-"Tutorials",ExpressionUUID->"3195dac8-85d5-481d-a467-e55a6eb8a930"]
+"Tutorials",ExpressionUUID->"05d4a041-d59c-40bf-968b-b87bc6451c81"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"5ffceed1-89cd-42fe-b274-e703af603324"],
+Cell[" ", "FooterCell",ExpressionUUID->"0fcf48a7-2c60-4405-b095-50aaa6153eb2"],
 
-Cell[BoxData[""],ExpressionUUID->"7488cabd-3dd4-4f60-b01b-883cb045e38e"]
+Cell[BoxData[""],ExpressionUUID->"ad1f84ef-2217-4740-8a7c-cbe152aaab61"]
 }, Open  ]]
 },
 Saveable->False,

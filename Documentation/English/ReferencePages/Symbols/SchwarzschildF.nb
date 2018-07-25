@@ -1,0 +1,87 @@
+Notebook[{
+Cell[" ", "SymbolColorBar",
+ CellMargins->{{Inherited, Inherited}, {-5, 
+   0}},ExpressionUUID->"288af031-bbe4-47d1-bc7e-f574ab3565e4"],
+
+Cell[TextData[{
+ ButtonBox["BlackHoleAnalysis",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["BlackHoleAnalysis`Coordinates",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->
+   "paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis`Coordinates"],
+ StyleBox[" > ", "LinkTrailSeparator"],
+ ButtonBox["SchwarzschildF",
+  BaseStyle->{"Link", "LinkTrail"},
+  ButtonData->"paclet:BlackHoleAnalysis/ref/SchwarzschildF"]
+}], "LinkTrail",ExpressionUUID->"c8bf56d6-fe2b-4f09-b884-42e839a4e7f7"],
+
+Cell[CellGroupData[{
+
+Cell["SchwarzschildF", \
+"ObjectName",ExpressionUUID->"885b833b-e4c1-40c1-ab51-880d34499cd3"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["SchwarzschildF",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/SchwarzschildF"], "[", 
+       StyleBox[
+        RowBox[{"r", ",", "M"}], "TI"], "]"}]], "InlineFormula",
+      ExpressionUUID->"709e133e-eea7-430c-be39-d782872f2f14"],
+     "\[LineSeparator]returns the Schwarzschild redshift 1-2M/r."
+    }],ExpressionUUID->"5d6d7d88-3e76-41b3-827e-5e6b261fd71d"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       ButtonBox["SchwarzschildF",
+        BaseStyle->"Link",
+        ButtonData->"paclet:BlackHoleAnalysis/ref/SchwarzschildF"], "[", 
+       "]"}]], "InlineFormula",ExpressionUUID->
+      "754cd4e0-01d1-49e8-afc8-53e43f195916"],
+     "\[LineSeparator]returns SchwarzschildF[r,M] using built-in symbols."
+    }],ExpressionUUID->"513e96cd-38ed-4f0f-b281-23f71576c1d4"]}
+  }]], "Usage",ExpressionUUID->"a6824b53-acad-4da4-ae36-04150989e09b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" ", "FooterCell",ExpressionUUID->"3560e08b-d456-4903-b83e-a0b1166ec3e9"],
+
+Cell[BoxData[""],ExpressionUUID->"339d3889-4500-45d3-b4c6-ed7cf62a7db3"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{725, 750},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"SchwarzschildF",
+Visible->True,
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+TaggingRules->{
+ "ModificationHighlight" -> False, 
+  "Metadata" -> {
+   "context" -> "BlackHoleAnalysis`", 
+    "keywords" -> {"SchwarzschildF", "SCHWARZSCHILDF", "schwarzschildf"}, 
+    "index" -> True, "label" -> 
+    "BlackHoleAnalysis/BlackHoleAnalysis`Coordinates Symbol", "language" -> 
+    "en", "paclet" -> "BlackHoleAnalysis`Coordinates", "status" -> "None", 
+    "summary" -> 
+    "SchwarzschildF[r,M] returns the Schwarzschild redshift 1-2M/r.\n\
+SchwarzschildF[] returns SchwarzschildF[r,M] using built-in symbols.", 
+    "synonyms" -> {"SchwarzschildF", "SCHWARZSCHILDF", "schwarzschildf"}, 
+    "title" -> "SchwarzschildF", "windowTitle" -> "SchwarzschildF", "type" -> 
+    "Symbol", "uri" -> "BlackHoleAnalysis/ref/SchwarzschildF", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> "", "LinkTrails" -> 
+  ""},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+

@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "GuideColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"fe28ab41-af51-4b67-994b-18ddb048b301"],
+   0}},ExpressionUUID->"b125424e-0522-4a05-89e7-561940bf4f41"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -12,11 +12,11 @@ Cell[TextData[{
 calculations",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/guide/BlackHoleAnalysis"]
-}], "LinkTrail",ExpressionUUID->"71f4467a-0b95-4d59-921b-a376ceb8f3be"],
+}], "LinkTrail",ExpressionUUID->"24f92836-0377-49f1-b021-897bf229ed14"],
 
 Cell[BoxData[GridBox[{
    {Cell["BLACKHOLEANALYSIS GUIDE", "PacletNameCell",ExpressionUUID->
-     "463cd441-2fe9-4e90-82e8-a2c5b39b36c9"], Cell[TextData[{
+     "61b22ecd-5f78-41f6-8dcd-4c389508e19b"], Cell[TextData[{
      Cell[BoxData[
       ActionMenuBox[
        FrameBox["\<\"Tutorials \[RightGuillemet]\"\>",
@@ -61,7 +61,7 @@ variables"],
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "a60a3b03-ea6a-41d1-a367-4c26cdc1b4ec"],
+      "d3a7f072-ba00-4665-824d-f3904c5d6547"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -80,259 +80,259 @@ variables"],
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "31999c25-a879-4012-a4f0-413dd3dbf89c"]
-    }], "AnchorBar",ExpressionUUID->"1613a9cf-000a-47a5-b98f-4cf4b360b225"]}
-  }]], "AnchorBarGrid",ExpressionUUID->"f8abfd4c-5a9d-4b0f-8763-6d49f7556e3c"],
+      "53927209-1a6c-4fe1-bef0-2f4b9d555768"]
+    }], "AnchorBar",ExpressionUUID->"1e37edf6-25ab-494b-990f-dbb4ee0c174e"]}
+  }]], "AnchorBarGrid",ExpressionUUID->"c4460b61-b520-4282-a173-1df3d3ba8fc7"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 BlackHoleAnalysis: An application for mode-by-mode black hole calculations\
-\>", "GuideTitle",ExpressionUUID->"dd53248a-2153-4e77-b305-9348e8433d75"],
+\>", "GuideTitle",ExpressionUUID->"01b06541-c1fe-4e43-ad32-43f4d3d769c8"],
 
 Cell["\<\
 The BlackHoleAnalysis application provides functions for black hole \
 calculations, particularly at the mode-by-mode level.\
-\>", "GuideAbstract",ExpressionUUID->"35dcd6e9-e6c5-4a8e-82cc-b36d5164591c"],
+\>", "GuideAbstract",ExpressionUUID->"28d037f2-02ea-4c88-a4f2-cba45c38c836"],
 
 Cell[CellGroupData[{
 
 Cell["Field equations", \
-"GuideFunctionsSubsection",ExpressionUUID->"81f990cd-29f6-4b59-92eb-\
-877226bd49c3"],
+"GuideFunctionsSubsection",ExpressionUUID->"2febe58a-cef8-41c9-8784-\
+d113bfee8df3"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["FieldEquations",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/FieldEquations"]], 
-  "InlineFunctionSans",ExpressionUUID->"6ea5c547-8f38-41ac-95b5-e98bb5a08daa"],
+  "InlineFunctionSans",ExpressionUUID->"c21a47ff-2ebf-4972-a8e7-7a6d0e646bd0"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "The field equations for the lm modes on Schwarzschild"
-}], "GuideText",ExpressionUUID->"2d7f9dee-c8ce-4f15-87fc-c6bc7ea399e9"],
+}], "GuideText",ExpressionUUID->"2fc8b4ff-c9af-42e5-80d5-fe5eab692b89"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["MasterEquation",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/MasterEquation"]], 
-  "InlineFunctionSans",ExpressionUUID->"7a9a948b-1185-426d-9546-2e3df1b0eec8"],
+  "InlineFunctionSans",ExpressionUUID->"86f2e392-3006-42b5-8d9c-c6650d86c6b8"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "The RWZ - style master equation"
-}], "GuideText",ExpressionUUID->"b345b149-6ed9-4290-ac86-f89110517520"],
+}], "GuideText",ExpressionUUID->"d52bd523-9e01-41db-9313-029fffdbb96c"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["TeukolskyEquation",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/TeukolskyEquation"]], 
-  "InlineFunctionSans",ExpressionUUID->"6bb33be2-e031-4ad1-8aba-51c978a4f2e3"],
+  "InlineFunctionSans",ExpressionUUID->"aaa12264-f0ca-453a-b264-deae994d714b"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "The homogeneous Teukolsky equation"
-}], "GuideText",ExpressionUUID->"300a7d2a-b35e-43ee-9883-735d74000d0c"],
+}], "GuideText",ExpressionUUID->"cf49364b-7d2a-4a54-9a41-5ba8d302efc2"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["SasakiNakamuraEquation",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/SasakiNakamuraEquation"]], 
-  "InlineFunctionSans",ExpressionUUID->"a80bdf00-b6f4-4b10-9496-6c40be542039"],
+  "InlineFunctionSans",ExpressionUUID->"f1833993-e0e6-4a1e-a85a-316467d90bde"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "The homogeneous Sasaki-Nakamura equation"
-}], "GuideText",ExpressionUUID->"8a777071-ae96-402e-8060-ca1efdd182ce"]
+}], "GuideText",ExpressionUUID->"76b0b234-4433-4b45-ab38-cef2f7a28fbb"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Fields", \
-"GuideFunctionsSubsection",ExpressionUUID->"875d3b16-e5f6-4a8a-b30b-\
-a73911be7d95"],
+"GuideFunctionsSubsection",ExpressionUUID->"ea85e73a-fc56-4f9b-a284-\
+027e359a42d4"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["MasterFunction",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/MasterFunction"]], 
-  "InlineFunctionSans",ExpressionUUID->"2243585f-8f1d-49ba-aaf4-6590dee98ab9"],
+  "InlineFunctionSans",ExpressionUUID->"94943e8d-5bb6-4958-b6a7-0e5c9af82582"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "RWZ - style master function"
-}], "GuideText",ExpressionUUID->"a1d8563c-a9bf-4514-8cbb-f1cc8a974dce"],
+}], "GuideText",ExpressionUUID->"27a6d885-772e-40a9-b1fa-493c54c525eb"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["TeukolskyFunction",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/TeukolskyFunction"]], 
-  "InlineFunctionSans",ExpressionUUID->"0b6df75d-ebf5-4446-9ba1-c75f6e68d389"],
+  "InlineFunctionSans",ExpressionUUID->"0531e284-c47e-44db-82fd-aeeb9d467fd7"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "4D Teukolsky function"
-}], "GuideText",ExpressionUUID->"36994c64-84f4-40a9-a184-8874730a969d"],
+}], "GuideText",ExpressionUUID->"3c2729fe-dc65-49f0-bb71-2660c7b42c01"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["RadialTeukolskyFunction",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/RadialTeukolskyFunction"]], 
-  "InlineFunctionSans",ExpressionUUID->"824aa88e-8744-4b6b-8042-b3d1d16afca0"],
+  "InlineFunctionSans",ExpressionUUID->"f15b1f59-695d-4081-9e28-0105d702945d"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "1D radial Teukolsky function"
-}], "GuideText",ExpressionUUID->"b8ada82c-349a-4005-9f0a-4148fed4d987"],
+}], "GuideText",ExpressionUUID->"0e2948b7-9001-447b-889c-7910ea7b41dd"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["SasakiNakamuraFunction",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/SasakiNakamuraFunction"]], 
-  "InlineFunctionSans",ExpressionUUID->"9549d14f-029d-4eb3-b165-9492d4543b11"],
+  "InlineFunctionSans",ExpressionUUID->"340ed12a-d385-4775-9ed3-d83bc5bae710"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Spin -2 Sasaki-Nakamura function"
-}], "GuideText",ExpressionUUID->"f85c829a-a274-42b4-a5da-30c03d051acb"],
+}], "GuideText",ExpressionUUID->"486378b4-a04e-4258-847c-03351854b6e7"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["HttAmplitude",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/HttAmplitude"]], 
-  "InlineFunctionSans",ExpressionUUID->"dfb59bef-35e3-40ed-aacf-1cc41b867e1c"],
+  "InlineFunctionSans",ExpressionUUID->"ec9c7813-7298-4c24-af99-d2fc1ca49b15"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Martel-Poisson even-parity MP amplitude htt. Similar functions exist for \
 htr, hrr, jt, jr, K, G, ht, hr and h2."
-}], "GuideText",ExpressionUUID->"122fb102-23bb-4052-9883-85d66a7a5b4f"],
+}], "GuideText",ExpressionUUID->"5255e3c0-40ec-4651-9316-f532bae503d0"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["AmplitudeFunction",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/AmplitudeFunction"]], 
-  "InlineFunctionSans",ExpressionUUID->"5c3b6198-bd7e-4cec-9d16-69992a27f573"],
+  "InlineFunctionSans",ExpressionUUID->"a8c99a39-9409-410d-b0a5-9f3ee1d4b87d"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Provides the function that gives a field for an associated label"
-}], "GuideText",ExpressionUUID->"375a56a8-ef31-48bb-af3f-29ff3ab3a612"],
+}], "GuideText",ExpressionUUID->"fd247aa7-5371-48f8-b597-ebc722c6c7fd"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["HttInvariantAmplitude",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/HttInvariantAmplitude"]], 
-  "InlineFunctionSans",ExpressionUUID->"8398ace2-4f5b-49a2-bddd-892bf7b40cdf"],
+  "InlineFunctionSans",ExpressionUUID->"e3d547ce-acf1-488b-a765-ea5f95ce5314"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Martel-Poisson even-parity MP gauge-invariant amplitude htt. Similar \
 functions exist for htr, hrr, K, ht and hr."
-}], "GuideText",ExpressionUUID->"76a6d19d-924b-4cf6-8485-86f4248090c3"],
+}], "GuideText",ExpressionUUID->"157c12a3-d364-4a79-b8b3-f3adfbc5f8af"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["InvariantAmplitudeFunction",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/InvariantAmplitudeFunction"]], 
-  "InlineFunctionSans",ExpressionUUID->"30766ace-7bd3-4ea9-8729-c5ae41e6da54"],
+  "InlineFunctionSans",ExpressionUUID->"eb62fcc9-a69f-403d-9374-239741c9be9c"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Provides the function that gives a gauge-invariant field for an associated \
 label"
-}], "GuideText",ExpressionUUID->"b3303566-7911-488e-8c16-4dc4150ae266"],
+}], "GuideText",ExpressionUUID->"bdea22c4-6301-4c80-b592-cd15560e5c18"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["HttPush",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/HttPush"]], "InlineFunctionSans",
-  ExpressionUUID->"a439eda1-feb4-4bf1-b24d-3e60b35c0c24"],
+  ExpressionUUID->"640ebb54-bade-40b7-9f58-33edbd08b274"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "How the Martel-Poisson even-parity MP amplitude htt changes under a gauge \
 transformation. Similar functions exist for htr, hrr, jt, jr, K, G, ht, hr \
 and h2."
-}], "GuideText",ExpressionUUID->"d8a0f842-b1dc-4538-b617-0a71313b8ca6"],
+}], "GuideText",ExpressionUUID->"f7ba043f-b410-465b-b7d3-6e3333b0a8c1"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["PushFunction",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/PushFunction"]], 
-  "InlineFunctionSans",ExpressionUUID->"532d9649-db54-4fe9-807c-d0cd2ef77e88"],
+  "InlineFunctionSans",ExpressionUUID->"915776a7-2b94-474a-946e-f558d4478068"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Provides the function that gives the push equation for the associated \
 label"
-}], "GuideText",ExpressionUUID->"81b34125-bb52-4815-8c5a-8070aa03f0bb"]
+}], "GuideText",ExpressionUUID->"c17b6b6f-3a53-42bc-ad11-fe421a0c7fc6"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Source terms", \
-"GuideFunctionsSubsection",ExpressionUUID->"cd140d66-bec3-4e8e-9742-\
-0d37679741ba"],
+"GuideFunctionsSubsection",ExpressionUUID->"6daab7c8-0042-44da-9a88-\
+2c12863bc07b"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["MasterEquationSource",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/MasterEquationSource"]], 
-  "InlineFunctionSans",ExpressionUUID->"723c38bd-c826-43da-ba14-d77cfcd6a838"],
+  "InlineFunctionSans",ExpressionUUID->"72277b99-7e34-4384-bc69-6b47c5ff61d2"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Source terms to the RWZ - style master equation"
-}], "GuideText",ExpressionUUID->"7ed52a39-ebd4-48d4-bc86-6453eecd1897"],
+}], "GuideText",ExpressionUUID->"c5a64816-22ef-4805-b1ec-b1041f161973"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["QttSource",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/QttSource"]], 
-  "InlineFunctionSans",ExpressionUUID->"15eb4622-2ba5-430b-b664-a64e457887d6"],
+  "InlineFunctionSans",ExpressionUUID->"64742f46-6a28-45c5-b378-e1e4cdb5903c"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Martel-Poisson even-parity source Qtt. Similar functions exist for Qtr, \
 Qrr, Qt, Qr, QSharp, QFlat, Pt, Pr and P."
-}], "GuideText",ExpressionUUID->"7f7d52f5-e7ea-46c9-a1fa-7a89d0664b1b"],
+}], "GuideText",ExpressionUUID->"2235f86a-1ea8-467f-bb18-601dde7dce82"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["MetricPerturbationSourceFunction",
   BaseStyle->"Link",
   ButtonData->
    "paclet:BlackHoleAnalysis/ref/MetricPerturbationSourceFunction"]], 
-  "InlineFunctionSans",ExpressionUUID->"05dc1922-09df-48df-993c-e7a2cdea851d"],
+  "InlineFunctionSans",ExpressionUUID->"a9acdfe7-dbe9-472f-b5f3-1bcd61db42b2"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Provides the function that gives a source for an associated label"
-}], "GuideText",ExpressionUUID->"92b007dc-9678-438f-98cb-a64b8559712b"]
+}], "GuideText",ExpressionUUID->"070b505f-7cc4-4e86-b1a5-1b642f4a514b"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Spherical harmonics", \
-"GuideFunctionsSubsection",ExpressionUUID->"ec900efa-5645-418c-b9f7-\
-0b101eda766c"],
+"GuideFunctionsSubsection",ExpressionUUID->"e0004253-ca5b-40b1-88c1-\
+4484d43ee74a"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["YHarmonic",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/YHarmonic"]], 
-  "InlineFunctionSans",ExpressionUUID->"552d37b3-1e5a-4c4b-824a-d21d9f998e5d"],
+  "InlineFunctionSans",ExpressionUUID->"7159ae9b-e4ce-455f-abab-d9a09d6b3501"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Scalar spherical harmonic, or spin-weighted spherical harmonic"
-}], "GuideText",ExpressionUUID->"269f1c22-d404-4d3c-83cf-084e8230da96"],
+}], "GuideText",ExpressionUUID->"3c657b64-cfa4-433e-b075-6d8996c22bf8"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["YTheta",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/YTheta"]], "InlineFunctionSans",
-  ExpressionUUID->"30900203-2c6b-4527-bcfd-5b29bb2af3b2"],
+  ExpressionUUID->"382e3ac9-495d-413c-b625-8002638a8a69"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
@@ -340,424 +340,424 @@ Cell[TextData[{
 for Y_\[Phi], Y_\[Theta]\[Theta], Y_\[Theta]\[Phi], Y_\[Phi]\[Phi], \
 X_\[Theta], X_\[Phi], X_\[Theta]\[Theta], X_\[Theta]\[Phi] and \
 X_\[Phi]\[Phi]"
-}], "GuideText",ExpressionUUID->"8f8bfed7-3d65-4b61-b8f6-dac7e90f75bd"],
+}], "GuideText",ExpressionUUID->"aa32af00-753c-44f3-bee2-7855e1829754"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["SpinWeightedSpheroidalHarmonicFunction",
   BaseStyle->"Link",
   ButtonData->
    "paclet:BlackHoleAnalysis/ref/SpinWeightedSpheroidalHarmonicFunction"]], 
-  "InlineFunctionSans",ExpressionUUID->"1da85b53-826c-4aa8-8c79-dd80a5ad7ac2"],
+  "InlineFunctionSans",ExpressionUUID->"7f533ce9-63b7-4219-ad1b-b4255e634263"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Symbolic representation of the spin-weighted spheroidal harmonic"
-}], "GuideText",ExpressionUUID->"cee6a0d7-2420-4546-8aca-042cc8b68e55"],
+}], "GuideText",ExpressionUUID->"ac86dcad-2b03-4386-aa95-939a0cd1a90c"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["SphericalHarmonicFunction",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/SphericalHarmonicFunction"]], 
-  "InlineFunctionSans",ExpressionUUID->"02f0abac-1d35-45e8-9206-571f386c7fac"],
+  "InlineFunctionSans",ExpressionUUID->"ad6e8586-d6fb-498e-ada4-edb8163780fe"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Provides the function that gives a harmonic for an associated label"
-}], "GuideText",ExpressionUUID->"66cd6fc1-8bec-4ef5-afc3-d8503bcae416"]
+}], "GuideText",ExpressionUUID->"54afdce9-83d8-42b4-844a-37b325d014f3"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Orbital parameters", \
-"GuideFunctionsSubsection",ExpressionUUID->"9fbb2c9f-d6e0-4f9c-beeb-\
-02c8f3bfdbb7"],
+"GuideFunctionsSubsection",ExpressionUUID->"07154bce-dc82-4b00-895a-\
+1942e7c68917"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["FourVelocity",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/FourVelocity"]], 
-  "InlineFunctionSans",ExpressionUUID->"e9356afc-2935-4649-983e-80ef50699e67"],
+  "InlineFunctionSans",ExpressionUUID->"2c46ab45-4f11-474b-a285-e42d741e4af1"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Four-velocity for a particle in eccentric equatorial motion on \
 Schwarzschild or Kerr"
-}], "GuideText",ExpressionUUID->"2cb03e1b-bd5e-4349-b1c0-bd2bb3c44db3"],
+}], "GuideText",ExpressionUUID->"70d9f1bb-1045-4325-9d39-eca3fc6ccedc"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["SpecificEnergy",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificEnergy"]], 
-  "InlineFunctionSans",ExpressionUUID->"10669fb9-30d0-4e54-90d8-cc4ef398e646"],
+  "InlineFunctionSans",ExpressionUUID->"e5e29e4d-3e1f-4430-a943-f691e808d674"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Specific energy in terms of semi-latus rectum p & eccentricity e"
-}], "GuideText",ExpressionUUID->"e7be5c44-cafd-400d-b32e-5075d651798a"],
+}], "GuideText",ExpressionUUID->"71952b9c-5fa6-4c6a-8f04-f5e9b55ba124"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["SpecificAngularMomentum",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificAngularMomentum"]], 
-  "InlineFunctionSans",ExpressionUUID->"9b8b7d53-ba51-403a-b730-3cec5b5b31c7"],
+  "InlineFunctionSans",ExpressionUUID->"8c1fd20d-fbc0-4a1e-b755-f630855dbf36"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Specific angular momentum in terms of semi-latus rectum p & eccentricity e"
-}], "GuideText",ExpressionUUID->"4cdd787d-4b2b-4b7a-8ec9-8ad7a1c0443e"],
+}], "GuideText",ExpressionUUID->"47b52533-dcf6-445e-8313-737ad0b61e95"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["Periapsis",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/Periapsis"]], 
-  "InlineFunctionSans",ExpressionUUID->"12ce0d9a-00b6-455b-a83e-ceadd102a87a"],
+  "InlineFunctionSans",ExpressionUUID->"e37ea359-0b5b-4d06-92a3-a3d6178a05e8"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "r_min in terms of semi-latus rectum p & eccentricity e"
-}], "GuideText",ExpressionUUID->"2a952d7f-cce8-4414-9e58-9a9e13533697"],
+}], "GuideText",ExpressionUUID->"a349ab95-597e-477b-b682-cd816afc2811"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["Apoapsis",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/Apoapsis"]], "InlineFunctionSans",
-  ExpressionUUID->"9072afc4-77d7-4e7a-b2d9-eb1ee8b3bb68"],
+  ExpressionUUID->"88a4a984-4e7a-43c0-a2fb-80565b62cbb7"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "r_max in terms of semi-latus rectum p & eccentricity e"
-}], "GuideText",ExpressionUUID->"5dc7ce22-c75d-4fd9-af4f-8bc5df85f2eb"],
+}], "GuideText",ExpressionUUID->"916d934b-2d4b-40ce-b5d9-9b5e96e224b6"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["SemiLatusRectum",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/SemiLatusRectum"]], 
-  "InlineFunctionSans",ExpressionUUID->"ffaebc1f-1d5a-4a73-935c-a8dfe9572c41"],
+  "InlineFunctionSans",ExpressionUUID->"cd0b5953-2de3-43d9-b3cd-3e0d388bf806"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Semi-latus rectum in terms of r_min and r_max"
-}], "GuideText",ExpressionUUID->"c78eacc4-463e-4018-a53c-b2010a8e1b4a"],
+}], "GuideText",ExpressionUUID->"0640c1dd-9d3b-4dcd-80c1-9c9a7769d290"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["OrbitalEccentricity",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/OrbitalEccentricity"]], 
-  "InlineFunctionSans",ExpressionUUID->"220cf548-daaa-4587-a82a-9dba25d3cdcf"],
+  "InlineFunctionSans",ExpressionUUID->"c8efe698-ab84-4389-96f9-e3ba0731c6ae"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Orbital eccentricity in terms of r_min and r_max"
-}], "GuideText",ExpressionUUID->"c1bbe369-2233-43f5-9ce5-a4e63679d630"],
+}], "GuideText",ExpressionUUID->"3814358f-8860-4b80-bc84-ab79e40e423a"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["USquared",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/USquared"]], "InlineFunctionSans",
-  ExpressionUUID->"a9e54933-089c-40f1-b45c-753ec73dde74"],
+  ExpressionUUID->"ce74df65-f1f6-4a3f-a8db-d790b8abe789"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Effective potential on Schwarzschild"
-}], "GuideText",ExpressionUUID->"6f9e719f-b97e-4e1a-81e4-8b5415a3092b"],
+}], "GuideText",ExpressionUUID->"b2b96bff-b3d7-45c8-bc9a-02e08d63a863"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["Separatrix",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/Separatrix"]], 
-  "InlineFunctionSans",ExpressionUUID->"ec25bb84-56b0-4030-a494-7df8b472f792"],
+  "InlineFunctionSans",ExpressionUUID->"a6f021e8-49f9-47be-93a8-1141bc9c0cd2"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Serapation between bound and unbound orbits on Schwarzschild or Kerr"
-}], "GuideText",ExpressionUUID->"387c4118-e6a0-4752-a521-eba3d2e500fb"]
+}], "GuideText",ExpressionUUID->"fed8a723-e877-418c-8ff8-38478fbbe4aa"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Darwin's orbit parametrization", \
-"GuideFunctionsSubsection",ExpressionUUID->"1f2851e5-2bb2-4aea-92ee-\
-919a7f5604da"],
+"GuideFunctionsSubsection",ExpressionUUID->"e9a79972-2a17-4453-ae3a-\
+f77e97c430c6"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["ROfChi",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/ROfChi"]], "InlineFunctionSans",
-  ExpressionUUID->"d49c4e5c-2c41-46de-bfbb-695db2a0999b"],
+  ExpressionUUID->"160135d8-a51f-4bbf-9e81-8e5bbcd6dc55"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Radial position in terms of relativistic anomaly \[Chi] for eccentric \
 equatorial motion on Schwarzschild or Kerr"
-}], "GuideText",ExpressionUUID->"7e6138e4-c396-459c-8029-c465a068e4a9"],
+}], "GuideText",ExpressionUUID->"e0b8c23b-0821-48df-aa64-3a143044b319"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["PhiOfChi",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/PhiOfChi"]], "InlineFunctionSans",
-  ExpressionUUID->"b2e03db1-88a8-4201-9f53-4fb15b413536"],
+  ExpressionUUID->"11f7a201-34fe-4038-a119-cbfd67a3bdd4"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Azimuthal position in terms of \[Chi] on Schwarzschild"
-}], "GuideText",ExpressionUUID->"f2523654-bb2b-4b6d-bdec-2e881105528e"],
+}], "GuideText",ExpressionUUID->"960a9f3d-65c8-4a46-9641-935361e65b4c"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["DTauDChi",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/DTauDChi"]], "InlineFunctionSans",
-  ExpressionUUID->"53e3a4ba-e27d-412d-914f-e8ef0179926c"],
+  ExpressionUUID->"8b151181-e668-4119-ab76-ea8090956487"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Differential equation for proper time in terms of \[Chi] on Schwarzschild \
 or Kerr"
-}], "GuideText",ExpressionUUID->"112e9565-1c04-40f3-81b5-d24264221ade"],
+}], "GuideText",ExpressionUUID->"dc7fc61e-87dd-4f69-959f-89d4ff6ca07c"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["DTDChi",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/DTDChi"]], "InlineFunctionSans",
-  ExpressionUUID->"a9a2049e-e6a2-474e-bd81-70a42d05de42"],
+  ExpressionUUID->"45e60744-2490-428b-b724-de2afa5d47ab"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Differential equation for coordinate time in terms of \[Chi] on \
 Schwarzschild or Kerr"
-}], "GuideText",ExpressionUUID->"75257a30-8a4e-481a-9d00-139200eaa16b"],
+}], "GuideText",ExpressionUUID->"113a44c1-531e-439c-bb06-2bd410887166"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["DPhiDChi",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/DPhiDChi"]], "InlineFunctionSans",
-  ExpressionUUID->"d994fadb-019f-4516-94bf-37fc125b9479"],
+  ExpressionUUID->"7316368f-6736-455d-9e6c-ff1892f2b446"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Differential equation for Azimuthal position in terms of \[Chi] on \
 Schwarzschild or Kerr"
-}], "GuideText",ExpressionUUID->"40748f3f-fce3-4d97-9d0e-c12cf640da5d"],
+}], "GuideText",ExpressionUUID->"aa830b69-bcd6-4659-a93b-cc3885b1cfb0"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["DRDT",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/DRDT"]], "InlineFunctionSans",
-  ExpressionUUID->"b78af26d-c793-4652-aec2-828cfed01278"],
+  ExpressionUUID->"3bcb4614-a89e-4997-a0b6-a4ec615faf65"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "dr/dt in terms of \[Chi] on Schwarzschild or Kerr"
-}], "GuideText",ExpressionUUID->"75b10d96-75ac-4376-ad73-8dce507a0425"]
+}], "GuideText",ExpressionUUID->"48042dfc-4251-4f9b-91d2-b03bdee5cef8"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Discontinuities", \
-"GuideFunctionsSubsection",ExpressionUUID->"674cf66c-513f-4b8a-bdba-\
-55eb3fb9e343"],
+"GuideFunctionsSubsection",ExpressionUUID->"5999c8ec-b6c5-4bda-a473-\
+78acc428c43b"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["EvaluateDiscontinuities",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/EvaluateDiscontinuities"]], 
-  "InlineFunctionSans",ExpressionUUID->"130a89e1-b838-4737-871c-15aa7fea306c"],
+  "InlineFunctionSans",ExpressionUUID->"1c4cb82e-0533-41fc-9999-5d374b35857b"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Evaluate coefficients of delta functions, their derivatives, and the \
 derivatives of step functions."
-}], "GuideText",ExpressionUUID->"d365d19a-0ecf-4bfd-a0e6-eadc1eb67970"],
+}], "GuideText",ExpressionUUID->"4a428e25-89b0-4f03-bfd9-88db99f2e3d3"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["MasterFunctionDiscontinuities",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/MasterFunctionDiscontinuities"]], 
-  "InlineFunctionSans",ExpressionUUID->"937dceb8-51e8-4825-b6ef-023e6801b277"],
+  "InlineFunctionSans",ExpressionUUID->"f8ba81ba-3cb2-4c34-b96b-97c2dcdd7d93"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Discontinuities in the master function"
-}], "GuideText",ExpressionUUID->"a2da5e91-7ffc-4106-8a2e-df21b7719e7a"],
+}], "GuideText",ExpressionUUID->"4fa26409-b75b-45c5-b016-ec0b69be6ca8"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["HttDiscontinuities",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/HttDiscontinuities"]], 
-  "InlineFunctionSans",ExpressionUUID->"21fceb88-40f6-4dc8-8f4e-abbebda22333"],
+  "InlineFunctionSans",ExpressionUUID->"ab3bc34a-d881-4a65-a5d5-4bea36261537"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Discontinuities in the the MP amplitude htt in RWZ or Lorenz gauge. Similar \
 functions exist for htr, hrr, jt, jr, K, G, ht, hr, and h2."
-}], "GuideText",ExpressionUUID->"44cb01c6-7b7d-4bc8-89c2-8064de05feee"],
+}], "GuideText",ExpressionUUID->"104668cd-ebe5-47b8-aa0e-946790bd3686"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["DiscontinuitiesFunction",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/DiscontinuitiesFunction"]], 
-  "InlineFunctionSans",ExpressionUUID->"29dfcb47-c3ce-4e3f-ba06-e6f98ea222bb"],
+  "InlineFunctionSans",ExpressionUUID->"d9aefe2a-a681-4a4a-9846-85582f851541"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Provides the function that gives discontinuities for an associated label"
-}], "GuideText",ExpressionUUID->"db5ec079-bb1b-4078-a17e-73701838bce8"]
+}], "GuideText",ExpressionUUID->"05bb933b-11a3-423b-b383-935377699410"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Labels", \
-"GuideFunctionsSubsection",ExpressionUUID->"5687c101-8070-44e9-a763-\
-706062e12aa8"],
+"GuideFunctionsSubsection",ExpressionUUID->"e730d76a-06d5-4b92-966e-\
+a252be36d40d"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["MetricPerturbationLables",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/MetricPerturbationLables"]], 
-  "InlineFunctionSans",ExpressionUUID->"c0721ff9-38d3-4a49-a83a-927285c92db1"],
+  "InlineFunctionSans",ExpressionUUID->"faa6696a-b73e-4884-9252-101b3ac4e59d"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Labels for the MP amplitudes"
-}], "GuideText",ExpressionUUID->"45fe11d1-230e-4b89-a260-4c59507068cd"],
+}], "GuideText",ExpressionUUID->"ab19bac0-e71f-4e09-a5ed-086a20dc74fd"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["MetricPerturbationSourceLables",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/MetricPerturbationSourceLables"]],
    "InlineFunctionSans",ExpressionUUID->
-  "0f65f8cb-91cb-4571-8572-a65fdade819e"],
+  "7980b034-edab-432a-a8a1-fa7ac2aabafd"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Labels for the source terms of the decomposed field equations"
-}], "GuideText",ExpressionUUID->"27a411c6-dc7c-4b14-b220-96f1db4f0752"],
+}], "GuideText",ExpressionUUID->"1bebd839-7bb6-409c-bddd-540fbf5f4e00"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["SphericalHarmonicLabels",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/SphericalHarmonicLabels"]], 
-  "InlineFunctionSans",ExpressionUUID->"f74f78f6-78f2-4390-a28a-4a46127add3d"],
+  "InlineFunctionSans",ExpressionUUID->"3cd199dc-f81e-4b95-bd18-2764b18f6eb7"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Labels for the spherical harmonics"
-}], "GuideText",ExpressionUUID->"338bb094-8a09-470f-a324-32c501fb16d0"],
+}], "GuideText",ExpressionUUID->"d9755496-61ff-437d-a860-afa2d74b0378"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["GaugeVectorLabels",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/GaugeVectorLabels"]], 
-  "InlineFunctionSans",ExpressionUUID->"1e7065b9-329f-4a67-822f-8ec582e4680b"],
+  "InlineFunctionSans",ExpressionUUID->"9adeb4c2-2751-4c5f-8121-38cc943f22b1"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Labels for the amplitudes of the gauge vector"
-}], "GuideText",ExpressionUUID->"d6acc916-5675-470b-8e04-b6fe1f481edd"]
+}], "GuideText",ExpressionUUID->"075c0bfa-a385-48a2-b5e6-46fead4d2cf0"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Orbital functions and simplification", \
-"GuideFunctionsSubsection",ExpressionUUID->"59ef5abb-f5d4-48be-a620-\
-70bd86fd1639"],
+"GuideFunctionsSubsection",ExpressionUUID->"1d3be453-0ef2-4b38-baaa-\
+d4cb0e74526d"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["RpDotSquared",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/RpDotSquared"]], 
-  "InlineFunctionSans",ExpressionUUID->"6b48532b-3c05-4bd2-a8fe-9c7599bee18d"],
+  "InlineFunctionSans",ExpressionUUID->"3b590a5d-94fa-4e9c-b249-6ee804cd3f9d"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "The coordinate time derivative of r squared on Schwarzschild or Kerr"
-}], "GuideText",ExpressionUUID->"dbe58dd2-5546-47b7-a1e5-4a684d606edd"],
+}], "GuideText",ExpressionUUID->"b448e8ff-136c-45c5-9e5c-8e1e29174f13"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["RpDotDot",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/RpDotDot"]], "InlineFunctionSans",
-  ExpressionUUID->"822da564-12f6-48d3-bb0b-e6fdebc0a9ab"],
+  ExpressionUUID->"eced35c7-899a-4d1b-a0dc-0b031828451d"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "The second coordinate time derivative of r on Schwarzschild or Kerr"
-}], "GuideText",ExpressionUUID->"76d13086-3180-44f3-8ff5-548b2e4d7e05"],
+}], "GuideText",ExpressionUUID->"b4560a01-5d76-443e-a801-456391214628"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["RemoveRpDots",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/RemoveRpDots"]], 
-  "InlineFunctionSans",ExpressionUUID->"e83b81eb-9b46-46cc-bb2b-08ee68aaec92"],
+  "InlineFunctionSans",ExpressionUUID->"277d5630-8413-49e5-b78d-5ce80b6d2428"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Eliminate time derivative of r on Schwarzschild or Kerr"
-}], "GuideText",ExpressionUUID->"8c7f8b20-cdc8-4c39-beb9-116205122719"],
+}], "GuideText",ExpressionUUID->"e23d1e12-f8ab-48a4-9c39-62c577d05a59"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["RemovePhiPDots",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/RemovePhiPDots"]], 
-  "InlineFunctionSans",ExpressionUUID->"20fdf454-a0c8-435e-9831-5f7b04ad3263"],
+  "InlineFunctionSans",ExpressionUUID->"57bd1381-0886-48e0-a60d-9778aa918652"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Eliminate time derivative of \[Phi] on Schwarzschild or Kerr"
-}], "GuideText",ExpressionUUID->"f597fcf4-c3d7-40f8-9255-735c2b53e2e3"],
+}], "GuideText",ExpressionUUID->"a6964f5f-6881-4739-8b14-8db222ad9f44"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["RemoveSHDots",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/RemoveSHDots"]], 
-  "InlineFunctionSans",ExpressionUUID->"e77d48e9-a8f8-4452-bea8-965b457ff400"],
+  "InlineFunctionSans",ExpressionUUID->"107b381a-b40c-43ee-8f99-76cffa29357f"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Eliminate time derivatives spherical harmonics"
-}], "GuideText",ExpressionUUID->"ed0d48be-c9cf-4834-8cb4-6207e6a8b6aa"],
+}], "GuideText",ExpressionUUID->"d1ea3e62-8349-4290-85f7-98d0d85a7a7d"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["ReduceLegendreP",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/ReduceLegendreP"]], 
-  "InlineFunctionSans",ExpressionUUID->"40adbc5e-21f8-4fcc-9a05-83ac41df3491"],
+  "InlineFunctionSans",ExpressionUUID->"ee9e12bb-f209-4433-a98f-c4f84fd7febd"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Lower the order of Legendre polynomials"
-}], "GuideText",ExpressionUUID->"414f13fc-05ab-45df-a476-d834d190a2fe"]
+}], "GuideText",ExpressionUUID->"9ab1563f-95f9-41b3-b73a-e91c204ba258"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Relationships between functions", \
-"GuideFunctionsSubsection",ExpressionUUID->"ab6bc093-a440-4993-8169-\
-bb7f9b961eba"],
+"GuideFunctionsSubsection",ExpressionUUID->"460ecd4d-f690-4450-9e99-\
+91211e242f9b"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["EvenMasterFunctionAsOdd",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/EvenMasterFunctionAsOdd"]], 
-  "InlineFunctionSans",ExpressionUUID->"d81ed4b4-a2d2-4367-9a36-c50b92c1647a"],
+  "InlineFunctionSans",ExpressionUUID->"3cfe1cf5-4dfd-4f83-ac5c-cd31ae4528ac"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Even-parity Zerilli-Moncrief function in terms of the odd-parity \
 Cunningham-Price-Moncrief function."
-}], "GuideText",ExpressionUUID->"20fcc8d9-6d07-480c-b71d-fce6859a1bc8"],
+}], "GuideText",ExpressionUUID->"1986e3c0-120a-4d71-9880-2d996aac03c5"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["MasterFunctionAsTeukolskyFunction",
   BaseStyle->"Link",
   ButtonData->
    "paclet:BlackHoleAnalysis/ref/MasterFunctionAsTeukolskyFunction"]], 
-  "InlineFunctionSans",ExpressionUUID->"9ac22cb0-f24d-49b7-aa89-83c9ae7d77e7"],
+  "InlineFunctionSans",ExpressionUUID->"a5a3fccc-aa06-49fe-a42a-1362ed13abfb"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Frequency domain RWZ master function in terms of the radial Teukolsky \
 function"
-}], "GuideText",ExpressionUUID->"a3732dfd-3e4d-466b-a2c3-e4a3481f0fdb"],
+}], "GuideText",ExpressionUUID->"5e0b5960-b17f-4f1d-9b7c-7b5e67452248"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["TeukolskyFunctionAsSasakiNakamuraFunction",
@@ -765,12 +765,12 @@ Cell[TextData[{
   ButtonData->
    "paclet:BlackHoleAnalysis/ref/TeukolskyFunctionAsSasakiNakamuraFunction"]],
    "InlineFunctionSans",ExpressionUUID->
-  "ce9a7072-e156-43d7-9333-5bac82ebb57c"],
+  "ea6445e6-81f9-4d7a-9d8c-fa4fe8e1faf3"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Radial Teukolsky function in terms of the Sasaki-Nakamura function"
-}], "GuideText",ExpressionUUID->"65950229-6ce7-461f-952c-d9f7acd5f34c"],
+}], "GuideText",ExpressionUUID->"3940dc99-aff8-4379-891b-d203c0167e25"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["SasakiNakamuraFunctionAsTeukolskyFunction",
@@ -778,334 +778,334 @@ Cell[TextData[{
   ButtonData->
    "paclet:BlackHoleAnalysis/ref/SasakiNakamuraFunctionAsTeukolskyFunction"]],
    "InlineFunctionSans",ExpressionUUID->
-  "83fb6c64-be63-46d0-8663-e9f0e7f94f4d"],
+  "ef861d79-db6b-48a7-987d-c538f7e57064"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Sasaki-Nakamura function in terms of the radial Teukolsky function"
-}], "GuideText",ExpressionUUID->"ffac58cd-86c5-4f95-8319-348b99c1c565"],
+}], "GuideText",ExpressionUUID->"5f55e4ca-9e7b-456b-9bd6-9429d3db5eec"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["MartelPoissonAmplitude",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/MartelPoissonAmplitude"]], 
-  "InlineFunctionSans",ExpressionUUID->"65f01343-db49-4948-985b-bc9b7c4c6d5c"],
+  "InlineFunctionSans",ExpressionUUID->"a90df0db-6844-4df8-aae8-e22a7aa285ae"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Martel-Poisson amplitude written as Barack-Sago amplitudes"
-}], "GuideText",ExpressionUUID->"bf671dc9-f017-408d-9a83-d2dcc52c542e"],
+}], "GuideText",ExpressionUUID->"bfadcd1e-5452-42f3-a1c8-c182e4020ffa"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["BarackSagoAmplitude",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/BarackSagoAmplitude"]], 
-  "InlineFunctionSans",ExpressionUUID->"47c112f7-88f3-4d57-b1c4-f8fe170f2c9b"],
+  "InlineFunctionSans",ExpressionUUID->"4d545bf7-d95e-4541-bbf5-d3effb61d0e0"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Barack-Sago amplitude written as Martel-Poisson amplitudes"
-}], "GuideText",ExpressionUUID->"1274902f-8d3a-4bec-bb3d-d6312b2ec35f"]
+}], "GuideText",ExpressionUUID->"8d21dfcf-d847-4c22-9f56-daa69191fe22"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Removing derivatives with differential equations", \
-"GuideFunctionsSubsection",ExpressionUUID->"82d76c4c-9858-40db-89ab-\
-f38201a3f34e"],
+"GuideFunctionsSubsection",ExpressionUUID->"6e05b1e9-5d1e-47af-867c-\
+0b2279ba636e"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["RemoveMasterFunctionRDerivatives",
   BaseStyle->"Link",
   ButtonData->
    "paclet:BlackHoleAnalysis/ref/RemoveMasterFunctionRDerivatives"]], 
-  "InlineFunctionSans",ExpressionUUID->"7c45ae9c-85f9-4b07-a457-d8e2b95eab6c"],
+  "InlineFunctionSans",ExpressionUUID->"93c72ad2-4a76-4bbe-a78c-38c4bb8a23dd"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Reduce order of r-derivatives of master functions (in time or frequency \
 domain)"
-}], "GuideText",ExpressionUUID->"1e061f12-df35-42fb-99c6-b02b6a2fa32c"],
+}], "GuideText",ExpressionUUID->"a5ad9e8d-3192-4a33-a45f-b9ed02a72c5b"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["RemoveTeukolskyFunctionRDerivatives",
   BaseStyle->"Link",
   ButtonData->
    "paclet:BlackHoleAnalysis/ref/RemoveTeukolskyFunctionRDerivatives"]], 
-  "InlineFunctionSans",ExpressionUUID->"fde530a1-b360-4425-a7b4-529585aa511c"],
+  "InlineFunctionSans",ExpressionUUID->"2bc2ac65-11d9-41b8-9d88-7b8ac1c353c9"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Reduce order of r-derivatives of the radial Teukolsky function"
-}], "GuideText",ExpressionUUID->"5f6ba017-31b9-4a3d-b57b-265117c772f8"],
+}], "GuideText",ExpressionUUID->"5aaaca8d-c966-49fd-b9d2-44a3900884f7"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["RemoveSlmThetaDerivatives",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/RemoveSlmThetaDerivatives"]], 
-  "InlineFunctionSans",ExpressionUUID->"f69741ff-ac95-468f-bb3e-4cf8f78bb6f6"],
+  "InlineFunctionSans",ExpressionUUID->"3ba8cc41-7a8a-4653-bacb-18c7b8157362"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Reduce order of \[Theta]-derivatives of spin-weighted spheroidal harmonics"
-}], "GuideText",ExpressionUUID->"f6c45c58-7dd5-42c6-9ee5-43bf6c456368"],
+}], "GuideText",ExpressionUUID->"4622685f-4430-4c31-b577-1098c8f455aa"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["RemoveSasakiNakamuraFunctionRDerivatives",
   BaseStyle->"Link",
   ButtonData->
    "paclet:BlackHoleAnalysis/ref/RemoveSasakiNakamuraFunctionRDerivatives"]], 
-  "InlineFunctionSans",ExpressionUUID->"9b08be1b-ce86-47a6-a63a-75efc4d60988"],
+  "InlineFunctionSans",ExpressionUUID->"306c46ac-4678-415e-92bd-9897abbca4ae"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Reduce order of r-derivatives of the Sasaki-Nakamura function"
-}], "GuideText",ExpressionUUID->"88782c01-7ee6-4aef-aa40-2803efb5ba4a"]
+}], "GuideText",ExpressionUUID->"92f571da-b98b-4988-84f4-8111595941cc"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Post-Newtonian expressions", \
-"GuideFunctionsSubsection",ExpressionUUID->"91ff3544-b6c3-4866-b3f2-\
-883795caecd7"],
+"GuideFunctionsSubsection",ExpressionUUID->"154a9a17-3442-416d-8914-\
+991f626fa286"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["XPN",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/XPN"]], "InlineFunctionSans",
-  ExpressionUUID->"39982a06-1fda-4351-a19a-f7607630f836"],
+  ExpressionUUID->"8e5fb58c-4d53-41f7-ac8d-2a5d03f5c745"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "PN parameter x in terms of semi-latus rectum p"
-}], "GuideText",ExpressionUUID->"27034d02-381f-42c3-aefd-01c3e2624ce5"],
+}], "GuideText",ExpressionUUID->"fd6dace3-46af-40c4-9c36-b97acfa3dbf6"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["SemiLatusRectumPN",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/SemiLatusRectumPN"]], 
-  "InlineFunctionSans",ExpressionUUID->"a591a0f5-8430-413c-bc80-22be4cb0f223"],
+  "InlineFunctionSans",ExpressionUUID->"41db0fb2-7567-4ab1-9592-c454a1a50a04"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Semi-latus rectum p in terms of x"
-}], "GuideText",ExpressionUUID->"d0561827-73dd-4561-869e-bb48e17833f7"],
+}], "GuideText",ExpressionUUID->"3d1b289a-ea0b-4db2-b96f-bc257a58e081"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["OmegaPhiPN",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/OmegaPhiPN"]], 
-  "InlineFunctionSans",ExpressionUUID->"9dcf6af8-a64f-4dce-a0c7-ba2d1bb4637d"],
+  "InlineFunctionSans",ExpressionUUID->"1c61111d-2d2f-470d-87f7-2d155923a478"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Azimuthal angular frequency in a PN expansion"
-}], "GuideText",ExpressionUUID->"0c05f232-718f-48a1-bdbe-9559195c24eb"],
+}], "GuideText",ExpressionUUID->"8efda20a-f654-4e62-bbdd-c1c587ed1ed0"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["OmegaRPN",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/OmegaRPN"]], "InlineFunctionSans",
-  ExpressionUUID->"739e509b-9319-4e5c-80d6-743f023c062a"],
+  ExpressionUUID->"ddc2d41e-485a-4bac-a4c2-3db1517b6f4b"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Radial angular frequency in a PN expansion"
-}], "GuideText",ExpressionUUID->"33edf7af-e46b-469c-a9c1-68f4d6c4c38a"],
+}], "GuideText",ExpressionUUID->"74e71a39-9116-44b6-9c2f-01767a1e0b29"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["SpecificEnergyPN",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificEnergyPN"]], 
-  "InlineFunctionSans",ExpressionUUID->"f7899695-ffdf-4dfb-acb5-d8520f80521d"],
+  "InlineFunctionSans",ExpressionUUID->"63fee7e4-9a53-4a0f-836a-26a3788d5ed0"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Specific energy in a PN expansion"
-}], "GuideText",ExpressionUUID->"afb0a7d9-6c64-4ee2-85e2-56e72bdff4bc"],
+}], "GuideText",ExpressionUUID->"3b2e607e-5895-44e0-b0ec-b867117adb0b"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["SpecificAngularMomentumPN",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificAngularMomentumPN"]], 
-  "InlineFunctionSans",ExpressionUUID->"79d75c45-9546-40fc-b2b9-5d9b32dc9e40"],
+  "InlineFunctionSans",ExpressionUUID->"42cfb10b-63bb-4fdc-850a-ff40b456202c"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Specific angular momentum in a PN expansion"
-}], "GuideText",ExpressionUUID->"7a88c1fd-cc06-4ce4-aabc-3d34d4957e6e"],
+}], "GuideText",ExpressionUUID->"2281dca1-4973-492f-b8c5-2fe356900e66"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["RadialPeriodPN",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/RadialPeriodPN"]], 
-  "InlineFunctionSans",ExpressionUUID->"fb1885c4-4c07-46fc-8b71-70adafd2c5fa"],
+  "InlineFunctionSans",ExpressionUUID->"27d34246-c475-43ca-8ec9-9e0f812056eb"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Radial period in a PN expansion"
-}], "GuideText",ExpressionUUID->"79cb998c-2474-4746-9817-936f65551be0"],
+}], "GuideText",ExpressionUUID->"669bfa4e-7944-40a0-a67c-3f46878df691"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["AzimuthalAdvancePN",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/AzimuthalAdvancePN"]], 
-  "InlineFunctionSans",ExpressionUUID->"a4ab3b44-27e1-4966-9d65-6c9d1ec968f2"],
+  "InlineFunctionSans",ExpressionUUID->"ed869e57-7060-49f6-9841-50871ed43ba1"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Advance in \[Phi] during one radial period in a PN expansion"
-}], "GuideText",ExpressionUUID->"0bfd321b-e13e-414e-8931-8b205164df22"]
+}], "GuideText",ExpressionUUID->"a517f895-5dc8-4d49-bc56-7aa8ab251ccb"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Odds and ends", \
-"GuideFunctionsSubsection",ExpressionUUID->"a074bfe2-21a6-45c7-802f-\
-ca3cef1793f9"],
+"GuideFunctionsSubsection",ExpressionUUID->"a746c460-15b8-4bb3-bcc3-\
+cb366c8c6817"],
 
 Cell[TextData[{
- Cell[TextData[ButtonBox["f",
+ Cell[TextData[ButtonBox["SchwarzschildF",
   BaseStyle->"Link",
-  ButtonData->"paclet:BlackHoleAnalysis/ref/f"]], "InlineFunctionSans",
-  ExpressionUUID->"5a33ef91-6653-48be-b24b-171e9e87c108"],
+  ButtonData->"paclet:BlackHoleAnalysis/ref/SchwarzschildF"]], 
+  "InlineFunctionSans",ExpressionUUID->"fa27050d-9bcd-4a4e-af97-366e747a4742"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "1 - 2M/r"
-}], "GuideText",ExpressionUUID->"30a90c70-ddee-4217-8e40-ff7d59082ab0"],
+}], "GuideText",ExpressionUUID->"2506418e-2f24-496a-bbf1-887bebe701ae"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["KerrMetric",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/KerrMetric"]], 
-  "InlineFunctionSans",ExpressionUUID->"6588d7ad-4da0-47fd-89ee-1e5ec934d3b9"],
+  "InlineFunctionSans",ExpressionUUID->"7761fd05-8fe2-4eb1-95ea-3029272d705a"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "The Kerr metric in Boyer-Lindquist coordinates"
-}], "GuideText",ExpressionUUID->"2f5a9373-a4db-4df8-9c80-b3919b0d6722"],
+}], "GuideText",ExpressionUUID->"7084f563-f679-4140-8589-f4546b52b21c"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["SchwarzschildMetric",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/SchwarzschildMetric"]], 
-  "InlineFunctionSans",ExpressionUUID->"662478c4-6aa3-4b7a-93ee-0938dc568393"],
+  "InlineFunctionSans",ExpressionUUID->"278ed97a-3ed5-4333-b706-7d260bb6c48f"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "The Schwarzschild metric in Schwarzschild coordinates"
-}], "GuideText",ExpressionUUID->"ba613912-c939-4c03-9ce9-238a23be1f52"],
+}], "GuideText",ExpressionUUID->"f7622e69-29f8-4b3b-86ad-4c2850a6af58"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["RStarOfR",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/RStarOfR"]], "InlineFunctionSans",
-  ExpressionUUID->"2d0b4777-b836-4c56-b10e-54c187fdfd51"],
+  ExpressionUUID->"30cd5409-adaa-42f5-b090-a3a2f303953b"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Tortoise coordinate in terms of Boyer-Lindquist r"
-}], "GuideText",ExpressionUUID->"4f16dde0-cf86-459b-b105-8185cf66bd75"],
+}], "GuideText",ExpressionUUID->"359215f2-7351-49e5-a349-b4655e479f86"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["RStarToR",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/RStarToR"]], "InlineFunctionSans",
-  ExpressionUUID->"5281b0c0-dcea-4312-b3b0-e8d50593d767"],
+  ExpressionUUID->"782af94b-e044-41f7-a784-c23026eff179"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Transform Tortoise coordinate to Schwarzschild r"
-}], "GuideText",ExpressionUUID->"64f83565-7637-4e7c-a486-36dd113b7170"],
+}], "GuideText",ExpressionUUID->"907734a4-46d4-4e1b-b3d1-e7650f2ecdb0"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["ROfRStar",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/ROfRStar"]], "InlineFunctionSans",
-  ExpressionUUID->"717cdc7d-4bf7-4df8-89b6-0092b5b919a0"],
+  ExpressionUUID->"d53379c6-30cd-4feb-b073-ed21c18c0585"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Schwarzschild r in terms of Tortoise coordinate"
-}], "GuideText",ExpressionUUID->"a64d2be3-08e5-4355-aebe-9012292f50f3"],
+}], "GuideText",ExpressionUUID->"839b2f34-52ec-4b86-99a4-d448cf62d9ae"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["RToRStar",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/RToRStar"]], "InlineFunctionSans",
-  ExpressionUUID->"6020fb36-2e98-4b73-9485-8178545d98f4"],
+  ExpressionUUID->"de8558c7-2642-4f36-822e-6612edb20bb7"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Transform Schwarzschild r to Tortoise coordinate"
-}], "GuideText",ExpressionUUID->"f59d7477-b45b-41aa-b413-7a76593070d0"],
+}], "GuideText",ExpressionUUID->"3d4504cd-2855-4cf3-8242-b40e8319d797"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["ToFrequencyDomain",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/ToFrequencyDomain"]], 
-  "InlineFunctionSans",ExpressionUUID->"957b5dff-dd89-471b-aee3-742df5f4f709"],
+  "InlineFunctionSans",ExpressionUUID->"62a1eeb8-8c78-49df-97c0-30459026a460"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Replace time derivatives with -i \[Omega]"
-}], "GuideText",ExpressionUUID->"41bdadcc-0a9c-42b6-9cce-095301b26bce"],
+}], "GuideText",ExpressionUUID->"e31fbad3-28b0-4025-a7aa-f89f678eafc3"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["SigmaKerr",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/SigmaKerr"]], 
-  "InlineFunctionSans",ExpressionUUID->"35838e5f-249e-4388-b6f4-4f652da1819c"],
+  "InlineFunctionSans",ExpressionUUID->"4dae53c6-25ff-4152-99ae-02976eb2b462"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "The quantity \[CapitalSigma] used on Kerr"
-}], "GuideText",ExpressionUUID->"33642fc3-0381-40d2-8a17-92165d807647"],
+}], "GuideText",ExpressionUUID->"9ae1066a-80cd-4f66-9576-21869a49eb53"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["DeltaKerr",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/DeltaKerr"]], 
-  "InlineFunctionSans",ExpressionUUID->"526bbd3f-cbb3-4c8b-855d-318c57ecb805"],
+  "InlineFunctionSans",ExpressionUUID->"fa806974-9f83-4984-87b0-480a79ac1840"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "The quantity \[CapitalDelta] used on Kerr"
-}], "GuideText",ExpressionUUID->"e3f2abe8-2beb-4afc-a0a0-40c1b483b135"],
+}], "GuideText",ExpressionUUID->"121c1aa8-98fa-46bb-9d56-4094c650c9af"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["RPlusKerr",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/RPlusKerr"]], 
-  "InlineFunctionSans",ExpressionUUID->"246cb369-dbcd-460b-8327-bedf548bd676"],
+  "InlineFunctionSans",ExpressionUUID->"63cd5f04-36d1-4e65-a3ed-2999e5155810"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "The quantity r+ used on Kerr"
-}], "GuideText",ExpressionUUID->"21be421e-5d72-46ea-8a41-ee07c3183e45"],
+}], "GuideText",ExpressionUUID->"e6707d6a-9dd0-466a-8084-0b62ea2dfb30"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["RMinusKerr",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/RMinusKerr"]], 
-  "InlineFunctionSans",ExpressionUUID->"f5ea03fb-9f45-4a09-8f74-5d32bfa76a62"],
+  "InlineFunctionSans",ExpressionUUID->"7b36e7d0-628f-4b6d-b1f2-685445c6c684"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "The quantity r- used on Kerr"
-}], "GuideText",ExpressionUUID->"de7902c1-545d-462e-aca8-11bba3f2104b"],
+}], "GuideText",ExpressionUUID->"d5dc9a42-2577-43c7-91f4-de2cfdbdfac3"],
 
 Cell[TextData[{
  Cell[TextData[ButtonBox["LambdaToL",
   BaseStyle->"Link",
   ButtonData->"paclet:BlackHoleAnalysis/ref/LambdaToL"]], 
-  "InlineFunctionSans",ExpressionUUID->"9641a003-d265-4c2c-b5a5-0122c806bc08"],
+  "InlineFunctionSans",ExpressionUUID->"111317f6-d79e-4c09-8d78-fd89682ec339"],
  " ",
  StyleBox["\[LongDash]", "GuideEmDash"],
  " ",
  "Replace lambdas with (l+2)(l-1)/2"
-}], "GuideText",ExpressionUUID->"49aaa132-0e11-4fd5-b642-418c4b3fbcf3"]
+}], "GuideText",ExpressionUUID->"fa9c1b95-9656-444d-be06-a43629c7d7dd"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1121,105 +1121,105 @@ Cell["", "GuideTutorialsSection",
      Cell["TUTORIALS", "GuideTutorialsSection"], 
      Cell["Tutorials", "GuideTutorialsSection"]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"87a49469-6ce3-4c38-939e-bc2c82fea99c"],
+  0,ExpressionUUID->"06489d2f-2e65-49f8-a97f-05c8f6f4bf7d"],
 
 Cell[TextData[ButtonBox["Conventions",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Conventions"]], \
-"GuideTutorial",ExpressionUUID->"b736a5cb-d039-4b2e-ae87-b5a57a1cfeb4"],
+"GuideTutorial",ExpressionUUID->"931b109a-6555-4997-ab83-6ff449c89c55"],
 
 Cell[TextData[ButtonBox["Discontinuities",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Discontinuities"]], \
-"GuideTutorial",ExpressionUUID->"64356d7d-0f6e-4998-bfa4-7b6c6219321c"],
+"GuideTutorial",ExpressionUUID->"960bb66c-d400-438d-a6e0-e8f20ac7ffa9"],
 
 Cell[TextData[ButtonBox["Equations of motion",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Equations of motion"]], \
-"GuideTutorial",ExpressionUUID->"3e3885ea-fa35-4e49-aa08-6ef4e05b212f"],
+"GuideTutorial",ExpressionUUID->"dc64768b-d7e0-4782-9898-8e513a0491f6"],
 
 Cell[TextData[ButtonBox["Examples",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Examples"]], \
-"GuideTutorial",ExpressionUUID->"d3cc0c99-5e91-4b94-abbe-8f40a0a07094"],
+"GuideTutorial",ExpressionUUID->"72012eec-8a04-4a96-b274-33801d7085a5"],
 
 Cell[TextData[ButtonBox["Field equations on Schwarzschild",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Field equations on Schwarzschild"]], \
-"GuideTutorial",ExpressionUUID->"257e2856-e20b-4930-80b1-ca12cc698c02"],
+"GuideTutorial",ExpressionUUID->"db958b19-ccf3-40ae-b82c-99ac20ec859f"],
 
 Cell[TextData[ButtonBox["Kerr equations",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Kerr equations"]], \
-"GuideTutorial",ExpressionUUID->"7295724a-0b9e-4ee9-a9db-a3ce15def669"],
+"GuideTutorial",ExpressionUUID->"b2fe2a70-2205-45af-a2ca-045c3007f29e"],
 
 Cell[TextData[ButtonBox["Low order modes",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Low order modes"]], \
-"GuideTutorial",ExpressionUUID->"3f8da54f-6a00-4eb8-9148-7c5d76401fe5"],
+"GuideTutorial",ExpressionUUID->"365ae738-d691-4122-9b6d-0e68d058f6f6"],
 
 Cell[TextData[ButtonBox["Post-Newtonian expressions",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Post-Newtonian expressions"]], \
-"GuideTutorial",ExpressionUUID->"96de3ad5-8e5d-4764-b303-22856c097e18"],
+"GuideTutorial",ExpressionUUID->"8fa549d8-d35c-47ca-aa5d-bcb3dd8d7cdc"],
 
 Cell[TextData[ButtonBox["RWZ master equations",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/RWZ master equations"]], \
-"GuideTutorial",ExpressionUUID->"160784c2-fe0d-4267-a4e9-3946a90cab14"],
+"GuideTutorial",ExpressionUUID->"fbc14c82-6a2e-4175-97f5-d56cfdb3b328"],
 
 Cell[TextData[ButtonBox["Simplifying expressions",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Simplifying expressions"]], \
-"GuideTutorial",ExpressionUUID->"5c3431a2-e753-49c7-a2e6-3d4536151992"],
+"GuideTutorial",ExpressionUUID->"a21d5162-492c-4274-adaf-86aded76b406"],
 
 Cell[TextData[ButtonBox["Source terms",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Source terms"]], \
-"GuideTutorial",ExpressionUUID->"997c9931-f170-494a-aee0-4e6ce168f743"],
+"GuideTutorial",ExpressionUUID->"8e11b0d9-3a71-4ba9-b136-c806acf2d0fa"],
 
 Cell[TextData[ButtonBox["Spherical harmonics",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Spherical harmonics"]], \
-"GuideTutorial",ExpressionUUID->"1513733a-d798-4af5-9457-391d856c6a74"],
+"GuideTutorial",ExpressionUUID->"afde41b5-0307-4ea2-abb2-53d6d1d82fd8"],
 
 Cell[TextData[ButtonBox["Time domain amplitudes",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Time domain amplitudes"]], \
-"GuideTutorial",ExpressionUUID->"df341f4c-d609-492c-a583-0b8e373f847d"],
+"GuideTutorial",ExpressionUUID->"61018b6c-02db-4c54-88f6-6f6b220a0e32"],
 
 Cell[TextData[ButtonBox["Using labels to act on groups of variables",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Using labels to act on groups of \
 variables"]], \
-"GuideTutorial",ExpressionUUID->"636cdf00-87cb-4009-8574-eb18df9d8163"],
+"GuideTutorial",ExpressionUUID->"49306e1f-5e6d-4b89-afa7-2710b27a7c4b"],
 
 Cell[TextData[ButtonBox["Weak functions",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Weak functions"]], \
-"GuideTutorial",ExpressionUUID->"75bba7de-cc44-465d-8fed-e6fb38a681d1"]
+"GuideTutorial",ExpressionUUID->"df1e15d5-4b9d-4de1-8f40-a3020fdf15ce"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"a0762b46-2e32-4240-90a0-09b19f38ac17"],
+Cell[" ", "FooterCell",ExpressionUUID->"b69ec4c3-4909-4ef9-a6e8-ac043e01ff96"],
 
-Cell[BoxData[""],ExpressionUUID->"496c53fb-c9ca-4d9b-afa9-ca1b9ba54eeb"]
+Cell[BoxData[""],ExpressionUUID->"30cc7ffd-d4b9-4204-932a-0514a5835dbc"]
 }, Open  ]]
 },
 Saveable->False,

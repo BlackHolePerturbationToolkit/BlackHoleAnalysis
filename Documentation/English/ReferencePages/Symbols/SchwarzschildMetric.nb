@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"3269191b-132a-4213-81c1-fc974fa25326"],
+   0}},ExpressionUUID->"dca088de-1296-4fc4-9590-36601f1f4eac"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -16,12 +16,12 @@ Cell[TextData[{
  ButtonBox["SchwarzschildMetric",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/SchwarzschildMetric"]
-}], "LinkTrail",ExpressionUUID->"8830987b-2b5d-4ea0-9a3f-29617d3e99a4"],
+}], "LinkTrail",ExpressionUUID->"2b955e1f-49fc-404b-a68f-6203105acde2"],
 
 Cell[CellGroupData[{
 
 Cell["SchwarzschildMetric", \
-"ObjectName",ExpressionUUID->"6b8bfe91-10ac-4636-8db3-f79f438e7f57"],
+"ObjectName",ExpressionUUID->"1c259298-a8ee-4063-af65-bfe83262e044"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -31,11 +31,11 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/SchwarzschildMetric"], "[", 
        "]"}]], "InlineFormula",ExpressionUUID->
-      "ab5fdc17-4eae-43f0-86cc-5533b7f98a11"],
+      "fa02a623-9d58-4619-8889-542b09328a68"],
      "\[LineSeparator]returns the Schwarzschild metric in Schwarzschild \
 coordinates."
-    }],ExpressionUUID->"31a022a7-42d2-47f3-8457-1c85acb9ac3d"]}
-  }]], "Usage",ExpressionUUID->"404f4e73-96fe-4892-b23d-fd391eabf67f"]
+    }],ExpressionUUID->"c722f719-8e45-4279-878d-5b801921afd3"]}
+  }]], "Usage",ExpressionUUID->"399d574a-dc53-43de-9c4a-f504709242cb"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -81,28 +81,28 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"13070ffc-34f9-4e14-a9ff-08097c0c3471"],
+  0,ExpressionUUID->"a37a83d0-a99c-4b11-a10d-4fdd7b4d57ea"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"d8060b77-7b6e-4478-bb00-712466bd022c"],
+"Notes",ExpressionUUID->"8b213e26-0076-492f-ac41-bde3fa3782ba"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "f6a525f6-c6b1-4142-9706-a73a25cc7401"], "AtParticle", "False", 
+     "bbb38bde-fa73-4700-8924-ed7629b1e534"], "AtParticle", "False", 
     Cell["\<\
 Boolean stating whether to evaluate the metric components at the location of \
 the particle, r=rp[t] and theta = \[Theta]p[t]\
-\>", "TableText",ExpressionUUID->"6aa0c6fa-8216-470b-bc51-4ff7d41f7dba"]},
+\>", "TableText",ExpressionUUID->"7ffe9b57-33bf-4186-94e7-8d72a4dc6e92"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "afae6ecb-8b9a-444c-9be1-92ce993b88b6"], "Equatorial", "True", Cell["\<\
+     "f6477263-cbe9-4f72-8b21-ed7f9082d603"], "Equatorial", "True", Cell["\<\
 Boolean stating whether the particle will be confined to \[Theta]p[t] = \
 \[Pi]/2\
-\>", "TableText",ExpressionUUID->"0e5e630c-d291-4272-8ab6-91a46738e2cd"]},
+\>", "TableText",ExpressionUUID->"c293ac3d-1113-468d-b0d0-fc4eee1881e0"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "6c1ad916-5434-4a73-b0e5-25f34a9c82b1"], "Indices", "Down", Cell["\<\
+     "a19dd36b-6e21-4c57-b3f2-ab2aaa6d5a92"], "Indices", "Down", Cell["\<\
 States whether the indices should be covariant (\"Down\") or contravariant \
 (\"Up\")\
-\>", "TableText",ExpressionUUID->"0a07e065-9d3e-4ff9-a9f1-9618d2d71db6"]}
+\>", "TableText",ExpressionUUID->"397aed52-eab1-4d90-a2fc-298e71db3be8"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -114,14 +114,14 @@ States whether the indices should be covariant (\"Down\") or contravariant \
  GridBoxDividers->{
   "Rows" -> {{
      True, True, True, 
-      True}}}},ExpressionUUID->"efaec508-4a35-423e-a126-c546621e386b"]
+      True}}}},ExpressionUUID->"8218a5a3-a159-4a87-9550-54b861720403"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"089b8376-6950-4d8e-b0a2-386627011e85"],
+Cell[" ", "FooterCell",ExpressionUUID->"45ecdbdb-8bcc-4094-a1bb-c47e50d29bcb"],
 
-Cell[BoxData[""],ExpressionUUID->"a0ef2b31-6de7-4a86-bb32-3d7b6cc72ede"]
+Cell[BoxData[""],ExpressionUUID->"ab20ca18-e6ab-4ae4-89dd-f9f2a4feb64b"]
 }, Open  ]]
 },
 Saveable->False,

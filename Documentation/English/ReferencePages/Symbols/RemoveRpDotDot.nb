@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"62a40aa2-ca14-4e60-9317-fe0e43611e21"],
+   0}},ExpressionUUID->"d3b0be32-0016-44e3-a18d-75205b7a123c"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -16,12 +16,12 @@ Cell[TextData[{
  ButtonBox["RemoveRpDotDot",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/RemoveRpDotDot"]
-}], "LinkTrail",ExpressionUUID->"6c07a9ff-fbef-4ef4-bd3a-d3a966741e83"],
+}], "LinkTrail",ExpressionUUID->"334e4068-91e1-4f37-bb8e-0267212873c5"],
 
 Cell[CellGroupData[{
 
 Cell["RemoveRpDotDot", \
-"ObjectName",ExpressionUUID->"29019424-76af-4a2d-89fd-1d2b144e36f8"],
+"ObjectName",ExpressionUUID->"d33cf2cd-ca3c-4221-9e7b-a54f785bb1ff"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -31,12 +31,12 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/RemoveRpDotDot"], "[", 
        StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
-      "1cbc414b-2019-4e10-853a-23a02f857b69"],
+      "a919df6f-6fc0-48a2-919c-4d38be974941"],
      "\[LineSeparator]will replace second derivatives of r_p with respect to \
 coordinate time t with an expression involving r_p, the black hole mass, and \
 the E and J of the orbit in expr."
-    }],ExpressionUUID->"ab718c50-dfbb-43bd-b018-a7788671ed25"]}
-  }]], "Usage",ExpressionUUID->"070a9586-2acf-4665-8778-99da1ed196eb"]
+    }],ExpressionUUID->"c40f82c0-880c-4860-bd90-941bc34cc515"]}
+  }]], "Usage",ExpressionUUID->"a6dd51d8-1272-4057-a818-13e0b106a71b"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -82,17 +82,17 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"916c792d-0f0e-458a-8534-9461ff89cb2b"],
+  0,ExpressionUUID->"f8890e29-3b90-4338-9399-aae61288cfe2"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"53a6a199-3ce1-408f-a8bc-78522f4b53fa"],
+"Notes",ExpressionUUID->"0fb0b0b0-0c8f-4e43-946e-6de8e664b483"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "69718e18-20d9-4329-b798-0082d31841b3"], "Metric", "Schwarzschild", 
+     "f8e94589-5eb5-430f-bedb-862b3c45de26"], "Metric", "Schwarzschild", 
     Cell["\<\
 Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
-\>", "TableText",ExpressionUUID->"a33426fc-fe8d-4e92-b77b-d2f9ba48369b"]}
+\>", "TableText",ExpressionUUID->"539cc17d-eb54-4160-843b-726352c50181"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -103,14 +103,14 @@ Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"30326769-a1bb-4698-9d33-8089c67a04b5"]
+     True, True}}}},ExpressionUUID->"c86b996b-f847-4708-8550-49a918ab24af"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"7e2beadb-1ae4-418d-a92c-9534e460c475"],
+Cell[" ", "FooterCell",ExpressionUUID->"22b326b8-33cd-4920-af5e-febddd24e25f"],
 
-Cell[BoxData[""],ExpressionUUID->"073178b8-d1c3-440e-bc45-4746f40f27ad"]
+Cell[BoxData[""],ExpressionUUID->"cbbbf5ff-30c6-4528-9a26-fa7d1a2ab8f7"]
 }, Open  ]]
 },
 Saveable->False,

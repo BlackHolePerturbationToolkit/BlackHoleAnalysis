@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"eb1d46cb-d09c-4f1f-8c17-d3c771b7c01c"],
+   0}},ExpressionUUID->"57ce1fdd-9e55-4388-8f60-6abfb24ef50d"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,11 +15,11 @@ Cell[TextData[{
  ButtonBox["YTheta",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/YTheta"]
-}], "LinkTrail",ExpressionUUID->"cc27bae0-53d4-475f-a7a6-3e1bd11c87fc"],
+}], "LinkTrail",ExpressionUUID->"3a6a63cd-0c82-4c78-905c-231c16cf2524"],
 
 Cell[BoxData[GridBox[{
    {Cell["BLACKHOLEANALYSIS`HARMONICS PACLET SYMBOL", "PacletNameCell",
-     ExpressionUUID->"89c91cf7-a94b-4897-89ff-b577d0c9440e"], Cell[TextData[{
+     ExpressionUUID->"b221dd95-830c-409d-861b-eec67d5c90f5"], Cell[TextData[{
      Cell[BoxData[
       ActionMenuBox[
        FrameBox["\<\"Tutorials \[RightGuillemet]\"\>",
@@ -36,7 +36,7 @@ variables"]},
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "236a5041-fed2-470e-a1cb-0e5eb1e1d9a7"],
+      "56870b40-54bb-4505-9c10-b7656748ca99"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -62,16 +62,16 @@ variables"]},
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "e50d21e4-70fd-4fc9-85dd-89812baa0c06"],
+      "678ee6f6-b574-48c2-b593-6786cd1adce5"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]"
-    }], "AnchorBar",ExpressionUUID->"2bc1246c-235f-4677-8a07-de65d43388a4"]}
-  }]], "AnchorBarGrid",ExpressionUUID->"f6c42236-3acf-4552-a4b6-6e886fc855cd"],
+    }], "AnchorBar",ExpressionUUID->"872e02ac-f04c-4448-9531-23e10bcd5b2f"]}
+  }]], "AnchorBarGrid",ExpressionUUID->"a9c87c87-a137-4e86-99ee-7e422a2cf1f5"],
 
 Cell[CellGroupData[{
 
 Cell["YTheta", \
-"ObjectName",ExpressionUUID->"ddda859d-3841-4d60-9609-ab7eaa07550f"],
+"ObjectName",ExpressionUUID->"7d0f5474-537e-478f-9ff1-4143eb4c9976"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -86,12 +86,12 @@ Cell[BoxData[GridBox[{
           RowBox[{"l", ",", "m"}], "}"}], ",", 
          RowBox[{"{", 
           RowBox[{"theta", ",", "phi"}], "}"}]}], "TI"], "]"}]], 
-      "InlineFormula",ExpressionUUID->"396ff401-dc0e-49a3-a101-54601ce6def7"],
+      "InlineFormula",ExpressionUUID->"04ed3300-13e8-449f-b5ba-d462ef6e279d"],
      
      "\[LineSeparator]returns the vector spherical harmonic component \
 Y_lm_Theta[theta,phi]."
-    }],ExpressionUUID->"e1066472-5065-4588-93e7-16ca910d9c92"]}
-  }]], "Usage",ExpressionUUID->"febfa50a-5c12-4200-95b9-c79b15923f5d"]
+    }],ExpressionUUID->"0eb74b03-f895-4e89-82b2-7c01eb8becf4"]}
+  }]], "Usage",ExpressionUUID->"5a575e0b-4c0a-4b5b-9d36-98247e4f8d82"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -137,17 +137,17 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"c10f683d-cb3c-45d6-a71b-33fc457c3def"],
+  0,ExpressionUUID->"4262bf26-fc6b-4fbb-982a-b248df7d6c44"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"01faa95d-d8ce-4452-bcab-0d63b1a17e12"],
+"Notes",ExpressionUUID->"268fd53b-461a-406a-b6fa-0077b9a285ba"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "b7a10c8c-c8ba-48dc-83a2-f781dad98f67"], "Phi", "True", Cell["\<\
+     "6632868f-97ca-4a15-9146-b5c9d3596b22"], "Phi", "True", Cell["\<\
 Boolean specifying whether to include the phi factor with the spherical \
 harmonic\
-\>", "TableText",ExpressionUUID->"5e31106e-945f-4d86-b06b-8b459955fc61"]}
+\>", "TableText",ExpressionUUID->"db7792b2-b1a4-461c-a53a-cf467efdf1dc"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -158,7 +158,7 @@ harmonic\
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"7347b948-9f0b-46e8-bd52-5974f76019c4"]
+     True, True}}}},ExpressionUUID->"2374fce6-f29d-4419-8aec-fb1287d23986"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -200,8 +200,8 @@ Cell["", "PrimaryExamplesSection",
    None, None}},
  CellFrameLabelMargins->0,
  CellTags->
-  "PrimaryExamplesSection",ExpressionUUID->"5bf20302-5058-4129-bdfb-\
-cddb5429b3fb"],
+  "PrimaryExamplesSection",ExpressionUUID->"513aa4a7-1bbb-46ef-9630-\
+ef4b9054952d"],
 
 Cell[CellGroupData[{
 
@@ -209,13 +209,13 @@ Cell[TextData[{
  "Basic Examples",
  "\[NonBreakingSpace]\[NonBreakingSpace]",
  Cell["(1)", "ExampleCount",ExpressionUUID->
-  "7e906d86-bb41-422f-8afb-628bae70ea2b"]
-}], "ExampleSection",ExpressionUUID->"c04d59e0-ca0f-4626-b7c4-1b16a58bf108"],
+  "0c5976af-ca3c-4cb4-8498-42a124983ff0"]
+}], "ExampleSection",ExpressionUUID->"e975e9da-df68-4ac1-9cf2-91c74ceebcf9"],
 
 Cell[CellGroupData[{
 
 Cell["YTheta[{l,m},{\[Theta],\[Phi]}]", "Input",
- CellLabel->"In[1]:=",ExpressionUUID->"ada38507-5689-46c3-a293-4bf1ced6ba23"],
+ CellLabel->"In[1]:=",ExpressionUUID->"7619a11f-21f8-4223-b6ed-f49e4001b387"],
 
 Cell[BoxData[
  RowBox[{
@@ -269,7 +269,7 @@ Cell[BoxData[
         RowBox[{"1", "+", "l"}], ",", "m", ",", 
         RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "]"}]}]}], ")"}], " ", 
    RowBox[{"Sin", "[", "\[Theta]", "]"}]}]}]], "Output",
- CellLabel->"Out[1]:= ",ExpressionUUID->"42242c67-0cbd-41d0-aa48-b095d162d2b5"]
+ CellLabel->"Out[1]:= ",ExpressionUUID->"64dc011a-bbd2-498a-8099-bb2a7b14c21e"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -311,7 +311,7 @@ Cell["", "SeeAlsoSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
    None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"963b0e3e-6b87-450d-9455-8d0fbf706ae8"],
+  0,ExpressionUUID->"9a0fa978-8702-4f9a-add5-68b2eeeeadec"],
 
 Cell[TextData[{
  Cell[BoxData[
@@ -320,7 +320,7 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/SphericalHarmonicFunction"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "606ad1f7-565a-47bb-9217-ac58a142ae93"],
+  "851d8363-5119-4dfe-87f2-9f5439355fcd"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -331,7 +331,7 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/YHarmonic"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "81d86499-a6b1-47e9-84ee-35793f3177af"],
+  "b9c46c36-d41a-4276-9d83-a1c846eff2a2"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -342,7 +342,7 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/YPhi"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "311f9bfe-5b5d-4a72-8935-468cc621e79b"],
+  "77c6688b-4267-4b00-9863-0c599eb312ae"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -353,7 +353,7 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/YThetaTheta"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "2f374e46-fc92-4b63-9671-0fd5166a9ac7"],
+  "5c315ea5-4859-4e3f-b463-32a052178509"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -364,7 +364,7 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/YThetaPhi"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "05934af6-21f0-45c9-915d-e9eb5823a076"],
+  "9236ecd6-7149-4d04-adce-b76664b0a56d"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -375,7 +375,7 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/YPhiPhi"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "2e044d96-1a67-4beb-ae94-70800846614e"],
+  "8e209267-739d-4d91-ae1b-29b3eba0117f"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -386,7 +386,7 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/XTheta"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "89dfa840-b1fe-48d9-bb87-42138adf22f3"],
+  "36861dd6-2c4c-4546-b277-75c56ecdc8f8"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -397,7 +397,7 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/XPhi"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "cd6bc24a-b36a-4f0c-9c75-8c043bad9ca2"],
+  "e531ad28-0d8b-4482-aee8-b19b3b28926c"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -408,7 +408,7 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/XThetaTheta"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "cbc06122-5472-4423-b80c-e9a41551818d"],
+  "cacc0b82-54ee-4e6a-9271-8f5582162613"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -419,7 +419,7 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/XThetaPhi"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "7e3b7b0a-d847-49c7-be2a-464eb3bb904a"],
+  "087f161f-d01c-42d3-811e-476865b5a3f9"],
  "\[NonBreakingSpace]",
  StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
   "InlineSeparator"],
@@ -430,8 +430,8 @@ Cell[TextData[{
     BaseStyle->"Link",
     ButtonData->"paclet:BlackHoleAnalysis/ref/XPhiPhi"],
    FontFamily->"Verdana"]], "InlineFormula",ExpressionUUID->
-  "2250dbb1-0a97-4c93-a3e5-4fd4e6638b86"]
-}], "SeeAlso",ExpressionUUID->"5d47ff8e-7fc7-4a8a-9cbc-6058798de080"]
+  "9f5b0491-63fd-4da3-9306-67776dbc6904"]
+}], "SeeAlso",ExpressionUUID->"a7d4a632-541a-44ea-a9c3-41998218ebf4"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -473,33 +473,33 @@ Cell["", "TutorialsSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
    None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"b20fd0cf-9e83-4079-94e3-37d5bfb9603a"],
+  0,ExpressionUUID->"ff7598c6-d761-4f83-a21a-a9d6d3cc8efa"],
 
 Cell[TextData[ButtonBox["Spherical harmonics",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Spherical harmonics"]], \
-"Tutorials",ExpressionUUID->"b4149bd0-7451-41ef-a58d-518a780fe6e7"],
+"Tutorials",ExpressionUUID->"b4799f0d-2495-48bb-a98c-0e21e067a0be"],
 
 Cell[TextData[ButtonBox["Conventions",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Conventions"]], \
-"Tutorials",ExpressionUUID->"aa68e58a-9b76-4d33-9718-f877594c3b9d"],
+"Tutorials",ExpressionUUID->"f53a6ed4-e9ba-4e91-8af4-15f6a321cc5e"],
 
 Cell[TextData[ButtonBox["Using labels to act on groups of variables",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Using labels to act on groups of \
 variables"]], \
-"Tutorials",ExpressionUUID->"b3e43821-6fbf-468e-bc4d-e40ebb418d43"]
+"Tutorials",ExpressionUUID->"f20d744d-704b-4b5a-883a-611662478f3a"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"ce9f7513-2d14-4731-956c-72bb22770f54"],
+Cell[" ", "FooterCell",ExpressionUUID->"238ae5c8-6fd4-4a39-b492-2cab72685706"],
 
-Cell[BoxData[""],ExpressionUUID->"7dfe78bd-e8d3-4ecf-83e3-c39cd27a1927"]
+Cell[BoxData[""],ExpressionUUID->"a5555f0e-7cb3-4454-af13-0034add6f497"]
 }, Open  ]]
 },
 Saveable->False,

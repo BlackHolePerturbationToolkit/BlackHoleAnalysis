@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"f1c0cb88-5695-47e3-b4bf-70a9e7a28f6b"],
+   0}},ExpressionUUID->"4bc12e95-66a9-4102-a83f-0087b569fa43"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["PtSource",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/PtSource"]
-}], "LinkTrail",ExpressionUUID->"0e9d127c-a295-4c82-a800-f0e8fbb4aac1"],
+}], "LinkTrail",ExpressionUUID->"b95a0c5e-25d6-4d49-a620-81c745a2b8b5"],
 
 Cell[CellGroupData[{
 
 Cell["PtSource", \
-"ObjectName",ExpressionUUID->"460c236a-96b5-4350-9e71-2b8bcff8d147"],
+"ObjectName",ExpressionUUID->"cb6c796f-2892-4d4c-8944-6b5d39bd1727"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -29,12 +29,12 @@ Cell[BoxData[GridBox[{
        ButtonBox["PtSource",
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/PtSource"], "[", "]"}]], 
-      "InlineFormula",ExpressionUUID->"098b64bc-cb41-4546-83f9-7bbc1f2c7012"],
+      "InlineFormula",ExpressionUUID->"a08ba960-561f-4c0c-8611-c07b456907c7"],
      
      "\[LineSeparator]returns the metric perturbation amplitude source term \
 Pt in symbolic form."
-    }],ExpressionUUID->"7b31f829-b717-4c67-95ee-c9d596822737"]}
-  }]], "Usage",ExpressionUUID->"ec2eb998-7650-4825-a58c-9d6e03098329"]
+    }],ExpressionUUID->"61fb328a-c7e5-420e-bb60-a74066d0fbfc"]}
+  }]], "Usage",ExpressionUUID->"ca0ce3cd-2ce5-4dfa-85b1-070e3862262e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -80,33 +80,33 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"eb068631-e8a2-4d6c-ab06-c23e64e04bfb"],
+  0,ExpressionUUID->"19c7a1b4-e189-4803-8b3a-a38cd8782fa5"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"5e5de3f9-34d7-40d6-a727-21c9ca2a72ae"],
+"Notes",ExpressionUUID->"f8c6cbe8-0cdb-4a9c-acf9-3050e5a70ff1"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "e7c81f81-3cce-4470-bd0c-c5fedeb4f2fe"], "Capital", "True", Cell["\<\
+     "bc5abe9a-f273-47eb-88d1-9c4c91b65905"], "Capital", "True", Cell["\<\
 Sepcifies whether to return the uppercase symbol (which includes the Dirac \
 delta) or the lowercase symbol (which does not)\
-\>", "TableText",ExpressionUUID->"c3b9f0ae-3159-48b9-a7a1-6ac61ea28724"]},
+\>", "TableText",ExpressionUUID->"6c9c42c7-3f89-48c3-9ee7-6443aa9ec2ee"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "3b742824-8a53-4b89-b6f8-b9755a942013"], "Indices", "Down", Cell[
+     "fa247b7b-86e6-4510-8e97-b2e70d63a28e"], "Indices", "Down", Cell[
     "Position of the indices, (\"Up\" or \"Down\")", "TableText",
-     ExpressionUUID->"602e5a46-a9aa-4fc6-ac54-b53950c66d16"]},
+     ExpressionUUID->"46397d99-bf9b-428a-b02c-de7d1b2e5406"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "74bf9825-9703-4f74-ad12-bd1e5981876e"], "ReturnSymbol", "False", 
+     "ad68a319-2af2-4cdb-853e-0eed81af4f28"], "ReturnSymbol", "False", 
     Cell["\<\
 Boolean stating whether to only return the symbol of the source term (with no \
 arguments)\
-\>", "TableText",ExpressionUUID->"c22bbc14-24ca-49f6-b1b6-ad006f75dd75"]},
+\>", "TableText",ExpressionUUID->"696f83be-6e2c-4737-b3e6-374f70904629"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "b7a8385f-cf05-460e-a79f-9230bebb6c70"], "SourceExpansion", "Full", 
+     "1e48247d-a8ee-41ea-803a-e39f7bed9114"], "SourceExpansion", "Full", 
     Cell["\<\
 States to what extent source terms should be expanded, (\"Full\", \
 \"Partial\", or \"None\")\
-\>", "TableText",ExpressionUUID->"31b82153-f6d8-4b52-9139-e94ef1ed82df"]}
+\>", "TableText",ExpressionUUID->"44cb7c25-f0cb-4f78-888b-b0fbc29482ac"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -118,14 +118,14 @@ States to what extent source terms should be expanded, (\"Full\", \
  GridBoxDividers->{
   "Rows" -> {{
      True, True, True, True, 
-      True}}}},ExpressionUUID->"4b334754-5594-44aa-b48b-867408eb6fd2"]
+      True}}}},ExpressionUUID->"04f8f312-2469-40c0-978f-c4d38c0b52c0"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"c1c51c2a-6c5c-4995-ae3c-49e19947bba5"],
+Cell[" ", "FooterCell",ExpressionUUID->"bfea9e84-2941-479f-b993-2356f9e90e1e"],
 
-Cell[BoxData[""],ExpressionUUID->"8fbe6fc5-c9ae-4de7-ad8b-bbbbd2f04a4b"]
+Cell[BoxData[""],ExpressionUUID->"92f355d5-177b-4351-b89b-573d903654be"]
 }, Open  ]]
 },
 Saveable->False,

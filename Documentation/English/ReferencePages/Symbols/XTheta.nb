@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"ffa468be-edf5-4a1b-9264-a7b4ea797295"],
+   0}},ExpressionUUID->"235c7cbc-714b-4fe7-b6ed-4b8e084d5489"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["XTheta",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/XTheta"]
-}], "LinkTrail",ExpressionUUID->"c522f69b-a56e-42dd-bc2a-d64db282743a"],
+}], "LinkTrail",ExpressionUUID->"688363fe-6732-4e6c-bcf0-be524a1ea6f0"],
 
 Cell[CellGroupData[{
 
 Cell["XTheta", \
-"ObjectName",ExpressionUUID->"1fe49741-794d-4235-bcc6-d66b29d6c263"],
+"ObjectName",ExpressionUUID->"fd4b66be-0511-4b17-9412-cecaf96f197c"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -35,12 +35,12 @@ Cell[BoxData[GridBox[{
           RowBox[{"l", ",", "m"}], "}"}], ",", 
          RowBox[{"{", 
           RowBox[{"theta", ",", "phi"}], "}"}]}], "TI"], "]"}]], 
-      "InlineFormula",ExpressionUUID->"a8b98574-f504-4694-ac03-12a17203c360"],
+      "InlineFormula",ExpressionUUID->"ab28e5e6-c44c-4653-923b-dd6dde5aec63"],
      
      "\[LineSeparator]returns the vector spherical harmonic component \
 X_lm_Theta[theta,phi]."
-    }],ExpressionUUID->"ebb2a76a-b67f-4223-9ffd-675ecffb26d2"]}
-  }]], "Usage",ExpressionUUID->"8e22872a-2661-4f36-8267-7ec610b22c87"]
+    }],ExpressionUUID->"56fee363-ecce-49c9-ad15-92d12d73c3f4"]}
+  }]], "Usage",ExpressionUUID->"703156f9-b940-4b55-9079-2c2d51ca7bc6"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -86,17 +86,17 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"68821237-311a-4c98-9fa7-b7432692c38a"],
+  0,ExpressionUUID->"ad64d9a6-1073-45b6-8e3f-78ff648a651f"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"40722a9b-f164-4d4e-abef-436bcde04efb"],
+"Notes",ExpressionUUID->"ad5d362c-0813-4a51-b4af-0144c1b3e9fb"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "d224608b-c289-4e21-82f8-17c49bd61e16"], "Phi", "True", Cell["\<\
+     "9fb979f1-00fc-4a53-98e3-8c031068086a"], "Phi", "True", Cell["\<\
 Boolean specifying whether to include the phi factor with the spherical \
 harmonic\
-\>", "TableText",ExpressionUUID->"a42e6dcc-55f2-446d-8f15-030f9cf47c87"]}
+\>", "TableText",ExpressionUUID->"29121713-9835-4d1f-a66d-cd731a225fd8"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -107,14 +107,14 @@ harmonic\
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"70e7e768-9cc9-4cce-b1ae-2914be1d7a4c"]
+     True, True}}}},ExpressionUUID->"84a8c0a1-4cc2-494b-8b2e-ef37c59fa7c5"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"20986686-ba5e-43e7-98fc-f7ee48d48fe1"],
+Cell[" ", "FooterCell",ExpressionUUID->"b9760f8a-660b-4bec-9339-aae0c1673295"],
 
-Cell[BoxData[""],ExpressionUUID->"d9eba98b-f946-4af1-b2d1-dbb511a92d14"]
+Cell[BoxData[""],ExpressionUUID->"070d807c-31f5-43f6-b39a-176cd507e35f"]
 }, Open  ]]
 },
 Saveable->False,

@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"8e834c3c-3a99-434e-889a-136452c36b00"],
+   0}},ExpressionUUID->"08898e90-99a4-4126-8b4c-5248fe56cca6"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -16,12 +16,12 @@ Cell[TextData[{
  ButtonBox["KDiscontinuities",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/KDiscontinuities"]
-}], "LinkTrail",ExpressionUUID->"70607c19-942e-4e41-bcf3-a0f2dbd44a14"],
+}], "LinkTrail",ExpressionUUID->"e50543f2-336b-4e59-ab9d-22811daab321"],
 
 Cell[CellGroupData[{
 
 Cell["KDiscontinuities", \
-"ObjectName",ExpressionUUID->"75d1b6ba-48c5-4b80-8266-43beaf0f1b96"],
+"ObjectName",ExpressionUUID->"1335458a-660e-4c94-9ffb-0805eaee7b7e"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -31,10 +31,10 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/KDiscontinuities"], "[", 
        "]"}]], "InlineFormula",ExpressionUUID->
-      "6e081312-6369-47d5-b428-e4ae201d19bc"],
+      "58f0b96b-be95-47d8-a84b-b678bca23265"],
      "\[LineSeparator]returns an Association with discontinuities in K and \
 its derivatives."
-    }],ExpressionUUID->"e764a297-16ff-4e51-b64b-15e66b1419c3"]},
+    }],ExpressionUUID->"8cf761b1-a337-4022-98da-e5e22f59ae10"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -44,11 +44,11 @@ its derivatives."
        StyleBox[
         RowBox[{"{", 
          RowBox[{"m", ",", "n"}], "}"}], "TI"], "]"}]], "InlineFormula",
-      ExpressionUUID->"ee3652e9-1d72-424e-b912-45b2f4769c49"],
+      ExpressionUUID->"ae50d999-244a-4bb2-a21a-2138059f1642"],
      "\[LineSeparator]returns an Association with discontinuities in the m-th \
 time derivative and n-th r derivative of K."
-    }],ExpressionUUID->"845c99a2-9fa3-4f70-8842-d3a4a5bedcd3"]}
-  }]], "Usage",ExpressionUUID->"d134de8f-b14d-4892-a865-eb834de0e130"]
+    }],ExpressionUUID->"43685313-fc5d-4b06-86d4-fda355b55b0e"]}
+  }]], "Usage",ExpressionUUID->"ae84e425-24c2-48a4-87b4-e19e30b3fc8e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -94,28 +94,28 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"c2d6f732-20fc-4d60-a246-b04828d47c82"],
+  0,ExpressionUUID->"c3087825-55c0-478e-9cdd-b57b149432e5"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"4e49403c-6546-4b6f-b12a-2681e570a90c"],
+"Notes",ExpressionUUID->"ae4be25f-f253-499a-b2a4-68916768d6b3"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "cfe0d19b-1eaf-40b4-ba12-25aa81b544db"], "Gauge", "RWZ", Cell["\<\
+     "921dd14f-4d60-46eb-ad1f-90979dc62604"], "Gauge", "RWZ", Cell["\<\
 Gauge of the metric perturbation amplitudes (\"RWZ\", \"Lorenz\", or \"ModRWZ\
 \")\
-\>", "TableText",ExpressionUUID->"ac0a082c-d05b-41bd-9d3d-b22b7380581c"]},
+\>", "TableText",ExpressionUUID->"f3c8e240-91b9-4fbe-857f-41fa2c716495"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "e09e514a-d0e2-4965-9756-71c9d5cd8c60"], "Labels", "True", Cell["\<\
+     "102d1553-5636-4385-b3be-a1cf1255b1c8"], "Labels", "True", Cell["\<\
 Boolean specifying whether the Keys of the Association should be formatted \
 labels or the order of discontinuity (-1 for jump, -2 for \[Delta], -3 for \
 \[Delta]', etc.)\
-\>", "TableText",ExpressionUUID->"6c8b3225-c97c-456f-985e-e87e0149680b"]},
+\>", "TableText",ExpressionUUID->"1e14fe5d-bf12-438a-9801-80b124e29af1"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "fa7692aa-fe2f-4e4e-a3c8-225d7cf75a64"], "Mode", "Radiative", Cell["\<\
+     "fee76b4e-e266-42d4-be99-ceec2b16b632"], "Mode", "Radiative", Cell["\<\
 Discontinuities for which class of modes (\"Radiative\", \"Dipole\", or \
 \"Monopole\")\
-\>", "TableText",ExpressionUUID->"9f506683-7fe2-43e1-bc68-b7c01947f116"]}
+\>", "TableText",ExpressionUUID->"89dab11d-03a5-4ca7-9e9f-6b8e7048c7a3"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -127,14 +127,14 @@ Discontinuities for which class of modes (\"Radiative\", \"Dipole\", or \
  GridBoxDividers->{
   "Rows" -> {{
      True, True, True, 
-      True}}}},ExpressionUUID->"d9b97c54-4fbe-4386-85dc-941db522ae87"]
+      True}}}},ExpressionUUID->"9917c641-8756-4da5-8b32-e5e2365cd8b2"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"4f2ebb2c-9440-4394-b943-b5e352a23840"],
+Cell[" ", "FooterCell",ExpressionUUID->"895dc739-5dd9-49bf-958b-136ffe4c1bd4"],
 
-Cell[BoxData[""],ExpressionUUID->"698982fa-f416-440c-942f-ef2f4cba7b34"]
+Cell[BoxData[""],ExpressionUUID->"134e845b-b6ab-4e7d-b4d7-542493e1e5ab"]
 }, Open  ]]
 },
 Saveable->False,

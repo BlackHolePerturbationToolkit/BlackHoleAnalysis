@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"8e170355-5d35-420e-b7cc-02850be67c90"],
+   0}},ExpressionUUID->"3d9e002d-d871-4dac-9872-d3209bc454c7"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -16,19 +16,19 @@ Cell[TextData[{
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->
    "paclet:BlackHoleAnalysis/ref/SpinWeightedSpheroidalHarmonicSymbol"]
-}], "LinkTrail",ExpressionUUID->"5b432e19-989f-4c6f-9013-af302fb47b67"],
+}], "LinkTrail",ExpressionUUID->"8a69e3a8-7237-4e21-a875-f0416fb8b7ac"],
 
 Cell[CellGroupData[{
 
 Cell["SpinWeightedSpheroidalHarmonicSymbol", \
-"ObjectName",ExpressionUUID->"3c9b6512-f8b0-404d-8c34-ac6b48c0a468"],
+"ObjectName",ExpressionUUID->"620a4563-de18-47b2-8185-15a85b3fa7ff"],
 
 Cell[BoxData[GridBox[{
    {"", Cell["\<\
 SpinWeightedHarmonicSymbol[] returns the (formatted) symbol for the \
 spin-weighted spheroidal harmonic.\
-\>",ExpressionUUID->"3ce56b9b-098c-4068-92a7-8ef0937ed12e"]}
-  }]], "Usage",ExpressionUUID->"b1f2f39d-2295-4e7a-8eda-008b3b6b7dbb"]
+\>",ExpressionUUID->"5022c567-747c-4ce7-aa3e-9d1850d0956b"]}
+  }]], "Usage",ExpressionUUID->"8bf8f6dd-4853-4f58-9917-c4985efccff5"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -74,22 +74,22 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"8ece4966-22ea-412d-941a-85a2229acbed"],
+  0,ExpressionUUID->"f3438ac1-d673-4ba5-81f1-53aeda99f1b1"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"3063bfd0-3530-48e1-a1a3-829657e2140f"],
+"Notes",ExpressionUUID->"29ad55bc-befb-4fdf-951a-ff34d1bd06a3"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "262bd868-57eb-4464-b0b4-9a2ee5f5d8c9"], "Conjugate", "False", Cell["\<\
+     "aa06bec1-43ba-47db-89f0-284b8c9c3af8"], "Conjugate", "False", Cell["\<\
 Sepcifies whether to return the symbol for the complex conjugate of the \
 harmonic\
-\>", "TableText",ExpressionUUID->"01f5a986-2c3f-47c8-b299-6191598f3731"]},
+\>", "TableText",ExpressionUUID->"b2910b23-61ca-4adb-a8c5-263a7b5d27a8"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "44221304-7993-41e3-bb25-f19d84234726"], "SpinWeight", 
+     "81e7fb34-bfcd-4e85-a26f-34ff35d8c71d"], "SpinWeight", 
     RowBox[{"-", "2"}], Cell["\<\
 Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
-\>", "TableText",ExpressionUUID->"51123c79-0124-4484-8a73-61d7236e49a1"]}
+\>", "TableText",ExpressionUUID->"02711bfd-bc12-4a4b-9eee-14a75c7ffd10"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -101,14 +101,14 @@ Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
  GridBoxDividers->{
   "Rows" -> {{
      True, True, 
-      True}}}},ExpressionUUID->"b430fc46-342d-4bd6-9ef0-b195cdd35378"]
+      True}}}},ExpressionUUID->"85d90953-062e-4faa-a8f0-e22ffd5c7c6e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"c391ea9e-a544-4342-a179-03ffba0fb6b7"],
+Cell[" ", "FooterCell",ExpressionUUID->"b5b2e706-a4f7-4a5d-b736-78cbfff3988a"],
 
-Cell[BoxData[""],ExpressionUUID->"ee0f967a-d5b9-48d6-9de4-9ce99e72aa2d"]
+Cell[BoxData[""],ExpressionUUID->"96898fb9-bf87-495e-8f1e-f92b1f18058f"]
 }, Open  ]]
 },
 Saveable->False,

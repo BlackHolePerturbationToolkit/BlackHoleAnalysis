@@ -134,8 +134,8 @@ Similar functions exist for htr, hrr, jt, jr, K, G, ht, hr, and h2."},
     {"Title"->"Odds and ends",
        "DetailedFunctions" -> {
            {"SchwarzschildF", "1 - 2M/r"},
-           {"KerrMetric", "The Kerr metric in Boyer-Lindquist coordinates"},
            {"SchwarzschildMetric", "The Schwarzschild metric in Schwarzschild coordinates"},
+           {"KerrMetric", "The Kerr metric in Boyer-Lindquist coordinates"},
            {"RStarOfR", "Tortoise coordinate in terms of Boyer-Lindquist r"},
            {"RStarToR", "Transform Tortoise coordinate to Schwarzschild r"},
            {"ROfRStar", "Schwarzschild r in terms of Tortoise coordinate"},
@@ -144,8 +144,7 @@ Similar functions exist for htr, hrr, jt, jr, K, G, ht, hr, and h2."},
            {"SigmaKerr", "The quantity \[CapitalSigma] used on Kerr"},
            {"DeltaKerr", "The quantity \[CapitalDelta] used on Kerr"},
            {"RPlusKerr", "The quantity r+ used on Kerr"},
-           {"RMinusKerr", "The quantity r- used on Kerr"},
-           {"LambdaToL", "Replace lambdas with (l+2)(l-1)/2"}
+           {"RMinusKerr", "The quantity r- used on Kerr"}
        }
     }
   },

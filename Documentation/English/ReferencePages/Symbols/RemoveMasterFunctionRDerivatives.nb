@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"e0491e59-11e9-4963-add6-2ed3060bfaa8"],
+   0}},ExpressionUUID->"5d521191-acca-4596-b404-80beda014ab1"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -16,12 +16,12 @@ Cell[TextData[{
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->
    "paclet:BlackHoleAnalysis/ref/RemoveMasterFunctionRDerivatives"]
-}], "LinkTrail",ExpressionUUID->"a91470d9-3410-479a-bdca-70ff2e5ea105"],
+}], "LinkTrail",ExpressionUUID->"0ad791cb-11be-4528-809a-e1a7a1c4b013"],
 
 Cell[CellGroupData[{
 
 Cell["RemoveMasterFunctionRDerivatives", \
-"ObjectName",ExpressionUUID->"3d67f1b1-f56d-42a0-8bb8-cd2d02eb6478"],
+"ObjectName",ExpressionUUID->"5573a0d7-de27-460b-abe4-4ba76fcdf368"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -33,11 +33,11 @@ Cell[BoxData[GridBox[{
          "paclet:BlackHoleAnalysis/ref/RemoveMasterFunctionRDerivatives"], 
        "[", 
        StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
-      "8b2659a0-4f3c-4d41-a721-123a4f668e97"],
+      "95f20142-aada-4ed7-8994-ca6360d9c093"],
      "\[LineSeparator]uses the master equation to remove all r derivatives of \
 the master function higher than the first."
-    }],ExpressionUUID->"08ccb7d2-1141-43cc-9b3c-93880a6e0b03"]}
-  }]], "Usage",ExpressionUUID->"0d7dd3b8-b2a7-412e-97af-f86981de90c5"]
+    }],ExpressionUUID->"ccbe257b-f01b-4341-b510-cf741114269a"]}
+  }]], "Usage",ExpressionUUID->"09fa7592-ca93-4273-b397-d9ef5b181cf5"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -83,42 +83,42 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"e33c2485-10eb-475d-876c-7f390e161cb0"],
+  0,ExpressionUUID->"34283c10-09be-4fe0-bca2-b313a47330e2"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"78d61ff7-cae8-4857-a7cc-6559161df1c7"],
+"Notes",ExpressionUUID->"82970028-3975-47f9-926d-46e9f02b9aa9"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "4e1ade99-6faa-4c6f-bf07-dd9f59640084"], "FD", "False", Cell["\<\
+     "904fa0cd-373f-45ae-abaf-3ccdb9d2571e"], "FD", "False", Cell["\<\
 Boolean stating whether to remove higher r derivatives using the frequency \
 domain master equation\
-\>", "TableText",ExpressionUUID->"8e14e611-eeba-4c03-8672-be0d53222e74"]},
+\>", "TableText",ExpressionUUID->"2f788fe9-e8ee-4466-8384-7535a5cfaee0"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "acb1b257-abf5-4356-acea-2c7e957cadc2"], "Homogeneous", "False", Cell["\<\
+     "ccdd32a5-5813-4076-a04c-76a3dd55e45c"], "Homogeneous", "False", Cell["\<\
 Boolean stating whether to remove higher r derivatives using the homogeneous \
 master equation\
-\>", "TableText",ExpressionUUID->"edb1f99a-eb82-4f9f-8dc8-175da862e7d0"]},
+\>", "TableText",ExpressionUUID->"bc4b5f1c-142c-4203-89a5-cc21e9a84247"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "4094c08e-5833-4681-9ec9-837b0d5dbe92"], "Parity", "Default", Cell["\<\
+     "5853ff40-8624-4b54-96b0-37e8444aa4a1"], "Parity", "Default", Cell["\<\
 Parity of the master function (Default, \"Even\", or \"Odd\"). Choosing \
 Default allows \"Parity\" to be set by the \"Variable\" Option. When both \
 Options are Default, the \"Parity\" is \"Even\".\
-\>", "TableText",ExpressionUUID->"e430def7-ef6b-4306-88c8-41b1cee0510c"]},
+\>", "TableText",ExpressionUUID->"2d110845-1976-481c-88a6-2ed24f961f03"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "cd581458-8aa4-4873-b27b-7ca34544c49d"], "SourceExpansion", "Partial", 
+     "37c2cf54-8225-4d7e-a50e-ea5f54f876a8"], "SourceExpansion", "Partial", 
     Cell["\<\
 States to what extent source terms should be expanded, (\"Full\", \
 \"Partial\", or \"None\")\
-\>", "TableText",ExpressionUUID->"672d7609-f2d1-415a-882d-4c2522ca2d2d"]},
+\>", "TableText",ExpressionUUID->"c791c0f4-5852-415a-9e0b-59449ce7b487"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "e6ec171f-cf14-4a5f-85a9-b65a08e0064b"], "Variable", "Default", 
+     "b31539aa-94f0-4ed6-9a95-cac55455afb2"], "Variable", "Default", 
     Cell["\<\
 The specific master function variable to use (Default, \"ZM\", \"ZM1\", ... \
 \"ZM7\" and \"CPM\", \"CPM1\", ... \"CPM6\"). Choosing Default is equivalent \
 to \"ZM\" when \"Parity\"->\"Even\" and \"CPM\" when \"Parity\"->\"Odd\". \
 When both Options are Default, the \"Parity\" is \"Even\".\
-\>", "TableText",ExpressionUUID->"4faa4ecb-19c5-492d-be13-4c047f2727e9"]}
+\>", "TableText",ExpressionUUID->"277b3aa7-33ca-435b-acc0-fb88d98831af"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -130,14 +130,14 @@ When both Options are Default, the \"Parity\" is \"Even\".\
  GridBoxDividers->{
   "Rows" -> {{
      True, True, True, True, True, 
-      True}}}},ExpressionUUID->"de3caabf-0ccc-4589-9f0e-5f4ad703dffd"]
+      True}}}},ExpressionUUID->"9138b4e6-c31e-4116-9b31-5bb266ff3953"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"d05ca037-085a-4df9-af0b-0392cdc44617"],
+Cell[" ", "FooterCell",ExpressionUUID->"a76621f8-c6d7-4d9d-93b2-25f812613512"],
 
-Cell[BoxData[""],ExpressionUUID->"6eb562e0-0605-4e45-afa4-724897cb214c"]
+Cell[BoxData[""],ExpressionUUID->"609a7bcb-147d-412b-ae16-202c26de01cf"]
 }, Open  ]]
 },
 Saveable->False,

@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"fc2e28b9-dc8e-40ed-aa51-429119019372"],
+   0}},ExpressionUUID->"e3c05f6a-abb6-4b1b-9667-6b6be2755cd0"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["SpecificAngularMomentumPN",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificAngularMomentumPN"]
-}], "LinkTrail",ExpressionUUID->"5c926746-a55e-4825-94a7-2fabd00cb7ea"],
+}], "LinkTrail",ExpressionUUID->"ef3b5cab-1913-44c6-adbf-95db29cc69c1"],
 
 Cell[CellGroupData[{
 
 Cell["SpecificAngularMomentumPN", \
-"ObjectName",ExpressionUUID->"fdba18cb-13cf-470d-9d2b-0a116c61aff7"],
+"ObjectName",ExpressionUUID->"c7833002-6e6e-439f-983f-5086ae87bde7"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -30,11 +30,11 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificAngularMomentumPN"],
         "[", "]"}]], "InlineFormula",ExpressionUUID->
-      "a02e461d-eac2-4d7d-b227-d5015090d6e7"],
+      "e32541f0-4a72-4338-9684-7938cfe858e5"],
      "\[LineSeparator]returns the specific angular momentum of a particle in \
 an eccentric orbit around a Schwarzschild black hole, expanded to 1 term \
 using the inverse of p, the semi-latus rectum, as the expansion parameter."
-    }],ExpressionUUID->"f731dc78-58e2-4598-b95c-88c7190cce7e"]},
+    }],ExpressionUUID->"12f46750-0909-4ccb-aba3-fb793219bcab"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -43,10 +43,10 @@ using the inverse of p, the semi-latus rectum, as the expansion parameter."
         ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificAngularMomentumPN"],
         "[", 
        StyleBox["n", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
-      "d1fdd3a4-328c-41fa-b32c-86703860457e"],
+      "6ddb0c9a-e4c5-4ae4-bd4b-cb85ca905904"],
      "\[LineSeparator]returns the specific angular momentum expanded to n \
 terms."
-    }],ExpressionUUID->"87118d59-2444-404f-85ee-f33c22d491c5"]},
+    }],ExpressionUUID->"14245bc4-3e2c-44e7-b2b0-501c7be22ce6"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -55,10 +55,10 @@ terms."
         ButtonData->"paclet:BlackHoleAnalysis/ref/SpecificAngularMomentumPN"],
         "[", 
        StyleBox["par", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
-      "9002d891-191d-46ba-a9d0-48c302a9f63a"],
+      "eab71a6c-79f8-47d4-a9f0-6dfd60f0e005"],
      "\[LineSeparator]returns the specific angular momentum expanded to 1 \
 term, using par (\"p\" or \"x\") as the expansion parameter."
-    }],ExpressionUUID->"c6d38cfa-8957-4374-b440-e5a7b149ca54"]},
+    }],ExpressionUUID->"15f6feea-fe36-4d19-8f04-e5488320ab86"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -68,11 +68,11 @@ term, using par (\"p\" or \"x\") as the expansion parameter."
         "[", 
        StyleBox[
         RowBox[{"n", ",", "par"}], "TI"], "]"}]], "InlineFormula",
-      ExpressionUUID->"cf4a7f73-0b6a-41d3-8844-bf107f9ff173"],
+      ExpressionUUID->"1733cbf4-5732-436e-b381-db789c2b20e9"],
      "\[LineSeparator]returns the specific angular momentum expanded to n \
 terms, using par (\"p\" or \"x\") as the expansion parameter."
-    }],ExpressionUUID->"26681e81-24f5-4d47-acc6-e2ca6bc34088"]}
-  }]], "Usage",ExpressionUUID->"30d56296-e5ee-494c-b72e-3b9d65fc98ac"]
+    }],ExpressionUUID->"a40cbb4f-2115-4577-be69-0ab3f8e02609"]}
+  }]], "Usage",ExpressionUUID->"46a1f384-069d-4dfe-ae14-9dad9b0c0d91"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -118,17 +118,17 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"0f666638-5791-4991-ad22-ee4603ba335e"],
+  0,ExpressionUUID->"c861c18b-7a87-4091-85ae-cd31939068f4"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"6ca1e45c-0cec-492d-a7de-e76f8df54e7d"],
+"Notes",ExpressionUUID->"27d6db5b-8542-4c5e-b386-65bfae00520a"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "280d1ae9-6577-48f3-817b-a6f3ef77455e"], "Metric", "Schwarzschild", 
+     "894a9f62-0f73-4fcb-a4b4-bd80375a145d"], "Metric", "Schwarzschild", 
     Cell["\<\
 Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
-\>", "TableText",ExpressionUUID->"272d3976-cf78-49d8-a776-30af51b905d0"]}
+\>", "TableText",ExpressionUUID->"7b47f9fb-63a8-4432-8806-3c1fdf36ed47"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -139,14 +139,14 @@ Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"f57397b5-997e-4a34-a0bc-40a7a18dd644"]
+     True, True}}}},ExpressionUUID->"f2bc36d0-3e16-41ef-a8e6-a34d8adf2543"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"bcd53def-2418-407e-a303-9f01d8533310"],
+Cell[" ", "FooterCell",ExpressionUUID->"d0297cbc-917a-4db5-9b63-6b8b1356d93e"],
 
-Cell[BoxData[""],ExpressionUUID->"89d648ff-85d2-4373-b7ab-323915611502"]
+Cell[BoxData[""],ExpressionUUID->"0bf828cf-2398-4a20-826c-0aaa126a2093"]
 }, Open  ]]
 },
 Saveable->False,

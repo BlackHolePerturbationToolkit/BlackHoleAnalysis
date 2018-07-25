@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"08c842e3-6856-4878-b943-eab8a278907f"],
+   0}},ExpressionUUID->"77d151ea-ea8a-44d0-a4a2-b9d4553e6100"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["OmegaPhiPN",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/OmegaPhiPN"]
-}], "LinkTrail",ExpressionUUID->"02a967a7-07f0-433a-bd3e-d1414ad34341"],
+}], "LinkTrail",ExpressionUUID->"14014469-b017-4e16-bef1-06f5f3530ea8"],
 
 Cell[CellGroupData[{
 
 Cell["OmegaPhiPN", \
-"ObjectName",ExpressionUUID->"f08112d7-86d9-47ca-a366-d382fccbcb0c"],
+"ObjectName",ExpressionUUID->"0c6adf25-1a39-407e-9adc-0daa44bcf287"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -29,12 +29,12 @@ Cell[BoxData[GridBox[{
        ButtonBox["OmegaPhiPN",
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/OmegaPhiPN"], "[", "]"}]], 
-      "InlineFormula",ExpressionUUID->"bfec6f95-46f4-4a0b-bcc0-886793cb33f6"],
+      "InlineFormula",ExpressionUUID->"95b2ffc0-35d3-4551-b004-66abd45258a5"],
      
      "\[LineSeparator]returns the phi frequency of a particle in an eccentric \
 orbit around a Schwarzschild black hole, expanded to 1 term using the inverse \
 of p, the semi-latus rectum, as the expansion parameter."
-    }],ExpressionUUID->"6489aeca-098d-4cb1-8209-2f08cef2f36b"]},
+    }],ExpressionUUID->"8da5674e-5731-4b1b-8b34-61d858d28e9e"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -42,10 +42,10 @@ of p, the semi-latus rectum, as the expansion parameter."
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/OmegaPhiPN"], "[", 
        StyleBox["par", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
-      "71a8bcc9-788d-4444-9aa2-1420b98f4e37"],
+      "1eadc335-d7bf-4dd8-87d9-3eff03b61246"],
      "\[LineSeparator]returns the phi frequency expanded to 1 term, using par \
 (\"p\" or \"x\") as the expansion parameter."
-    }],ExpressionUUID->"5d3a1b51-d264-4ae3-9b3d-cd1e4962fb89"]},
+    }],ExpressionUUID->"18981fd7-a565-4e79-b619-3a2c7a61eade"]},
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{
@@ -54,11 +54,11 @@ of p, the semi-latus rectum, as the expansion parameter."
         ButtonData->"paclet:BlackHoleAnalysis/ref/OmegaPhiPN"], "[", 
        StyleBox[
         RowBox[{"n", ",", "par"}], "TI"], "]"}]], "InlineFormula",
-      ExpressionUUID->"da2b678f-392c-45fe-916d-aae4ced62647"],
+      ExpressionUUID->"6d3b5156-b2ed-4b88-b126-a6409def6dfa"],
      "\[LineSeparator]returns the phi frequency expanded to n terms, using \
 par (\"p\" or \"x\") as the expansion parameter."
-    }],ExpressionUUID->"ece08f34-7290-4c26-ae5c-b52b64f47a2e"]}
-  }]], "Usage",ExpressionUUID->"3da193e7-b951-4278-8a9b-ba3017c4a196"]
+    }],ExpressionUUID->"e88999ae-a973-4707-a1d6-73277c9e7965"]}
+  }]], "Usage",ExpressionUUID->"54f1837c-af61-4ce3-b206-66e6a1c9dd53"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -104,17 +104,17 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"1c2735dc-f41c-4e01-9802-bbba344ad951"],
+  0,ExpressionUUID->"57b52f63-d458-4957-976e-212fb1399050"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"22c936d6-e261-4a0c-9d26-31c4875176cf"],
+"Notes",ExpressionUUID->"b6989d2b-7881-4ef5-b7bf-8a215ff02682"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "5a176749-d3dd-49a8-81a3-271c011959df"], "Metric", "Schwarzschild", 
+     "c8b94d38-646c-4eb1-8f4e-b01709048dc7"], "Metric", "Schwarzschild", 
     Cell["\<\
 Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
-\>", "TableText",ExpressionUUID->"308f66a1-3c49-4cad-8924-90498bdf6332"]}
+\>", "TableText",ExpressionUUID->"5ce4832d-56bd-406a-8d05-6bba1494ae8e"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -125,14 +125,14 @@ Which spacetime the particle orbits in (\"Schwarzschild of \"Kerr\"\").\
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"77233e55-55e8-448e-a78a-800396d1211b"]
+     True, True}}}},ExpressionUUID->"f89c55bc-affa-45fc-ab22-2a111bbfba77"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"7276e351-4c04-4e78-bb6e-38358d38bf86"],
+Cell[" ", "FooterCell",ExpressionUUID->"2d2eb111-6387-471c-8d8d-16b9cca07708"],
 
-Cell[BoxData[""],ExpressionUUID->"8fd1dadc-7718-484c-b3c5-dd4dd64677bd"]
+Cell[BoxData[""],ExpressionUUID->"86716d40-7a20-4005-bc02-58b4cf8654d6"]
 }, Open  ]]
 },
 Saveable->False,

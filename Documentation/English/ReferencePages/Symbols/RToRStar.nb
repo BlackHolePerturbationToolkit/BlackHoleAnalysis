@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"4720784c-6672-4fd5-ad4c-5275e679960d"],
+   0}},ExpressionUUID->"aced2341-74f3-4241-8b24-053004fd09a5"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -16,12 +16,12 @@ Cell[TextData[{
  ButtonBox["RToRStar",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/RToRStar"]
-}], "LinkTrail",ExpressionUUID->"aef13a63-5d01-43d2-b4a8-9171d4518b32"],
+}], "LinkTrail",ExpressionUUID->"03407e55-fa6b-434b-818a-857c9232f782"],
 
 Cell[CellGroupData[{
 
 Cell["RToRStar", \
-"ObjectName",ExpressionUUID->"8c80757a-83b9-46af-a3f3-407a982e82b4"],
+"ObjectName",ExpressionUUID->"e0b8f209-0565-4d56-88c3-a465fad9b7d9"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -31,11 +31,11 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/RToRStar"], "[", 
        StyleBox["expr", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
-      "228c672a-c791-4562-abda-9956db10af96"],
+      "5a249570-5f2e-4ad0-85cb-d3337774231a"],
      "\[LineSeparator]converts all appearances of Schwarzschild r in expr to \
 r[r_*] and adjusts all r derivatives to be with respect to r_*."
-    }],ExpressionUUID->"939a7686-df22-4a58-a182-9bba1516d9b5"]}
-  }]], "Usage",ExpressionUUID->"ddb5f44d-620c-4a5f-b37d-5bde9ee6e0b5"]
+    }],ExpressionUUID->"dcdbce09-e5a3-4622-95e1-630d9f1e8616"]}
+  }]], "Usage",ExpressionUUID->"3c17039b-541e-4214-9606-48e8b03848a5"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -81,16 +81,16 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"f20dadf5-89c8-40fa-a94e-dba763f7f337"],
+  0,ExpressionUUID->"d94c4704-0a67-4ab5-a813-e266b936dac5"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"766d2c25-938e-4da7-9fb2-907c842f25e7"],
+"Notes",ExpressionUUID->"31ff7694-9989-47ab-a10b-de556d67b0a6"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "fae5792a-97bb-4ca1-a74e-a3e013f699a6"], "ExpandROfRStar", "False", Cell[
+     "6e3662e2-fead-4581-8341-f43e49650c5d"], "ExpandROfRStar", "False", Cell[
     "Express r[r_*] in terms of a ProductLog", "TableText",ExpressionUUID->
-     "d257b561-dcd8-486c-9f74-a427417e7d64"]}
+     "598f014a-c684-4908-8dbb-a1cc9ededffa"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -101,14 +101,14 @@ Cell[BoxData[GridBox[{
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"f17a5709-ff11-4d96-82bc-885e3a9ee684"]
+     True, True}}}},ExpressionUUID->"091d32eb-4d9e-4e6b-8345-27e7abdc2882"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"460527c6-21c2-4815-a8b0-29f8d2c2e6d8"],
+Cell[" ", "FooterCell",ExpressionUUID->"2b255a12-f591-4abf-9dbc-0e243c84f443"],
 
-Cell[BoxData[""],ExpressionUUID->"615dcf60-aaf7-4543-b270-dda8eb6a330f"]
+Cell[BoxData[""],ExpressionUUID->"c63565e1-43ed-47bf-9c6c-01323e81e643"]
 }, Open  ]]
 },
 Saveable->False,

@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"cba5c184-3c88-495c-ad86-201a936773c3"],
+   0}},ExpressionUUID->"5f6f9388-fb07-41b3-859a-11b773786783"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["LambdaSpinSymbol",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/LambdaSpinSymbol"]
-}], "LinkTrail",ExpressionUUID->"43e6070a-e09b-4377-9874-a088c2e6282f"],
+}], "LinkTrail",ExpressionUUID->"99ee7eb6-550b-4057-868f-f902d7e499be"],
 
 Cell[CellGroupData[{
 
 Cell["LambdaSpinSymbol", \
-"ObjectName",ExpressionUUID->"8d02f522-9f20-4b9a-846c-eb34c8ad4ae2"],
+"ObjectName",ExpressionUUID->"832d94d9-ccdd-4db3-a62d-5a25134012f9"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -30,11 +30,11 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/LambdaSpinSymbol"], "[", 
        "]"}]], "InlineFormula",ExpressionUUID->
-      "44904eeb-ffc9-4bb3-996e-fb9f1953c727"],
+      "3529d461-4426-4bce-a9f2-28586bf3c355"],
      "\[LineSeparator]returns the (formatted) symbol for lambda associated \
 with the spin of a field."
-    }],ExpressionUUID->"e9ab25d1-321b-4f69-ac7e-b02285d8dbaa"]}
-  }]], "Usage",ExpressionUUID->"8f35ea5a-dde6-4c60-9e2e-f7a5ebbdd14a"]
+    }],ExpressionUUID->"d8bb1f63-d0d9-4248-bdd2-832c2c9bcc77"]}
+  }]], "Usage",ExpressionUUID->"3255494d-32c6-4d7f-b8ff-8bf0693be813"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -80,17 +80,17 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"625cb745-adf4-4c2c-b2f9-60d1b1570972"],
+  0,ExpressionUUID->"2695c72e-4024-44a2-82af-1ac89e1e1243"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"8e13ead1-a369-4d57-97a6-b7dd64b0a946"],
+"Notes",ExpressionUUID->"92a37bbb-0028-4415-8302-5cc83f079f7c"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "8528ee93-871e-4211-abdb-100e1b940c7c"], "SpinWeight", 
+     "8c3f324e-eada-4918-b632-6afc80ca0e26"], "SpinWeight", 
     RowBox[{"-", "2"}], Cell["\<\
 Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
-\>", "TableText",ExpressionUUID->"b70272c7-a31d-40ba-bea1-669639b86058"]}
+\>", "TableText",ExpressionUUID->"0ce067f0-8e3f-419d-a65a-4adb285de233"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -101,14 +101,14 @@ Spin of the field (integer from -2 to 2, as well as -1/2 and 1/2)\
    "RowsIndexed" -> {}},
  GridBoxDividers->{
   "Rows" -> {{
-     True, True}}}},ExpressionUUID->"ac9df650-f52b-4a14-9856-da2875f6299d"]
+     True, True}}}},ExpressionUUID->"213c146a-69f9-4c04-a6df-ac38c9ba0ff8"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"df9b3418-2848-4125-8679-68b3fe42367e"],
+Cell[" ", "FooterCell",ExpressionUUID->"cc8d751a-91ab-4e6d-b8d1-64a6c5fa1f6c"],
 
-Cell[BoxData[""],ExpressionUUID->"5a51bc97-2e49-4583-b4bd-60f718a65c74"]
+Cell[BoxData[""],ExpressionUUID->"27892225-87ec-408e-bee3-3c8e313749fa"]
 }, Open  ]]
 },
 Saveable->False,

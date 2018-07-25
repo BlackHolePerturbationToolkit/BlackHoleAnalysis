@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "TutorialColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"f8c0d58f-75cc-4339-9d07-6194b72c0fb5"],
+   0}},ExpressionUUID->"f49cb809-a556-4d7e-8551-8c73838650e7"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -11,11 +11,11 @@ Cell[TextData[{
  ButtonBox["Weak functions",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/tutorial/Weak functions"]
-}], "LinkTrail",ExpressionUUID->"21bc0212-5eb8-4d7c-b3a0-7463772a15c6"],
+}], "LinkTrail",ExpressionUUID->"cd3d5106-a67f-49c0-a82c-6d933f66d1ea"],
 
 Cell[BoxData[GridBox[{
    {Cell["WEAK FUNCTIONS TUTORIAL", "PacletNameCell",ExpressionUUID->
-     "9367881d-aef8-4291-bf01-bc595e2f1536"], Cell[TextData[{
+     "60df6f5a-2ca3-4643-88ad-502ca507796a"], Cell[TextData[{
      Cell[BoxData[
       ActionMenuBox[
        FrameBox["\<\"Related Tutorials \[RightGuillemet]\"\>",
@@ -33,7 +33,7 @@ Cell[BoxData[GridBox[{
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "3a4b3d00-271a-4d92-b07d-716c7f75aa41"],
+      "18792da0-f80d-43b5-88a4-dd530c5b998f"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -52,44 +52,44 @@ Cell[BoxData[GridBox[{
        Appearance->None,
        MenuAppearance->Automatic]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "f37346fe-7910-42d4-94d8-867e42918d27"]
-    }], "AnchorBar",ExpressionUUID->"f2949508-1a3d-4969-b4ac-0d5f477fac62"]}
-  }]], "AnchorBarGrid",ExpressionUUID->"a6d72272-a6d6-44a1-adb8-a69dcabc0d82"],
+      "682e2c8b-0710-46e8-83d2-d5ea89190197"]
+    }], "AnchorBar",ExpressionUUID->"10c9fb06-10ed-49b2-86c4-ce3e0376506a"]}
+  }]], "AnchorBarGrid",ExpressionUUID->"d65b5109-28a3-4355-9abd-1c89416aa593"],
 
 Cell[CellGroupData[{
 
 Cell["BlackHoleAnalysis - Support for weak functions", \
-"Title",ExpressionUUID->"382f8d1e-05d9-45d8-9350-282efc1a2ae1"],
+"Title",ExpressionUUID->"09509b8e-1cbc-45b5-999b-5531d898ddee"],
 
 Cell["\<\
 BlackHoleAnalysis provides extensive support for the 1+1 weak functions.\
-\>", "Text",ExpressionUUID->"c54c25d5-9c8a-46d9-b127-ba8c3f9ddf99"],
+\>", "Text",ExpressionUUID->"1b26fab5-89c5-4324-9dc2-5a7d66a0d8c3"],
 
 Cell[BoxData[
  RowBox[{"<<", "BlackHoleAnalysis`"}]], "Input",
- CellLabel->"In[1]:=",ExpressionUUID->"a5bb5579-b975-4a27-b834-7f49f4f64c0c"],
+ CellLabel->"In[1]:=",ExpressionUUID->"616afa37-5d4e-4ac8-a468-866721ff8474"],
 
 Cell[CellGroupData[{
 
 Cell["Introduction", \
-"Section",ExpressionUUID->"76d07544-942d-4de6-af18-f11d8971fac0"],
+"Section",ExpressionUUID->"ccf31323-1d67-4f65-a4e7-0dfdd8d493af"],
 
 Cell["\<\
 The expressions for fields provided by BlackHoleAnalysis are almost \
 exclusively functions of Schwarzschild t & r (as well as implicit functions \
 of the mode numbers \[ScriptL] and \[ScriptM]).\
-\>", "Item",ExpressionUUID->"fa89f7bd-9446-45b2-a2fb-1627a790321f"],
+\>", "Item",ExpressionUUID->"3254d8c8-546d-442f-83c0-db64b88d1c5f"],
 
 Cell[CellGroupData[{
 
 Cell["For instance, the Zerilli-Moncrief function:", \
-"Item",ExpressionUUID->"7e0b64ad-12d6-4422-97b3-7d91579a4feb"],
+"Item",ExpressionUUID->"c293e559-ba95-47bf-8ea4-103ceb3fddd5"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "MasterFunction"}]], "Input",
- CellLabel->"In[2]:=",ExpressionUUID->"32a03899-f2ab-44ee-abd1-a9ad3e616cca"],
+ CellLabel->"In[2]:=",ExpressionUUID->"14514269-9ae7-4bf4-9621-04983c8e2176"],
 
 Cell[BoxData[
  RowBox[{"\<\"MasterFunction[] returns the gauge-invariant master function in \
@@ -101,8 +101,8 @@ symbolic form.\"\>", "\[NonBreakingSpace]",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/MasterFunction"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info23741357205-9892469",ExpressionUUID->"c8346cdd-de97-4674-a919-\
-fadfb0b423d5"]
+  "Info23741463215-7756260",ExpressionUUID->"e70bed97-8033-4774-8e5f-\
+14ef65f8141e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -111,14 +111,14 @@ Cell[BoxData[
  RowBox[{"zmVar", "=", 
   RowBox[{"MasterFunction", "[", "]"}]}]], "Input",
  CellChangeTimes->{{3.7412857279984922`*^9, 3.741285730227646*^9}},
- CellLabel->"In[3]:=",ExpressionUUID->"fdd21d54-e356-4821-8863-91dec7784f2b"],
+ CellLabel->"In[3]:=",ExpressionUUID->"1d27c281-e1c3-4f73-94eb-f1051ca67564"],
 
 Cell[BoxData[
  RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"X\\\", \
 \\\"\\\\\\\"ZM\\\\\\\"\\\"], \\\"Superscript\\\", Rule[SyntaxForm, \
 SuperscriptBox]]\\)\"\>", "[", 
   RowBox[{"t", ",", "r"}], "]"}]], "Output",
- CellLabel->"Out[3]=",ExpressionUUID->"0379b6a8-4ec7-42c7-afb1-a4e9417aad81"]
+ CellLabel->"Out[3]=",ExpressionUUID->"be241a72-36b4-47fe-bfde-545d0db815db"]
 }, Open  ]]
 }, Open  ]],
 
@@ -128,34 +128,34 @@ Cell[TextData[{
   FormBox[
    RowBox[{
     SubscriptBox["r", "p"], "(", "t", ")"}], TraditionalForm]],
-  ExpressionUUID->"305d06e7-564d-436b-9a0c-701ef7fea92b"],
+  ExpressionUUID->"8128f100-cafd-47b4-9e22-ba6ca4c8034f"],
  ", there will be a lack of differentiability at  r = ",
  Cell[BoxData[
   FormBox[
    RowBox[{
     SubscriptBox["r", "p"], "(", "t", ")"}], TraditionalForm]],
-  ExpressionUUID->"23b8f280-aba9-4ab5-b250-a400f465d374"],
+  ExpressionUUID->"03e3cf8d-d4ff-44fb-a3a2-766afa64fa82"],
  "."
-}], "Item",ExpressionUUID->"b587f306-4259-4d13-b953-b06e66278668"],
+}], "Item",ExpressionUUID->"09737db1-95db-48e1-879e-e98cb8245f3b"],
 
 Cell["\<\
 BlackHoleAnalysis provides support for so-called \[OpenCurlyQuote]weak\
 \[CloseCurlyQuote] functions that capture such discontinuities through the \
 Dirac delta and Heaviside step \[OpenCurlyQuote]distributions\
 \[CloseCurlyQuote].\
-\>", "Item",ExpressionUUID->"03e6e3f0-47e3-4c1c-9b99-1204b824e31f"],
+\>", "Item",ExpressionUUID->"af193605-1be2-478e-b566-15cfd49649f8"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 A generic function can be made weak with the function MakeFieldWeak.\
-\>", "Item",ExpressionUUID->"652f598e-e883-4a9c-8987-a9b07e40cce7"],
+\>", "Item",ExpressionUUID->"516ccb3d-15b2-4350-a573-1a7cb747f597"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "MakeFieldWeak"}]], "Input",
- CellLabel->"In[4]:=",ExpressionUUID->"9f999d83-48d8-4693-8c03-d2605ec8d6e5"],
+ CellLabel->"In[4]:=",ExpressionUUID->"e9b46c2c-aef2-4cfe-af7d-c5cc0514c0bc"],
 
 Cell[BoxData[
  RowBox[{"\<\"MakeFieldWeak[field] replaces the smooth field with a weak \
@@ -167,8 +167,8 @@ expression that is (by default) C^-1.\"\>", "\[NonBreakingSpace]",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/MakeFieldWeak"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info43741357205-9892469",ExpressionUUID->"fd583103-be87-4a9b-8e5d-\
-e562561ae615"]
+  "Info43741463215-7756260",ExpressionUUID->"3787ab20-6072-4edc-8cf6-\
+e2818d41f71e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -177,7 +177,7 @@ Cell[BoxData[
  RowBox[{"zmVarWeak", "=", 
   RowBox[{"MakeFieldWeak", "[", "zmVar", "]"}]}]], "Input",
  CellChangeTimes->{{3.74128573416999*^9, 3.741285741165905*^9}},
- CellLabel->"In[5]:=",ExpressionUUID->"cccd67af-80c7-44f5-8692-2057c1beb902"],
+ CellLabel->"In[5]:=",ExpressionUUID->"771bbcb1-3c81-4536-9708-a5da5236a931"],
 
 Cell[BoxData[
  RowBox[{
@@ -224,7 +224,7 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\"\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"+\\\\\\\"\\\"], \
 \\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
     RowBox[{"t", ",", "r"}], "]"}]}]}]], "Output",
- CellLabel->"Out[5]=",ExpressionUUID->"857ccba2-2356-4d5b-8e36-4ca32557c328"]
+ CellLabel->"Out[5]=",ExpressionUUID->"c062b331-38a5-4b56-b03e-6c9d3c32876c"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -232,19 +232,19 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 Cell[CellGroupData[{
 
 Cell["Evaluation of discontinuities", \
-"Section",ExpressionUUID->"1aded6d6-bd63-4781-8157-1761a8baf355"],
+"Section",ExpressionUUID->"8c2a609e-3693-473b-9c23-445065b05ac8"],
 
 Cell[CellGroupData[{
 
 Cell["Derivatives of Heaviside functions", \
-"Subsection",ExpressionUUID->"229a9dce-2c43-4131-8593-d9ec7dd3688a"],
+"Subsection",ExpressionUUID->"134db351-b4be-406c-9d92-915bcf6b5ec0"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 A derivative of a weak field will act on the Heaviside functions in addition \
 to the smooth coefficients.\
-\>", "Item",ExpressionUUID->"d6b0e6f1-3481-40f1-abba-5c040d05d20b"],
+\>", "Item",ExpressionUUID->"8e40bad3-19c6-4f93-913f-a73a1cca73b4"],
 
 Cell[CellGroupData[{
 
@@ -253,7 +253,7 @@ Cell[BoxData[
   RowBox[{"D", "[", 
    RowBox[{"zmVarWeak", ",", "r"}], "]"}]}]], "Input",
  CellChangeTimes->{{3.7412857434945707`*^9, 3.741285761883116*^9}},
- CellLabel->"In[6]:=",ExpressionUUID->"1dd8cef9-34ef-4f26-a3ee-85eca98650d6"],
+ CellLabel->"In[6]:=",ExpressionUUID->"eb3d651b-7b0d-4373-9d20-bb6996c0aaeb"],
 
 Cell[BoxData[
  RowBox[{
@@ -361,23 +361,23 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
       Derivative],
      MultilineFunction->None], "[", 
     RowBox[{"t", ",", "r"}], "]"}]}]}]], "Output",
- CellLabel->"Out[6]=",ExpressionUUID->"2941b67c-691c-42c1-8efe-ee64e811af02"]
+ CellLabel->"Out[6]=",ExpressionUUID->"a21724b9-feae-40b8-86e2-079d9f40e991"]
 }, Open  ]]
 }, Open  ]],
 
 Cell["The Dirac delta is the derivative of the Heaviside function.", \
-"Item",ExpressionUUID->"a45f795e-0dae-4c3d-85fd-a8870ef35e40"],
+"Item",ExpressionUUID->"17be3273-de6b-48a4-8433-414985ec4e3b"],
 
 Cell[CellGroupData[{
 
 Cell[" Support for this is provided with EvaluateHeavisides.", \
-"Item",ExpressionUUID->"ee4acdc8-c63c-47e8-8079-5b1b1c143787"],
+"Item",ExpressionUUID->"206f0246-7d7a-48d5-af3b-ddb5843cd9d2"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "EvaluateHeavisides"}]], "Input",
- CellLabel->"In[7]:=",ExpressionUUID->"31717faa-c8c2-4a5a-8676-fad0640ff8b9"],
+ CellLabel->"In[7]:=",ExpressionUUID->"ca8916e4-0f9a-4bc0-bf95-ebc2dc06b77f"],
 
 Cell[BoxData[
  RowBox[{"\<\"EvaluateHeavisides[expr] converts derivatives of Heaviside \
@@ -391,8 +391,8 @@ distributions in expr into Dirac delta distributions and their derivatives.\"\
     "paclet:BlackHoleAnalysis/ref/EvaluateHeavisides"]}]], "Print", \
 "PrintUsage",
  CellTags->
-  "Info73741357206-9892469",ExpressionUUID->"0ad5371d-c471-4ac2-8906-\
-aff78cc4ef31"]
+  "Info73741463216-7756260",ExpressionUUID->"92ad5693-1d24-453c-bee0-\
+d3d2eafd778f"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -401,7 +401,7 @@ Cell[BoxData[
  RowBox[{"drzmVarWeak2", "=", 
   RowBox[{"EvaluateHeavisides", "[", "drzmVarWeak1", "]"}]}]], "Input",
  CellChangeTimes->{{3.7412857634156427`*^9, 3.7412857644108973`*^9}},
- CellLabel->"In[8]:=",ExpressionUUID->"9a13969e-a8fb-42e1-9f86-a020a3e693a5"],
+ CellLabel->"In[8]:=",ExpressionUUID->"85e85005-2278-4cd2-8dbb-18034632a1db"],
 
 Cell[BoxData[
  RowBox[{
@@ -504,7 +504,7 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
       Derivative],
      MultilineFunction->None], "[", 
     RowBox[{"t", ",", "r"}], "]"}]}]}]], "Output",
- CellLabel->"Out[8]=",ExpressionUUID->"7440d543-34a8-4a97-859f-2a5c64d805ab"]
+ CellLabel->"Out[8]=",ExpressionUUID->"c95572d5-b2cd-452a-8d60-e1adf59c8c38"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -512,14 +512,14 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 Cell[CellGroupData[{
 
 Cell["Coefficients of Dirac delta functions (and its derivatives)", \
-"Subsection",ExpressionUUID->"0e4e16be-456f-4a3e-9468-3871329b2181"],
+"Subsection",ExpressionUUID->"fdadfe4f-238d-4070-9532-236299432736"],
 
 Cell[TextData[{
  "When multiplying a function of ",
  Cell[BoxData[
   FormBox[
    SuperscriptBox["\[CapitalPsi]", "\[PlusMinus]"], TraditionalForm]],
-  ExpressionUUID->"03711ada-12c4-446a-b2a5-34d3079e43ed"],
+  ExpressionUUID->"349789b8-2808-46a3-8967-b19c339256ff"],
  "[t,r] by the delta function ",
  Cell[BoxData[
   FormBox[
@@ -527,7 +527,7 @@ Cell[TextData[{
     RowBox[{"r", "-", 
      RowBox[{
       SubscriptBox["r", "p"], "(", "t", ")"}]}], "]"}], TraditionalForm]],
-  ExpressionUUID->"9be98650-fa2d-4d74-b485-e72077b9520b"],
+  ExpressionUUID->"aabac4d2-f88c-40a4-8a17-9eb0c3d1184c"],
  ", the function can be immediately evaluated at ",
  Cell[BoxData[
   FormBox[
@@ -538,20 +538,20 @@ Cell[TextData[{
       TraditionalForm], "[", 
      RowBox[{"t", ",", 
       SubscriptBox["r", "p"]}], "]"}]}], TraditionalForm]],ExpressionUUID->
-  "b3826b1e-576e-4cff-a4e4-762f34ecaf3a"],
+  "f17e0ff5-432e-40be-af83-f120cffd32e3"],
  "."
-}], "Item",ExpressionUUID->"a0b325ee-592b-411c-a57a-be18a676c1ea"],
+}], "Item",ExpressionUUID->"8abebcbd-72ff-4096-a852-d45eaa66e11f"],
 
 Cell[CellGroupData[{
 
 Cell["This is accomplished with the function EvaluateDeltas.", \
-"Item",ExpressionUUID->"234b83f6-64d3-47f6-9370-956c9364d541"],
+"Item",ExpressionUUID->"0b34905d-5893-4eb4-a434-7a9358f7af51"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "EvaluateDeltas"}]], "Input",
- CellLabel->"In[9]:=",ExpressionUUID->"7cd9c60f-ddf6-4c79-8509-c11431c1a8f6"],
+ CellLabel->"In[9]:=",ExpressionUUID->"aaa4dc43-3b72-4ebd-be8e-a7dafce64c12"],
 
 Cell[BoxData[
  RowBox[{"\<\"EvaluateDeltas[expr] evaluates coefficients of Dirac delta \
@@ -564,8 +564,8 @@ distributions and their derivatives in expr at r=r_p[t].\"\>",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/EvaluateDeltas"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info93741357206-9892469",ExpressionUUID->"09b166b9-a7db-4ff8-b955-\
-83eb08dcf1e7"]
+  "Info93741463216-7756260",ExpressionUUID->"5a9bc69e-00b9-4617-98ec-\
+fda13fe66a90"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -574,7 +574,7 @@ Cell[BoxData[
  RowBox[{"drzmVarWeak3", "=", 
   RowBox[{"EvaluateDeltas", "[", "drzmVarWeak2", "]"}]}]], "Input",
  CellChangeTimes->{{3.741285766236719*^9, 3.741285767331286*^9}},
- CellLabel->"In[10]:=",ExpressionUUID->"5611fc24-dab5-4df6-8faa-75cc5639f419"],
+ CellLabel->"In[10]:=",ExpressionUUID->"ce9170a1-9d4e-43f1-a1f9-f150c207a89f"],
 
 Cell[BoxData[
  RowBox[{
@@ -683,14 +683,14 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
      MultilineFunction->None], "[", 
     RowBox[{"t", ",", "r"}], "]"}]}]}]], "Output",
  CellLabel->
-  "Out[10]=",ExpressionUUID->"d266f2c4-6069-487b-aa38-682aabb6c6a7"]
+  "Out[10]=",ExpressionUUID->"cba3fa2f-b359-4f7f-bde7-1e89316d566f"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Derivatives of delta functions have more subtle identities.", \
-"Item",ExpressionUUID->"7411cbad-218a-4a14-b1c0-d00b91f18776"],
+"Item",ExpressionUUID->"aae055fc-0ba7-4430-9b94-b7adfa5b2632"],
 
 Cell[CellGroupData[{
 
@@ -702,7 +702,7 @@ Cell[BoxData[
     RowBox[{"\[Delta]", "'"}], "[", 
     RowBox[{"r", "-", 
      RowBox[{"rp", "[", "t", "]"}]}], "]"}]}], "]"}]], "Input",
- CellLabel->"In[11]:=",ExpressionUUID->"930cd672-3e07-4cf3-b0f3-f4718cc8f7de"],
+ CellLabel->"In[11]:=",ExpressionUUID->"ec50d68f-0248-4df2-aaf7-2797592c8ea9"],
 
 Cell[BoxData[
  RowBox[{
@@ -728,7 +728,7 @@ Cell[BoxData[
      RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\"]\
 \\)\"\>", "[", "t", "]"}]}], "]"}]}]}]], "Output",
  CellLabel->
-  "Out[11]=",ExpressionUUID->"e49c3c1d-b3ce-4ad0-b7b1-6cec1f5d9fa5"]
+  "Out[11]=",ExpressionUUID->"fb4c77e8-2f74-4c47-9c23-d7f00781bd4c"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -741,7 +741,7 @@ Cell[BoxData[
     RowBox[{"\[Delta]", "''"}], "[", 
     RowBox[{"r", "-", 
      RowBox[{"rp", "[", "t", "]"}]}], "]"}]}], "]"}]], "Input",
- CellLabel->"In[12]:=",ExpressionUUID->"8a2274ff-08f2-40cb-9584-21435a4e50d5"],
+ CellLabel->"In[12]:=",ExpressionUUID->"a92ed5ca-fd62-46c2-a12a-e3f72bbf23c4"],
 
 Cell[BoxData[
  RowBox[{
@@ -779,7 +779,7 @@ Cell[BoxData[
      RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \\\"\\\\\\\"p\\\\\\\"\\\"]\
 \\)\"\>", "[", "t", "]"}]}], "]"}]}]}]], "Output",
  CellLabel->
-  "Out[12]=",ExpressionUUID->"9894a40b-48df-4b64-aa74-c82ad156106c"]
+  "Out[12]=",ExpressionUUID->"7537ad21-750f-4160-bd2b-f1f47bf3a92d"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -791,13 +791,13 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    SubscriptBox["r", "p"], TraditionalForm]],ExpressionUUID->
-  "c9ae9044-0df3-468f-b035-89d57471dddf"]
-}], "Subsection",ExpressionUUID->"9b7c3fc3-822a-4c8b-9f2d-84082663598a"],
+  "29d01c28-de58-4db4-9faf-93ee33c6a071"]
+}], "Subsection",ExpressionUUID->"e4e40a9e-f4d1-4ff6-b4b0-a565d2fde458"],
 
 Cell["\<\
 The coefficients of the delta functions in the previous expressions are \
 entirely a functions of t.\
-\>", "Item",ExpressionUUID->"b95d550c-7231-48c8-a457-48266a3042dc"],
+\>", "Item",ExpressionUUID->"3220853e-e14d-4c6d-9842-e9261858ccad"],
 
 Cell[CellGroupData[{
 
@@ -806,12 +806,12 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    SubscriptBox["\[PartialD]", "r"], TraditionalForm]],ExpressionUUID->
-  "d918030b-5ad8-4dad-a133-c6052678ccac"],
+  "55811dd7-4e3f-47e5-a47d-156e7804d633"],
  Cell[BoxData[
   FormBox["\[CapitalPsi]", TraditionalForm]],ExpressionUUID->
-  "82eae1bf-5147-49aa-9581-96473d8b1a87"],
+  "d8971012-605e-49a5-8630-67e4da8b1ce4"],
  "[t,r]:"
-}], "Item",ExpressionUUID->"81c180c5-4bdc-464b-8782-5e5f4da69cf4"],
+}], "Item",ExpressionUUID->"d62c53d1-a9a4-425e-81ba-e6f907faf723"],
 
 Cell[CellGroupData[{
 
@@ -822,7 +822,7 @@ Cell[BoxData[
     RowBox[{"r", "-", 
      RowBox[{"rp", "[", "t", "]"}]}], "]"}]}], "]"}]], "Input",
  CellChangeTimes->{3.741285768667555*^9},
- CellLabel->"In[13]:=",ExpressionUUID->"5f70c60e-f026-4558-9912-7f58fe8122a3"],
+ CellLabel->"In[13]:=",ExpressionUUID->"068b6dad-03b0-4367-9e53-0cd42f55e90c"],
 
 Cell[BoxData[
  RowBox[{
@@ -864,7 +864,7 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
     RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\\"r\\\", \
 \\\"\\\\\\\"p\\\\\\\"\\\"]\\)\"\>", "[", "t", "]"}]}], "]"}]}]], "Output",
  CellLabel->
-  "Out[13]=",ExpressionUUID->"cab95b8f-0482-4535-aeb3-1f66e14b5cbe"]
+  "Out[13]=",ExpressionUUID->"00f07c8f-d9b0-4546-9ddb-ee421eba19d3"]
 }, Open  ]]
 }, Open  ]],
 
@@ -874,21 +874,21 @@ Cell[TextData[{
   FormBox[
    RowBox[{"r", "=", 
     SubscriptBox["r", "p"]}], TraditionalForm]],ExpressionUUID->
-  "92b7b07e-f816-44da-851b-1e5b27fdfc37"],
+  "a5ffa09c-c0e7-4593-bcb9-785d455d4994"],
  ", which we denote as \
 \[LeftDoubleBracket]\[CapitalPsi]\[RightDoubleBracket][t]."
-}], "Item",ExpressionUUID->"b9a7abd9-700f-4b05-9035-e7a732c02eec"],
+}], "Item",ExpressionUUID->"716f4838-9c62-4813-8442-7bac2f4f45e9"],
 
 Cell[CellGroupData[{
 
 Cell["This can we evaluated automatically with EvaluateJumps.", \
-"Item",ExpressionUUID->"6756a943-75a6-4e43-b522-0b9f9285a0b7"],
+"Item",ExpressionUUID->"0cba035b-c294-411f-bfca-0218a5edba4d"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "EvaluateJumps"}]], "Input",
- CellLabel->"In[14]:=",ExpressionUUID->"09c45d11-095f-428f-ab4b-328e547b7498"],
+ CellLabel->"In[14]:=",ExpressionUUID->"87bc403b-78ef-435d-aa3a-5efefda5e577"],
 
 Cell[BoxData[
  RowBox[{"\<\"EvaluateJumps[expr] converts functions in expr of the form \
@@ -901,8 +901,8 @@ fn_[t,rp[t]] on the 'plus' and 'minus'  side of the particle into a \
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/EvaluateJumps"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info143741357206-9892469",ExpressionUUID->"e67b7ce8-e73c-4b88-b64d-\
-e7f0585cacc2"]
+  "Info143741463216-7756260",ExpressionUUID->"8a72ff11-5446-4175-82e5-\
+43b5e924a8cc"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -910,7 +910,7 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"EvaluateJumps", "[", "drzmVarWeak3", "]"}]], "Input",
  CellChangeTimes->{3.7412857697076797`*^9},
- CellLabel->"In[15]:=",ExpressionUUID->"1cf18b99-825b-4ab6-8d00-36f620a753a1"],
+ CellLabel->"In[15]:=",ExpressionUUID->"f0d8ffcc-958b-4be1-a6cd-cc20bb2820ac"],
 
 Cell[BoxData[
  RowBox[{
@@ -983,7 +983,7 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 Rule[SyntaxForm, SuperscriptBox]]\\\\\\\\)\\\\\\\"\\\"}]\\)\
 \[RightDoubleBracket]\"\>", "[", "t", "]"}]}]}]], "Output",
  CellLabel->
-  "Out[15]=",ExpressionUUID->"a01a95b5-b2e0-4f65-bda6-34b11ccb17de"]
+  "Out[15]=",ExpressionUUID->"8d5da99b-6783-4dfa-9c70-a23b173cddd0"]
 }, Open  ]]
 }, Open  ]],
 
@@ -991,13 +991,13 @@ Cell[CellGroupData[{
 
 Cell["\<\
 Internally, the jump in a symbol is represented with the function Jump\
-\>", "Item",ExpressionUUID->"fcb6c344-f852-4d72-997f-6a6632fb7bfb"],
+\>", "Item",ExpressionUUID->"85b45155-e1e2-4a23-b40b-2943a1e7ec78"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "Jump"}]], "Input",
- CellLabel->"In[16]:=",ExpressionUUID->"02c4a9fa-7e7b-4a3a-927c-a763c7929508"],
+ CellLabel->"In[16]:=",ExpressionUUID->"601688c9-7157-4248-80de-619da6427b86"],
 
 Cell[BoxData[
  RowBox[{"\<\"Jump[a,b][sym] returns a formatted expression for the jump in \
@@ -1010,8 +1010,8 @@ the a-th t derivative and b-th r dertivative in sym.\"\>",
    ButtonData->"paclet:BlackHoleAnalysis/ref/Jump"]}]], "Print", "PrintUsage",
  
  CellTags->
-  "Info163741357206-9892469",ExpressionUUID->"9d254759-d4fd-4f35-b09b-\
-58298ceb0f3a"]
+  "Info163741463216-7756260",ExpressionUUID->"5518bb8b-6e53-4be5-bba3-\
+8a9b56870e0b"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1020,7 +1020,7 @@ Cell[BoxData[
  RowBox[{"zmVar", "=", 
   RowBox[{"Head", "@", "zmVar"}]}]], "Input",
  CellChangeTimes->{{3.741285798295864*^9, 3.7412858030777817`*^9}},
- CellLabel->"In[17]:=",ExpressionUUID->"728c65d4-19a6-4a36-899c-207c6b244613"],
+ CellLabel->"In[17]:=",ExpressionUUID->"0cbe714d-0ad8-4f04-8e1a-f34e758388e4"],
 
 Cell[BoxData["\<\"\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\\\\*\
 TemplateBox[List[\\\\\\\\\\\\\\\"X\\\\\\\\\\\\\\\", \
@@ -1028,7 +1028,7 @@ TemplateBox[List[\\\\\\\\\\\\\\\"X\\\\\\\\\\\\\\\", \
 \\\"\\\\\\\\\\\\\\\"], \\\\\\\\\\\\\\\"Superscript\\\\\\\\\\\\\\\", \
 Rule[SyntaxForm, SuperscriptBox]]\\\\\\\\)\\\\\\\"\\\"}]\\)\"\>"], "Output",
  CellLabel->
-  "Out[17]=",ExpressionUUID->"41f681d9-f4a0-4c72-8ec4-fa1699ccba18"]
+  "Out[17]=",ExpressionUUID->"efd84ba1-95df-44a2-8373-f0e3ec075b45"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1038,7 +1038,7 @@ Cell[BoxData[
   RowBox[{"Jump", "[", 
    RowBox[{"0", ",", "0"}], "]"}], "[", "zmVar", "]"}]], "Input",
  CellChangeTimes->{3.741285803626848*^9},
- CellLabel->"In[18]:=",ExpressionUUID->"06072e1b-1ed4-49ee-a55b-4dd6e259e3ad"],
+ CellLabel->"In[18]:=",ExpressionUUID->"be29f992-ddf9-4295-b935-30f3479f85dc"],
 
 Cell[BoxData["\<\"\[LeftDoubleBracket]\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\\\
 \\\\\\(\\\\\\\\*TemplateBox[List[\\\\\\\\\\\\\\\"X\\\\\\\\\\\\\\\", \
@@ -1047,7 +1047,7 @@ Cell[BoxData["\<\"\[LeftDoubleBracket]\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\\\
 Rule[SyntaxForm, SuperscriptBox]]\\\\\\\\)\\\\\\\"\\\"}]\\)\
 \[RightDoubleBracket]\"\>"], "Output",
  CellLabel->
-  "Out[18]=",ExpressionUUID->"ff06b704-d647-457b-a608-9e860158b28b"]
+  "Out[18]=",ExpressionUUID->"a5a36fb4-0f8b-4a9c-b6a9-9706e6d545ac"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -1055,20 +1055,20 @@ Rule[SyntaxForm, SuperscriptBox]]\\\\\\\\)\\\\\\\"\\\"}]\\)\
 Cell[CellGroupData[{
 
 Cell["Quick evaluation of all discontinuities", \
-"Subsection",ExpressionUUID->"c6065be7-5adf-4d67-a43b-a02e37e56fa9"],
+"Subsection",ExpressionUUID->"9d2015e7-a0eb-4307-b9f5-b0ff30729d0a"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 The previous 3 functions can all be applied to an expression through the \
 function EvaluateDiscontinuities\
-\>", "Item",ExpressionUUID->"648216a9-f27c-451b-ae16-25fa27761755"],
+\>", "Item",ExpressionUUID->"349bc804-6cfd-40f1-8e96-0dd026059c4d"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "EvaluateDiscontinuities"}]], "Input",
- CellLabel->"In[19]:=",ExpressionUUID->"b041b069-7ddd-491d-914c-0ac764b51c94"],
+ CellLabel->"In[19]:=",ExpressionUUID->"35bc780f-f96b-4374-86cb-6a8083233054"],
 
 Cell[BoxData[
  RowBox[{"\<\"EvaluateDiscontinuities[expr] calls EvaluateHeavisides, \
@@ -1081,8 +1081,8 @@ EvaluateDeltas and EvaluateJumps on expr.\"\>", "\[NonBreakingSpace]",
     "paclet:BlackHoleAnalysis/ref/EvaluateDiscontinuities"]}]], "Print", \
 "PrintUsage",
  CellTags->
-  "Info193741357206-9892469",ExpressionUUID->"b5f5a1bd-cee2-41a6-8b95-\
-58c690846ff6"]
+  "Info193741463216-7756260",ExpressionUUID->"e6e95135-6b2d-4b28-a875-\
+f726ae0356c5"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1090,7 +1090,7 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"EvaluateDiscontinuities", "[", "drzmVarWeak1", "]"}]], "Input",
  CellChangeTimes->{3.741285770679652*^9},
- CellLabel->"In[20]:=",ExpressionUUID->"01bcd31e-b226-4595-9d1f-69a23e0a8d00"],
+ CellLabel->"In[20]:=",ExpressionUUID->"2d6f7b4d-669c-48fc-9651-c63ab65e8e3a"],
 
 Cell[BoxData[
  RowBox[{
@@ -1173,7 +1173,7 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\"\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", 
     "[", "t", "]"}]}]}]], "Output",
  CellLabel->
-  "Out[20]=",ExpressionUUID->"323aabd9-0972-4982-9866-b5d5aa74733c"]
+  "Out[20]=",ExpressionUUID->"1dd1fd07-afc0-431a-bdeb-f6e58c268ff7"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -1182,17 +1182,17 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 Cell[CellGroupData[{
 
 Cell["Other useful functions", \
-"Section",ExpressionUUID->"1d57052a-ddcf-4661-89ec-ae1b3b2b1050"],
+"Section",ExpressionUUID->"5d2e4d51-01be-4e42-b457-278ae4911903"],
 
 Cell[CellGroupData[{
 
 Cell["Jumps in derivatives", \
-"Subsection",ExpressionUUID->"572acb95-ca84-4fef-83e6-931394fa3019"],
+"Subsection",ExpressionUUID->"b6f6f457-c6e3-4316-bed5-45f1fe9101cc"],
 
 Cell["\<\
 In general, higher derivatives of functions will have higher-order \
 derivatives.\
-\>", "Item",ExpressionUUID->"ca358230-fe0f-456a-95a9-3fc1af2572a0"],
+\>", "Item",ExpressionUUID->"6de9d6d7-6854-45ed-a3bb-2f55c0f6fd88"],
 
 Cell[CellGroupData[{
 
@@ -1201,7 +1201,7 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    SuperscriptBox["\[CapitalPsi]", "ZM"], TraditionalForm]],ExpressionUUID->
-  "788fd863-abb5-4139-b1e6-a71801e506b5"],
+  "685ec557-bbe1-48db-b106-c68ee33c2444"],
  " will have a ",
  Cell[BoxData[
   FormBox[
@@ -1209,7 +1209,7 @@ Cell[TextData[{
     RowBox[{"\[Delta]", "[", 
      RowBox[{"r", "-", 
       SubscriptBox["r", "p"]}], "]"}], " "}], TraditionalForm]],
-  ExpressionUUID->"d0bfc81e-de06-48ba-9a9c-b594be2dea78"],
+  ExpressionUUID->"469c33e5-6187-4a2d-bba7-73de1e4e097c"],
  "and ",
  Cell[BoxData[
   FormBox[
@@ -1217,9 +1217,9 @@ Cell[TextData[{
     RowBox[{"\[Delta]", "'"}], "[", 
     RowBox[{"r", "-", 
      SubscriptBox["r", "p"]}], "]"}], TraditionalForm]],ExpressionUUID->
-  "badf5ffa-2200-4701-9ba3-e5b8da141e52"],
+  "18063386-09be-4e09-9706-d4b4ee877e25"],
  " term"
-}], "Item",ExpressionUUID->"2a90740b-75a8-49f9-8113-241f8a29e908"],
+}], "Item",ExpressionUUID->"60d5845f-b5f9-4dfb-b74b-66005707105c"],
 
 Cell[CellGroupData[{
 
@@ -1230,7 +1230,7 @@ Cell[BoxData[
     RowBox[{"zmVarWeak", ",", "t", ",", "t"}], "]"}]}]}]], "Input",
  CellChangeTimes->{
   3.741285772*^9, {3.741285818687461*^9, 3.741285819478691*^9}},
- CellLabel->"In[21]:=",ExpressionUUID->"011ae482-e46a-405a-ac92-2394cea905f3"],
+ CellLabel->"In[21]:=",ExpressionUUID->"e1511168-8853-4d2e-b9c0-ec453809fc17"],
 
 Cell[BoxData[
  RowBox[{
@@ -4430,7 +4430,7 @@ RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\
 \\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", "t", 
           "]"}]}]}], ")"}]}]}], ")"}]}]}]], "Output",
  CellLabel->
-  "Out[21]=",ExpressionUUID->"8269f640-161b-44bc-ab4d-ac1c5a431e34"]
+  "Out[21]=",ExpressionUUID->"86476124-85a5-4d9d-bcd2-30d3d1174c97"]
 }, Open  ]]
 }, Open  ]],
 
@@ -4443,14 +4443,14 @@ Cell[TextData[{
    RowBox[{"\[Delta]", "[", 
     RowBox[{"r", "-", 
      SubscriptBox["r", "p"]}], "]"}], TraditionalForm]],ExpressionUUID->
-  "2475aa70-2b81-402c-bb99-a3d39aa3d1bf"],
+  "1aa5483c-7d54-49f9-9247-360fe3e0d60e"],
  " coefficient depends on the jump in r and t derivatives of ",
  Cell[BoxData[
   FormBox[
    SuperscriptBox["\[CapitalPsi]", "ZM"], TraditionalForm]],ExpressionUUID->
-  "ab8fed6e-2ba2-4927-b19b-02bcedcb030f"],
+  "9349f2c2-234b-461f-9f04-817821501847"],
  ", which are represented internally as"
-}], "Item",ExpressionUUID->"2001cc39-97d1-47fd-b5ff-0bdb5d6c73f7"],
+}], "Item",ExpressionUUID->"c4a26a7c-a54a-442e-ade9-59c549c6adf8"],
 
 Cell[CellGroupData[{
 
@@ -4469,7 +4469,7 @@ Cell[BoxData[{
    "]"}]}]}], "Input",
  CellChangeTimes->{{3.741285805113358*^9, 3.741285805585973*^9}, {
   3.7412872727086678`*^9, 3.741287279868349*^9}},
- CellLabel->"In[22]:=",ExpressionUUID->"b1d2fad4-3f56-4b76-8e22-6fab701cd004"],
+ CellLabel->"In[22]:=",ExpressionUUID->"6756f261-117e-4bb5-a1eb-2238ece4c532"],
 
 Cell[BoxData[
  RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*SubscriptBox[\\(\[PartialD]\\), \
@@ -5247,7 +5247,7 @@ Cell[BoxData[
 \\\\\"}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\
 \\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", "t", 
   "]"}]], "Output",
- CellLabel->"Out[22]=",ExpressionUUID->"b9b02f5c-5a2b-49ca-b07f-92996346fc0c"],
+ CellLabel->"Out[22]=",ExpressionUUID->"c29a3784-edeb-4572-abbf-e75447d4729c"],
 
 Cell[BoxData[
  RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*SubscriptBox[\\(\[PartialD]\\), \
@@ -6026,7 +6026,7 @@ Cell[BoxData[
 \\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", "t", 
   "]"}]], "Output",
  CellLabel->
-  "Out[23]=",ExpressionUUID->"8d79d26d-ab7b-48d4-be77-d17ab67d7289"]
+  "Out[23]=",ExpressionUUID->"023f077c-a3ec-4bf6-b8e4-59fdf7880499"]
 }, Open  ]]
 }, Open  ]],
 
@@ -6036,13 +6036,13 @@ Cell["\<\
 The jump in the t derivative can be converted into a jump in the r \
 derivative, along with a counter term involving the t derivative of the jump \
 in \[CapitalPsi].\
-\>", "Item",ExpressionUUID->"a8ab2cdb-2238-4049-ab68-9b3c8f78aef2"],
+\>", "Item",ExpressionUUID->"498ae579-466e-4f7b-a2d5-5cc847167252"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "AddJumpDots"}]], "Input",
- CellLabel->"In[24]:=",ExpressionUUID->"178264bb-f712-4a4b-bd03-b6ddb644fb4c"],
+ CellLabel->"In[24]:=",ExpressionUUID->"bd352f99-6dfe-484c-9ea6-be5fecec7c03"],
 
 Cell[BoxData[
  RowBox[{"\<\"AddJumpDots[expr] converts jumps in t derivatives in expr to \
@@ -6055,8 +6055,8 @@ time derivatives of jumps and jumps in r derivatives.\"\>",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/AddJumpDots"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info243741357207-9892469",ExpressionUUID->"091eaca8-b6e7-4b8b-9d25-\
-90c0938b8c3a"]
+  "Info243741463217-7756260",ExpressionUUID->"69707552-c91e-4c96-9db9-\
+33fb8d498e78"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -6064,7 +6064,7 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"AddJumpDots", "[", "jumpDtzmVar", "]"}]], "Input",
  CellChangeTimes->{3.7412872835913773`*^9},
- CellLabel->"In[25]:=",ExpressionUUID->"211e6cdc-a9ca-456d-9310-92a57f2f2b16"],
+ CellLabel->"In[25]:=",ExpressionUUID->"e5b5145a-25fc-4586-a589-4e093ba5e26b"],
 
 Cell[BoxData[
  RowBox[{
@@ -7625,20 +7625,20 @@ TemplateBox[List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", "t", 
     "]"}]}]}]], "Output",
  CellLabel->
-  "Out[25]=",ExpressionUUID->"44dd827e-935b-4ee7-b8f5-b9ae52291dda"]
+  "Out[25]=",ExpressionUUID->"6ff9c8ee-24ca-4b61-b716-99bb7dd619c8"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["The opposite can also be accomplished with RemoveJumpDots.", \
-"Item",ExpressionUUID->"c414e48c-018e-4a7e-9115-859eaecd3e30"],
+"Item",ExpressionUUID->"5a3cc912-25eb-4444-bcb5-f92044ce1168"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "RemoveJumpDots"}]], "Input",
- CellLabel->"In[26]:=",ExpressionUUID->"36eab986-5c92-45ff-b85e-a002b0103005"],
+ CellLabel->"In[26]:=",ExpressionUUID->"4c988d26-eee6-446d-9f21-d76fd1dae440"],
 
 Cell[BoxData[
  RowBox[{"\<\"RemoveJumpDots[expr] converts time derivatives of jumps in expr \
@@ -7650,8 +7650,8 @@ to jumps in t derivatives and r derivatives.\"\>", "\[NonBreakingSpace]",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/RemoveJumpDots"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info263741357207-9892469",ExpressionUUID->"dd0d9386-0ebb-4091-8fb3-\
-77a7091d1d4a"]
+  "Info263741463217-7756260",ExpressionUUID->"a8691aa0-0b5b-4dba-afa4-\
+4f7fcd6cd61e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -7665,7 +7665,7 @@ Cell[BoxData[
       RowBox[{"0", ",", "0"}], "]"}], "[", "zmVar", "]"}], "'"}], "[", "t", 
    "]"}], "]"}]], "Input",
  CellChangeTimes->{3.7412858063440523`*^9},
- CellLabel->"In[27]:=",ExpressionUUID->"7d68a29a-4f78-4189-92e3-2749d8bc8df7"],
+ CellLabel->"In[27]:=",ExpressionUUID->"ea07cf6f-607f-4eec-bc94-e2eb37ea5292"],
 
 Cell[BoxData[
  RowBox[{
@@ -9225,7 +9225,7 @@ Cell[BoxData[
 \\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", "t", 
    "]"}]}]], "Output",
  CellLabel->
-  "Out[27]=",ExpressionUUID->"b8fcbf1d-87ae-461e-a9ea-40362a6dc20c"]
+  "Out[27]=",ExpressionUUID->"8d7b1562-a01f-4a38-8ccd-3ccfe56fc6ee"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -9233,23 +9233,23 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell["Discontinuities order-by-order", \
-"Subsection",ExpressionUUID->"d35992e0-5472-414a-a0f2-a87d1e334eab"],
+"Subsection",ExpressionUUID->"1e9b69c8-e0a1-4145-a7ed-f5cc72e3e5c4"],
 
 Cell["\<\
 At times it can be useful to consider the different smooth function \
 separately.\
-\>", "Item",ExpressionUUID->"b27e6e06-f863-42f2-acc9-b5e3f684041d"],
+\>", "Item",ExpressionUUID->"2dc67279-f200-4cbe-a2c9-7fc6a56898be"],
 
 Cell[CellGroupData[{
 
 Cell["This is done with WeakFormToList", \
-"Item",ExpressionUUID->"abe8f79a-54f0-47c6-99b2-2d0f39583457"],
+"Item",ExpressionUUID->"95800a60-3076-49f5-8423-b6627bebe869"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "WeakFormToList"}]], "Input",
- CellLabel->"In[28]:=",ExpressionUUID->"647c1ce5-1cd1-4ae8-93b6-32421f56d453"],
+ CellLabel->"In[28]:=",ExpressionUUID->"1697a628-1511-4bea-be45-f30d491c4ee8"],
 
 Cell[BoxData[
  RowBox[{"\<\"WeakFormToList[expr] replaces the weak forms in expr with a \
@@ -9262,8 +9262,8 @@ list. Each element in the list has a higher degree of discontinuity.\"\>",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/WeakFormToList"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info283741357207-9892469",ExpressionUUID->"b8a30947-d146-4475-987f-\
-2fb7b0650a70"]
+  "Info283741463217-7756260",ExpressionUUID->"66b55505-5c56-4757-9eb9-\
+f9c466ec7fa3"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -9271,7 +9271,7 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"WeakFormToList", "[", "dt2zmVarWeak", "]"}]], "Input",
  CellChangeTimes->{3.741285772955636*^9},
- CellLabel->"In[29]:=",ExpressionUUID->"6f67864e-f5b8-4528-a934-2685601508a1"],
+ CellLabel->"In[29]:=",ExpressionUUID->"4c0daf00-4b01-4f16-9175-334b91dbd681"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -12451,7 +12451,7 @@ List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", "t", 
      "]"}]}]}], "}"}]], "Output",
  CellLabel->
-  "Out[29]=",ExpressionUUID->"4343eb6a-85da-4793-9139-e89c4f2f84d4"]
+  "Out[29]=",ExpressionUUID->"81bc8d0a-fef2-45de-959f-31e6fe5010ab"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -12459,20 +12459,20 @@ List[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 Cell[CellGroupData[{
 
 Cell["Removing singular or extended terms", \
-"Subsection",ExpressionUUID->"89c1b5f3-7280-4616-9744-16f316eae532"],
+"Subsection",ExpressionUUID->"eb821002-5932-41b2-8d30-8be4d817b88f"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 If you just want to explore the singular part of a weak expression, use \
 RemoveExtended\
-\>", "Item",ExpressionUUID->"b5b4cac6-2d1e-4926-b7da-192f2ac478b6"],
+\>", "Item",ExpressionUUID->"d9efa00d-19ab-40ab-93c1-0eb4025819b4"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "RemoveExtended"}]], "Input",
- CellLabel->"In[30]:=",ExpressionUUID->"ebdd2117-f3c2-4145-ba46-82dcdc915f6b"],
+ CellLabel->"In[30]:=",ExpressionUUID->"cbe58736-db3c-40c9-b2cb-0000e2ffa707"],
 
 Cell[BoxData[
  RowBox[{"\<\"RemoveExtended[expr] removes all terms in expr proportional to \
@@ -12484,8 +12484,8 @@ Heaviside functions.\"\>", "\[NonBreakingSpace]",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/RemoveExtended"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info303741357207-9892469",ExpressionUUID->"5f8a7fd9-f0f7-415b-8562-\
-a4fbf42f03f9"]
+  "Info303741463217-7756260",ExpressionUUID->"02b8238b-cde8-4169-aac9-\
+a8139939cf46"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -12493,7 +12493,7 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"RemoveExtended", "[", "dt2zmVarWeak", "]"}]], "Input",
  CellChangeTimes->{{3.741285754865426*^9, 3.74128575849432*^9}},
- CellLabel->"In[31]:=",ExpressionUUID->"ec4e8929-5c36-45df-b517-b726333224b5"],
+ CellLabel->"In[31]:=",ExpressionUUID->"740a77ab-026c-48d7-b93d-340f046cef5d"],
 
 Cell[BoxData[
  RowBox[{
@@ -15636,20 +15636,20 @@ RowBox[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\
 \\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", "t", 
           "]"}]}]}], ")"}]}]}], ")"}]}]}]], "Output",
  CellLabel->
-  "Out[31]=",ExpressionUUID->"31da55f2-d47c-4d2a-95da-471cd48833ed"]
+  "Out[31]=",ExpressionUUID->"9b9e2189-e06d-4a5d-b986-a18258152cb6"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["The singular parts can be eliminated with RemoveSingular", \
-"Item",ExpressionUUID->"cafb3a05-5c2a-4f9e-811d-54f40deb5e83"],
+"Item",ExpressionUUID->"b74e6fbd-e7b6-4f6c-a9e0-573596b4b3f5"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "RemoveSingular"}]], "Input",
- CellLabel->"In[32]:=",ExpressionUUID->"0f5a958a-1de4-44c1-982e-e42d3ec708de"],
+ CellLabel->"In[32]:=",ExpressionUUID->"bdf0d6d4-9014-4ee1-ac7c-b46007d552da"],
 
 Cell[BoxData[
  RowBox[{"\<\"RemoveSingular[expr] removes all terms in expr not proportional \
@@ -15662,8 +15662,8 @@ to Heaviside functions (this includes derivatives of Heavisides).\"\>",
    ButtonData->
     "paclet:BlackHoleAnalysis/ref/RemoveSingular"]}]], "Print", "PrintUsage",
  CellTags->
-  "Info323741357207-9892469",ExpressionUUID->"cb1323eb-7a92-485c-b6bf-\
-6970269c83ea"]
+  "Info323741463217-7756260",ExpressionUUID->"8876b96a-cd87-43e4-a7a8-\
+c649cb913e20"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -15671,7 +15671,7 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"RemoveSingular", "[", "dt2zmVarWeak", "]"}]], "Input",
  CellChangeTimes->{3.741285760531938*^9},
- CellLabel->"In[33]:=",ExpressionUUID->"b626ae5c-87dd-41a9-834d-eee2553459b8"],
+ CellLabel->"In[33]:=",ExpressionUUID->"f8ecc061-08d4-49c8-92de-ad8d007993b8"],
 
 Cell[BoxData[
  RowBox[{
@@ -15733,7 +15733,7 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
      MultilineFunction->None], "[", 
     RowBox[{"t", ",", "r"}], "]"}]}]}]], "Output",
  CellLabel->
-  "Out[33]=",ExpressionUUID->"8daa7c2e-988e-48ee-9ee8-6b29855318f3"]
+  "Out[33]=",ExpressionUUID->"0dc608ae-858a-4cb0-afb8-21773237a527"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -15741,23 +15741,23 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 Cell[CellGroupData[{
 
 Cell["Exploring jumps further", \
-"Subsection",ExpressionUUID->"ab886631-d850-408a-b4a3-5b74017e01cb"],
+"Subsection",ExpressionUUID->"8262e2db-65fd-440e-bb7f-deaf360872ef"],
 
 Cell["\<\
 Sometimes it is move from a weak form of an expression to the jump in the key \
 variable.\
-\>", "Item",ExpressionUUID->"55c9c878-0f6a-49cc-88ad-315e99d92e33"],
+\>", "Item",ExpressionUUID->"2767dfa9-6a89-4562-b829-30ac67eeb851"],
 
 Cell[CellGroupData[{
 
 Cell["This is done through HeavisideCoefficientsToJumps", \
-"Item",ExpressionUUID->"0faa343d-6c86-4716-a24e-d8037f395b76"],
+"Item",ExpressionUUID->"6319050c-c6d6-4717-98d7-2805f2424613"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"?", "HeavisideCoefficientsToJumps"}]], "Input",
- CellLabel->"In[34]:=",ExpressionUUID->"20d81b64-8390-4cfe-b4b4-05948a7d7720"],
+ CellLabel->"In[34]:=",ExpressionUUID->"20a8ce2e-d617-4939-a222-0ad5d03b56d8"],
 
 Cell[BoxData[
  RowBox[{"\<\"HeavisideCoefficientsToJumps[expr] removes singular terms in \
@@ -15771,8 +15771,8 @@ the location of the particle.\"\>", "\[NonBreakingSpace]",
     "paclet:BlackHoleAnalysis/ref/HeavisideCoefficientsToJumps"]}]], "Print",
   "PrintUsage",
  CellTags->
-  "Info343741357208-9892469",ExpressionUUID->"d0378612-bef6-457a-b23d-\
-373b610c3c3c"]
+  "Info343741463217-7756260",ExpressionUUID->"e5eeacea-4a57-45ed-8c78-\
+ac7bb805783d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -15780,7 +15780,7 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"HeavisideCoefficientsToJumps", "[", "zmVarWeak", "]"}]], "Input",
  CellChangeTimes->{{3.741285829764113*^9, 3.741285860629231*^9}},
- CellLabel->"In[35]:=",ExpressionUUID->"14ba7ca3-38c6-49d4-9d33-3caec2961820"],
+ CellLabel->"In[35]:=",ExpressionUUID->"50439196-9ea3-4cad-ae4d-a08c310f5138"],
 
 Cell[BoxData[
  RowBox[{"\<\"\[LeftDoubleBracket]\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\\!\\\\\\\
@@ -18869,7 +18869,7 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\"}]\\)\[RightDoubleBracket]\"\>", "[", 
   "t", "]"}]], "Output",
  CellLabel->
-  "Out[35]=",ExpressionUUID->"832689e6-3dd1-4f25-92b0-6d53e0d15b81"]
+  "Out[35]=",ExpressionUUID->"504adbbb-b3a2-4585-b2f0-7a3a89bbc25e"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -18878,21 +18878,21 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 Cell[CellGroupData[{
 
 Cell["Built in function support", \
-"Section",ExpressionUUID->"d98083b9-f5a3-4cf3-8d0b-21897a005ad7"],
+"Section",ExpressionUUID->"3a3aa4f2-41a0-42d8-8694-2f97608bbe0f"],
 
 Cell[CellGroupData[{
 
 Cell["\<\
 Many functions have weak forms directly built-in with the Option Weak \[Rule] \
 True.\
-\>", "Item",ExpressionUUID->"3b18f6bc-9138-4fd1-a65b-16ff9e6e1276"],
+\>", "Item",ExpressionUUID->"0173bafe-c2e9-463e-8bc8-16bdf88bd50a"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"MasterFunction", "[", 
   RowBox[{"Weak", "\[Rule]", "True"}], "]"}]], "Input",
- CellLabel->"In[36]:=",ExpressionUUID->"4782eb5b-8a9f-4871-9bbb-2246dc496e92"],
+ CellLabel->"In[36]:=",ExpressionUUID->"ef9356d9-9e99-4cd5-a495-a38b532c067f"],
 
 Cell[BoxData[
  RowBox[{
@@ -18940,7 +18940,7 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
     RowBox[{"t", ",", "r"}], "]"}]}]}]], "Output",
  CellLabel->
-  "Out[36]=",ExpressionUUID->"6b1e29a5-884c-4cf0-bf7c-411a69e962e1"]
+  "Out[36]=",ExpressionUUID->"7302ac4c-13f7-4feb-a864-52f4508b7a78"]
 }, Open  ]]
 }, Open  ]],
 
@@ -18951,16 +18951,16 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    SubscriptBox["h", "tt"], TraditionalForm]],ExpressionUUID->
-  "8f97bcbe-5d9d-481e-af12-31d79cbe7e2f"],
+  "4c1c607e-fa2d-433b-a2eb-c3709e97e6b1"],
  " is singular in RWZ gauge."
-}], "Item",ExpressionUUID->"ff32fbbc-3f76-4c00-a550-75dc7d9e9c69"],
+}], "Item",ExpressionUUID->"e024d718-2a35-497f-9d64-df4649d0cc57"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"HttAmplitude", "[", 
   RowBox[{"Weak", "\[Rule]", "True"}], "]"}]], "Input",
- CellLabel->"In[37]:=",ExpressionUUID->"aaede257-d21b-4dcf-8e64-9dab87c36364"],
+ CellLabel->"In[37]:=",ExpressionUUID->"7e10d082-5557-4f96-bdb0-4985ee547665"],
 
 Cell[BoxData[
  RowBox[{
@@ -19015,14 +19015,14 @@ Cell[BoxData[
 Rule[SyntaxForm, SuperscriptBox]]\\\\\\\\)\\\\\\\"\\\", \\\"]\\\"}]\\)\"\>", 
     "[", "t", "]"}]}]}]], "Output",
  CellLabel->
-  "Out[37]=",ExpressionUUID->"9000fb62-f33a-4712-9a61-f2a2d62b616a"]
+  "Out[37]=",ExpressionUUID->"0f2cf50c-d6ba-470c-9898-2ab6586d2ad1"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["The same support is built into equations.", \
-"Item",ExpressionUUID->"be4ab89f-b383-4eba-a3fe-be896ed0e133"],
+"Item",ExpressionUUID->"44e25b01-d528-45ce-8797-cd0f1641058c"],
 
 Cell[CellGroupData[{
 
@@ -19032,25 +19032,33 @@ Cell[BoxData[
    RowBox[{"Homogeneous", "\[Rule]", "True"}], ",", 
    RowBox[{"Parity", "\[Rule]", "\"\<Odd\>\""}], ",", 
    RowBox[{"Weak", "\[Rule]", "True"}]}], "]"}]], "Input",
- CellLabel->"In[38]:=",ExpressionUUID->"f2228947-3712-47bd-95e7-643ffe59cf82"],
+ CellLabel->"In[38]:=",ExpressionUUID->"5bffd592-93a4-4047-a963-33caf3e18085"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"-", 
-   FractionBox[
+   RowBox[{
+    FractionBox["1", 
+     SuperscriptBox["r", "2"]], 
     RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"2", " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", 
+          RowBox[{
+           FractionBox["1", "2"], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", "l"}], ")"}], " ", 
+           RowBox[{"(", 
+            RowBox[{"2", "+", "l"}], ")"}]}]}], ")"}]}], "-", 
+       FractionBox[
+        RowBox[{"6", " ", "M"}], "r"]}], ")"}], " ", 
      RowBox[{"(", 
       RowBox[{"1", "-", 
        FractionBox[
         RowBox[{"2", " ", "M"}], "r"]}], ")"}], " ", 
-     RowBox[{"(", 
-      RowBox[{
-       RowBox[{"-", 
-        FractionBox[
-         RowBox[{"6", " ", "M"}], "r"]}], "+", 
-       RowBox[{"2", " ", 
-        RowBox[{"(", 
-         RowBox[{"1", "+", "\[Lambda]"}], ")"}]}]}], ")"}], " ", 
      RowBox[{"(", 
       RowBox[{
        RowBox[{
@@ -19099,8 +19107,7 @@ Rule[SyntaxForm, \
 SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\"\\\\\\\\\\\\\\\"}]\\\\\\\\)\\\\\\\"\\\", \\\"\\\\\\\"+\\\\\\\"\\\"], \
 \\\"Superscript\\\", Rule[SyntaxForm, SuperscriptBox]]\\)\"\>", "[", 
-         RowBox[{"t", ",", "r"}], "]"}]}]}], ")"}]}], 
-    SuperscriptBox["r", "2"]]}], "+", 
+         RowBox[{"t", ",", "r"}], "]"}]}]}], ")"}]}]}]}], "+", 
   RowBox[{
    RowBox[{"\<\"\\!\\(\\*TemplateBox[List[\\\"\\\\\\\"\\\\\\\\!\\\\\\\\(\\\\\\\
 \\*RowBox[{\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\
@@ -19661,7 +19668,7 @@ SuperscriptBox]]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
      MultilineFunction->None], "[", 
     RowBox[{"t", ",", "r"}], "]"}]}]}]], "Output",
  CellLabel->
-  "Out[38]=",ExpressionUUID->"3c5aeb31-17a9-4e46-9adf-7cf94a04430f"]
+  "Out[38]=",ExpressionUUID->"91c23123-ff16-4e8d-94bf-3a09c6e6236a"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -19705,36 +19712,36 @@ Cell["", "RelatedTutorialsSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& )]]], None}, {
    None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"ccfa9ea5-3f80-47c1-b142-6bb7c9d52371"],
+  0,ExpressionUUID->"4347ef89-a84e-4583-b166-f8d678f35454"],
 
 Cell[TextData[ButtonBox["Time domain amplitudes",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Time domain amplitudes"]], \
-"RelatedTutorials",ExpressionUUID->"be7fac58-7173-45d4-876c-9987ea6457ac"],
+"RelatedTutorials",ExpressionUUID->"56a0d222-f0bc-4ae0-be23-d303d57894ea"],
 
 Cell[TextData[ButtonBox["Discontinuities",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Discontinuities"]], \
-"RelatedTutorials",ExpressionUUID->"4e0f28d8-d948-41f8-a12a-52179e846c5c"],
+"RelatedTutorials",ExpressionUUID->"dd2b501c-cbe8-4ddb-8aaa-745306fd0545"],
 
 Cell[TextData[ButtonBox["Field equations on Schwarzschild",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Field equations on Schwarzschild"]], \
-"RelatedTutorials",ExpressionUUID->"367ca9f4-afc9-4d85-bc84-2f16ebe6e63e"],
+"RelatedTutorials",ExpressionUUID->"0cbdaffb-9def-4e3e-ae76-c9e41ab7fbc1"],
 
 Cell[TextData[ButtonBox["Examples",
  BaseStyle->"Link",
  ButtonData->
   "paclet:BlackHoleAnalysis/tutorial/Examples"]], \
-"RelatedTutorials",ExpressionUUID->"3840356b-87f4-4210-944e-94c76733d28d"]
+"RelatedTutorials",ExpressionUUID->"fc3ac826-f62f-437a-bed0-342f2ab2203b"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[" ", \
-"FooterCell",ExpressionUUID->"58f01fbe-f385-41c4-a97a-97fe222cad01"]
+"FooterCell",ExpressionUUID->"227c9c04-507b-4ac7-9b7f-758ad0764c52"]
 },
 Saveable->False,
 ScreenStyleEnvironment->"Working",

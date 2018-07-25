@@ -1,7 +1,7 @@
 Notebook[{
 Cell[" ", "SymbolColorBar",
  CellMargins->{{Inherited, Inherited}, {-5, 
-   0}},ExpressionUUID->"927e555f-5b11-4035-8a5b-e9adf0987ec3"],
+   0}},ExpressionUUID->"39b16cd1-239c-44c1-8fcf-71e76be549a9"],
 
 Cell[TextData[{
  ButtonBox["BlackHoleAnalysis",
@@ -15,12 +15,12 @@ Cell[TextData[{
  ButtonBox["SourceConservation",
   BaseStyle->{"Link", "LinkTrail"},
   ButtonData->"paclet:BlackHoleAnalysis/ref/SourceConservation"]
-}], "LinkTrail",ExpressionUUID->"32169c6b-82ae-4f76-aba1-b401713018c4"],
+}], "LinkTrail",ExpressionUUID->"b7552b71-4637-4ed6-aac3-0717cd20da19"],
 
 Cell[CellGroupData[{
 
 Cell["SourceConservation", \
-"ObjectName",ExpressionUUID->"744bb6e9-e578-4b22-b9ac-832ec340d841"],
+"ObjectName",ExpressionUUID->"7d39791e-56c7-44d8-aae2-59fc80bfd36b"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -30,12 +30,12 @@ Cell[BoxData[GridBox[{
         BaseStyle->"Link",
         ButtonData->"paclet:BlackHoleAnalysis/ref/SourceConservation"], "[", 
        "]"}]], "InlineFormula",ExpressionUUID->
-      "3d47d5f4-da87-451d-ae01-90ed97eb4819"],
+      "f246912a-45d4-4a1c-a029-ad359652c3b0"],
      "\[LineSeparator]returns the first-order source conservation expressions \
 decomposed in spherical harmonics for a particle orbiting a Schwarzschild \
 black hole."
-    }],ExpressionUUID->"061cb6c0-e135-4e03-b77a-7fff25c342d1"]}
-  }]], "Usage",ExpressionUUID->"da4d54fc-d048-481e-9b94-a6c3dd67c854"]
+    }],ExpressionUUID->"c3b9f4cf-e3ed-4d30-93a1-56e5d55923f7"]}
+  }]], "Usage",ExpressionUUID->"1d531b7c-14d2-4980-a295-5894bb5f3696"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -81,27 +81,27 @@ Cell["", "NotesSection",
            FrontEnd`SelectedNotebook[], After, CellContents]}]& ), Evaluator -> 
        None, Method -> "Preemptive"]]], None}, {None, None}},
  CellFrameLabelMargins->
-  0,ExpressionUUID->"7b669bf6-897b-4fa3-9748-c5274a5d25dd"],
+  0,ExpressionUUID->"30861d29-4d9f-43dc-90fe-cd58e919f006"],
 
 Cell["The following options can be given: ", \
-"Notes",ExpressionUUID->"e37c4ff0-37a1-4faa-bc31-af1dc224fdfe"],
+"Notes",ExpressionUUID->"fedffdb8-0723-4a7a-9d65-3113b85afb62"],
 
 Cell[BoxData[GridBox[{
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "5d1abc33-fa71-48f7-9042-c7ad1b918ad5"], "Indices", "Down", Cell["\<\
+     "8e6cdf43-773f-4d4f-b2cb-acbc2c1390cf"], "Indices", "Down", Cell["\<\
 Specifies whether the source terms in the Bianchi (conservation) identites \
 should have indices \"Up\" or \"Down\"\
-\>", "TableText",ExpressionUUID->"03673869-2e21-45a0-8f15-d0f8ceb10695"]},
+\>", "TableText",ExpressionUUID->"b68a715b-f0c4-436f-a082-0ea84f79412f"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "91a59d67-92ff-441f-9e03-a129752ee5cb"], "Parity", "Both", Cell["\<\
+     "5cf77791-0874-4f7d-afb8-97d6c10d9b07"], "Parity", "Both", Cell["\<\
 Specifies which parities to include, (\"Even\", \"Odd\", or \"Both\")\
-\>", "TableText",ExpressionUUID->"e302939a-db83-4971-9664-acbd97dc530c"]},
+\>", "TableText",ExpressionUUID->"aee7651f-1a63-4038-ade7-1032c02bb1f0"]},
    {Cell["      ", "TableRowIcon",ExpressionUUID->
-     "08f6de35-77bd-410a-b1ad-408f02a99986"], "SourceExpansion", "None", 
+     "d0d25f51-be26-4668-9b53-ccf8977db66a"], "SourceExpansion", "None", 
     Cell["\<\
 States to what extent source terms should be expanded, (\"Full\", \
 \"Partial\", or \"None\")\
-\>", "TableText",ExpressionUUID->"dc8161ed-64c5-444d-b504-da8788b4baaf"]}
+\>", "TableText",ExpressionUUID->"0032b245-9b8b-4929-9431-2fa592866adc"]}
   },
   GridBoxAlignment->{
    "Columns" -> {Left, Left, {Left}}, "ColumnsIndexed" -> {}, 
@@ -113,14 +113,14 @@ States to what extent source terms should be expanded, (\"Full\", \
  GridBoxDividers->{
   "Rows" -> {{
      True, True, True, 
-      True}}}},ExpressionUUID->"607a888b-6d90-4e29-9734-e0fc7f9ac762"]
+      True}}}},ExpressionUUID->"0cc4583d-3a34-4373-aa55-5ea385bf0f6c"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[" ", "FooterCell",ExpressionUUID->"2e4e6e63-da91-43f4-8f04-ba87c7b7e069"],
+Cell[" ", "FooterCell",ExpressionUUID->"de39653f-daf0-49dc-9fe6-8f51ef5856ff"],
 
-Cell[BoxData[""],ExpressionUUID->"38cee8d5-a2f9-488c-bcca-3ffd7233b903"]
+Cell[BoxData[""],ExpressionUUID->"bb268693-8e4a-46dc-a0d9-24891e51971f"]
 }, Open  ]]
 },
 Saveable->False,
