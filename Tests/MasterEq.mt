@@ -7,7 +7,7 @@ Test[
  		t = TSymbol[];
  		r = RSymbol[];
  		M = BlackHoleMassSymbol[];
- 		la = LambdaSymbol[];
+ 		la = LambdaOfL[];
  		Psisym = MasterFunction[Parity -> "Odd", ReturnSymbol -> True];
  		hrsym = HrAmplitude[ReturnSymbol -> True, Gauge -> "RWZ"];
  		oddFE = FieldEquations[Parity -> "Odd", SourceExpansion -> "Full", Gauge -> "RWZ"];
@@ -35,7 +35,7 @@ Test[
  		t = TSymbol[];
  		r = RSymbol[];
  		M = BlackHoleMassSymbol[];
- 		la = LambdaSymbol[];
+ 		la = LambdaOfL[];
  		Psisym = MasterFunction[Parity -> "Even", ReturnSymbol -> True];
  		hrrsym = HrrAmplitude[ReturnSymbol -> True, Gauge -> "RWZ"];
  		evenFE =  FieldEquations[Parity -> "Even", SourceExpansion -> "Full", Gauge -> "RWZ"];
@@ -71,7 +71,7 @@ Test[
  		r = RSymbol[];
  		rp = RpSymbol[];
  		M = BlackHoleMassSymbol[];
- 		la = LambdaSymbol[];
+ 		la = LambdaOfL[];
  		dd = DiracDeltaSymbol[];
  		evenFEY = FieldEquations[Parity -> "Even", Gauge -> "RWZ", Homogeneous -> False, SourceExpansion -> "Full"];
  
@@ -166,7 +166,7 @@ Test[
  		t = TSymbol[];
  		r = RSymbol[];
  		M = BlackHoleMassSymbol[];
- 		la = LambdaSymbol[];
+ 		la = LambdaOfL[];
  		Psisym = MasterFunction[Variable -> "CPM1", ReturnSymbol -> True];
  		hrsym = HrAmplitude[ReturnSymbol -> True, Gauge -> "RWZ"];
  		oddFE = FieldEquations[Parity -> "Odd", SourceExpansion -> "Full", Gauge -> "RWZ"];
