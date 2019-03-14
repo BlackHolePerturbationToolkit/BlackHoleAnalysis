@@ -1,7 +1,7 @@
 (* Mathematica Test File *)
 
 
-Test[
+VerificationTest[
 	Module[{oddFE, oddFEcomb, Psisym, hrsym, psiFromMP, dthr, oddFEcomb1, t, r, M,la,f},
 		f = SchwarzschildF;
  		t = TSymbol[];
@@ -23,12 +23,12 @@ Test[
  
  	TestID->"MasterEqCPMDerive",
  	
- 	EquivalenceFunction -> ((Simplify[#1-#2] == 0) &)
+ 	SameTest -> ((Simplify[#1-#2] == 0) &)
 	
 ]
 
 
-Test[
+VerificationTest[
 	
 	Module[{evenFE, evenFEcomb, Psisym, hrrsym, psiFromMP, evenFEcomb1, t,r, M, la, sol, hrrSol,f},
 		f = SchwarzschildF;
@@ -56,10 +56,10 @@ Test[
  
  	TestID->"MasterEqZMDerive",
  	
-	EquivalenceFunction -> ((Simplify[#1-#2] == 0) &)
+	SameTest -> ((Simplify[#1-#2] == 0) &)
 ]
 
-Test[
+VerificationTest[
 	
 	Module[{zerVar1, EE, rp, mu, dd, evenFEY, KSym, YshBar, t, r, M, la},
  
@@ -86,10 +86,10 @@ Test[
  
  	TestID->"ZerilliFromZM",
  	
-	EquivalenceFunction -> ((Simplify[#1-#2] == 0) &)
+	SameTest -> ((Simplify[#1-#2] == 0) &)
 ]
 
-Test[
+VerificationTest[
 	Module[{hrrSym, htrSym, httSym, rp, evenFEY, KSym, t, r,dd},
  
  		hrrSym = HrrAmplitude[Gauge -> "RWZ", ReturnSymbol -> True];
@@ -121,11 +121,11 @@ Test[
  
  	TestID->"ZerilliFromMPsCheck",
  	
-	EquivalenceFunction -> ((Simplify[#1-#2] == 0) &)
+	SameTest -> ((Simplify[#1-#2] == 0) &)
 ]
 
 
-Test[
+VerificationTest[
 	Module[{hrrSym, httSym, rp, evenFEY, KSym, t, r, dd},
 		hrrSym = HrrAmplitude[Gauge -> "RWZ", ReturnSymbol -> True];
 		httSym = HttAmplitude[Gauge -> "RWZ", ReturnSymbol -> True];
@@ -157,10 +157,10 @@ Test[
  
  	TestID->"ZDotFromMPsCheck",
  	
-	EquivalenceFunction -> ((Simplify[#1-#2] == 0) &)
+	SameTest -> ((Simplify[#1-#2] == 0) &)
 ]
 
-Test[
+VerificationTest[
 	Module[{oddFE, RWComb, Psisym, hrsym, psiFromMP, RWComb1, t, r, M, la, sol, hrSol,f},
  		f = SchwarzschildF;
  		t = TSymbol[];
@@ -182,10 +182,10 @@ Test[
  
  	TestID->"MasterEqRWDerive",
  	
- 	EquivalenceFunction -> ((Simplify[#1-#2] == 0) &)
+ 	SameTest -> ((Simplify[#1-#2] == 0) &)
 ]
 
-Test[
+VerificationTest[
 	Module[{eqs, eqsx},
  	eqs = FieldEquations[Parity -> "Both", Gauge -> "RWZ",SourceExpansion->"None"];
  	eqsx = RToRStar[eqs];
@@ -198,7 +198,7 @@ Test[
 	
 ]
 
-Test[
+VerificationTest[
 	Module[{eqs, eqsx},
  	eqs = FieldEquations[Parity -> "Both", Gauge -> "Lorenz",SourceExpansion->"None"];
  	eqsx = RToRStar[eqs];
@@ -211,7 +211,7 @@ Test[
 	
 ]
 
-Test[
+VerificationTest[
 	Module[{eqs, eqsx},
  	eqs = FieldEquations[Parity -> "Both", Gauge -> "Lorenz",SourceExpansion->"Full"];
  	eqsx = RToRStar[eqs];
@@ -224,7 +224,7 @@ Test[
 	
 ]
 
-Test[
+VerificationTest[
 	masterEqEven = ToFrequencyDomain[MasterEquation[Homogeneous -> True]];
 	psiE = EvenMasterFunctionAsOdd[];
 	psiESym = MasterFunctionSymbol[];
