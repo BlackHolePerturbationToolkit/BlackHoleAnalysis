@@ -1,7 +1,7 @@
 (* Mathematica Test File *)
 
 
-Test[
+VerificationTest[
 	
 	 Simplify /@ (KerrToSchwarzschild[SasakiNakamuraEquation[]] /. SasakiNakamuraFunctionSymbol[] -> MasterFunctionSymbol[Parity -> "Odd"])
  	,
@@ -10,11 +10,11 @@ Test[
  
  	TestID->"SasakiNakamuraToRW",
  	
- 	EquivalenceFunction -> ((Simplify[#1-#2] == 0) &)
+ 	SameTest -> ((Simplify[#1-#2] == 0) &)
 	
 ]
 
-Test[
+VerificationTest[
 	psiESym = MasterFunctionSymbol[Parity -> "Even"];
 	psiETeuk = MasterFunctionAsTeukolskyFunction[Parity -> "Even"];
 	masterEqEven =  ToFrequencyDomain[MasterEquation[Parity -> "Even", Homogeneous -> True]];
@@ -26,7 +26,7 @@ Test[
  	TestID->"EvenMasterAsTeukolsky"
 ]
 
-Test[
+VerificationTest[
 	psiOSym = MasterFunctionSymbol[Parity -> "Odd"];
 	psiOTeuk = MasterFunctionAsTeukolskyFunction[Parity -> "Odd"];
 	masterEqOdd =  ToFrequencyDomain[ MasterEquation[Parity -> "Odd", Homogeneous -> True]];
@@ -38,7 +38,7 @@ Test[
  	TestID->"OddMasterAsTeukolsky"
 ]
 
-Test[
+VerificationTest[
 	xSNSym = SasakiNakamuraFunctionSymbol[];
 	rTeukSym = RadialTeukolskyFunctionSymbol[];
 	rTeukSN = TeukolskyFunctionAsSasakiNakamuraFunction[];
@@ -49,7 +49,7 @@ Test[
 	TestID->"TeukolskyToSasakiNakamura"
 ]
 
-Test[
+VerificationTest[
 	rTeukSym = RadialTeukolskyFunctionSymbol[];
 	xSNSym = SasakiNakamuraFunctionSymbol[];
 	xSNTeuk = SasakiNakamuraFunctionAsTeukolskyFunction[];

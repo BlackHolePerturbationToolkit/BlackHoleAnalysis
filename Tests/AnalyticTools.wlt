@@ -1,12 +1,12 @@
 (* Mathematica Test File *)
 
-Test[
+VerificationTest[
 	Simplify@RemoveRpDots[FourVelocity[].SchwarzschildMetric[Indices -> "Down", AtParticle -> True].FourVelocity[]],
 	-1,
 	TestID->"FourVelocitySquared"	
 ]
 
-Test[
+VerificationTest[
 	Module[ {t,thp,fourV,met},
 		
 		t = TSymbol[];
@@ -19,7 +19,7 @@ Test[
 	TestID->"FourVelocitySquaredKerrEq"	
 ]
 
-Test[
+VerificationTest[
     Module[ {t,r,rp,th},
      	r = RSymbol[];
      	t = TSymbol[];
@@ -41,10 +41,10 @@ Test[
     ,
     TestID->"Heaviside1",
   
-  	EquivalenceFunction -> ((Simplify[#1-#2] == 0) &)
+  	SameTest -> ((Simplify[#1-#2] == 0) &)
 ]
 
-Test[
+VerificationTest[
     Module[ {t,r,rp,th},
      	r = RSymbol[];
      	t = TSymbol[];
@@ -66,7 +66,7 @@ Test[
     ,
     TestID->"Heaviside2",
   
-  	EquivalenceFunction -> ((Simplify[#1-#2] == 0) &)
+  	SameTest -> ((Simplify[#1-#2] == 0) &)
 ]
 
 Module[ {t,r,rp,DD,func},
@@ -75,14 +75,14 @@ Module[ {t,r,rp,DD,func},
      	rp = RpSymbol[];
      	DD = DiracDeltaSymbol[];
      	
-	Test[
+	VerificationTest[
     	    EvaluateDeltas[func[r] DD'[r-rp[t]]],
      	
 	        func[rp[t]] DD'[r-rp[t]]-func'[rp[t]] DD[r-rp[t]],
 	        
     		TestID->"Delta1",
   
-		  	EquivalenceFunction -> ((Simplify[#1-#2] == 0) &)
+		  	SameTest -> ((Simplify[#1-#2] == 0) &)
 		]
 ]
 
@@ -93,14 +93,14 @@ Module[ {t,r,rp,DD,func},
      	rp = RpSymbol[];
      	DD = DiracDeltaSymbol[];
      	
-	Test[
+	VerificationTest[
     	    EvaluateDeltas[func[r] DD''[r-rp[t]]],
      	
 	        func[rp[t]] DD''[r-rp[t]] - 2func'[rp[t]] DD'[r-rp[t]] + func''[rp[t]] DD[r-rp[t]],
 	        
     		TestID->"Delta2",
   
-		  	EquivalenceFunction -> ((Simplify[#1-#2] == 0) &)
+		  	SameTest -> ((Simplify[#1-#2] == 0) &)
 		]
 ]
 
@@ -110,13 +110,13 @@ Module[ {t,r,rp,DD,func},
      	rp = RpSymbol[];
      	DD = DiracDeltaSymbol[];
      	
-	Test[
+	VerificationTest[
     	    EvaluateDeltas[func[r] DD'''[r-rp[t]]],
      	
 	        func[rp[t]] DD'''[r-rp[t]] - 3func'[rp[t]] DD''[r-rp[t]] + 3func''[rp[t]] DD'[r-rp[t]] - func'''[rp[t]] DD[r-rp[t]],
 	        
     		TestID->"Delta3",
   
-		  	EquivalenceFunction -> ((Simplify[#1-#2] == 0) &)
+		  	SameTest -> ((Simplify[#1-#2] == 0) &)
 		]
 ]
